@@ -3,8 +3,57 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Elsewhere Living — Find Your Elsewhere</title>
-<meta name="description" content="A boutique luxury real-estate and lifestyle agency placing global citizens into extraordinary homes across Koh Samui, Phuket, Bangkok, Bali and the UAE." />
+<title>Luxury Villas &amp; Property for Sale in Koh Samui | Elsewhere Living</title>
+<meta name="description" content="Buy luxury villas, condominiums and land in Koh Samui, Phuket, Bangkok, Bali and Dubai. Boutique real estate, bespoke custom homes and luxury vacation rentals — find your elsewhere." />
+<meta name="keywords" content="luxury villas Koh Samui, property for sale Koh Samui, Phuket villas, beachfront land Thailand, luxury real estate Thailand, custom homes Koh Samui, luxury vacation rentals" />
+<link rel="canonical" href="https://elsewhere.living/" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<meta name="theme-color" content="#152644" />
+
+<!-- Favicons -->
+<link rel="icon" type="image/png" sizes="32x32" href="assets/imagery/favicon-32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="assets/imagery/favicon-16.png" />
+<link rel="icon" type="image/png" sizes="512x512" href="assets/imagery/favicon-512.png" />
+<link rel="apple-touch-icon" href="assets/imagery/apple-touch-icon.png" />
+
+<!-- Open Graph (Facebook, LinkedIn, WhatsApp, iMessage) -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Elsewhere Living" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:url" content="https://elsewhere.living/" />
+<meta property="og:title" content="Elsewhere Living — Luxury Villas &amp; Property in Koh Samui &amp; Beyond" />
+<meta property="og:description" content="Luxury villas, condos and land for sale across Koh Samui, Phuket, Bangkok, Bali and Dubai — plus bespoke custom homes and luxury vacation rentals." />
+<meta property="og:image" content="https://elsewhere.living/assets/imagery/og-image.jpg" />
+<meta property="og:image:secure_url" content="https://elsewhere.living/assets/imagery/og-image.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Elsewhere Living — luxury homes across Koh Samui, Phuket, Bangkok, Bali and Dubai" />
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Elsewhere Living — Luxury Villas &amp; Property in Koh Samui &amp; Beyond" />
+<meta name="twitter:description" content="Luxury villas, condos and land for sale across Koh Samui, Phuket, Bangkok, Bali and Dubai — plus custom homes and vacation rentals." />
+<meta name="twitter:image" content="https://elsewhere.living/assets/imagery/og-image.jpg" />
+<meta name="twitter:image:alt" content="Elsewhere Living — luxury homes across Koh Samui, Phuket, Bangkok, Bali and Dubai" />
+
+<!-- Structured data for rich search results -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  "name": "Elsewhere Living",
+  "url": "https://elsewhere.living/",
+  "image": "https://elsewhere.living/assets/imagery/og-image.jpg",
+  "logo": "https://elsewhere.living/assets/imagery/favicon-512.png",
+  "description": "Boutique luxury real estate placing global citizens into extraordinary villas, condominiums and land across Koh Samui, Phuket, Bangkok, Bali and Dubai — plus bespoke custom homes and luxury vacation rentals.",
+  "email": "contact@elsewhere.living",
+  "telephone": "+66929993852",
+  "areaServed": ["Koh Samui", "Phuket", "Bangkok", "Bali", "Dubai"],
+  "knowsAbout": ["Luxury villas", "Condominiums", "Beachfront land", "Custom homes", "Vacation rentals", "Property investment"],
+  "slogan": "Find Your Elsewhere"
+}
+</script>
 
 <!-- Design system tokens + styles -->
 <link rel="stylesheet" href="_ds/design-system-abef38a9-b4ec-454e-999b-5c22fa6c925a/tokens/fonts.css" />
@@ -148,6 +197,18 @@
 <div id="root"></div>
 <div id="paper-vignette"></div>
 <div id="paper-grain"></div>
+
+<!-- Netlify Forms registration: this hidden static form lets Netlify's deploy
+     crawler detect the "enquiry" form and its fields. The visible form is
+     rendered by React and POSTs to this same form name. -->
+<form name="enquiry" netlify netlify-honeypot="bot-field" hidden>
+  <input type="text" name="first_name" />
+  <input type="text" name="last_name" />
+  <input type="email" name="email" />
+  <input type="text" name="destination" />
+  <textarea name="message"></textarea>
+  <input type="text" name="intents" />
+</form>
 
 <!-- React (production builds — no in-browser Babel; JSX is precompiled to js/*.js) -->
 <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>

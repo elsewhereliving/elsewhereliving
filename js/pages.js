@@ -1053,9 +1053,43 @@ function IntentChecks({
 }
 function ContactScreen() {
   const [sent, setSent] = React.useState(false);
+  const [sending, setSending] = React.useState(false);
   const [intents, setIntents] = React.useState([]);
   const toggleIntent = id => setIntents(prev => prev.includes(id) ? prev.filter(x => x !== id) : [...prev, id]);
   const c = window.CONTACT;
+
+  // Netlify Forms submission. The form is registered via a hidden static
+  // <form name="enquiry"> in index.html so Netlify's deploy crawler detects it;
+  // here we POST the field values back to the site root, which Netlify captures
+  // and forwards to the notification email set in the Netlify dashboard.
+  const encode = data => Object.keys(data).map(k => encodeURIComponent(k) + "=" + encodeURIComponent(data[k])).join("&");
+  const handleSubmit = e => {
+    e.preventDefault();
+    if (sending) return;
+    const form = e.target;
+    const fd = new FormData(form);
+    const data = {
+      "form-name": "enquiry"
+    };
+    fd.forEach((v, k) => {
+      data[k] = v;
+    });
+    data.intents = intents.join(", ");
+    setSending(true);
+    fetch("/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      body: encode(data)
+    }).then(() => {
+      setSending(false);
+      setSent(true);
+    }).catch(() => {
+      setSending(false);
+      setSent(true);
+    });
+  };
   return /*#__PURE__*/React.createElement("main", null, /*#__PURE__*/React.createElement(PageHeader, {
     eyebrow: "Start your elsewhere journey",
     title: "Let's talk.",
@@ -1168,16 +1202,25 @@ function ContactScreen() {
       color: "var(--text-body)"
     }
   }, "Your message is on its way to our advisors. We'll be in touch personally, very soon.")) : /*#__PURE__*/React.createElement("form", {
-    onSubmit: e => {
-      e.preventDefault();
-      setSent(true);
-    },
+    name: "enquiry",
+    method: "POST",
+    "data-netlify": "true",
+    "netlify-honeypot": "bot-field",
+    onSubmit: handleSubmit,
     style: {
       display: "flex",
       flexDirection: "column",
       gap: 22
     }
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("input", {
+    type: "hidden",
+    name: "form-name",
+    value: "enquiry"
+  }), /*#__PURE__*/React.createElement("p", {
+    hidden: true
+  }, /*#__PURE__*/React.createElement("label", null, "Don't fill this out: ", /*#__PURE__*/React.createElement("input", {
+    name: "bot-field"
+  }))), /*#__PURE__*/React.createElement("div", {
     style: {
       color: "var(--slate)",
       marginBottom: 4
@@ -1194,22 +1237,27 @@ function ContactScreen() {
     }
   }, /*#__PURE__*/React.createElement(Field, {
     label: "First name",
+    name: "first_name",
     placeholder: "First",
     required: true
   }), /*#__PURE__*/React.createElement(Field, {
     label: "Last name",
+    name: "last_name",
     placeholder: "Last",
     required: true
   })), /*#__PURE__*/React.createElement(Field, {
     label: "Email",
+    name: "email",
     type: "email",
     placeholder: "you@email.com",
     required: true
   }), /*#__PURE__*/React.createElement(Field, {
     label: "Where are you dreaming of?",
+    name: "destination",
     placeholder: "Koh Samui, Bali, not sure yet\u2026"
   }), /*#__PURE__*/React.createElement(Field, {
     label: "Tell us a little more",
+    name: "message",
     as: "textarea",
     placeholder: "What does your elsewhere look like?"
   }), /*#__PURE__*/React.createElement(Button, {
@@ -1218,9 +1266,11 @@ function ContactScreen() {
     type: "submit",
     style: {
       width: "100%",
-      marginTop: 4
+      marginTop: 4,
+      opacity: sending ? 0.7 : 1,
+      pointerEvents: sending ? "none" : "auto"
     }
-  }, "Send enquiry"))))));
+  }, sending ? "Sending…" : "Send enquiry"))))));
 }
 
 /* ---------- Saved ---------- */
