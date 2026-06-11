@@ -1,0 +1,60 @@
+/* ===========================================================================
+   Elsewhere Living — Color tokens
+   A quiet, editorial palette: ink + paper, with a soft butter yellow,
+   deep midnight navy, and dusty sea-mist blue as the signature accents.
+   Sampled directly from the brand color sheet.
+   =========================================================================== */
+:root {
+  /* ---- Base palette (raw values) ---- */
+  --ink-black:    #000000;  /* pure brand black — logotype, full-bleed grounds */
+  --charcoal:     #1F1F1F;  /* soft black — surfaces, type on light */
+  --navy:         #152644;  /* midnight navy — deep brand ground, headings */
+  --mist:         #A2C1C4;  /* dusty sea-mist blue — calm accent ground */
+  --butter:       #F7F2A0;  /* soft butter yellow — the one warm signal color */
+  --paper:        #EFEFEF;  /* warm light gray — primary light ground */
+  --white:        #FFFFFF;  /* pure white — crisp paper, reversed type */
+
+  /* ---- Extended neutrals (derived, for borders / muting) ---- */
+  --paper-2:      #E4E4E2;  /* slightly deeper paper for layering */
+  --stone:        #C9C9C6;  /* mid neutral — rules, dividers on light */
+  --slate:        #6B6E72;  /* muted gray — secondary text on light */
+  --navy-80:      #2A3A56;  /* lifted navy — cards on navy ground */
+  --navy-60:      #5A6680;  /* muted navy — secondary text on navy */
+
+  /* ---- Semantic: light surfaces ---- */
+  --surface-page:     var(--paper);
+  --surface-card:     var(--white);
+  --surface-raised:   var(--white);
+  --surface-sunken:   var(--paper-2);
+  --surface-inverse:  var(--navy);
+
+  /* ---- Semantic: dark / image surfaces ---- */
+  --surface-ink:      var(--ink-black);   /* full-bleed photo grounds */
+  --surface-night:    var(--navy);
+  --surface-night-2:  var(--navy-80);
+
+  /* ---- Semantic: text ---- */
+  --text-strong:      var(--charcoal);    /* primary on light */
+  --text-body:        #2E2E2E;            /* body copy on light */
+  --text-muted:       var(--slate);       /* captions, meta on light */
+  --text-on-dark:     var(--white);       /* primary on dark/photo */
+  --text-on-dark-mut: rgba(255,255,255,0.66);
+  --text-accent:      var(--navy);        /* serif headings on light */
+
+  /* ---- Semantic: borders & rules ---- */
+  --border-hairline:  var(--stone);
+  --border-on-light:  #1F1F1F;            /* the signature thin black rule */
+  --border-on-dark:   rgba(255,255,255,0.55);
+  --border-subtle:    rgba(31,31,31,0.14);
+
+  /* ---- Semantic: brand accents ---- */
+  --accent-signal:    var(--butter);      /* highlight, the warm pop */
+  --accent-calm:      var(--mist);        /* serene secondary ground */
+  --accent-deep:      var(--navy);
+
+  /* ---- Overlays / scrims for type-over-photo ---- */
+  --scrim-dark:   rgba(15,16,18,0.42);    /* darken a photo for white type */
+  --scrim-deep:   rgba(10,12,16,0.62);
+  --scrim-grad:   linear-gradient(180deg, rgba(10,12,16,0.10) 0%, rgba(10,12,16,0.55) 100%); /* @kind color */
+  --scrim-veil:   rgba(239,239,239,0.10);
+}

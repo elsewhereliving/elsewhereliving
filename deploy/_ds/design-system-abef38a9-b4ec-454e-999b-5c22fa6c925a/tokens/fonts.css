@@ -1,0 +1,116 @@
+/* ===========================================================================
+   Elsewhere Living — @font-face declarations
+   Brand serif: Riccione (display) — the "elsewhere" wordmark face
+   Brand sans:  Resist Sans Text — labels, body, UI
+   Accent sans: Giuconda — secondary / numeric
+   =========================================================================== */
+
+/* ---- Riccione Serial (primary display serif) ---- */
+@font-face {
+  font-family: "Riccione Serial";
+  src: url("../assets/fonts/RiccioneSerial-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Riccione Serial";
+  src: url("../assets/fonts/RiccioneSerial-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Riccione Serial";
+  src: url("../assets/fonts/RiccioneSerial-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Riccione Serial";
+  src: url("../assets/fonts/RiccioneSerial-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ---- Riccione (display cut used for the wordmark / logotype) ---- */
+@font-face {
+  font-family: "Riccione";
+  src: url("../assets/fonts/Riccione-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Riccione";
+  src: url("../assets/fonts/Riccione-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---- The Silver Editorial (official wordmark / logotype face) ----
+   Client-supplied font, self-hosted. The italic cut sets "else"; the roman
+   cut sets "WHERE". First choice in --font-logo (see typography.css). */
+@font-face {
+  font-family: "The Silver Editorial";
+  src: url("../assets/fonts/TheSilverEditorial-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "The Silver Editorial";
+  src: url("../assets/fonts/TheSilverEditorial-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ---- Resist Sans Text (primary sans — UI, labels, body) ---- */
+@font-face {
+  font-family: "Resist Sans Text";
+  src: url("../assets/fonts/ResistSansText-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Resist Sans Text";
+  src: url("../assets/fonts/ResistSansText-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Resist Sans Text";
+  src: url("../assets/fonts/ResistSansText-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Resist Sans Text";
+  src: url("../assets/fonts/ResistSansText-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---- Giuconda (accent / secondary sans) ---- */
+@font-face {
+  font-family: "Giuconda";
+  src: url("../assets/fonts/Giuconda-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Giuconda";
+  src: url("../assets/fonts/Giuconda-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,2 @@
+# Single-page app — every path serves index.html (the app is hash/state routed)
+/*    /index.html   200
