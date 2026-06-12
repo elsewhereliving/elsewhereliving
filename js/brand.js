@@ -20,6 +20,32 @@ function Wordmark({
     className: "ew-where"
   }, "where"));
 }
+
+/* Brandmark — the elegant cursive "e" monogram (matches the favicon).
+   Set in the official logotype face (The Silver Editorial, italic) so it is
+   pixel-identical to the favicon glyph; inherits color via the `color` prop. */
+function Brandmark({
+  size = 38,
+  color = "currentColor",
+  style = {},
+  ...rest
+}) {
+  return /*#__PURE__*/React.createElement("span", _extends({
+    className: "ew-brandmark",
+    role: "img",
+    "aria-label": "Elsewhere Living",
+    style: {
+      fontFamily: "var(--font-logo)",
+      fontStyle: "italic",
+      fontWeight: 400,
+      fontSize: typeof size === "number" ? size + "px" : size,
+      lineHeight: 1,
+      display: "inline-block",
+      color,
+      ...style
+    }
+  }, rest), "e");
+}
 function Label({
   children,
   style = {},
