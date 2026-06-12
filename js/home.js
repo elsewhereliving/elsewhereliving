@@ -451,7 +451,16 @@ function FeaturedListings({
   saved,
   onToggleSave
 }) {
-  const items = window.LISTINGS.slice(0, 3);
+  // Curated home-page selection — pinned by id, in order. Falls back to the
+  // first listings if any id is missing so the section never renders short.
+  const FEATURED_IDS = ["cape-yamu-seafront-villa", "orla-sol-penthouse", "five-islands-hillside-villa-samui"];
+  const items = FEATURED_IDS.map(id => window.LISTINGS.find(x => x.id === id)).filter(Boolean);
+  if (items.length < 3) {
+    for (const l of window.LISTINGS) {
+      if (items.length >= 3) break;
+      if (!items.includes(l)) items.push(l);
+    }
+  }
   return /*#__PURE__*/React.createElement("section", {
     style: {
       background: "var(--paper)",

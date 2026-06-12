@@ -1075,6 +1075,16 @@ function ContactScreen() {
       data[k] = v;
     });
     data.intents = intents.join(", ");
+    // Custom email subject — client name + what they're looking to do.
+    // Netlify uses a field named "subject" as the notification email subject line.
+    const intentLabel = {
+      buy: "Buy",
+      rent: "Rent",
+      custom: "Build"
+    };
+    const who = [data.first_name, data.last_name].filter(Boolean).join(" ").trim() || "Website visitor";
+    const want = intents.map(i => intentLabel[i]).filter(Boolean).join(", ");
+    data.subject = "New enquiry — " + who + (want ? " · " + want : "");
     setSending(true);
     fetch("/", {
       method: "POST",
