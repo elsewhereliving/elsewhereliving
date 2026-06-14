@@ -377,7 +377,9 @@ function WhereWeRent({
     }
   }, rentMarkets.map(m => /*#__PURE__*/React.createElement("button", {
     key: m.name,
-    onClick: () => onNav("rentals"),
+    onClick: () => onNav("rentals", {
+      dest: m.name
+    }),
     className: "ew-rent-tile ew-grain",
     style: {
       position: "relative",

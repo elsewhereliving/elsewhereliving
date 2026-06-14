@@ -369,7 +369,73 @@ function Footer({
       color: "var(--white)",
       opacity: 0.82
     }
-  }, "WhatsApp ", window.CONTACT.whatsapp)))))), /*#__PURE__*/React.createElement("div", {
+  }, "WhatsApp ", window.CONTACT.whatsapp))), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      gap: 16,
+      marginTop: 24
+    }
+  }, [{
+    label: "Instagram",
+    href: "https://www.instagram.com/elsewhere.living/",
+    svg: /*#__PURE__*/React.createElement("svg", {
+      width: "20",
+      height: "20",
+      viewBox: "0 0 24 24",
+      fill: "none",
+      stroke: "currentColor",
+      strokeWidth: "1.7"
+    }, /*#__PURE__*/React.createElement("rect", {
+      x: "2.5",
+      y: "2.5",
+      width: "19",
+      height: "19",
+      rx: "5"
+    }), /*#__PURE__*/React.createElement("circle", {
+      cx: "12",
+      cy: "12",
+      r: "4.2"
+    }), /*#__PURE__*/React.createElement("circle", {
+      cx: "17.3",
+      cy: "6.7",
+      r: "1.15",
+      fill: "currentColor",
+      stroke: "none"
+    }))
+  }, {
+    label: "TikTok",
+    href: "https://www.tiktok.com/@sofia.elsewhere",
+    svg: /*#__PURE__*/React.createElement("svg", {
+      width: "20",
+      height: "20",
+      viewBox: "0 0 24 24",
+      fill: "currentColor"
+    }, /*#__PURE__*/React.createElement("path", {
+      d: "M16.5 3c.3 2.1 1.5 3.6 3.5 3.9V9c-1.3 0-2.5-.4-3.5-1.1v6.6c0 3.2-2.4 5.5-5.4 5.5C8.6 20 6.5 18 6.5 15.3c0-2.7 2.2-4.8 5.1-4.6v2.4c-.4-.1-.8-.2-1.2-.2-1.3 0-2.4 1-2.4 2.4 0 1.4 1 2.4 2.3 2.4 1.4 0 2.5-1.1 2.5-2.7V3h3.6z"
+    }))
+  }, {
+    label: "YouTube",
+    href: "https://www.youtube.com/@sofia.elsewhere",
+    svg: /*#__PURE__*/React.createElement("svg", {
+      width: "22",
+      height: "22",
+      viewBox: "0 0 24 24",
+      fill: "currentColor"
+    }, /*#__PURE__*/React.createElement("path", {
+      d: "M22 8.2c0-1.4-1.1-2.5-2.5-2.6C17.6 5.4 14.8 5.3 12 5.3s-5.6.1-7.5.3C3.1 5.7 2 6.8 2 8.2 1.9 9.4 1.9 10.7 1.9 12s0 2.6.1 3.8c0 1.4 1.1 2.5 2.5 2.6 1.9.2 4.7.3 7.5.3s5.6-.1 7.5-.3c1.4-.1 2.5-1.2 2.5-2.6.1-1.2.1-2.5.1-3.8s0-2.6-.1-3.8zM10 15V9l5.2 3L10 15z"
+    }))
+  }].map(s => /*#__PURE__*/React.createElement("a", {
+    key: s.label,
+    href: s.href,
+    target: "_blank",
+    rel: "noopener noreferrer",
+    "aria-label": s.label,
+    className: "ew-textlink",
+    style: {
+      color: "var(--white)",
+      display: "inline-flex"
+    }
+  }, s.svg)))))), /*#__PURE__*/React.createElement("div", {
     style: {
       marginTop: 64,
       paddingTop: 26,
@@ -405,15 +471,7 @@ function Footer({
       textTransform: "uppercase",
       color: "var(--text-on-dark-mut)"
     }
-  }, "Privacy Policy"), /*#__PURE__*/React.createElement("span", {
-    style: {
-      fontFamily: "var(--font-sans)",
-      fontSize: 11,
-      letterSpacing: "0.14em",
-      textTransform: "uppercase",
-      color: "var(--text-on-dark-mut)"
-    }
-  }, "Koh Samui \xB7 Phuket \xB7 Bangkok \xB7 Bali \xB7 Dubai")))));
+  }, "Privacy Policy")))));
 }
 Object.assign(window, {
   Nav,

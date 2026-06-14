@@ -2,728 +2,998 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://elsewhere.living/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/properties/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/custom-homes/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/about/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/contact/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://elsewhere.living/property/etro-residences-phuket-gardens-of-eden/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/bang-kao-1rai-beachfront-seawall-land/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/bang-kao-beach-chanote-plots/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/taling-ngam-9rai-dual-view-seaview-land/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/five-islands-seaview-hillside-land-4villa-estate/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/koh-taen-30-rai-west-facing-sunset-seafront-land/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/koh-taen-beachfront-15-rai-resort-land/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/chaweng-hillside-3020-seaview-land-5villa/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/chaweng-flat-rectangular-seaview-land-chanote/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/layan-verde-4bed-seaview-penthouse-a4-101/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/ayana-heights-seaview-residence/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/noble-form-thonglor-skyline-tower/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/layan-forest-eco-residences-resort-amenities/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/choeng-mon-grand-eight-bedroom-oceanview-estate/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/choeng-mon-headland-five-bedroom-infinity-villa/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/choeng-mon-rock-set-four-bedroom-infinity-villa/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/taling-ngam-resort-scale-seven-bed-sunset-estate/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/villa-beryl-thong-krut-seaview-pool-villa/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/chaweng-noi-hilltop-cinema-games-villa-sale/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/chaweng-hillside-seven-bedroom-gulf-estate/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/samui-cantilevered-hilltop-infinity-villa/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/thong-krut-elevated-seaview-pool-villa/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/laem-sor-beachfront-pool-villa/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/taling-ngam-tong-krut-beachfront-villa/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/taling-ngam-2rai-beachfront-land/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/taling-ngam-10rai-beachfront-land/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/maenam-dual-beachfront-villa-estate/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/bangrak-beachfront-villa/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/chaweng-hillside-seaview-land/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/kiara-reserve-residences-layan/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/layan-wellness-community-pool-villa/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/garrya-residences-bangtao-beachfront/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/the-standard-residences-bang-tao/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/bang-por-seaview-development-land/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/chaweng-hills-double-infinity-mansion/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/kamala-headland-waterfall-sunset-villa/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/bang-tao-garden-courtyard-residences/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/plai-laem-beachfront-cinema-swimup-villa/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/chaweng-noi-granite-boulder-infinity-villa/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/choeng-mon-balinese-three-pavilion-villa/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/chaweng-noi-curved-roof-hillside-villa/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/property/santikhiri-panoramic-seaview-hilltop-land/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://elsewhere.living/property/taling-ngam-ridge-saddle-development-land/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/bang-por-beachfront-pool-koi-villa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/plai-laem-beachfront-infinity-pool-villa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/lipa-noi-beachfront-infinity-pool-villa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/laem-sor-balinese-beachfront-pavilion-villa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/chaweng-noi-hillside-infinity-spa-estate/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/plai-laem-seaview-16m-pool-villa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/plai-laem-dual-pool-hilltop-estate/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/maenam-beachside-pool-villa-collection/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/chaweng-offplan-four-bed-pool-villa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/bophut-three-level-ten-suite-estate/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/bophut-panoramic-cinema-resort-pool-villa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/chaweng-beachfront-sunken-sala-villa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/five-islands-stone-pavilion-villa-samui/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/five-islands-hillside-villa-samui/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/headland-sunken-sala-villa-samui/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/orla-seaview-penthouse/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/alba-residences-palm/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/designer-med-umalas/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/iconic-luxe-pererenan/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/biombo-umalas-villa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/eclectic-haven-pererenan/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/vela-pool-penthouse/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/vela-viento-2br-study/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/vela-viento-4br-duplex/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/orla-sol-penthouse/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/orla-nova-penthouse/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/orla-luna-sky-palace/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/vela-viento-dubai/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/opus-penthouse-dubai/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/villa-boomerang-bophut/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/samujana-gulf-view-villa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/samui-summit-360-villa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/bophut-hills-hilltop-villa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/samui-panoramic-seaview-villa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/laem-singh-surin-villa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/scope-thonglor-triplex/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/mo-residences-bangkok/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/porsche-duplex-thonglor/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/one89-wireless-bangkok/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/noble-emmerse-phrom-phong/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/vista-del-mar-naithon/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/white-house-bophut/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/porsche-design-tower-bangkok/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/villa-mayavee-kamala/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/cape-yamu-seafront-villa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/cape-yamu-waterfront-villa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/banyan-tree-oceanus/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/layan-wellness-villa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/angsana-oceanview-laguna/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/lamai-beachfront-villa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/thong-krut-estate/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/nathon-beachfront-land-samui/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/kata-andaman-villa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/sky-series-panwa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/surin-seaview-villa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/property/malibu-plai-laem/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://elsewhere.living/rentals/r-samui-plailaem-horizon-pool-spa-villa/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/rentals/r-samui-plailaem-lshaped-pool-cinema-villa/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/rentals/r-samui-plailaem-25m-pool-estate-villa/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/rentals/r-samui-chaweng-noi-cinema-games-villa/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://elsewhere.living/rentals/r-lombok-elevated-infinity-yoga-villa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-phuket-scandi-oceanfront-infinity-kamala/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-twin-villa-granite-boulder-estate/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-seaview-tennis-boxing-retreat/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-rockclad-mediterranean-twin-pool/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-chaweng-tip-laptool-clubhouse/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-four-villa-sixteen-pool-compound/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-cliff-infinity-nathon/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-overwater-sala-bophut/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-ayutthaya-teakwood-estate/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-headland-sunken-sala-bophut/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-tenvilla-hilltop-estate/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-thai-japanese-tier-pool/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-sunken-library-beachfront/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-a49-glasshouse/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-clarke-tpool/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-wide-frontage-pavilion/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-futuristic-white/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-five-islands-pavilion/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-three-pavilion/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-cliff-cascade/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-vaulted-pavilion/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-sunset-cove-oceanfront/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-kerem-beachfront/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-kerem-seaview/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-kerem-estate/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-grand-estate-24/</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://elsewhere.living/rentals/r-samui-choengmon-hillside/</loc>
-    <lastmod>2026-06-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://elsewhere.living/rentals/r-samui-plailaem-estate/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-maenam-poolvilla/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-laem-sor/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-bophut-beachfront/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-chaweng-estate/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-balinese-beachfront/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-samui-180-seaview/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-bali-cloud-nine/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-bali-mandala-estate/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-bali-akashi/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-bali-pantai-lima/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-bali-villa-ambra/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-bali-villa-melissa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-phuket-aquila/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-phuket-zai/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-phuket-amarasara/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-phuket-amaravida/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-phuket-amarapura/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-bali-nag-shampa/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-bali-mandala-oasis/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-lombok-arched/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-lombok-reveal/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-lombok-mediterranean/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-lombok-circles/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-lombok-circular/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-lombok-waterfall/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-lombok-twinwing/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-lombok-clifftop/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-praison/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://elsewhere.living/rentals/r-sangsuri/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://elsewhere.living/privacy/</loc>
+    <lastmod>2026-06-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>

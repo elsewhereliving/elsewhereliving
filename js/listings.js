@@ -128,16 +128,25 @@ function ListingsScreen({
   const types = ["All", "Villa", "Condominium", "Land"];
   const statuses = ["All", "Move-In Ready", "Off-Plan"];
   const views = ["All", "Sea View", "Beachfront", "Waterfront", "City View", "Mountain View", "Garden / Pool View"];
-  const [market, setMarket] = React.useState(initialFilter && initialFilter.market || "All");
-  const [type, setType] = React.useState(initialFilter && initialFilter.type || "All");
-  const [status, setStatus] = React.useState("All");
-  const [view, setView] = React.useState("All");
-  const [minBeds, setMinBeds] = React.useState(0);
-  const [sort, setSort] = React.useState("featured");
+  const _q = ewReadQuery();
+  const [market, setMarket] = React.useState(_q.dest || initialFilter && initialFilter.market || "All");
+  const [type, setType] = React.useState(_q.type || initialFilter && initialFilter.type || "All");
+  const [status, setStatus] = React.useState(_q.status || "All");
+  const [view, setView] = React.useState(_q.view || "All");
+  const [minBeds, setMinBeds] = React.useState(_q.beds ? Number(_q.beds) : 0);
+  const [sort, setSort] = React.useState(_q.sort || "featured");
+
+  // Reflect active filters in the URL so the view is shareable and Back returns here.
   React.useEffect(() => {
-    if (initialFilter && initialFilter.market) setMarket(initialFilter.market);
-    if (initialFilter && initialFilter.type) setType(initialFilter.type);
-  }, [initialFilter]);
+    ewWriteFilters({
+      dest: market,
+      type: type,
+      status: status,
+      view: view,
+      beds: minBeds,
+      sort: sort
+    });
+  }, [market, type, status, view, minBeds, sort]);
   let items = window.LISTINGS.filter(l => (market === "All" || l.market === market) && (type === "All" || l.type === type) && (status === "All" || l.status === status) && (view === "All" || window.viewList(l.view).includes(view)) && l.beds >= minBeds);
   const ewSalePrice = x => x.priceNum && x.priceNum > 0 ? x.priceNum : Infinity; // "Price on request" sorts as most expensive
   if (sort === "low") items = [...items].sort((a, b) => ewSalePrice(a) - ewSalePrice(b));

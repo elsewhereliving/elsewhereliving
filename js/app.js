@@ -171,10 +171,10 @@ function ewTitleFor(route, item) {
   };
   return map[route] || base;
 }
-function ewSyncUrl(route, item, replace) {
+function ewSyncUrl(route, item, replace, query) {
   try {
-    const path = ewPathFor(route, item);
-    const cur = window.location.pathname.replace(/\/index\.html$/i, "/");
+    const path = ewPathFor(route, item) + (query || "");
+    const cur = window.location.pathname.replace(/\/index\.html$/i, "/") + window.location.search;
     if (cur !== path) {
       window.history[replace ? "replaceState" : "pushState"]({
         ewRoute: route,
@@ -183,6 +183,38 @@ function ewSyncUrl(route, item, replace) {
     }
   } catch (e) {/* sandboxed preview without history access: ignore */}
 }
+
+/* ---- Filter state in the URL query string ----
+   A filtered listing/rentals view becomes a unique, shareable URL, and the
+   browser Back button returns to the exact filtered page after a visitor
+   opens a property and comes back. */
+function ewReadQuery() {
+  const out = {};
+  try {
+    new URLSearchParams(window.location.search).forEach(function (v, k) {
+      out[k] = v;
+    });
+  } catch (e) {}
+  return out;
+}
+function ewFilterQueryString(params) {
+  const sp = new URLSearchParams();
+  Object.keys(params || {}).forEach(function (k) {
+    const v = params[k];
+    if (v != null && v !== "" && v !== "All" && v !== 0 && v !== "0" && v !== "featured") sp.set(k, v);
+  });
+  const s = sp.toString();
+  return s ? "?" + s : "";
+}
+/* Reflect a screen's current filters into the URL (replaceState — no new entry). */
+function ewWriteFilters(params) {
+  try {
+    const base = window.location.pathname.replace(/\/index\.html$/i, "/");
+    const next = base + ewFilterQueryString(params);
+    const cur = base + window.location.search;
+    if (cur !== next) window.history.replaceState(window.history.state, "", next);
+  } catch (e) {/* ignore in sandboxed preview */}
+}
 function App() {
   const _ewInit = ewInitialState();
   const [route, setRoute] = React.useState(_ewInit.route);
@@ -190,13 +222,20 @@ function App() {
   const [filter, setFilter] = React.useState(null);
   const [saved, toggleSaved] = useSaved();
   const navigate = React.useCallback((to, opts) => {
+    let query = "";
+    if ((to === "properties" || to === "rentals") && opts) {
+      const f = {};
+      if (opts.market || opts.dest) f.dest = opts.market || opts.dest;
+      if (opts.type) f.type = opts.type;
+      query = ewFilterQueryString(f);
+    }
     if (to === "properties" && opts && (opts.market || opts.type)) setFilter({
       market: opts.market || null,
       type: opts.type || null
     });else if (to === "properties") setFilter(null);
     setActiveItem(null);
     setRoute(to);
-    ewSyncUrl(to, null);
+    ewSyncUrl(to, null, false, query);
     window.scrollTo({
       top: 0,
       behavior: "auto"

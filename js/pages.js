@@ -177,10 +177,21 @@ function RentalsScreen({
   const [sent, setSent] = React.useState(false);
   const destinations = ["All", ...Array.from(new Set(window.RENTALS.map(r => window.rentDest(r.location)).filter(Boolean)))];
   const views = ["All", "Sea View", "Beachfront", "Waterfront", "Mountain View", "Garden / Pool View"];
-  const [dest, setDest] = React.useState("All");
-  const [view, setView] = React.useState("All");
-  const [minBeds, setMinBeds] = React.useState(0);
-  const [sort, setSort] = React.useState("featured");
+  const _q = ewReadQuery();
+  const [dest, setDest] = React.useState(_q.dest || "All");
+  const [view, setView] = React.useState(_q.view || "All");
+  const [minBeds, setMinBeds] = React.useState(_q.beds ? Number(_q.beds) : 0);
+  const [sort, setSort] = React.useState(_q.sort || "featured");
+
+  // Reflect active filters in the URL so the view is shareable and Back returns here.
+  React.useEffect(() => {
+    ewWriteFilters({
+      dest: dest,
+      view: view,
+      beds: minBeds,
+      sort: sort
+    });
+  }, [dest, view, minBeds, sort]);
   let items = window.RENTALS.filter(r => (dest === "All" || window.rentDest(r.location) === dest) && (view === "All" || window.viewList(r.view).includes(view)) && (r.beds || 0) >= minBeds);
   const ewRentPrice = x => x.nightlyNum && x.nightlyNum > 0 ? x.nightlyNum : Infinity; // "on request" sorts as most expensive
   if (sort === "low") items = [...items].sort((a, b) => ewRentPrice(a) - ewRentPrice(b));
@@ -1058,47 +1069,24 @@ function ContactScreen() {
   const toggleIntent = id => setIntents(prev => prev.includes(id) ? prev.filter(x => x !== id) : [...prev, id]);
   const c = window.CONTACT;
 
-  // Netlify Forms submission. The form is registered via a hidden static
-  // <form name="enquiry"> in index.html so Netlify's deploy crawler detects it;
-  // here we POST the field values back to the site root, which Netlify captures
-  // and forwards to the notification email set in the Netlify dashboard.
-  const encode = data => Object.keys(data).map(k => encodeURIComponent(k) + "=" + encodeURIComponent(data[k])).join("&");
+  // On submit we compose a pre-filled email to contact@elsewhere.living with the
+  // visitor's details and open their mail client (no server/backend needed).
   const handleSubmit = e => {
     e.preventDefault();
-    if (sending) return;
-    const form = e.target;
-    const fd = new FormData(form);
-    const data = {
-      "form-name": "enquiry"
-    };
-    fd.forEach((v, k) => {
-      data[k] = v;
-    });
-    data.intents = intents.join(", ");
-    // Custom email subject — client name + what they're looking to do.
-    // Netlify uses a field named "subject" as the notification email subject line.
+    const fd = new FormData(e.target);
+    const g = k => (fd.get(k) || "").toString().trim();
     const intentLabel = {
-      buy: "Buy",
-      rent: "Rent",
-      custom: "Build"
+      buy: "Buy a property",
+      rent: "Rent a villa",
+      custom: "Build a custom home"
     };
-    const who = [data.first_name, data.last_name].filter(Boolean).join(" ").trim() || "Website visitor";
     const want = intents.map(i => intentLabel[i]).filter(Boolean).join(", ");
-    data.subject = "New enquiry — " + who + (want ? " · " + want : "");
-    setSending(true);
-    fetch("/", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded"
-      },
-      body: encode(data)
-    }).then(() => {
-      setSending(false);
-      setSent(true);
-    }).catch(() => {
-      setSending(false);
-      setSent(true);
-    });
+    const who = [g("first_name"), g("last_name")].filter(Boolean).join(" ") || "Website visitor";
+    const subject = "New enquiry — " + who + (want ? " · " + want : "");
+    const lines = ["Name: " + who, "Email: " + g("email"), g("whatsapp") ? "WhatsApp: " + g("whatsapp") : null, want ? "Looking to: " + want : null, g("destination") ? "Where: " + g("destination") : null, g("budget") ? "Budget: " + g("budget") : null, "", g("message") || ""].filter(l => l !== null);
+    const href = "mailto:" + c.email + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(lines.join("\n"));
+    window.location.href = href;
+    setSent(true);
   };
   return /*#__PURE__*/React.createElement("main", null, /*#__PURE__*/React.createElement(PageHeader, {
     eyebrow: "Start your elsewhere journey",
@@ -1175,7 +1163,103 @@ function ContactScreen() {
       color: "var(--navy)",
       textAlign: "right"
     }
-  }, row.v))))), /*#__PURE__*/React.createElement("div", {
+  }, row.v)))), /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginTop: 44
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: "var(--slate)",
+      marginBottom: 16
+    }
+  }, /*#__PURE__*/React.createElement(Label, null, "Follow along")), /*#__PURE__*/React.createElement("p", {
+    style: {
+      margin: "0 0 22px",
+      maxWidth: 440,
+      fontFamily: "var(--font-sans)",
+      fontWeight: 300,
+      fontSize: 15,
+      lineHeight: 1.7,
+      color: "var(--text-body)"
+    }
+  }, "Our latest homes, island life and behind-the-scenes live on our socials \u2014 it's where most of our community finds us. Come say hello."), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      flexWrap: "wrap",
+      gap: 12
+    }
+  }, [{
+    label: "Instagram",
+    handle: "@elsewhere.living",
+    href: "https://www.instagram.com/elsewhere.living/",
+    svg: /*#__PURE__*/React.createElement("svg", {
+      width: "18",
+      height: "18",
+      viewBox: "0 0 24 24",
+      fill: "none",
+      stroke: "currentColor",
+      strokeWidth: "1.7"
+    }, /*#__PURE__*/React.createElement("rect", {
+      x: "2.5",
+      y: "2.5",
+      width: "19",
+      height: "19",
+      rx: "5"
+    }), /*#__PURE__*/React.createElement("circle", {
+      cx: "12",
+      cy: "12",
+      r: "4.2"
+    }), /*#__PURE__*/React.createElement("circle", {
+      cx: "17.3",
+      cy: "6.7",
+      r: "1.15",
+      fill: "currentColor",
+      stroke: "none"
+    }))
+  }, {
+    label: "TikTok",
+    handle: "@sofia.elsewhere",
+    href: "https://www.tiktok.com/@sofia.elsewhere",
+    svg: /*#__PURE__*/React.createElement("svg", {
+      width: "18",
+      height: "18",
+      viewBox: "0 0 24 24",
+      fill: "currentColor"
+    }, /*#__PURE__*/React.createElement("path", {
+      d: "M16.5 3c.3 2.1 1.5 3.6 3.5 3.9V9c-1.3 0-2.5-.4-3.5-1.1v6.6c0 3.2-2.4 5.5-5.4 5.5C8.6 20 6.5 18 6.5 15.3c0-2.7 2.2-4.8 5.1-4.6v2.4c-.4-.1-.8-.2-1.2-.2-1.3 0-2.4 1-2.4 2.4 0 1.4 1 2.4 2.3 2.4 1.4 0 2.5-1.1 2.5-2.7V3h3.6z"
+    }))
+  }, {
+    label: "YouTube",
+    handle: "@sofia.elsewhere",
+    href: "https://www.youtube.com/@sofia.elsewhere",
+    svg: /*#__PURE__*/React.createElement("svg", {
+      width: "20",
+      height: "20",
+      viewBox: "0 0 24 24",
+      fill: "currentColor"
+    }, /*#__PURE__*/React.createElement("path", {
+      d: "M22 8.2c0-1.4-1.1-2.5-2.5-2.6C17.6 5.4 14.8 5.3 12 5.3s-5.6.1-7.5.3C3.1 5.7 2 6.8 2 8.2 1.9 9.4 1.9 10.7 1.9 12s0 2.6.1 3.8c0 1.4 1.1 2.5 2.5 2.6 1.9.2 4.7.3 7.5.3s5.6-.1 7.5-.3c1.4-.1 2.5-1.2 2.5-2.6.1-1.2.1-2.5.1-3.8s0-2.6-.1-3.8zM10 15V9l5.2 3L10 15z"
+    }))
+  }].map(s => /*#__PURE__*/React.createElement("a", {
+    key: s.label,
+    href: s.href,
+    target: "_blank",
+    rel: "noopener noreferrer",
+    "aria-label": s.label,
+    className: "ew-textlink",
+    style: {
+      display: "inline-flex",
+      alignItems: "center",
+      gap: 9,
+      padding: "11px 16px",
+      border: "1px solid var(--border-subtle)",
+      borderRadius: "var(--radius-pill)",
+      color: "var(--navy)",
+      fontFamily: "var(--font-sans)",
+      fontWeight: 400,
+      fontSize: 13.5
+    }
+  }, s.svg, /*#__PURE__*/React.createElement("span", null, s.handle)))))), /*#__PURE__*/React.createElement("div", {
     className: "reveal",
     style: {
       background: "var(--white)",
@@ -1201,36 +1285,31 @@ function ContactScreen() {
       fontSize: 30,
       color: "var(--navy)"
     }
-  }, "Thank you."), /*#__PURE__*/React.createElement("p", {
+  }, "Your email is ready."), /*#__PURE__*/React.createElement("p", {
     style: {
       margin: "14px auto 0",
-      maxWidth: 360,
+      maxWidth: 380,
       fontFamily: "var(--font-sans)",
       fontWeight: 300,
       fontSize: 15,
       lineHeight: 1.7,
       color: "var(--text-body)"
     }
-  }, "Your message is on its way to our advisors. We'll be in touch personally, very soon.")) : /*#__PURE__*/React.createElement("form", {
-    name: "enquiry",
-    method: "POST",
-    "data-netlify": "true",
-    "netlify-honeypot": "bot-field",
+  }, "We've opened a pre-filled message in your email app \u2014 just press send to reach us at ", /*#__PURE__*/React.createElement("a", {
+    href: "mailto:" + c.email,
+    style: {
+      color: "var(--navy)",
+      textDecoration: "underline",
+      textUnderlineOffset: 3
+    }
+  }, c.email), ". If nothing opened, email us there directly.")) : /*#__PURE__*/React.createElement("form", {
     onSubmit: handleSubmit,
     style: {
       display: "flex",
       flexDirection: "column",
       gap: 22
     }
-  }, /*#__PURE__*/React.createElement("input", {
-    type: "hidden",
-    name: "form-name",
-    value: "enquiry"
-  }), /*#__PURE__*/React.createElement("p", {
-    hidden: true
-  }, /*#__PURE__*/React.createElement("label", null, "Don't fill this out: ", /*#__PURE__*/React.createElement("input", {
-    name: "bot-field"
-  }))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("div", {
     style: {
       color: "var(--slate)",
       marginBottom: 4
@@ -1255,16 +1334,32 @@ function ContactScreen() {
     name: "last_name",
     placeholder: "Last",
     required: true
-  })), /*#__PURE__*/React.createElement(Field, {
+  })), /*#__PURE__*/React.createElement("div", {
+    "data-grid": "split",
+    style: {
+      display: "grid",
+      gridTemplateColumns: "1fr 1fr",
+      gap: 22
+    }
+  }, /*#__PURE__*/React.createElement(Field, {
     label: "Email",
     name: "email",
     type: "email",
     placeholder: "you@email.com",
     required: true
   }), /*#__PURE__*/React.createElement(Field, {
+    label: "WhatsApp (optional)",
+    name: "whatsapp",
+    type: "tel",
+    placeholder: "+66 \u2026"
+  })), /*#__PURE__*/React.createElement(Field, {
     label: "Where are you dreaming of?",
     name: "destination",
     placeholder: "Koh Samui, Bali, not sure yet\u2026"
+  }), /*#__PURE__*/React.createElement(Field, {
+    label: "Budget",
+    name: "budget",
+    placeholder: "e.g. $500k\u2013$1M, or flexible"
   }), /*#__PURE__*/React.createElement(Field, {
     label: "Tell us a little more",
     name: "message",
@@ -1276,11 +1371,9 @@ function ContactScreen() {
     type: "submit",
     style: {
       width: "100%",
-      marginTop: 4,
-      opacity: sending ? 0.7 : 1,
-      pointerEvents: sending ? "none" : "auto"
+      marginTop: 4
     }
-  }, sending ? "Sending…" : "Send enquiry"))))));
+  }, "Send enquiry"))))));
 }
 
 /* ---------- Saved ---------- */
