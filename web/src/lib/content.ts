@@ -58,7 +58,8 @@ export function getSiteContent(): SiteContent {
  */
 export async function getFeaturedListings(n = 3): Promise<Listing[]> {
   const rank = (l: Listing) => (l as any).featuredRank ?? l.featuredOrder ?? 999;
-  const flagged = LISTINGS.filter((l) => l.featured).sort((a, b) => rank(a) - rank(b));
+  // Tie-break on id so a stray duplicate rank can never randomise the order.
+  const flagged = LISTINGS.filter((l) => l.featured).sort((a, b) => rank(a) - rank(b) || a.id.localeCompare(b.id));
   if (flagged.length > 0) return flagged.slice(0, n);
   return [...LISTINGS].sort((a, b) => (b.added ?? 0) - (a.added ?? 0)).slice(0, n);
 }

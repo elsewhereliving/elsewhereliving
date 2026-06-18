@@ -79,6 +79,5 @@
       "i": "year"
     }
   ],
-  "featured": true,
-  "featuredOrder": 2
+  "featured": false
 }

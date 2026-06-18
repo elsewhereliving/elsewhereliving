@@ -38,13 +38,19 @@ export default function HomeFeatured() {
     const ids = rows.map((x) => x.id);
     crm.setFeaturedOrder(C, ids); crm.setHomeCount(count); setDirty(false);
     if (crm.fsConnected) {
-      try {
-        const rank: Record<string, number> = {}; ids.forEach((id, i) => (rank[id] = i + 1));
-        const toWrite = crm.list(C).filter((l) => l.featured || ids.indexOf(l.id) >= 0);
-        for (const l of toWrite) { const chosen = ids.indexOf(l.id) >= 0; await saveRecord(C, { ...l, featured: chosen, featuredRank: chosen ? rank[l.id] : null }); }
-        await writeHome(count);
-        toast("Home page saved to your repo — review & push");
-      } catch (e: any) { toast(e?.message || "Couldn't write to disk", "danger"); }
+      const rank: Record<string, number> = {}; ids.forEach((id, i) => (rank[id] = i + 1));
+      // Write the chosen set AND demote every currently-featured listing that
+      // isn't chosen. Don't let one failed write abort the rest — a half-written
+      // pass used to leave stragglers with stale ranks on the homepage.
+      const toWrite = crm.list(C).filter((l) => l.featured || ids.indexOf(l.id) >= 0);
+      const failed: string[] = [];
+      for (const l of toWrite) {
+        const chosen = ids.indexOf(l.id) >= 0;
+        try { await saveRecord(C, { ...l, featured: chosen, featuredRank: chosen ? rank[l.id] : null }); }
+        catch { failed.push(l.id); }
+      }
+      try { await writeHome(count); } catch { failed.push("home.json"); }
+      toast(failed.length ? `Saved, but ${failed.length} file(s) failed — check & retry` : "Home page saved to your repo — review & push", failed.length ? "danger" : "default");
     } else toast("Home page updated this session — connect your repo folder to write it");
   };
 

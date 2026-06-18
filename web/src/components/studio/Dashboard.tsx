@@ -64,7 +64,7 @@ export default function Dashboard({
     else v.sort((a, b) => {
       const af = a.featured ? 1 : 0, bf = b.featured ? 1 : 0;
       if (af !== bf) return bf - af;
-      if (af && bf) return (a.featuredRank ?? a.featuredOrder ?? 9999) - (b.featuredRank ?? b.featuredOrder ?? 9999);
+      if (af && bf) return ((a.featuredRank ?? a.featuredOrder ?? 9999) - (b.featuredRank ?? b.featuredOrder ?? 9999)) || a.id.localeCompare(b.id);
       return newOf(b) - newOf(a);
     });
     return v;
