@@ -1,0 +1,58 @@
+{
+  "id": "r-samui-rockclad-mediterranean-twin-pool",
+  "image": "https://www.theluxurysignature.com/wp-content/uploads/2026/01/Koh-Koon-Koh-Samui-Villa-img-48-1.jpeg",
+  "gallery": [
+    "https://www.theluxurysignature.com/wp-content/uploads/2026/01/Koh-Koon-Koh-Samui-Villa-img-48-1.jpeg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2026/01/Koh-Koon-Koh-Samui-Villa-img-45.jpeg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2026/01/Koh-Koon-Koh-Samui-Villa-img-49.jpeg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2026/01/Koh-Koon-Koh-Samui-Villa-img-32-1.jpeg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2026/01/Koh-Koon-Koh-Samui-Villa-img-20.jpeg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2026/01/Koh-Koon-Koh-Samui-Villa-img-40-1.jpeg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2026/01/Koh-Koon-Koh-Samui-Villa-img-07.jpeg"
+  ],
+  "location": "Chaweng · Koh Samui · Thailand",
+  "place": "Koh Koon, Bo Phut, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5290,100.0490",
+  "title": "Rock-Clad Mediterranean Hillside Villa with Twin Pools, Chaweng",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 9,
+  "bedsLabel": "7–9",
+  "guests": 22,
+  "guestsLabel": "22",
+  "occupancy": "up to 22 guests",
+  "size": "1,000 m²",
+  "nightlyNum": 1460,
+  "nightly": "$1,460",
+  "note": "Private chef & breakfast included",
+  "sleeps": "up to 22 guests · 7–9 bedrooms",
+  "blurb": "A sprawling hillside estate above Chaweng Bay where Eastern and Mediterranean design meet — natural rock-clad pavilions and boulder-studded gardens linked by stone pathways, an infinity pool and a second pool, a games room and outdoor cinema, for groups of up to twenty-two.",
+  "detail": "Set on a sprawling hillside with a view of Chaweng Bay, Villa Koh Koon is a study in eclectic, comfortable luxury — its architecture and décor a harmonious blend of Eastern and Mediterranean styles. Built to merge with its surroundings, the main buildings are clad in natural rock with huge boulders accenting the garden, and stone pathways wind through lush lawns to connect the pavilions; French-farmhouse design notes meet the swaying coconut palms of the tropics.\n\nThe open-plan living and kitchen — Smeg appliances, a library and business room up a feature staircase, seating for eighteen at the dining table — flows to a travertine terrace with soft seating and gauzy curtains, and on to an infinity pool ringed by a wooden deck, a wet bar and a shaded sala with a projector screen for movie nights. A second pool, expansive lawns and a yoga deck extend the grounds, while a games room with pool table, dartboard and foosball handles the evenings.\n\nUp to twenty-two guests are hosted across nine en-suite bedrooms — bookable as seven, eight or nine — including a sea-view master connected to the library with a private terrace and outdoor shower, six guest rooms across four pavilions, and two children's rooms. A team of five, including a private chef, looks after the stay, with daily breakfast and return airport transfers included; Samui Airport is fourteen minutes away and Chaweng Noi beach just four.",
+  "features": [
+    {
+      "l": "Hillside views over Chaweng Bay",
+      "i": "view"
+    },
+    {
+      "l": "Infinity pool + second pool",
+      "i": "pool"
+    },
+    {
+      "l": "Rock-clad Eastern-Mediterranean design",
+      "i": "home"
+    },
+    {
+      "l": "Games room & outdoor cinema sala",
+      "i": "music"
+    },
+    {
+      "l": "Library, business room & dining for 18",
+      "i": "utensils"
+    },
+    {
+      "l": "7–9 bedrooms · sleeps 22 · chef",
+      "i": "users"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "thong-krut-elevated-seaview-pool-villa",
+  "image": "/assets/listings/thong-krut-elevated-seaview-pool-villa/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/thong-krut-elevated-seaview-pool-villa/ext-001.jpg",
+    "/assets/listings/thong-krut-elevated-seaview-pool-villa/ext-002.jpg",
+    "/assets/listings/thong-krut-elevated-seaview-pool-villa/ext-003.jpg",
+    "/assets/listings/thong-krut-elevated-seaview-pool-villa/ext-004.jpg",
+    "/assets/listings/thong-krut-elevated-seaview-pool-villa/ext-005.jpg",
+    "/assets/listings/thong-krut-elevated-seaview-pool-villa/ext-006.jpg",
+    "/assets/listings/thong-krut-elevated-seaview-pool-villa/ext-007.jpg",
+    "/assets/listings/thong-krut-elevated-seaview-pool-villa/ext-008.jpg",
+    "/assets/listings/thong-krut-elevated-seaview-pool-villa/ext-009.jpg",
+    "/assets/listings/thong-krut-elevated-seaview-pool-villa/ext-010.jpg",
+    "/assets/listings/thong-krut-elevated-seaview-pool-villa/ext-011.jpg",
+    "/assets/listings/thong-krut-elevated-seaview-pool-villa/ext-012.jpg",
+    "/assets/listings/thong-krut-elevated-seaview-pool-villa/ext-013.jpg",
+    "/assets/listings/thong-krut-elevated-seaview-pool-villa/ext-014.jpg"
+  ],
+  "location": "Taling Ngam · Koh Samui · Thailand",
+  "place": "Thong Krut, Taling Ngam, Ko Samui District, Surat Thani 84140, Thailand",
+  "mapQuery": "9.433133,99.968589",
+  "market": "Koh Samui",
+  "title": "Elevated Six-Bedroom Sea-View Villa with Cinema & Yoga Sala, Thong Krut",
+  "type": "Villa",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 6,
+  "baths": 7,
+  "interior": "594 m²",
+  "plot": "1,600 m²",
+  "year": 2018,
+  "priceNum": 2701882,
+  "price": "$2,701,882",
+  "priceOriginal": "฿89,000,000",
+  "priceCurrency": "THB",
+  "added": 1,
+  "ownership": "Freehold",
+  "blurb": "A spacious, fully furnished six-bedroom villa elevated above Koh Samui's tranquil south coast at Thong Krut, capturing sweeping sea views across the southern shoreline. A large swimming pool, a cinema room and a private yoga sala anchor 594 m² of resort-style living on a generous 1,600 m² plot. Freehold, move-in ready.",
+  "detail": "A luxury six-bedroom sea-view villa at Thong Krut — a rare chance to own a spacious, fully furnished residence in one of Koh Samui's most serene and unspoiled coastal areas. Set on a generous 1,600 m² plot and delivering around 594 m² of built-up area, the home is elevated to capture sweeping sea views, designed for buyers seeking privacy, scale and a refined tropical lifestyle away from the island's busier hubs. Thong Krut, on the south coast, is renowned for its tranquil atmosphere, natural beauty and authentic island charm — appealing strongly to lifestyle buyers and investors after exclusivity and long-term value in a low-density setting.\n\nThe villa pairs six bedrooms with seven bathrooms in a well-planned, multi-level layout that offers exceptional comfort and flexibility for families, guests or luxury rental use. Open-plan living areas maximise natural light and airflow while staying seamlessly connected to the outdoors, and high ceilings and generous proportions create an elegant yet relaxed environment. At the heart of the outdoor area is a striking 88 m² swimming pool with ample room for leisure and entertaining, wrapped by terraces and social areas that embrace indoor-outdoor living against uninterrupted sea views.\n\nLifestyle facilities go beyond the standard: a private yoga sala for wellness, meditation or fitness; a cinema room for indoor entertainment; and dedicated storage and BBQ zones that enhance everyday practicality and hosting. Sold fully furnished as a turnkey property, the villa is ready for immediate move-in or rental operation, with reliable government electricity and water supply.\n\nThong Krut is increasingly sought after by buyers who value privacy, nature and a slower pace of island life, with stunning sunsets, nearby islands, local seafood restaurants and quiet beaches — all within driving distance of Lamai. With its large plot, panoramic sea views, extensive amenities and furnished condition, the villa is a compelling lifestyle purchase and a strong long-term hold in one of Koh Samui's most peaceful coastal locations. Offered freehold and move-in ready — priced at ฿89,000,000.",
+  "features": [
+    {
+      "l": "Large swimming pool & deck",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic sea views",
+      "i": "view"
+    },
+    {
+      "l": "1,600 m² plot · 594 m² build",
+      "i": "plot"
+    },
+    {
+      "l": "Six bedrooms · 7 baths",
+      "i": "bed"
+    },
+    {
+      "l": "Cinema room",
+      "i": "music"
+    },
+    {
+      "l": "Private yoga sala",
+      "i": "tree"
+    },
+    {
+      "l": "Open-plan living, high ceilings",
+      "i": "home"
+    },
+    {
+      "l": "Multi-level & covered terraces",
+      "i": "terrace"
+    },
+    {
+      "l": "BBQ area & outdoor dining",
+      "i": "utensils"
+    },
+    {
+      "l": "Fully furnished · turnkey",
+      "i": "sparkles"
+    },
+    {
+      "l": "Government electricity & water",
+      "i": "shield"
+    },
+    {
+      "l": "Freehold · built 2018",
+      "i": "year"
+    }
+  ]
+}

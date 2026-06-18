@@ -1,0 +1,30 @@
+---
+// Lightweight OpenStreetMap embed for property/rental location. Expects a
+// "lat,lng" mapQuery; falls back to a place-name search if it's not coords.
+// No JS, no API key — a calm, brand-muted static frame.
+interface Props { query?: string; place?: string; title?: string; }
+const { query, place, title = "Location" } = Astro.props;
+
+let src = "";
+const coords = query && /^-?\d+(\.\d+)?\s*,\s*-?\d+(\.\d+)?$/.test(query.trim());
+if (coords) {
+  const [lat, lon] = query!.split(",").map((s) => parseFloat(s.trim()));
+  const d = 0.012;
+  const bbox = `${lon - d},${lat - d},${lon + d},${lat + d}`;
+  src = `https://www.openstreetmap.org/export/embed.html?bbox=${bbox}&layer=mapnik&marker=${lat},${lon}`;
+}
+---
+{src && (
+  <iframe
+    class="ew-map"
+    src={src}
+    title={`Map — ${title}`}
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+  ></iframe>
+)}
+{place && (
+  <a class="ew-textlink" href={`https://www.openstreetmap.org/search?query=${encodeURIComponent(place)}`} target="_blank" rel="noopener" style="display:inline-block; margin-top:12px; font-family: var(--font-sans); font-size: 12px; letter-spacing: 0.04em; color: var(--slate);">
+    {place}
+  </a>
+)}

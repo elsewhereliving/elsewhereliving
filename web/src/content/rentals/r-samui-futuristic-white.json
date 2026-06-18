@@ -1,0 +1,65 @@
+{
+  "id": "r-samui-futuristic-white",
+  "image": "https://www.ministryofvillas.com/wp-content/uploads/2024/07/koh-samui-villasutra-01.jpg",
+  "gallery": [
+    "https://www.ministryofvillas.com/wp-content/uploads/2024/07/koh-samui-villasutra-01.jpg",
+    "https://www.ministryofvillas.com/wp-content/uploads/2024/07/koh-samui-villasutra-56.jpg",
+    "https://www.ministryofvillas.com/wp-content/uploads/2024/07/koh-samui-villasutra-02.jpg",
+    "https://www.ministryofvillas.com/wp-content/uploads/2024/07/koh-samui-villasutra-04.jpg",
+    "https://www.ministryofvillas.com/wp-content/uploads/2024/07/koh-samui-villasutra-06.jpg",
+    "https://www.ministryofvillas.com/wp-content/uploads/2024/07/koh-samui-villasutra-07.jpg",
+    "https://www.ministryofvillas.com/wp-content/uploads/2024/07/koh-samui-villasutra-09.jpg",
+    "https://www.ministryofvillas.com/wp-content/uploads/2024/07/koh-samui-villasutra-28.jpg",
+    "https://www.ministryofvillas.com/wp-content/uploads/2024/07/koh-samui-villasutra-20.jpg",
+    "https://www.ministryofvillas.com/wp-content/uploads/2024/07/koh-samui-villasutra-24.jpg",
+    "https://www.ministryofvillas.com/wp-content/uploads/2024/07/koh-samui-villasutra-27.jpg",
+    "https://www.ministryofvillas.com/wp-content/uploads/2024/07/koh-samui-villasutra-30.jpg",
+    "https://www.ministryofvillas.com/wp-content/uploads/2024/07/koh-samui-villasutra-40.jpg",
+    "https://www.ministryofvillas.com/wp-content/uploads/2024/07/koh-samui-villasutra-57.jpg"
+  ],
+  "location": "Choeng Mon · Koh Samui · Thailand",
+  "place": "Choeng Mon, Bo Phut, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5614,100.0647",
+  "title": "Sleek White Futuristic Hillside Villa, Choeng Mon",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 4,
+  "bedsLabel": "4",
+  "guests": 10,
+  "guestsLabel": "8–10",
+  "occupancy": "sleeps 8 (10 max)",
+  "size": "1,450 m²",
+  "nightlyNum": 1111,
+  "nightly": "$1,111",
+  "note": "Chef, butlers & breakfast included",
+  "sleeps": "8 guests (10 max) · 4 bedrooms",
+  "blurb": "A luminous white architectural statement cascading down three floors of a lush Choeng Mon hillside — retro-futuristic interiors with surrealist gilded figures, 180-degree ocean panoramas, an 18-metre infinity pool, a private cinema, gym, sauna and spa.",
+  "detail": "Gazing over the clear blue ocean, this sleek white villa cascades over three floors down a lush Samui elevation, creating an irresistibly stylish, soothing ambiance with a few whimsical surprises — check the gilded characters scaling the living-room walls. Built in 2023 across 1,450 m², it is a sublime study in modern aesthetics, where retro-futuristic elements meet natural materials and surrealist modern art, and 180-degree ocean panoramas follow you at every turn.\n\nThe living room centres on a circular sofa that reads futuristic and retro-chic at once, opening fully to the poolside deck or sealing behind glass; the adjoining dining area seats ten beside an open kitchen with wine fridge and barbecue. The 18-metre infinity pool seems to blend straight into the sea, ringed by beige sun beds and parasols worthy of any beach club. A private cinema with PlayStation, a media room, a gym/games room with table tennis, and a spa with massage bed, sauna and steam room round out the indulgences.\n\nFour light-filled en-suite bedrooms are split across the three floors, each with full-wall glazing onto the ocean, king beds and ensuite bathrooms — the top-floor suite connecting to a study. Fully staffed with a villa manager, private chef, butlers, housekeepers and security, with daily breakfast, welcome drinks and return airport transfers, minutes from Choeng Mon's beach and the five-star resorts of the north-east cape.",
+  "features": [
+    {
+      "l": "18 m infinity pool over the sea",
+      "i": "pool"
+    },
+    {
+      "l": "Sleek white futuristic architecture",
+      "i": "home"
+    },
+    {
+      "l": "180° ocean panoramas",
+      "i": "view"
+    },
+    {
+      "l": "Private cinema, gym & games room",
+      "i": "music"
+    },
+    {
+      "l": "Spa, sauna & steam room",
+      "i": "sparkles"
+    },
+    {
+      "l": "4 bedrooms · chef, butlers & breakfast",
+      "i": "users"
+    }
+  ]
+}

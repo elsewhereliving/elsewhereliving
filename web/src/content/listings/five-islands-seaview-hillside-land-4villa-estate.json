@@ -1,0 +1,83 @@
+{
+  "id": "five-islands-seaview-hillside-land-4villa-estate",
+  "image": "/assets/listings/five-islands-estate/01.jpg",
+  "gallery": [
+    "/assets/listings/five-islands-estate/01.jpg",
+    "/assets/listings/five-islands-estate/02.jpg",
+    "/assets/listings/five-islands-estate/03.jpg",
+    "/assets/listings/five-islands-estate/04.png"
+  ],
+  "location": "Taling Ngam · Koh Samui · Thailand",
+  "place": "Taling Ngam, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.448790,99.936577",
+  "market": "Koh Samui",
+  "title": "Five-Islands Sea-View Hillside Land with 4-Villa Estate Plan, Taling Ngam",
+  "type": "Land",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 0,
+  "baths": 0,
+  "interior": "—",
+  "plot": "7,200 m²",
+  "year": null,
+  "priceNum": 3035085,
+  "price": "$3,035,085",
+  "priceOriginal": "฿100,000,000",
+  "priceCurrency": "THB",
+  "added": 70,
+  "ownership": "Freehold",
+  "blurb": "A 4.5-rai elevated parcel on Koh Samui's tranquil west coast, framing the celebrated panorama of the Five Sisters Islands (Koh Si Koh Ha) and the sunset waters beyond. Roads, underground power and a full service corridor are already in — and a designed masterplan for a four-villa estate is in place. Freehold, ready to build.",
+  "detail": "Set on the quiet, sunset-facing western side of Koh Samui, this 4.5-rai (≈7,200 m²) hillside parcel looks out over one of the island's most iconic views — the Five Sisters Islands (Koh Si Koh Ha) scattered across the calm channel, with open sea and dramatic sunsets beyond. The elevation gives clean, uninterrupted sightlines above the treeline, the kind of horizon that anchors a signature residence or boutique estate.\n\nUnusually for raw island land, the groundwork is already done. The site is serviced by a concrete access road with a full service corridor and underground electricity — discreet, future-proofed infrastructure that preserves the natural setting while removing the slowest and most costly part of any development. A professionally designed masterplan for a four-villa estate, organised in two phases around an existing road and main gate, is in place and ready to take forward.\n\nWhether built out as a four-villa rental or resale estate, a private family compound or a single grand residence with room to breathe, the land offers a rare combination of view, orientation, ready infrastructure and an approved design vision. Freehold, on the prestigious Taling Ngam coast minutes from beaches, marinas and the island's south-west lifestyle.",
+  "features": [
+    {
+      "l": "≈7,200 m² · 4.5 rai",
+      "i": "plot"
+    },
+    {
+      "l": "Five Sisters Islands panorama",
+      "i": "view"
+    },
+    {
+      "l": "West-facing · sunset views",
+      "i": "sun"
+    },
+    {
+      "l": "Designed 4-villa estate masterplan",
+      "i": "home"
+    },
+    {
+      "l": "Two-phase layout & main gate",
+      "i": "building"
+    },
+    {
+      "l": "Concrete access road",
+      "i": "car"
+    },
+    {
+      "l": "Underground electricity",
+      "i": "bolt"
+    },
+    {
+      "l": "Full service corridor in place",
+      "i": "shield"
+    },
+    {
+      "l": "Elevated, uninterrupted sightlines",
+      "i": "mountain"
+    },
+    {
+      "l": "Tranquil Taling Ngam coast",
+      "i": "waves"
+    },
+    {
+      "l": "Ready to build",
+      "i": "sparkles"
+    },
+    {
+      "l": "Freehold",
+      "i": "key"
+    }
+  ]
+}

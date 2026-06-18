@@ -1,0 +1,64 @@
+{
+  "id": "r-samui-five-islands-pavilion",
+  "image": "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/taling-ngam/the-headland-villa-2/overview/theheadlandvilla2_02_poolview.webp",
+  "gallery": [
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/taling-ngam/the-headland-villa-2/overview/theheadlandvilla2_02_poolview.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/taling-ngam/the-headland-villa-2/new-overview/theheadlandvilla2_22_sunset.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/taling-ngam/the-headland-villa-2/new-overview/theheadlandvilla2_03_exteriors.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/taling-ngam/the-headland-villa-2/new-overview/theheadlandvilla2_21_poolarea.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/taling-ngam/the-headland-villa-2/new-overview/theheadlandvilla2_05_living.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/taling-ngam/the-headland-villa-2/new-overview/theheadlandvilla2_04_diningarea.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/taling-ngam/the-headland-villa-2/new-overview/theheadlandvilla2_07_kitchen.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/taling-ngam/the-headland-villa-2/new-overview/theheadlandvilla2_08_masterbedroom.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/taling-ngam/the-headland-villa-2/new-overview/theheadlandvilla2_14_bedroom3.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/taling-ngam/the-headland-villa-2/new-overview/theheadlandvilla2_17_mezzanine.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/taling-ngam/the-headland-villa-2/new-overview/theheadlandvilla2_20_outdoordining.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/taling-ngam/the-headland-villa-2/new-overview/theheadlandvilla2_26_evening.webp"
+  ],
+  "location": "Taling Ngam · Koh Samui · Thailand",
+  "place": "Taling Ngam, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.4525,99.9486",
+  "title": "Five-Islands-View Pavilion Villa, Taling Ngam",
+  "view": [
+    "Sea View",
+    "Beachfront"
+  ],
+  "beds": 4,
+  "bedsLabel": "1–4",
+  "guests": 8,
+  "guestsLabel": "8",
+  "occupancy": "up to 8 guests",
+  "size": "Two pavilions",
+  "nightlyNum": 550,
+  "nightly": "$550",
+  "note": "Breakfast & staff included",
+  "sleeps": "up to 8 guests · 1–4 bedrooms",
+  "blurb": "A minimalist two-pavilion villa on the quiet south-west coast, framing 180-degree views of the Five Islands and Ang Thong Marine Park — folding glass walls, a 7.3-metre infinity pool, a shady Banyan tree and direct beach access for unforgettable sunsets.",
+  "detail": "One of five villas within The Headlands, this private four-bedroom escape blends seamlessly with the tropical nature around it — unmatched in privacy, minimalist luxury and breathtaking sea views. Designed across two levels and two pavilions, it faces the famous Five Islands and Ang Thong National Marine Park, making it a magical backdrop for vibrant sunsets, and is equally suited to honeymooners or families with children.\n\nThe pavilions hold four en-suite bedrooms in signature neutral tones, a large open-plan living and dining area and a fully equipped kitchen, with the folding glass doors opening both pavilions to the cool sea breeze and an effortless indoor-outdoor flow. Lounge areas abound — a circular sofa on the upper terrace, a sun deck and atrium, a lower lounge for napping in the sun, and a 7.3-metre infinity pool with a traditional Thai massage spot on the deck beside it, all shaded by a magnificent Banyan tree.\n\nDirect beach access leads to a quiet shore for snorkelling and kayaking, with a jetty nearby for sunset and the InterContinental resort just along the coast for dining. The villa is fully staffed with a villa manager (and chef on request), with a welcome drink, daily breakfast, return airport transfers and beachside restaurant shuttles included.",
+  "features": [
+    {
+      "l": "7.3 m infinity pool & massage deck",
+      "i": "pool"
+    },
+    {
+      "l": "180° Five Islands & Marine Park views",
+      "i": "view"
+    },
+    {
+      "l": "Folding-glass twin pavilions",
+      "i": "home"
+    },
+    {
+      "l": "Direct beach access",
+      "i": "waves"
+    },
+    {
+      "l": "Shaded by a grand Banyan tree",
+      "i": "tree"
+    },
+    {
+      "l": "Up to 4 bedrooms · breakfast & staff",
+      "i": "users"
+    }
+  ]
+}

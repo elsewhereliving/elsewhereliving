@@ -1,0 +1,57 @@
+{
+  "id": "r-samui-headland-sunken-sala-bophut",
+  "image": "https://d24qm9hzk3dxrt.cloudfront.net/properties/83255236/83255236_01-upper_view-1.webp",
+  "gallery": [
+    "https://d24qm9hzk3dxrt.cloudfront.net/properties/83255236/83255236_01-upper_view-1.webp",
+    "https://d24qm9hzk3dxrt.cloudfront.net/properties/83255236/83255236_02-aerial-8.webp",
+    "https://d24qm9hzk3dxrt.cloudfront.net/properties/83255236/83255236_07-swimming_pool-6.webp",
+    "https://d24qm9hzk3dxrt.cloudfront.net/properties/83255236/83255236_05-Cosy-sunken-pavilion-sala.webp",
+    "https://d24qm9hzk3dxrt.cloudfront.net/properties/83255236/83255236_13-Romantic-sun-deck-at-dusk.webp",
+    "https://d24qm9hzk3dxrt.cloudfront.net/properties/83255236/83255236_33-upper_living_room-1.webp"
+  ],
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bo Phut, Ko Samui District, Surat Thani 84320, Thailand",
+  "mapQuery": "9.5755,100.0640",
+  "title": "Bophut Hilltop Villa with Horizon Infinity Pool",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 9,
+  "bedsLabel": "9",
+  "guests": 20,
+  "guestsLabel": "20",
+  "occupancy": "up to 20 adults + children",
+  "size": "2,180 m²",
+  "nightlyNum": 2800,
+  "nightly": "$2,800",
+  "note": "Private chef & breakfast included",
+  "sleeps": "up to 20 guests · 9 bedrooms",
+  "blurb": "A modern nine-bedroom retreat set high on Koh Samui's northernmost headland above Tongson Bay — open-plan living that dissolves into an infinity pool and sun deck, a circular sunken sala set within a shallow pool, and breathtaking sunrises and sunsets over the northeast coast.",
+  "detail": "At the exclusive northernmost point of Koh Samui stands an elegant modern retreat, raised high above Tongson Bay with sweeping views over the island's northeast coast — a rare aspect that catches both Samui's famous sunrises and its sunsets. Open-plan volumes link indoor and outdoor living effortlessly, opening onto a breezy terrace, an infinity pool and a sun deck dressed with semi-submerged sunbeds, double daybeds and oversized umbrellas.\n\nThe signature gesture is a distinctive circular sunken seating sala set within a shallow pool at the terrace edge — the ideal spot for sunset drinks, games or quiet ocean-gazing — set beside a circular decorative helipad deck conceived for sunset events and photographs (ornamental, not an operational landing pad). Outdoor dining sits beneath a cantilevered canopy at a sixteen-seat table with its own service bar and lounge, while the open-plan living and dining room pairs sleek interiors with a 90-inch screen and a handcrafted table for ten.\n\nNine en-suite bedrooms across three floors — seven original suites plus two newer additions and a dedicated children's room — host up to twenty adults and a child. Exclusive amenities run deep: a private cinema, an adults' games lounge with open bar, a fully equipped gym, a sea-view sauna for four, an ice bath, an in-villa massage bed and an outdoor space for Muay Thai or yoga over the sea — all underpinned by full backup power and a resident manager, private chef and housekeeping, fifteen minutes from the airport and a short walk to Thong Sai Beach.",
+  "features": [
+    {
+      "l": "Infinity pool & sun deck",
+      "i": "pool"
+    },
+    {
+      "l": "Sunken sala & decorative helipad",
+      "i": "sofa"
+    },
+    {
+      "l": "Sunrise & sunset sea views",
+      "i": "view"
+    },
+    {
+      "l": "Private cinema & games lounge",
+      "i": "music"
+    },
+    {
+      "l": "Gym, sea-view sauna & ice bath",
+      "i": "gym"
+    },
+    {
+      "l": "9 bedrooms · chef & breakfast",
+      "i": "users"
+    }
+  ]
+}

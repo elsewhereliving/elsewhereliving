@@ -1,0 +1,19 @@
+---
+import Base from "../layouts/Base.astro";
+import Label from "../components/Label.astro";
+---
+<Base title="Not Found | Elsewhere Living" description="That page has wandered off elsewhere." transparentNav={false}>
+  <section style="background:var(--navy); min-height:80vh; display:flex; align-items:center;">
+    <div class="shell" style="text-align:center; max-width:640px;">
+      <Label onDark>Lost</Label>
+      <h1 class="ew-display" style="color:var(--white); margin:18px 0 0;">404</h1>
+      <p class="ew-lead" style="color:var(--text-on-dark-mut); margin:18px auto 34px; max-width:420px;">
+        This page has wandered off somewhere else. Let's get you back.
+      </p>
+      <div style="display:flex; gap:14px; justify-content:center; flex-wrap:wrap;">
+        <a class="ew-btn" href="/" style="background:var(--butter); color:var(--navy); border:1.25px solid var(--butter); border-radius:999px; padding:1.05em 2.2em; font-family:var(--font-sans); font-size:12.5px; letter-spacing:0.14em; text-transform:uppercase;">Home</a>
+        <a class="ew-btn" href="/properties/" style="background:transparent; color:var(--white); border:1.25px solid var(--border-on-dark); border-radius:999px; padding:1.05em 2.2em; font-family:var(--font-sans); font-size:12.5px; letter-spacing:0.14em; text-transform:uppercase;">Browse Properties</a>
+      </div>
+    </div>
+  </section>
+</Base>

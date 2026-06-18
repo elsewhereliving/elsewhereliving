@@ -1,0 +1,83 @@
+{
+  "id": "vela-viento-dubai",
+  "image": "/assets/listings/vela-viento-dubai/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/vela-viento-dubai/ext-001.jpg",
+    "/assets/listings/vela-viento-dubai/ext-002.jpg",
+    "/assets/listings/vela-viento-dubai/ext-003.jpg",
+    "/assets/listings/vela-viento-dubai/ext-004.jpg",
+    "/assets/listings/vela-viento-dubai/ext-005.jpg"
+  ],
+  "location": "Downtown · Dubai · UAE",
+  "place": "VELA Viento, Marasi Bay, Burj Khalifa District, Dubai, UAE",
+  "mapQuery": "25.1856887,55.2742299",
+  "market": "Dubai",
+  "title": "VELA Viento — Dorchester Collection Residence",
+  "type": "Condominium",
+  "view": [
+    "Waterfront",
+    "City View"
+  ],
+  "status": "Off-Plan",
+  "beds": 3,
+  "baths": 5,
+  "interior": "498 m²",
+  "plot": null,
+  "year": null,
+  "priceNum": 0,
+  "price": "Price on request",
+  "added": 28,
+  "ownership": "Freehold",
+  "blurb": "A three-bedroom residence at VELA Viento, Dorchester Collection — rising 180 m above Marasi Bay in the Burj Khalifa District, with Foster + Partners architecture, Gilles & Boissier interiors and Dorchester Collection service.",
+  "detail": "VELA Viento, Dorchester Collection, Dubai ascends to celestial heights above Marasi Bay in the Burj Khalifa District, where land and water converge into a lifestyle without compare. Crafted by OMNIYAT, it merges the architectural mastery of Foster + Partners, the refined interiors of Gilles & Boissier, and the timeless hospitality of Dorchester Collection — rising from the canal to a soaring 180 metres.\n\nThe fully furnished residences are designed for seamless indoor-outdoor living with generous proportions, framing panoramic views of Marasi Bay, Burj Khalifa and Downtown Dubai. Every amenity — from skyline pools and private lounges to dedicated fitness suites and spa sanctuaries — has been shaped by comfort and considered luxury.\n\nThis three-bedroom residence is crafted for those who value expansive living and elevated design. Flowing layouts and generous proportions give a sense of volume and grace; floor-to-ceiling windows invite natural light to move through the space, while multiple terraces provide open-air moments framed by striking views of Marasi Bay. Each bedroom is a private haven, thoughtfully positioned for comfort and seclusion, while the living areas are designed to gather, entertain and inspire.",
+  "features": [
+    {
+      "l": "Dorchester Collection service",
+      "i": "sparkles"
+    },
+    {
+      "l": "Foster + Partners architecture",
+      "i": "building"
+    },
+    {
+      "l": "Gilles & Boissier interiors",
+      "i": "home"
+    },
+    {
+      "l": "Marasi Bay & Burj Khalifa views",
+      "i": "view"
+    },
+    {
+      "l": "180 m waterfront tower",
+      "i": "waves"
+    },
+    {
+      "l": "Fully furnished, floor-to-ceiling glass",
+      "i": "sofa"
+    },
+    {
+      "l": "Multiple private terraces",
+      "i": "terrace"
+    },
+    {
+      "l": "Skyline pools & spa sanctuary",
+      "i": "pool"
+    },
+    {
+      "l": "Dedicated fitness suites",
+      "i": "gym"
+    },
+    {
+      "l": "Private lounges",
+      "i": "users"
+    },
+    {
+      "l": "Gated waterfront community",
+      "i": "shield"
+    },
+    {
+      "l": "Secure parking & garage",
+      "i": "car"
+    }
+  ]
+}

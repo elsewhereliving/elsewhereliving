@@ -1,0 +1,63 @@
+{
+  "id": "r-samui-three-pavilion",
+  "image": "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bang-por/villa-neung/overview/villaneung_bangpor_samui_01_pool.webp",
+  "gallery": [
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bang-por/villa-neung/overview/villaneung_bangpor_samui_01_pool.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bang-por/villa-neung/overview/villaneung_bangpor_samui_17_drone.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bang-por/villa-neung/overview/villaneung_bangpor_samui_02_pool.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bang-por/villa-neung/overview/villaneung_bangpor_samui_15_pool.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bang-por/villa-neung/overview/villaneung_bangpor_samui_03_opendining.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bang-por/villa-neung/overview/villaneung_bangpor_samui_05_livingarea.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bang-por/villa-neung/overview/villaneung_bangpor_samui_04_kitchen.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bang-por/villa-neung/overview/villaneung_bangpor_samui_06_bedroom1.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bang-por/villa-neung/overview/villaneung_bangpor_samui_10_bedroom3.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bang-por/villa-neung/overview/villaneung_bangpor_samui_12_bathroom1.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bang-por/villa-neung/overview/villaneung_bangpor_samui_18_drone.webp"
+  ],
+  "location": "Bang Por · Koh Samui · Thailand",
+  "place": "Laem Noi Beach, Bang Por, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5694,99.9281",
+  "title": "Three-Pavilion Beachfront Villa, Bang Por",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 3,
+  "bedsLabel": "2–3",
+  "guests": 8,
+  "guestsLabel": "8",
+  "occupancy": "up to 6 adults + child",
+  "size": "772 m²",
+  "nightlyNum": 645,
+  "nightly": "$645",
+  "note": "Two staff & breakfast included",
+  "sleeps": "up to 8 guests · 2–3 bedrooms",
+  "blurb": "A serene single-storey beachfront villa composed as three minimalist pavilions on the golden sand of Laem Noi, Bang Por — set in a hidden bay beside the Four Seasons and the season-three White Lotus filming site, with a 14-metre saltwater infinity pool over the sea.",
+  "detail": "Nestled in a hidden bay on Koh Samui's quiet north shore — right next to the filming site of The White Lotus season three and the Four Seasons Resort — this elegant modern villa is secreted away from the hustle yet close to nearby amenities. The striking single-floor property is composed as three separate pavilions, comfortably accommodating up to six adults and a child across its three bedrooms, surrounded by lush tropical forest and rustling palms with breathtaking views of a neighbouring island.\n\nContemporary design keeps simplicity at its core: an open living area flows to an indoor dining space and open kitchen, opening out to a sun deck, an outdoor dining area with BBQ, and a seating area by the pool. The 14-metre salt-water infinity pool is ringed by eight sun-loungers with a shallow kid-friendly end, set right on the soft, tranquil sands of Laem Noi Beach — step straight from the deck to the sea, or take the two-person kayak out along the coast toward Nikki Beach and the Four Seasons.\n\nThe villa sits within a small, secure estate of five beachside villas with a guarded entrance, 24-hour CCTV and safety deposit boxes. Each bedroom is en-suite and air-conditioned, with a 75-inch Smart TV, sound system and high-speed WiFi throughout. Two staff are permanently on-site with daily breakfast included, and a private chef, yoga and tailored tours can be arranged on request.",
+  "features": [
+    {
+      "l": "14 m beachfront saltwater pool",
+      "i": "pool"
+    },
+    {
+      "l": "Single-storey three-pavilion design",
+      "i": "home"
+    },
+    {
+      "l": "On the sand at Laem Noi Beach",
+      "i": "waves"
+    },
+    {
+      "l": "Beside Four Seasons & White Lotus bay",
+      "i": "sparkles"
+    },
+    {
+      "l": "Two-person kayak & sun deck",
+      "i": "view"
+    },
+    {
+      "l": "3 en-suite bedrooms · breakfast & staff",
+      "i": "users"
+    }
+  ]
+}

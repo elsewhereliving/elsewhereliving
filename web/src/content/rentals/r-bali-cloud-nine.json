@@ -1,0 +1,57 @@
+{
+  "id": "r-bali-cloud-nine",
+  "image": "https://images.squarespace-cdn.com/content/v1/699fdbec86043e3b8f012816/10429dc1-4936-4ffa-bff7-ce0cc9d2d449/CloudNineUngasan_Bali_03_Pool.jpg",
+  "gallery": [
+    "https://images.squarespace-cdn.com/content/v1/699fdbec86043e3b8f012816/10429dc1-4936-4ffa-bff7-ce0cc9d2d449/CloudNineUngasan_Bali_03_Pool.jpg",
+    "https://images.squarespace-cdn.com/content/v1/699fdbec86043e3b8f012816/6f775166-7a0a-414a-930b-0e958855357f/CloudNineUngasan_Bali_01_EveningExterior.jpg",
+    "https://images.squarespace-cdn.com/content/v1/699fdbec86043e3b8f012816/b624cb4b-a700-4496-a477-fa7201a29031/CloudNineUngasan_Bali_20_Jacuzzi.jpg",
+    "https://images.squarespace-cdn.com/content/v1/699fdbec86043e3b8f012816/ebca26e9-d1cd-47ca-962c-95af7c2d8ecb/CloudNineUngasan_Bali_24_PoolTable.jpg",
+    "https://images.squarespace-cdn.com/content/v1/699fdbec86043e3b8f012816/6aa9596b-4b16-4d27-9861-129fb9139b99/CloudNineUngasan_Bali_25_OutdoorDining.jpg"
+  ],
+  "location": "Uluwatu · Bali · Indonesia",
+  "place": "Jl. Karma Kandara, Ungasan, Kuta Selatan, Badung, Bali, Indonesia",
+  "mapQuery": "-8.8476,115.1567",
+  "title": "Cloud Nine Ungasan — Clifftop Wellness Villa, Uluwatu",
+  "view": [
+    "Sea View",
+    "Garden / Pool View"
+  ],
+  "beds": 5,
+  "bedsLabel": "5",
+  "guests": 10,
+  "guestsLabel": "10",
+  "occupancy": "up to 10 guests",
+  "size": "1,600 m²",
+  "nightlyNum": 1603,
+  "nightly": "$1,603",
+  "note": "Fully staffed · butler & chef",
+  "sleeps": "10 guests · 5 bedrooms",
+  "blurb": "A newly built five-bedroom clifftop villa high on the Bukit Peninsula in Ungasan — three floors linked by a private glass elevator, a 20-metre pool, a sauna-and-ice-bath pavilion, rooftop hot tub, gym and yoga deck, fully staffed with a private chef and butlers.",
+  "detail": "Perched high on the cliffs of Uluwatu in Ungasan, Cloud Nine Ungasan is a newly built, fully-staffed five-bedroom villa designed for up to ten guests — a refuge where the stay itself becomes the destination. Set across 1,600 m² of lush hillside at the southernmost point of the Bukit Peninsula, it offers a quieter side of Bali while staying close to the island's best-known spots: Melasti Beach is nearby, Garuda Wisnu Kencana is 5.8 km away, and Uluwatu Temple a 9 km drive.\n\nSpread across three floors and connected by a private glass elevator, the villa is built to give groups room to gather and room to breathe. Wellness is taken seriously: a 20-metre pool, a private sauna and ice-bath pavilion, a massage room, an air-conditioned gym, and an open-air yoga and meditation deck. Open-plan living and dining areas balance high ceilings, cool interiors and easy indoor-outdoor flow, with details that nod to local tradition — a Ramayana carving and a thatched-roof wellness pavilion.\n\nFor social moments, there's an indoor bar, a projector and retractable screen, a billiards table, a pizza oven and a wood-fired BBQ grill. The five en-suite bedrooms include a ground-floor king suite with terrace and swing chairs over the pool, three guest bedrooms on the second floor, and a top-floor primary with a private balcony and outdoor hot tub. Fully staffed with a villa manager, private chef, gardeners and butlers, Cloud Nine can also host private celebrations for up to 50 guests.",
+  "features": [
+    {
+      "l": "20 m clifftop pool",
+      "i": "pool"
+    },
+    {
+      "l": "Sauna & ice-bath pavilion",
+      "i": "sparkles"
+    },
+    {
+      "l": "Rooftop hot tub & bar",
+      "i": "waves"
+    },
+    {
+      "l": "Gym & open-air yoga deck",
+      "i": "gym"
+    },
+    {
+      "l": "Billiards, projector & pizza oven",
+      "i": "music"
+    },
+    {
+      "l": "5 en-suite bedrooms · butler & chef",
+      "i": "users"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "samujana-gulf-view-villa",
+  "image": "/assets/listings/samujana-villa-27/01.jpg",
+  "gallery": [
+    "/assets/listings/samujana-villa-27/01.jpg",
+    "/assets/listings/samujana-villa-27/02.jpg",
+    "/assets/listings/samujana-villa-27/03.jpg",
+    "/assets/listings/samujana-villa-27/04.jpg",
+    "/assets/listings/samujana-villa-27/05.jpg",
+    "/assets/listings/samujana-villa-27/06.jpg",
+    "/assets/listings/samujana-villa-27/07.jpg"
+  ],
+  "location": "Choeng Mon · Koh Samui · Thailand",
+  "place": "Choeng Mon, Koh Samui, Thailand",
+  "mapQuery": "9.561773,100.085597",
+  "market": "Koh Samui",
+  "title": "Panoramic Gulf-View Hilltop Villa",
+  "type": "Villa",
+  "view": "Sea View",
+  "status": "Move-In Ready",
+  "beds": 4,
+  "baths": 6,
+  "interior": "891 m²",
+  "plot": "1,511 m²",
+  "year": null,
+  "priceNum": 2600000,
+  "price": "$2,600,000",
+  "added": 26,
+  "ownership": "Leasehold",
+  "blurb": "Perched at one of the highest points of a prestigious gated hilltop estate, a four-bedroom villa with sweeping southern and western views across the Gulf of Thailand — an infinity pool, two kitchens, a private gym and an oversized interior garden.",
+  "detail": "Perched at one of the highest vantage points within a prestigious gated hilltop estate, this villa offers a rarefied blend of elevation, privacy and sweeping views across the Gulf of Thailand — from sunrise reflections on the sea to glowing island sunsets. A hidden sanctuary carved into the hillside, it sits just minutes from Koh Samui's beaches and dining yet feels worlds away, with full privacy, gentle sea breezes and cinematic skies at dusk.\n\nBuilt around an oversized central interior garden — a rare feature on the estate — the villa wraps around its natural surroundings with balance and grace. Spacious open-plan living areas flow out to shaded terraces, sun decks and a spectacular 5.4 × 14 m infinity-edge pool designed for laps, lounging or lively gatherings. Two fully equipped kitchens cater to both family life and elegant entertaining, from casual BBQs to private-chef dinners.\n\nEach of the four oversized bedrooms is a personal retreat with natural light and an en-suite bathroom; the master adds an indulgent oversized bathtub and rain shower framed by the view, with six bathrooms in total and two maids' rooms for seamless service. Part of a gated community known for architectural distinction and five-star service, the villa is a short drive from Samui International Airport, Chaweng Beach and the island's elite beach clubs.",
+  "features": [
+    {
+      "l": "5.4 × 14 m infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic southern & western Gulf views",
+      "i": "view"
+    },
+    {
+      "l": "Elevated, ultra-private position",
+      "i": "mountain"
+    },
+    {
+      "l": "Four oversized en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Two fully-equipped kitchens",
+      "i": "utensils"
+    },
+    {
+      "l": "Oversized central interior garden",
+      "i": "tree"
+    },
+    {
+      "l": "Private gym & wellness space",
+      "i": "gym"
+    },
+    {
+      "l": "Indoor & outdoor lounges",
+      "i": "sofa"
+    },
+    {
+      "l": "Integrated villa sound system",
+      "i": "music"
+    },
+    {
+      "l": "Two maids' rooms & parking",
+      "i": "users"
+    },
+    {
+      "l": "Gated estate · 24/7 security",
+      "i": "shield"
+    },
+    {
+      "l": "Five-star estate service",
+      "i": "sparkles"
+    }
+  ]
+}

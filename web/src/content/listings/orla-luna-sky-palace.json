@@ -1,0 +1,83 @@
+{
+  "id": "orla-luna-sky-palace",
+  "image": "/assets/listings/orla-luna-sky-palace/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/orla-luna-sky-palace/ext-001.jpg",
+    "/assets/listings/orla-luna-sky-palace/ext-002.jpg",
+    "/assets/listings/orla-luna-sky-palace/ext-003.jpg",
+    "/assets/listings/orla-luna-sky-palace/ext-004.jpg",
+    "/assets/listings/orla-luna-sky-palace/ext-005.jpg"
+  ],
+  "location": "Palm Jumeirah · Dubai · UAE",
+  "place": "ORLA, Dorchester Collection, Palm Jumeirah, Dubai, UAE",
+  "mapQuery": "25.1231958,55.1121864",
+  "market": "Dubai",
+  "title": "Luna Sky Palace at ORLA, Dorchester Collection",
+  "type": "Condominium",
+  "view": [
+    "Waterfront",
+    "Sea View"
+  ],
+  "status": "Off-Plan",
+  "beds": 5,
+  "baths": 9,
+  "interior": "5,432 m²",
+  "plot": null,
+  "year": null,
+  "priceNum": 0,
+  "price": "Price on request",
+  "added": 30,
+  "ownership": "Freehold",
+  "blurb": "A 58,470 sq ft tri-level sky palace atop ORLA, Dorchester Collection on Palm Jumeirah — a wellness spa, double-height living, a private ten-car gallery and a 36-metre rooftop infinity pool with a sky garden.",
+  "detail": "Crafted by visionaries, for visionaries, Luna Sky Palace is a 58,470 sq ft palace on Dubai's world-renowned Palm Jumeirah. Complete with an exclusive wellness spa, sumptuous double-height living spaces and a private ten-car gallery, it extends over three levels — culminating in a breathtaking sky-garden rooftop with an entertainment zone, sunset lounge, jacuzzi and an awe-inspiring 36-metre infinity pool.\n\nA grand arrival experience awaits on the lobby level, with direct lift access, valet parking, a private basement lounge and lobby lounge with a private office for assistants. The grand hall opens to living, dining and bar areas plus a formal living room with double-height ceilings, all framed by floor-to-ceiling windows capturing the beach, sea and Dubai skyline. The master suite is a haven of luxury with his & hers walk-in closets, while the upper level holds a family living and media room and a sophisticated home office.\n\nAs a residence of ORLA, Dorchester Collection — a beachfront masterpiece by OMNIYAT — owners enjoy a resident-only beach club, two private cinemas, cigar lounges, a fitness suite, indoor children's areas, a bowling alley and entertainment lounges. Part of the OMNIYAT Bespoke collection, Luna Sky Palace sets a new standard for life on the Palm.",
+  "features": [
+    {
+      "l": "36 m rooftop infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Tri-level, 58,470 sq ft palace",
+      "i": "building"
+    },
+    {
+      "l": "Sky-garden rooftop & sunset lounge",
+      "i": "view"
+    },
+    {
+      "l": "Private ten-car gallery",
+      "i": "car"
+    },
+    {
+      "l": "Wellness spa, sauna & steam",
+      "i": "sparkles"
+    },
+    {
+      "l": "Double-height living & bar",
+      "i": "sofa"
+    },
+    {
+      "l": "Direct private lift access",
+      "i": "key"
+    },
+    {
+      "l": "Resident beach club & two cinemas",
+      "i": "users"
+    },
+    {
+      "l": "Master with his & hers closets",
+      "i": "bed"
+    },
+    {
+      "l": "ORLA, Dorchester Collection",
+      "i": "shield"
+    },
+    {
+      "l": "OMNIYAT Bespoke collection",
+      "i": "sparkles"
+    },
+    {
+      "l": "Palm Jumeirah beachfront",
+      "i": "waves"
+    }
+  ]
+}

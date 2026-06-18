@@ -1,0 +1,85 @@
+{
+  "id": "chaweng-hillside-seaview-land",
+  "image": "/assets/listings/chaweng-seaview-land/01.jpg",
+  "gallery": [
+    "/assets/listings/chaweng-seaview-land/01.jpg",
+    "/assets/listings/chaweng-seaview-land/02.jpg",
+    "/assets/listings/chaweng-seaview-land/03.jpg",
+    "/assets/listings/chaweng-seaview-land/04.jpg",
+    "/assets/listings/chaweng-seaview-land/05.jpg",
+    "/assets/listings/chaweng-seaview-land/06.jpg"
+  ],
+  "location": "Chaweng · Koh Samui · Thailand",
+  "place": "Chaweng Hills, Bo Phut, Ko Samui District, Surat Thani 84320, Thailand",
+  "mapQuery": "9.5226,100.0328",
+  "market": "Koh Samui",
+  "title": "Elevated Chaweng Hillside Plot with 115m Sea-View Frontage",
+  "type": "Land",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 0,
+  "baths": 0,
+  "interior": "—",
+  "plot": "3,687.6 m²",
+  "year": null,
+  "priceNum": 604129,
+  "price": "$604,129",
+  "priceOriginal": "฿19,900,000",
+  "priceCurrency": "THB",
+  "added": 1,
+  "ownership": "Freehold",
+  "blurb": "An elevated 2-1-21.9 rai (3,687.6 m²) hillside plot above Chaweng with a wide 115-metre sea-view frontage, framing a sweeping panorama over Chaweng Lake, the bay and the Gulf of Thailand. Set among established contemporary pool villas with road access in place — a ready canvas for a sea-view villa or a small boutique development.",
+  "detail": "An elevated hillside plot in the Chaweng hills, measuring 2-1-21.9 rai (3,687.6 m²), with an unusually generous 115-metre-wide frontage oriented to the view. From this vantage the land opens to a sweeping panorama over Chaweng Lake, the long curve of Chaweng Bay and the Gulf of Thailand beyond — a north-east aspect that captures both the water and the island's green interior.\n\nThe plot sits within an established pocket of contemporary sea-view pool villas, with a sealed road reaching the boundary and utilities running to the neighbouring homes, reducing the cost and complexity of development. The gentle hillside gradient lends itself to a layered, stepped design — ideal for a single signature sea-view residence, or a small cluster of villas that each frame the bay.\n\nThe position keeps the land private and elevated yet close to everything Chaweng offers: a short drive down to Chaweng Beach and its restaurants, beach clubs and nightlife, with Central Festival mall nearby and Samui International Airport roughly fifteen minutes away. Offered freehold.",
+  "features": [
+    {
+      "l": "3,687.6 m² · 2-1-21.9 rai",
+      "i": "plot"
+    },
+    {
+      "l": "115 m wide sea-view frontage",
+      "i": "view"
+    },
+    {
+      "l": "Panorama over Chaweng Lake & bay",
+      "i": "waves"
+    },
+    {
+      "l": "Elevated Chaweng hillside",
+      "i": "mountain"
+    },
+    {
+      "l": "Sealed road access to boundary",
+      "i": "road"
+    },
+    {
+      "l": "Among established pool villas",
+      "i": "home"
+    },
+    {
+      "l": "Suits a villa or boutique development",
+      "i": "building"
+    },
+    {
+      "l": "Utilities at the boundary",
+      "i": "sparkles"
+    },
+    {
+      "l": "Minutes to Chaweng Beach",
+      "i": "terrace"
+    },
+    {
+      "l": "~15 min to Samui Airport",
+      "i": "car"
+    },
+    {
+      "l": "Freehold title",
+      "i": "shield"
+    },
+    {
+      "l": "North-east sea & sunrise aspect",
+      "i": "sun"
+    }
+  ]
+}

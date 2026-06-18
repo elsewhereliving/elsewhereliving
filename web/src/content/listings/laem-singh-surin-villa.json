@@ -1,0 +1,100 @@
+{
+  "id": "laem-singh-surin-villa",
+  "image": "/assets/listings/surin-villa/01-sea-twin-roof.jpg",
+  "gallery": [
+    "/assets/listings/surin-villa/01-sea-twin-roof.jpg",
+    "/assets/listings/surin-villa/02-pool-sea.jpg",
+    "/assets/listings/surin-villa/03-pool-ocean.jpg",
+    "/assets/listings/surin-villa/04-infinity-pool.jpg",
+    "/assets/listings/surin-villa/05-sala-pool.jpg",
+    "/assets/listings/surin-villa/06-deck-sea.jpg",
+    "/assets/listings/surin-villa/07-sunset-deck.jpg",
+    "/assets/listings/surin-villa/08-headland-drone.jpg",
+    "/assets/listings/surin-villa/09-living-room.jpg",
+    "/assets/listings/surin-villa/10-living-room-2.jpg",
+    "/assets/listings/surin-villa/11-bar-terrace.jpg",
+    "/assets/listings/surin-villa/12-pool-lounge.jpg",
+    "/assets/listings/surin-villa/13-master-bedroom.jpg",
+    "/assets/listings/surin-villa/14-master-bedroom-2.jpg",
+    "/assets/listings/surin-villa/15-master-balcony.jpg",
+    "/assets/listings/surin-villa/16-master-bath.jpg",
+    "/assets/listings/surin-villa/17-master-bath-2.jpg",
+    "/assets/listings/surin-villa/18-bedroom-2.jpg",
+    "/assets/listings/surin-villa/19-bedroom-2-bath.jpg",
+    "/assets/listings/surin-villa/20-bedroom-3.jpg",
+    "/assets/listings/surin-villa/21-bedroom-4.jpg",
+    "/assets/listings/surin-villa/22-bedroom-4-2.jpg",
+    "/assets/listings/surin-villa/23-entrance.jpg"
+  ],
+  "location": "Surin · Phuket · Thailand",
+  "place": "Surin, Choeng Thale, Thalang, Phuket, Thailand",
+  "mapQuery": "7.970809,98.278020",
+  "market": "Phuket",
+  "title": "Boutique Sea-View Villa at Surin",
+  "type": "Villa",
+  "view": "Sea View",
+  "status": "Move-In Ready",
+  "beds": 4,
+  "baths": 4,
+  "interior": "500 m²",
+  "plot": "550 m²",
+  "year": null,
+  "priceNum": 5012139,
+  "price": "$5,012,139",
+  "priceOriginal": "฿165,000,000",
+  "priceCurrency": "THB",
+  "added": 22,
+  "ownership": "Freehold",
+  "blurb": "One of only five villas in a secure private estate above Surin Bay — a contemporary modern-Thai boutique villa over three levels, with an 18-metre L-shaped infinity pool, a sala, and sweeping views across Surin's white sands and azure water.",
+  "detail": "One of just five exclusively designed villas in a secure private development on Phuket's north-west coast, overlooking Surin Bay with its white sandy shores, lush landscape and azure waters — the perfect tropical retreat for rest and rejuvenation. The villa is set on a 550 m² plot with a further 500 m² of terracing, gardens and balconies, with accommodation laid out across three levels for comfortable, exclusive living.\n\nDecoration and design are contemporary modern Thai: living spaces blend solid wood and terrazzo flooring, while black fired-slate is used extensively through the bathrooms. The main living and dining room shares the magnificent view of Surin bay and beach, with several terraces and balconies leading off it for al-fresco dining and sundowners. All four bedrooms are air-conditioned and come with en-suite bathrooms.\n\nThe terraced outdoor areas feature a pond and an 18-metre L-shaped infinity pool, with a sala for relaxing or enjoying an outdoor massage. Tucked between Kamala and Bang Tao, Surin offers a calm, upscale beach lifestyle — soft sand and clear water moments away, with boutique dining, beach clubs, international schools and Bang Tao's Boat Avenue and Porto de Phuket all within easy reach.",
+  "features": [
+    {
+      "l": "18 m L-shaped infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Surin Bay & beach views",
+      "i": "view"
+    },
+    {
+      "l": "One of only 5 villas in the estate",
+      "i": "sparkles"
+    },
+    {
+      "l": "4 air-conditioned en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Contemporary modern-Thai design",
+      "i": "home"
+    },
+    {
+      "l": "Solid wood & terrazzo floors",
+      "i": "terrace"
+    },
+    {
+      "l": "Several terraces & balconies",
+      "i": "sofa"
+    },
+    {
+      "l": "Sala for outdoor massage",
+      "i": "tree"
+    },
+    {
+      "l": "Garden & ornamental pond",
+      "i": "waves"
+    },
+    {
+      "l": "Gym & spa",
+      "i": "gym"
+    },
+    {
+      "l": "Private gated estate · 24/7 security",
+      "i": "shield"
+    },
+    {
+      "l": "Freehold ownership",
+      "i": "key"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "r-samui-cliff-cascade",
+  "image": "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-set/l2-residence/overview/l2residence_01_view.webp",
+  "gallery": [
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-set/l2-residence/overview/l2residence_01_view.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-set/l2-residence/overview/l2residence_02_cliffsidevilla.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-set/l2-residence/overview/l2residence_03_villa.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-set/l2-residence/overview/l2residence_17_seaview.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-set/l2-residence/overview/l2residence_04_yogadeck.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-set/l2-residence/overview/l2residence_06_livingarea.png",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-set/l2-residence/overview/l2residence_07_outdoorlounge.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-set/l2-residence/overview/l2residence_21_outdoordining.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-set/l2-residence/overview/l2residence_16_exterior.png",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-set/l2-residence/overview/l2residence_12_bedroom4.png",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-set/l2-residence/overview/l2residence_samui_13_bathroom.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-set/l2-residence/overview/l2residence_samui_16_wetkitchen.webp"
+  ],
+  "location": "Laem Set · Koh Samui · Thailand",
+  "place": "Santikhiri Estate, Na Muang, Laem Set, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.4358,100.0231",
+  "title": "Cliff-Cascade Four-Storey Sea-View Villa, Laem Set",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 4,
+  "bedsLabel": "3–4",
+  "guests": 8,
+  "guestsLabel": "8",
+  "occupancy": "up to 8 guests",
+  "size": "900 m²",
+  "nightlyNum": 520,
+  "nightly": "$520",
+  "note": "Fully staffed · breakfast included",
+  "sleeps": "8 guests · up to 4 bedrooms",
+  "blurb": "An extraordinary four-bedroom villa built into a lush rocky cliff in the exclusive Santikhiri Estate — its living spaces cascade down four storeys of timber decks and stone terraces to a waterfall plunge pool, with a 180-degree view across the Gulf of Siam.",
+  "detail": "Built into a lush hillside in the exclusive Santikhiri Estate, this extraordinary four-bedroom villa commands a breathtaking 180-degree panorama across the Gulf of Siam. The 900 m² property is designed to cascade down toward the ocean, its living spaces following the natural slope of the cliff: a series of timber decks and stone terraces descends over four storeys to a deck with a private plunge pool, a man-made waterfall and sunbeds, while a separate platform doubles as a yoga deck and sunset lounge — every room thoughtfully integrated with the landscape.\n\nThe interiors are seriously chic and entirely un-templated — no two spaces alike. Floor-to-ceiling glass doors invite the outdoors in, and vintage and designer furnishings sit alongside carefully curated artworks for a unique, welcoming atmosphere throughout. Guests share an open-plan living room with a projector for movie nights and a SONOS sound system, a minimalist kitchen, an outdoor bar, an outdoor wet kitchen and an al-fresco dining area for up to eight.\n\nFour stylish en-suite bedrooms each open to a private balcony, with two massage beds and a yoga deck for wellness, and a communal estate pool a short walk up the hill. Fully staffed with a villa manager, housekeeper and handyman, the stay includes a welcome drink and daily breakfast, with a private chef, in-villa spa and tailored tours available on request — a short drive from Lamai Beach and the Kamalaya wellness sanctuary.",
+  "features": [
+    {
+      "l": "Waterfall plunge pool",
+      "i": "pool"
+    },
+    {
+      "l": "Cliff-cascading four-storey design",
+      "i": "home"
+    },
+    {
+      "l": "180° Gulf of Siam views",
+      "i": "view"
+    },
+    {
+      "l": "Yoga deck & two massage beds",
+      "i": "sparkles"
+    },
+    {
+      "l": "Projector cinema & SONOS sound",
+      "i": "music"
+    },
+    {
+      "l": "4 en-suite bedrooms · fully staffed",
+      "i": "users"
+    }
+  ]
+}

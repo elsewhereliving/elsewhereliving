@@ -1,0 +1,70 @@
+{
+  "id": "r-samui-kerem-estate",
+  "image": "https://www.keremvillas.com/app/uploads/2023/12/7c172a232e87c8ff40073625bab293d9.jpg",
+  "gallery": [
+    "https://www.keremvillas.com/app/uploads/2023/11/opti-Kerem_B2_beach-22.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_swimming_pool-9-1.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/sunset-pool-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_terrace-7-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/outside-back-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_living-1-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_dining-1-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Upper_Kerem_living_room-19-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_garden-2-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Pool-furniture-beds-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2025/02/Kerem_breakfast-3.webp",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_terrace-12-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Upper_kerem_villa_entrance-4.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_villa-1.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_beach-16.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_swimming_pool-8.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Bedroom-3-view.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Dining-Table.jpg"
+  ],
+  "location": "Plai Laem · Koh Samui · Thailand",
+  "place": "Plai Laem, Bophut, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5014,99.9956",
+  "title": "Twelve-Bedroom Beachfront Estate, Plai Laem",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 12,
+  "bedsLabel": "12",
+  "guests": 24,
+  "guestsLabel": "24",
+  "occupancy": "up to 24 adults + children",
+  "size": "Four-villa estate",
+  "nightlyNum": 3995,
+  "nightly": "$3,995",
+  "note": "Whole estate · book all four villas",
+  "sleeps": "up to 24 adults · 12 bedrooms",
+  "blurb": "The entire gated estate — four architect-designed villas totalling twelve bedrooms, two beachfront and two elevated for sea views, sharing a private white-sand beach, a full gym and kayaks. Built for weddings, retreats and multi-family gatherings.",
+  "detail": "Take over the whole estate: four brand-new, architect-designed villas in an exclusive gated community on Plai Laem, sharing a private white-sand beach with 24-hour security. Two villas sit directly on the beach with steps to the sand, and two are elevated on the terrace above for sweeping 180-degree sea views — together they hold twelve queen bedrooms (each convertible for extra guests) and comfortably sleep up to 24 adults plus children.\n\nEvery villa has its own full-width infinity pool, a great room with seating for ten, a full kitchen and designer interiors, while the estate shares a fully equipped gym, kayaks on the beach and beautifully landscaped gardens. The scale and layout make it ideal for weddings, corporate retreats, wellness groups and large multi-family holidays — gather everyone together or give each family its own private villa.\n\nThe stay is fully serviced: daily cleaning and turndown, breakfast made to order each morning, complimentary airport transfers, all linens and towers, and an on-demand concierge and personal experience manager to plan activities, restaurants and events. Private chefs, in-villa massage and a low-cost private shuttle are available on request — an effortless, celebratory beachfront takeover on Koh Samui's north-east coast.",
+  "features": [
+    {
+      "l": "Four villas · twelve bedrooms",
+      "i": "building"
+    },
+    {
+      "l": "Private white-sand beach",
+      "i": "waves"
+    },
+    {
+      "l": "Infinity pool at every villa",
+      "i": "pool"
+    },
+    {
+      "l": "Two beachfront + two sea-view villas",
+      "i": "view"
+    },
+    {
+      "l": "Shared gym & kayaks",
+      "i": "gym"
+    },
+    {
+      "l": "Weddings, retreats & events",
+      "i": "users"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+---
+import Base from "../../layouts/Base.astro";
+import Label from "../../components/Label.astro";
+import Badge from "../../components/Badge.astro";
+import Icon from "../../components/Icon.astro";
+import SectionHead from "../../components/SectionHead.astro";
+import RentalCard from "../../components/RentalCard.astro";
+import Map from "../../components/Map.astro";
+import Gallery from "../../components/react/Gallery.tsx";
+import SaveButton from "../../components/react/SaveButton.tsx";
+import EnquiryForm from "../../components/react/EnquiryForm.tsx";
+import { getRentals, getSiteContent } from "../../lib/content";
+import { optImg } from "../../lib/img";
+import { relatedRentals } from "../../lib/related";
+
+const { contact } = getSiteContent();
+import { viewList } from "../../lib/format";
+
+export async function getStaticPaths() {
+  const rentals = await getRentals();
+  return rentals.map((r) => ({ params: { id: r.id }, props: { rental: r } }));
+}
+
+const { rental: r } = Astro.props;
+const all = await getRentals();
+
+// Three other homes by the week (RentalScreen: RENTALS, excluding this one).
+const related = relatedRentals(r, all, 3);
+
+const detail =
+  r.detail ||
+  "Every Elsewhere rental comes fully staffed and ready — housekeeping, a welcome stock, and a local concierge a message away. Tell us your dates and we'll handle transfers, a private chef, and anything else that makes the week effortless.";
+
+// nightlyOriginal / nightlyCurrency may appear in the data (PriceTag tooltip).
+const nightlyOriginal = (r as any).nightlyOriginal as string | undefined;
+const nightlyCurrency = (r as any).nightlyCurrency as string | undefined;
+// RentalScreen: prefix "from " unless the value already starts with "from"/"price".
+const nightlyValue = /^(from |price)/i.test(r.nightly) ? r.nightly : "from " + r.nightly;
+const priceTip = nightlyOriginal
+  ? `Shown in USD — originally ${nightlyOriginal}${nightlyCurrency ? ` (${nightlyCurrency})` : ""}`
+  : undefined;
+
+// Spec rows for the sticky rail (RentalScreen SpecRow order).
+const specs: [string, string][] = [
+  ["Bedrooms", String(r.bedsLabel || r.beds)],
+  ["Sleeps", `${r.guestsLabel || r.guests} guests`],
+  ["Property size", String(r.size)],
+];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LodgingBusiness",
+  name: r.title,
+  description: r.blurb,
+  image: r.gallery?.slice(0, 6),
+  url: `https://elsewhere.living/rentals/${r.id}/`,
+  priceRange: r.nightly,
+};
+---
+<Base
+  current="rentals"
+  transparentNav={false}
+  title={`${r.title} — Elsewhere Living`}
+  description={r.blurb}
+  image={r.image}
+  canonicalPath={`/rentals/${r.id}/`}
+  jsonLd={jsonLd}
+>
+  <main style="background:var(--paper);">
+    <div style="max-width:1320px; margin:0 auto; padding:clamp(104px, 13vh, 140px) clamp(20px, 4vw, 56px) clamp(72px, 10vw, 120px);">
+      <a
+        href="/rentals/"
+        class="ew-textlink"
+        style="cursor:pointer; padding:0; margin-bottom:28px; display:inline-flex; align-items:center; gap:9px; font-family:var(--font-sans); font-size:11.5px; letter-spacing:0.14em; text-transform:uppercase; color:var(--slate); text-decoration:none;"
+      >
+        <span style="font-size:16px;">←</span> All rentals
+      </a>
+
+      <div data-grid="split" style="display:grid; grid-template-columns:1.55fr 1fr; gap:clamp(32px, 5vw, 72px); align-items:start;">
+        <!-- Main column -->
+        <div class="reveal is-in" style="min-width:0;">
+          <Gallery images={r.gallery.map((s) => optImg(s, "main"))} thumbs={r.gallery.map((s) => optImg(s, "small"))} title={r.title} client:load />
+
+          <div style="margin-top:48px;">
+            <div style="color:var(--slate); margin-bottom:16px;"><Label>The stay</Label></div>
+            <p style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.4rem, 2.4vw, 1.9rem); line-height:1.4; letter-spacing:-0.01em; color:var(--navy);">{r.blurb}</p>
+            <p style="margin:26px 0 0; font-family:var(--font-sans); font-weight:300; font-size:16px; line-height:1.8; color:var(--text-body); max-width:640px; white-space:pre-line;">{detail}</p>
+          </div>
+
+          {r.features?.length > 0 && (
+            <div style="margin-top:48px;">
+              <div style="color:var(--slate); margin-bottom:22px;"><Label>Features & amenities</Label></div>
+              <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:2px 32px;">
+                {r.features.map((f) => (
+                  <div style="display:flex; align-items:center; gap:14px; padding:15px 0; border-bottom:1px solid var(--border-subtle);">
+                    <Icon name={f.i} size={20} color="var(--navy)" stroke={1.4} />
+                    <span style="font-family:var(--font-sans); font-weight:300; font-size:15.5px; color:var(--charcoal);">{f.l}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+
+        <!-- Sticky rail -->
+        <aside style="position:sticky; top:100px;">
+          <div style="background:var(--white); border:1px solid var(--border-subtle); padding:clamp(24px, 3vw, 34px);">
+            <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:14px;">
+              <div>
+                <div style="display:flex; align-items:center; gap:7px; font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.16em; text-transform:uppercase; color:var(--slate);">
+                  <Icon name="pin" size={13} color="var(--slate)" stroke={1.4} /> {r.place}
+                </div>
+                <h1 style="margin:10px 0 0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.9rem, 3vw, 2.5rem); line-height:1.06; letter-spacing:-0.015em; color:var(--navy);">{r.title}</h1>
+              </div>
+              <SaveButton id={r.id} client:visible />
+            </div>
+
+            <div style="display:flex; flex-wrap:wrap; gap:8px; margin-top:18px;">
+              <Badge tone="navy">Vacation Rental</Badge>
+              {viewList(r.view).map((v) => <Badge tone="mist">{v}</Badge>)}
+            </div>
+
+            <div style="margin:24px 0 6px;">
+              <div style="display:flex; justify-content:space-between; align-items:baseline; padding:14px 0; border-bottom:1px solid var(--border-subtle);">
+                <span style="font-family:var(--font-sans); font-size:11px; letter-spacing:0.16em; text-transform:uppercase; color:var(--slate);">Nightly rate</span>
+                {nightlyOriginal ? (
+                  <span style="position:relative; display:inline-flex; align-items:center; gap:7px;" title={priceTip}>
+                    <span style="font-family:var(--font-serif); font-weight:400; font-size:17px; color:var(--charcoal); border-bottom:1px dotted var(--stone); padding-bottom:1px;">{nightlyValue}</span>
+                    <Icon name="info" size={12} color="var(--slate)" stroke={1.5} />
+                  </span>
+                ) : (
+                  <span style="font-family:var(--font-serif); font-weight:400; font-size:17px; color:var(--charcoal); text-align:right;">{nightlyValue}</span>
+                )}
+              </div>
+              {specs.map(([label, value]) => (
+                <div style="display:flex; justify-content:space-between; align-items:baseline; padding:14px 0; border-bottom:1px solid var(--border-subtle);">
+                  <span style="font-family:var(--font-sans); font-size:11px; letter-spacing:0.16em; text-transform:uppercase; color:var(--slate);">{label}</span>
+                  <span style="font-family:var(--font-serif); font-weight:400; font-size:17px; color:var(--charcoal); text-align:right;">{value}</span>
+                </div>
+              ))}
+            </div>
+
+            {r.occupancy && (
+              <p style="margin:12px 0 0; font-family:var(--font-sans); font-weight:300; font-size:12.5px; line-height:1.5; color:var(--slate);">Sleeps {r.occupancy} — configured to your party.</p>
+            )}
+
+            <div style="margin-top:26px; padding-top:26px; border-top:1px solid var(--border-subtle);">
+              <div style="color:var(--slate); margin-bottom:16px;"><Label>Check availability</Label></div>
+              <EnquiryForm title={r.title} email={contact.email} whatsapp={contact.whatsapp} kind="rental" client:visible />
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <!-- Location -->
+      {(r.mapQuery || r.place) && (
+        <div style="margin-top:clamp(56px, 8vw, 96px);">
+          <div style="margin-bottom:24px;">
+            <div style="color:var(--slate); margin-bottom:14px;"><Label>Location</Label></div>
+            <h3 style="margin:0; display:flex; align-items:center; gap:12px; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.6rem, 2.8vw, 2.3rem); letter-spacing:-0.01em; color:var(--navy);">
+              <Icon name="pin" size={24} color="var(--navy)" stroke={1.4} /> {r.place}
+            </h3>
+          </div>
+          <div style="width:100%; height:clamp(300px, 42vw, 460px); border:1px solid var(--border-subtle); overflow:hidden;">
+            <Map query={r.mapQuery} place={r.place} title={r.title} />
+          </div>
+          <p style="margin:14px 0 0; font-family:var(--font-sans); font-weight:300; font-size:13px; color:var(--slate); display:flex; align-items:center; gap:8px;">
+            <Icon name="view" size={15} color="var(--slate)" stroke={1.4} /> Approximate area shown — the exact address is shared privately upon enquiry.
+          </p>
+        </div>
+      )}
+
+      <!-- More places to stay -->
+      <div style="margin-top:clamp(64px, 9vw, 110px);">
+        <div class="reveal" style="margin-bottom:36px;">
+          <SectionHead eyebrow="More places to stay" title="Other homes by the week." max={560} />
+        </div>
+        <div class="reveal" data-grid="3" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:26px;">
+          {related.map((it) => <RentalCard item={it} />)}
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <style>
+    @media (max-width: 880px) {
+      main [data-grid="split"] { grid-template-columns: 1fr !important; }
+      main aside { position: static !important; }
+    }
+    @media (max-width: 760px) {
+      main [data-grid="3"] { grid-template-columns: 1fr !important; }
+    }
+  </style>
+</Base>

@@ -1,0 +1,101 @@
+{
+  "id": "bophut-three-level-ten-suite-estate",
+  "image": "/assets/listings/bophut-three-level-ten-suite-estate/ext-006.jpg",
+  "gallery": [
+    "/assets/listings/bophut-three-level-ten-suite-estate/ext-001.jpg",
+    "/assets/listings/bophut-three-level-ten-suite-estate/ext-002.jpg",
+    "/assets/listings/bophut-three-level-ten-suite-estate/ext-003.jpg",
+    "/assets/listings/bophut-three-level-ten-suite-estate/ext-004.jpg",
+    "/assets/listings/bophut-three-level-ten-suite-estate/ext-005.jpg",
+    "/assets/listings/bophut-three-level-ten-suite-estate/ext-006.jpg",
+    "/assets/listings/bophut-three-level-ten-suite-estate/ext-007.jpg",
+    "/assets/listings/bophut-three-level-ten-suite-estate/ext-008.jpg",
+    "/assets/listings/bophut-three-level-ten-suite-estate/ext-009.jpg",
+    "/assets/listings/bophut-three-level-ten-suite-estate/ext-010.jpg",
+    "/assets/listings/bophut-three-level-ten-suite-estate/ext-011.jpg",
+    "/assets/listings/bophut-three-level-ten-suite-estate/ext-012.jpg",
+    "/assets/listings/bophut-three-level-ten-suite-estate/ext-013.jpg",
+    "/assets/listings/bophut-three-level-ten-suite-estate/ext-014.jpg",
+    "/assets/listings/bophut-three-level-ten-suite-estate/ext-015.jpg",
+    "/assets/listings/bophut-three-level-ten-suite-estate/ext-016.jpg",
+    "/assets/listings/bophut-three-level-ten-suite-estate/ext-017.jpg",
+    "/assets/listings/bophut-three-level-ten-suite-estate/ext-018.jpg",
+    "/assets/listings/bophut-three-level-ten-suite-estate/ext-019.jpg",
+    "/assets/listings/bophut-three-level-ten-suite-estate/ext-020.jpg",
+    "/assets/listings/bophut-three-level-ten-suite-estate/ext-021.jpg"
+  ],
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bo Phut, Ko Samui District, Surat Thani 84320, Thailand",
+  "mapQuery": "9.5640,100.0360",
+  "market": "Koh Samui",
+  "title": "Three-Level Hillside Estate with Ten Sea-View Suites, Bophut",
+  "type": "Villa",
+  "view": [
+    "Sea View",
+    "Mountain View"
+  ],
+  "status": "Off-Plan",
+  "beds": 10,
+  "baths": "10.5",
+  "interior": "1,333 m²",
+  "plot": "1,840 m²",
+  "year": null,
+  "priceNum": 3949575,
+  "price": "$3,949,575",
+  "priceOriginal": "฿130,000,000",
+  "priceCurrency": "THB",
+  "added": 46,
+  "ownership": "Freehold",
+  "blurb": "A landmark three-storey estate rising over the Bophut hills — ten en-suite bedrooms, a 1,333 m² interior, and panoramic sea-and-mountain views from wide terraces, with a private gym, sauna and sala set across 1,840 m² of grounds. Offered freehold, off-plan.",
+  "detail": "Set on one of Bophut's most prestigious hillside positions, this ultra-luxury residence is a rare large-scale offering in the Koh Samui market — a three-storey estate of roughly 1,333 m² built area on a generous 1,840 m² plot, composed to capture panoramic sea views, mountain vistas and complete privacy from multiple vantage points.\n\nThe layout distributes ten en-suite bedrooms and 10.5 bathrooms across three levels, balancing private suites with large social volumes. High ceilings, wide terraces and carefully positioned openings draw in natural light and frame the surrounding coastline, making it equally suited to a flagship private residence, a multi-generational estate, a luxury rental operation or a boutique hospitality concept.\n\nConceived as a full private resort, the property pairs its living spaces with a fully equipped gym, a private sauna, an outdoor sala, landscaped gardens and expansive sea-view terraces. It is offered freehold with government electricity and water and modern construction standards; being off-plan, buyers can secure the residence at a key stage with scope for customization. Bophut places Fisherman's Village, international schools, beachfront dining and Samui International Airport all within easy reach.",
+  "features": [
+    {
+      "l": "Panoramic sea & mountain views",
+      "i": "view"
+    },
+    {
+      "l": "Ten en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Three levels · 1,333 m² interior",
+      "i": "building"
+    },
+    {
+      "l": "Private gym & sauna",
+      "i": "gym"
+    },
+    {
+      "l": "Outdoor sala & landscaped gardens",
+      "i": "tree"
+    },
+    {
+      "l": "Private pool & pool deck",
+      "i": "pool"
+    },
+    {
+      "l": "1,840 m² hillside plot",
+      "i": "plot"
+    },
+    {
+      "l": "Freehold · Chanote title",
+      "i": "shield"
+    },
+    {
+      "l": "Game room & rooftop terrace",
+      "i": "music"
+    },
+    {
+      "l": "Fully furnished, off-plan",
+      "i": "sparkles"
+    },
+    {
+      "l": "Minutes to Fisherman's Village",
+      "i": "utensils"
+    },
+    {
+      "l": "High rental-yield potential",
+      "i": "users"
+    }
+  ]
+}

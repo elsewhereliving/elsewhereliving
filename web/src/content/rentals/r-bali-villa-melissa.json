@@ -1,0 +1,66 @@
+{
+  "id": "r-bali-villa-melissa",
+  "image": "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villamelissa_1_pool.webp",
+  "gallery": [
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villamelissa_1_pool.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villamelissa_2_pool.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villamelissa_24_pool.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villamelissa_25_ocean_view.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villamelissa_22_exterior.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villamelissa_21_living_room.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villamelissa_18_outdoor_living_space.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villamelissa_19_dining_room.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villamelissa_5_outdoor_dining.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villamelissa_6_bedroom.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villamelissa_10_bedroom.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villamelissa_14_bathroom.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villamelissa_17_outdoor_bathtub.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villamelissa_23_outdoor_living_space.webp"
+  ],
+  "location": "Canggu · Bali · Indonesia",
+  "place": "Pantai Lima, Pererenan, Mengwi, Badung, Bali, Indonesia",
+  "mapQuery": "-8.6553,115.1153",
+  "title": "Villa Melissa — Beachfront Pool Villa, Pantai Lima",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 5,
+  "bedsLabel": "5",
+  "guests": 10,
+  "guestsLabel": "10",
+  "occupancy": "up to 10 guests",
+  "size": "1,218 m²",
+  "nightlyNum": 1566,
+  "nightly": "$1,566",
+  "note": "Private chef",
+  "sleeps": "10 guests · 5 bedrooms",
+  "blurb": "A freshly refurbished five-bedroom beachfront villa at Pantai Lima — open-plan living with surround sound over two levels, a poolside lounge and beachfront bale for private massage, with ocean views and direct steps to the black sand.",
+  "detail": "Villa Melissa is a five-bedroom beachfront villa within the four-acre Pantai Lima Estate, refreshed in 2024 and spread across two levels. The ground floor holds a semi-open indoor living area with surround sound, a fully equipped kitchen, enclosed air-conditioned dining, the master and two further bedrooms, plus the pool and garden; two more bedrooms sit on the upper level. Each en-suite bedroom has a Smart TV with Netflix and its own sound system.\n\nThe living spaces flow effortlessly to the outdoors — a poolside lounge and dining area with beach and ocean views, and a beachfront bale that makes a serene haven for private massages. With the sea just steps away across the estate's boardwalk, Melissa balances open-air Bali living with air-conditioned comfort throughout.\n\nFully staffed with a private chef, attendants, housekeepers, maintenance and security, the villa includes daily breakfast and shared access to the estate's night-lit tennis court. In-villa spa treatments, yoga, a chef shopping service and tours can all be arranged on request, making it an effortless beachfront base for families and groups.",
+  "features": [
+    {
+      "l": "Beachfront pool with ocean views",
+      "i": "pool"
+    },
+    {
+      "l": "Beachfront bale for massage",
+      "i": "waves"
+    },
+    {
+      "l": "Open-plan living, surround sound",
+      "i": "sofa"
+    },
+    {
+      "l": "Steps to black-sand beach",
+      "i": "tree"
+    },
+    {
+      "l": "Shared night-lit tennis court",
+      "i": "sparkles"
+    },
+    {
+      "l": "5 en-suite bedrooms · private chef",
+      "i": "users"
+    }
+  ]
+}

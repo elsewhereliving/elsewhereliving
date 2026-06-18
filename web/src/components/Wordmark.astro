@@ -1,0 +1,14 @@
+---
+// The Elsewhere logotype: "else" italic serif + "WHERE" roman small-caps.
+// Uses the design-system .ew-wordmark utility (loaded from tokens/base.css).
+interface Props {
+  size?: number | string;
+  color?: string;
+  class?: string;
+}
+const { size = 30, color = "currentColor", class: klass = "" } = Astro.props;
+const fontSize = typeof size === "number" ? `${size}px` : size;
+---
+<span class={`ew-wordmark ${klass}`} style={`font-size:${fontSize};color:${color}`} aria-label="Elsewhere Living">
+  <span class="ew-else">else</span><span class="ew-where">where</span>
+</span>

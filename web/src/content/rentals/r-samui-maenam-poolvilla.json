@@ -1,0 +1,68 @@
+{
+  "id": "r-samui-maenam-poolvilla",
+  "image": "https://www.theluxurysignature.com/wp-content/uploads/2023/09/1-Villa-Raku-Swimming-Pool-Area1.jpg",
+  "gallery": [
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/09/1-Villa-Raku-Swimming-Pool-Area1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/09/2-Villa-Raku-Swimming-Pool-Area.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/09/4-Villa-Raku-Swimming-Pool-Area1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/09/9-Villa-Raku-Swimming-Pool-Area1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/09/10-Villa-Raku-Swimming-Pool-Area.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/09/12-Villa-Raku-Swimming-Pool-Area.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/09/15-Villa-Raku-Living-and-Dining-Area.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/09/17-Villa-Raku-Living-and-Dining-Area.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/09/19-Villa-Raku-Living-and-Dining-Area.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/09/20-Villa-Raku-Kitchen.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/09/32-Villa-Raku-Master-Bedroom.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/09/34-Villa-Raku-Master-Bedroom.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/09/40-Villa-Raku-Guest-Bedroom-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/09/55-Villa-Raku-Guest-Bedroom-3.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/09/46-Villa-Raku-Kids-Bedroom.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/09/25-Villa-Raku-Gym-Room.jpg"
+  ],
+  "location": "Maenam · Koh Samui · Thailand",
+  "place": "Ban, Mae Nam, Maenam, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5631,99.9603",
+  "title": "Sea-View Pool Villa in Maenam",
+  "view": [
+    "Sea View",
+    "Garden / Pool View"
+  ],
+  "beds": 5,
+  "bedsLabel": "3–5",
+  "guests": 12,
+  "guestsLabel": "12",
+  "occupancy": "up to 12 guests",
+  "size": "1,600 m²",
+  "nightlyNum": 1190,
+  "nightly": "$1,190",
+  "note": "3 staff incl. chef",
+  "sleeps": "12 guests · up to 5 bedrooms",
+  "blurb": "A modern five-bedroom tropical sanctuary in Maenam on Koh Samui's quiet north shore — a striking 16-metre L-shaped infinity pool angled for sea and sunset views, an open-air sala, gym and games, set on a leafy 1,600 m² plot near Bang Po beach.",
+  "detail": "Nestled in the enchanting Maenam district on Koh Samui's tranquil north coast, this modern five-bedroom villa is a tropical sanctuary blending luxury, comfort and awe-inspiring natural surroundings across an expansive 1,600 m² plot. Inside, five exquisitely furnished bedrooms each carry a private en-suite, with a dedicated kids' room of two bunk beds sleeping up to four children — comfortable for families and groups alike.\n\nThe villa's centrepiece is a striking 16-metre L-shaped infinity pool, thoughtfully positioned to maximise mesmerising views of the glistening sea and the island's celebrated sunsets. An open-air sala invites quiet moments amid the greenery, while a well-equipped gym, a foosball table, board games and a Devialet sound system keep every kind of guest entertained. High-speed WiFi covers the property, and each bedroom is finished with a safety box and refined details.\n\nA dedicated team of three including a private chef crafts culinary masterpieces to your taste, with daily housekeeping, a complimentary daily breakfast and turndown service. Minutes from Bang Po beach and a short drive from Fisherman's Village and Santiburi golf, it is an oasis of calm where panoramic sea views meet warm, attentive island hospitality.",
+  "features": [
+    {
+      "l": "16 m L-shaped infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Sea & sunset views",
+      "i": "view"
+    },
+    {
+      "l": "Open-air sala",
+      "i": "tree"
+    },
+    {
+      "l": "Gym, foosball & board games",
+      "i": "gym"
+    },
+    {
+      "l": "Two massage tables",
+      "i": "sparkles"
+    },
+    {
+      "l": "5 en-suite bedrooms · chef & 3 staff",
+      "i": "users"
+    }
+  ]
+}

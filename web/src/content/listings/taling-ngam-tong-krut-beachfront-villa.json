@@ -1,0 +1,94 @@
+{
+  "id": "taling-ngam-tong-krut-beachfront-villa",
+  "image": "/assets/listings/taling-ngam-tong-krut-beachfront-villa/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/taling-ngam-tong-krut-beachfront-villa/ext-001.jpg",
+    "/assets/listings/taling-ngam-tong-krut-beachfront-villa/ext-002.jpg",
+    "/assets/listings/taling-ngam-tong-krut-beachfront-villa/ext-003.jpg",
+    "/assets/listings/taling-ngam-tong-krut-beachfront-villa/ext-004.jpg",
+    "/assets/listings/taling-ngam-tong-krut-beachfront-villa/ext-005.jpg",
+    "/assets/listings/taling-ngam-tong-krut-beachfront-villa/ext-006.jpg",
+    "/assets/listings/taling-ngam-tong-krut-beachfront-villa/ext-007.jpg",
+    "/assets/listings/taling-ngam-tong-krut-beachfront-villa/ext-008.jpg",
+    "/assets/listings/taling-ngam-tong-krut-beachfront-villa/ext-009.jpg",
+    "/assets/listings/taling-ngam-tong-krut-beachfront-villa/ext-010.jpg",
+    "/assets/listings/taling-ngam-tong-krut-beachfront-villa/ext-011.jpg",
+    "/assets/listings/taling-ngam-tong-krut-beachfront-villa/ext-012.jpg",
+    "/assets/listings/taling-ngam-tong-krut-beachfront-villa/ext-013.jpg",
+    "/assets/listings/taling-ngam-tong-krut-beachfront-villa/ext-014.jpg"
+  ],
+  "location": "Taling Ngam · Koh Samui · Thailand",
+  "place": "Tong Krut Beach, Taling Ngam, Ko Samui District, Surat Thani 84010, Thailand",
+  "mapQuery": "9.422453,99.952305",
+  "market": "Koh Samui",
+  "title": "Five-Bedroom Beachfront Pool Villa on Tong Krut Beach, Taling Ngam",
+  "type": "Villa",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 5,
+  "baths": 7,
+  "interior": "2,450 m²",
+  "plot": null,
+  "year": null,
+  "priceNum": 2367941,
+  "price": "$2,367,941",
+  "priceOriginal": "฿78,000,000",
+  "priceCurrency": "THB",
+  "added": 1,
+  "ownership": "Freehold",
+  "blurb": "A contemporary five-bedroom beachfront villa on Koh Samui's serene southern coast, set directly on the pristine sand of Tong Krut Beach in the unspoiled enclave of Taling Ngam. Two beachfront pavilions, five en-suite bedrooms, a sun-soaked infinity pool and a grand cascading-waterfall entrance — a private sanctuary with concierge and private-chef service.",
+  "detail": "A remarkable five-bedroom beachfront villa on Koh Samui's serene southern coastline, in the highly desirable enclave of Taling Ngam — a private retreat that blends contemporary sophistication with the natural beauty of the island. Positioned directly along the pristine shores of Tong Krut Beach, with sweeping sea views, a private infinity pool and lush landscaped gardens, it appeals equally to families, investors and those seeking a quiet sanctuary by the sea.\n\nFrom the grand entrance framed by cascading waterfalls, the home reveals its commitment to architectural elegance. Five expansive en-suite bedrooms form its heart, with two beachfront pavilions giving residents the privilege of waking to the sound of waves and uninterrupted ocean vistas. Each bedroom is meticulously designed for privacy and comfort, with marble-adorned bathrooms and luxury fittings throughout. The main pavilion opens onto expansive terraces and a sun terrace wrapping the infinity pool, while floor-to-ceiling windows frame the turquoise water beyond.\n\nDesigned as both a home and a lifestyle destination, the villa is ideal for entertaining, family gatherings or quiet evenings by the sea, elevated by personalised services including concierge and private-chef experiences — a balance of seclusion and tailored service that suits private living or a high-performing luxury rental.\n\nTaling Ngam is among Koh Samui's most unspoiled regions, celebrated for natural beauty, quiet beaches and an authentic island atmosphere, yet within reach of restaurants, beach clubs and wellness retreats. Tong Krut Beach offers calm waters for swimming and paddleboarding, the Angthong Marine Park and fishing villages are close by, and Samui International Airport is within a 45-minute drive. Offered freehold under Chanote title, fully furnished and move-in ready — priced at ฿78,000,000.",
+  "features": [
+    {
+      "l": "Direct Tong Krut Beach frontage",
+      "i": "waves"
+    },
+    {
+      "l": "Sea-view infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Five en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Two beachfront pavilions",
+      "i": "building"
+    },
+    {
+      "l": "Marble bathrooms & luxury fittings",
+      "i": "sparkles"
+    },
+    {
+      "l": "Open-plan living onto terraces",
+      "i": "home"
+    },
+    {
+      "l": "Western kitchen with island",
+      "i": "utensils"
+    },
+    {
+      "l": "Cascading-waterfall entrance",
+      "i": "terrace"
+    },
+    {
+      "l": "Concierge & private chef on request",
+      "i": "users"
+    },
+    {
+      "l": "Gated · 24/7 security",
+      "i": "shield"
+    },
+    {
+      "l": "~45 min to Samui Airport",
+      "i": "car"
+    },
+    {
+      "l": "Chanote freehold · fully furnished",
+      "i": "key"
+    }
+  ]
+}

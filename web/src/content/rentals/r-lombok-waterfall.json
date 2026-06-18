@@ -1,0 +1,70 @@
+{
+  "id": "r-lombok-waterfall",
+  "image": "https://www.tampahhills.com/wp-content/uploads/2025/09/Tibu-SoMe-2025-@solen_studios-217.jpg",
+  "gallery": [
+    "https://www.tampahhills.com/wp-content/uploads/2025/09/Tibu-SoMe-2025-@solen_studios-217.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/09/Tibu-SoMe-2025-@solen_studios-177-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/09/Tibu-SoMe-2025-@solen_studios-171-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/09/Tibu-SoMe-2025-@solen_studios-34-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/09/Tibu-SoMe-2025-@solen_studios-40-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/09/Tibu-SoMe-2025-@solen_studios-65-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/09/Tibu-SoMe-2025-@solen_studios-190-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/09/Tibu-SoMe-2025-@solen_studios-186-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/09/Tibu-SoMe-2025-@solen_studios-200-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/09/Tibu-SoMe-2025-@solen_studios-19-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/09/Tibu-SoMe-2025-@solen_studios-134-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/09/Tibu-SoMe-2025-@solen_studios-16-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/09/Tibu-SoMe-2025-@solen_studios-21-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/09/Tibu-SoMe-2025-@solen_studios-33-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/09/Tibu-SoMe-2025-@solen_studios-92-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/09/Tibu-SoMe-2025-@solen_studios-46-1024x682.jpg"
+  ],
+  "location": "Lombok · Indonesia",
+  "place": "Southwest Lombok, Indonesia",
+  "mapQuery": "-8.899061,116.199542",
+  "title": "Waterfall-Pool Villa in Lombok",
+  "view": [
+    "Sea View",
+    "Mountain View"
+  ],
+  "beds": 4,
+  "bedsLabel": "4",
+  "guests": 8,
+  "guestsLabel": "8",
+  "occupancy": "up to 8 guests",
+  "size": "737 m²",
+  "nightlyNum": 1373,
+  "nightly": "$1,373",
+  "nightlyOriginal": "IDR 22,385,000",
+  "nightlyCurrency": "IDR",
+  "note": "Breakfast & housekeeping included",
+  "sleeps": "8 guests · 4 bedrooms",
+  "blurb": "An organic, flowing villa named for the Sasak word for waterfall — a signature waterfall pool spilling beside the terrace, two infinity pools, and sweeping views over Lombok's dramatic south coast.",
+  "detail": "Inspired by the Sasak word for waterfall, this villa channels the calming movement of water — delicate silhouettes and the open horizon of Lombok overlooking the Indian Ocean. Set across four separate, elegantly appointed bedrooms, each a private space, it is ideal for families or groups of friends seeking a balance between connection and calm.\n\nThe heart of the home is its signature waterfall pool, a striking design element that flows beside the terrace and sets a soothing soundtrack from morning to sunset. From here you take in sweeping ocean views and the golden glow of Lombok's dramatic south-coast scenery, with two infinity pools and shallow kids' sections across 167 m² of water.\n\nDesigned with silhouetted roofs, rich wood panels and selected natural stone, the villa blends seamlessly into its surroundings — an organic aesthetic creating a warm, earthy atmosphere that feels both elevated and deeply grounded. Generous outdoor lounges and terraces are placed throughout, inviting social moments and quiet reflection in equal measure.",
+  "features": [
+    {
+      "l": "Signature waterfall pool",
+      "i": "waves"
+    },
+    {
+      "l": "Two infinity pools (167 m²)",
+      "i": "pool"
+    },
+    {
+      "l": "4 en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Organic wood & stone architecture",
+      "i": "home"
+    },
+    {
+      "l": "Ocean & sunset views",
+      "i": "view"
+    },
+    {
+      "l": "Outdoor lounges & terraces",
+      "i": "terrace"
+    }
+  ]
+}

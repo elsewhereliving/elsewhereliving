@@ -1,0 +1,68 @@
+{
+  "id": "r-samui-180-seaview",
+  "image": "https://www.theluxurysignature.com/wp-content/uploads/2022/12/the-view-villa-koh-samui-featured.jpg",
+  "gallery": [
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/the-view-villa-koh-samui-featured.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/Isle-View-Koh-Samui-Villa-img-07.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/Isle-View-Koh-Samui-Villa-img-02.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/Isle-View-Koh-Samui-Villa-img-19.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/Isle-View-Koh-Samui-Villa-img-27.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/Isle-View-Koh-Samui-Villa-img-26.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/Isle-View-Koh-Samui-Villa-img-09-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/Isle-View-Koh-Samui-Villa-img-10-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/Isle-View-Koh-Samui-Villa-img-11.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/Isle-View-Koh-Samui-Villa-img-28.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/Isle-View-Koh-Samui-Villa-img-20.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/Isle-View-Koh-Samui-Villa-img-23.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/Isle-View-Koh-Samui-Villa-img-13.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/Isle-View-Koh-Samui-Villa-img-16.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/Isle-View-Koh-Samui-Villa-img-05.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/Isle-View-Koh-Samui-Villa-img-33.jpg"
+  ],
+  "location": "Taling Ngam · Koh Samui · Thailand",
+  "place": "Taling Ngam, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.4525,99.9486",
+  "title": "180° Clifftop Sea-View Villa in Taling Ngam",
+  "view": [
+    "Sea View",
+    "Beachfront"
+  ],
+  "beds": 6,
+  "bedsLabel": "3–5 +kids",
+  "guests": 16,
+  "guestsLabel": "10+6",
+  "occupancy": "up to 10 adults + 6 children",
+  "size": "1,000 m²",
+  "nightlyNum": 1520,
+  "nightly": "$1,520",
+  "note": "5 staff incl. chef",
+  "sleeps": "10 adults + 6 children · up to 6 bedrooms",
+  "blurb": "An elevated beachfront villa on Koh Samui's quiet south-west coast, built around 180-degree views of the Five Islands — minimalist white interiors, suspended sea-facing king beds, a 16.5-metre infinity pool with jacuzzi and a private beach below.",
+  "detail": "Set on an elevated plot right on the beach in Taling Ngam, this villa makes you feel suspended in the air amid the wide tropical sky, with the ocean seemingly right under your feet. Built around a concept of 180-degree views from wherever you stand, its architecture is minimal and modern — white and beige tones creating a soothing, sophisticated, ultra-luxe atmosphere over a three-storey pavilion plus two separate bungalows.\n\nThe home sleeps up to ten adults and six children across five bedrooms and a bunk-bed children's room. Every adult bedroom centres on a king bed that appears to float, facing the blue sea, with floor-to-ceiling glass sliding doors opening to private balconies; one suite even has both indoor and outdoor rain showers and an outdoor tub beneath a tree. A 16.5-metre infinity pool with a jacuzzi sits on the edge of the property for sunset swims, with direct beach access to the private, unspoiled sand below.\n\nFive full-time English-speaking staff, including an on-site chef cooking Thai and Western cuisine, look after the stay, with complimentary breakfast, a private concierge, two sea kayaks, paddleboards, a ping-pong table, a video projector and high-speed WiFi throughout. The ultimate modern luxury in a private piece of Koh Samui paradise, framed by the Five Islands and unbroken sunsets.",
+  "features": [
+    {
+      "l": "16.5 m clifftop infinity pool & jacuzzi",
+      "i": "pool"
+    },
+    {
+      "l": "180° Five Islands sea views",
+      "i": "view"
+    },
+    {
+      "l": "Private beach access below",
+      "i": "waves"
+    },
+    {
+      "l": "Suspended sea-facing king beds",
+      "i": "bed"
+    },
+    {
+      "l": "Kayaks, paddleboards & ping-pong",
+      "i": "sparkles"
+    },
+    {
+      "l": "Up to 16 guests · chef & 5 staff",
+      "i": "users"
+    }
+  ]
+}

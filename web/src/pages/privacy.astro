@@ -1,0 +1,237 @@
+---
+import Base from "../layouts/Base.astro";
+import Label from "../components/Label.astro";
+import Button from "../components/Button.astro";
+import { getSiteContent } from "../lib/content";
+
+const { contact } = getSiteContent();
+const HERO_IMAGE = "/assets/imagery/c-ocean.jpg";
+
+type Block = { p: string } | { ul: string[] };
+type Section = { id: string; title: string; body: Block[] };
+
+const PRIVACY_SECTIONS: Section[] = [
+  {
+    id: "intro",
+    title: "Who we are",
+    body: [
+      { p: "Elsewhere Living (“Elsewhere,” “we,” “us,” or “our”) is a boutique luxury real-estate and lifestyle agency operating across Koh Samui, Phuket, Bangkok, Bali, Lombok and Dubai. This Privacy Policy explains how we collect, use, share and protect your personal information when you visit our website, contact us, or engage with our advertising and social media." },
+      { p: "By using our website or submitting an enquiry, you agree to the practices described in this policy. If you do not agree, please do not use the site." },
+    ],
+  },
+  {
+    id: "collect",
+    title: "Information we collect",
+    body: [
+      { p: "We collect information in three ways:" },
+      { ul: ["Information you give us — such as your name, email address, phone or WhatsApp number, the destinations and properties you’re interested in, and anything you tell us in an enquiry or message.", "Information collected automatically — such as your IP address, device and browser type, pages viewed, links clicked, referring website, and approximate location. This is gathered through cookies and similar technologies.", "Information from third parties — such as advertising and analytics partners (for example Meta/Facebook and Google) who may share aggregated campaign or audience data with us, and partner agents or developers when a property enquiry is shared with your consent."] },
+    ],
+  },
+  {
+    id: "cookies",
+    title: "Cookies & tracking technologies",
+    body: [
+      { p: "We use cookies, pixels, tags and similar technologies to operate the site, remember your preferences, measure performance, and deliver and measure advertising." },
+      { p: "In particular, we use the Meta Pixel (Facebook and Instagram) and may use Google Analytics and Google Ads tags. These tools place cookies and collect usage and device data so we can understand how visitors find and use our site, show you relevant advertising on Meta and other platforms, and measure whether those ads are effective." },
+      { p: "You can control or disable cookies through your browser settings, and you can manage ad personalisation directly with Meta and Google through their own settings. Disabling cookies may affect how parts of the site function." },
+    ],
+  },
+  {
+    id: "use",
+    title: "How we use your information",
+    body: [
+      { p: "We use your information to:" },
+      { ul: ["Respond to your enquiries and provide property, rental, custom-home and advisory services.", "Send you information, listings or updates you’ve asked for.", "Operate, maintain, secure and improve our website and services.", "Deliver, target and measure advertising — including on Meta and Google — and build audiences of people with similar interests.", "Comply with our legal obligations and protect against fraud or misuse."] },
+    ],
+  },
+  {
+    id: "ads",
+    title: "Advertising & analytics",
+    body: [
+      { p: "We advertise our properties and services on platforms such as Facebook, Instagram and Google. To do this, we share certain data — such as your interaction with our website and, where applicable, a hashed identifier — with these platforms so that our ads can be shown to relevant audiences and their performance measured." },
+      { p: "These third-party platforms act as independent data controllers for the data they collect through their own pixels and tags, and their use of that data is governed by their own privacy policies. We encourage you to review the privacy and ad-preference settings of Meta and Google to control how your data is used for advertising." },
+    ],
+  },
+  {
+    id: "sharing",
+    title: "How we share information",
+    body: [
+      { p: "We do not sell your personal information. We share it only with:" },
+      { ul: ["Service providers who help us run our business — such as hosting, email, analytics and advertising partners — under appropriate confidentiality obligations.", "Partner agents, developers or property owners, only as needed to progress an enquiry you’ve made and with your knowledge.", "Authorities or advisors where required by law, or to protect our rights, safety or property."] },
+    ],
+  },
+  {
+    id: "retention",
+    title: "Data retention",
+    body: [
+      { p: "We keep your personal information only for as long as necessary to provide our services, maintain our legitimate business records, and meet legal requirements. When it’s no longer needed, we securely delete or anonymise it." },
+    ],
+  },
+  {
+    id: "rights",
+    title: "Your rights & choices",
+    body: [
+      { p: "Depending on where you live (including under the EU/UK GDPR and similar laws), you may have the right to access, correct, delete or restrict the use of your personal information, to object to certain processing, to withdraw consent, and to request a copy of your data. You can also opt out of marketing at any time using the unsubscribe link in our emails or by contacting us." },
+      { p: "To exercise any of these rights, contact us using the details below. We’ll respond within the timeframe required by applicable law." },
+    ],
+  },
+  {
+    id: "security",
+    title: "Data security & international transfers",
+    body: [
+      { p: "We take reasonable technical and organisational measures to protect your information against loss, misuse and unauthorised access. No method of transmission over the internet is completely secure, however, and we cannot guarantee absolute security." },
+      { p: "Because we operate internationally, your information may be processed in countries other than your own, including where our service providers are located. Where required, we use appropriate safeguards for such transfers." },
+    ],
+  },
+  {
+    id: "children",
+    title: "Children’s privacy",
+    body: [
+      { p: "Our website and services are intended for adults. We do not knowingly collect personal information from anyone under 18. If you believe a child has provided us with information, please contact us and we will delete it." },
+    ],
+  },
+  {
+    id: "changes",
+    title: "Changes to this policy",
+    body: [
+      { p: "We may update this Privacy Policy from time to time. When we do, we’ll revise the “last updated” date below, and material changes will be reflected on this page. Please review it periodically." },
+    ],
+  },
+];
+
+const pad2 = (n: number) => ("0" + n).slice(-2);
+
+const contactRows = [
+  { k: "Email", v: contact.email, href: `mailto:${contact.email}` },
+  { k: "WhatsApp", v: contact.whatsapp, href: null },
+];
+---
+<Base
+  current="privacy"
+  transparentNav={true}
+  title="Privacy | Elsewhere Living"
+  description="How Elsewhere Living collects, uses and protects your information — including through our website, enquiries and advertising."
+>
+  <main>
+    <!-- PageHeader — dark full-bleed hero -->
+    <section
+      class="ew-grain ew-scrim"
+      style="position:relative; overflow:hidden; color:var(--white); background:var(--navy);"
+    >
+      <img
+        src={HERO_IMAGE}
+        alt=""
+        style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0.55; z-index:0;"
+      />
+      <div
+        style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(15,22,40,0.55), rgba(15,22,40,0.78)); z-index:1;"
+      ></div>
+      <div
+        style="position:relative; z-index:2; max-width:1320px; margin:0 auto; padding:clamp(120px, 16vh, 200px) clamp(20px, 4vw, 56px) clamp(48px, 7vw, 84px);"
+      >
+        <div class="reveal is-in" style="color:var(--text-on-dark-mut); margin-bottom:20px;">
+          <Label>Legal</Label>
+        </div>
+        <h1
+          class="reveal is-in"
+          style="margin:0; max-width:880px; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.4rem, 5.4vw, 4.4rem); line-height:1.02; letter-spacing:-0.02em;"
+        >
+          Privacy Policy
+        </h1>
+        <p
+          class="reveal is-in"
+          style="margin:24px 0 0; max-width:560px; font-family:var(--font-sans); font-weight:300; font-size:17px; line-height:1.7; color:rgba(255,255,255,0.85);"
+        >
+          How Elsewhere Living collects, uses and protects your information — including through our
+          website, enquiries and advertising.
+        </p>
+      </div>
+    </section>
+
+    <section style="background:var(--paper); padding:clamp(64px, 9vw, 120px) clamp(20px, 4vw, 56px);">
+      <div
+        data-privacy-grid
+        style="max-width:1180px; margin:0 auto; display:grid; grid-template-columns:240px 1fr; gap:clamp(36px, 6vw, 84px); align-items:start;"
+      >
+        <aside data-privacy-toc style="position:sticky; top:104px;">
+          <div style="color:var(--slate); margin-bottom:18px;">
+            <Label>Contents</Label>
+          </div>
+          <ul style="list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:11px;">
+            {PRIVACY_SECTIONS.map((s, i) => (
+              <li>
+                <a
+                  href={`#priv-${s.id}`}
+                  class="ew-textlink"
+                  style="cursor:pointer; display:flex; gap:10px; font-family:var(--font-sans); font-weight:300; font-size:13.5px; line-height:1.5; color:var(--text-body);"
+                >
+                  <span style="color:var(--stone); font-variant-numeric:tabular-nums;">{pad2(i + 1)}</span>
+                  <span>{s.title}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </aside>
+
+        <div>
+          <p style="margin:0 0 8px; font-family:var(--font-sans); font-size:11px; letter-spacing:0.18em; text-transform:uppercase; color:var(--slate);">Last updated · 11 June 2026</p>
+          <p style="margin:0 0 calc(var(--space-7)); max-width:680px; font-family:var(--font-sans); font-weight:300; font-size:16.5px; line-height:1.8; color:var(--text-body);">Your privacy matters to us. This policy is written to be read — plainly and without jargon — so you know exactly what we collect and why.</p>
+
+          {PRIVACY_SECTIONS.map((s, i) => (
+            <section
+              id={`priv-${s.id}`}
+              class="reveal"
+              style="scroll-margin-top:100px; padding-top:34px; margin-top:34px; border-top:1px solid var(--border-subtle);"
+            >
+              <div style="display:flex; align-items:baseline; gap:14px; margin-bottom:14px;">
+                <span style="font-family:var(--font-sans); font-size:11px; letter-spacing:0.16em; color:var(--stone); font-variant-numeric:tabular-nums;">{pad2(i + 1)}</span>
+                <h2 style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.45rem, 2.5vw, 1.95rem); line-height:1.12; letter-spacing:-0.01em; color:var(--navy);">{s.title}</h2>
+              </div>
+              {s.body.map((blk) =>
+                "ul" in blk ? (
+                  <ul style="margin:0 0 16px; padding-left:0; list-style:none; display:flex; flex-direction:column; gap:12px; max-width:680px;">
+                    {blk.ul.map((li) => (
+                      <li style="position:relative; padding-left:22px; font-family:var(--font-sans); font-weight:300; font-size:15.5px; line-height:1.75; color:var(--text-body);">
+                        <span style="position:absolute; left:0; top:0.72em; width:7px; height:1px; background:var(--navy);"></span>
+                        {li}
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p style="margin:0 0 16px; max-width:680px; font-family:var(--font-sans); font-weight:300; font-size:15.5px; line-height:1.8; color:var(--text-body);">{blk.p}</p>
+                )
+              )}
+            </section>
+          ))}
+
+          <section
+            id="priv-contact"
+            class="reveal"
+            style="scroll-margin-top:100px; padding-top:34px; margin-top:34px; border-top:1px solid var(--border-subtle);"
+          >
+            <div style="display:flex; align-items:baseline; gap:14px; margin-bottom:14px;">
+              <span style="font-family:var(--font-sans); font-size:11px; letter-spacing:0.16em; color:var(--stone); font-variant-numeric:tabular-nums;">{pad2(PRIVACY_SECTIONS.length + 1)}</span>
+              <h2 style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.45rem, 2.5vw, 1.95rem); line-height:1.12; letter-spacing:-0.01em; color:var(--navy);">Contact us</h2>
+            </div>
+            <p style="margin:0 0 22px; max-width:680px; font-family:var(--font-sans); font-weight:300; font-size:15.5px; line-height:1.8; color:var(--text-body);">If you have any questions about this policy, or wish to exercise your privacy rights, please get in touch:</p>
+            <div style="display:flex; flex-direction:column; border-top:1px solid var(--border-subtle); max-width:560px;">
+              {contactRows.map((row) => (
+                <div style="display:flex; justify-content:space-between; align-items:baseline; gap:16px; padding:18px 0; border-bottom:1px solid var(--border-subtle);">
+                  <span style="font-family:var(--font-sans); font-size:11px; letter-spacing:0.18em; text-transform:uppercase; color:var(--slate);">{row.k}</span>
+                  {row.href ? (
+                    <a href={row.href} style="font-family:var(--font-serif); font-weight:400; font-size:clamp(1.05rem, 1.7vw, 1.4rem); color:var(--navy); text-align:right;">{row.v}</a>
+                  ) : (
+                    <span style="font-family:var(--font-serif); font-weight:400; font-size:clamp(1.05rem, 1.7vw, 1.4rem); color:var(--navy); text-align:right;">{row.v}</span>
+                  )}
+                </div>
+              ))}
+            </div>
+            <div style="margin-top:34px;">
+              <Button href="/contact/" variant="solid" size="md" shape="pill">Start your enquiry</Button>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+  </main>
+</Base>

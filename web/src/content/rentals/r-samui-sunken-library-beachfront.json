@@ -1,0 +1,58 @@
+{
+  "id": "r-samui-sunken-library-beachfront",
+  "image": "https://images.squarespace-cdn.com/content/v1/66947c43873c556b25ac1f6e/3a9b4271-79d1-4310-aac8-748914a94b10/BanSuriya_LipaNoi_Samui_01_MainPhoto.jpg",
+  "gallery": [
+    "https://images.squarespace-cdn.com/content/v1/66947c43873c556b25ac1f6e/3a9b4271-79d1-4310-aac8-748914a94b10/BanSuriya_LipaNoi_Samui_01_MainPhoto.jpg",
+    "https://images.squarespace-cdn.com/content/v1/66947c43873c556b25ac1f6e/9fafd0f0-29ef-4767-9995-8b91645c9c6e/BanSuriya_LipaNoi_Samui_02_Pool.jpg",
+    "https://images.squarespace-cdn.com/content/v1/66947c43873c556b25ac1f6e/1cc8bfd1-e38b-41f3-9e6d-6f5f8a0b8e9b/BanSuriya_LipaNoi_Samui_05_SunkenLibrary.jpg",
+    "https://images.squarespace-cdn.com/content/v1/66947c43873c556b25ac1f6e/df2ce141-2ce1-4281-b172-d54fc0650913/BanSuriya_LipaNoi_Samui_10_LowerLounge.jpg",
+    "https://images.squarespace-cdn.com/content/v1/66947c43873c556b25ac1f6e/c4872f18-1d71-4567-910e-18f8f663ef31/BanSuriya_LipaNoi_Samui_36_OutdoorMovie.jpg",
+    "https://images.squarespace-cdn.com/content/v1/66947c43873c556b25ac1f6e/4ffcd12d-601e-4f3c-9fe4-7cdea4fcfea1/BanSuriya_LipaNoi_Samui_42_Beach.jpg"
+  ],
+  "location": "Lipa Noi · Koh Samui · Thailand",
+  "place": "Lipa Noi, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.4720,99.9170",
+  "title": "White Beachfront Villa with Sunken Pool Library, Lipa Noi",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 6,
+  "bedsLabel": "6",
+  "guests": 12,
+  "guestsLabel": "12",
+  "occupancy": "up to 12 guests (16 max)",
+  "size": "3,200 m²",
+  "nightlyNum": 1530,
+  "nightly": "$1,530",
+  "note": "Private chef & breakfast included",
+  "sleeps": "up to 12 guests · 6 bedrooms",
+  "blurb": "A crisp white contemporary villa on a former coconut plantation along quiet Lipa Noi beach — six pavilion bedrooms, a 20-metre infinity-edge pool with an underwater window onto a sunken library, a beachside treehouse and an outdoor cinema under the stars.",
+  "detail": "Suriya means 'sunshine' in Thai, and this absolute-beachfront villa lives up to it — set on a former coconut plantation along Lipa Noi, regarded as Samui's most unspoilt and best swimming beach, with a sun-kissed stretch of sand, swaying palms and spectacular sunsets over the Ang Thong Marine Park and Five Islands. Almost entirely white and offset with vibrant colour accents, it reads as a stylish, contemporary retreat across a series of pavilions.\n\nThe villa's signature is a 20-metre infinity-edge pool whose underwater views can be enjoyed from a sunken library lined with books and board games — one of many quiet corners alongside a mezzanine lounge with a sunset bar and pool table, a spa room, a gym-and-games annex, and a beachside treehouse for shaded massages. Evenings turn to the outdoor cinema by the sand, with the sound of the waves rolling in behind your film.\n\nSix en-suite bedrooms, each uniquely designed and inspired by the sea, host up to twelve guests; three open directly onto the pool deck and the spacious master enjoys a large bathtub and a garden that leads to the beach. Complimentary watersports and volleyball equipment, a beach-facing lawn and a celebrated wedding setting round out the estate, fully staffed with a villa manager, private chef and housekeeping.",
+  "features": [
+    {
+      "l": "20 m infinity pool & sunken library",
+      "i": "pool"
+    },
+    {
+      "l": "Absolute beachfront · sunset views",
+      "i": "waves"
+    },
+    {
+      "l": "Beachside treehouse & outdoor cinema",
+      "i": "tree"
+    },
+    {
+      "l": "Spa room & gym-and-games annex",
+      "i": "gym"
+    },
+    {
+      "l": "Mezzanine sunset bar & pool table",
+      "i": "sofa"
+    },
+    {
+      "l": "6 bedrooms · chef & breakfast",
+      "i": "users"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "lamai-beachfront-villa",
+  "image": "/assets/listings/lamai/raw-01.jpg",
+  "gallery": [
+    "/assets/listings/lamai/raw-01.jpg",
+    "/assets/listings/lamai/raw-28.jpg",
+    "/assets/listings/lamai/raw-25.jpg",
+    "/assets/listings/lamai/raw-23.jpg",
+    "/assets/listings/lamai/raw-11.jpg",
+    "/assets/listings/lamai/raw-05.jpg",
+    "/assets/listings/lamai/raw-04.jpg",
+    "/assets/listings/lamai/raw-26.jpg",
+    "/assets/listings/lamai/raw-27.jpg",
+    "/assets/listings/lamai/raw-02.jpg",
+    "/assets/listings/lamai/raw-03.jpg",
+    "/assets/listings/lamai/raw-10.jpg",
+    "/assets/listings/lamai/raw-12.jpg",
+    "/assets/listings/lamai/raw-15.jpg",
+    "/assets/listings/lamai/raw-24.jpg",
+    "/assets/listings/lamai/raw-14.jpg",
+    "/assets/listings/lamai/raw-22.jpg",
+    "/assets/listings/lamai/raw-21.jpg",
+    "/assets/listings/lamai/raw-13.jpg",
+    "/assets/listings/lamai/raw-08.jpg",
+    "/assets/listings/lamai/raw-07.jpg",
+    "/assets/listings/lamai/raw-06.jpg",
+    "/assets/listings/lamai/raw-09.jpg",
+    "/assets/listings/lamai/raw-16.jpg",
+    "/assets/listings/lamai/raw-17.jpg",
+    "/assets/listings/lamai/raw-18.jpg",
+    "/assets/listings/lamai/raw-19.jpg",
+    "/assets/listings/lamai/raw-20.jpg",
+    "/assets/listings/lamai/raw-29.jpg",
+    "/assets/listings/lamai/raw-30.jpg",
+    "/assets/listings/lamai/raw-31.jpg",
+    "/assets/listings/lamai/raw-32.jpg",
+    "/assets/listings/lamai/raw-33.jpg",
+    "/assets/listings/lamai/raw-34.jpg",
+    "/assets/listings/lamai/raw-35.jpg",
+    "/assets/listings/lamai/raw-38.jpg",
+    "/assets/listings/lamai/raw-39.jpg",
+    "/assets/listings/lamai/raw-40.jpg",
+    "/assets/listings/lamai/raw-41.jpg",
+    "/assets/listings/lamai/raw-42.jpg",
+    "/assets/listings/lamai/raw-43.jpg",
+    "/assets/listings/lamai/raw-44.jpg",
+    "/assets/listings/lamai/raw-36.jpg",
+    "/assets/listings/lamai/raw-37.jpg"
+  ],
+  "location": "Lamai · Koh Samui · Thailand",
+  "place": "Lamai Beach, Koh Samui, Thailand",
+  "mapQuery": "Lamai Beach, Koh Samui, Thailand",
+  "market": "Koh Samui",
+  "title": "Contemporary 3-Bedroom Beachfront Villa",
+  "type": "Villa",
+  "view": "Beachfront",
+  "status": "Move-In Ready",
+  "beds": 3,
+  "baths": 3.5,
+  "interior": "220 m²",
+  "plot": "680 m²",
+  "year": 2000,
+  "priceNum": 1974483,
+  "price": "$1,974,483",
+  "priceOriginal": "฿65,000,000",
+  "priceCurrency": "THB",
+  "added": 1,
+  "ownership": "Freehold",
+  "blurb": "A rare beachfront gem on one of Koh Samui's most secluded white-sand beaches — 28 metres of private frontage, uninterrupted sea views, and direct estate access to an 800-metre stretch of pristine shoreline, all within a 24-hour gated community.",
+  "detail": "A rare gem on one of Koh Samui's most beautiful and secluded white-sand beaches, this beachfront villa offers 28 metres of private frontage and uninterrupted sea views throughout the year. Set within an exclusive 24-hour gated residential estate with private access to an 800-metre stretch of pristine shoreline, the home combines unmatched privacy with exceptional convenience — just moments from Lamai town, yet hidden from tourist traffic. Only 200 metres down the beach, a stylish beach club offers dining, drinks and a peaceful social atmosphere, while a short stroll inland brings you to a premium sports and wellness club featuring a tennis court, gym, spa, restaurant and kids' club — with the rare benefit of room service delivered directly to your villa.\n\nWhite sand and lush tropical gardens surround this serene escape, designed for rest, rejuvenation and effortless island living. In a contemporary coastal style, the villa features glass doors and windows throughout, allowing the interior to merge beautifully with the surrounding greenery and ocean views. The open-plan living, dining and kitchen area is bright and spacious, decorated in crisp whites and soft blues for a clean, modern beach aesthetic, and the fully-equipped Western kitchen provides everything needed for cooking at home — or you can enjoy meal delivery and private chef services available within the estate.\n\nAll three bedrooms come with en-suite bathrooms: two feature king beds and direct terrace access, while the third includes twin beds — ideal for family or guests. The master offers garden and sea views, with sliding glass doors leading directly to the terrace. Outside, a generous sun terrace wraps around the villa with multiple zones for lounging and dining, and a traditional Thai-style beachside sala provides the perfect spot to enjoy the morning sunrise or unwind with an evening drink while listening to the waves.",
+  "features": [
+    {
+      "l": "28 m of private beach frontage",
+      "i": "waves"
+    },
+    {
+      "l": "Direct access to 800 m white-sand beach",
+      "i": "sun"
+    },
+    {
+      "l": "7-metre private pool",
+      "i": "pool"
+    },
+    {
+      "l": "Beachfront Thai sala",
+      "i": "tree"
+    },
+    {
+      "l": "Open-plan living, floor-to-ceiling glass",
+      "i": "sofa"
+    },
+    {
+      "l": "Fully-equipped Western kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "3 en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Wraparound sun terrace",
+      "i": "terrace"
+    },
+    {
+      "l": "Fully furnished & move-in ready",
+      "i": "sparkles"
+    },
+    {
+      "l": "Gated estate · 24/7 security",
+      "i": "shield"
+    },
+    {
+      "l": "Beach club 200 m along the sand",
+      "i": "users"
+    },
+    {
+      "l": "Sports & wellness club nearby",
+      "i": "gym"
+    }
+  ]
+}

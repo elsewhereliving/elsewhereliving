@@ -1,0 +1,80 @@
+{
+  "id": "eclectic-haven-pererenan",
+  "image": "/assets/listings/eclectic-haven-pererenan/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/eclectic-haven-pererenan/ext-001.jpg",
+    "/assets/listings/eclectic-haven-pererenan/ext-002.jpg",
+    "/assets/listings/eclectic-haven-pererenan/ext-003.jpg",
+    "/assets/listings/eclectic-haven-pererenan/ext-004.jpg",
+    "/assets/listings/eclectic-haven-pererenan/ext-005.jpg"
+  ],
+  "location": "Pererenan · Bali · Indonesia",
+  "place": "Tumbak Bayuh, North Pererenan, Mengwi, Bali, Indonesia",
+  "mapQuery": "-8.61842,115.14297",
+  "market": "Bali",
+  "title": "The Eclectic Haven of Philosophy — Pererenan",
+  "type": "Villa",
+  "view": "Garden / Pool View",
+  "status": "Move-In Ready",
+  "beds": 6,
+  "baths": 7,
+  "interior": "2,700 m²",
+  "plot": "2,300 m²",
+  "year": 2023,
+  "priceNum": 6500000,
+  "price": "$6,500,000",
+  "added": 36,
+  "ownership": "Leasehold",
+  "blurb": "A living masterpiece in Tumbak Bayuh, North Pererenan — a six-bedroom estate of art and architecture wrapped in 2,300 m² of rice paddies, with dual pools, a basket-clad grand pavilion and a private art studio, minutes from Canggu.",
+  "detail": "A living masterpiece of timeless elegance in Tumbak Bayuh, North Pererenan, this extraordinary residence rests amid serene rice-field landscapes, moments from Canggu's restaurants, cafés and the golden sands of Batu Bolong and Pererenan Beach. Set on an expansive 2,300 m² (23-are) estate, it enjoys uninterrupted rice-paddy views and spectacular sunsets in every direction.\n\nMasterfully envisioned by a renowned architect in collaboration with a world-acclaimed artist, the villa transcends design to become an expression of art itself — where Bali's organic soul, India's cultural motifs and Africa's earthy essence intertwine. Inside, it unfolds like a private gallery of antique collections, curated artworks and layered textures. Six spacious en-suite bedrooms each offer spa-inspired bathrooms, and the master suites enjoy 360-degree panoramas across the rice fields.\n\nAt its heart, a spectacular open-plan living pavilion soars beneath a towering ceiling adorned with thousands of handwoven baskets, flowing into a state-of-the-art kitchen and dining area overlooking the gardens and dual swimming pools — a full-length lap pool and a serene plunge pool. A dedicated art studio, elegant TV lounge and a BBQ and entertainment pavilion complete a rare fusion of art, architecture and soul. Offered leasehold to 2084.",
+  "features": [
+    {
+      "l": "Dual pools — lap & plunge",
+      "i": "pool"
+    },
+    {
+      "l": "2,300 m² rice-paddy estate",
+      "i": "tree"
+    },
+    {
+      "l": "Art-led architect-and-artist design",
+      "i": "sparkles"
+    },
+    {
+      "l": "Basket-clad grand living pavilion",
+      "i": "home"
+    },
+    {
+      "l": "Six en-suite spa bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Private art studio",
+      "i": "key"
+    },
+    {
+      "l": "State-of-the-art kitchen & dining",
+      "i": "utensils"
+    },
+    {
+      "l": "BBQ & entertainment pavilion",
+      "i": "terrace"
+    },
+    {
+      "l": "Curated art & antiques",
+      "i": "view"
+    },
+    {
+      "l": "360° rice-field master views",
+      "i": "mountain"
+    },
+    {
+      "l": "Landscaped tropical gardens",
+      "i": "sofa"
+    },
+    {
+      "l": "Minutes to Canggu & Pererenan Beach",
+      "i": "road"
+    }
+  ]
+}

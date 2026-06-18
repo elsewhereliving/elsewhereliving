@@ -1,0 +1,219 @@
+---
+import Base from "../../layouts/Base.astro";
+import Label from "../../components/Label.astro";
+import Badge from "../../components/Badge.astro";
+import Icon from "../../components/Icon.astro";
+import SectionHead from "../../components/SectionHead.astro";
+import PropertyCard from "../../components/PropertyCard.astro";
+import Map from "../../components/Map.astro";
+import Gallery from "../../components/react/Gallery.tsx";
+import SaveButton from "../../components/react/SaveButton.tsx";
+import EnquiryForm from "../../components/react/EnquiryForm.tsx";
+import { getListings, getSiteContent } from "../../lib/content";
+import { relatedListings } from "../../lib/related";
+import { optImg } from "../../lib/img";
+
+const { contact } = getSiteContent();
+import { viewText, viewList } from "../../lib/format";
+
+export async function getStaticPaths() {
+  const listings = await getListings();
+  return listings.map((l) => ({ params: { id: l.id }, props: { listing: l } }));
+}
+
+const { listing: l } = Astro.props;
+const all = await getListings();
+
+// Nearby + similar price (ranked by distance from coordinates and price gap).
+const related = relatedListings(l, all, 3);
+
+const isLand = l.type === "Land";
+const detail =
+  l.detail ||
+  "Each Elsewhere home is held to the same standard: architecturally considered, in a location we'd choose ourselves, and underwritten by numbers that work. We'll walk you through the full picture — ownership structure, rental projections, and the honest trade-offs — before you ever commit.";
+
+const aspect = viewText(l.view);
+
+// YouTube id extraction (port of ewYouTubeId).
+function youTubeId(u?: string): string {
+  if (!u) return "";
+  const m = String(u).match(/(?:v=|youtu\.be\/|embed\/)([\w-]{11})/);
+  return m ? m[1] : String(u);
+}
+const videoId = youTubeId(l.video);
+
+// Spec rows for the sticky rail.
+const specs: [string, string][] = [];
+if (!isLand) specs.push(["Bedrooms", l.bedsLabel || String(l.beds)]);
+if (!isLand) specs.push(["Bathrooms", String(l.baths)]);
+if (l.interior && l.interior !== "—") specs.push(["Property size", l.interior]);
+if (l.plot && l.plot !== "—") specs.push(["Plot size", l.plot]);
+if (l.year) specs.push(["Completion", String(l.year)]);
+if (l.ownership) specs.push(["Ownership", l.ownership]);
+if (l.yield) specs.push([isLand ? "Status" : "Projected yield", l.yield]);
+
+const priceTooltip = l.priceOriginal
+  ? `Shown in USD — originally ${l.priceOriginal}${l.priceCurrency ? ` (${l.priceCurrency})` : ""}`
+  : undefined;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Residence",
+  name: l.title,
+  description: l.blurb,
+  image: l.gallery?.slice(0, 6),
+  url: `https://elsewhere.living/property/${l.id}/`,
+  ...(l.priceNum
+    ? { offers: { "@type": "Offer", price: l.priceNum, priceCurrency: "USD", availability: "https://schema.org/InStock" } }
+    : {}),
+};
+---
+<Base
+  current="properties"
+  transparentNav={false}
+  title={`${l.title} — Elsewhere Living`}
+  description={l.blurb}
+  image={l.image}
+  canonicalPath={`/property/${l.id}/`}
+  jsonLd={jsonLd}
+>
+  <main style="background:var(--paper);">
+    <div style="max-width:1320px; margin:0 auto; padding:clamp(104px, 13vh, 140px) clamp(20px, 4vw, 56px) clamp(72px, 10vw, 120px);">
+      <a
+        href="/properties/"
+        class="ew-textlink"
+        style="cursor:pointer; padding:0; margin-bottom:28px; display:inline-flex; align-items:center; gap:9px; font-family:var(--font-sans); font-size:11.5px; letter-spacing:0.14em; text-transform:uppercase; color:var(--slate); text-decoration:none;"
+      >
+        <span style="font-size:16px;">←</span> All properties
+      </a>
+
+      <div data-grid="split" style="display:grid; grid-template-columns:1.55fr 1fr; gap:clamp(32px, 5vw, 72px); align-items:start;">
+        <!-- Main column -->
+        <div class="reveal is-in" style="min-width:0;">
+          <Gallery images={l.gallery.map((s) => optImg(s, "main"))} thumbs={l.gallery.map((s) => optImg(s, "small"))} title={l.title} client:load />
+
+          <div style="margin-top:48px;">
+            <div style="color:var(--slate); margin-bottom:16px;"><Label>The residence</Label></div>
+            <p style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.4rem, 2.4vw, 1.9rem); line-height:1.4; letter-spacing:-0.01em; color:var(--navy);">{l.blurb}</p>
+            <p style="margin:26px 0 0; font-family:var(--font-sans); font-weight:300; font-size:16px; line-height:1.8; color:var(--text-body); max-width:640px; white-space:pre-line;">{detail}</p>
+          </div>
+
+          {l.features?.length > 0 && (
+            <div style="margin-top:48px;">
+              <div style="color:var(--slate); margin-bottom:22px;"><Label>Features & amenities</Label></div>
+              <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:2px 32px;">
+                {l.features.map((f) => (
+                  <div style="display:flex; align-items:center; gap:14px; padding:15px 0; border-bottom:1px solid var(--border-subtle);">
+                    <Icon name={f.i} size={20} color="var(--navy)" stroke={1.4} />
+                    <span style="font-family:var(--font-sans); font-weight:300; font-size:15.5px; color:var(--charcoal);">{f.l}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+
+        <!-- Sticky rail -->
+        <aside style="position:sticky; top:100px;">
+          <div style="background:var(--white); border:1px solid var(--border-subtle); padding:clamp(24px, 3vw, 34px);">
+            <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:14px;">
+              <div>
+                <div style="display:flex; align-items:center; gap:7px; font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.16em; text-transform:uppercase; color:var(--slate);">
+                  <Icon name="pin" size={13} color="var(--slate)" stroke={1.4} /> {l.place}
+                </div>
+                <h1 style="margin:10px 0 0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.9rem, 3vw, 2.5rem); line-height:1.06; letter-spacing:-0.015em; color:var(--navy);">{l.title}</h1>
+              </div>
+              <SaveButton id={l.id} client:visible />
+            </div>
+
+            <div style="display:flex; flex-wrap:wrap; gap:8px; margin-top:18px;">
+              <Badge tone="navy">{l.type}</Badge>
+              {viewList(l.view).map((v) => <Badge tone="mist">{v}</Badge>)}
+              <Badge tone="accent">{l.status}</Badge>
+            </div>
+
+            <div style="margin:24px 0 6px;">
+              <div style="display:flex; justify-content:space-between; align-items:baseline; padding:14px 0; border-bottom:1px solid var(--border-subtle);">
+                <span style="font-family:var(--font-sans); font-size:11px; letter-spacing:0.16em; text-transform:uppercase; color:var(--slate);">Price</span>
+                {l.priceOriginal ? (
+                  <span style="position:relative; display:inline-flex; align-items:center; gap:7px;" title={priceTooltip}>
+                    <span style="font-family:var(--font-serif); font-weight:400; font-size:17px; color:var(--charcoal); border-bottom:1px dotted var(--stone); padding-bottom:1px;">{l.price}</span>
+                    <Icon name="info" size={12} color="var(--slate)" stroke={1.5} />
+                  </span>
+                ) : (
+                  <span style="font-family:var(--font-serif); font-weight:400; font-size:17px; color:var(--charcoal); text-align:right;">{l.price}</span>
+                )}
+              </div>
+              {specs.map(([label, value]) => (
+                <div style="display:flex; justify-content:space-between; align-items:baseline; padding:14px 0; border-bottom:1px solid var(--border-subtle);">
+                  <span style="font-family:var(--font-sans); font-size:11px; letter-spacing:0.16em; text-transform:uppercase; color:var(--slate);">{label}</span>
+                  <span style="font-family:var(--font-serif); font-weight:400; font-size:17px; color:var(--charcoal); text-align:right;">{value}</span>
+                </div>
+              ))}
+            </div>
+
+            <div style="margin-top:26px; padding-top:26px; border-top:1px solid var(--border-subtle);">
+              <div style="color:var(--slate); margin-bottom:16px;"><Label>Enquire</Label></div>
+              <EnquiryForm title={l.title} email={contact.email} whatsapp={contact.whatsapp} kind="property" client:visible />
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <!-- Film -->
+      {videoId && (
+        <div style="margin-top:clamp(56px, 8vw, 96px);">
+          <div style="color:var(--slate); margin-bottom:14px;"><Label>Film</Label></div>
+          <div style="position:relative; width:100%; aspect-ratio:16 / 9; overflow:hidden; background:var(--navy); border:1px solid var(--border-subtle);">
+            <iframe
+              title={`${l.title} — film`}
+              src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0`}
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              style="position:absolute; inset:0; width:100%; height:100%; border:0;"
+            ></iframe>
+          </div>
+        </div>
+      )}
+
+      <!-- Location -->
+      {(l.mapQuery || l.place) && (
+        <div style="margin-top:clamp(56px, 8vw, 96px);">
+          <div style="margin-bottom:24px;">
+            <div style="color:var(--slate); margin-bottom:14px;"><Label>Location</Label></div>
+            <h3 style="margin:0; display:flex; align-items:center; gap:12px; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.6rem, 2.8vw, 2.3rem); letter-spacing:-0.01em; color:var(--navy);">
+              <Icon name="pin" size={24} color="var(--navy)" stroke={1.4} /> {l.place}
+            </h3>
+          </div>
+          <div style="width:100%; height:clamp(300px, 42vw, 460px); border:1px solid var(--border-subtle); overflow:hidden;">
+            <Map query={l.mapQuery} place={l.place} title={l.title} />
+          </div>
+          <p style="margin:14px 0 0; font-family:var(--font-sans); font-weight:300; font-size:13px; color:var(--slate); display:flex; align-items:center; gap:8px;">
+            <Icon name="view" size={15} color="var(--slate)" stroke={1.4} /> Approximate area shown — the exact address is shared privately upon enquiry.
+          </p>
+        </div>
+      )}
+
+      <!-- Related -->
+      <div style="margin-top:clamp(64px, 9vw, 110px);">
+        <div class="reveal" style="margin-bottom:36px;">
+          <SectionHead eyebrow="You may also love" title="More from the collection." max={560} />
+        </div>
+        <div class="reveal" data-grid="3" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:26px;">
+          {related.map((it) => <PropertyCard item={it} />)}
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <style>
+    @media (max-width: 880px) {
+      main [data-grid="split"] { grid-template-columns: 1fr !important; }
+      main aside { position: static !important; }
+    }
+    @media (max-width: 760px) {
+      main [data-grid="3"] { grid-template-columns: 1fr !important; }
+    }
+  </style>
+</Base>

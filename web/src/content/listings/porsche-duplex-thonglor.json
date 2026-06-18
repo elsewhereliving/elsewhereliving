@@ -1,0 +1,80 @@
+{
+  "id": "porsche-duplex-thonglor",
+  "image": "/assets/listings/porsche-duplex-thonglor/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/porsche-duplex-thonglor/ext-001.jpg",
+    "/assets/listings/porsche-duplex-thonglor/ext-002.jpg",
+    "/assets/listings/porsche-duplex-thonglor/ext-003.jpg",
+    "/assets/listings/porsche-duplex-thonglor/ext-004.jpg",
+    "/assets/listings/porsche-duplex-thonglor/ext-005.jpg"
+  ],
+  "location": "Thonglor · Bangkok · Thailand",
+  "place": "Porsche Design Tower, Sukhumvit 38, Thonglor, Bangkok, Thailand",
+  "mapQuery": "13.7206,100.5841",
+  "market": "Bangkok",
+  "title": "Porsche Design Tower — Duplex Sky Villa with Private Pool",
+  "type": "Condominium",
+  "view": "City View",
+  "status": "Off-Plan",
+  "beds": 4,
+  "baths": 5,
+  "interior": "525 m²",
+  "plot": null,
+  "year": 2028,
+  "priceNum": 12000000,
+  "price": "$12,000,000",
+  "added": 19,
+  "ownership": "Freehold",
+  "blurb": "A 525 m² duplex — one of only 22 'Sky Villas' at the Porsche Design Tower Bangkok, Asia's first Porsche-branded residence — with its own heated private pool, a private car gallery reached by a spiral ramp, and panoramic Thonglor skyline views.",
+  "detail": "An incredible duplex 'Sky Villa' at the Porsche Design Tower Bangkok — a villa in the sky spanning approximately 525 m² across two levels, one of only twenty-two such residences in the building. A collaboration between Porsche Design and Ananda Development, the tower is Asia's first Porsche-branded residence and one of only three worldwide, rising on Sukhumvit 38 in the heart of Thonglor.\n\nThe architecture takes its cues directly from Porsche: an iconic 'X-Frame' structure inspired by the Mission R concept car, private car galleries connected by 'The Loop' spiral car ramp, and automated terrace doors inspired by the 911 Targa that dissolve the line between inside and out. Floor-to-ceiling glazing frames sweeping cityscapes, while the duplex's own heated private pool, gourmet Thai, Western and semi-outdoor BBQ kitchens, and smart air-quality and climate systems define life within.\n\nResidents share an exceptional amenity deck — a 25-metre infinity pool, high-performance gym, dedicated spa, business lounge and private social spaces — with world-class concierge service throughout. Set in vibrant Thonglor, the residence sits among Michelin-starred dining, designer boutiques and nightlife, moments from BTS Thonglor. Completion is expected in 2028.",
+  "features": [
+    {
+      "l": "One of only 22 Sky Villas",
+      "i": "sparkles"
+    },
+    {
+      "l": "525 m² duplex over two levels",
+      "i": "building"
+    },
+    {
+      "l": "Heated private pool",
+      "i": "pool"
+    },
+    {
+      "l": "Private car gallery via 'The Loop'",
+      "i": "car"
+    },
+    {
+      "l": "Porsche 'X-Frame' architecture",
+      "i": "home"
+    },
+    {
+      "l": "Automated 911 Targa terrace doors",
+      "i": "terrace"
+    },
+    {
+      "l": "Thai, Western & BBQ kitchens",
+      "i": "utensils"
+    },
+    {
+      "l": "Panoramic skyline views",
+      "i": "view"
+    },
+    {
+      "l": "Smart climate & air systems",
+      "i": "bolt"
+    },
+    {
+      "l": "25 m communal infinity pool, gym & spa",
+      "i": "gym"
+    },
+    {
+      "l": "Thonglor · steps to BTS",
+      "i": "shield"
+    },
+    {
+      "l": "Completion 2028",
+      "i": "year"
+    }
+  ]
+}

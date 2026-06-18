@@ -1,0 +1,57 @@
+{
+  "id": "r-samui-cliff-infinity-nathon",
+  "image": "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/nathon/baan-view-talay/overview/baanviewtalay_06_pool.webp",
+  "gallery": [
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/nathon/baan-view-talay/overview/baanviewtalay_06_pool.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/nathon/baan-view-talay/overview/baanviewtalay_03_poollounge.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/nathon/baan-view-talay/overview/baanviewtalay_14_aerial.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/nathon/baan-view-talay/overview/baanviewtalay_38_livingarea.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/nathon/baan-view-talay/overview/baanviewtalay_40_diningareaview.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/nathon/baan-view-talay/overview/baanviewtalay_22_bedroom1.webp"
+  ],
+  "location": "Nathon · Koh Samui · Thailand",
+  "place": "Nathon, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.4747,99.9512",
+  "title": "Cliff-Hanging Infinity-Pool Sports Villa, Nathon",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 6,
+  "bedsLabel": "3–6",
+  "guests": 16,
+  "guestsLabel": "16",
+  "occupancy": "up to 16 guests (18 max)",
+  "size": "935 m²",
+  "nightlyNum": 640,
+  "nightly": "$640",
+  "note": "Private chef & breakfast included",
+  "sleeps": "up to 16 guests · 3–6 bedrooms",
+  "blurb": "A sport-and-leisure retreat built into the Nathon hillside, where a 14-metre infinity pool hangs over the cliff edge above the Gulf — every room framing the sea, an indoor gym, putting green and a full games lawn waiting just beyond the deck.",
+  "detail": "Built onto the Nathon hillside with a breathtaking panorama of the surrounding vistas and sea, this is an exclusive hideaway conceived for large groups who want for nothing. An opulent entrance leads past a pond and tropical garden, through an ornate hand-carved wooden door from Chiang Mai, and opens to an indoor living room with a pool table and a dining space for ten — which in turn spills out to the deck, the pool and the spectacular surroundings beyond.\n\nThe headline is a 14-metre infinity pool that appears to spill straight off the cliff toward the horizon, with sun beds lined along its edge and a master-suite jacuzzi above. While the view from every room is one of nature's finest works, the villa's amenities compete for attention: an indoor gym, a putting green, a lawn marked out for badminton, volleyball or football, and even a petanque boulodrome for target bowling.\n\nArranged over two floors with three to six-plus mezzanine bedrooms, the home suits multi-generational gatherings, reunions and intimate weddings of up to twenty. A villa manager, private chef and housekeeping team look after the stay, with a welcome drink, daily breakfast and high-speed WiFi throughout — and Bang Por's quiet beaches and the north-shore restaurants only a short drive away.",
+  "features": [
+    {
+      "l": "14 m cliff-edge infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic Gulf sea views",
+      "i": "view"
+    },
+    {
+      "l": "Indoor gym & master jacuzzi",
+      "i": "gym"
+    },
+    {
+      "l": "Putting green & games lawn",
+      "i": "sun"
+    },
+    {
+      "l": "Pool table & dining for ten",
+      "i": "sofa"
+    },
+    {
+      "l": "3–6 bedrooms · chef & breakfast",
+      "i": "users"
+    }
+  ]
+}

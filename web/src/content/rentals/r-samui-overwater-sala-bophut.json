@@ -1,0 +1,58 @@
+{
+  "id": "r-samui-overwater-sala-bophut",
+  "image": "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/baan-benjamart/overview/baanbenjamart_01_pool.webp",
+  "gallery": [
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/baan-benjamart/overview/baanbenjamart_01_pool.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/baan-benjamart/overview/baanbenjamart_03_pooldeck.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/baan-benjamart/overview/baanbenjamart_24_beach.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/baan-benjamart/overview/baanbenjamart_05_openlivingarea.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/baan-benjamart/overview/baanbenjamart_20_diningarea.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/baan-benjamart/overview/baanbenjamart_09_bedroom1.webp"
+  ],
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Dhevatara Residence, Bophut, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5722,100.0086",
+  "title": "Pavilion Beachfront Villa with Overwater Sala, Bophut",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 4,
+  "bedsLabel": "2–4",
+  "guests": 10,
+  "guestsLabel": "10",
+  "occupancy": "up to 10 guests",
+  "size": "1,247 m²",
+  "nightlyNum": 640,
+  "nightly": "$640",
+  "note": "Private chef & breakfast included",
+  "sleeps": "up to 10 guests · 2–4 bedrooms",
+  "blurb": "A beachfront cluster of air-conditioned pavilions on Bophut's golden shore — a 12-metre infinity pool, a Thai-style sala reached by overwater steps for sunrise mornings, and a four-poster master that opens to a soaking tub for two, three minutes from the sand.",
+  "detail": "Set within the Dhevatara Residence estate on Bophut Beach, this is a stylish 1,247 m² beachfront retreat composed as a series of air-conditioned pavilions with rich wooden accents, airy interiors and floor-to-ceiling glass doors that draw in the light and sea air. Overwater steps lead to a charming sala — a Thai-style gazebo perfect for admiring Samui's golden sunrise — beside a sparkling 12-metre infinity pool with direct beach access.\n\nThe main ground-floor pavilion houses the indoor lounge, dining room, kitchen and a twin bedroom, opening onto the pool deck and outdoor dining. Two elevated cliffside pavilions hold three further bedrooms, each with sea views and a shared balcony terrace; the largest is a romantic retreat with a four-poster bed and a dressing area leading to a soaking tub for two, a rain shower and a private garden.\n\nFully staffed with a private chef, the villa includes a welcome drink, daily breakfast and high-speed WiFi, with kayaks, yoga mats and a BBQ grill on request. The estate's own shoreline is rocky, but a short 200-metre stroll along the coast reaches a swimmable stretch of sand — and Fisherman's Village dining and shopping is a six-minute drive away.",
+  "features": [
+    {
+      "l": "12 m infinity pool · beach access",
+      "i": "pool"
+    },
+    {
+      "l": "Overwater Thai sunrise sala",
+      "i": "waves"
+    },
+    {
+      "l": "Air-conditioned pavilion layout",
+      "i": "home"
+    },
+    {
+      "l": "Four-poster master & soaking tub",
+      "i": "bed"
+    },
+    {
+      "l": "Steps to Bophut Beach",
+      "i": "tree"
+    },
+    {
+      "l": "2–4 bedrooms · chef & breakfast",
+      "i": "users"
+    }
+  ]
+}

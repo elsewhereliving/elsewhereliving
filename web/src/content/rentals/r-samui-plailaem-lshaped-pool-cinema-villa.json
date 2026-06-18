@@ -1,0 +1,89 @@
+{
+  "id": "r-samui-plailaem-lshaped-pool-cinema-villa",
+  "image": "https://samujana.com/__l5e/assets-v1/3c7bf970-95c8-4228-9fcb-c6258ccc569d/2016-10-201111-Samujana-1-0036.jpg",
+  "gallery": [
+    "https://samujana.com/__l5e/assets-v1/3c7bf970-95c8-4228-9fcb-c6258ccc569d/2016-10-201111-Samujana-1-0036.jpg",
+    "https://samujana.com/__l5e/assets-v1/18590298-be94-49e4-afc7-bc66753ecefc/2016-10-201111-Samujana-1-0059-1.jpg",
+    "https://samujana.com/__l5e/assets-v1/cf801cb9-bd22-494a-aa95-be3b41bc58fb/2016-10-201111-Samujana-1-0042-1.jpg",
+    "https://samujana.com/__l5e/assets-v1/0cd78884-5f1f-4e81-8141-be36414c78bf/2016-10-201111-Samujana-1-0056.jpg",
+    "https://samujana.com/__l5e/assets-v1/a20fcbe9-a06b-4871-8a25-8e32dd73a020/2016-10-201111-Samujana-1-0009.jpg",
+    "https://samujana.com/__l5e/assets-v1/015ca38e-802c-4928-81b0-dea31edb9c72/2016-10-201111-Samujana-1-0039.jpg",
+    "https://samujana.com/__l5e/assets-v1/53996ff5-6fb3-4c19-8a7d-a7ac0209c937/2016-10-201111-Samujana-1-0011-1.jpg",
+    "https://samujana.com/__l5e/assets-v1/dd30ad4f-ff62-4034-bfa9-ef3b2ffbca88/2016-10-201111-Samujana-1-0035.jpg",
+    "https://samujana.com/__l5e/assets-v1/db396a17-4e90-4b9b-ab61-bf0eeb8907ba/2016-10-201111-Samujana-1-0030.jpg",
+    "https://samujana.com/__l5e/assets-v1/129026f3-7a83-4f73-a6ea-6ee94e588065/2016-10-201111-Samujana-1-0032.jpg",
+    "https://samujana.com/__l5e/assets-v1/50dc0914-2231-4522-82ac-1fa2ca732ee3/2016-10-250317-Samujana-1-0010.jpg",
+    "https://samujana.com/__l5e/assets-v1/f9a315bc-80ca-438b-95ab-a5e6ba46421d/2016-10-201111-Samujana-1-0006.jpg",
+    "https://samujana.com/__l5e/assets-v1/8ab639eb-06b0-421f-bbf7-8c11f193b415/2016-10-201111-Samujana-1-0079.jpg"
+  ],
+  "location": "Plai Laem · Koh Samui · Thailand",
+  "place": "Plai Laem, Bo Phut, Ko Samui District, Surat Thani 84320, Thailand",
+  "mapQuery": "9.561773,100.085597",
+  "title": "Hillside Villa with L-Shaped Infinity Pool, Cinema & Gym, Plai Laem",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 5,
+  "bedsLabel": "5",
+  "baths": 7,
+  "guests": 10,
+  "guestsLabel": "10",
+  "occupancy": "up to 10 guests",
+  "size": "Five-bedroom villa",
+  "nightlyNum": 2650,
+  "nightly": "$2,650",
+  "note": "Fully staffed · private chef available",
+  "sleeps": "up to 10 guests · 5 bedrooms",
+  "blurb": "A five-bedroom hillside retreat above Koh Samui's north-eastern coast, pairing expansive living with panoramic Gulf views — its centrepiece an L-shaped infinity pool long enough for laps, wrapped by terraces and a shaded sala, with a private cinema, gym and games room, and five en-suite king bedrooms that all face the sea.",
+  "detail": "Elevated above Koh Samui's north-eastern shoreline, this five-bedroom hillside retreat combines expansive living with panoramic coastal views — secluded and comfortable, yet keeping Choeng Mon and Chaweng's beaches, dining and nightlife within easy reach. Its centrepiece is an L-shaped infinity pool, long enough for athletic laps and perfectly positioned to frame the horizon.\n\nExpansive terraces and shaded outdoor pavilions surround the pool, creating spaces for sunbathing, lounging or barbecues in the outdoor sala, with landscaped gardens softening the striking architecture. Three distinct social areas anchor the home — a sala for BBQs, a curved sofa for cocktails and conversation, and more — while the open-plan design lets guests gather in groups or retreat to quieter corners.\n\nThree lounge areas include a private cinema with projector and surround sound, a TV lounge and a quiet office space. Each of the five en-suite bedrooms is a private sanctuary with a king bed, oversized bathtub or rain shower and direct ocean views, sleeping up to ten adults with options for children. A private gym and table tennis round out the active spaces.\n\nA resident team looks after the stay, with a full-service kitchen and bar, a Nuvo sound system throughout, an outdoor BBQ, private parking, full backup generators and uniformed security — a polished, sociable estate moments from the island's best beaches.",
+  "features": [
+    {
+      "l": "L-shaped infinity pool over the Gulf",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic north-east sea views",
+      "i": "view"
+    },
+    {
+      "l": "Private gym",
+      "i": "gym"
+    },
+    {
+      "l": "Projector cinema & surround sound",
+      "i": "music"
+    },
+    {
+      "l": "Games room & TV lounge",
+      "i": "sparkles"
+    },
+    {
+      "l": "Five en-suite bedrooms · 7 baths",
+      "i": "bed"
+    },
+    {
+      "l": "Three lounges incl. quiet office",
+      "i": "sofa"
+    },
+    {
+      "l": "Full-service kitchen & bar",
+      "i": "utensils"
+    },
+    {
+      "l": "Outdoor sala & BBQ",
+      "i": "terrace"
+    },
+    {
+      "l": "Landscaped gardens & lawn",
+      "i": "tree"
+    },
+    {
+      "l": "Private parking & backup power",
+      "i": "car"
+    },
+    {
+      "l": "Uniformed security & staff",
+      "i": "shield"
+    }
+  ]
+}

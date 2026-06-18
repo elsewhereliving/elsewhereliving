@@ -1,0 +1,8 @@
+---
+// Bracketed eyebrow — the brand's signature all-caps label, e.g. [ WHO WE SERVE ].
+// Color is inherited from the parent so each context (light section, navy
+// section, photo hero, footer) controls it.
+interface Props { onDark?: boolean; class?: string; }
+const { class: klass = "" } = Astro.props;
+---
+<span class={`ew-label ${klass}`} style="letter-spacing:0.04em;">[ <slot /> ]</span>

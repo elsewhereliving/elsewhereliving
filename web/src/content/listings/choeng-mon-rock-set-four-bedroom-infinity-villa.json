@@ -1,0 +1,87 @@
+{
+  "id": "choeng-mon-rock-set-four-bedroom-infinity-villa",
+  "image": "/assets/listings/samujana-villa-8/01.jpg",
+  "gallery": [
+    "/assets/listings/samujana-villa-8/01.jpg",
+    "/assets/listings/samujana-villa-8/02.jpg",
+    "/assets/listings/samujana-villa-8/03.jpg",
+    "/assets/listings/samujana-villa-8/04.jpg",
+    "/assets/listings/samujana-villa-8/05.jpg",
+    "/assets/listings/samujana-villa-8/06.jpg",
+    "/assets/listings/samujana-villa-8/07.jpg",
+    "/assets/listings/samujana-villa-8/08.jpg",
+    "/assets/listings/samujana-villa-8/09.jpg",
+    "/assets/listings/samujana-villa-8/10.jpg"
+  ],
+  "location": "Choeng Mon · Koh Samui · Thailand",
+  "place": "Choeng Mon headland estate, Bo Phut, Ko Samui District, Surat Thani 84320, Thailand",
+  "mapQuery": "9.561773,100.085597",
+  "market": "Koh Samui",
+  "title": "Rock-Set Four-Bedroom Villa with 17-Metre Infinity Pool & Sea Views",
+  "type": "Villa",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 4,
+  "baths": 5,
+  "interior": "806 m²",
+  "plot": "1,636 m²",
+  "year": null,
+  "priceNum": 2150000,
+  "price": "$2,150,000",
+  "added": 56,
+  "ownership": "Leasehold",
+  "blurb": "Nestled amongst dramatic granite outcrops on a headland above the Gulf of Thailand, a four-bedroom villa with four large en-suite double bedrooms, private terraces and a 17-metre infinity pool with an exceptional view. An open-air dining and lounge area, an AV room and an expansive sun deck complete the home — 806 m² of build on a 1,636 m² plot.",
+  "detail": "Nestled amongst dramatic rock outcrops on one of the estate's elevated headland plots, this four-bedroom villa makes a virtue of its natural setting — granite boulders, stone walls and glass framing the open-air living spaces against the sea. Four large double bedrooms each have en-suite bathrooms and private terraces; the master adds an adjoining study and powder room that can be converted into an additional children's bedroom, with five bathrooms and rain showers throughout.\n\nAt the heart of the home, a large 8.8 × 17.2 m infinity pool with an exceptional view and an expansive sun deck frame the open-air dining area and relaxation lounge, all flowing together for effortless indoor-outdoor living. The AV room sits adjacent to the living area with a TV projector and large screen for cinema nights, and the villa's sound system runs throughout.\n\nA fully equipped kitchen, a lounge/study room, landscaped gardens, a maid's room and private parking round out a turnkey home — secluded amongst the rocks yet minutes from the island's beaches, dining and the airport.",
+  "features": [
+    {
+      "l": "8.8 × 17.2 m infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Exceptional Gulf sea views",
+      "i": "view"
+    },
+    {
+      "l": "Set amongst granite rock outcrops",
+      "i": "mountain"
+    },
+    {
+      "l": "Four en-suite bedrooms · 5 baths",
+      "i": "bed"
+    },
+    {
+      "l": "Convertible study / children's room",
+      "i": "home"
+    },
+    {
+      "l": "AV room with projector & screen",
+      "i": "music"
+    },
+    {
+      "l": "Open-air dining & lounge",
+      "i": "sofa"
+    },
+    {
+      "l": "Fully equipped kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Expansive sun deck",
+      "i": "terrace"
+    },
+    {
+      "l": "806 m² build · 1,636 m² plot",
+      "i": "plot"
+    },
+    {
+      "l": "Landscaped gardens & maid's room",
+      "i": "tree"
+    },
+    {
+      "l": "In-villa sound system · parking",
+      "i": "car"
+    }
+  ]
+}

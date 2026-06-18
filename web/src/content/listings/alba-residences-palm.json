@@ -1,0 +1,83 @@
+{
+  "id": "alba-residences-palm",
+  "image": "/assets/listings/alba-residences-palm/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/alba-residences-palm/ext-001.jpg",
+    "/assets/listings/alba-residences-palm/ext-002.jpg",
+    "/assets/listings/alba-residences-palm/ext-003.jpg",
+    "/assets/listings/alba-residences-palm/ext-004.jpg",
+    "/assets/listings/alba-residences-palm/ext-005.jpg"
+  ],
+  "location": "Palm Jumeirah · Dubai · UAE",
+  "place": "ALBA Residences, Dorchester Collection, East Crescent, Palm Jumeirah, Dubai, UAE",
+  "mapQuery": "25.1231121,55.1546867",
+  "market": "Dubai",
+  "title": "ALBA Residences — Sea-View Apartment, Dorchester Collection",
+  "type": "Condominium",
+  "view": [
+    "Waterfront",
+    "Sea View"
+  ],
+  "status": "Off-Plan",
+  "beds": 4,
+  "baths": 5,
+  "interior": "707 m²",
+  "plot": null,
+  "year": 2028,
+  "priceNum": 0,
+  "price": "Price on request",
+  "added": 40,
+  "ownership": "Freehold",
+  "blurb": "A four-bedroom beachfront apartment at The ALBA Residences, Dorchester Collection — a Zaha Hadid Architects curved creation on Palm Jumeirah's East Crescent, with sea views, private beach access and the UAE's most extensive well-living amenities.",
+  "detail": "At The ALBA Residences, each moment is shaped by the essence of well-living. From the thoughtful design to the serene lifestyle, every detail is crafted with understated elegance — a private beachfront haven and OMNIYAT masterpiece centred on tranquillity, reconnection and renewal, where you don't just live but thrive.\n\nEnshrined in Zaha Hadid Architects' singular curved creation are meticulously designed residences, each attended by the legendary service only Dorchester Collection can provide — the only garden-retreat hotel by the sea in the Collection's portfolio. Tropical gardens, holistic spa treatments, tailored wellness routines and exquisite culinary experiences coalesce into a calming yet luxurious lifestyle, with sea views across Palm Jumeirah from this four-bedroom home.\n\nResidents enjoy the most extensive well-living and amenities programme in the United Arab Emirates: a branded wellness centre with treatment rooms, vitality pools, private beach access and a state-of-the-art fitness suite, all set within resort-style landscaping by Vladimir Djurovic — a flourishing arcadia where nature thrives and time unfolds at your own pace.",
+  "features": [
+    {
+      "l": "Zaha Hadid Architects curved design",
+      "i": "building"
+    },
+    {
+      "l": "Dorchester Collection service",
+      "i": "sparkles"
+    },
+    {
+      "l": "Sea views over Palm Jumeirah",
+      "i": "view"
+    },
+    {
+      "l": "Private beach access",
+      "i": "waves"
+    },
+    {
+      "l": "Branded well-living spa & vitality pools",
+      "i": "pool"
+    },
+    {
+      "l": "State-of-the-art fitness suite",
+      "i": "gym"
+    },
+    {
+      "l": "Four en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Landscaping by Vladimir Djurovic",
+      "i": "tree"
+    },
+    {
+      "l": "Fine dining & culinary experiences",
+      "i": "utensils"
+    },
+    {
+      "l": "Garden-retreat hotel by the sea",
+      "i": "home"
+    },
+    {
+      "l": "Gated beachfront community",
+      "i": "shield"
+    },
+    {
+      "l": "Completion 2028",
+      "i": "year"
+    }
+  ]
+}

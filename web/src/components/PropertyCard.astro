@@ -1,0 +1,54 @@
+---
+// Faithful port of js/brand.js PropertyCard. Takes a full listing `item`.
+import Icon from "./Icon.astro";
+import Badge from "./Badge.astro";
+import SaveButton from "./react/SaveButton.tsx";
+import { viewText } from "../lib/format";
+import { optImg } from "../lib/img";
+import type { Listing } from "../lib/types";
+
+interface Props { item: Listing; href?: string; }
+const { item, href } = Astro.props;
+const link = href ?? `/property/${item.id}/`;
+const isLand = item.type === "Land";
+const tooltip = item.priceOriginal
+  ? `Shown in USD — originally ${item.priceOriginal}${item.priceCurrency ? ` (${item.priceCurrency})` : ""}`
+  : undefined;
+---
+<a href={link} class="pcard" aria-label={item.title}>
+  <div class="pcard__media pcard__media--32 ew-grain">
+    <img src={optImg(item.image, "small")} alt={item.title} loading="lazy" decoding="async" width="640" height="427" onerror={`this.onerror=null;this.src='${item.image}'`} />
+    {item.status && <div style="position:absolute; top:14px; left:14px; z-index:2;"><Badge tone="light">{item.status}</Badge></div>}
+    <div style="position:absolute; top:12px; right:12px; z-index:2;"><SaveButton id={item.id} client:visible /></div>
+  </div>
+  <div class="pcard__body">
+    <div style="font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.18em; text-transform:uppercase; color:var(--slate);">{item.location}</div>
+    <h3 style="margin:8px 0 0; font-family:var(--font-serif); font-weight:300; font-size:26px; line-height:1.12; color:var(--navy); letter-spacing:-0.01em;">{item.title}</h3>
+    <div style="display:flex; flex-wrap:wrap; gap:8px 16px; margin-top:16px; padding-top:16px; border-top:1px solid var(--border-subtle); font-family:var(--font-sans); font-weight:300; font-size:12.5px; letter-spacing:0.03em; color:var(--text-body);">
+      {isLand ? (
+        <>
+          <span style="display:inline-flex; align-items:center; gap:6px;"><Icon name="plot" size={15} color="var(--slate)" stroke={1.4} /> {item.plot}</span>
+          <span style="display:inline-flex; align-items:center; gap:6px;"><Icon name="view" size={15} color="var(--slate)" stroke={1.4} /> {viewText(item.view)}</span>
+        </>
+      ) : (
+        <>
+          <span style="display:inline-flex; align-items:center; gap:6px;"><Icon name="bed" size={15} color="var(--slate)" stroke={1.4} /> {item.bedsLabel || item.beds}</span>
+          <span style="display:inline-flex; align-items:center; gap:6px;"><Icon name="bath" size={15} color="var(--slate)" stroke={1.4} /> {item.baths}</span>
+          {item.interior && item.interior !== "—" && (
+            <span style="display:inline-flex; align-items:center; gap:6px;"><Icon name="interior" size={15} color="var(--slate)" stroke={1.4} /> {item.interior}</span>
+          )}
+        </>
+      )}
+    </div>
+    <div style="margin-top:16px; display:flex; align-items:baseline; justify-content:space-between; gap:12px;">
+      {item.priceOriginal ? (
+        <span style="position:relative; display:inline-flex; align-items:center; gap:7px;" title={tooltip}>
+          <span style="font-family:var(--font-serif); font-weight:400; font-size:19px; color:var(--charcoal); border-bottom:1px dotted var(--stone); padding-bottom:1px;">{item.price}</span>
+          <Icon name="info" size={14} color="var(--slate)" stroke={1.5} />
+        </span>
+      ) : (
+        <span style="font-family:var(--font-serif); font-weight:400; font-size:19px; color:var(--charcoal);">{item.price}</span>
+      )}
+    </div>
+  </div>
+</a>

@@ -1,0 +1,82 @@
+{
+  "id": "bang-por-seaview-development-land",
+  "image": "/assets/listings/bang-por-seaview-development-land/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/bang-por-seaview-development-land/ext-001.jpg",
+    "/assets/listings/bang-por-seaview-development-land/ext-002.jpg",
+    "/assets/listings/bang-por-seaview-development-land/ext-003.jpg"
+  ],
+  "location": "Bang Por · Koh Samui · Thailand",
+  "place": "Bang Por, Maenam, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5650,99.9650",
+  "market": "Koh Samui",
+  "title": "8-Rai Sea-View Development Land, 80m from Bang Por Beach",
+  "type": "Land",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 0,
+  "baths": 0,
+  "interior": "—",
+  "plot": "12,800 m²",
+  "year": null,
+  "priceNum": 4553734,
+  "price": "$4,553,734",
+  "priceOriginal": "฿150,000,000",
+  "priceCurrency": "THB",
+  "added": 1,
+  "ownership": "Freehold",
+  "blurb": "A rare 8-rai (12,800 m²) sea-view development plot on Koh Samui's tranquil northwest coast, just 80 metres from Bang Por Beach with direct access to the public beach entrance. Positioned on the main coastal road in the coveted yellow zone — an ideal canvas for a villa estate, boutique condominium or resort-style project. Chanote freehold.",
+  "detail": "A rare opportunity to secure 8 rai (12,800 m²) of prime real estate on the sought-after northwest coast of Koh Samui. Positioned just 80 metres from Bang Por Beach with direct access to the public beach entrance, the site enjoys both convenience and exclusivity, with sweeping ocean views — an ideal canvas for luxury development in one of the island's most desirable and fast-growing areas.\n\nStrategically located on the main coastal road, this freehold sea-view land benefits from superb visibility and accessibility. Zoned within the coveted yellow development zone, it opens up a variety of high-value projects, from boutique condominium complexes to exclusive villa estates. Priced competitively at ฿17,200,000 per rai for a total asking price of ฿150,000,000, it is one of the last remaining large sea-view sites within walking distance of the beach.\n\nThe configuration offers flexibility for a wide range of concepts — luxury pool villas, modern apartment buildings or a mixed-use resort-style project. Its proximity to the shore ensures uninterrupted ocean vistas, while the elevated position captures cooling breezes and breathtaking sunsets over the Gulf of Thailand, allowing generously proportioned units, landscaped gardens, communal facilities and infinity pools that fully leverage the panoramic setting.\n\nBang Por is renowned for its tranquil charm — a beach that stretches for several kilometres of soft white sand and calm, year-round swimming water, while remaining within easy reach of the island's amenities: Fisherman's Village in Bophut is fifteen minutes away, with Chaweng and Samui International Airport around twenty-five minutes. With limited availability of large sea-view plots near the beach, the holding is well positioned for significant long-term capital appreciation. Offered freehold under Chanote title.",
+  "features": [
+    {
+      "l": "8 rai · 12,800 m² sea-view plot",
+      "i": "plot"
+    },
+    {
+      "l": "80 m from Bang Por Beach",
+      "i": "waves"
+    },
+    {
+      "l": "Direct public beach access",
+      "i": "road"
+    },
+    {
+      "l": "Sweeping Gulf of Thailand views",
+      "i": "view"
+    },
+    {
+      "l": "Coveted yellow development zone",
+      "i": "building"
+    },
+    {
+      "l": "On the main coastal road",
+      "i": "car"
+    },
+    {
+      "l": "Suits villas, condos or a resort",
+      "i": "home"
+    },
+    {
+      "l": "Elevated · cooling breezes & sunsets",
+      "i": "sun"
+    },
+    {
+      "l": "Government electricity & water",
+      "i": "sparkles"
+    },
+    {
+      "l": "Chanote freehold title",
+      "i": "shield"
+    },
+    {
+      "l": "15 min to Fisherman's Village",
+      "i": "users"
+    },
+    {
+      "l": "~25 min to Chaweng & airport",
+      "i": "key"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "bophut-hills-hilltop-villa",
+  "image": "/assets/listings/bophut-hills-hilltop-villa/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/bophut-hills-hilltop-villa/ext-001.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-002.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-003.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-004.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-005.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-006.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-007.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-008.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-009.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-010.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-011.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-012.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-013.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-014.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-015.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-016.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-017.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-018.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-019.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-020.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-021.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-022.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-023.jpg",
+    "/assets/listings/bophut-hills-hilltop-villa/ext-024.jpg"
+  ],
+  "location": "Bo Phut · Koh Samui · Thailand",
+  "place": "Bophut Hills, Bo Phut, Koh Samui, Thailand",
+  "mapQuery": "9.551944,100.018464",
+  "market": "Koh Samui",
+  "title": "Bophut Hills Hilltop Villa — Koh Phangan Panorama",
+  "type": "Villa",
+  "view": [
+    "Sea View",
+    "Mountain View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 6,
+  "baths": 7,
+  "interior": "1,020 m²",
+  "plot": "2,152 m²",
+  "year": null,
+  "priceNum": 2430128,
+  "price": "$2,430,128",
+  "priceOriginal": "฿80,000,000",
+  "priceCurrency": "THB",
+  "added": 24,
+  "ownership": "Freehold",
+  "blurb": "A six-bedroom hilltop villa in the scenic Bophut Hills, with a sunrise-to-sunset panorama over Samui's northern shore and Koh Phangan — a 25-metre infinity pool, Thai sala, cathedral-ceiling living, and a resident chef and villa manager.",
+  "detail": "A tropical hilltop paradise in the scenic Bophut Hills, just a 15–20 minute drive from Koh Samui International Airport. The six-bedroom villa is strategically positioned for a breathtaking sunrise-to-sunset panorama over Samui's pristine northern shore and the enchanting Koh Phangan — 'Full Moon Island' — on the horizon. Secluded and serene, it remains surprisingly close to key destinations: around 10 minutes to Fisherman's Village and 15 minutes to the vibrant lifestyle of Chaweng.\n\nEach of the six bedrooms is designed for comfort and style with its own private sea-view terrace, and recent renovations have introduced a lighter, more contemporary ambiance throughout. The living and dining space, crowned by a soaring cathedral ceiling, serves as a spectacular social hub — overlooking the 25-metre infinity-edge pool, a traditional Thai-style sala and the mesmerising sea beyond.\n\nThe experience is elevated by a dedicated team, including an experienced multilingual villa manager and a resident chef, alongside an internal elevator, gym, sauna, jacuzzi, spa room and kids' room. From culinary delights to personalised service, it is a polished, turnkey hilltop retreat for families or groups seeking the epitome of private villa living on Koh Samui.",
+  "features": [
+    {
+      "l": "25 m infinity-edge pool",
+      "i": "pool"
+    },
+    {
+      "l": "Sunrise-to-sunset sea & Koh Phangan views",
+      "i": "view"
+    },
+    {
+      "l": "Six bedrooms with sea-view terraces",
+      "i": "bed"
+    },
+    {
+      "l": "Cathedral-ceiling living & dining",
+      "i": "home"
+    },
+    {
+      "l": "Traditional Thai sala",
+      "i": "tree"
+    },
+    {
+      "l": "Internal elevator",
+      "i": "building"
+    },
+    {
+      "l": "Gym, sauna & jacuzzi",
+      "i": "gym"
+    },
+    {
+      "l": "Spa room & kids' room",
+      "i": "sparkles"
+    },
+    {
+      "l": "Sun deck & lounging terraces",
+      "i": "terrace"
+    },
+    {
+      "l": "Villa manager & resident chef",
+      "i": "users"
+    },
+    {
+      "l": "15 min to Samui Airport",
+      "i": "road"
+    },
+    {
+      "l": "24-hour security & CCTV",
+      "i": "shield"
+    }
+  ]
+}

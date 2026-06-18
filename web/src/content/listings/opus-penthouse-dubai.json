@@ -1,0 +1,80 @@
+{
+  "id": "opus-penthouse-dubai",
+  "image": "/assets/listings/opus-penthouse-dubai/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/opus-penthouse-dubai/ext-001.jpg",
+    "/assets/listings/opus-penthouse-dubai/ext-002.jpg",
+    "/assets/listings/opus-penthouse-dubai/ext-003.jpg",
+    "/assets/listings/opus-penthouse-dubai/ext-004.jpg",
+    "/assets/listings/opus-penthouse-dubai/ext-005.jpg"
+  ],
+  "location": "Downtown · Dubai · UAE",
+  "place": "The Opus by Omniyat, Business Bay, Dubai, UAE",
+  "mapQuery": "25.188685,55.267073",
+  "market": "Dubai",
+  "title": "The Opus Super Penthouse by Zaha Hadid",
+  "type": "Condominium",
+  "view": "City View",
+  "status": "Move-In Ready",
+  "beds": 4,
+  "baths": 6,
+  "interior": "1,188 m²",
+  "plot": null,
+  "year": 2024,
+  "priceNum": 0,
+  "price": "Price on request",
+  "added": 29,
+  "ownership": "Freehold",
+  "blurb": "A one-of-a-kind super penthouse crowning The Opus — the last completed gem of Dame Zaha Hadid's legacy — 12,788 sq ft of OMNIYAT Atelier interiors above Downtown Dubai.",
+  "detail": "The Opus Penthouse by OMNIYAT is a one-of-a-kind creation within a one-of-a-kind masterpiece, crowning the last gem of Dame Zaha Hadid's legacy. This extraordinary four-bedroom residence spans 12,788 sq ft (approximately 1,188 m²) of ultra-luxury living space designed and delivered by OMNIYAT Atelier.\n\nBringing together the world's finest artists, artisans and luxury brands, the penthouse represents the pinnacle of sophisticated city living. Expansive rooms, soaring ceilings and seamless indoor-outdoor transitions define a lifestyle of elegance and refinement.\n\nFrom curated furnishings to impeccable finishes, every detail reflects a commitment to exceptional craftsmanship, resulting in a residence that is both timeless and inspiring — set within one of the most architecturally significant buildings in Downtown Dubai.",
+  "features": [
+    {
+      "l": "Within Zaha Hadid's The Opus",
+      "i": "building"
+    },
+    {
+      "l": "OMNIYAT Atelier interiors",
+      "i": "sparkles"
+    },
+    {
+      "l": "12,788 sq ft of living space",
+      "i": "home"
+    },
+    {
+      "l": "Soaring ceilings & city views",
+      "i": "view"
+    },
+    {
+      "l": "Indoor pool",
+      "i": "pool"
+    },
+    {
+      "l": "Wine cellar & bar",
+      "i": "utensils"
+    },
+    {
+      "l": "Sauna & steam room",
+      "i": "gym"
+    },
+    {
+      "l": "Library & office",
+      "i": "key"
+    },
+    {
+      "l": "Outdoor kitchen & terrace",
+      "i": "terrace"
+    },
+    {
+      "l": "Fireplace & jacuzzi",
+      "i": "sofa"
+    },
+    {
+      "l": "Private garage",
+      "i": "car"
+    },
+    {
+      "l": "Completed 2024",
+      "i": "year"
+    }
+  ]
+}

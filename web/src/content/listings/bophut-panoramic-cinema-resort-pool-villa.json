@@ -1,0 +1,93 @@
+{
+  "id": "bophut-panoramic-cinema-resort-pool-villa",
+  "image": "/assets/listings/bophut-panoramic-cinema-resort-pool-villa/ext-007.jpg",
+  "gallery": [
+    "/assets/listings/bophut-panoramic-cinema-resort-pool-villa/ext-001.jpg",
+    "/assets/listings/bophut-panoramic-cinema-resort-pool-villa/ext-002.jpg",
+    "/assets/listings/bophut-panoramic-cinema-resort-pool-villa/ext-003.jpg",
+    "/assets/listings/bophut-panoramic-cinema-resort-pool-villa/ext-004.jpg",
+    "/assets/listings/bophut-panoramic-cinema-resort-pool-villa/ext-005.jpg",
+    "/assets/listings/bophut-panoramic-cinema-resort-pool-villa/ext-006.jpg",
+    "/assets/listings/bophut-panoramic-cinema-resort-pool-villa/ext-007.jpg",
+    "/assets/listings/bophut-panoramic-cinema-resort-pool-villa/ext-008.jpg",
+    "/assets/listings/bophut-panoramic-cinema-resort-pool-villa/ext-009.jpg",
+    "/assets/listings/bophut-panoramic-cinema-resort-pool-villa/ext-010.jpg",
+    "/assets/listings/bophut-panoramic-cinema-resort-pool-villa/ext-011.jpg",
+    "/assets/listings/bophut-panoramic-cinema-resort-pool-villa/ext-012.jpg",
+    "/assets/listings/bophut-panoramic-cinema-resort-pool-villa/ext-013.jpg",
+    "/assets/listings/bophut-panoramic-cinema-resort-pool-villa/ext-014.jpg"
+  ],
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bo Phut, Ko Samui District, Surat Thani 84320, Thailand",
+  "mapQuery": "9.5645,100.0345",
+  "market": "Koh Samui",
+  "title": "Three-Level Panoramic Sea-View Villa with Cinema & Resort Pool, Bophut",
+  "type": "Villa",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Off-Plan",
+  "beds": 6,
+  "baths": "6.5",
+  "interior": "1,017 m²",
+  "plot": null,
+  "year": null,
+  "priceNum": 2885784,
+  "price": "$2,885,784",
+  "priceOriginal": "฿95,000,000",
+  "priceCurrency": "THB",
+  "added": 47,
+  "ownership": "Freehold",
+  "blurb": "An exclusive three-storey villa in the Bophut hills — six en-suite bedrooms plus a private studio over 1,017 m², a resort-scale 16-metre pool and sala, and a private cinema, sauna and gym, all framing uninterrupted panoramic ocean views. Offered freehold, off-plan.",
+  "detail": "Commanding an elevated position in the prestigious Bophut hills, this ultra-luxury residence spans three floors and roughly 1,017 m² of indoor living, designed for both architectural impact and exceptional comfort. Offered freehold, it pairs long-term security with elite-level lifestyle appeal and uninterrupted panoramic views over the ocean and coastline.\n\nThe home offers six spacious en-suite bedrooms plus a separate studio — ideal for guests, staff or a private workspace — with the multi-level plan separating private suites from the entertaining areas. At the heart of the outdoor space, a resort-scale 16 × 6.8-metre pool, expansive terraces and a traditional sala create multiple zones for sunset entertaining, while the elevated setting draws cooling breezes across the deck.\n\nLifestyle amenities run deep: a private cinema room, a sauna, a fully equipped gym, built-in designer furniture and multiple lounge spaces, all delivered fully furnished as a turnkey residence. Bophut keeps Fisherman's Village, Bophut Beach, international schools, fine dining and Samui International Airport close at hand — a statement property suited to private living, a corporate retreat or a high-yield luxury rental.",
+  "features": [
+    {
+      "l": "Panoramic ocean views",
+      "i": "view"
+    },
+    {
+      "l": "Six en-suite bedrooms + studio",
+      "i": "bed"
+    },
+    {
+      "l": "Resort-scale 16 m pool & sala",
+      "i": "pool"
+    },
+    {
+      "l": "Private cinema room",
+      "i": "music"
+    },
+    {
+      "l": "Sauna & fully equipped gym",
+      "i": "gym"
+    },
+    {
+      "l": "Three levels · 1,017 m² interior",
+      "i": "building"
+    },
+    {
+      "l": "Built-in designer furniture",
+      "i": "sofa"
+    },
+    {
+      "l": "Freehold · Chanote title",
+      "i": "shield"
+    },
+    {
+      "l": "Fully furnished, off-plan",
+      "i": "sparkles"
+    },
+    {
+      "l": "Minutes to Fisherman's Village",
+      "i": "utensils"
+    },
+    {
+      "l": "Cooling elevated breezes",
+      "i": "tree"
+    },
+    {
+      "l": "High rental-yield potential",
+      "i": "users"
+    }
+  ]
+}

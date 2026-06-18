@@ -1,0 +1,100 @@
+{
+  "id": "white-house-bophut",
+  "image": "/assets/listings/white-house-bophut/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/white-house-bophut/ext-001.jpg",
+    "/assets/listings/white-house-bophut/ext-002.jpg",
+    "/assets/listings/white-house-bophut/ext-003.jpg",
+    "/assets/listings/white-house-bophut/ext-004.jpg",
+    "/assets/listings/white-house-bophut/ext-005.jpg",
+    "/assets/listings/white-house-bophut/ext-006.jpg",
+    "/assets/listings/white-house-bophut/ext-007.jpg",
+    "/assets/listings/white-house-bophut/ext-008.jpg",
+    "/assets/listings/white-house-bophut/ext-009.jpg",
+    "/assets/listings/white-house-bophut/ext-010.jpg",
+    "/assets/listings/white-house-bophut/ext-011.jpg",
+    "/assets/listings/white-house-bophut/ext-012.jpg",
+    "/assets/listings/white-house-bophut/ext-013.jpg",
+    "/assets/listings/white-house-bophut/ext-014.jpg",
+    "/assets/listings/white-house-bophut/ext-015.jpg",
+    "/assets/listings/white-house-bophut/ext-016.jpg",
+    "/assets/listings/white-house-bophut/ext-017.jpg",
+    "/assets/listings/white-house-bophut/ext-018.jpg",
+    "/assets/listings/white-house-bophut/ext-019.jpg",
+    "/assets/listings/white-house-bophut/ext-020.jpg",
+    "/assets/listings/white-house-bophut/ext-021.jpg",
+    "/assets/listings/white-house-bophut/ext-022.jpg",
+    "/assets/listings/white-house-bophut/ext-023.jpg"
+  ],
+  "location": "Bo Phut · Koh Samui · Thailand",
+  "place": "Bophut Hills, Bo Phut, Koh Samui, Thailand",
+  "mapQuery": "Bophut, Koh Samui, Thailand",
+  "market": "Koh Samui",
+  "title": "White House — Bophut Hills Sea-View Villa",
+  "type": "Villa",
+  "view": "Sea View",
+  "status": "Move-In Ready",
+  "beds": 5,
+  "baths": 5,
+  "interior": "700 m²",
+  "plot": "1,358 m²",
+  "year": null,
+  "priceNum": 1002428,
+  "price": "$1,002,428",
+  "priceOriginal": "฿33,000,000",
+  "priceCurrency": "THB",
+  "added": 16,
+  "ownership": "Freehold",
+  "blurb": "A fully renovated hillside villa in the sought-after Bophut Hills community — five en-suite bedrooms plus a flexible bonus room, an infinity pool over the tropical hills and sea, a huge garden, and a self-contained studio with its own entrance.",
+  "detail": "A fully renovated sea-view villa set in the sought-after Bophut Hills community on Koh Samui's north-east coast. Past a covered two-car parking bay, the entrance walkway opens onto a terrace between the main living wing and one of the bedrooms, where an open-plan living and dining room with a new Western kitchen flows straight out to the poolside terrace — alfresco dining and easy days by the infinity pool, overlooking lush tropical hills and the ocean beyond. A discreet chef's prep kitchen sits off the main kitchen.\n\nThe home offers five bedrooms with en-suite bathrooms, plus a flexible bonus room that can serve as a family room, home office or gym, opening onto the lawn through floor-to-ceiling glass. Two master suites sit on the main living level, with further suites on the garden floor reached by stairs descending beside the pool. Outside, a huge tropical garden wraps the villa with generous lawn, sunbeds and outdoor dining.\n\nFor maximum flexibility, a separate entrance leads to a self-contained one-bedroom studio with its own living space and kitchenette — ideal as a guest, staff or rental apartment. Offered freehold or leasehold and sold fully furnished, the villa is a short drive from Fisherman's Village, international schools and Samui International Airport.",
+  "features": [
+    {
+      "l": "Infinity pool over the sea & hills",
+      "i": "pool"
+    },
+    {
+      "l": "5 en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Flex room — family room / office / gym",
+      "i": "gym"
+    },
+    {
+      "l": "Separate-entrance 1-bedroom studio",
+      "i": "key"
+    },
+    {
+      "l": "Huge tropical garden",
+      "i": "tree"
+    },
+    {
+      "l": "Open-plan living & dining",
+      "i": "sofa"
+    },
+    {
+      "l": "Western kitchen + chef's prep kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Pool terrace & alfresco dining",
+      "i": "terrace"
+    },
+    {
+      "l": "Floor-to-ceiling glass",
+      "i": "home"
+    },
+    {
+      "l": "Fully furnished & renovated",
+      "i": "sparkles"
+    },
+    {
+      "l": "Covered 2-car parking",
+      "i": "car"
+    },
+    {
+      "l": "Bophut Hills · private-road community",
+      "i": "shield"
+    }
+  ]
+}

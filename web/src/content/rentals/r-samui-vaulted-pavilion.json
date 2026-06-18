@@ -1,0 +1,61 @@
+{
+  "id": "r-samui-vaulted-pavilion",
+  "image": "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_01_pool_1680.webp",
+  "gallery": [
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_01_pool_1680.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_02_pool_1680.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_18_aerialview_1680.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_03_livingarea_1680.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_04_diningarea_1680.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_14_kitchen_1680.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_06_bedroom1terrace_1680.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_16_poolsidesala_1680.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_17_poolsideloungers_1680.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_19_villaview_1680.webp"
+  ],
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bophut Hills, Bo Phut, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5586,100.0247",
+  "title": "Vaulted-Pavilion Hillside Villa, Bophut Hills",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 5,
+  "bedsLabel": "5",
+  "guests": 12,
+  "guestsLabel": "12",
+  "occupancy": "up to 12 guests",
+  "size": "2,000 m²",
+  "nightlyNum": 835,
+  "nightly": "$835",
+  "note": "Fully staffed · breakfast included",
+  "sleeps": "12 guests · 5 bedrooms",
+  "blurb": "A five-bedroom hillside villa defined by a single soaring, wood-lined vaulted pavilion — its living level runs almost the full length of the house behind bi-folding glass on both sides, framing palm-clad valleys, Bophut bay and the offshore islands above a 20-metre infinity pool.",
+  "detail": "A slice of unmatched tropical elegance in the Bophut Hills, this five-bedroom villa centres on a vast, elevated living and dining pavilion that runs almost the entire length of the property beneath a soaring, wood-lined vaulted ceiling. Bi-folding glass doors on both sides open the room completely, ensuring constant panoramic views across palm-clad valleys and out to the bay of Bophut and the offshore islands, while a covered balcony with all-weather chairs runs the full length of the pavilion above the garden and pool.\n\nA pedestal table for ten anchors the dining area beside an open-plan kitchen with island breakfast bar, top-of-the-range appliances and a built-in wine cooler; the lounge is layered with deep upholstered sofas, a rustic coffee table, a Smart TV and a modern chandelier. Stairs on both sides lead down to three king guest bedrooms that look across the garden, pool and view, each with an en-suite rain-shower bathroom along a covered walkway, with a lawn extending to the wide pool terrace.\n\nThe 20-metre infinity pool has sunken stools at a swim-up bar set within a covered sala with dining bench seats. The villa's two mirror-image master suites — one opening directly onto the pool terrace, one above — each carry their own vaulted wooden ceiling, dressing area, twin washbasins, rain shower and a terrazzo bathtub by an ocean-facing window. Fully staffed with daily breakfast and a covered carport, set just a short drive from Fisherman's Village.",
+  "features": [
+    {
+      "l": "20 m infinity pool & swim-up bar",
+      "i": "pool"
+    },
+    {
+      "l": "Soaring wood-lined vaulted pavilion",
+      "i": "home"
+    },
+    {
+      "l": "Valley, bay & island views",
+      "i": "view"
+    },
+    {
+      "l": "Two mirror-image master suites",
+      "i": "bed"
+    },
+    {
+      "l": "Poolside sala & alfresco dining",
+      "i": "terrace"
+    },
+    {
+      "l": "5 bedrooms · fully staffed + breakfast",
+      "i": "users"
+    }
+  ]
+}

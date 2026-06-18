@@ -1,0 +1,91 @@
+{
+  "id": "ayana-heights-seaview-residence",
+  "image": "/assets/listings/ayana-heights-seaview-residence/ext-004.jpg",
+  "gallery": [
+    "/assets/listings/ayana-heights-seaview-residence/ext-001.jpg",
+    "/assets/listings/ayana-heights-seaview-residence/ext-002.jpg",
+    "/assets/listings/ayana-heights-seaview-residence/ext-003.jpg",
+    "/assets/listings/ayana-heights-seaview-residence/ext-004.jpg",
+    "/assets/listings/ayana-heights-seaview-residence/ext-005.jpg",
+    "/assets/listings/ayana-heights-seaview-residence/ext-006.jpg",
+    "/assets/listings/ayana-heights-seaview-residence/ext-007.jpg",
+    "/assets/listings/ayana-heights-seaview-residence/ext-008.jpg",
+    "/assets/listings/ayana-heights-seaview-residence/ext-009.jpg",
+    "/assets/listings/ayana-heights-seaview-residence/ext-010.jpg",
+    "/assets/listings/ayana-heights-seaview-residence/ext-011.jpg"
+  ],
+  "location": "Layan · Phuket · Thailand",
+  "place": "AYANA Heights, Cherngtalay, Choeng Thale, Thalang District, Phuket 83110, Thailand",
+  "mapQuery": "8.0042,98.2975",
+  "market": "Phuket",
+  "title": "AYANA Heights Seaview Residence — Hillside Sea-View Condos near Layan Beach",
+  "type": "Condominium",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Off-Plan",
+  "beds": 0,
+  "bedsLabel": "Studio–4",
+  "baths": "1–2",
+  "interior": "37–117 m²",
+  "plot": null,
+  "year": 2026,
+  "priceNum": 265477,
+  "price": "From $265,477",
+  "priceOriginal": "฿8,744,826",
+  "priceCurrency": "THB",
+  "added": 64,
+  "ownership": "Freehold or Leasehold",
+  "blurb": "A new hillside sea-view condominium above Layan Beach at the northern end of Bang Tao, with eight low-rise buildings of four to six storeys set among lush landscapes and panoramic Andaman Sea views. Studio to four-bedroom residences from 37 m², wrapped in a full resort amenity set. Off-plan, completing 2026.",
+  "detail": "AYANA Heights Seaview Residence is a new luxury condominium perched on a hillside in the Layan Beach area, at the northern end of Bang Tao on Phuket's unspoiled west coast. Across eight low-rise buildings of four to six storeys, the project gathers 549 residences amid lush tropical landscapes, with upper floors opening to distant views of the sparkling Andaman Sea.\n\nLayouts run from studios to one-, two-, three- and four-bedroom apartments, from around 37 to 117 m², giving buyers flexibility for a lock-up-and-leave bolthole, a family home or a rental investment. Interiors pair clean modern design with the natural beauty of the surroundings, finished to a high standard throughout.\n\nResidents enjoy a complete resort amenity set — general and private pools, a gym, sauna and yoga zone, coworking and library spaces, a children's room and playground, a conference room, parking, 24-hour security with video surveillance and professional property management. Moments from Layan's beaches and the Laguna lifestyle hub, it offers a balance of luxury, comfort and proximity to nature. Off-plan, with completion scheduled for 2026.",
+  "features": [
+    {
+      "l": "Hillside above Layan Beach",
+      "i": "mountain"
+    },
+    {
+      "l": "Panoramic Andaman sea views",
+      "i": "view"
+    },
+    {
+      "l": "Eight low-rise buildings (4–6 storeys)",
+      "i": "building"
+    },
+    {
+      "l": "Studio–4 bed · 37–117 m²",
+      "i": "bed"
+    },
+    {
+      "l": "General & private pools",
+      "i": "pool"
+    },
+    {
+      "l": "Gym, sauna & yoga zone",
+      "i": "gym"
+    },
+    {
+      "l": "Coworking & library",
+      "i": "home"
+    },
+    {
+      "l": "Children's room & playground",
+      "i": "users"
+    },
+    {
+      "l": "Conference room & management",
+      "i": "sparkles"
+    },
+    {
+      "l": "Secure parking",
+      "i": "car"
+    },
+    {
+      "l": "24/7 security & video surveillance",
+      "i": "shield"
+    },
+    {
+      "l": "Near Layan Beach & Laguna",
+      "i": "waves"
+    }
+  ]
+}

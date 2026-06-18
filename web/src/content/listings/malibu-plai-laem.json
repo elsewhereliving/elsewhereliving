@@ -1,0 +1,93 @@
+{
+  "id": "malibu-plai-laem",
+  "image": "/assets/listings/malibu/ext-pool-d.jpg",
+  "gallery": [
+    "/assets/listings/malibu/ext-pool-d.jpg",
+    "/assets/listings/malibu/ext-pool-b.jpg",
+    "/assets/listings/malibu/ext-pool-dd.jpg",
+    "/assets/listings/malibu/ext-front-a.jpg",
+    "/assets/listings/malibu/ext-front-dd.jpg",
+    "/assets/listings/malibu/ext-front-c.jpg",
+    "/assets/listings/malibu/ext-z3.jpg",
+    "/assets/listings/malibu/ext-z2.jpg",
+    "/assets/listings/malibu/ext-z1.jpg",
+    "/assets/listings/malibu/entrance-a.jpg",
+    "/assets/listings/malibu/entrance-b.jpg",
+    "/assets/listings/malibu/living-a.jpg",
+    "/assets/listings/malibu/living-b.jpg",
+    "/assets/listings/malibu/living-c.jpg",
+    "/assets/listings/malibu/living-e.jpg",
+    "/assets/listings/malibu/master-b.jpg",
+    "/assets/listings/malibu/master-c.jpg",
+    "/assets/listings/malibu/bed-a.jpg",
+    "/assets/listings/malibu/bed-b.jpg",
+    "/assets/listings/malibu/bath-b.jpg"
+  ],
+  "location": "Plai Laem · Koh Samui · Thailand",
+  "place": "Plai Laem, Koh Samui, Thailand",
+  "mapQuery": "9.5811,100.0703",
+  "market": "Koh Samui",
+  "title": "Three-Bedroom Pool Villa in Plai Laem",
+  "type": "Villa",
+  "view": "Beachside",
+  "status": "Off-Plan",
+  "beds": 3,
+  "baths": 4,
+  "interior": "153 m²",
+  "plot": "320–428 m²",
+  "year": 2027,
+  "priceNum": 323460,
+  "price": "From $323,460",
+  "priceOriginal": "€299,500",
+  "priceCurrency": "EUR",
+  "added": 2,
+  "ownership": "30-year leasehold",
+  "blurb": "Malibu Villas — an exclusive collection of thirteen contemporary tropical pool villas in Plai Laem, a two-minute walk from the beach. A single proven 3-bedroom, 4-bath layout with a private pool, wrapped in landscaped garden and finished for easy island living.",
+  "detail": "Malibu Villas is an intimate collection of thirteen contemporary tropical pool villas set in Plai Laem on Koh Samui's north-east coast — around 150 metres, a two-minute walk, from the beach, in a quiet, leafy neighbourhood with quick access to Chaweng, Bophut and the airport.\n\nEvery villa follows one refined, proven layout: three bedrooms and four bathrooms across 153 m² of built-up living space, opening to generous outdoor living. An 8.0 × 3.6 m private pool sits beside a 21.5 m² pavilion, wrapped by landscaped garden and served by a private carport, on plots ranging from 320 to 428 m².\n\nHeld on a 30-year leasehold with staged, construction-linked payments, the villas suit both owner-occupiers and investors building a rental-ready asset in one of Samui's most walkable beach neighbourhoods. An optional full furniture package readies the home for guests from day one.",
+  "features": [
+    {
+      "l": "8.0 × 3.6 m private pool",
+      "i": "pool"
+    },
+    {
+      "l": "Pool pavilion",
+      "i": "sun"
+    },
+    {
+      "l": "3 bed / 4 bath layout",
+      "i": "home"
+    },
+    {
+      "l": "Landscaped garden",
+      "i": "wind"
+    },
+    {
+      "l": "Private carport",
+      "i": "car"
+    },
+    {
+      "l": "150 m to the beach",
+      "i": "waves"
+    },
+    {
+      "l": "Open-plan living",
+      "i": "terrace"
+    },
+    {
+      "l": "6 min to Chaweng",
+      "i": "building"
+    },
+    {
+      "l": "30-year leasehold",
+      "i": "key"
+    },
+    {
+      "l": "Optional furniture package",
+      "i": "sofa"
+    },
+    {
+      "l": "Rental-ready investment",
+      "i": "check"
+    }
+  ]
+}

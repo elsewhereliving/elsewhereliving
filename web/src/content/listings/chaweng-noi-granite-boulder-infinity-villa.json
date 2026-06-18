@@ -1,0 +1,95 @@
+{
+  "id": "chaweng-noi-granite-boulder-infinity-villa",
+  "image": "/assets/listings/chaweng-noi-granite-boulder-infinity-villa/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/chaweng-noi-granite-boulder-infinity-villa/ext-001.jpg",
+    "/assets/listings/chaweng-noi-granite-boulder-infinity-villa/ext-002.jpg",
+    "/assets/listings/chaweng-noi-granite-boulder-infinity-villa/ext-003.jpg",
+    "/assets/listings/chaweng-noi-granite-boulder-infinity-villa/ext-004.jpg",
+    "/assets/listings/chaweng-noi-granite-boulder-infinity-villa/ext-005.jpg",
+    "/assets/listings/chaweng-noi-granite-boulder-infinity-villa/ext-006.jpg",
+    "/assets/listings/chaweng-noi-granite-boulder-infinity-villa/ext-007.jpg",
+    "/assets/listings/chaweng-noi-granite-boulder-infinity-villa/ext-008.jpg",
+    "/assets/listings/chaweng-noi-granite-boulder-infinity-villa/ext-009.jpg",
+    "/assets/listings/chaweng-noi-granite-boulder-infinity-villa/ext-010.jpg",
+    "/assets/listings/chaweng-noi-granite-boulder-infinity-villa/ext-011.jpg",
+    "/assets/listings/chaweng-noi-granite-boulder-infinity-villa/ext-012.jpg",
+    "/assets/listings/chaweng-noi-granite-boulder-infinity-villa/ext-013.jpg",
+    "/assets/listings/chaweng-noi-granite-boulder-infinity-villa/ext-014.jpg",
+    "/assets/listings/chaweng-noi-granite-boulder-infinity-villa/ext-015.jpg"
+  ],
+  "video": "https://www.youtube.com/watch?v=QcdUj7xQIFQ",
+  "location": "Chaweng Noi · Koh Samui · Thailand",
+  "place": "Chaweng Noi Hills, Bo Phut, Ko Samui District, Surat Thani 84320, Thailand",
+  "mapQuery": "9.4966,100.0580",
+  "market": "Koh Samui",
+  "title": "Granite-Boulder Architectural Villa with Infinity Pool & Sea Views, Chaweng Noi",
+  "type": "Villa",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 3,
+  "baths": 3,
+  "interior": "175 m²",
+  "plot": "375 m²",
+  "year": null,
+  "priceNum": 1066600,
+  "price": "$1,066,600",
+  "priceOriginal": "฿35,000,000",
+  "priceCurrency": "THB",
+  "added": 60,
+  "ownership": "Freehold",
+  "blurb": "An award-winning architectural villa on the Chaweng Noi hillside, where the design is built around the site's giant granite boulders. Three en-suite bedrooms below, an open upper level opening to an 11.5-metre infinity pool and pool bar above, framed by floor-to-ceiling glass with unobstructed sea views — part of a boutique estate of just six homes.",
+  "detail": "Set on a coveted Chaweng Noi hillside between two of Samui's signature beaches, this is an exclusive residence within an award-winning boutique development of just six contemporary villas, a kilometre from the pristine sand of Coral Cove. The landmark architecture is defined by the giant granite boulders of the site, masterfully integrated into both the exterior and the interior so that nature and design become one.\n\nThe two-level home places three en-suite bedrooms on the lower floor, with a master suite beautifully built into the surrounding granite — the boulder forming a dramatic natural feature within the luxurious bathroom. The upper level opens to an airy living, kitchen and dining space that flows onto an expansive terrace with an 11.5-metre infinity-edge pool, lounge and pool bar, where floor-to-ceiling glass frames the granite-rock facade on one side and sweeping ocean vistas on the other.\n\nFinished with a noble teak-and-stone staircase, a fully equipped kitchen, smart-TV solutions and modern climate control throughout, the villa is completed and ready for occupancy or rental, with an experienced on-site management team. Roughly 375 m² of total build area; the elevated position has a steep approach, so an SUV is recommended. Twenty minutes from the airport and seven from Bangkok Hospital Samui.",
+  "features": [
+    {
+      "l": "Unobstructed Chaweng Noi sea views",
+      "i": "view"
+    },
+    {
+      "l": "11.5 m infinity-edge pool & pool bar",
+      "i": "pool"
+    },
+    {
+      "l": "Granite boulders integrated into design",
+      "i": "building"
+    },
+    {
+      "l": "Three en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Floor-to-ceiling glass living level",
+      "i": "sofa"
+    },
+    {
+      "l": "Teak-and-stone internal staircase",
+      "i": "sparkles"
+    },
+    {
+      "l": "Boutique estate of just six villas",
+      "i": "shield"
+    },
+    {
+      "l": "Award-winning development",
+      "i": "key"
+    },
+    {
+      "l": "Completed & ready to occupy",
+      "i": "home"
+    },
+    {
+      "l": "375 m² total build",
+      "i": "plot"
+    },
+    {
+      "l": "1 km to Coral Cove beach",
+      "i": "waves"
+    },
+    {
+      "l": "20 minutes to the airport",
+      "i": "car"
+    }
+  ]
+}

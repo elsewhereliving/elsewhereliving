@@ -1,0 +1,70 @@
+{
+  "id": "r-samui-kerem-beachfront",
+  "image": "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_swimming_pool-9-1.jpg",
+  "gallery": [
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_swimming_pool-9-1.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_swimming_pool-10-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_swimming_pool-2-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_terrace-7-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_terrace-12-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_garden-2-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_garden-4-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/opti-Kerem_B2_beach-22.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_living-1-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_dining-1-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_bedroom_1-1-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_villa-1.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_villa-9.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_beach-16.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_bedroom_1-3.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_bedroom_3_terrace-1.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_swimming_pool-8.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_stairs_entrance-12.jpg"
+  ],
+  "location": "Plai Laem · Koh Samui · Thailand",
+  "place": "Plai Laem, Bophut, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5014,99.9956",
+  "title": "Beachfront Pool Villa on Plai Laem Shore",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 4,
+  "bedsLabel": "3–4",
+  "guests": 8,
+  "guestsLabel": "8",
+  "occupancy": "up to 6 adults + children",
+  "size": "Beachfront villa",
+  "nightlyNum": 1250,
+  "nightly": "$1,250",
+  "note": "Daily breakfast & cleaning included",
+  "sleeps": "up to 8 guests · 3–4 bedrooms",
+  "blurb": "A contemporary beachfront villa set directly on a private white-sand beach in a gated Plai Laem community — three sea-facing queen suites, a full-width infinity pool with 180-degree Gulf views, and steps straight down to the sand and the estate's kayaks.",
+  "detail": "The experience of this beachfront villa is one of absolute luxury, where the sea is always in view. Descend the dramatic staircase to your seaside oasis with several comfortable seating areas, and lounge in a private sala no more than three steps from the shores of the Gulf of Thailand. The villa sits directly on a private beach within an exclusive gated community with 24-hour security, with kayaks waiting on the sand and a fully equipped gym a short stroll away.\n\nThe large infinity pool is framed by a broad deck, luxurious sunbeds and a sofa; alternatively, relax in the great room with designer Meridiani furnishings imported from Italy, opening through a wall of glass doors to a full 180-degree sea view. A large interior movie room offers a quiet retreat with Netflix and PlayStation, and converts into a fourth queen bedroom for extra guests.\n\nUpstairs, three large queen bedrooms each provide a private sanctuary, fully soundproofed with black-out blinds and a private sea-facing balcony, finished with natural-latex mattress toppers and 100% cotton sheets. The stay includes daily cleaning and turndown, free breakfast made to order, airport transfers and an on-demand concierge — with a private chef available on request.",
+  "features": [
+    {
+      "l": "Beachfront infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Steps to private white-sand beach",
+      "i": "waves"
+    },
+    {
+      "l": "180° Gulf of Thailand views",
+      "i": "view"
+    },
+    {
+      "l": "Movie room (converts to 4th bedroom)",
+      "i": "music"
+    },
+    {
+      "l": "Shared gym & kayaks",
+      "i": "gym"
+    },
+    {
+      "l": "Breakfast, cleaning & concierge",
+      "i": "users"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "r-samui-tenvilla-hilltop-estate",
+  "image": "/assets/imagery/shankara-hero.jpg",
+  "gallery": [
+    "/assets/imagery/shankara-hero.jpg",
+    "https://d24qm9hzk3dxrt.cloudfront.net/properties/32909589/32909589_01-c.webp",
+    "https://d24qm9hzk3dxrt.cloudfront.net/properties/32909589/32909589_10-main-area-living-Aerial-View_opti.webp",
+    "https://d24qm9hzk3dxrt.cloudfront.net/properties/32909589/32909589_02-main-area-living-outdoor-00_opti.webp",
+    "https://d24qm9hzk3dxrt.cloudfront.net/properties/32909589/32909589_06-Master-Small-Swimming-pool_opti.webp",
+    "https://d24qm9hzk3dxrt.cloudfront.net/properties/32909589/32909589_08-Master-Grand-Bedroom_opti.webp",
+    "https://d24qm9hzk3dxrt.cloudfront.net/properties/32909589/32909589-tennis_opti.webp"
+  ],
+  "location": "Maenam · Koh Samui · Thailand",
+  "place": "Maenam, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5736,99.9619",
+  "title": "Ten-Pavilion Hilltop Panoramic Estate, Maenam",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 10,
+  "bedsLabel": "10",
+  "guests": 20,
+  "guestsLabel": "20",
+  "occupancy": "up to 20 guests (26 max)",
+  "size": "14,400 m² estate",
+  "nightlyNum": 2860,
+  "nightly": "$2,860",
+  "note": "Full estate staff & private chefs",
+  "sleeps": "up to 20 guests · 10 bedrooms",
+  "blurb": "A 14,400 m² hilltop estate of ten individually designed pavilions cascading down a Maenam ridge, wrapped in 180-degree views across the Gulf to Koh Phangan — twin infinity pools, a spa, cinema, tennis and squash courts, wine cellar and a grand piano lounge.",
+  "detail": "Crowning a private ridgeline above Maenam on Koh Samui's quieter north coast, this is one of the island's grandest private estates — ten individually conceived villas and pavilions spread across roughly 14,400 m² of landscaped hillside, each framing an unbroken 180-degree panorama over the Gulf of Thailand toward Koh Phangan. Completed in 2024, the architecture steps down the slope so that sea, sky and infinity water meet from almost every vantage point.\n\nThe estate is built for celebration and slow luxury in equal measure. Twin infinity pools — a 25-metre and a 40-metre — anchor the central terraces, with a full spa, a state-of-the-art gym and a yoga deck for wellness; a private cinema, a gaming room, a wine cellar and a grand-piano lounge for the evenings; and a tennis court, squash court and petanque for the active. Vast indoor-outdoor living and dining pavilions open completely to the breeze, with multiple show kitchens and chef's tables.\n\nTen en-suite bedrooms host up to twenty guests (and up to twenty-six with additional bedding), making it a singular setting for multi-generational gatherings, retreats and weddings. A full resident team — estate manager, private chefs, housekeeping and security — looks after every detail, with daily breakfast and the run of the grounds included.",
+  "features": [
+    {
+      "l": "25 m & 40 m infinity pools",
+      "i": "pool"
+    },
+    {
+      "l": "180° Gulf & Koh Phangan views",
+      "i": "view"
+    },
+    {
+      "l": "Ten individually designed pavilions",
+      "i": "home"
+    },
+    {
+      "l": "Spa, gym & yoga deck",
+      "i": "sparkles"
+    },
+    {
+      "l": "Cinema, gaming room & wine cellar",
+      "i": "music"
+    },
+    {
+      "l": "Tennis & squash courts",
+      "i": "sun"
+    }
+  ]
+}

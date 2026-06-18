@@ -1,0 +1,85 @@
+{
+  "id": "orla-sol-penthouse",
+  "image": "/assets/listings/orla-sol-penthouse/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/orla-sol-penthouse/ext-001.jpg",
+    "/assets/listings/orla-sol-penthouse/ext-002.jpg",
+    "/assets/listings/orla-sol-penthouse/ext-003.jpg",
+    "/assets/listings/orla-sol-penthouse/ext-004.jpg",
+    "/assets/listings/orla-sol-penthouse/ext-005.jpg"
+  ],
+  "location": "Palm Jumeirah · Dubai · UAE",
+  "place": "ORLA, Dorchester Collection, West Crescent, Palm Jumeirah, Dubai, UAE",
+  "mapQuery": "25.0992805,55.1341777",
+  "market": "Dubai",
+  "title": "Sol Super Penthouse at ORLA, Dorchester Collection",
+  "type": "Condominium",
+  "view": [
+    "Waterfront",
+    "Sea View"
+  ],
+  "status": "Off-Plan",
+  "beds": 5,
+  "baths": 6,
+  "interior": "2,856 m²",
+  "plot": null,
+  "year": 2026,
+  "priceNum": 0,
+  "price": "Price on request",
+  "added": 31,
+  "ownership": "Freehold",
+  "blurb": "A 30,742 sq ft super penthouse at ORLA, Dorchester Collection on Palm Jumeirah — indoor and outdoor blending seamlessly with sea and sky, within OMNIYAT's sculptural three-tower beachfront masterpiece.",
+  "detail": "The Sol Super Penthouse at ORLA is your exclusive escape, where indoor and outdoor blend seamlessly with sea and sky, as energising light streams through the residence creating eternal vistas — from the moment the sun rises above the horizon to the last golden rays shimmering off the sea below.\n\nORLA immerses you in balance and beauty, fostering a deep connection with your space and surroundings. The architecture is conceived through the lens of natural elements, integrating flowing water features and lush greenery to erase boundaries and let positive energy flow through the home. ORLA's three staggered towers link into a single dramatic form that optimises wind flow to channel cooling breezes, with environmentally-sensitive technologies responding intelligently in real time.\n\nAcross 30,742 sq ft, the residence pairs five bedrooms with sumptuous living volumes, floor-to-ceiling glazing and a private pool, and grants access to ORLA's resident beach club, cinemas, fitness and wellness suites — the Dorchester Collection standard of service, delivered by OMNIYAT.",
+  "features": [
+    {
+      "l": "ORLA, Dorchester Collection",
+      "i": "shield"
+    },
+    {
+      "l": "30,742 sq ft super penthouse",
+      "i": "building"
+    },
+    {
+      "l": "Indoor-outdoor sea & sky living",
+      "i": "view"
+    },
+    {
+      "l": "Private pool & terraces",
+      "i": "pool"
+    },
+    {
+      "l": "Five en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Floor-to-ceiling glazing",
+      "i": "home"
+    },
+    {
+      "l": "Resident beach club & cinemas",
+      "i": "users"
+    },
+    {
+      "l": "Wellness & fitness suites",
+      "i": "gym"
+    },
+    {
+      "l": "Water features & greenery",
+      "i": "tree"
+    },
+    {
+      "l": "OMNIYAT three-tower icon",
+      "i": "sparkles"
+    },
+    {
+      "l": "Palm Jumeirah beachfront",
+      "i": "waves"
+    },
+    {
+      "l": "Completion 2026",
+      "i": "year"
+    }
+  ],
+  "featured": true,
+  "featuredOrder": 2
+}

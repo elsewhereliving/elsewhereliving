@@ -1,0 +1,68 @@
+{
+  "id": "r-lombok-reveal",
+  "image": "https://www.tampahhills.com/wp-content/uploads/2025/02/Tampah-Hills-House-of-Herring-Hero.jpg",
+  "gallery": [
+    "https://www.tampahhills.com/wp-content/uploads/2025/02/Tampah-Hills-House-of-Herring-Hero.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring7-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring1-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring5-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring25-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring23-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring8-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring9-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring11-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring12-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring14-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring21-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring17-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring18-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring26-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring3-1024x682.jpg"
+  ],
+  "location": "Lombok · Indonesia",
+  "place": "Southwest Lombok, Indonesia",
+  "mapQuery": "-8.899061,116.199542",
+  "title": "Grand-Reveal Sea-View Villa in Lombok",
+  "view": [
+    "Sea View",
+    "Mountain View"
+  ],
+  "beds": 4,
+  "bedsLabel": "4",
+  "guests": 8,
+  "guestsLabel": "8",
+  "occupancy": "up to 8 guests",
+  "size": "758 m²",
+  "nightlyNum": 1800,
+  "nightly": "$1,800",
+  "note": "Breakfast & housekeeping included",
+  "sleeps": "8 guests · 4 bedrooms",
+  "blurb": "A villa built around a dramatic architectural reveal — step down the stairs and a full-frontal sea view opens up, framing a high-ceilinged living room, a sunken sofa, and an L-shaped infinity pool in raw concrete and dark teak.",
+  "detail": "The architecture studio behind this villa enjoys a grand reveal in their designs, and here they may have played their best trick yet: as you enter and step down the stairs, the full-frontal sea view takes your breath away. The high-ceilinged living room gives an enormous sense of space and light, and the sea view — lined with palm trees — is present everywhere, from the sunken sofa to the fully equipped kitchen and dining table.\n\nJust outside, a 101 m² L-shaped infinity lap pool with a shallow kids' section steps toward the horizon, alongside a protruding outdoor BBQ kitchen with a sunken dining table that catches sensational sunset colours every evening. The home holds two master bedrooms and two further bedrooms — all with en-suite bathrooms and a balcony to take in the view — comfortably sleeping eight.\n\nThe design language is an exquisite meeting of raw concrete and minimalist straight lines with elegant dark teak, natural stone floors and refined interior elements. The collected impression is astonishing — yet another architectural masterpiece on the hillside, ready for family or friends, with complimentary breakfast, daily housekeeping and 24-hour security included.",
+  "features": [
+    {
+      "l": "101 m² L-shaped infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Full-frontal sea view",
+      "i": "view"
+    },
+    {
+      "l": "High-ceiling living & sunken sofa",
+      "i": "sofa"
+    },
+    {
+      "l": "Outdoor BBQ kitchen & sunken dining",
+      "i": "utensils"
+    },
+    {
+      "l": "4 en-suite bedrooms · 2 masters",
+      "i": "bed"
+    },
+    {
+      "l": "Raw concrete & dark teak design",
+      "i": "home"
+    }
+  ]
+}

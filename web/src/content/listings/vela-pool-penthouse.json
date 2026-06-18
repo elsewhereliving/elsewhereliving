@@ -1,0 +1,83 @@
+{
+  "id": "vela-pool-penthouse",
+  "image": "/assets/listings/vela-pool-penthouse/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/vela-pool-penthouse/ext-001.jpg",
+    "/assets/listings/vela-pool-penthouse/ext-002.jpg",
+    "/assets/listings/vela-pool-penthouse/ext-003.jpg",
+    "/assets/listings/vela-pool-penthouse/ext-004.jpg",
+    "/assets/listings/vela-pool-penthouse/ext-005.jpg"
+  ],
+  "location": "Downtown · Dubai · UAE",
+  "place": "VELA, Dorchester Collection, Marasi Bay, Burj Khalifa District, Dubai, UAE",
+  "mapQuery": "25.1856887,55.2742299",
+  "market": "Dubai",
+  "title": "VELA — Penthouse with Pool & Burj Khalifa Views",
+  "type": "Condominium",
+  "view": [
+    "Waterfront",
+    "City View"
+  ],
+  "status": "Off-Plan",
+  "beds": 4,
+  "baths": 6,
+  "interior": "1,026 m²",
+  "plot": null,
+  "year": null,
+  "priceNum": 0,
+  "price": "Price on request",
+  "added": 35,
+  "ownership": "Freehold",
+  "blurb": "A four-bedroom penthouse at VELA, Dorchester Collection — 4,926 sq ft of interior plus 6,217 sq ft of outdoor living, a wraparound L-shaped infinity pool over Burj Khalifa and Marasi Bay, and direct access to the marina promenade.",
+  "detail": "Rising above the sparkling waters of Marasi Bay in the Burj Khalifa District, VELA, Dorchester Collection, Dubai is a sublime celebration of contemporary waterfront living. Designed by Foster + Partners and fully furnished by Gilles & Boissier, each of VELA's 38 residences presents an unparalleled indoor-outdoor lifestyle with an array of world-class amenities.\n\nThis four-bedroom penthouse offers 4,926 sq ft of interior space and 6,217 sq ft of outdoor living, with a wraparound terrace and an L-shaped infinity pool overlooking Burj Khalifa, Marasi Bay and Downtown Dubai. A dramatic double-height living room with floor-to-ceiling windows and a sculptural staircase creates a striking focal point — ideal for entertaining and taking in the skyline.\n\nEach bedroom has its own en-suite, with the master suite enjoying a private terrace and uninterrupted vistas. A private lift lobby and direct access to the Marasi Bay waterfront promenade and marina let you reach the open sea from your doorstep, all wrapped in Dorchester Collection's legendary five-star service.",
+  "features": [
+    {
+      "l": "Wraparound L-shaped infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "6,217 sq ft of outdoor living",
+      "i": "terrace"
+    },
+    {
+      "l": "Double-height living & sculptural stair",
+      "i": "sofa"
+    },
+    {
+      "l": "Burj Khalifa & Marasi Bay views",
+      "i": "view"
+    },
+    {
+      "l": "Four en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Master with private terrace",
+      "i": "key"
+    },
+    {
+      "l": "Private lift lobby",
+      "i": "building"
+    },
+    {
+      "l": "Direct marina & promenade access",
+      "i": "waves"
+    },
+    {
+      "l": "Foster + Partners architecture",
+      "i": "home"
+    },
+    {
+      "l": "Fully furnished by Gilles & Boissier",
+      "i": "sparkles"
+    },
+    {
+      "l": "Dorchester Collection service",
+      "i": "shield"
+    },
+    {
+      "l": "Private garage",
+      "i": "car"
+    }
+  ]
+}

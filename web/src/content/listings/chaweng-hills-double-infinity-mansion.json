@@ -1,0 +1,93 @@
+{
+  "id": "chaweng-hills-double-infinity-mansion",
+  "image": "/assets/listings/chaweng-hills-double-infinity-mansion/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/chaweng-hills-double-infinity-mansion/ext-001.jpg",
+    "/assets/listings/chaweng-hills-double-infinity-mansion/ext-002.jpg",
+    "/assets/listings/chaweng-hills-double-infinity-mansion/ext-003.jpg",
+    "/assets/listings/chaweng-hills-double-infinity-mansion/ext-004.jpg",
+    "/assets/listings/chaweng-hills-double-infinity-mansion/ext-005.jpg",
+    "/assets/listings/chaweng-hills-double-infinity-mansion/ext-006.jpg",
+    "/assets/listings/chaweng-hills-double-infinity-mansion/ext-007.jpg",
+    "/assets/listings/chaweng-hills-double-infinity-mansion/ext-008.jpg",
+    "/assets/listings/chaweng-hills-double-infinity-mansion/ext-009.jpg",
+    "/assets/listings/chaweng-hills-double-infinity-mansion/ext-010.jpg",
+    "/assets/listings/chaweng-hills-double-infinity-mansion/ext-011.jpg",
+    "/assets/listings/chaweng-hills-double-infinity-mansion/ext-012.jpg",
+    "/assets/listings/chaweng-hills-double-infinity-mansion/ext-013.jpg",
+    "/assets/listings/chaweng-hills-double-infinity-mansion/ext-014.jpg"
+  ],
+  "location": "Chaweng · Koh Samui · Thailand",
+  "place": "Chaweng Hills, Chaweng, Ko Samui District, Surat Thani 84320, Thailand",
+  "mapQuery": "9.5333,100.0625",
+  "market": "Koh Samui",
+  "title": "Hilltop Mansion with Twin Infinity Pools & Panoramic Sea Views, Chaweng",
+  "type": "Villa",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 6,
+  "baths": 7,
+  "interior": "1,000 m²",
+  "plot": "1,780 m²",
+  "year": null,
+  "priceNum": 4037644,
+  "price": "$4,037,644",
+  "priceOriginal": "฿133,000,000",
+  "priceCurrency": "THB",
+  "added": 1,
+  "ownership": "Freehold",
+  "blurb": "A rare trophy villa in the Chaweng hills, set on a 1,780 m² plot with roughly 1,000 m² of build and panoramic views over the Gulf of Thailand. Its signature is a double-level infinity pool — a 16-metre upper pool on the main terrace and a second oasis below — alongside six en-suite bedrooms, a private gym, sunken pool lounge and BBQ sala. Move-in ready, fully furnished, Chanote freehold.",
+  "detail": "A rare trophy villa in one of Koh Samui's most coveted hilltop locations, set on a generous 1,780 m² plot with roughly 1,000 m² of built-up area and designed for buyers seeking a statement home that blends dramatic architecture, panoramic ocean views and five-star resort-style amenities. From the moment you arrive, the scale of the residence, its grand proportions and the sweeping vistas over the Gulf of Thailand set it apart. Offered freehold under Chanote title — the highest level of land tenure in Thailand — and sold with a company for effortless, efficient transfer.\n\nThe defining feature is an iconic double-level infinity pool. The upper pool measures 16 × 6 metres, positioned to capture unobstructed ocean and coastline views from the elevated main terrace, with a generous deck for sunbathing and sunset cocktails. Below, a second infinity pool of 9 × 4.5 metres offers an additional oasis of privacy. A sunken pool lounge, an outdoor BBQ area and a covered sala create multiple social and dining spaces that connect indoor and outdoor living for intimate gatherings or large events.\n\nInside, expansive interiors carry high ceilings, generous proportions and a design that emphasises light, space and views. The open-plan living and dining areas flow onto the main terrace and upper pool, with large windows and sliding glass framing the sea from multiple angles. The home offers six spacious bedrooms and seven bathrooms — several with direct sea views and terrace access — plus separate helper/maid quarters and a private gym for wellness routines without leaving the estate.\n\nThe Chaweng-hills position keeps the home private yet superbly connected: roughly eight minutes to the white sand of Chaweng Beach, around ten minutes to Central Festival, twelve minutes to Fisherman's Village in Bophut, and fifteen minutes to Samui International Airport. Surrounded by fine dining, five-star resorts and upscale wellness, it is delivered fully furnished and turnkey — a standout for private living, exclusive holidays or premium luxury rental. Priced at ฿133,000,000.",
+  "features": [
+    {
+      "l": "Twin double-level infinity pools",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic Gulf of Thailand views",
+      "i": "view"
+    },
+    {
+      "l": "Six en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Private gym",
+      "i": "gym"
+    },
+    {
+      "l": "Sunken pool lounge & BBQ sala",
+      "i": "sofa"
+    },
+    {
+      "l": "Open-plan living onto the terrace",
+      "i": "home"
+    },
+    {
+      "l": "Western kitchen & outdoor BBQ",
+      "i": "utensils"
+    },
+    {
+      "l": "Separate helper / staff quarters",
+      "i": "users"
+    },
+    {
+      "l": "Fully furnished · turnkey",
+      "i": "sparkles"
+    },
+    {
+      "l": "Covered parking for two cars",
+      "i": "car"
+    },
+    {
+      "l": "~8 min to Chaweng Beach",
+      "i": "road"
+    },
+    {
+      "l": "1,780 m² plot · ~1,000 m² build · Chanote freehold",
+      "i": "plot"
+    }
+  ]
+}

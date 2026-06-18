@@ -1,0 +1,165 @@
+---
+import Base from "../layouts/Base.astro";
+import Label from "../components/Label.astro";
+import Button from "../components/Button.astro";
+import Icon from "../components/Icon.astro";
+import SectionHead from "../components/SectionHead.astro";
+import PropertyCard from "../components/PropertyCard.astro";
+import TestimonialCarousel from "../components/react/TestimonialCarousel.tsx";
+import { getListings, getFeaturedListings, getSiteContent } from "../lib/content";
+
+const all = await getListings();
+const { markets, pillars, testimonials } = getSiteContent();
+
+// Featured row is chosen in /admin (the "Feature on homepage" toggle + order).
+// Falls back to the newest listings if nothing is flagged.
+const featured = await getFeaturedListings(3);
+
+const services = [
+  { i: "home", t: "Buy & Sell", b: "Villas, land and condominiums across our markets — each one personally vetted for design, location and the numbers behind it.", cta: "Browse properties", href: "/properties/" },
+  { i: "key", t: "Custom Homes", b: "Build from nothing. We handle the land, the architecture, construction, interiors and furnishing — then hand you the keys.", cta: "Explore custom homes", href: "/custom-homes/" },
+  { i: "sun", t: "Vacation Rentals", b: "Short stays of 30 days or less in the same calibre of home — live the life here before you decide to make it yours.", cta: "See rentals", href: "/rentals/" },
+];
+const rentMarkets = [
+  { name: "Koh Samui", img: "/assets/imagery/samui-card.jpg" },
+  { name: "Phuket", img: "/assets/imagery/phuket-card.jpg" },
+  { name: "Bali", img: "/assets/imagery/bali-card.jpg" },
+  { name: "Lombok", img: "https://www.tampahhills.com/wp-content/uploads/2025/08/Villa-Kala-SoMe-2025-@solen_studios-2.jpg" },
+];
+const SECTION = "clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px)";
+---
+<Base current="home" transparentNav={true}>
+  <!-- Hero -->
+  <section style="position:relative; min-height:100svh; display:flex; align-items:flex-end; overflow:hidden; background:var(--ink-black);">
+    <img class="ew-kenburns" src="/assets/imagery/hero-banner.jpg" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;" />
+    <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(10,12,16,0) 45%, rgba(10,12,16,0.5) 100%); z-index:1;"></div>
+    <div style="position:relative; z-index:2; width:100%; max-width:1320px; margin:0 auto; padding:0 clamp(20px,4vw,56px) clamp(56px,8vh,104px);">
+      <div class="reveal is-in" style="color:rgba(255,255,255,0.88); margin-bottom:22px;"><Label>Living</Label></div>
+      <h1 style="margin:0; max-width:1000px; color:var(--white); font-family:var(--font-serif); font-weight:300; font-size:clamp(2.7rem,6.4vw,6rem); line-height:0.98; letter-spacing:-0.02em;">Your next chapter<br />begins <span style="font-style:italic; font-weight:200;">elsewhere</span>.</h1>
+      <p style="margin:28px 0 0; max-width:540px; color:rgba(255,255,255,0.84); font-family:var(--font-sans); font-weight:300; font-size:18px; line-height:1.65;">A boutique agency placing global citizens into extraordinary homes across Thailand, Bali and the UAE — properties chosen to be lived in, and to perform.</p>
+      <div style="display:flex; flex-wrap:wrap; gap:14px; margin-top:38px;">
+        <Button href="/properties/" variant="accent" size="lg" shape="pill">Browse properties</Button>
+        <Button href="/about/" variant="outline-light" size="lg" shape="pill">Why elsewhere</Button>
+      </div>
+    </div>
+    <div class="ew-scroll-hint" style="position:absolute; right:clamp(20px,4vw,56px); bottom:clamp(56px,8vh,104px); z-index:2; display:flex; align-items:center; gap:12px; color:rgba(255,255,255,0.7); font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.22em; text-transform:uppercase; writing-mode:vertical-rl;">Scroll<span style="width:1px; height:44px; background:rgba(255,255,255,0.5);"></span></div>
+  </section>
+
+  <!-- Featured listings -->
+  <section style={`background:var(--paper); padding:${SECTION};`}>
+    <div style="max-width:1320px; margin:0 auto;">
+      <div class="reveal" style="display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:24px; margin-bottom:50px;">
+        <SectionHead eyebrow="The collection" title="A few homes worth crossing oceans for." max={640} />
+        <Button href="/properties/" variant="outline" size="md" shape="pill">View all properties</Button>
+      </div>
+      <div class="reveal" data-grid="3" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:26px;">
+        {featured.map((item) => <PropertyCard item={item} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- Destinations -->
+  <section style={`background:var(--navy); color:var(--white); padding:${SECTION};`}>
+    <div style="max-width:1320px; margin:0 auto;">
+      <div class="reveal" style="display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:24px; margin-bottom:54px;">
+        <SectionHead onDark eyebrow="Where we sell" title="The most sought-after places to own." max={620} />
+        <p style="margin:0; max-width:320px; font-family:var(--font-sans); font-weight:300; font-size:15px; line-height:1.7; color:var(--text-on-dark-mut);">We specialise deeply in five markets — enough to know every street, not so many that we lose the thread.</p>
+      </div>
+      <div class="reveal" style="border-top:1px solid var(--border-on-dark);">
+        {markets.map((m, i) => (
+          <a href={`/properties/?dest=${encodeURIComponent(m.name)}`} class="ew-dest-row" style="width:100%; text-align:left; border-bottom:1px solid var(--border-on-dark); color:var(--white); padding:26px 6px; display:grid; grid-template-columns:auto 1fr auto; gap:24px; align-items:center;">
+            <span style="font-family:var(--font-sans); font-size:12px; letter-spacing:0.16em; color:var(--navy-60);">0{i + 1}</span>
+            <span style="display:flex; flex-wrap:wrap; align-items:baseline; gap:10px 18px;">
+              <span style="font-family:var(--font-serif); font-weight:300; font-size:clamp(1.7rem,3.4vw,2.7rem); letter-spacing:-0.01em;">{m.name}</span>
+              <span style="font-family:var(--font-sans); font-size:12.5px; letter-spacing:0.06em; color:var(--text-on-dark-mut);">{m.country} — {m.note}</span>
+            </span>
+            <span class="ew-dest-arrow" style="font-size:22px; opacity:0.6;">→</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Where we rent -->
+  <section style={`background:var(--paper); padding:${SECTION};`}>
+    <div style="max-width:1320px; margin:0 auto;">
+      <div class="reveal" style="display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:24px; margin-bottom:40px;">
+        <SectionHead eyebrow="Where we rent" title="Stay a while, wherever we host." max={640} />
+        <Button href="/rentals/" variant="outline" size="md" shape="pill">See all rentals</Button>
+      </div>
+      <div class="reveal" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:16px;">
+        {rentMarkets.map((m) => (
+          <a href="/rentals/" class="ew-rent-tile ew-grain" style="position:relative; aspect-ratio:3/4; overflow:hidden; background:var(--navy); display:block;">
+            <img src={m.img} alt={m.name} style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;" />
+            <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(10,12,18,0.05) 35%, rgba(10,12,18,0.66));"></div>
+            <div style="position:absolute; left:22px; right:22px; bottom:22px; text-align:left;">
+              <div style="font-family:var(--font-sans); font-size:10px; letter-spacing:0.2em; text-transform:uppercase; color:rgba(255,255,255,0.75); margin-bottom:8px;">Vacation rentals</div>
+              <div style="display:flex; align-items:baseline; justify-content:space-between; gap:10px;">
+                <span style="font-family:var(--font-serif); font-weight:300; font-size:clamp(1.5rem,2.4vw,2.1rem); letter-spacing:-0.01em; color:var(--white);">{m.name}</span>
+                <span class="ew-rent-arrow" style="color:var(--butter); font-size:19px;">→</span>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section style={`background:var(--mist); padding:${SECTION};`}>
+    <div style="max-width:1320px; margin:0 auto;">
+      <div class="reveal" style="margin-bottom:54px;">
+        <SectionHead eyebrow="What we do" title="Three ways to find your elsewhere." intro="Whether you're buying, building from the ground up, or simply staying a while — we look after the whole journey." max={720} />
+      </div>
+      <div class="reveal" data-grid="3" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:clamp(28px,4vw,56px);">
+        {services.map((s) => (
+          <div style="border-top:1px solid var(--border-on-light); padding-top:26px; display:flex; flex-direction:column;">
+            <Icon name={s.i} size={30} color="var(--navy)" stroke={1.4} />
+            <h3 style="margin:22px 0 0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.5rem,2.6vw,2rem); line-height:1.1; letter-spacing:-0.01em; color:var(--navy);">{s.t}</h3>
+            <p style="margin:14px 0 22px; font-family:var(--font-sans); font-weight:300; font-size:15px; line-height:1.72; color:var(--text-body); flex:1;">{s.b}</p>
+            <a href={s.href} class="ew-textlink" style="align-self:flex-start; display:inline-flex; align-items:center; gap:8px; font-family:var(--font-sans); font-size:11.5px; letter-spacing:0.14em; text-transform:uppercase; color:var(--navy);">{s.cta} <span style="font-size:15px;">→</span></a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Pillars -->
+  <section class="ew-grain" style="position:relative; color:var(--white); overflow:hidden;">
+    <img src="/assets/imagery/c-ocean.jpg" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;" />
+    <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(10,12,18,0.82), rgba(10,12,18,0.74)); z-index:1;"></div>
+    <div style={`position:relative; z-index:2; max-width:1320px; margin:0 auto; padding:${SECTION};`}>
+      <div class="reveal" style="margin-bottom:60px;">
+        <SectionHead onDark eyebrow="What guides us" title="Three things we never compromise." max={640} />
+      </div>
+      <div class="reveal" data-grid="3" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:clamp(28px,4vw,56px);">
+        {pillars.map((p) => (
+          <div style="border-top:1px solid var(--border-on-dark); padding-top:26px;">
+            <div style="font-family:var(--font-serif); font-weight:300; font-size:15px; color:var(--butter); margin-bottom:18px;">{p.n}</div>
+            <h3 style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.5rem,2.6vw,2rem); line-height:1.1; letter-spacing:-0.01em;">{p.title}</h3>
+            <p style="margin:16px 0 0; font-family:var(--font-sans); font-weight:300; font-size:15px; line-height:1.72; color:rgba(255,255,255,0.78);">{p.body}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial -->
+  <section style={`background:var(--paper); padding:${SECTION};`}>
+    <TestimonialCarousel items={testimonials} client:visible />
+  </section>
+
+  <!-- CTA -->
+  <section class="ew-grain ew-scrim" style="position:relative; overflow:hidden; color:var(--white);">
+    <img src="/assets/imagery/cta-journey.jpg" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;" />
+    <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(10,12,16,0.45), rgba(10,12,16,0.62)); z-index:1;"></div>
+    <div class="reveal" style="position:relative; z-index:2; max-width:880px; margin:0 auto; padding:clamp(80px,12vw,170px) clamp(20px,4vw,56px); text-align:center;">
+      <h2 style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.2rem,5vw,4rem); line-height:1.04; letter-spacing:-0.02em;">Start your <span style="font-style:italic;">elsewhere</span> journey.</h2>
+      <p style="margin:24px auto 0; max-width:520px; font-family:var(--font-sans); font-weight:300; font-size:17px; line-height:1.7; color:rgba(255,255,255,0.85);">A short, honest conversation — no obligation. Tell us what your elsewhere looks like and we'll take it from there.</p>
+      <div style="display:flex; flex-wrap:wrap; gap:14px; justify-content:center; margin-top:38px;">
+        <Button href="/contact/" variant="accent" size="lg" shape="pill">Begin the conversation</Button>
+        <Button href="/properties/" variant="outline-light" size="lg" shape="pill">See the collection</Button>
+      </div>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,65 @@
+{
+  "id": "r-bali-nag-shampa",
+  "image": "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/ubud/nag-shampa-private-estate/overview/nagshampa_bali_01_mainpool.webp",
+  "gallery": [
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/ubud/nag-shampa-private-estate/overview/nagshampa_bali_01_mainpool.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/ubud/nag-shampa-private-estate/overview/nagshampa_bali_21_drone.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/ubud/nag-shampa-private-estate/overview/nagshampa_bali_02_mainpool.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/ubud/nag-shampa-private-estate/overview/nagshampa_bali_03_livingarea.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/ubud/nag-shampa-private-estate/overview/nagshampa_bali_13_mainpool.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/ubud/nag-shampa-private-estate/overview/nagshampa_bali_18_commonpool.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/ubud/nag-shampa-private-estate/overview/nagshampa_bali_06_joglo.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/ubud/nag-shampa-private-estate/overview/nagshampa_bali_04_itsanasuite.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/ubud/nag-shampa-private-estate/overview/nagshampa_bali_08_kubu1pool.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/ubud/nag-shampa-private-estate/overview/nagshampa_bali_09_kubu2.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/ubud/nag-shampa-private-estate/overview/nagshampa_bali_10_dining.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/ubud/nag-shampa-private-estate/overview/nagshampa_bali_15_poolsidedining.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/ubud/nag-shampa-private-estate/overview/nagshampa_bali_11_yogashala.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/ubud/nag-shampa-private-estate/overview/nagshampa_bali_12_spa.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/ubud/nag-shampa-private-estate/overview/nagshampa_bali_16_garden.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/ubud/nag-shampa-private-estate/overview/nagshampa_bali_14_evening.webp"
+  ],
+  "location": "Ubud · Bali · Indonesia",
+  "place": "Taro, Tegallalang, Gianyar, Bali, Indonesia",
+  "mapQuery": "Taro, Tegallalang, Gianyar, Bali, Indonesia",
+  "title": "Nag Shampa — Jungle Wellness Estate, Ubud",
+  "view": "Garden / Pool View",
+  "beds": 8,
+  "bedsLabel": "5–8",
+  "guests": 16,
+  "guestsLabel": "16",
+  "occupancy": "up to 16 guests",
+  "size": "1,850 m²",
+  "nightlyNum": 2205,
+  "nightly": "$2,205",
+  "note": "Fully staffed · breakfast & chef included",
+  "sleeps": "16 guests · up to 8 bedrooms",
+  "blurb": "A fully-staffed eight-bedroom jungle estate in Ubud's peaceful Taro village, curated by Sam and Isabella Branson — five pools, a yoga shala and massage studio, organic gardens and three Joglo pavilions, sleeping up to 16.",
+  "detail": "Nestled in the peaceful Taro village, Nag Shampa Private Estate by Sam and Isabella Branson is truly at one with nature. Its name means 'incense of love' in Sanskrit, and it is designed as the ultimate retreat — combining modern design with traditional Javanese architecture for elegant authenticity. The estate hosts up to 16 guests across eight en-suite bedrooms, perfect for big groups of family or friends.\n\nWith over one hectare to explore, Nag Shampa is a living, breathing feast for the senses. Make full use of its yoga shala to exercise, meditate or savour quiet time; enjoy healthy homestyle meals prepared daily by three in-house cooks using fresh produce from the estate's organic orchards and vegetable gardens; swim and soak in its five inviting pools; or unwind at the massage studio and relaxation zones throughout the grounds.\n\nLush greenery leads to three impressive Joglo-style buildings housing the Istana master suite, a large dining pavilion and a lofty living area opening to the main pool and yoga shala, while two symmetrical pairs of Joglos hold four further bedrooms and a series of three Kubu pool villas each have a hammock on the balcony. Fully staffed with a villa manager, private cooks, attendants and driver, it is also a magical venue for weddings and celebrations.",
+  "features": [
+    {
+      "l": "Five swimming pools",
+      "i": "pool"
+    },
+    {
+      "l": "Yoga shala & massage studio",
+      "i": "sparkles"
+    },
+    {
+      "l": "Eight en-suite bedrooms · sleeps 16",
+      "i": "bed"
+    },
+    {
+      "l": "Joglo & Kubu pavilions",
+      "i": "home"
+    },
+    {
+      "l": "Organic orchard & vegetable gardens",
+      "i": "tree"
+    },
+    {
+      "l": "Private chef & full estate staff",
+      "i": "users"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "r-phuket-zai",
+  "image": "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Aerial-5-e1744331897167.jpg",
+  "gallery": [
+    "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Aerial-5-e1744331897167.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Aerial-2.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Swimming-Pool-Area-11.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Swimming-Pool-Area-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Aerial-9.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Swimming-Pool-Area-3.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Swimming-Pool-Area-8.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Living-Area-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Living-Area-3.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Living-Area-9.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Dining-Indoor-Bar-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Dining-Indoor-Bar-6.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Cinema-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Spa-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Gym-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Master-Bedroom-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Facade-2.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Aerial-10.jpg"
+  ],
+  "location": "Karon · Phuket · Thailand",
+  "place": "Soi Lam Sai, Karon, Mueang Phuket, Phuket, Thailand",
+  "mapQuery": "7.8186,98.2987",
+  "title": "Villa Zai — 11-Bedroom Clifftop Estate, Kata-Karon",
+  "view": [
+    "Sea View",
+    "Waterfront"
+  ],
+  "beds": 11,
+  "bedsLabel": "9–11",
+  "guests": 24,
+  "guestsLabel": "24",
+  "occupancy": "up to 24 guests",
+  "size": "6,000 m²",
+  "nightlyNum": 6140,
+  "nightly": "$6,140",
+  "note": "16 staff",
+  "sleeps": "24 guests · up to 11 bedrooms",
+  "blurb": "A modern 11-bedroom hillside hideaway on a headland between Kata and Karon — panoramic sea views, an infinity pool and jacuzzi, cinema, spa, gym, pickleball court and putting green, with a 16-strong staff for up to 24 guests.",
+  "detail": "Situated on a headland on Phuket's west coast between the beaches of Kata and Karon, Villa Zai is a luxurious modern hillside hideaway. The 11-bedroom property is designed with special attention to open spaces and indoor-to-outdoor elegance, with panoramic views of the sea, blending privacy with sophistication for guests who enjoy the finer things in life.\n\nThe expansive living room seats 20 against a backdrop of sea views and includes a billiards table convertible for table tennis, while a nearby dining room offers a terrace for all-day dining, a private bar and a poker table. The outdoor lounge invites guests to take in the scenery, and the infinity pool and jacuzzi are perfect for swims and soaks overlooking the hillside, alongside a generous sun deck.\n\nThere's no shortage of things to do: an in-villa spa, a golf putting green, an outdoor pickleball court, a fully-equipped gym, a cinema room and a karaoke and games setup. With capacity for up to 24 guests across 11 bedrooms — and a 16-strong staff with private parking for 20 cars — Villa Zai is built for families, friends and large groups celebrating in style.",
+  "features": [
+    {
+      "l": "Infinity pool & jacuzzi",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic Kata-Karon sea views",
+      "i": "view"
+    },
+    {
+      "l": "Cinema, karaoke & games room",
+      "i": "music"
+    },
+    {
+      "l": "In-villa spa & gym",
+      "i": "gym"
+    },
+    {
+      "l": "Pickleball court & putting green",
+      "i": "sparkles"
+    },
+    {
+      "l": "11 bedrooms · sleeps 24 · 16 staff",
+      "i": "users"
+    }
+  ]
+}

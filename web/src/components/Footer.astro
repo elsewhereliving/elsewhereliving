@@ -1,0 +1,74 @@
+---
+import Wordmark from "./Wordmark.astro";
+import Label from "./Label.astro";
+import Button from "./Button.astro";
+import { getSiteContent } from "../lib/content";
+const { contact } = getSiteContent();
+const year = 2026;
+const NAV_LINKS = [
+  { href: "/", label: "Home" },
+  { href: "/properties/", label: "Properties" },
+  { href: "/custom-homes/", label: "Custom Homes" },
+  { href: "/rentals/", label: "Vacation Rentals" },
+  { href: "/about/", label: "About" },
+  { href: "/contact/", label: "Contact" },
+];
+const socials = [
+  { label: "Instagram", href: "https://www.instagram.com/elsewhere.living/", svg: '<rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.15" fill="currentColor" stroke="none"/>' },
+];
+---
+<footer style="background:var(--ink-black); color:var(--white);">
+  <div style="max-width:1320px; margin:0 auto; padding:clamp(56px,7vw,96px) clamp(20px,4vw,56px) 40px;">
+    <div data-grid="split" style="display:grid; grid-template-columns:1.3fr 1fr; gap:clamp(40px,6vw,90px); align-items:start;">
+      <div>
+        <Wordmark size={40} color="var(--white)" />
+        <p style="margin:24px 0 0; max-width:420px; font-family:var(--font-sans); font-weight:300; font-size:16px; line-height:1.7; color:var(--text-on-dark-mut);">
+          A boutique property agency for global citizens. We help you buy not just a home abroad, but the freedom to live on your own terms.
+        </p>
+        <div style="margin-top:30px;">
+          <Button href="/contact/" variant="accent" size="md" shape="pill">Begin your elsewhere</Button>
+        </div>
+      </div>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:32px;">
+        <div>
+          <div style="color:var(--text-on-dark-mut); margin-bottom:18px;"><Label>Explore</Label></div>
+          <ul style="list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:12px;">
+            {NAV_LINKS.map((l) => (
+              <li><a href={l.href} class="ew-textlink" style="color:var(--white); opacity:0.82; font-family:var(--font-sans); font-weight:300; font-size:14.5px;">{l.label}</a></li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <div style="color:var(--text-on-dark-mut); margin-bottom:18px;"><Label>Contact</Label></div>
+          <ul style="list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:12px; font-family:var(--font-sans); font-weight:300; font-size:14.5px;">
+            <li><a href={`mailto:${contact.email}`} style="color:var(--white); opacity:0.82;">{contact.email}</a></li>
+            <li><span style="color:var(--white); opacity:0.82;">WhatsApp {contact.whatsapp}</span></li>
+          </ul>
+          <div style="display:flex; gap:16px; margin-top:24px;">
+            {socials.map((s) => (
+              <a href={s.href} target="_blank" rel="noopener noreferrer" aria-label={s.label} class="ew-textlink" style="color:var(--white); display:inline-flex;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" set:html={s.svg}></svg>
+              </a>
+            ))}
+            <a href="https://www.tiktok.com/@sofia.elsewhere" target="_blank" rel="noopener noreferrer" aria-label="TikTok" class="ew-textlink" style="color:var(--white); display:inline-flex;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 3c.3 2.1 1.5 3.6 3.5 3.9V9c-1.3 0-2.5-.4-3.5-1.1v6.6c0 3.2-2.4 5.5-5.4 5.5C8.6 20 6.5 18 6.5 15.3c0-2.7 2.2-4.8 5.1-4.6v2.4c-.4-.1-.8-.2-1.2-.2-1.3 0-2.4 1-2.4 2.4 0 1.4 1 2.4 2.3 2.4 1.4 0 2.5-1.1 2.5-2.7V3h3.6z"/></svg>
+            </a>
+            <a href="https://www.youtube.com/@sofia.elsewhere" target="_blank" rel="noopener noreferrer" aria-label="YouTube" class="ew-textlink" style="color:var(--white); display:inline-flex;">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M22 8.2c0-1.4-1.1-2.5-2.5-2.6C17.6 5.4 14.8 5.3 12 5.3s-5.6.1-7.5.3C3.1 5.7 2 6.8 2 8.2 1.9 9.4 1.9 10.7 1.9 12s0 2.6.1 3.8c0 1.4 1.1 2.5 2.5 2.6 1.9.2 4.7.3 7.5.3s5.6-.1 7.5-.3c1.4-.1 2.5-1.2 2.5-2.6.1-1.2.1-2.5.1-3.8s0-2.6-.1-3.8zM10 15V9l5.2 3L10 15z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top:64px; padding-top:26px; border-top:1px solid var(--border-on-dark); display:flex; flex-wrap:wrap; gap:16px; justify-content:space-between; align-items:center;">
+      <span style="font-family:var(--font-sans); font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:var(--text-on-dark-mut);">© {year} Elsewhere Living</span>
+      <a href="/privacy/" style="cursor:pointer; font-family:var(--font-sans); font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:var(--text-on-dark-mut);">Privacy Policy</a>
+    </div>
+  </div>
+</footer>
+
+<style>
+  @media (max-width: 720px) {
+    footer [data-grid="split"] { grid-template-columns: 1fr !important; }
+  }
+</style>

@@ -1,0 +1,58 @@
+{
+  "id": "r-samui-seaview-tennis-boxing-retreat",
+  "image": "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/praana-residence/overview/praanaresidence_01_pool.webp",
+  "gallery": [
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/praana-residence/overview/praanaresidence_01_pool.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/praana-residence/overview/praanaresidence_02_poolview.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/praana-residence/overview/praanaresidence_03_villa.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/praana-residence/overview/praanaresidence_05_living_area.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/praana-residence/overview/praanaresidence_06_dining_area.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/praana-residence/overview/praanaresidence_08_bedroom_1-1.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/praana-residence/overview/praanaresidence_21_tennis_court.png"
+  ],
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bophut Hills, Bo Phut, Ko Samui District, Surat Thani 84320, Thailand",
+  "mapQuery": "9.5640,100.0360",
+  "title": "Sea-View Hilltop Villa with Tennis Court & Boxing Ring, Bophut",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 6,
+  "bedsLabel": "6",
+  "guests": 14,
+  "guestsLabel": "14",
+  "occupancy": "up to 14 guests",
+  "size": "3,200 m²",
+  "nightlyNum": 2825,
+  "nightly": "$2,825",
+  "note": "Full estate staff & central kitchen",
+  "sleeps": "up to 14 guests · 6 bedrooms",
+  "blurb": "The crown jewel of the Panacea Retreat — a six-bedroom hilltop villa with unobstructed panoramic sea views, a 25-metre infinity pool, and a rare depth of recreation: private cinema, games room, gym, sauna, a full tennis court and even a Muay Thai boxing ring.",
+  "detail": "One of Koh Samui's finest private retreats, this is a stunning six-bedroom villa set into the Bophut hills with panoramic, unobstructed sea views — the jewel in the crown of the Panacea Retreat. You enter via stepping stones over a koi pond, passing tall Buddha statues set into a stone-clad wall, into a stylish two-storey central building whose upper level holds a vast, glass-walled lounge and dining room beneath a cascading glass chandelier, framing a backdrop of seascape and tropical forest.\n\nEach of the three master bedrooms occupies its own standalone pavilion, all with dramatic sea and island views from king-size beds, glass-walled rain showers, a private rooftop garden with a terrazzo bathtub and terrace — and one with its own 12-metre pool. Rooms slide open onto a wide terrace above the garden and the enticing 25-metre infinity pool that overflows toward the horizon, with a poolside sala and sunset sala alongside.\n\nWhat sets it apart is the sheer range of recreation: a gym kitted with rowing, cycling, running machines and weights; a games room with pool table; a private cinema with ten La-Z-Boy chairs; a children's playroom and kids' club; a wine cellar and night-club room; a sauna and steam room; a dedicated spa; a private tennis court; and a Muay Thai boxing ring. Across roughly 3,200 m² and three floors, it sleeps up to fourteen, fully staffed with villa manager, housekeeping and meals from Panacea's central kitchen — a singular setting for celebrations and events for up to sixty guests.",
+  "features": [
+    {
+      "l": "25 m infinity pool + private 12 m pool",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic unobstructed sea views",
+      "i": "view"
+    },
+    {
+      "l": "Private tennis court & Muay Thai ring",
+      "i": "sun"
+    },
+    {
+      "l": "Cinema, games room & kids' club",
+      "i": "music"
+    },
+    {
+      "l": "Gym, sauna, spa & wine cellar",
+      "i": "sparkles"
+    },
+    {
+      "l": "6 bedrooms · sleeps 14 · full staff",
+      "i": "users"
+    }
+  ]
+}

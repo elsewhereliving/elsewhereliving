@@ -1,0 +1,82 @@
+{
+  "id": "surin-seaview-villa",
+  "image": "/assets/listings/surin-seaview-villa/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/surin-seaview-villa/ext-001.jpg",
+    "/assets/listings/surin-seaview-villa/ext-002.jpg",
+    "/assets/listings/surin-seaview-villa/ext-003.jpg",
+    "/assets/listings/surin-seaview-villa/ext-004.jpg",
+    "/assets/listings/surin-seaview-villa/ext-005.jpg"
+  ],
+  "location": "Surin · Phuket · Thailand",
+  "place": "Surin, Choeng Thale, Phuket, Thailand",
+  "mapQuery": "Surin Beach, Choeng Thale, Phuket, Thailand",
+  "market": "Phuket",
+  "title": "Five-Bedroom Sea-View Villa in Surin",
+  "type": "Villa",
+  "view": "Sea View",
+  "status": "Move-In Ready",
+  "beds": 5,
+  "baths": 6,
+  "interior": "1,036 m²",
+  "plot": "1,020 m²",
+  "year": 2007,
+  "priceNum": 2691131,
+  "price": "$2,691,131",
+  "priceOriginal": "฿88,000,000",
+  "priceCurrency": "THB",
+  "added": 3,
+  "ownership": "Freehold",
+  "blurb": "A tropical sea-view villa in a secure gated community on Phuket's north-west coast, walking distance to Bang Tao and Surin beaches. Five bedrooms, a private pool, and a rooftop sala for sunset entertaining — five minutes from Boat Avenue's restaurants and lifestyle amenities.",
+  "detail": "Set within a secure gated community in Choeng Thale — one of Phuket's most sought-after addresses — this tropical villa is a short walk from the soft sand of Bang Tao and Surin beaches. Recently renovated and delivered fully furnished, it balances relaxed island living with everyday convenience.\n\nFive bedrooms and six bathrooms are arranged across generous, light-filled interiors that open to a private swimming pool and covered terrace. A rooftop sala and outdoor BBQ kitchen create an ideal setting for entertaining or watching Phuket's west-coast sunsets, while sea and scenic views frame the surrounding greenery.\n\nThe villa sits just five minutes from Boat Avenue and Porto de Phuket, with their weekend markets, restaurants, cafés and Villa Market close at hand. Air-conditioned throughout, with a private garage and gated security, it suits equally as a full-time residence or a rental-ready investment in the heart of the Bang Tao–Laguna lifestyle district.",
+  "features": [
+    {
+      "l": "Private swimming pool",
+      "i": "pool"
+    },
+    {
+      "l": "Sea & scenic views",
+      "i": "view"
+    },
+    {
+      "l": "Rooftop sala",
+      "i": "sun"
+    },
+    {
+      "l": "Outdoor BBQ kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Fully furnished",
+      "i": "home"
+    },
+    {
+      "l": "Recently renovated",
+      "i": "sparkles"
+    },
+    {
+      "l": "Gated community & security",
+      "i": "key"
+    },
+    {
+      "l": "Private garage",
+      "i": "car"
+    },
+    {
+      "l": "Air conditioning",
+      "i": "wind"
+    },
+    {
+      "l": "Walk to Bang Tao Beach",
+      "i": "waves"
+    },
+    {
+      "l": "5 min to Boat Avenue",
+      "i": "building"
+    },
+    {
+      "l": "Washer & dryer",
+      "i": "check"
+    }
+  ]
+}

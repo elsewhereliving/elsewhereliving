@@ -1,0 +1,83 @@
+{
+  "id": "vela-viento-4br-duplex",
+  "image": "/assets/listings/vela-viento-4br-duplex/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/vela-viento-4br-duplex/ext-001.jpg",
+    "/assets/listings/vela-viento-4br-duplex/ext-002.jpg",
+    "/assets/listings/vela-viento-4br-duplex/ext-003.jpg",
+    "/assets/listings/vela-viento-4br-duplex/ext-004.jpg",
+    "/assets/listings/vela-viento-4br-duplex/ext-005.jpg"
+  ],
+  "location": "Downtown · Dubai · UAE",
+  "place": "VELA Viento, Marasi Bay, Burj Khalifa District, Dubai, UAE",
+  "mapQuery": "25.1856887,55.2742299",
+  "market": "Dubai",
+  "title": "VELA Viento — Four-Bedroom Duplex with Private Pools",
+  "type": "Condominium",
+  "view": [
+    "Waterfront",
+    "City View"
+  ],
+  "status": "Off-Plan",
+  "beds": 4,
+  "baths": 6,
+  "interior": "944 m²",
+  "plot": null,
+  "year": null,
+  "priceNum": 0,
+  "price": "Price on request",
+  "added": 34,
+  "ownership": "Freehold",
+  "blurb": "Among the most exceptional residences at VELA Viento, Dorchester Collection — a four-bedroom duplex with six terraces, two private pools and a gravity-defying dining room suspended between earth and sky above Marasi Bay.",
+  "detail": "VELA Viento, Dorchester Collection, Dubai ascends to celestial heights above Marasi Bay in the Burj Khalifa District. Crafted by OMNIYAT, it merges the architectural mastery of Foster + Partners, the refined interiors of Gilles & Boissier and the timeless hospitality of Dorchester Collection, rising from the canal to 180 metres with fully furnished residences framing panoramic views of Marasi Bay, Burj Khalifa and Downtown Dubai.\n\nAmong the most exceptional residences, the four-bedroom duplexes are distinguished by six terraces, two private pools, and a gravity-defying dining room suspended in apparent weightlessness — creating the sensation of floating between earth and sky. Here the sky is truly the limit, and the connection to the open air and sweeping surrounds of Dubai is felt in every sense.\n\nEvery amenity, from skyline pools and private lounges to dedicated fitness suites and spa sanctuaries, has been shaped by comfort and considered luxury — a new chapter in OMNIYAT's transformation of Marasi Bay into an ultra-luxury waterfront destination.",
+  "features": [
+    {
+      "l": "Two private pools",
+      "i": "pool"
+    },
+    {
+      "l": "Six terraces",
+      "i": "terrace"
+    },
+    {
+      "l": "Gravity-defying suspended dining room",
+      "i": "sparkles"
+    },
+    {
+      "l": "Four en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Duplex over two levels",
+      "i": "building"
+    },
+    {
+      "l": "Marasi Bay & Burj Khalifa views",
+      "i": "view"
+    },
+    {
+      "l": "Foster + Partners architecture",
+      "i": "home"
+    },
+    {
+      "l": "Fully furnished interiors",
+      "i": "sofa"
+    },
+    {
+      "l": "Private cinema & library",
+      "i": "music"
+    },
+    {
+      "l": "Spa, sauna & fitness suites",
+      "i": "gym"
+    },
+    {
+      "l": "Dorchester Collection service",
+      "i": "shield"
+    },
+    {
+      "l": "Private garage",
+      "i": "car"
+    }
+  ]
+}

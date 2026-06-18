@@ -1,0 +1,101 @@
+{
+  "id": "plai-laem-beachfront-cinema-swimup-villa",
+  "image": "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-001.jpg",
+    "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-002.jpg",
+    "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-003.jpg",
+    "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-004.jpg",
+    "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-005.jpg",
+    "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-006.jpg",
+    "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-007.jpg",
+    "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-008.jpg",
+    "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-009.jpg",
+    "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-010.jpg",
+    "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-011.jpg",
+    "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-012.jpg",
+    "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-013.jpg",
+    "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-014.jpg",
+    "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-015.jpg",
+    "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-016.jpg",
+    "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-017.jpg",
+    "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-018.jpg",
+    "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-019.jpg",
+    "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-020.jpg"
+  ],
+  "video": "https://www.youtube.com/watch?v=Wo0Pc4UA7CQ",
+  "location": "Plai Laem · Koh Samui · Thailand",
+  "place": "Samrong Bay, Plai Laem, Bo Phut, Ko Samui District, Surat Thani 84320, Thailand",
+  "mapQuery": "9.58897,100.07031",
+  "market": "Koh Samui",
+  "title": "Beachfront Four-Bedroom Villa with Cinema Room & Swim-Up Bar, Samrong Bay",
+  "type": "Villa",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 4,
+  "baths": 5,
+  "interior": "1,200 m²",
+  "plot": "921.6 m²",
+  "year": 2019,
+  "priceNum": 2986400,
+  "price": "$2,986,400",
+  "priceOriginal": "฿98,000,000",
+  "priceCurrency": "THB",
+  "added": 61,
+  "ownership": "Freehold",
+  "blurb": "A one-of-a-kind waterfront residence on the northeastern tip of Samui, set directly on swimmable Samrong Beach in a gated beachfront community. Built into a sloped site so every room frames the bay, the Six Senses headland and Koh Phangan — four sea-view master suites, a 15-metre pool with a sunken swim-up bar, and a cinema room.",
+  "detail": "Set on the prized northeastern tip of Koh Samui, directly on the year-round swimmable sand of Samrong Beach, this is a waterfront retreat within an exclusive gated beachfront community with 24-hour security and on-site management. Built on a unique sloped terrain, every room captures panoramic sea views over the secluded bay, the Six Senses headland and the iconic silhouette of Koh Phangan, with a 20-metre stretch of private beach frontage.\n\nThe villa is composed of four master bedrooms, each with its own sea-view balcony, ensuite bathroom and luxurious bathtub. The open-plan living, dining and state-of-the-art kitchen flow seamlessly onto an expansive pool terrace with a 15-metre swimming pool and an outdoor pavilion housing a sunken swim-up bar — a setting for alfresco dining, sunbathing in privacy or simply unwinding to the sound of the waves. A dedicated cinema room offers a cozy escape for movie nights.\n\nBeyond the living spaces, a beautifully manicured garden stretches toward the ocean, and the home includes a staff living quarter, staff kitchen and a covered garage for two cars. Built in 2019 on a 921.6 m² plot with roughly 1,200 m² of build area, it is offered freehold under Chanote title — moments from The Bay Samui and Six Senses, and four-and-a-half kilometres from Samui International Airport.",
+  "features": [
+    {
+      "l": "Absolute Samrong Beach frontage (20 m)",
+      "i": "waves"
+    },
+    {
+      "l": "15 m pool with sunken swim-up bar",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic bay & Koh Phangan views",
+      "i": "view"
+    },
+    {
+      "l": "Four sea-view master suites",
+      "i": "bed"
+    },
+    {
+      "l": "Private cinema room",
+      "i": "music"
+    },
+    {
+      "l": "Open-plan living, dining & kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Staff quarters & staff kitchen",
+      "i": "home"
+    },
+    {
+      "l": "Covered garage for two cars",
+      "i": "car"
+    },
+    {
+      "l": "Gated community · 24hr security",
+      "i": "shield"
+    },
+    {
+      "l": "921.6 m² plot · ~1,200 m² build",
+      "i": "plot"
+    },
+    {
+      "l": "Built 2019 · Chanote freehold",
+      "i": "sparkles"
+    },
+    {
+      "l": "4.5 km to Samui Airport",
+      "i": "building"
+    }
+  ]
+}

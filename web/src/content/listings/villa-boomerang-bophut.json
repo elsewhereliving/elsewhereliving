@@ -1,0 +1,87 @@
+{
+  "id": "villa-boomerang-bophut",
+  "image": "/assets/listings/boomerang/01-aerial-pool.jpg",
+  "gallery": [
+    "/assets/listings/boomerang/01-aerial-pool.jpg",
+    "/assets/listings/boomerang/02-pool-sea.jpg",
+    "/assets/listings/boomerang/03-pool-deck.jpg",
+    "/assets/listings/boomerang/04-aerial-side.jpg",
+    "/assets/listings/boomerang/05-aerial-above.jpg",
+    "/assets/listings/boomerang/06-master-bedroom.jpg",
+    "/assets/listings/boomerang/07-kitchen-dining.jpg"
+  ],
+  "location": "Bo Phut · Koh Samui · Thailand",
+  "place": "Bo Phut Hills, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.534444,100.022450",
+  "market": "Koh Samui",
+  "title": "Villa Boomerang — Architectural Sea-View Villa",
+  "type": "Villa",
+  "view": [
+    "Sea View",
+    "Mountain View"
+  ],
+  "status": "Off-Plan",
+  "beds": 4,
+  "baths": 4,
+  "interior": "1,000 m²",
+  "plot": "1,610 m²",
+  "year": 2027,
+  "priceNum": 3948958,
+  "price": "$3,948,958",
+  "priceOriginal": "฿130,000,000",
+  "priceCurrency": "THB",
+  "added": 27,
+  "ownership": "Freehold",
+  "blurb": "A bold architectural statement set into a dramatic Bo Phut hillside — a sweeping curved roofline over full-height glass, a long infinity pool, and uninterrupted panoramas across the Gulf of Thailand. Off-plan, in a prestigious gated estate.",
+  "detail": "Set within one of Koh Samui's most prestigious gated estates, Villa Boomerang is a bold architectural statement designed to merge seamlessly with its dramatic hillside surroundings. Positioned on a prime 1,610 m² plot with over 1,000 m² of built space, it brings design, nature and engineering together in perfect harmony — created for discerning buyers seeking a true statement home, with panoramic views over the Gulf of Thailand and a living experience that is both elevated and deeply connected to its environment.\n\nDefined by its sweeping curved roofline clad in dark standing-seam metal, the villa is both sculptural and functional. Beneath it, full-height black steel-framed glass walls stretch across the entire living level, dissolving the boundary between indoor and outdoor space. The structure reads as a single continuous plane — part pavilion, part contemporary sanctuary — blending raw board-formed concrete and natural stone with refined finishes and warm timber accents.\n\nThe upper level forms the heart of the home, where open-plan living flows onto the pool terrace and endless sea views, and the master suite is positioned to capture the ocean directly from bed. Below, three further bedrooms are set into the hillside, each with its own terrace and lush tropical greenery. The pool terrace is built for relaxation and entertaining — a long infinity pool, a sunken lounge, and a fully equipped outdoor dining space under the extended roofline — while basement parking, tier-1 infrastructure and a renowned architectural team complete a future landmark, around 22 minutes from Samui International Airport.",
+  "features": [
+    {
+      "l": "Sculptural curved standing-seam roof",
+      "i": "home"
+    },
+    {
+      "l": "Infinity-edge pool with sea views",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic Gulf of Thailand views",
+      "i": "view"
+    },
+    {
+      "l": "Floor-to-ceiling glass living level",
+      "i": "sofa"
+    },
+    {
+      "l": "Chef-grade kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Outdoor kitchen & covered dining",
+      "i": "terrace"
+    },
+    {
+      "l": "Master suite with ocean views from bed",
+      "i": "bed"
+    },
+    {
+      "l": "Three hillside suites with terraces",
+      "i": "tree"
+    },
+    {
+      "l": "Sunken poolside lounge",
+      "i": "sparkles"
+    },
+    {
+      "l": "Basement parking for several cars",
+      "i": "car"
+    },
+    {
+      "l": "Board-formed concrete, stone & timber",
+      "i": "building"
+    },
+    {
+      "l": "Gated estate · tier-1 infrastructure",
+      "i": "shield"
+    }
+  ]
+}

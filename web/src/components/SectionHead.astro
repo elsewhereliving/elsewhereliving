@@ -1,0 +1,25 @@
+---
+// Faithful port of js/brand.js SectionHead — eyebrow + serif title + intro.
+import Label from "./Label.astro";
+interface Props {
+  eyebrow?: string;
+  title: string;
+  intro?: string;
+  align?: "left" | "center";
+  onDark?: boolean;
+  max?: number;
+}
+const { eyebrow, title, intro, align = "left", onDark = false, max = 720 } = Astro.props;
+const mAuto = align === "center" ? "auto" : "0";
+---
+<div style={`max-width:${max}px; margin-left:${mAuto}; margin-right:${mAuto}; text-align:${align};`}>
+  {eyebrow && (
+    <div style={`color:${onDark ? "var(--text-on-dark-mut)" : "var(--slate)"}; margin-bottom:18px;`}>
+      <Label>{eyebrow}</Label>
+    </div>
+  )}
+  <h2 style={`margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(2rem, 4vw, 3.1rem); line-height:1.08; letter-spacing:-0.015em; color:${onDark ? "var(--white)" : "var(--navy)"};`}>{title}</h2>
+  {intro && (
+    <p style={`margin:22px 0 0; font-family:var(--font-sans); font-weight:300; font-size:17px; line-height:1.7; color:${onDark ? "var(--text-on-dark-mut)" : "var(--text-body)"}; margin-left:${mAuto}; margin-right:${mAuto}; max-width:${align === "center" ? "620px" : "none"};`}>{intro}</p>
+  )}
+</div>

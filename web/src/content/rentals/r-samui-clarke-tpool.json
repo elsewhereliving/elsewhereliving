@@ -1,0 +1,64 @@
+{
+  "id": "r-samui-clarke-tpool",
+  "image": "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-sor/ban-mekkala/overview/banmekkala_01_beachfront.webp",
+  "gallery": [
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-sor/ban-mekkala/overview/banmekkala_01_beachfront.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-sor/ban-mekkala/overview/banmekkala_31_droneshot.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-sor/ban-mekkala/overview/banmekkala_30_pool.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-sor/ban-mekkala/overview/banmekkala_02_beachfront.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-sor/ban-mekkala/overview/banmekkala_03_beachswing_-_ban_mekkala_-_samui_-_thailand.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-sor/ban-mekkala/overview/banmekkala_22_livingroom.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-sor/ban-mekkala/overview/banmekkala_24_dining.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-sor/ban-mekkala/overview/banmekkala_25_kitchen.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-sor/ban-mekkala/overview/banmekkala_09_masterbedroom.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-sor/ban-mekkala/overview/banmekkala_26_sala.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-sor/ban-mekkala/overview/banmekkala_28_spa.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/laem-sor/ban-mekkala/overview/banmekkala_33_villaatnight.webp"
+  ],
+  "location": "Laem Sor · Koh Samui · Thailand",
+  "place": "Laem Sor, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.4358,100.0231",
+  "title": "Pavilion-Wrapped T-Pool Beachfront Villa, Laem Sor",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 6,
+  "bedsLabel": "4–6",
+  "guests": 14,
+  "guestsLabel": "14",
+  "occupancy": "up to 12 guests (14 max)",
+  "size": "2,000 m²",
+  "nightlyNum": 1030,
+  "nightly": "$1,030",
+  "note": "Private chef & breakfast included",
+  "sleeps": "up to 14 guests · 4–6 bedrooms",
+  "blurb": "A study in laid-back modern-tropical luxury by architect David Clarke on a quiet Laem Sor beachfront — a grand double-storey pavilion above a T-shaped pool wrapped by pavilions and courtyards, with a sunken poolside dining sala, spa and home theatre.",
+  "detail": "Designed by renowned architect David Clarke, Ban Mekkala is a study in laid-back sophistication and modern tropical luxury. Every feature of this Laem Sor beachfront retreat has been considered — from the stunning entrance and the grand double-storey pavilion to the azure seascape framed beyond, the pavilion-wrapped T-shaped pool, a home theatre and six air-conditioned en-suite bedrooms dressed in three distinct styles. The main living space sits on the upper storey of the central pavilion as an all-in-one TV salon, dining room, gourmet kitchen and open-air balcony, while the ground floor reads as a cloistered sanctuary around the central pool and courtyard garden.\n\nSix bedrooms including two master suites each form a private haven with a king bed, entertainment system and en-suite bathroom — some with outdoor courtyards, others with walk-in showers and bathtubs, several with direct access to the pool or sea. A stone path leads to a sunken poolside pavilion for feasts whipped up by your personal Thai chef, set beside a 20-metre pool with a jacuzzi and shallow children's end.\n\nThe single-level layout makes it ideal for families, and the quiet beachfront — steps from the sand, near Kamalaya — suits reunions, weddings and groups. A spa room with massage beds, a steam room, kayaks, paddleboards and bicycles complete the offering, with the villa fully staffed by a manager, private chef and housekeeper and a daily breakfast included.",
+  "features": [
+    {
+      "l": "20 m T-shaped pool & jacuzzi",
+      "i": "pool"
+    },
+    {
+      "l": "Beachfront · steps to the sand",
+      "i": "waves"
+    },
+    {
+      "l": "Architecture by David Clarke",
+      "i": "home"
+    },
+    {
+      "l": "Sunken poolside dining sala",
+      "i": "utensils"
+    },
+    {
+      "l": "Home theatre & spa room",
+      "i": "music"
+    },
+    {
+      "l": "6 en-suite bedrooms · chef & breakfast",
+      "i": "users"
+    }
+  ]
+}

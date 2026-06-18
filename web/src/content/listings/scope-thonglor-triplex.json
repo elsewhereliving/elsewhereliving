@@ -1,0 +1,80 @@
+{
+  "id": "scope-thonglor-triplex",
+  "image": "/assets/listings/scope-thonglor-triplex/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/scope-thonglor-triplex/ext-001.jpg",
+    "/assets/listings/scope-thonglor-triplex/ext-002.jpg",
+    "/assets/listings/scope-thonglor-triplex/ext-003.jpg",
+    "/assets/listings/scope-thonglor-triplex/ext-004.jpg",
+    "/assets/listings/scope-thonglor-triplex/ext-005.jpg"
+  ],
+  "location": "Thonglor · Bangkok · Thailand",
+  "place": "SCOPE Thonglor, Sukhumvit, Thonglor, Bangkok, Thailand",
+  "mapQuery": "13.7240475,100.5784835",
+  "market": "Bangkok",
+  "title": "Scope Thonglor — Triplex Penthouse by Thomas Juul-Hansen",
+  "type": "Condominium",
+  "view": "City View",
+  "status": "Move-In Ready",
+  "beds": 5,
+  "baths": 6,
+  "interior": "765 m²",
+  "plot": null,
+  "year": 2025,
+  "priceNum": 18800000,
+  "price": "$18,800,000",
+  "added": 21,
+  "ownership": "Freehold",
+  "blurb": "A triplex penthouse at Scope Thonglor — one of only eighteen residences in the building — designed by Thomas Juul-Hansen across three private levels, with two private lifts, panoramic city views and a dedicated Penthouse Assistant service.",
+  "detail": "One of the most private and architecturally refined penthouses in Thonglor. Designed by world-renowned architect Thomas Juul-Hansen, this triplex residence embodies understated international luxury, natural materials and timeless spatial proportions. Scope Thonglor is an ultra-limited collection of just eighteen penthouses — a one-residence-per-floor concept offering elevated privacy, dedicated service and a lifestyle tailored to those who value craftsmanship and discretion over excess.\n\nSpanning approximately 765 m² across three private levels, the home holds five bedrooms and six bathrooms, a maid's room with dedicated service areas, and two private elevators arriving directly into the residence. Light-filled living and dining spaces flow seamlessly indoor to out, framed by floor-to-ceiling glazing and panoramic city views, with generous ceiling heights that heighten the sense of openness. The interior palette is composed of refined natural stone, warm woods and custom finishes chosen to complement Bangkok's natural light through the day.\n\nResidents enjoy dedicated Penthouse Assistant support — housekeeping three times weekly, valet and porter assistance, in-house kitchen and meal support, private wellness conveniences, and 24-hour security and concierge. Shared amenities include a private residents' lounge, fitness studio, indoor pool, sauna and landscaped relaxation spaces, all rendered in the same architectural language as the residences. In the heart of Thonglor, the home sits moments from Thong Lo BTS and the city's finest dining, wellness and retail.",
+  "features": [
+    {
+      "l": "Triplex over three private levels",
+      "i": "building"
+    },
+    {
+      "l": "One of only 18 penthouses",
+      "i": "sparkles"
+    },
+    {
+      "l": "Designed by Thomas Juul-Hansen",
+      "i": "home"
+    },
+    {
+      "l": "Two private elevators to the unit",
+      "i": "key"
+    },
+    {
+      "l": "Five bedrooms, six bathrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Panoramic floor-to-ceiling city views",
+      "i": "view"
+    },
+    {
+      "l": "Natural stone & warm wood finishes",
+      "i": "terrace"
+    },
+    {
+      "l": "Maid's room & service areas",
+      "i": "users"
+    },
+    {
+      "l": "Wine cellar & open kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Residents' lounge, gym & indoor pool",
+      "i": "pool"
+    },
+    {
+      "l": "Penthouse Assistant & 24h concierge",
+      "i": "shield"
+    },
+    {
+      "l": "Thonglor · steps to BTS Thong Lo",
+      "i": "trend"
+    }
+  ]
+}

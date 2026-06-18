@@ -1,0 +1,96 @@
+{
+  "id": "five-islands-stone-pavilion-villa-samui",
+  "image": "/assets/imagery/baan-hin-01.jpg",
+  "gallery": [
+    "/assets/imagery/baan-hin-01.jpg",
+    "/assets/imagery/baan-hin-02.jpg",
+    "/assets/imagery/baan-hin-03.jpg",
+    "/assets/imagery/baan-hin-04.jpg",
+    "/assets/imagery/baan-hin-05.jpg",
+    "/assets/imagery/baan-hin-06.jpg",
+    "/assets/imagery/baan-hin-07.jpg",
+    "/assets/imagery/baan-hin-08.jpg",
+    "/assets/imagery/baan-hin-09.jpg",
+    "/assets/imagery/baan-hin-10.jpg",
+    "/assets/imagery/baan-hin-11.jpg",
+    "/assets/imagery/baan-hin-12.jpg",
+    "/assets/imagery/baan-hin-13.jpg",
+    "/assets/imagery/baan-hin-14.jpg",
+    "/assets/imagery/baan-hin-15.jpg",
+    "/assets/imagery/baan-hin-16.jpg",
+    "/assets/imagery/baan-hin-17.jpg",
+    "/assets/imagery/baan-hin-18.jpg"
+  ],
+  "location": "Taling Ngam · Koh Samui · Thailand",
+  "place": "Five Islands Estate, Taling Ngam, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.4525,99.9486",
+  "market": "Koh Samui",
+  "title": "Stone Pavilion Villa with Infinity Pool & 270° Sea Views, Taling Ngam",
+  "type": "Villa",
+  "view": [
+    "Sea View",
+    "Mountain View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 4,
+  "baths": 4,
+  "interior": "1,465 m²",
+  "plot": "2,100 m²",
+  "year": null,
+  "priceNum": 5000000,
+  "price": "$5,000,000",
+  "added": 45,
+  "ownership": "Freehold",
+  "blurb": "A sculptural stone-and-teak villa on the Taling Ngam hillside within the exclusive Five Islands Estate — hand-laid local granite walls, white-washed stone bedrooms and louvered screens, an infinity pool that empties toward the horizon, and 270-degree panoramas over the Five Islands and Ang Thong Marine Park.",
+  "detail": "Set on the serene south-west corner of Koh Samui within the private Five Islands Estate — a collection of only a couple of architect-built residences — this is a study in tactile, natural luxury. Hand-laid local granite walls, whitewashed stone, Thai teak floors and doors, terrazzo and louvered timber screens give the villa a quiet, grounded materiality that frames rather than competes with the view.\n\nArranged across stepped pavilions linked by stone walkways, the home opens its living, dining and kitchen volumes completely to a long sun deck and an infinity pool that reads as a sheet of water against the sea. The vantage is the headline: an uninterrupted 270-degree sweep over the Gulf, the famous Five Islands, the Ang Thong Marine Park and the green valleys and mountains behind, with some of the most spectacular sunsets found anywhere on the island.\n\nFour serene en-suite bedrooms pair four-poster beds and warm timber floors with whitewashed stone walls and floor-to-ceiling glass framing sea or jungle; the bathrooms open to greenery and freestanding tubs. Generous indoor-outdoor entertaining spaces, a show kitchen with a terrazzo island, shaded loungers and a covered pergola lounge complete a turnkey trophy home a few minutes from the beach and the estate's neighbouring villa.",
+  "features": [
+    {
+      "l": "270° Five Islands & marine-park views",
+      "i": "view"
+    },
+    {
+      "l": "Infinity pool over the sea",
+      "i": "pool"
+    },
+    {
+      "l": "Hand-laid granite & Thai teak",
+      "i": "home"
+    },
+    {
+      "l": "Stepped stone pavilions",
+      "i": "building"
+    },
+    {
+      "l": "Show kitchen with terrazzo island",
+      "i": "utensils"
+    },
+    {
+      "l": "Four en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Whitewashed-stone bedroom suites",
+      "i": "sparkles"
+    },
+    {
+      "l": "Covered pergola lounge & sun deck",
+      "i": "sofa"
+    },
+    {
+      "l": "2,100 m² hillside grounds",
+      "i": "plot"
+    },
+    {
+      "l": "Private two-villa estate",
+      "i": "shield"
+    },
+    {
+      "l": "Spectacular sunset aspect",
+      "i": "sun"
+    },
+    {
+      "l": "Minutes to the beach",
+      "i": "waves"
+    }
+  ]
+}

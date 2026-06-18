@@ -1,0 +1,87 @@
+{
+  "id": "r-samui-chaweng-noi-cinema-games-villa",
+  "image": "https://stkvillasamui.com/wp-content/uploads/2024/10/240331-villa-stk-3-993x662-1.webp",
+  "gallery": [
+    "https://stkvillasamui.com/wp-content/uploads/2024/10/240331-villa-stk-3-993x662-1.webp",
+    "https://stkvillasamui.com/wp-content/uploads/2024/10/240331-villa-stk-15-2132x1421-1.webp",
+    "https://stkvillasamui.com/wp-content/uploads/2024/10/240331-villa-stk-14-2150x1433-3.webp",
+    "https://stkvillasamui.com/wp-content/uploads/2024/10/240331-villa-stk-12-2144x1430-1.webp",
+    "https://stkvillasamui.com/wp-content/uploads/2024/10/240331-villa-stk-21-2124x1416-1.webp",
+    "https://stkvillasamui.com/wp-content/uploads/2024/10/240331-villa-stk-25-2160x1440-1.webp",
+    "https://stkvillasamui.com/wp-content/uploads/2024/10/240331-villa-stk-18-2132x1421-1.webp",
+    "https://stkvillasamui.com/wp-content/uploads/2024/10/240331-villa-stk-34-2080x1386-1.webp"
+  ],
+  "video": "https://www.youtube.com/watch?v=4MPCbz4NC_U",
+  "location": "Chaweng Noi · Koh Samui · Thailand",
+  "place": "Chaweng Noi Hills, Bo Phut, Ko Samui District, Surat Thani 84320, Thailand",
+  "mapQuery": "9.498580,100.057920",
+  "title": "Chaweng Noi Hilltop Villa with Infinity Pool, Cinema & Games Room",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 4,
+  "bedsLabel": "4",
+  "baths": 6,
+  "guests": 8,
+  "guestsLabel": "8",
+  "occupancy": "up to 8 guests",
+  "size": "520 m²",
+  "interior": "520 m²",
+  "plot": "708 m²",
+  "nightlyNum": 1215,
+  "nightly": "from $1,215",
+  "note": "7-night minimum · staffed · private chef",
+  "sleeps": "up to 8 guests · 4 bedrooms",
+  "blurb": "A modern multi-level villa perched in the Chaweng Noi hills with a wraparound terrace and an infinity pool framing Chaweng Beach and Koh Phangan beyond — four en-suite king bedrooms, a private cinema, a games room with full bar, and a five-star butler-and-chef team.",
+  "detail": "Perched majestically in the prestigious Chaweng Noi hills, this contemporary four-bedroom villa is a study in indoor-outdoor island living, opening to panoramic views that sweep from the vibrant curve of Chaweng Beach to the serene silhouette of Koh Phangan. A wide cantilevered terrace and an infinity-edge pool anchor the home, with a vast sun deck, daybeds and a covered sanctuary for shaded afternoons above the sea.\n\nInside, a large air-conditioned living space is layered with plush seating, fine art and wall-mounted screens, flowing to a fully equipped Western show kitchen. Entertainment runs deep: a private cinema, a games room with pool, ping-pong and foosball tables, a full-size arcade, karaoke upstairs and down, a PlayStation 5 and an in-house bar — plus Sonos throughout, a stocked wine fridge and a garden with a tranquil waterfall and Buddha.\n\nFour en-suite double bedrooms each have king beds and the master enjoys spectacular sea views from one of the largest bathrooms on the island. A five-star resident team looks after the stay — villa manager, butler service, housekeeping and an experienced private chef preparing Thai and international menus from breakfast onward. Families are welcome with a shallow pool end, high chair and pool toys, and Chaweng Noi beach is a five-minute walk with restaurants, bakeries and shops moments away.",
+  "features": [
+    {
+      "l": "Infinity pool over Chaweng Noi",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic sea & Koh Phangan views",
+      "i": "view"
+    },
+    {
+      "l": "Private cinema room",
+      "i": "music"
+    },
+    {
+      "l": "Games room & entertainment room",
+      "i": "sparkles"
+    },
+    {
+      "l": "In-house gym space",
+      "i": "gym"
+    },
+    {
+      "l": "Four en-suite bedrooms · 6 baths",
+      "i": "bed"
+    },
+    {
+      "l": "520 m² build · 708 m² land",
+      "i": "plot"
+    },
+    {
+      "l": "Open-plan living & Western kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Sea-view terraces & outdoor lounges",
+      "i": "sofa"
+    },
+    {
+      "l": "Landscaped tropical gardens",
+      "i": "tree"
+    },
+    {
+      "l": "Covered parking",
+      "i": "car"
+    },
+    {
+      "l": "Butler service & private chef",
+      "i": "users"
+    }
+  ]
+}

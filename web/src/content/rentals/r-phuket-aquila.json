@@ -1,0 +1,68 @@
+{
+  "id": "r-phuket-aquila",
+  "image": "https://www.theluxurysignature.com/wp-content/uploads/2021/07/The-Aquila-Villa-Phuket-Main-Swimming-Pool-Area-1.jpg",
+  "gallery": [
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/The-Aquila-Villa-Phuket-Main-Swimming-Pool-Area-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/The-Aquila-Villa-Phuket-Aerial-2.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/The-Aquila-Villa-Phuket-Main-Swimming-Pool-Area-6.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/The-Aquila-Villa-Phuket-Lower-Level-Swimming-Pool-Area-2.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/The-Aquila-Villa-Phuket-Main-Swimming-Pool-Area-5.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/The-Aquila-Villa-Phuket-Living-Area-1-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/The-Aquila-Villa-Phuket-Living-Area-1-3.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/The-Aquila-Villa-Phuket-Dining-Area-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/The-Aquila-Villa-Phuket-Entertainment-Area-and-Bar-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/The-Aquila-Villa-Phuket-Cinema-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/The-Aquila-Villa-Phuket-Library-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/The-Aquila-Villa-Phuket-Gym-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/The-Aquila-Villa-Phuket-Spa-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/The-Aquila-Villa-Phuket-Master-Bedroom-1-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/The-Aquila-Villa-Phuket-Lower-Level-Swimming-Pool-Area-3.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/The-Aquila-Villa-Phuket-Aerial-4.jpg"
+  ],
+  "location": "Kamala · Phuket · Thailand",
+  "place": "Millionaire's Mile, Kamala, Kathu, Phuket, Thailand",
+  "mapQuery": "7.9294,98.2654",
+  "title": "The Aquila — Clifftop Estate, Millionaire's Mile",
+  "view": [
+    "Sea View",
+    "Waterfront"
+  ],
+  "beds": 12,
+  "bedsLabel": "10–12",
+  "guests": 24,
+  "guestsLabel": "24",
+  "occupancy": "up to 24 guests",
+  "size": "4,375 m²",
+  "nightlyNum": 5920,
+  "nightly": "$5,920",
+  "note": "10 staff",
+  "sleeps": "24 guests · up to 12 bedrooms",
+  "blurb": "A secluded clifftop estate on Kamala's Millionaire's Mile — contemporary Asian design over a 12-bedroom retreat with two ocean-view infinity pools, direct sea access, a cinema, library, gym and spa, served by ten staff for up to 24 guests.",
+  "detail": "Perched on a secluded clifftop along Phuket's illustrious Millionaire's Mile in Kamala, The Aquila Villa is a masterpiece of luxury, seamlessly blending contemporary Asian sophistication with nature's raw beauty. Designed for discerning travellers seeking exclusivity and indulgence, this expansive 12-bedroom retreat offers an unparalleled escape in one of Thailand's most coveted destinations.\n\nSet within an extensive estate, the villa strikes a perfect balance between indoor elegance and outdoor serenity. Two infinity pools invite guests to soak in uninterrupted ocean views, surrounded by sun-drenched terraces, alfresco dining spaces and a tranquil outdoor sala. Every detail is meticulously crafted, with twelve private bedrooms including a magnificent master suite designed as a sanctuary of its own and a family room with two adjoined bedrooms.\n\nBeyond its setting, the villa is a haven of world-class amenities: a chic outdoor bar, a cinema room, a library, and an entertainment area with a pool table. Fitness and wellness enthusiasts enjoy a state-of-the-art gym, a dedicated spa room and direct sea access for a swim in the Andaman. Culinary excellence is effortless with a professional kitchen, wine cellar and BBQ facilities served by a private chef — all within a gated estate with 24-hour security, an elevator and a conference area.",
+  "features": [
+    {
+      "l": "Two ocean-view infinity pools",
+      "i": "pool"
+    },
+    {
+      "l": "Clifftop · Millionaire's Mile",
+      "i": "view"
+    },
+    {
+      "l": "Direct Andaman Sea access",
+      "i": "waves"
+    },
+    {
+      "l": "Cinema, library & entertainment bar",
+      "i": "music"
+    },
+    {
+      "l": "Gym, spa & conference area",
+      "i": "gym"
+    },
+    {
+      "l": "12 bedrooms · sleeps 24 · 10 staff",
+      "i": "users"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "porsche-design-tower-bangkok",
+  "image": "/assets/listings/porsche-design-tower-bangkok/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/porsche-design-tower-bangkok/ext-001.jpg",
+    "/assets/listings/porsche-design-tower-bangkok/ext-002.jpg",
+    "/assets/listings/porsche-design-tower-bangkok/ext-003.jpg",
+    "/assets/listings/porsche-design-tower-bangkok/ext-004.jpg",
+    "/assets/listings/porsche-design-tower-bangkok/ext-005.jpg"
+  ],
+  "location": "Thonglor · Bangkok · Thailand",
+  "place": "Porsche Design Tower, Sukhumvit, Khlong Toei, Bangkok, Thailand",
+  "mapQuery": "13.7224914,100.5693151",
+  "market": "Bangkok",
+  "title": "Porsche Design Tower — Quadruplex Sky Mansion",
+  "type": "Condominium",
+  "view": "City View",
+  "status": "Off-Plan",
+  "beds": 6,
+  "baths": 7,
+  "interior": "1,135 m²",
+  "plot": null,
+  "year": 2027,
+  "priceNum": 39000000,
+  "price": "$39,000,000",
+  "added": 15,
+  "ownership": "Freehold",
+  "blurb": "One of only two quadruplex sky mansions crowning the Porsche Design Tower — four private levels in the sky above central Bangkok, with a heated sky pool, private car lift and 360-degree skyline views.",
+  "detail": "A genuinely once-in-a-lifetime residence: one of just two quadruplex sky mansions at the top of the Porsche Design Tower, the brand's first tower in Asia. Spanning four private levels and approximately 1,135 m², the home is conceived as a vertical mansion in the sky — engineered, detailed and finished to the exacting design language Porsche is known for, high above the dense heart of central Bangkok.\n\nEvery principal space is wrapped in floor-to-ceiling glass, opening onto uninterrupted 360-degree views across the city skyline and river beyond. Interconnected by a private internal lift and sculptural stair, the levels hold a sequence of grand entertaining and living volumes, six en-suite bedrooms, multiple kitchens for daily and formal use, and dedicated lounge, study and media spaces — all arranged for absolute privacy and flooded with natural light.\n\nThe crowning feature is a private heated sky pool set against the skyline, paired with expansive sun terraces for entertaining at altitude. Residents enjoy the tower's signature amenity: a patented automated car lift that delivers vehicles directly to the residence, alongside concierge, wellness and security services befitting one of the most exclusive addresses in the region.",
+  "features": [
+    {
+      "l": "One of only two quadruplex units",
+      "i": "sparkles"
+    },
+    {
+      "l": "Four private levels in the sky",
+      "i": "building"
+    },
+    {
+      "l": "Private heated sky pool",
+      "i": "pool"
+    },
+    {
+      "l": "360° panoramic skyline views",
+      "i": "view"
+    },
+    {
+      "l": "Patented private car lift",
+      "i": "car"
+    },
+    {
+      "l": "Private internal elevator",
+      "i": "key"
+    },
+    {
+      "l": "Six en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Multiple kitchens",
+      "i": "utensils"
+    },
+    {
+      "l": "Floor-to-ceiling glazing",
+      "i": "home"
+    },
+    {
+      "l": "Sun terraces for entertaining",
+      "i": "terrace"
+    },
+    {
+      "l": "Concierge & wellness amenities",
+      "i": "users"
+    },
+    {
+      "l": "Completion 2027",
+      "i": "year"
+    }
+  ]
+}

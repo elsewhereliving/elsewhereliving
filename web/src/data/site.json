@@ -1,0 +1,164 @@
+{
+  "markets": [
+    {
+      "name": "Koh Samui",
+      "country": "Thailand",
+      "note": "Island calm, deep rental demand"
+    },
+    {
+      "name": "Phuket",
+      "country": "Thailand",
+      "note": "The Andaman's mature resort coast"
+    },
+    {
+      "name": "Bangkok",
+      "country": "Thailand",
+      "note": "A global capital, riverside living"
+    },
+    {
+      "name": "Bali",
+      "country": "Indonesia",
+      "note": "Spiritual home of slow luxury"
+    },
+    {
+      "name": "Dubai",
+      "country": "UAE",
+      "note": "Tax-free yields, world-class infrastructure"
+    }
+  ],
+  "customSteps": [
+    {
+      "n": "01",
+      "t": "Finding the land",
+      "b": "We help you find the perfect plot — the right aspect, the right view, clean title — and guide you through buying it."
+    },
+    {
+      "n": "02",
+      "t": "Architecture & design",
+      "b": "We introduce you to architects who translate how you want to live into a home that belongs to its landscape."
+    },
+    {
+      "n": "03",
+      "t": "Construction",
+      "b": "We connect you with trusted local builders experienced in island terrain — transparent budgets, clear milestones."
+    },
+    {
+      "n": "04",
+      "t": "Interior design",
+      "b": "An interior designer composes every room — materials, light and flow considered down to the door handles."
+    },
+    {
+      "n": "05",
+      "t": "Furniture sourcing",
+      "b": "Your designer sources and commissions furniture, art and finishing pieces from makers across the region."
+    },
+    {
+      "n": "06",
+      "t": "Delivery & handover",
+      "b": "You arrive to a home that is finished, styled and ready to live in. Keys, and nothing left to do."
+    }
+  ],
+  "customLocations": [
+    {
+      "market": "Koh Samui",
+      "from": "$1,000,000+",
+      "note": "Hillside and sea-view plots across Bo Phut, Maenam and Chaweng Noi.",
+      "image": "assets/imagery/custom-samui.jpg"
+    },
+    {
+      "market": "Phuket",
+      "from": "$2,000,000+",
+      "note": "Premium west-coast land, from Kamala down to Cape Panwa.",
+      "image": "assets/imagery/custom-phuket.jpg"
+    }
+  ],
+  "pillars": [
+    {
+      "n": "01",
+      "title": "Honest Guidance",
+      "body": "We tell you what we'd tell a friend. No pressure, no spin — just detailed, completely honest answers until you're certain. Most clients say it's the first time buying abroad felt safe."
+    },
+    {
+      "n": "02",
+      "title": "Quality Over Quantity",
+      "body": "As a boutique agency, we only work with clients who align with our values. That lets us give you a genuinely personal experience and build relationships that last well beyond the sale."
+    },
+    {
+      "n": "03",
+      "title": "Numbers That Work",
+      "body": "Every property is vetted with ROI, rental potential, and appreciation in mind. We'll never advise you to buy a deal that doesn't perform — your second home should earn its keep."
+    }
+  ],
+  "personas": [
+    {
+      "i": "trend",
+      "k": "The Investor",
+      "b": "Seeking assets that work as hard as they do — strong yields, real appreciation, and a foothold in tax-friendly markets we know inside out."
+    },
+    {
+      "i": "home",
+      "k": "The Home Seeker",
+      "b": "Looking for the one. A place that feels like theirs the moment they walk in — somewhere to put down roots and live for years to come."
+    },
+    {
+      "i": "sun",
+      "k": "The Escapist",
+      "b": "After a second home for the season — somewhere to retreat, host, and return to whenever the world gets a little too loud."
+    }
+  ],
+  "differentiators": [
+    {
+      "i": "key",
+      "t": "More than buy & sell",
+      "b": "We also run luxury vacation rentals — so while you're in town hunting for your next property, we'll find you somewhere beautiful to stay."
+    },
+    {
+      "i": "megaphone",
+      "t": "Marketing in our DNA",
+      "b": "Our founder brings 10 years of marketing experience. Our most viral video has 12M+ views on Instagram and 6M on TikTok — we genuinely understand how to market property."
+    },
+    {
+      "i": "sparkles",
+      "t": "Exclusive listings",
+      "b": "Sellers and developers trust us with their exclusive listings, because we consistently demonstrate the ability to market a property and close the deal."
+    },
+    {
+      "i": "view",
+      "t": "We find your unspoken brief",
+      "b": "Buyers trust our instinct. We have a knack for offering people exactly what they're looking for — even when they didn't yet know they were looking for it."
+    },
+    {
+      "i": "shield",
+      "t": "Legally protected",
+      "b": "We partner with established law firms — essential, and reassuring, when you're buying property abroad."
+    },
+    {
+      "i": "pin",
+      "t": "Local to the core",
+      "b": "Our founder is Thai. That means real local connections, and early access to off-market deals and the next best investments before they ever surface."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I spoke with many agents, but Sofia was the only one who took the time to provide detailed explanations and completely honest answers. Her knowledge and integrity sealed the deal — I knew I had to work with her.",
+      "name": "Erik",
+      "place": "bought in Koh Samui"
+    },
+    {
+      "quote": "Investing abroad requires trust, and Sofia earned mine from the start. She clearly explained Thailand's ownership options, arranged legal due diligence, and truly understood my asks and design preferences. She presented the perfect selection of properties, and we ultimately closed on a fantastic off-plan ocean-view villa. A great experience working with Sofia.",
+      "name": "Brian",
+      "place": "bought in Koh Samui"
+    },
+    {
+      "quote": "She helped me market and sell my land with a modern approach quite different from what most agents on the island are doing, generating strong international exposure and enquiries from buyers outside Thailand, which was particularly valuable. Hardworking, professional and always responsive, she stayed proactive and committed to the best possible result. I'd happily recommend her to anyone looking to sell in Koh Samui.",
+      "name": "Anonymous seller",
+      "place": "sold land in Koh Samui"
+    }
+  ],
+  "contact": {
+    "email": "contact@elsewhere.living",
+    "whatsapp": "+66 92 999 3852",
+    "whatsappRaw": "+6692 999 3852",
+    "site": "elsewhere.living"
+  }
+}

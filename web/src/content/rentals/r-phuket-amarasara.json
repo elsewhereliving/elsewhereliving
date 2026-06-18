@@ -1,0 +1,70 @@
+{
+  "id": "r-phuket-amarasara",
+  "image": "https://www.theluxurysignature.com/wp-content/uploads/2023/02/Villa-Amarasara-Phuket-4.jpg",
+  "gallery": [
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/02/Villa-Amarasara-Phuket-4.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/02/Villa-Amarasara-Phuket-102.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/02/Villa-Amarasara-Phuket-71.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/02/Villa-Amarasara-Phuket-78.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/02/Villa-Amarasara-Phuket-46.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/02/Villa-Amarasara-Phuket-33.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/02/Villa-Amarasara-Phuket-58.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/02/Villa-Amarasara-Phuket-107.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/02/Villa-Amarasara-Phuket-9.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/02/Villa-Amarasara-Phuket-20.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/02/Villa-Amarasara-Phuket-32.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/02/Villa-Amarasara-Phuket-38.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/03/Villa-Amarasara-Phuket-10-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/03/Villa-Amarasara-Phuket-11-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/02/Villa-Amarasara-Phuket-Thailand-16.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/02/Villa-Amarasara-Phuket-55.jpeg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/02/80-Villa-Amarasara-Phuket-Tennis-Court.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/02/Villa-Amarasara-Phuket-121.jpg"
+  ],
+  "location": "Cape Yamu · Phuket · Thailand",
+  "place": "Cape Yamu, Pa Klok, Thalang, Phuket, Thailand",
+  "mapQuery": "7.9939267,98.4095672",
+  "title": "Villa Amarasara — Beachfront Estate, Cape Yamu",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 7,
+  "bedsLabel": "5–7",
+  "guests": 16,
+  "guestsLabel": "16",
+  "occupancy": "up to 16 guests",
+  "size": "4,500 m²",
+  "nightlyNum": 0,
+  "nightly": "Price on request",
+  "note": "Fully staffed · 6 staff incl. chef",
+  "sleeps": "16 guests · up to 7 bedrooms",
+  "blurb": "A beachfront estate in the gated Cape Yamu community on Phuket's eastern coast — Oriental-modern architecture over 4,500 m², a 40-metre infinity pool above Phang Nga Bay, full-sized tennis court, cinema, golf simulator and six staff.",
+  "detail": "At Villa Amarasara, guests get the best of both worlds — a tradition-meets-modern estate inside the upscale Cape Yamu community on Phuket's eastern coast, with an enviable beachfront setting and majestic views over Phang Nga Bay and the Andaman Sea. The 4,500 m² villa is set on a 16,000 m² plot, wrapped in shuttered floor-to-ceiling glass beneath a hip-and-gable roof, with direct beach access yet complete privacy and exclusivity.\n\nDistinct Oriental architecture meets crisp, white modern interiors across three storeys. Seven en-suite bedrooms — two on the main level and five above, including two master suites — sleep fourteen adults and two children, each framing spectacular sea views. The heart of the home is its 40-metre infinity pool, paired with an 8-person jacuzzi, an 8-metre kids' pool, a pool sala, indoor and outdoor dining and a rooftop bar.\n\nWhether you want to wind down or turn it up, Amarasara delivers: a game room, cinema room, full-sized tennis court, fitness centre, golf simulator, multi-purpose indoor court, and steam and sauna rooms, plus kayaks and paddleboards for the bay. Six staff including a private chef look after the stay, in a secure gated community 21 km from Phuket International Airport and minutes from Royal Phuket Marina and Laguna Golf.",
+  "features": [
+    {
+      "l": "40 m infinity pool over Phang Nga Bay",
+      "i": "pool"
+    },
+    {
+      "l": "Beachfront · Cape Yamu",
+      "i": "waves"
+    },
+    {
+      "l": "Full-sized tennis court",
+      "i": "sparkles"
+    },
+    {
+      "l": "Cinema & game room",
+      "i": "music"
+    },
+    {
+      "l": "Golf simulator & indoor court",
+      "i": "gym"
+    },
+    {
+      "l": "7 en-suite bedrooms · 6 staff + chef",
+      "i": "users"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "samui-summit-360-villa",
+  "image": "/assets/listings/samui-summit-360-villa/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/samui-summit-360-villa/ext-001.jpg",
+    "/assets/listings/samui-summit-360-villa/ext-002.jpg",
+    "/assets/listings/samui-summit-360-villa/ext-003.jpg",
+    "/assets/listings/samui-summit-360-villa/ext-004.jpg",
+    "/assets/listings/samui-summit-360-villa/ext-005.jpg",
+    "/assets/listings/samui-summit-360-villa/ext-006.jpg",
+    "/assets/listings/samui-summit-360-villa/ext-007.jpg",
+    "/assets/listings/samui-summit-360-villa/ext-008.jpg",
+    "/assets/listings/samui-summit-360-villa/ext-009.jpg",
+    "/assets/listings/samui-summit-360-villa/ext-010.jpg",
+    "/assets/listings/samui-summit-360-villa/ext-011.jpg",
+    "/assets/listings/samui-summit-360-villa/ext-012.jpg",
+    "/assets/listings/samui-summit-360-villa/ext-013.jpg",
+    "/assets/listings/samui-summit-360-villa/ext-014.jpg",
+    "/assets/listings/samui-summit-360-villa/ext-015.jpg",
+    "/assets/listings/samui-summit-360-villa/ext-016.jpg",
+    "/assets/listings/samui-summit-360-villa/ext-017.jpg",
+    "/assets/listings/samui-summit-360-villa/ext-018.jpg",
+    "/assets/listings/samui-summit-360-villa/ext-019.jpg",
+    "/assets/listings/samui-summit-360-villa/ext-020.jpg",
+    "/assets/listings/samui-summit-360-villa/ext-021.jpg",
+    "/assets/listings/samui-summit-360-villa/ext-022.jpg"
+  ],
+  "location": "Choeng Mon · Koh Samui · Thailand",
+  "place": "Choeng Mon, Koh Samui, Thailand",
+  "mapQuery": "9.561781,100.085431",
+  "market": "Koh Samui",
+  "title": "Summit Villa — 360° Sea Views on Koh Samui",
+  "type": "Villa",
+  "view": "Sea View",
+  "status": "Move-In Ready",
+  "beds": 5,
+  "baths": 6,
+  "interior": "808 m²",
+  "plot": "1,600 m²",
+  "year": null,
+  "priceNum": 5000000,
+  "price": "$5,000,000",
+  "added": 25,
+  "ownership": "Freehold",
+  "blurb": "Poised at the very summit of its estate, a five-bedroom villa with unrivalled 360-degree views — five sea-view suites, an infinity-edge pool, a private cinema and gym, and contemporary Asian art throughout.",
+  "detail": "Step into a realm of unparalleled luxury at the crown jewel of its Samui estate. Poised at the summit, the residence commands unrivalled 360-degree views, establishing it as one of the most captivating dwellings on the island. Five suite bedrooms each present breathtaking sea views, seamlessly integrating opulence with sophistication.\n\nThe villa is built for both grand occasions and intimate gatherings: a state-of-the-art cinema, a private gym and a meticulously crafted spiral staircase elevate the living experience, while the infinity-edge pool blurs the boundary between water and sky. The interior is a testament to luxury — fully equipped kitchens, contemporary Asian art and refined accents throughout enhance its elegance.\n\nWhether envisioning a star-studded soirée on the island's pinnacle or an intimate dinner with close friends, the villa provides the ideal venue for any occasion, with terraces, sun loungers and outdoor dining set against the endless horizon.",
+  "features": [
+    {
+      "l": "Infinity-edge pool",
+      "i": "pool"
+    },
+    {
+      "l": "Unrivalled 360° sea views",
+      "i": "view"
+    },
+    {
+      "l": "Five sea-view en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "State-of-the-art private cinema",
+      "i": "music"
+    },
+    {
+      "l": "Private gym",
+      "i": "gym"
+    },
+    {
+      "l": "Sculptural spiral staircase",
+      "i": "sparkles"
+    },
+    {
+      "l": "Fully equipped kitchens",
+      "i": "utensils"
+    },
+    {
+      "l": "Contemporary Asian art & accents",
+      "i": "home"
+    },
+    {
+      "l": "Terraces & sun loungers",
+      "i": "terrace"
+    },
+    {
+      "l": "Outdoor dining & BBQ",
+      "i": "sofa"
+    },
+    {
+      "l": "Summit position above the estate",
+      "i": "mountain"
+    },
+    {
+      "l": "24-hour security",
+      "i": "shield"
+    }
+  ]
+}

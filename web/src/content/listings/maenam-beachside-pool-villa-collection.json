@@ -1,0 +1,87 @@
+{
+  "id": "maenam-beachside-pool-villa-collection",
+  "image": "/assets/listings/maenam-beachside-pool-villa-collection/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/maenam-beachside-pool-villa-collection/ext-001.jpg",
+    "/assets/listings/maenam-beachside-pool-villa-collection/ext-002.jpg",
+    "/assets/listings/maenam-beachside-pool-villa-collection/ext-003.jpg",
+    "/assets/listings/maenam-beachside-pool-villa-collection/ext-004.jpg",
+    "/assets/listings/maenam-beachside-pool-villa-collection/ext-005.jpg",
+    "/assets/listings/maenam-beachside-pool-villa-collection/ext-006.jpg",
+    "/assets/listings/maenam-beachside-pool-villa-collection/ext-007.jpg"
+  ],
+  "location": "Maenam · Koh Samui · Thailand",
+  "place": "Maenam Soi 1, Maenam, Ko Samui District, Surat Thani 84330, Thailand",
+  "mapQuery": "9.5540,99.9560",
+  "market": "Koh Samui",
+  "title": "Contemporary Beachside Pool Villas, Five Minutes to Maenam Beach",
+  "type": "Villa",
+  "view": [
+    "Garden / Pool View"
+  ],
+  "status": "Off-Plan",
+  "beds": 5,
+  "bedsLabel": "4–5",
+  "baths": 5,
+  "interior": "443 m²",
+  "plot": "from 403 m²",
+  "year": null,
+  "priceNum": 619684,
+  "price": "From $619,684",
+  "priceOriginal": "฿20,400,000",
+  "priceCurrency": "THB",
+  "added": 49,
+  "ownership": "Freehold",
+  "blurb": "A limited collection of contemporary tropical villas on Maenam Soi 1 — a five-minute stroll from the sand of Maenam Beach. Each home pairs open-plan living with a private pool and garden, available as five bedrooms or four-plus-office, delivered fully turnkey. Off-plan, from ฿20.4M.",
+  "detail": "An exclusive enclave of only a handful of contemporary villas on Maenam Soi 1, set along Koh Samui's quieter north coast just a five-minute walk from the pristine sand of Maenam Beach. The position balances privacy and convenience — close to shops, restaurants and international schools, and within easy reach of Fisherman's Village and Bophut — while staying wrapped in tropical calm.\n\nEach villa is composed for effortless island living: open-plan living and dining that flow seamlessly indoors to out, a private swimming pool and garden, and high-quality finishes throughout in a clean, contemporary tropical architecture built for durability. Homes are configured as five bedrooms, or four bedrooms plus a dedicated office, across roughly 443 m² of built area on plots from 403 m².\n\nDelivered fully turnkey — with curated interior design, premium materials and appliances included — the villas suit a holiday home, a full-time residence or a rental investment, with strong rental demand in Maenam and optional management for owners. Offered off-plan and freehold, from ฿20,400,000.",
+  "features": [
+    {
+      "l": "Five-minute walk to Maenam Beach",
+      "i": "waves"
+    },
+    {
+      "l": "Private pool & garden",
+      "i": "pool"
+    },
+    {
+      "l": "5 bedrooms, or 4 + office",
+      "i": "bed"
+    },
+    {
+      "l": "Open-plan indoor-outdoor living",
+      "i": "home"
+    },
+    {
+      "l": "Contemporary tropical architecture",
+      "i": "building"
+    },
+    {
+      "l": "Delivered fully turnkey",
+      "i": "sparkles"
+    },
+    {
+      "l": "443 m² build · plots from 403 m²",
+      "i": "plot"
+    },
+    {
+      "l": "Near schools, shops & dining",
+      "i": "utensils"
+    },
+    {
+      "l": "Freehold · off-plan",
+      "i": "shield"
+    },
+    {
+      "l": "Strong Maenam rental demand",
+      "i": "users"
+    },
+    {
+      "l": "Optional rental management",
+      "i": "key"
+    },
+    {
+      "l": "Limited collection",
+      "i": "tree"
+    }
+  ]
+}

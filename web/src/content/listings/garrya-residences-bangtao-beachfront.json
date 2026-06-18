@@ -1,0 +1,95 @@
+{
+  "id": "garrya-residences-bangtao-beachfront",
+  "image": "/assets/listings/garrya-residences-bangtao-beachfront/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/garrya-residences-bangtao-beachfront/ext-001.jpg",
+    "/assets/listings/garrya-residences-bangtao-beachfront/ext-002.jpg",
+    "/assets/listings/garrya-residences-bangtao-beachfront/ext-003.jpg",
+    "/assets/listings/garrya-residences-bangtao-beachfront/ext-004.jpg",
+    "/assets/listings/garrya-residences-bangtao-beachfront/ext-005.jpg",
+    "/assets/listings/garrya-residences-bangtao-beachfront/ext-006.jpg",
+    "/assets/listings/garrya-residences-bangtao-beachfront/ext-007.jpg",
+    "/assets/listings/garrya-residences-bangtao-beachfront/ext-008.jpg",
+    "/assets/listings/garrya-residences-bangtao-beachfront/ext-009.jpg",
+    "/assets/listings/garrya-residences-bangtao-beachfront/ext-010.jpg",
+    "/assets/listings/garrya-residences-bangtao-beachfront/ext-011.jpg",
+    "/assets/listings/garrya-residences-bangtao-beachfront/ext-012.jpg",
+    "/assets/listings/garrya-residences-bangtao-beachfront/ext-013.jpg",
+    "/assets/listings/garrya-residences-bangtao-beachfront/ext-014.jpg"
+  ],
+  "location": "Bang Tao · Phuket · Thailand",
+  "place": "Laguna Phuket, Bang Tao, Choeng Thale, Thalang District, Phuket 83110, Thailand",
+  "mapQuery": "7.9890,98.2915",
+  "market": "Phuket",
+  "title": "Garrya Residences Phuket — Beachfront Hotel-Managed Residences on Bangtao Beach",
+  "type": "Condominium",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "status": "Off-Plan",
+  "beds": 1,
+  "bedsLabel": "1–2",
+  "baths": "1–2",
+  "interior": "57–220 m²",
+  "plot": null,
+  "year": 2027,
+  "priceNum": 506070,
+  "price": "From $506,070",
+  "priceOriginal": "฿16,670,000",
+  "priceCurrency": "THB",
+  "added": 1,
+  "ownership": "Freehold or Leasehold",
+  "blurb": "A beachfront, hotel-managed investment residence by a world-famous hospitality group, set directly on Bangtao Beach at the seaside edge of Laguna Phuket. A low-rise boutique resort of just 38 apartments across four buildings, with a beach club, wellness centre and signature pools — top-floor homes have private rooftop pools. Owners earn a share of resort income plus complimentary annual stays. Off-plan, leasehold.",
+  "detail": "A new beachfront luxury resort by a world-famous hospitality group, set directly on Bangtao Beach in the southernmost part of Laguna Phuket — beside the developer's own Laguna Seaside and just 500 metres from the famous Catch Beach Club. It is a low-rise boutique resort comprising four residential buildings of four storeys each, with a total of only 38 exclusive apartments between them, alongside the resort's own hotel and beach club.\n\nThe homes are designed for privacy and the view: spacious living rooms open through panoramic balconies to sweeping vistas over Bangtao Beach, with only two to three units per floor. Top-floor apartments enjoy private rooftops with their own swimming pools. Layouts run from efficient one-bedrooms of 57 m² to expansive two-bedroom penthouses of up to 220 m².\n\nImportantly, this is purely an investment property rather than a conventional residence: buyers acquire a hotel unit in a professionally managed resort under a respected wellbeing-resort brand, receiving a share of the hotel's income plus complimentary stays of 30–90 days per year depending on the chosen programme — with an exchange option to use part of that allocation at the group's hotels in other countries. Resort amenities include a beach club and bar, a wellness centre, an all-day dining restaurant, a lap pool, a party pool, a jungle pool and a reflection pond, with Bangtao's own beach clubs and restaurants at your feet.\n\nThe address sits within Laguna Phuket — a 1,000-acre integrated resort in the centre of Bangtao beach, maintained to hotel standards, with seven hotels, residences, a golf course, restaurants, spas and retail galleries, plus year-round sporting and cultural events and intra-resort shuttles. Ownership carries the group's signature privileges — Sanctuary Club membership, Laguna Golf membership, and the rare offer of developer financing. Completion expected 2027, offered leasehold — priced from ฿16,670,000.",
+  "features": [
+    {
+      "l": "Absolute Bangtao Beach frontage",
+      "i": "waves"
+    },
+    {
+      "l": "Hotel-managed by the Garrya brand",
+      "i": "sparkles"
+    },
+    {
+      "l": "Boutique · 38 homes, 4 low-rise buildings",
+      "i": "building"
+    },
+    {
+      "l": "Top-floor private rooftop pools",
+      "i": "pool"
+    },
+    {
+      "l": "Beach club, bar & wellness centre",
+      "i": "view"
+    },
+    {
+      "l": "Lap, party & jungle pools",
+      "i": "terrace"
+    },
+    {
+      "l": "Share of resort rental income",
+      "i": "key"
+    },
+    {
+      "l": "30–90 free owner stays per year",
+      "i": "home"
+    },
+    {
+      "l": "Inside Laguna integrated resort",
+      "i": "shield"
+    },
+    {
+      "l": "Sanctuary Club & golf membership",
+      "i": "users"
+    },
+    {
+      "l": "Rare developer financing",
+      "i": "year"
+    },
+    {
+      "l": "500 m to Catch Beach Club",
+      "i": "road"
+    }
+  ]
+}

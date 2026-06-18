@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Elsewhere Living — Marketing Website (UI Kit)</title>
+<meta name="description" content="Find Your Elsewhere. Luxury villas, condominiums and land across Koh Samui, Phuket, Bangkok, Bali and Dubai — the Elsewhere Living website UI kit, built on the design system." />
+
+<!-- ===========================================================================
+     Elsewhere Living — Website UI Kit
+     A self-contained, interactive marketing site (homepage · listings ·
+     property detail · contact) built entirely on the design system: the
+     token CSS and the window.DesignSystem_abef38 React primitives.
+     Paths are site-root-absolute so the file runs from /_ds/.../ui_kits/website/.
+     =========================================================================== -->
+
+<!-- Design system tokens + base utilities (the single source of brand truth) -->
+<link rel="stylesheet" href="/_ds/design-system-abef38a9-b4ec-454e-999b-5c22fa6c925a/styles.css" />
+
+<style>
+  html, body { margin: 0; background: var(--paper); }
+  html { scroll-behavior: smooth; }
+  a { color: inherit; text-decoration: none; }
+  img { display: block; }
+
+  /* Printed-magazine paper grain over the whole page — the brand's texture */
+  #paper-grain {
+    position: fixed; inset: 0; z-index: 9999; pointer-events: none;
+    mix-blend-mode: multiply; opacity: 0.30;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='2' stitchTiles='stitch'/></filter><rect width='180' height='180' filter='url(%23n)'/></svg>");
+    background-size: 200px 200px;
+  }
+  #paper-vignette {
+    position: fixed; inset: 0; z-index: 9998; pointer-events: none;
+    box-shadow: inset 0 0 240px rgba(20,22,28,0.10);
+  }
+  ::selection { background: var(--butter); color: var(--navy); }
+  * { scrollbar-width: thin; }
+
+  /* ---- Editorial scroll reveal ---- */
+  .reveal {
+    opacity: 0; transform: translateY(26px);
+    transition: opacity 1000ms var(--ease-out), transform 1000ms var(--ease-out);
+    will-change: opacity, transform;
+  }
+  .reveal.is-in { opacity: 1; transform: none; }
+
+  /* ---- Slow hero ken-burns ---- */
+  @keyframes ew-kenburns { from { transform: scale(1.0); } to { transform: scale(1.08); } }
+  .ew-kenburns { animation: ew-kenburns 22s var(--ease-out) forwards; }
+
+  /* ---- Vertical scroll hint pulse ---- */
+  @keyframes ew-hint { 0%,100% { opacity: 0.35; } 50% { opacity: 0.9; } }
+  .ew-scroll-hint { animation: ew-hint 3.2s ease-in-out infinite; }
+
+  /* ---- Interactive flourishes ---- */
+  .ew-btn:hover { opacity: 0.86; }
+  .ew-dest-row { transition: padding-left var(--dur-base) var(--ease-out), background var(--dur-base) var(--ease-out); }
+  .ew-dest-row:hover { padding-left: 18px; background: rgba(21,38,68,0.03); }
+  .ew-dest-row:hover .ew-dest-arrow { transform: translateX(8px); opacity: 1; }
+  .ew-dest-arrow { transition: transform var(--dur-base) var(--ease-out), opacity var(--dur-base) var(--ease-out); opacity: 0.35; }
+
+  .ew-card-link { cursor: pointer; transition: transform var(--dur-base) var(--ease-out); }
+  .ew-card-link:hover { transform: translateY(-5px); }
+  .ew-card-link img { transition: transform 1.4s var(--ease-out); }
+  .ew-card-link:hover img { transform: scale(1.05); }
+
+  .ew-textlink { position: relative; }
+  .ew-textlink::after {
+    content: ""; position: absolute; left: 0; bottom: -3px; height: 1px; width: 100%;
+    background: currentColor; transform: scaleX(0); transform-origin: left;
+    transition: transform var(--dur-base) var(--ease-out);
+  }
+  .ew-textlink:hover::after { transform: scaleX(1); }
+
+  .ew-navlink { opacity: 0.78; transition: opacity var(--dur-base) var(--ease-out); }
+  .ew-navlink:hover, .ew-navlink[aria-current="true"] { opacity: 1; }
+
+  .ew-rent-tile img { transition: transform 1.4s var(--ease-out); }
+  .ew-rent-tile:hover img { transform: scale(1.06); }
+
+  .ew-gallery-thumb { opacity: 0.55; transition: opacity var(--dur-base) var(--ease-out); cursor: pointer; }
+  .ew-gallery-thumb[aria-current="true"], .ew-gallery-thumb:hover { opacity: 1; }
+
+  .ew-field-focus input:focus, .ew-field-focus textarea:focus { border-bottom-color: var(--butter) !important; }
+
+  /* ---- Responsive ---- */
+  @media (max-width: 940px) {
+    .ew-nav-links { display: none !important; }
+    .ew-scroll-hint { display: none !important; }
+  }
+  @media (max-width: 820px) {
+    [data-grid="split"] { grid-template-columns: 1fr !important; }
+    [data-grid="pillars"] { grid-template-columns: 1fr !important; }
+  }
+  @media (max-width: 680px) {
+    [data-grid="cards"] { grid-template-columns: 1fr !important; }
+    [data-grid="rentals"] { grid-template-columns: 1fr !important; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { opacity: 1 !important; transform: none !important; transition: none; }
+    .ew-kenburns, .ew-scroll-hint { animation: none !important; }
+    html { scroll-behavior: auto; }
+  }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<div id="paper-vignette"></div>
+<div id="paper-grain"></div>
+
+<!-- React (UMD) + Babel standalone so the kit stays a single, editable file -->
+<script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.25.6/babel.min.js" crossorigin="anonymous"></script>
+
+<!-- Design system component bundle → window.DesignSystem_abef38 -->
+<script src="/_ds/design-system-abef38a9-b4ec-454e-999b-5c22fa6c925a/_ds_bundle.js"></script>
+
+<script type="text/babel" data-presets="react">
+const { useState, useEffect, useRef, useCallback } = React;
+
+/* The brand primitives live on the design-system namespace. */
+const DS = window.DesignSystem_abef38 || {};
+const { Wordmark, Label, Button, Badge, Field, PropertyCard } = DS;
+
+const IMG = "/assets/imagery";
+
+/* ===========================================================================
+   Content — the words and pictures of the site. Voice per the brand brief:
+   editorial, unhurried, "we"/"you", serif headlines + all-caps sans labels.
+   =========================================================================== */
+
+const LISTINGS = [
+  {
+    id: "baan-sang",
+    title: "Baan Sang",
+    location: "Chaweng Hills",
+    place: "Samui",
+    price: "$2,450,000",
+    badge: "For Sale",
+    beds: 4, baths: 5, area: "620 m²",
+    image: `${IMG}/baan-sang-hero.jpg`,
+    gallery: [
+      `${IMG}/baan-sang-hero.jpg`,
+      `${IMG}/cantilever-hilltop-04.jpg`,
+      `${IMG}/villa-bedroom.jpg`,
+      `${IMG}/c-deck-sea.jpg`,
+    ],
+    blurb:
+      "A cascade of glass and stone folded into the hillside above Chaweng, where the sea opens the moment you step inside. Designed around a single, unhurried idea — that a home should disappear into its view.",
+  },
+  {
+    id: "cantilever-house",
+    title: "Cantilever House",
+    location: "Bophut Hills",
+    place: "Samui",
+    price: "$3,200,000",
+    badge: "For Sale",
+    beds: 5, baths: 6, area: "740 m²",
+    image: `${IMG}/cantilever-hilltop-01.jpg`,
+    gallery: [
+      `${IMG}/cantilever-hilltop-01.jpg`,
+      `${IMG}/cantilever-hilltop-12.jpg`,
+      `${IMG}/cantilever-hilltop-20.jpg`,
+      `${IMG}/c-villa-pool.jpg`,
+    ],
+    blurb:
+      "An architectural statement that holds the ridge in Bophut — a pool that reaches past the edge of the land, and rooms that frame nothing but horizon. Quiet, exacting, deeply private.",
+  },
+  {
+    id: "the-belief",
+    title: "The Belief Villa",
+    location: "Bang Por",
+    place: "Samui",
+    price: "$1,890,000",
+    badge: "New",
+    beds: 3, baths: 4, area: "410 m²",
+    image: `${IMG}/belief-jungle-pool.jpg`,
+    gallery: [
+      `${IMG}/belief-jungle-pool.jpg`,
+      `${IMG}/pool-jungle.jpg`,
+      `${IMG}/jungle-path.jpg`,
+      `${IMG}/c-chairs.jpg`,
+    ],
+    blurb:
+      "Set deep into the jungle above Bang Por, with a pool that meets the canopy and mornings that arrive slowly. A house that asks very little of you, and gives a great deal back.",
+  },
+  {
+    id: "noble-emmerse",
+    title: "Noble Emmerse",
+    location: "Thonglor",
+    place: "Bangkok",
+    price: "$1,150,000",
+    badge: "For Sale",
+    beds: 2, baths: 2, area: "96 m²",
+    image: `${IMG}/noble-emmerse-exterior.jpg`,
+    gallery: [
+      `${IMG}/noble-emmerse-exterior.jpg`,
+      `${IMG}/noble-emmerse-sky-lounge.jpg`,
+      `${IMG}/noble-emmerse-lobby.jpg`,
+      `${IMG}/noble-emmerse-bathroom.jpg`,
+    ],
+    blurb:
+      "A pied-à-terre in the heart of Thonglor — for the chapters of your life that happen in the city. Sky lounge, lift-lobby arrival, and the kind of address that simply works.",
+  },
+  {
+    id: "shankara",
+    title: "Shankara Residence",
+    location: "Layan",
+    place: "Phuket",
+    price: "$2,980,000",
+    badge: "For Sale",
+    beds: 4, baths: 5, area: "560 m²",
+    image: `${IMG}/shankara-hero.jpg`,
+    gallery: [
+      `${IMG}/shankara-hero.jpg`,
+      `${IMG}/c-ocean.jpg`,
+      `${IMG}/sand-water.jpg`,
+      `${IMG}/poolside.png`,
+    ],
+    blurb:
+      "Minutes from Layan's quiet sand, a residence built for the long stay — generous, sunlit, and arranged so the outside is never more than a step away.",
+  },
+  {
+    id: "five-islands-land",
+    title: "Five Islands Land",
+    location: "Taling Ngam",
+    place: "Samui",
+    price: "$1,400,000",
+    badge: "Land",
+    beds: null, baths: null, area: "2 rai",
+    image: `${IMG}/c-deck-sea.jpg`,
+    gallery: [
+      `${IMG}/c-deck-sea.jpg`,
+      `${IMG}/ocean-dark.jpg`,
+      `${IMG}/water-ripple.jpg`,
+      `${IMG}/cheers-sky.jpg`,
+    ],
+    blurb:
+      "Two rai of west-facing hillside above the Five Islands, with chanote title and the most generous sunsets on Samui. A rare canvas for the home you have always drawn in your mind.",
+  },
+];
+
+const DESTINATIONS = [
+  { place: "Koh Samui", note: "Primary market — villas, land & investment", img: `${IMG}/samui-card.jpg` },
+  { place: "Phuket",    note: "Beachfront residences & estates",            img: `${IMG}/phuket-card.jpg` },
+  { place: "Bangkok",   note: "City condominiums in the best addresses",    img: `${IMG}/noble-emmerse-exterior-street.jpg` },
+  { place: "Bali",      note: "Lifestyle villas & rentals",                 img: `${IMG}/bali-card.jpg` },
+  { place: "Dubai",     note: "Branded residences & yield",                 img: `${IMG}/ocean-dark.jpg` },
+];
+
+const PILLARS = [
+  { n: "01", t: "Lifestyle First", d: "We sell a way of living before we sell a building. The home is the means; the life is the point." },
+  { n: "02", t: "Numbers That Work", d: "We will never advise you to buy a deal that does not perform. Yield and appreciation, told plainly." },
+  { n: "03", t: "Local Expertise", d: "On the ground in Samui, Phuket and Bangkok — title, planning and the things the listings never say." },
+  { n: "04", t: "Trust & Relationships", d: "Most of our clients arrive through someone we have helped before. We intend to keep it that way." },
+];
+
+const RENTALS = [
+  { t: "Koh Samui", img: `${IMG}/c-villa-pool.jpg` },
+  { t: "Phuket",    img: `${IMG}/poolside.png` },
+  { t: "Bali",      img: `${IMG}/belief-jungle-pool.jpg` },
+  { t: "Lombok",    img: `${IMG}/sand-water.jpg` },
+];
+
+/* ===========================================================================
+   Small helpers
+   =========================================================================== */
+
+/* Scroll-reveal wrapper — fades + lifts children into view, once. */
+function Reveal({ children, as: Tag = "div", delay = 0, style, ...rest }) {
+  const ref = useRef(null);
+  const [seen, setSeen] = useState(false);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const io = new IntersectionObserver(
+      (entries) => entries.forEach((e) => { if (e.isIntersecting) { setSeen(true); io.disconnect(); } }),
+      { threshold: 0.14 }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
+  return (
+    <Tag ref={ref} className={`reveal ${seen ? "is-in" : ""}`}
+         style={{ transitionDelay: `${delay}ms`, ...style }} {...rest}>
+      {children}
+    </Tag>
+  );
+}
+
+/* The bottom capsule — the elsewhere.living pill. */
+function Pill({ children = "elsewhere.living", onDark = false, style }) {
+  return (
+    <span className="ew-pill"
+      style={{ color: onDark ? "var(--white)" : "var(--navy)", ...style }}>
+      {children}
+    </span>
+  );
+}
+
+const SectionEyebrow = ({ children, onDark }) => (
+  <Label style={{ color: onDark ? "var(--text-on-dark-mut)" : "var(--slate)", letterSpacing: "0.04em" }}>
+    {children}
+  </Label>
+);
+
+const Shell = ({ children, style }) => (
+  <div style={{ maxWidth: "var(--content-max)", margin: "0 auto", padding: "0 28px", ...style }}>
+    {children}
+  </div>
+);
+
+const Rule = ({ onDark, style }) => (
+  <div style={{ height: 1, background: onDark ? "var(--border-on-dark)" : "var(--border-subtle)", ...style }} />
+);
+
+/* ===========================================================================
+   Navigation
+   =========================================================================== */
+
+function Nav({ route, go, solid }) {
+  const onDark = !solid;
+  const fg = onDark ? "var(--white)" : "var(--navy)";
+  const links = [
+    ["For Sale", { name: "listings" }],
+    ["Rentals", { name: "home", hash: "rentals" }],
+    ["Custom Homes", { name: "home", hash: "custom" }],
+    ["About", { name: "home", hash: "story" }],
+  ];
+  return (
+    <header style={{
+      position: "fixed", top: 0, left: 0, right: 0, zIndex: 100,
+      transition: "background var(--dur-slow) var(--ease-out), border-color var(--dur-slow) var(--ease-out)",
+      background: solid ? "rgba(239,239,239,0.92)" : "transparent",
+      backdropFilter: solid ? "saturate(1.1) blur(8px)" : "none",
+      borderBottom: `1px solid ${solid ? "var(--border-subtle)" : "transparent"}`,
+    }}>
+      <Shell style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: 78 }}>
+        <a onClick={() => go({ name: "home" })} style={{ cursor: "pointer" }} aria-label="Elsewhere Living — home">
+          <Wordmark size={30} color={fg} />
+        </a>
+        <nav className="ew-nav-links" style={{ display: "flex", alignItems: "center", gap: 34 }}>
+          {links.map(([label, target]) => (
+            <a key={label} className="ew-navlink" onClick={() => go(target)}
+               aria-current={route.name === target.name && !target.hash ? "true" : undefined}
+               style={{ cursor: "pointer", color: fg, fontFamily: "var(--font-sans)", fontWeight: 400,
+                        fontSize: 12, letterSpacing: "0.14em", textTransform: "uppercase" }}>
+              {label}
+            </a>
+          ))}
+          <a onClick={() => go({ name: "home", hash: "contact" })} style={{ cursor: "pointer", color: fg }}>
+            <Pill onDark={onDark} style={{ fontSize: 11, padding: "0.6em 1.3em" }}>Enquire</Pill>
+          </a>
+        </nav>
+      </Shell>
+    </header>
+  );
+}
+
+/* ===========================================================================
+   Homepage sections
+   =========================================================================== */
+
+function Hero({ go }) {
+  return (
+    <section className="ew-scrim ew-grain" style={{ position: "relative", height: "100vh", minHeight: 620, overflow: "hidden" }}>
+      <img className="ew-kenburns" src={`${IMG}/hero-banner.jpg`} alt="A villa above the sea at dusk"
+           style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} />
+      <div style={{
+        position: "absolute", inset: 0, zIndex: 1, display: "flex", flexDirection: "column",
+        alignItems: "center", justifyContent: "center", textAlign: "center", padding: "0 24px",
+      }}>
+        <Reveal delay={120}>
+          <SectionEyebrow onDark>Find Your Elsewhere</SectionEyebrow>
+        </Reveal>
+        <Reveal delay={260}>
+          <h1 className="ew-display" style={{ color: "var(--white)", maxWidth: 16 + "ch", margin: "22px 0 0" }}>
+            Live beyond home.
+          </h1>
+        </Reveal>
+        <Reveal delay={420}>
+          <p className="ew-lead" style={{ color: "var(--text-on-dark)", opacity: 0.9, maxWidth: 540, margin: "26px auto 0" }}>
+            Extraordinary villas, condominiums and land across Koh Samui, Phuket,
+            Bangkok, Bali and Dubai — and the life that comes with them.
+          </p>
+        </Reveal>
+        <Reveal delay={560} style={{ marginTop: 38, display: "flex", gap: 16, flexWrap: "wrap", justifyContent: "center" }}>
+          <Button variant="accent" shape="pill" size="lg" as="a"
+                  onClick={() => go({ name: "listings" })} style={{ cursor: "pointer" }}>
+            View Properties
+          </Button>
+          <Button variant="outline-light" shape="pill" size="lg" as="a"
+                  onClick={() => go({ name: "home", hash: "contact" })} style={{ cursor: "pointer" }}>
+            Speak With Us
+          </Button>
+        </Reveal>
+      </div>
+      <div className="ew-scroll-hint" style={{
+        position: "absolute", bottom: 30, left: 0, right: 0, zIndex: 1, textAlign: "center",
+        color: "var(--white)", fontFamily: "var(--font-sans)", fontSize: 10, letterSpacing: "0.3em", textTransform: "uppercase",
+      }}>
+        Scroll
+      </div>
+    </section>
+  );
+}
+
+function Proposition() {
+  return (
+    <section style={{ background: "var(--paper)", padding: "var(--section-y) 0" }}>
+      <Shell style={{ maxWidth: 880, textAlign: "center" }}>
+        <Reveal><SectionEyebrow>Our Belief</SectionEyebrow></Reveal>
+        <Reveal delay={120}>
+          <h2 className="ew-h1" style={{ color: "var(--navy)", margin: "26px 0 0" }}>
+            Most people buy property.<br />We believe in buying possibilities.
+          </h2>
+        </Reveal>
+        <Reveal delay={240}>
+          <p className="ew-lead" style={{ color: "var(--text-body)", maxWidth: 600, margin: "30px auto 0" }}>
+            Our clients are global citizens who understand that true wealth isn't
+            only financial — it's a place that restores you, a life that feels truly
+            elsewhere. We help you find it, own it, and live in it well.
+          </p>
+        </Reveal>
+      </Shell>
+    </section>
+  );
+}
+
+function Destinations({ go }) {
+  const [hover, setHover] = useState(DESTINATIONS[0]);
+  return (
+    <section style={{ background: "var(--white)", borderTop: "1px solid var(--border-subtle)", padding: "var(--section-y) 0" }}>
+      <Shell>
+        <div data-grid="split" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 56, alignItems: "center" }}>
+          <div>
+            <Reveal><SectionEyebrow>Where We Work</SectionEyebrow></Reveal>
+            <Reveal delay={100}>
+              <h2 className="ew-h2" style={{ color: "var(--navy)", margin: "20px 0 8px" }}>
+                Five corners of the world,<br />one standard.
+              </h2>
+            </Reveal>
+            <Reveal delay={160} style={{ marginTop: 24 }}>
+              <Rule />
+              {DESTINATIONS.map((d) => (
+                <div key={d.place}>
+                  <div className="ew-dest-row" onMouseEnter={() => setHover(d)}
+                       onClick={() => go({ name: "listings" })}
+                       style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between",
+                                gap: 16, padding: "20px 0", cursor: "pointer" }}>
+                    <div>
+                      <span className="ew-place" style={{ font: "var(--w-light) 30px/1 var(--font-serif)", color: "var(--navy)" }}>
+                        ( {d.place} )
+                      </span>
+                      <div style={{ fontFamily: "var(--font-sans)", fontSize: 12.5, letterSpacing: "0.04em",
+                                    color: "var(--slate)", marginTop: 8 }}>{d.note}</div>
+                    </div>
+                    <span className="ew-dest-arrow" style={{ color: "var(--navy)", fontSize: 22 }}>→</span>
+                  </div>
+                  <Rule />
+                </div>
+              ))}
+            </Reveal>
+          </div>
+          <Reveal delay={200} className="ew-grain" style={{ position: "relative", aspectRatio: "4 / 5", overflow: "hidden",
+                   boxShadow: "var(--shadow-photo)" }}>
+            {DESTINATIONS.map((d) => (
+              <img key={d.place} src={d.img} alt={d.place}
+                   style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover",
+                            opacity: hover.place === d.place ? 1 : 0,
+                            transition: "opacity var(--dur-slow) var(--ease-out)" }} />
+            ))}
+            <div style={{ position: "absolute", left: 22, bottom: 20, zIndex: 1 }}>
+              <Pill onDark>{hover.place}</Pill>
+            </div>
+          </Reveal>
+        </div>
+      </Shell>
+    </section>
+  );
+}
+
+function Featured({ go }) {
+  return (
+    <section id="listings" style={{ background: "var(--paper)", padding: "var(--section-y) 0" }}>
+      <Shell>
+        <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: 24, flexWrap: "wrap" }}>
+          <div>
+            <Reveal><SectionEyebrow>Selected Listings</SectionEyebrow></Reveal>
+            <Reveal delay={100}>
+              <h2 className="ew-h2" style={{ color: "var(--navy)", margin: "18px 0 0" }}>
+                A few of our favourite places.
+              </h2>
+            </Reveal>
+          </div>
+          <Reveal delay={140}>
+            <a className="ew-textlink" onClick={() => go({ name: "listings" })}
+               style={{ cursor: "pointer", color: "var(--navy)", fontFamily: "var(--font-sans)",
+                        fontSize: 12, letterSpacing: "0.14em", textTransform: "uppercase" }}>
+              View all properties →
+            </a>
+          </Reveal>
+        </div>
+        <div data-grid="cards" style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 26, marginTop: 44 }}>
+          {LISTINGS.slice(0, 6).map((l, i) => (
+            <Reveal key={l.id} delay={(i % 3) * 90}>
+              <div className="ew-card-link" onClick={() => go({ name: "property", id: l.id })}>
+                <PropertyCard image={l.image} title={l.title}
+                  location={`${l.location} · ( ${l.place} )`} price={l.price}
+                  badge={l.badge} beds={l.beds} baths={l.baths} area={l.area} />
+              </div>
+            </Reveal>
+          ))}
+        </div>
+      </Shell>
+    </section>
+  );
+}
+
+function Pillars() {
+  return (
+    <section id="story" className="ew-grain" style={{ background: "var(--navy)", padding: "var(--section-y) 0" }}>
+      <Shell>
+        <div style={{ textAlign: "center", maxWidth: 720, margin: "0 auto" }}>
+          <Reveal><SectionEyebrow onDark>Why Work With Us</SectionEyebrow></Reveal>
+          <Reveal delay={120}>
+            <h2 className="ew-h2" style={{ color: "var(--white)", margin: "22px 0 0" }}>
+              Quietly, the boutique way.
+            </h2>
+          </Reveal>
+        </div>
+        <div data-grid="pillars" style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 0, marginTop: 56 }}>
+          {PILLARS.map((p, i) => (
+            <Reveal key={p.n} delay={i * 90}
+              style={{ padding: "0 28px", borderLeft: i === 0 ? "none" : "1px solid var(--border-on-dark)" }}>
+              <div style={{ fontFamily: "var(--font-accent)", fontSize: 13, letterSpacing: "0.2em", color: "var(--butter)" }}>
+                [ {p.n} ]
+              </div>
+              <h3 style={{ font: "var(--w-light) 24px/1.15 var(--font-serif)", color: "var(--white)", margin: "16px 0 12px" }}>
+                {p.t}
+              </h3>
+              <p style={{ font: "var(--type-body)", color: "var(--text-on-dark-mut)" }}>{p.d}</p>
+            </Reveal>
+          ))}
+        </div>
+      </Shell>
+    </section>
+  );
+}
+
+function CustomHomes({ go }) {
+  return (
+    <section id="custom" style={{ background: "var(--paper)", padding: "var(--section-y) 0" }}>
+      <Shell>
+        <div data-grid="split" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 56, alignItems: "center" }}>
+          <Reveal className="ew-grain" style={{ position: "relative", aspectRatio: "5 / 4", overflow: "hidden", boxShadow: "var(--shadow-photo)" }}>
+            <img src={`${IMG}/custom-cta-render.jpg`} alt="A bespoke home, rendered"
+                 style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+          </Reveal>
+          <div>
+            <Reveal><SectionEyebrow>Custom Homes</SectionEyebrow></Reveal>
+            <Reveal delay={100}>
+              <h2 className="ew-h2" style={{ color: "var(--navy)", margin: "20px 0 0" }}>
+                When nothing on the market is quite it.
+              </h2>
+            </Reveal>
+            <Reveal delay={180}>
+              <p className="ew-lead" style={{ color: "var(--text-body)", maxWidth: "var(--measure)", margin: "24px 0 0" }}>
+                We design and build bespoke villas with a trusted circle of architects
+                and contractors — from a hillside plot and a feeling, to keys in your hand.
+                One partner, start to finish.
+              </p>
+            </Reveal>
+            <Reveal delay={260} style={{ marginTop: 34 }}>
+              <Button variant="solid" shape="pill" size="md" as="a"
+                      onClick={() => go({ name: "home", hash: "contact" })} style={{ cursor: "pointer" }}>
+                Start a Project
+              </Button>
+            </Reveal>
+          </div>
+        </div>
+      </Shell>
+    </section>
+  );
+}
+
+function Rentals() {
+  return (
+    <section id="rentals" style={{ background: "var(--white)", borderTop: "1px solid var(--border-subtle)", padding: "var(--section-y) 0" }}>
+      <Shell>
+        <div style={{ textAlign: "center", maxWidth: 640, margin: "0 auto" }}>
+          <Reveal><SectionEyebrow>Luxury Rentals</SectionEyebrow></Reveal>
+          <Reveal delay={100}>
+            <h2 className="ew-h2" style={{ color: "var(--navy)", margin: "20px 0 0" }}>
+              Try the life on for a season.
+            </h2>
+          </Reveal>
+        </div>
+        <div data-grid="rentals" style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 18, marginTop: 44 }}>
+          {RENTALS.map((r, i) => (
+            <Reveal key={r.t} delay={i * 80}>
+              <div className="ew-rent-tile ew-grain" style={{ position: "relative", aspectRatio: "3 / 4", overflow: "hidden", cursor: "pointer" }}>
+                <img src={r.img} alt={r.t} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                <div className="ew-scrim" style={{ position: "absolute", inset: 0 }} />
+                <div style={{ position: "absolute", left: 0, right: 0, bottom: 18, textAlign: "center", zIndex: 1 }}>
+                  <span className="ew-place" style={{ font: "var(--w-light) 24px/1 var(--font-serif)", color: "var(--white)" }}>
+                    ( {r.t} )
+                  </span>
+                </div>
+              </div>
+            </Reveal>
+          ))}
+        </div>
+      </Shell>
+    </section>
+  );
+}
+
+function Testimonial() {
+  return (
+    <section className="ew-grain" style={{ position: "relative", padding: "var(--section-y) 0", overflow: "hidden" }}>
+      <img src={`${IMG}/c-ocean.jpg`} alt="" aria-hidden="true"
+           style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} />
+      <div className="ew-scrim" style={{ position: "absolute", inset: 0 }} />
+      <Shell style={{ position: "relative", zIndex: 1, maxWidth: 820, textAlign: "center" }}>
+        <Reveal><SectionEyebrow onDark>Testimonial</SectionEyebrow></Reveal>
+        <Reveal delay={120}>
+          <p style={{ font: "var(--w-light) clamp(1.7rem, 3.2vw, 2.6rem)/1.3 var(--font-serif)",
+                      color: "var(--white)", letterSpacing: "-0.01em", margin: "26px 0 0" }}>
+            “They never once tried to sell us. They listened, told us the truth about
+            two deals we loved — and then found the one we didn't know to ask for.”
+          </p>
+        </Reveal>
+        <Reveal delay={240}>
+          <div style={{ marginTop: 28, color: "var(--text-on-dark-mut)", fontFamily: "var(--font-sans)",
+                        fontSize: 12, letterSpacing: "0.18em", textTransform: "uppercase" }}>
+            -- Erik · Stockholm &amp; Koh Samui
+          </div>
+        </Reveal>
+      </Shell>
+    </section>
+  );
+}
+
+function ContactSection() {
+  return <ContactForm anchored />;
+}
+
+/* ===========================================================================
+   Contact / enquiry form — underline-only Field components on navy
+   =========================================================================== */
+
+function ContactForm({ anchored }) {
+  const [sent, setSent] = useState(false);
+  const submit = (e) => { e.preventDefault(); setSent(true); };
+  return (
+    <section id="contact" style={{ background: "var(--navy)", padding: "var(--section-y) 0" }}>
+      <Shell>
+        <div data-grid="split" style={{ display: "grid", gridTemplateColumns: "0.9fr 1.1fr", gap: 64 }}>
+          <div>
+            <Reveal><SectionEyebrow onDark>Enquire</SectionEyebrow></Reveal>
+            <Reveal delay={100}>
+              <h2 className="ew-h2" style={{ color: "var(--white)", margin: "20px 0 0" }}>
+                Your next chapter begins elsewhere.
+              </h2>
+            </Reveal>
+            <Reveal delay={180}>
+              <p className="ew-lead" style={{ color: "var(--text-on-dark-mut)", maxWidth: 380, margin: "22px 0 0" }}>
+                Tell us a little about what you're looking for. We reply personally,
+                usually within a day.
+              </p>
+            </Reveal>
+            <Reveal delay={260} style={{ marginTop: 40, display: "grid", gap: 18 }}>
+              {[["Email", "elsewhere.living@gmail.com"], ["WhatsApp", "+66 92 999 3852"], ["Instagram", "elsewhere.living"]].map(([k, v]) => (
+                <div key={k}>
+                  <div style={{ fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.18em",
+                                textTransform: "uppercase", color: "var(--text-on-dark-mut)" }}>[ {k} ]</div>
+                  <div style={{ color: "var(--white)", fontSize: 16, marginTop: 5 }}>{v}</div>
+                </div>
+              ))}
+            </Reveal>
+          </div>
+
+          <Reveal delay={160} className="ew-field-focus"
+            style={{ border: "1px solid var(--border-on-dark)", padding: "38px 36px", background: "var(--navy-80)" }}>
+            {sent ? (
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 14, padding: "30px 0" }}>
+                <span className="ew-place" style={{ font: "var(--w-light) 34px/1.1 var(--font-serif)", color: "var(--white)" }}>
+                  Thank you.
+                </span>
+                <p style={{ color: "var(--text-on-dark-mut)", maxWidth: 360 }}>
+                  Your message is with us. We'll be in touch shortly — in the meantime,
+                  welcome to elsewhere.
+                </p>
+                <Button variant="outline-light" shape="pill" size="sm" onClick={() => setSent(false)} type="button">
+                  Send another
+                </Button>
+              </div>
+            ) : (
+              <form onSubmit={submit} style={{ display: "grid", gap: 22 }}>
+                <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 22 }}>
+                  <Field tone="dark" label="First name" placeholder="Jane" required />
+                  <Field tone="dark" label="Last name" placeholder="Doe" required />
+                </div>
+                <Field tone="dark" label="Email" type="email" placeholder="you@email.com" required />
+                <Field tone="dark" label="Destination of interest" placeholder="Koh Samui · Phuket · Bangkok …" />
+                <Field tone="dark" as="textarea" label="What are you looking for?"
+                       placeholder="A seaview villa for the family, somewhere to slow down…" />
+                <div style={{ marginTop: 8 }}>
+                  <Button variant="accent" shape="pill" size="md" type="submit" style={{ width: "100%" }}>
+                    Send Enquiry
+                  </Button>
+                </div>
+              </form>
+            )}
+          </Reveal>
+        </div>
+      </Shell>
+    </section>
+  );
+}
+
+/* ===========================================================================
+   Footer
+   =========================================================================== */
+
+function Footer({ go }) {
+  return (
+    <footer style={{ background: "var(--ink-black)", color: "var(--white)", padding: "72px 0 40px" }}>
+      <Shell>
+        <div data-grid="split" style={{ display: "grid", gridTemplateColumns: "1.4fr 1fr 1fr", gap: 40, alignItems: "start" }}>
+          <div>
+            <Wordmark size={34} color="var(--white)" />
+            <p style={{ color: "rgba(255,255,255,0.6)", maxWidth: 320, marginTop: 20, font: "var(--type-body)" }}>
+              Luxury living beyond borders. Boutique real estate, custom homes and
+              vacation rentals across Asia and the Gulf.
+            </p>
+            <div style={{ marginTop: 26 }}><Pill onDark>elsewhere.living</Pill></div>
+          </div>
+          {[
+            ["Explore", [["For Sale", { name: "listings" }], ["Rentals", { name: "home", hash: "rentals" }], ["Custom Homes", { name: "home", hash: "custom" }]]],
+            ["Markets", [["Koh Samui", { name: "listings" }], ["Phuket", { name: "listings" }], ["Bangkok", { name: "listings" }], ["Bali", { name: "listings" }]]],
+          ].map(([title, items]) => (
+            <div key={title}>
+              <div style={{ fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.18em",
+                            textTransform: "uppercase", color: "rgba(255,255,255,0.5)" }}>[ {title} ]</div>
+              <div style={{ display: "grid", gap: 12, marginTop: 18 }}>
+                {items.map(([label, target]) => (
+                  <a key={label} className="ew-textlink" onClick={() => go(target)}
+                     style={{ cursor: "pointer", color: "rgba(255,255,255,0.82)", fontSize: 14, width: "fit-content" }}>
+                    {label}
+                  </a>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+        <Rule onDark style={{ margin: "44px 0 18px", opacity: 0.4 }} />
+        <div style={{ display: "flex", justifyContent: "space-between", flexWrap: "wrap", gap: 12,
+                      color: "rgba(255,255,255,0.45)", fontSize: 11, letterSpacing: "0.04em" }}>
+          <span>© 2026 Elsewhere Living. Find Your Elsewhere.</span>
+          <span>elsewhere.living@gmail.com · +66 92 999 3852</span>
+        </div>
+      </Shell>
+    </footer>
+  );
+}
+
+/* ===========================================================================
+   Screens — Listings index & Property detail
+   =========================================================================== */
+
+function ListingsScreen({ go }) {
+  const [filter, setFilter] = useState("All");
+  const tabs = ["All", "Samui", "Phuket", "Bangkok"];
+  const shown = filter === "All" ? LISTINGS : LISTINGS.filter((l) => l.place === filter);
+  return (
+    <main>
+      <section className="ew-scrim ew-grain" style={{ position: "relative", height: 460, overflow: "hidden" }}>
+        <img src={`${IMG}/ocean-dark.jpg`} alt="" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }} />
+        <Shell style={{ position: "relative", zIndex: 1, height: "100%", display: "flex", flexDirection: "column", justifyContent: "flex-end", paddingBottom: 56 }}>
+          <SectionEyebrow onDark>For Sale</SectionEyebrow>
+          <h1 className="ew-h1" style={{ color: "var(--white)", margin: "16px 0 0" }}>Properties</h1>
+          <p className="ew-lead" style={{ color: "var(--text-on-dark-mut)", maxWidth: 480, marginTop: 14 }}>
+            Villas, condominiums and land — chosen because they perform, and because
+            they make a life worth living.
+          </p>
+        </Shell>
+      </section>
+
+      <section style={{ background: "var(--paper)", padding: "48px 0 var(--section-y)" }}>
+        <Shell>
+          <div style={{ display: "flex", gap: 26, borderBottom: "1px solid var(--border-subtle)", paddingBottom: 18, marginBottom: 44 }}>
+            {tabs.map((t) => (
+              <button key={t} onClick={() => setFilter(t)}
+                style={{ background: "none", border: "none", cursor: "pointer", padding: "4px 0",
+                         fontFamily: "var(--font-sans)", fontSize: 12, letterSpacing: "0.14em", textTransform: "uppercase",
+                         color: filter === t ? "var(--navy)" : "var(--slate)",
+                         borderBottom: filter === t ? "1px solid var(--navy)" : "1px solid transparent" }}>
+                {t === "All" ? "All" : `( ${t} )`}
+              </button>
+            ))}
+            <span style={{ marginLeft: "auto", color: "var(--slate)", fontFamily: "var(--font-sans)", fontSize: 12, letterSpacing: "0.06em" }}>
+              {shown.length} {shown.length === 1 ? "property" : "properties"}
+            </span>
+          </div>
+          <div data-grid="cards" style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 26 }}>
+            {shown.map((l, i) => (
+              <Reveal key={l.id} delay={(i % 3) * 80}>
+                <div className="ew-card-link" onClick={() => go({ name: "property", id: l.id })}>
+                  <PropertyCard image={l.image} title={l.title}
+                    location={`${l.location} · ( ${l.place} )`} price={l.price}
+                    badge={l.badge} beds={l.beds} baths={l.baths} area={l.area} />
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </Shell>
+      </section>
+    </main>
+  );
+}
+
+function PropertyScreen({ id, go }) {
+  const l = LISTINGS.find((x) => x.id === id) || LISTINGS[0];
+  const [active, setActive] = useState(0);
+  useEffect(() => { setActive(0); window.scrollTo(0, 0); }, [id]);
+  const facts = [
+    l.beds != null && [String(l.beds), "Bedrooms"],
+    l.baths != null && [String(l.baths), "Bathrooms"],
+    l.area && [l.area, "Living area"],
+    ["Freehold", "Tenure"],
+  ].filter(Boolean);
+
+  return (
+    <main style={{ background: "var(--paper)" }}>
+      {/* Gallery */}
+      <section className="ew-grain" style={{ position: "relative", height: "72vh", minHeight: 480, overflow: "hidden", background: "var(--ink-black)" }}>
+        {l.gallery.map((src, i) => (
+          <img key={src} src={src} alt={`${l.title} — view ${i + 1}`}
+               style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover",
+                        opacity: i === active ? 1 : 0, transition: "opacity var(--dur-slow) var(--ease-out)" }} />
+        ))}
+        <div className="ew-scrim" style={{ position: "absolute", inset: 0 }} />
+        <Shell style={{ position: "relative", zIndex: 1, height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between", paddingTop: 100, paddingBottom: 24 }}>
+          <a className="ew-textlink" onClick={() => go({ name: "listings" })}
+             style={{ cursor: "pointer", color: "var(--white)", fontFamily: "var(--font-sans)", fontSize: 12, letterSpacing: "0.14em", textTransform: "uppercase", width: "fit-content" }}>
+            ← All properties
+          </a>
+          <div style={{ display: "flex", gap: 10 }}>
+            {l.gallery.map((src, i) => (
+              <button key={src} className="ew-gallery-thumb" aria-current={i === active ? "true" : undefined}
+                onClick={() => setActive(i)}
+                style={{ width: 76, height: 54, padding: 0, border: i === active ? "1.5px solid var(--white)" : "1px solid var(--border-on-dark)",
+                         background: `url(${src}) center/cover`, borderRadius: 0 }} aria-label={`View ${i + 1}`} />
+            ))}
+          </div>
+        </Shell>
+      </section>
+
+      {/* Detail */}
+      <section style={{ padding: "var(--section-y) 0" }}>
+        <Shell>
+          <div data-grid="split" style={{ display: "grid", gridTemplateColumns: "1.4fr 1fr", gap: 64, alignItems: "start" }}>
+            <div>
+              <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+                <Badge tone="navy">{l.badge}</Badge>
+                <span style={{ fontFamily: "var(--font-sans)", fontSize: 11, letterSpacing: "0.18em", textTransform: "uppercase", color: "var(--slate)" }}>
+                  {l.location}
+                </span>
+              </div>
+              <h1 className="ew-h1" style={{ color: "var(--navy)", margin: "16px 0 0" }}>
+                {l.title} <span className="ew-place" style={{ color: "var(--slate)", fontSize: "0.5em" }}>( {l.place} )</span>
+              </h1>
+              <p className="ew-lead" style={{ color: "var(--text-body)", maxWidth: "var(--measure)", margin: "26px 0 0" }}>
+                {l.blurb}
+              </p>
+
+              <div style={{ display: "grid", gridTemplateColumns: `repeat(${facts.length}, 1fr)`, gap: 0, margin: "44px 0 0",
+                            borderTop: "1px solid var(--border-subtle)", borderBottom: "1px solid var(--border-subtle)" }}>
+                {facts.map(([v, k], i) => (
+                  <div key={k} style={{ padding: "24px 18px", borderLeft: i === 0 ? "none" : "1px solid var(--border-subtle)" }}>
+                    <div style={{ font: "var(--w-light) 30px/1 var(--font-serif)", color: "var(--navy)" }}>{v}</div>
+                    <div style={{ fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.16em", textTransform: "uppercase", color: "var(--slate)", marginTop: 10 }}>{k}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Sticky enquiry rail */}
+            <aside style={{ position: "sticky", top: 100, border: "1px solid var(--border-on-light)", background: "var(--white)", padding: "30px 28px" }}>
+              <div style={{ fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.18em", textTransform: "uppercase", color: "var(--slate)" }}>
+                [ Guide Price ]
+              </div>
+              <div style={{ font: "var(--w-light) 40px/1 var(--font-serif)", color: "var(--navy)", margin: "12px 0 4px" }}>
+                {l.price}
+              </div>
+              <Rule style={{ margin: "22px 0" }} />
+              <p style={{ font: "var(--type-body)", color: "var(--text-body)", marginBottom: 22 }}>
+                Arrange a private viewing — in person or by video — at a time that suits you.
+              </p>
+              <Button variant="solid" shape="pill" size="md" style={{ width: "100%" }}
+                      onClick={() => go({ name: "home", hash: "contact" })}>
+                Enquire
+              </Button>
+              <Button variant="outline" shape="pill" size="md" style={{ width: "100%", marginTop: 12 }}
+                      onClick={() => go({ name: "home", hash: "contact" })}>
+                Book a Viewing
+              </Button>
+            </aside>
+          </div>
+        </Shell>
+      </section>
+
+      {/* More to explore */}
+      <section style={{ background: "var(--white)", borderTop: "1px solid var(--border-subtle)", padding: "var(--section-y) 0" }}>
+        <Shell>
+          <SectionEyebrow>You May Also Like</SectionEyebrow>
+          <div data-grid="cards" style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 26, marginTop: 30 }}>
+            {LISTINGS.filter((x) => x.id !== l.id).slice(0, 3).map((o) => (
+              <div key={o.id} className="ew-card-link" onClick={() => go({ name: "property", id: o.id })}>
+                <PropertyCard image={o.image} title={o.title}
+                  location={`${o.location} · ( ${o.place} )`} price={o.price}
+                  badge={o.badge} beds={o.beds} baths={o.baths} area={o.area} />
+              </div>
+            ))}
+          </div>
+        </Shell>
+      </section>
+    </main>
+  );
+}
+
+function Home({ go }) {
+  return (
+    <main>
+      <Hero go={go} />
+      <Proposition />
+      <Destinations go={go} />
+      <Featured go={go} />
+      <Pillars />
+      <CustomHomes go={go} />
+      <Rentals />
+      <Testimonial />
+      <ContactSection />
+    </main>
+  );
+}
+
+/* ===========================================================================
+   App shell — tiny state router + scroll-aware nav + hash scrolling
+   =========================================================================== */
+
+function App() {
+  const [route, setRoute] = useState({ name: "home" });
+  const [scrolled, setScrolled] = useState(false);
+
+  const go = useCallback((target) => {
+    const next = { name: target.name, id: target.id };
+    setRoute(next);
+    if (target.hash) {
+      // let the target screen mount, then scroll to the section
+      requestAnimationFrame(() => requestAnimationFrame(() => {
+        const el = document.getElementById(target.hash);
+        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+        else window.scrollTo({ top: 0 });
+      }));
+    } else {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }, []);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 80);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  // Nav is solid (paper) except over a dark full-bleed top (home hero / screen heroes)
+  const overDarkTop = (route.name === "home" || route.name === "listings" || route.name === "property") && !scrolled;
+  const solidNav = route.name === "property" ? true : !overDarkTop;
+
+  return (
+    <>
+      <Nav route={route} go={go} solid={route.name === "property" ? scrolled : !overDarkTop} />
+      {route.name === "home" && <Home go={go} />}
+      {route.name === "listings" && <ListingsScreen go={go} />}
+      {route.name === "property" && <PropertyScreen id={route.id} go={go} />}
+      <Footer go={go} />
+    </>
+  );
+}
+
+/* Surface any design-system bundle load errors visibly rather than failing silently. */
+if (!Wordmark || !PropertyCard) {
+  document.getElementById("root").innerHTML =
+    '<div style="font-family:sans-serif;padding:40px;color:#152644">' +
+    'Design system bundle did not load. Serve this file from the site root so ' +
+    '<code>/_ds/design-system-abef38a9-b4ec-454e-999b-5c22fa6c925a/_ds_bundle.js</code> resolves.' +
+    '</div>';
+} else {
+  ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+}
+</script>
+</body>
+</html>

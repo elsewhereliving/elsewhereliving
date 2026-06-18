@@ -1,0 +1,93 @@
+{
+  "id": "kamala-headland-waterfall-sunset-villa",
+  "image": "/assets/listings/kamala-headland-waterfall-sunset-villa/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/kamala-headland-waterfall-sunset-villa/ext-001.jpg",
+    "/assets/listings/kamala-headland-waterfall-sunset-villa/ext-002.jpg",
+    "/assets/listings/kamala-headland-waterfall-sunset-villa/ext-003.jpg",
+    "/assets/listings/kamala-headland-waterfall-sunset-villa/ext-004.jpg",
+    "/assets/listings/kamala-headland-waterfall-sunset-villa/ext-005.jpg",
+    "/assets/listings/kamala-headland-waterfall-sunset-villa/ext-006.jpg",
+    "/assets/listings/kamala-headland-waterfall-sunset-villa/ext-007.jpg",
+    "/assets/listings/kamala-headland-waterfall-sunset-villa/ext-008.jpg",
+    "/assets/listings/kamala-headland-waterfall-sunset-villa/ext-009.jpg",
+    "/assets/listings/kamala-headland-waterfall-sunset-villa/ext-010.jpg",
+    "/assets/listings/kamala-headland-waterfall-sunset-villa/ext-011.jpg",
+    "/assets/listings/kamala-headland-waterfall-sunset-villa/ext-012.jpg",
+    "/assets/listings/kamala-headland-waterfall-sunset-villa/ext-013.jpg",
+    "/assets/listings/kamala-headland-waterfall-sunset-villa/ext-014.jpg"
+  ],
+  "location": "Kamala · Phuket · Thailand",
+  "place": "Millionaire's Mile, Kamala Headland, Kamala, Kathu District, Phuket 83150, Thailand",
+  "mapQuery": "7.9499,98.2767",
+  "market": "Phuket",
+  "title": "Waterfall-Side Sunset Villa with Infinity Pool & Private Cove, Kamala Headland",
+  "type": "Villa",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 5,
+  "baths": 7,
+  "interior": "2,500 m²",
+  "plot": "3,404 m²",
+  "year": 2023,
+  "priceNum": 14875531,
+  "price": "$14,875,531",
+  "priceOriginal": "฿490,000,000",
+  "priceCurrency": "THB",
+  "added": 1,
+  "ownership": "Freehold",
+  "blurb": "An architectural marvel on Kamala's famed Millionaire's Mile, set on a 3,404 m² sea-view plot beside a year-round waterfall, with a private pathway down to an ocean cove. Five suites, a 25-metre infinity pool with swim-up bar, private spa, two fitness rooms and a cinema — sunset views over the Andaman from every level.",
+  "detail": "An architectural marvel set among the most beautiful scenery of the Kamala headland, on Phuket's renowned Millionaire's Mile — the scenic ridge between Kamala and Kalim beaches that has drawn a collection of private villas and five-star resorts for its Andaman views, tropical calm and exceptional privacy. The villa sits within an exclusive gated community with 24-hour security on a 3,404 m² sea-view plot, adjacent to a year-round waterfall from which it takes its character, with a private pathway leading down to an ocean cove for swimming, snorkelling and diving.\n\nSpanning roughly 1,800 m² of covered space with a further 700 m² of terraces, the home is composed of five luxurious bedrooms — including a grand master suite with its own office. Floor-to-ceiling retractable glass doors on both sides of the main living volume dissolve the line between inside and out, while custom oversized bathtubs and high-end finishes define the ensuites. Craftsmanship runs through every detail: teak floors, ceilings and furniture, imported Brazilian and Italian stone, Spanish fabrics and Thai silk, and a Western show kitchen fitted with premium Italian appliances and bespoke teak joinery.\n\nThe resort-style amenities want for nothing — a 25-metre infinity pool with a swim-up bar and children's area, a terraced lawn set beside the cascading waterfall, two fully equipped fitness rooms (one for cardio and dance, one for strength training), a private spa, a cinema and media room, a separate studio and a secluded relaxation terrace. A covered poolside dining area opens to sweeping ocean views for al fresco meals.\n\nDespite its secluded, natural setting, the villa is well connected: the calm family beach at Kamala is a short drive, the nightlife and shopping of Patong within easy reach, and Surin, Bang Tao, Kathu and Karon all 15–30 minutes away. Completed in 2023 and offered Thai Freehold under NS3K title, with a backup generator and a three-car garage. Priced at ฿490,000,000 — viewings by appointment only.",
+  "features": [
+    {
+      "l": "Adjacent to a year-round waterfall",
+      "i": "waves"
+    },
+    {
+      "l": "Sunset Andaman sea views",
+      "i": "view"
+    },
+    {
+      "l": "25 m infinity pool with swim-up bar",
+      "i": "pool"
+    },
+    {
+      "l": "Five en-suite bedrooms + master office",
+      "i": "bed"
+    },
+    {
+      "l": "Private spa room",
+      "i": "sparkles"
+    },
+    {
+      "l": "Two fitness rooms — cardio & strength",
+      "i": "gym"
+    },
+    {
+      "l": "Cinema & media room",
+      "i": "music"
+    },
+    {
+      "l": "Retractable floor-to-ceiling glass",
+      "i": "home"
+    },
+    {
+      "l": "Private path to an ocean cove",
+      "i": "terrace"
+    },
+    {
+      "l": "Gated estate · 24hr security",
+      "i": "shield"
+    },
+    {
+      "l": "Three-car garage · backup generator",
+      "i": "car"
+    },
+    {
+      "l": "3,404 m² plot · ~2,500 m² build · Thai Freehold",
+      "i": "plot"
+    }
+  ]
+}

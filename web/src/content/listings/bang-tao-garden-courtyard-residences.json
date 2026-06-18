@@ -1,0 +1,90 @@
+{
+  "id": "bang-tao-garden-courtyard-residences",
+  "image": "/assets/listings/bang-tao-garden-courtyard-residences/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/bang-tao-garden-courtyard-residences/ext-001.jpg",
+    "/assets/listings/bang-tao-garden-courtyard-residences/ext-002.jpg",
+    "/assets/listings/bang-tao-garden-courtyard-residences/ext-003.jpg",
+    "/assets/listings/bang-tao-garden-courtyard-residences/ext-004.jpg",
+    "/assets/listings/bang-tao-garden-courtyard-residences/ext-005.jpg",
+    "/assets/listings/bang-tao-garden-courtyard-residences/ext-006.jpg",
+    "/assets/listings/bang-tao-garden-courtyard-residences/ext-007.jpg",
+    "/assets/listings/bang-tao-garden-courtyard-residences/ext-008.jpg",
+    "/assets/listings/bang-tao-garden-courtyard-residences/ext-009.jpg",
+    "/assets/listings/bang-tao-garden-courtyard-residences/ext-010.jpg",
+    "/assets/listings/bang-tao-garden-courtyard-residences/ext-011.jpg",
+    "/assets/listings/bang-tao-garden-courtyard-residences/ext-012.jpg"
+  ],
+  "location": "Bang Tao · Phuket · Thailand",
+  "place": "Bang Tao, Choeng Thale, Thalang District, Phuket 83110, Thailand",
+  "mapQuery": "7.9966,98.2964",
+  "market": "Phuket",
+  "title": "PEYLAA Phuket — Low-Rise Garden-Courtyard Residences with Rooftop Tennis, Bang Tao",
+  "type": "Condominium",
+  "view": "Garden / Pool View",
+  "status": "Off-Plan",
+  "beds": 1,
+  "bedsLabel": "1–3",
+  "baths": "1–3",
+  "interior": "45–129 m²",
+  "plot": null,
+  "year": "Q4 2027",
+  "priceNum": 231512,
+  "price": "From $231,512",
+  "priceOriginal": "฿7,626,000",
+  "priceCurrency": "THB",
+  "added": 2,
+  "ownership": "Freehold or Leasehold",
+  "blurb": "A low-density enclave of three low-rise buildings wrapped around a four-rai garden courtyard, moments from Boat Avenue and the greens of Laguna. Modern-tropical residences in earthy tones and natural textures — one- to three-bedroom homes, fully furnished, with three 25-metre pools, a rooftop tennis court and an extensive wellness club. Off-plan.",
+  "detail": "Set in the heart of Bang Tao on Phuket's fast-developing west-coast corridor, this is a low-density community of just three low-rise buildings arranged around an expansive garden courtyard of more than four rai — the majority of the ten-rai site given over to greenery and facilities rather than density. Conceived under a coastal-chic philosophy of earthy tones, natural textures and understated materials, the architecture feels calm and grounded, softening the line between the interiors and the tropical landscape.\n\nThe 408 residences are bright and generously proportioned, offered in one-, two- and three-bedroom layouts from roughly 45 to 129 square metres — including the option to combine a one- and two-bedroom into a 127 m² three-bedroom home. Each is delivered fully furnished, with floor-to-ceiling windows, balconies framing the gardens and pools, deep-soaking bathtubs and integrated smart-home technology, and is managed to international hotel standards with concierge services and a dedicated residential team.\n\nLife here is built around wellness and sport. The facilities are unusually extensive: three 25-metre swimming pools — one for each building — alongside a kids' pool and a jacuzzi, a fully equipped gym with a dedicated boxing ring, pilates and yoga studios, ice baths and an outdoor fitness terrace, and a full-sized rooftop tennis court. A welcome lounge, a co-working space with meeting rooms and silent booths, a library, a multi-purpose pavilion and a children's playground complete the offering, with professional rental management and a shuttle service on hand.\n\nThe position is the quiet advantage. Boat Avenue — the dining and shopping hub of Bang Tao — sits roughly 600 metres away, with Porto de Phuket lifestyle mall, the greens of Laguna golf and Bang Tao Beach all within easy reach, and Phuket International Airport around 25 minutes by car. Offered freehold under foreign quota, with completion expected in Q4 2027 — priced from ฿7,626,000.",
+  "features": [
+    {
+      "l": "Three low-rise buildings · low density",
+      "i": "building"
+    },
+    {
+      "l": "Four-rai landscaped garden courtyard",
+      "i": "tree"
+    },
+    {
+      "l": "Three 25-metre swimming pools",
+      "i": "pool"
+    },
+    {
+      "l": "Kids' pool & jacuzzi",
+      "i": "waves"
+    },
+    {
+      "l": "Full-sized rooftop tennis court",
+      "i": "gym"
+    },
+    {
+      "l": "Gym with boxing ring & yoga studio",
+      "i": "sparkles"
+    },
+    {
+      "l": "Ice baths & wellness facilities",
+      "i": "wind"
+    },
+    {
+      "l": "Co-working space & library",
+      "i": "users"
+    },
+    {
+      "l": "Fully furnished · 1–3 bedrooms",
+      "i": "sofa"
+    },
+    {
+      "l": "~600 m to Boat Avenue",
+      "i": "road"
+    },
+    {
+      "l": "Rental management & shuttle service",
+      "i": "car"
+    },
+    {
+      "l": "Freehold · completion Q4 2027",
+      "i": "year"
+    }
+  ]
+}

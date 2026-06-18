@@ -1,0 +1,82 @@
+{
+  "id": "one89-wireless-bangkok",
+  "image": "/assets/listings/one89-wireless-bangkok/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/one89-wireless-bangkok/ext-001.jpg",
+    "/assets/listings/one89-wireless-bangkok/ext-002.jpg",
+    "/assets/listings/one89-wireless-bangkok/ext-003.jpg",
+    "/assets/listings/one89-wireless-bangkok/ext-004.jpg",
+    "/assets/listings/one89-wireless-bangkok/ext-005.jpg"
+  ],
+  "location": "Lumphini · Bangkok · Thailand",
+  "place": "One89 Wireless, Wireless Road, Lumphini, Pathum Wan, Bangkok, Thailand",
+  "mapQuery": "13.7270531,100.5472545",
+  "market": "Bangkok",
+  "title": "One89 Wireless — Seven-Bedroom Sky Residence",
+  "type": "Condominium",
+  "view": "City View",
+  "status": "Move-In Ready",
+  "beds": 7,
+  "baths": 7,
+  "interior": "517 m²",
+  "plot": null,
+  "year": 2025,
+  "priceNum": 11532625,
+  "price": "$11,532,625",
+  "priceOriginal": "฿380,000,000",
+  "priceCurrency": "THB",
+  "added": 18,
+  "ownership": "Leasehold",
+  "blurb": "A rare seven-bedroom sky residence at One89 Wireless — designed by SOM and set within the same tower as the Ritz-Carlton at the One Bangkok mega-development, moments from Lumpini Park with sweeping views over the city and its green heart.",
+  "detail": "A genuinely rare seven-bedroom residence at One89 Wireless, designed by architects Skidmore, Owings & Merrill (SOM) as a landmark of healthy, sustainable living in the heart of Bangkok. The tower houses just 90 bespoke residences and forms part of the prestigious One Bangkok mega-development — this home sits within the same building as the renowned Ritz-Carlton hotel, with access to its signature services and amenities.\n\nSpanning approximately 517 m² on a single level, the residence is laid out for grand entertaining and serene private living in equal measure: an open-plan living and dining volume with high ceilings and full-height glazing, an open kitchen with island and stone countertops, a wine cellar, and seven bedrooms each with its own bathroom and walk-in wardrobe. Floor-to-ceiling glass frames uninterrupted panoramas across the city skyline and the green expanse of nearby Lumpini Park.\n\nStrategically positioned on Wireless Road, the residence offers easy access to the expressway, Sathorn Road and the city's luxury shopping, dining and business districts — serene green space on one side, the energy of central Bangkok on the other. Premium amenities, concierge and top-tier hotel services complete one of the most exclusive addresses in the city.",
+  "features": [
+    {
+      "l": "Within the Ritz-Carlton tower",
+      "i": "building"
+    },
+    {
+      "l": "Designed by SOM architects",
+      "i": "sparkles"
+    },
+    {
+      "l": "Part of One Bangkok",
+      "i": "shield"
+    },
+    {
+      "l": "Panoramic city & Lumpini Park views",
+      "i": "view"
+    },
+    {
+      "l": "Seven en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Open kitchen with island",
+      "i": "utensils"
+    },
+    {
+      "l": "Private wine cellar",
+      "i": "sofa"
+    },
+    {
+      "l": "Walk-in wardrobes",
+      "i": "key"
+    },
+    {
+      "l": "High ceilings & full-height glass",
+      "i": "home"
+    },
+    {
+      "l": "Private garage & parking",
+      "i": "car"
+    },
+    {
+      "l": "Concierge & hotel services",
+      "i": "users"
+    },
+    {
+      "l": "Steps from Lumpini Park",
+      "i": "tree"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+---
+// Faithful port of the design-system Button, for static Astro pages.
+// Renders an <a> when href is given, else a <button>.
+interface Props {
+  variant?: "solid" | "ink" | "outline" | "outline-light" | "accent";
+  size?: "sm" | "md" | "lg";
+  shape?: "default" | "pill";
+  href?: string;
+  class?: string;
+  style?: string;
+}
+const { variant = "solid", size = "md", shape = "default", href, class: klass = "", style = "" } = Astro.props;
+
+const SIZES = {
+  sm: "padding:0.75em 1.5em;font-size:11px;letter-spacing:0.12em;",
+  md: "padding:1.05em 2em;font-size:12.5px;letter-spacing:0.14em;",
+  lg: "padding:1.25em 2.6em;font-size:13.5px;letter-spacing:0.16em;",
+};
+const VARIANTS = {
+  solid: "background:var(--navy);color:var(--white);border:1.25px solid var(--navy);",
+  ink: "background:var(--ink-black);color:var(--white);border:1.25px solid var(--ink-black);",
+  outline: "background:transparent;color:var(--charcoal);border:1.25px solid currentColor;",
+  "outline-light": "background:transparent;color:var(--white);border:1.25px solid var(--border-on-dark);",
+  accent: "background:var(--butter);color:var(--navy);border:1.25px solid var(--butter);",
+};
+const base =
+  "display:inline-flex;align-items:center;justify-content:center;gap:0.6em;font-family:var(--font-sans);font-weight:400;text-transform:uppercase;text-decoration:none;cursor:pointer;white-space:nowrap;line-height:1;" +
+  `border-radius:${shape === "pill" ? "var(--radius-pill)" : "var(--radius-xs)"};` +
+  "transition:background var(--dur-base) var(--ease-out),color var(--dur-base) var(--ease-out),opacity var(--dur-base) var(--ease-out);" +
+  SIZES[size] + VARIANTS[variant] + style;
+const Tag = href ? "a" : "button";
+---
+<Tag class={`ew-btn ${klass}`} style={base} {...(href ? { href } : {})}><slot /></Tag>

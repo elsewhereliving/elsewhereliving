@@ -1,0 +1,90 @@
+{
+  "id": "cape-yamu-seafront-villa",
+  "image": "/assets/listings/cape-yamu-seafront-villa/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/cape-yamu-seafront-villa/ext-001.jpg",
+    "/assets/listings/cape-yamu-seafront-villa/ext-002.jpg",
+    "/assets/listings/cape-yamu-seafront-villa/ext-003.jpg",
+    "/assets/listings/cape-yamu-seafront-villa/ext-004.jpg",
+    "/assets/listings/cape-yamu-seafront-villa/ext-005.jpg",
+    "/assets/listings/cape-yamu-seafront-villa/ext-006.jpg",
+    "/assets/listings/cape-yamu-seafront-villa/ext-007.jpg",
+    "/assets/listings/cape-yamu-seafront-villa/ext-008.jpg",
+    "/assets/listings/cape-yamu-seafront-villa/ext-009.jpg",
+    "/assets/listings/cape-yamu-seafront-villa/ext-010.jpg",
+    "/assets/listings/cape-yamu-seafront-villa/ext-011.jpg",
+    "/assets/listings/cape-yamu-seafront-villa/ext-012.jpg",
+    "/assets/listings/cape-yamu-seafront-villa/ext-013.jpg"
+  ],
+  "location": "Cape Yamu · Phuket · Thailand",
+  "place": "Cape Yamu, Pa Klok, Thalang, Phuket, Thailand",
+  "mapQuery": "7.9939267,98.4095672",
+  "market": "Phuket",
+  "title": "Seafront Villa on Phuket's East Coast",
+  "type": "Villa",
+  "view": "Beachfront",
+  "status": "Move-In Ready",
+  "beds": 6,
+  "baths": 7,
+  "interior": "1,900 m²",
+  "plot": "6,640 m²",
+  "year": 2010,
+  "priceNum": 8000000,
+  "price": "$8,000,000",
+  "added": 14,
+  "ownership": "Freehold",
+  "blurb": "A rare beachfront villa bringing together space, privacy and true tropical luxury — six bedrooms on a peaceful east-coast peninsula, set over 6,500 m² with private beach frontage and sweeping views across the Andaman Sea and Phang Nga Bay.",
+  "detail": "Discover a rare beachfront villa that brings together space, privacy and true tropical luxury. This impressive six-bedroom residence sits on a peaceful peninsula on Phuket's east coast within an exclusive gated community, with 6,500 m² of land and private beach frontage giving room to breathe, relax and enjoy life at your own pace. The property rises gently over the bay for sweeping views of the Andaman Sea and Phang Nga Bay, and wide windows and open layouts let every room capture sea breezes and natural light. Modern design is softened by warm Thai detailing — clean white walls, flowing drapes and traditional rooflines that keep the architecture contemporary yet rooted in its setting.\n\nThe main living area sits on the ground floor, opening directly to ocean views with indoor and outdoor dining, a modern kitchen and a large terrace. The entertainment floor below adds a cinema room, a fully stocked bar and the impressive 26 × 8 metre infinity pool, with the master bedroom on this level for easy access to the pool, lounge deck and sea views. A further lower level hosts two more bedrooms, while the lowest level is dedicated entirely to wellness — a private gym and spa room surrounded by greenery. Each bedroom offers sea or garden views and easy access to open-air spaces, with a calm palette of wood, soft fabrics and minimal décor throughout.\n\nThe villa delivers the tropical lifestyle in a prime yet private location: roughly 25 minutes to Phuket International Airport, 20 minutes to Phuket Town and to Layan, Bang Tao and Surin beaches, 15 minutes to Ao Por Grand Marina, and easy access to Laguna, Blue Canyon and Mission Hills golf courses — all with full security and a five-star community environment.",
+  "features": [
+    {
+      "l": "26 × 8 m infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Private beach frontage",
+      "i": "waves"
+    },
+    {
+      "l": "Andaman & Phang Nga Bay views",
+      "i": "view"
+    },
+    {
+      "l": "Spa & steam room",
+      "i": "sparkles"
+    },
+    {
+      "l": "Private gym",
+      "i": "gym"
+    },
+    {
+      "l": "Cinema room",
+      "i": "music"
+    },
+    {
+      "l": "Fully stocked bar & lounge",
+      "i": "sofa"
+    },
+    {
+      "l": "Open kitchen & island",
+      "i": "utensils"
+    },
+    {
+      "l": "Garden sala with kitchen",
+      "i": "terrace"
+    },
+    {
+      "l": "Sea breezes & open layouts",
+      "i": "home"
+    },
+    {
+      "l": "Walk-in wardrobes",
+      "i": "key"
+    },
+    {
+      "l": "Gated five-star community",
+      "i": "shield"
+    }
+  ],
+  "featured": true,
+  "featuredOrder": 1
+}

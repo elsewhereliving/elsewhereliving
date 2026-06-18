@@ -1,0 +1,5 @@
+# Cloudflare Pages redirects. The Astro build emits a real file per route,
+# so we only alias legacy paths here. 404s fall through to /404.html.
+/custom/*      /custom-homes/   301
+/custom        /custom-homes/   301
+/home          /                301

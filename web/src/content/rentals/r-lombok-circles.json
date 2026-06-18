@@ -1,0 +1,83 @@
+{
+  "id": "r-lombok-circles",
+  "image": "https://www.tampahhills.com/wp-content/uploads/2025/04/Tampah-Hills-Nyrenstone-Residence-Hero2.jpg",
+  "gallery": [
+    "https://www.tampahhills.com/wp-content/uploads/2025/04/Tampah-Hills-Nyrenstone-Residence-Hero2.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/04/N-SoMe-@presbanproductions--1024x575.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/04/N-SoMe-@presbanproductions-2-1024x575.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/04/N-SoMe-@presbanproductions-7-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/04/N-SoMe-@presbanproductions-19-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/04/N-SoMe-@presbanproductions-18-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/04/N-SoMe-@presbanproductions-25-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/04/N-SoMe-@presbanproductions-26-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/04/N-SoMe-@presbanproductions-10-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/04/N-SoMe-@presbanproductions-3-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/04/N-SoMe-@presbanproductions-5-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/04/N-SoMe-@presbanproductions-6-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/04/N-SoMe-@presbanproductions-22-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/04/N-SoMe-@presbanproductions-4-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/04/N-SoMe-@presbanproductions-8-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/04/N-SoMe-@presbanproductions-17-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/04/N-SoMe-@presbanproductions-12-1024x682.jpg"
+  ],
+  "location": "Lombok · Indonesia",
+  "place": "Southwest Lombok, Indonesia",
+  "mapQuery": "-8.899061,116.199542",
+  "title": "Stepped Circular Hillside Estate in Lombok",
+  "view": [
+    "Sea View",
+    "Mountain View"
+  ],
+  "beds": 4,
+  "bedsLabel": "4",
+  "guests": 8,
+  "guestsLabel": "8",
+  "occupancy": "up to 8 guests",
+  "size": "1,667 m²",
+  "nightlyNum": 2153,
+  "nightly": "$2,153",
+  "nightlyOriginal": "IDR 35,090,000 net",
+  "nightlyCurrency": "IDR",
+  "note": "Breakfast & housekeeping included",
+  "sleeps": "8 guests · 4 bedrooms",
+  "blurb": "An architectural estate that descends one of Lombok's steepest hillsides through a language of circles and tangents — three pools including a top-level 20 m pool and a three-metre dive pool, a crowning circular yoga platform, and unbroken views across the bay.",
+  "detail": "A bold architectural estate that negotiates one of South Lombok's steepest hillside sites through a language of circles and tangents — each curved form answering the topography rather than defying it. Rather than imposing itself on the landscape, the architecture unfolds gradually across multiple levels, its forms echoing the curvature of the coastline below so the house feels grown from the terrain itself.\n\nCircular communal spaces — lounges, dining areas and fireplaces — form the social core of the plan, while private suites branch outward, wrapped in convex curved glazing for two families to share communal life without surrendering privacy. A calm palette of warm teak ceilings, off-white plastered walls and pale Palimanan stone floors lets the geometry register without overwhelming, and at the highest point a circular yoga platform crowns the home with uninterrupted views across the bay.\n\nSpanning over 1,000 m² of built space, the estate sleeps eight across four well-appointed bedrooms. It features three pools — including a 20-metre pool on the top floor and a striking three-metre-deep dive-in pool on the level below, made for leaping from the floor above into the water — plus a fully equipped gym and a dedicated butler. Car, golf-cart and scooter rentals make it easy to reach nearby beach restaurants and the surrounding coast.",
+  "features": [
+    {
+      "l": "Three pools incl. 20 m top-level pool",
+      "i": "pool"
+    },
+    {
+      "l": "Three-metre dive-in pool",
+      "i": "waves"
+    },
+    {
+      "l": "Circles-and-tangents architecture",
+      "i": "home"
+    },
+    {
+      "l": "Crowning circular yoga platform",
+      "i": "sparkles"
+    },
+    {
+      "l": "Four en-suite bedrooms · two-family",
+      "i": "bed"
+    },
+    {
+      "l": "Fully equipped gym",
+      "i": "gym"
+    },
+    {
+      "l": "Teak & Palimanan stone interiors",
+      "i": "tree"
+    },
+    {
+      "l": "Panoramic bay views",
+      "i": "view"
+    },
+    {
+      "l": "Butler & concierge service",
+      "i": "users"
+    }
+  ]
+}

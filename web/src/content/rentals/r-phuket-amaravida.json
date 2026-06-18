@@ -1,0 +1,69 @@
+{
+  "id": "r-phuket-amaravida",
+  "image": "https://www.theluxurysignature.com/wp-content/uploads/2021/07/Amaravida29-1.jpg",
+  "gallery": [
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/Amaravida29-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/amaravida-phuket-mail-pool-06.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/Amaravida28.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/amaravida-phuket-mail-pool-07.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/amaravida-phuket-mail-pool-05.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/amaravida-phuket-mail-pool-01.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/amaravida-phuket-pool-sala-01.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/Amaravida-phuket-middle-pool-1200.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/amaravida-phuket-living-01.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/amaravida-phuket-living-03.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/amaravida-phuket-dining-01.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/amaravida-phuket-kitchen.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/amaravida-phuket-master-bedroom-01.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/amaravida-phuket-spa-01.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/Amaravida-phuket-cinema-2-1200.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/amaravida-phuket-rooftop-bar-01.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/Amaravida-phuket-aerial-2-1200-1.jpg"
+  ],
+  "location": "Cape Yamu · Phuket · Thailand",
+  "place": "Cape Yamu, Pa Klok, Thalang, Phuket, Thailand",
+  "mapQuery": "7.9939267,98.4095672",
+  "title": "Villa Amaravida — Scandinavian-Thai Estate, Cape Yamu",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 8,
+  "bedsLabel": "6–8",
+  "guests": 18,
+  "guestsLabel": "18",
+  "occupancy": "up to 18 guests",
+  "size": "4,000 m²",
+  "nightlyNum": 0,
+  "nightly": "Price on request",
+  "note": "Fully staffed · 7 staff incl. chef",
+  "sleeps": "18 guests · up to 8 bedrooms",
+  "blurb": "The villa from HBO's The White Lotus — an eight-bedroom Cape Yamu estate of Scandinavian-Thai design over 4,000 m², with three infinity pools, a spa and sauna, cinema, wine cellar, and private tennis, basketball and squash courts.",
+  "detail": "An absolute prime among the villas on Phuket's Cape Yamu, Villa Amaravida exudes elegance and tropical resplendence overlooking Phang Nga Bay. Its motif marries Scandinavian architecture with traditional Thai roots — a Thai-gabled roof outside, clean minimalist lines, marble and wood within. Set on 8,000 m² of land with a 4,000 m² build, the estate carries a long list of activities for a grand villa experience, and is known worldwide as a filming location for HBO's The White Lotus.\n\nIndulge in three pools — a 38-metre main infinity pool, a mid-level pool and a lap pool — plus two large jacuzzis, one on a rooftop bar that seats up to 16. Eight en-suite bedrooms include a master suite on its own floor, all with uninterrupted seascapes. Sports and fitness are covered by a full gym, private tennis, basketball and squash courts, and a playground with climbing wall, while a man-made beach, kayaks and paddleboards open up the water.\n\nEntertainment runs deep: a cinema room with a 12-seat couch, a game room with Trackman golf simulator, a large wine cellar, and a spa room with steam and sauna for winding down. Served by seven staff including a private chef, with a fully equipped American kitchen and estate restaurants nearby, Amaravida sits in a gated community with 24-hour security, 21 km from the airport.",
+  "features": [
+    {
+      "l": "Three infinity pools (incl. 38 m main)",
+      "i": "pool"
+    },
+    {
+      "l": "Beachfront · Cape Yamu",
+      "i": "waves"
+    },
+    {
+      "l": "Tennis, basketball & squash courts",
+      "i": "sparkles"
+    },
+    {
+      "l": "Spa, sauna & cinema",
+      "i": "gym"
+    },
+    {
+      "l": "Wine cellar & rooftop bar",
+      "i": "utensils"
+    },
+    {
+      "l": "8 en-suite bedrooms · 7 staff + chef",
+      "i": "users"
+    }
+  ]
+}

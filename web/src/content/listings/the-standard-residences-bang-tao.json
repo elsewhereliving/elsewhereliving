@@ -1,0 +1,92 @@
+{
+  "id": "the-standard-residences-bang-tao",
+  "image": "/assets/listings/the-standard-residences-bang-tao/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/the-standard-residences-bang-tao/ext-001.jpg",
+    "/assets/listings/the-standard-residences-bang-tao/ext-002.jpg",
+    "/assets/listings/the-standard-residences-bang-tao/ext-003.jpg",
+    "/assets/listings/the-standard-residences-bang-tao/ext-004.jpg",
+    "/assets/listings/the-standard-residences-bang-tao/ext-005.jpg",
+    "/assets/listings/the-standard-residences-bang-tao/ext-006.jpg",
+    "/assets/listings/the-standard-residences-bang-tao/ext-007.jpg",
+    "/assets/listings/the-standard-residences-bang-tao/ext-008.jpg",
+    "/assets/listings/the-standard-residences-bang-tao/ext-009.jpg",
+    "/assets/listings/the-standard-residences-bang-tao/ext-010.jpg",
+    "/assets/listings/the-standard-residences-bang-tao/ext-011.jpg",
+    "/assets/listings/the-standard-residences-bang-tao/ext-012.jpg",
+    "/assets/listings/the-standard-residences-bang-tao/ext-013.jpg",
+    "/assets/listings/the-standard-residences-bang-tao/ext-014.jpg"
+  ],
+  "location": "Bang Tao · Phuket · Thailand",
+  "place": "Bang Tao, Choeng Thale, Thalang District, Phuket 83110, Thailand",
+  "mapQuery": "7.9985,98.2950",
+  "market": "Phuket",
+  "title": "The Standard Residences Phuket Bang Tao — Low-Rise Branded Residences at Laguna's Gateway",
+  "type": "Condominium",
+  "view": "Garden / Pool View",
+  "status": "Off-Plan",
+  "beds": 2,
+  "bedsLabel": "2–3",
+  "baths": "2–3",
+  "interior": "117–313 m²",
+  "plot": null,
+  "year": "Q4 2026",
+  "priceNum": 1961506,
+  "price": "From $1,961,506",
+  "priceOriginal": "฿64,610,000",
+  "priceCurrency": "THB",
+  "added": 1,
+  "ownership": "Freehold or Leasehold",
+  "blurb": "Branded lifestyle residences at the gateway to Laguna and Boat Avenue — a low-density, low-rise enclave of just 188 homes across six buildings, set within a 17-rai lifestyle compound with hotel F&B, a spa and a 25-metre pool. Spacious one-bedrooms through 313 m² duplexes, fully furnished and hotel-serviced. Off-plan.",
+  "detail": "Branded lifestyle residences in one of the prime spots of Bang Tao, bringing the style and service of a globally celebrated boutique hotel collection to everyday life — answering the question everyone faces when checking out of a great hotel: what if you didn't have to? Aesthetic swagger, boundary-breaking design, hotel-style amenities and a vibrant calendar of food, art, music and cultural programming, all at home. Developed by the residential and resort arm of one of Thailand's largest conglomerates — the group behind Porto de Phuket and Central Floresta.\n\nThe project is a luxury low-rise boutique residence with one of the best locations in recent years, right beside Laguna and Boat Avenue. It is deliberately low-density: just 188 spacious units across six buildings of seven floors each, ranging from solid 75 m² one-bedrooms to gorgeous 313 m² duplexes, all delivered ready to move in with bespoke furniture and finishes. The homes sit within a larger 17-rai (27,200 m²) lifestyle compound that also houses a lifestyle hotel and its own food-and-beverage offerings.\n\nFacilities carry the hotel ethos through to residents: a lobby with a game area, theater room and a multipurpose space for meetings, screenings and private events; a fitness suite and private studio; a 25-metre swimming pool and a separate leisure pool; a spa with sauna and bath experience; and a pet-friendly area. A 24-hour concierge and security, plus buggy and shuttle service, are complemented by on-demand housekeeping, laundry, in-room dining, personal trainer, therapist, babysitting and curated workshops.\n\nThe address is the rare advantage. Boat Avenue — northern Phuket's most popular shopping and dining district — is 100 metres away, the entrance to Laguna Phuket 200 metres, Porto de Phuket lifestyle mall 600 metres, and Bangtao Beach within walking distance at 1.5 km, with Phuket International Airport around 25 minutes by car. Offered foreign freehold with a buyer-friendly payment schedule (50% payable on completion) and the full custom furniture package included. Completion expected Q4 2026 — priced from ฿21,900,000.",
+  "features": [
+    {
+      "l": "Branded residences by The Standard",
+      "i": "sparkles"
+    },
+    {
+      "l": "Developed by Central Group",
+      "i": "building"
+    },
+    {
+      "l": "Low-density · 188 homes, 6 buildings",
+      "i": "home"
+    },
+    {
+      "l": "Within a 17-rai lifestyle compound",
+      "i": "tree"
+    },
+    {
+      "l": "25 m pool & leisure pool",
+      "i": "pool"
+    },
+    {
+      "l": "Spa, sauna & fitness studio",
+      "i": "gym"
+    },
+    {
+      "l": "Theater & multipurpose lounge",
+      "i": "sofa"
+    },
+    {
+      "l": "24hr concierge & security",
+      "i": "shield"
+    },
+    {
+      "l": "Buggy & shuttle service",
+      "i": "car"
+    },
+    {
+      "l": "Pet-friendly · fully furnished",
+      "i": "key"
+    },
+    {
+      "l": "100 m to Boat Avenue · 200 m to Laguna",
+      "i": "road"
+    },
+    {
+      "l": "Freehold · completion Q4 2026",
+      "i": "year"
+    }
+  ]
+}

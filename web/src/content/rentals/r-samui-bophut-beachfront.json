@@ -1,0 +1,68 @@
+{
+  "id": "r-samui-bophut-beachfront",
+  "image": "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_03_Pool.jpg",
+  "gallery": [
+    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_03_Pool.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_26_Drone.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_04_BeachView.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_27_Beach.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_01_Living.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_05_Living.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_06_Dining.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_23_Kitchen.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_07_Entrance.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_08_Bedroom1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_11_Bedroom2.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_16_Bedroom4.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_10_Bathroom1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_22_Balcony.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_24_MediaRoom.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_25_EveningExteriors.jpg"
+  ],
+  "location": "Bo Phut · Koh Samui · Thailand",
+  "place": "Bo Phut, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5683,100.0089",
+  "title": "Five-Bedroom Beachfront Villa on Bophut Shore",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 5,
+  "bedsLabel": "3–5",
+  "guests": 10,
+  "guestsLabel": "10",
+  "occupancy": "up to 10 guests",
+  "size": "1,097 m²",
+  "nightlyNum": 1230,
+  "nightly": "$1,230",
+  "note": "4 staff incl. chef",
+  "sleeps": "10 guests · up to 5 bedrooms",
+  "blurb": "A stylish five-bedroom beachfront villa on the tranquil shore of Bophut — sweeping ocean views and direct beach access, a 16-metre free-form infinity pool, a poolside sala, and airy interiors layered with Jim Thompson fabrics and natural textures.",
+  "detail": "Set along the tranquil coast of Bophut, this contemporary villa offers a sanctuary of coastal calm — sweeping ocean vistas and direct beach access for an unforgettable getaway. Hidden behind a private entrance, the shoreline retreat comfortably accommodates up to ten guests, its airy interiors blending organic textures, Jim Thompson fabrics and soft neutral tones that draw the shimmering sea inside.\n\nEvery space is crafted to inspire rest — from the open-concept living and dining room to the outdoor terrace with its shaded sala and BBQ facilities, made for grilling beside the 16-metre free-form infinity pool. Five en-suite bedrooms provide a soothing refuge for guests of all ages: four feature king beds, indoor jacuzzis and bathtubs and a compact mini-pantry, while a family room with twin beds and a flatscreen TV gives children their own comfortable space.\n\nFinished with a 65-inch Smart TV, a Sonos sound system, a media room and high-speed WiFi throughout, the villa is supported by four attentive staff including a private chef, with daily breakfast, housekeeping and turndown. Just minutes from Bophut's Fisherman's Village and a short drive from Samui Airport, it is an effortless blend of refinement and beachfront relaxation.",
+  "features": [
+    {
+      "l": "16 m free-form infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Beachfront · direct beach access",
+      "i": "waves"
+    },
+    {
+      "l": "Sea views from most rooms",
+      "i": "view"
+    },
+    {
+      "l": "Poolside sala & BBQ",
+      "i": "terrace"
+    },
+    {
+      "l": "Media room & Sonos sound",
+      "i": "music"
+    },
+    {
+      "l": "5 en-suite bedrooms · chef & 4 staff",
+      "i": "users"
+    }
+  ]
+}

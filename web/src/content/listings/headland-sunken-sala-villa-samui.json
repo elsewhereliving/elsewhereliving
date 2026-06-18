@@ -1,0 +1,83 @@
+{
+  "id": "headland-sunken-sala-villa-samui",
+  "image": "/assets/listings/headland-sunken-sala-villa-samui/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/headland-sunken-sala-villa-samui/ext-001.jpg",
+    "/assets/listings/headland-sunken-sala-villa-samui/ext-002.jpg",
+    "/assets/listings/headland-sunken-sala-villa-samui/ext-003.jpg",
+    "/assets/listings/headland-sunken-sala-villa-samui/ext-004.jpg",
+    "/assets/listings/headland-sunken-sala-villa-samui/ext-005.jpg",
+    "/assets/listings/headland-sunken-sala-villa-samui/ext-006.jpg"
+  ],
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bo Phut, Ko Samui District, Surat Thani 84320, Thailand",
+  "mapQuery": "9.5755,100.0640",
+  "market": "Koh Samui",
+  "title": "Bophut Hilltop Sea-View Villa with Horizon Pool",
+  "type": "Villa",
+  "view": "Sea View",
+  "status": "Move-In Ready",
+  "beds": 9,
+  "baths": 9,
+  "interior": "—",
+  "plot": "2,180 m²",
+  "year": 2024,
+  "priceNum": 6683475,
+  "price": "$6,683,475",
+  "priceOriginal": "฿220,000,000",
+  "priceCurrency": "THB",
+  "added": 43,
+  "ownership": "Freehold",
+  "blurb": "A modern nine-bedroom villa on Koh Samui's northernmost headland above Tongson Bay — open-plan living dissolving into an infinity pool, a circular sunken sala set in a shallow pool, a private cinema, gym and sea-view sauna, with sunrises and sunsets over the northeast coast.",
+  "detail": "Raised high on the island's northernmost point above Tongson Bay, this elegant modern villa commands a rare double aspect over Koh Samui's northeast coast — catching both the island's celebrated sunrises and its sunsets. Open-plan volumes link indoor and outdoor living across three floors, opening onto a breezy terrace, an infinity pool and a sun deck with semi-submerged sunbeds, set on a 2,180 m² hillside plot.\n\nThe villa's signature is a circular sunken seating sala set within a shallow pool at the terrace's edge — a sculptural spot for sunset drinks and ocean-gazing — alongside a circular decorative helipad deck for sunset events and photographs (ornamental, not an operational landing pad) — with outdoor dining beneath a cantilevered canopy at a sixteen-seat table and bar. Inside, sleek contemporary interiors with elegant Asian detailing frame a 90-inch lounge screen and a handcrafted dining table for ten.\n\nNine en-suite bedrooms — seven original suites plus two newer additions and a children's room — are complemented by exclusive amenities: a private cinema, an adults' games lounge with open bar, a fully equipped gym, a sea-view sauna, an ice bath and an in-villa massage room, all underpinned by full backup power. Move-in ready and a proven luxury rental, it sits fifteen minutes from the airport and a short walk from Thong Sai Beach.",
+  "features": [
+    {
+      "l": "Infinity pool & sun deck",
+      "i": "pool"
+    },
+    {
+      "l": "Sunken sala & decorative helipad",
+      "i": "sofa"
+    },
+    {
+      "l": "Sunrise & sunset sea views",
+      "i": "view"
+    },
+    {
+      "l": "Nine en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Private cinema & games lounge",
+      "i": "music"
+    },
+    {
+      "l": "Gym, sea-view sauna & ice bath",
+      "i": "gym"
+    },
+    {
+      "l": "16-seat canopy dining & bar",
+      "i": "utensils"
+    },
+    {
+      "l": "2,180 m² headland plot",
+      "i": "plot"
+    },
+    {
+      "l": "Full backup power",
+      "i": "bolt"
+    },
+    {
+      "l": "Short walk to Thong Sai Beach",
+      "i": "waves"
+    },
+    {
+      "l": "15 minutes to the airport",
+      "i": "car"
+    },
+    {
+      "l": "Fully staffed · proven rental",
+      "i": "users"
+    }
+  ]
+}

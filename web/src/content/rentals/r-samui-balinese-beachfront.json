@@ -1,0 +1,68 @@
+{
+  "id": "r-samui-balinese-beachfront",
+  "image": "https://www.theluxurysignature.com/wp-content/uploads/2023/10/Beachfront-Paradise-Koh-Samui-Beachfront-Koh-Samui-1.jpg",
+  "gallery": [
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/10/Beachfront-Paradise-Koh-Samui-Beachfront-Koh-Samui-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/10/Beachfront-Paradise-Koh-Samui-Beachfront-Koh-Samui-2.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/10/Beachfront-Paradise-Koh-Samui-Beachfront-Koh-Samui-38.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/10/Beachfront-Paradise-Koh-Samui-Beachfront-Koh-Samui-3.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/10/Beachfront-Paradise-Koh-Samui-Beachfront-Koh-Samui-9.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/10/Beachfront-Paradise-Koh-Samui-Beachfront-Koh-Samui-40.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/10/Beachfront-Paradise-Koh-Samui-Beachfront-Koh-Samui-26.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/10/Beachfront-Paradise-Koh-Samui-Beachfront-Koh-Samui-27.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/10/Beachfront-Paradise-Koh-Samui-Beachfront-Koh-Samui-5.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/10/Beachfront-Paradise-Koh-Samui-Beachfront-Koh-Samui-11.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/10/Beachfront-Paradise-Koh-Samui-Beachfront-Koh-Samui-14.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/10/Beachfront-Paradise-Koh-Samui-Beachfront-Koh-Samui-17.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/10/Beachfront-Paradise-Koh-Samui-Beachfront-Koh-Samui-30.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/10/Beachfront-Paradise-Koh-Samui-Beachfront-Koh-Samui-35.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/10/Beachfront-Paradise-Koh-Samui-Beachfront-Koh-Samui-41.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/10/Beachfront-Paradise-Koh-Samui-Beachfront-Koh-Samui-44.jpg"
+  ],
+  "location": "Bo Phut · Koh Samui · Thailand",
+  "place": "Bo Phut, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5683,100.0089",
+  "title": "Balinese Beachfront Suite Estate in Bo Phut",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 8,
+  "bedsLabel": "4–8",
+  "guests": 16,
+  "guestsLabel": "16",
+  "occupancy": "up to 16 guests",
+  "size": "Beachfront estate",
+  "nightlyNum": 2830,
+  "nightly": "$2,830",
+  "note": "10 staff incl. chef",
+  "sleeps": "16 guests · up to 8 suites",
+  "blurb": "A Balinese-style beachfront estate on Bo Phut's white sands — eight en-suite suites (five beachfront with private jacuzzis), a 16-metre pool with waterfall fountains, spa, gym, wine cellar and beach-side sala bar, with a ten-strong team and private chef.",
+  "detail": "Situated along the pristine shores of Koh Samui, this beachfront estate is a seamless fusion of Balinese sophistication and tropical tranquility — top-of-the-line amenities paired with exclusive design and service. Its Balinese layout sets the stage for an immersive experience: a central courtyard graced by the azure sea and powdery white sand, wrapped in verdant foliage, inviting lounges and shaded enclaves, with a captivating pool of waterfall-style fountains at its heart.\n\nThe estate is divided into five beachfront suites — each with a private jacuzzi and direct beach access — and three suites with serene private gardens, eight en-suite bedrooms in all. A fully equipped gym and a wellness room with two massage tables, robes and oils keep guests active and pampered, while the sala and bar area, with a table for up to 18 and a six-seat bar, is made for gatherings. An outdoor kitchen with a high-end gas barbecue lets the private chef cook amid the natural beauty.\n\nA dedicated team of ten — personal manager, private chef, bartenders, housekeepers and security — attends to every need, with a 16-metre salt-treated pool, wine cellar, covered and beach lounges, and a movable big screen for meetings. Just 11 minutes from Samui Airport and minutes from Fisherman's Village, it is an idyllic seaside retreat where Balinese elegance meets tropical luxury.",
+  "features": [
+    {
+      "l": "16 m pool with waterfall fountains",
+      "i": "pool"
+    },
+    {
+      "l": "Beachfront · five suites with jacuzzis",
+      "i": "waves"
+    },
+    {
+      "l": "Spa & wellness room",
+      "i": "sparkles"
+    },
+    {
+      "l": "Gym & wine cellar",
+      "i": "gym"
+    },
+    {
+      "l": "Beach-side sala bar · seats 18",
+      "i": "utensils"
+    },
+    {
+      "l": "8 en-suite suites · 10 staff + chef",
+      "i": "users"
+    }
+  ]
+}

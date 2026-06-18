@@ -1,0 +1,59 @@
+{
+  "id": "r-samui-grand-estate-24",
+  "image": "https://samujana.com/__l5e/assets-v1/ae03445b-13bb-4d41-9c75-3864b5af9fa9/2016-11-220728-Samujana-24-0082.jpg",
+  "gallery": [
+    "https://samujana.com/__l5e/assets-v1/ae03445b-13bb-4d41-9c75-3864b5af9fa9/2016-11-220728-Samujana-24-0082.jpg",
+    "https://samujana.com/__l5e/assets-v1/3747d9c9-568e-4c3e-82c3-a4053ed96c2e/2016-11-220728-Samujana-24-0014.jpg",
+    "https://samujana.com/__l5e/assets-v1/97abd246-b553-48b1-96cd-265867498662/2016-11-220728-Samujana-24-0001.jpg",
+    "https://samujana.com/__l5e/assets-v1/21ca0a21-ba18-4cf1-9824-76f7a16b902b/2016-11-220728-Samujana-24-0027.jpg",
+    "https://samujana.com/__l5e/assets-v1/5cf01394-5759-47d2-9adb-d586b3c9f1cb/2016-11-V24-Infinity-Pool-view.jpg",
+    "https://samujana.com/__l5e/assets-v1/ae65fc94-f2e9-4a4e-a83b-08a9b9a1e59c/2016-11-220728-Samujana-24-0064.jpg",
+    "https://samujana.com/__l5e/assets-v1/e274da75-d890-4eda-93f8-b2b2bbebd2bd/2016-11-220728-Samujana-24-0047.jpg",
+    "https://samujana.com/__l5e/assets-v1/dd908782-d544-418d-bcea-a146a24619ac/2016-11-220728-Samujana-24-0048.jpg"
+  ],
+  "location": "Plai Laem · Koh Samui · Thailand",
+  "place": "Plai Laem, Choeng Mon, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5611,100.0703",
+  "title": "Monumental Eight-Bedroom Hillside Estate, Plai Laem",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 8,
+  "bedsLabel": "8+",
+  "guests": 16,
+  "guestsLabel": "16",
+  "occupancy": "up to 16 guests",
+  "size": "Largest in the estate",
+  "nightlyNum": 0,
+  "nightly": "Price on request",
+  "note": "Fully staffed · weddings & events",
+  "sleeps": "16 guests · 8 bedrooms",
+  "blurb": "An eight-bedroom architectural masterpiece spanning two plots — the largest built-up villa on its hillside estate — with an expansive infinity pool, sunrise-and-sunset panoramas over the Gulf, two kitchens, a spa room, cinema and gym, built for grand celebrations.",
+  "detail": "An eight-bedroom architectural masterpiece that combines dramatic scale with refined design. Spanning two plots — the largest in the estate — it offers an unparalleled setting for both private escapes and corporate gatherings, its commanding position capturing panoramic views of both sunrise and sunset over the Gulf, making every occasion unforgettable.\n\nThe expansive infinity-edge pool and sweeping terraces create the centrepiece for outdoor life, while shaded salas and gardens extend the spaces for relaxation or large group events. The scale of the villa makes it equally suited to family vacations, weddings, wellness retreats and incentive trips — entertainment and functionality in balance.\n\nTwo fully equipped kitchens and a bar support catered events and private-chef dining, while a dedicated cinema, games room and private gym provide leisure and team-building, and a spa treatment room adds wellness to the mix. Each of the eight en-suite bedrooms is a private retreat with generous proportions, elegant bathrooms and panoramic outlooks — ten bathrooms in total, accommodating larger groups with ease, all under a fully staffed, ultra-luxury service.",
+  "features": [
+    {
+      "l": "Expansive infinity-edge pool",
+      "i": "pool"
+    },
+    {
+      "l": "Sunrise & sunset Gulf panoramas",
+      "i": "view"
+    },
+    {
+      "l": "Two kitchens · catered events",
+      "i": "utensils"
+    },
+    {
+      "l": "Cinema, games room & gym",
+      "i": "music"
+    },
+    {
+      "l": "Spa treatment room",
+      "i": "sparkles"
+    },
+    {
+      "l": "8 en-suite bedrooms · weddings & events",
+      "i": "users"
+    }
+  ]
+}

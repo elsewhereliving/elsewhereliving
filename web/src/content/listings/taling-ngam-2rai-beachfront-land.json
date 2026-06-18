@@ -1,0 +1,85 @@
+{
+  "id": "taling-ngam-2rai-beachfront-land",
+  "image": "/assets/listings/taling-ngam-2rai-beachfront-land/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/taling-ngam-2rai-beachfront-land/ext-001.jpg",
+    "/assets/listings/taling-ngam-2rai-beachfront-land/ext-002.jpg",
+    "/assets/listings/taling-ngam-2rai-beachfront-land/ext-003.jpg",
+    "/assets/listings/taling-ngam-2rai-beachfront-land/ext-004.jpg",
+    "/assets/listings/taling-ngam-2rai-beachfront-land/ext-005.jpg",
+    "/assets/listings/taling-ngam-2rai-beachfront-land/ext-006.jpg"
+  ],
+  "location": "Taling Ngam · Koh Samui · Thailand",
+  "place": "Taling Ngam, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.4280,99.9050",
+  "market": "Koh Samui",
+  "title": "2-Rai Beachfront Land on the Taling Ngam Coast",
+  "type": "Land",
+  "view": [
+    "Beachfront"
+  ],
+  "status": "Move-In Ready",
+  "beds": 0,
+  "baths": 0,
+  "interior": "—",
+  "plot": "3,200 m²",
+  "year": null,
+  "priceNum": 1669702,
+  "price": "$1,669,702",
+  "priceOriginal": "฿55,000,000",
+  "priceCurrency": "THB",
+  "added": 1,
+  "ownership": "Freehold",
+  "blurb": "A rare 2-rai (3,200 m²) freehold beachfront plot on one of Koh Samui's most serene coastlines, with direct beach frontage and turquoise Gulf-of-Thailand views. A gentle natural slope and easy build potential make it ideal for a private villa estate or boutique resort. Chanote title.",
+  "detail": "An exceptional 2-rai beachfront plot in Taling Ngam — a rare chance to acquire freehold property on one of Koh Samui's most serene and picturesque coastlines. With a direct beachfront position and breathtaking views of the turquoise Gulf of Thailand, the land suits a luxury private villa, a small collection of high-end villas, or a boutique resort, in an exclusive and tranquil part of the island.\n\nThe parcel measures 2 rai (3,200 m²), offering ample space for a large private estate with infinity pools, outdoor living areas and landscaped tropical gardens. Its gentle slope and natural elevation enhance the sea views while keeping construction straightforward, and direct beach frontage makes it one of the most versatile coastal offerings currently available on the island.\n\nTaling Ngam is renowned for its pristine coastline, dramatic sunsets and authentic island charm. Unlike the busier resort areas, the region remains unspoiled, protecting the privacy and exclusivity of properties here. Within a short drive are the famous Five Islands viewpoint, the InterContinental resort and beachside seafood restaurants, while Samui International Airport and the busier areas of Lamai and Chaweng are about thirty minutes away. Offered freehold under Chanote title, with private transformer and deep-well water in place.",
+  "features": [
+    {
+      "l": "2 rai · 3,200 m² beachfront plot",
+      "i": "plot"
+    },
+    {
+      "l": "Direct beach frontage",
+      "i": "waves"
+    },
+    {
+      "l": "Turquoise Gulf of Thailand views",
+      "i": "view"
+    },
+    {
+      "l": "Gentle slope & natural elevation",
+      "i": "mountain"
+    },
+    {
+      "l": "Suits a villa estate or boutique resort",
+      "i": "home"
+    },
+    {
+      "l": "Beach access & private road",
+      "i": "road"
+    },
+    {
+      "l": "Government electricity & water",
+      "i": "sparkles"
+    },
+    {
+      "l": "Private transformer & deep well",
+      "i": "building"
+    },
+    {
+      "l": "Near Five Islands & InterContinental",
+      "i": "users"
+    },
+    {
+      "l": "~30 min to Samui Airport",
+      "i": "car"
+    },
+    {
+      "l": "Chanote freehold title",
+      "i": "shield"
+    },
+    {
+      "l": "Dramatic southwest sunsets",
+      "i": "sun"
+    }
+  ]
+}

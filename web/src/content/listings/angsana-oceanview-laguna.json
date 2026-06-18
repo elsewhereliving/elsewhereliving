@@ -1,0 +1,82 @@
+{
+  "id": "angsana-oceanview-laguna",
+  "image": "/assets/listings/angsana-oceanview-laguna/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/angsana-oceanview-laguna/ext-001.jpg",
+    "/assets/listings/angsana-oceanview-laguna/ext-002.jpg",
+    "/assets/listings/angsana-oceanview-laguna/ext-003.jpg",
+    "/assets/listings/angsana-oceanview-laguna/ext-004.jpg",
+    "/assets/listings/angsana-oceanview-laguna/ext-005.jpg"
+  ],
+  "location": "Choeng Thale · Phuket · Thailand",
+  "place": "Angsana Oceanview Residences, Choeng Thale, Phuket, Thailand",
+  "mapQuery": "8.0048565,98.297836",
+  "market": "Phuket",
+  "title": "Angsana Oceanview Residences — Laguna Penthouse",
+  "type": "Condominium",
+  "view": "Waterfront",
+  "status": "Move-In Ready",
+  "beds": 2,
+  "baths": 2,
+  "interior": "304 m²",
+  "plot": null,
+  "year": 2025,
+  "priceNum": 2577845,
+  "price": "$2,577,845",
+  "priceOriginal": "฿84,940,000",
+  "priceCurrency": "THB",
+  "added": 10,
+  "ownership": "Freehold",
+  "blurb": "A refined beachfront residence within the iconic Laguna Phuket community — a sea-facing penthouse with its own infinity pool, steps from the soft sands of Bang Tao Beach and wrapped in resort-class service.",
+  "detail": "Angsana Oceanview Residences is a refined beachfront condominium offering 149 exclusive apartments across seven elegant floors. Developed by Laguna Property — creator of Laguna Seaside and Laguna Lakeside — this residence brings a new level of resort-style sophistication to the iconic Laguna Phuket community. The architecture blends contemporary elegance with distinctive Thai design, and every residence is designed as a secluded sanctuary: private, tranquil, and seamlessly connected to nature.\n\nThis sea-facing penthouse spans 304 m² with two bedrooms and two bathrooms, a private infinity pool, and a terrace framing uninterrupted ocean views. Floor-to-ceiling glass, an open kitchen and generous outdoor living space make it equally suited to unforgettable holidays or refined long-term living, just steps from Bang Tao Beach.\n\nSet within Laguna Phuket — awarded \"Asia's Best Integrated Resort\" — ownership opens onto world-class golf, spas, fine dining and beach clubs. A professionally managed rental program by Angsana Laguna Phuket offers strong income potential alongside a complimentary 60-day owner stay each year, while exclusive Sanctuary Club privileges extend special rates across Banyan Tree resorts, spas and boutiques worldwide.",
+  "features": [
+    {
+      "l": "Private infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Beachfront · steps to Bang Tao",
+      "i": "waves"
+    },
+    {
+      "l": "Panoramic ocean view",
+      "i": "view"
+    },
+    {
+      "l": "Sea-view terrace & balcony",
+      "i": "terrace"
+    },
+    {
+      "l": "Open kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Air conditioning",
+      "i": "wind"
+    },
+    {
+      "l": "Fitness centre / gym",
+      "i": "gym"
+    },
+    {
+      "l": "Luxury spa facilities",
+      "i": "sparkles"
+    },
+    {
+      "l": "Championship golf within Laguna",
+      "i": "sun"
+    },
+    {
+      "l": "Hotel-managed rental program",
+      "i": "trend"
+    },
+    {
+      "l": "24-hr security & CCTV",
+      "i": "shield"
+    },
+    {
+      "l": "Concierge & secure parking",
+      "i": "users"
+    }
+  ]
+}

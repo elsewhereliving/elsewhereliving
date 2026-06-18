@@ -1,0 +1,88 @@
+{
+  "id": "r-praison",
+  "image": "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/phuket/layan/villa-praison/overview/new-folder/villapraison_01_pool.webp",
+  "gallery": [
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/phuket/layan/villa-praison/overview/new-folder/villapraison_01_pool.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/phuket/layan/villa-praison/overview/new-folder/villapraison_03_oceanview.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/phuket/layan/villa-praison/overview/new-folder/villapraison_34_sunset.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/phuket/layan/villa-praison/overview/new-folder/villapraison_05_outdoorlivingarea.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/phuket/layan/villa-praison/overview/new-folder/villapraison_35_pool.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/phuket/layan/villa-praison/overview/new-folder/villapraison_33_terrace.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/phuket/layan/villa-praison/overview/new-folder/villapraison_24_livingarea.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/phuket/layan/villa-praison/overview/new-folder/villapraison_31_diningarea.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/phuket/layan/villa-praison/overview/new-folder/villapraison_06_bedroom.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/phuket/layan/villa-praison/overview/new-folder/villapraison_12_bedroom.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/phuket/layan/villa-praison/overview/new-folder/villapraison_19_bathtub.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/phuket/layan/villa-praison/overview/new-folder/villapraison_30_pooltable.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/phuket/layan/villa-praison/overview/new-folder/villapraison_18_bunkroom.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/phuket/layan/villa-praison/overview/new-folder/villapraison_37_landscapedgarden.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/phuket/layan/villa-praison/overview/new-folder/villapraison_38_villaexterior.webp"
+  ],
+  "location": "Phuket · Thailand",
+  "place": "Layan, Phuket, Thailand",
+  "mapQuery": "Layan Beach, Phuket, Thailand",
+  "title": "Five-Bedroom Clifftop Villa in Layan",
+  "view": "Sea View",
+  "beds": 5,
+  "bedsLabel": "4–5",
+  "guests": 16,
+  "guestsLabel": "8–16",
+  "occupancy": "8 adults + 8 children",
+  "size": "1,600 m²",
+  "nightlyNum": 1270,
+  "nightly": "$1,270",
+  "note": "2-night minimum",
+  "sleeps": "16 guests · 5 bedrooms",
+  "blurb": "A contemporary-Thai clifftop villa on Phuket's northwest coast, perched above Layan with the Andaman Sea filling every window. Five bedrooms over two levels, a 12.5-metre infinity pool, a games room and a private chef — built for big families and long, sunset-soaked weeks.",
+  "detail": "Set on an exclusive estate above Phuket's quiet northwest coast, this contemporary-Thai residence rises across two clifftop levels, framed on every side by forest green and the open Andaman. The upper floor opens into a soaring formal living room — high ceilings, polished hardwood and three sliding-glass walls that pull the view straight in — leading out to a wraparound balcony made for sundowners, and a twelve-seat dining room where your private chef sends out Thai, Western and Asian menus to order.\n\nDownstairs, the formality gives way to calm: a shaded living sala, alfresco dining under the breeze, and a 12.5-metre infinity pool that runs to the edge of the greenery. A games room with a snooker table, two lounge areas and Apple TV keeps every generation happy. Of the five bedrooms, the upper-floor master takes the view through full-height windows; the rest open straight to the pool, with one turned over to the children as a four-bunk dorm.\n\nThe home comes fully staffed — a villa manager, private chef, daily housekeeping, gardener and security — with Trisara and Banana Beach just minutes down the headland. Tell us your dates and we'll arrange transfers, provisioning, and anything else the week calls for.",
+  "features": [
+    {
+      "l": "Clifftop ocean view",
+      "i": "view"
+    },
+    {
+      "l": "12.5m infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Private chef",
+      "i": "utensils"
+    },
+    {
+      "l": "Daily housekeeping",
+      "i": "users"
+    },
+    {
+      "l": "Games & media room",
+      "i": "building"
+    },
+    {
+      "l": "SONOS sound system",
+      "i": "music"
+    },
+    {
+      "l": "BBQ & outdoor dining",
+      "i": "terrace"
+    },
+    {
+      "l": "Air conditioning",
+      "i": "wind"
+    },
+    {
+      "l": "High-speed WiFi",
+      "i": "wifi"
+    },
+    {
+      "l": "Kids' bunk room",
+      "i": "bed"
+    },
+    {
+      "l": "Yoga deck",
+      "i": "sparkles"
+    },
+    {
+      "l": "Private parking",
+      "i": "car"
+    }
+  ]
+}

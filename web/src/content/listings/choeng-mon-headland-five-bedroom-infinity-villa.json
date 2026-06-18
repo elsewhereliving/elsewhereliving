@@ -1,0 +1,87 @@
+{
+  "id": "choeng-mon-headland-five-bedroom-infinity-villa",
+  "image": "/assets/listings/samujana-villa-6/01.jpg",
+  "gallery": [
+    "/assets/listings/samujana-villa-6/01.jpg",
+    "/assets/listings/samujana-villa-6/02.jpg",
+    "/assets/listings/samujana-villa-6/03.jpg",
+    "/assets/listings/samujana-villa-6/04.jpg",
+    "/assets/listings/samujana-villa-6/05.jpg",
+    "/assets/listings/samujana-villa-6/06.jpg",
+    "/assets/listings/samujana-villa-6/07.jpg",
+    "/assets/listings/samujana-villa-6/08.jpg",
+    "/assets/listings/samujana-villa-6/09.jpg",
+    "/assets/listings/samujana-villa-6/10.jpg"
+  ],
+  "location": "Choeng Mon · Koh Samui · Thailand",
+  "place": "Choeng Mon headland estate, Bo Phut, Ko Samui District, Surat Thani 84320, Thailand",
+  "mapQuery": "9.561773,100.085597",
+  "market": "Koh Samui",
+  "title": "Five-Bedroom Headland Villa with Infinity Pool, Private Gym & Spa",
+  "type": "Villa",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 5,
+  "baths": 7,
+  "interior": "1,172 m²",
+  "plot": "1,919 m²",
+  "year": null,
+  "priceNum": 3200000,
+  "price": "$3,200,000",
+  "added": 57,
+  "ownership": "Leasehold",
+  "blurb": "A five-bedroom villa stepping down a headland above Koh Samui's northeast coast, where all five en-suite bedrooms open to outdoor terraces, daybeds and uninterrupted sea views. A 14-metre infinity pool, a large sunset entertainment deck, a private gym and a dedicated spa room make it a complete retreat — 1,172 m² of build on a 1,919 m² plot.",
+  "detail": "Set into a dramatic headland on one of the estate's elevated positions, this five-bedroom villa is composed across several levels that follow the fall of the land — public rooms and pool gathered around the view, bedrooms and wellness spaces tucked into quieter levels below. All five en-suite bedrooms feature their own outdoor terraces, daybeds and incredible sea views; a bonus children's room with bunk beds adjoins one bedroom to form a family suite, and bathrooms are finished with large bathtubs and, in places, outdoor showers.\n\nThe open-plan kitchen and living areas flow out to a 14.2 × 6.2 m infinity-edge pool and a large sunset deck that transforms into a full entertainment venue for dinners and gatherings above the sea. A television lounge with surround sound extends to the living area, while the home's sound system runs throughout.\n\nWellness and leisure are built in: a fully equipped gym for working out in style, and a dedicated spa room for traditional Thai massage, yoga or a couple's treatment. Landscaped gardens, a maid's room and private parking complete a turnkey home on the headland — minutes from the island's beaches, restaurants and the airport, yet entirely private.",
+  "features": [
+    {
+      "l": "14.2 × 6.2 m infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic Gulf sea views",
+      "i": "view"
+    },
+    {
+      "l": "Five en-suite bedrooms · 7 baths",
+      "i": "bed"
+    },
+    {
+      "l": "Bonus bunk-bed children's room",
+      "i": "home"
+    },
+    {
+      "l": "Sunset entertainment deck",
+      "i": "terrace"
+    },
+    {
+      "l": "Private gym",
+      "i": "gym"
+    },
+    {
+      "l": "Dedicated spa treatment room",
+      "i": "sparkles"
+    },
+    {
+      "l": "TV lounge with surround sound",
+      "i": "music"
+    },
+    {
+      "l": "Open-plan kitchen & living",
+      "i": "utensils"
+    },
+    {
+      "l": "1,172 m² build · 1,919 m² plot",
+      "i": "plot"
+    },
+    {
+      "l": "Landscaped gardens & maid's room",
+      "i": "tree"
+    },
+    {
+      "l": "Parking · gated estate",
+      "i": "car"
+    }
+  ]
+}

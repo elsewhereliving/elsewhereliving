@@ -1,0 +1,100 @@
+{
+  "id": "samui-panoramic-seaview-villa",
+  "image": "/assets/listings/samui-panoramic-seaview-villa/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/samui-panoramic-seaview-villa/ext-001.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-002.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-003.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-004.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-005.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-006.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-007.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-008.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-009.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-010.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-011.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-012.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-013.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-014.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-015.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-016.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-017.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-018.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-019.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-020.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-021.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-022.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-023.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-024.jpg",
+    "/assets/listings/samui-panoramic-seaview-villa/ext-025.jpg"
+  ],
+  "location": "Koh Samui · Thailand",
+  "place": "Koh Samui, Surat Thani, Thailand",
+  "mapQuery": "9.551944,100.018464",
+  "market": "Koh Samui",
+  "title": "Panoramic Sea-View Estate on Koh Samui",
+  "type": "Villa",
+  "view": "Sea View",
+  "status": "Move-In Ready",
+  "beds": 6,
+  "baths": 9,
+  "interior": "3,200 m²",
+  "plot": "4,000 m²",
+  "year": null,
+  "priceNum": 10000000,
+  "price": "$10,000,000",
+  "added": 23,
+  "ownership": "Freehold",
+  "blurb": "A six-bedroom estate conceived as one of Koh Samui's finest private havens — pavilion bedrooms with unobstructed sea and island views, a 25-metre infinity pool, and a resort's worth of amenities from private cinema and tennis court to a Muay Thai ring.",
+  "detail": "Welcome to a crown jewel of luxury living on Koh Samui — a stunning six-bedroom estate that stands as one of the island's finest private havens, perched for unobstructed views of the sea. You enter across stepping stones over a serene koi pond, with tall Buddha statues set into a stone-clad wall, setting the tone for the opulence that follows. At the heart of the residence, a two-storey pavilion houses a vast glass-walled lounge and dining room on the upper level, where contemporary artwork and a cascading glass chandelier meet seascapes and lush tropical forest on every side.\n\nThe three master bedrooms each occupy standalone pavilions, positioned for dramatic sea and island views from their king-size beds, with glass-walled rain showers, private rooftop gardens, terrazzo bathtubs and terraces — and one suite enjoys its own private 12-metre pool. Doors slide open onto wide terraces above the garden and the enticing 25-metre infinity pool, which blends seamlessly into the horizon.\n\nFar more than a retreat, the estate is an entertainment haven: a private cinema with ten recliners, a games room with pool table, a children's club and playroom, a fully equipped gym, sauna and dedicated spa room, plus a private tennis court and a Muay Thai boxing ring. With a full team of dedicated staff and private chef on hand, it is a singular setting for celebrations and gatherings — the pinnacle of luxury living on Koh Samui.",
+  "features": [
+    {
+      "l": "25 m infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic sea & island views",
+      "i": "view"
+    },
+    {
+      "l": "Three master pavilions",
+      "i": "bed"
+    },
+    {
+      "l": "One suite with private 12 m pool",
+      "i": "waves"
+    },
+    {
+      "l": "Private cinema (10 recliners)",
+      "i": "music"
+    },
+    {
+      "l": "Games room & kids' club",
+      "i": "users"
+    },
+    {
+      "l": "Gym, sauna & spa room",
+      "i": "gym"
+    },
+    {
+      "l": "Private tennis court & Muay Thai ring",
+      "i": "sparkles"
+    },
+    {
+      "l": "Glass-walled lounge & dining",
+      "i": "sofa"
+    },
+    {
+      "l": "Koi pond & landscaped gardens",
+      "i": "tree"
+    },
+    {
+      "l": "Private chef & dedicated staff",
+      "i": "utensils"
+    },
+    {
+      "l": "24-hour security & CCTV",
+      "i": "shield"
+    }
+  ]
+}

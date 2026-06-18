@@ -1,0 +1,82 @@
+{
+  "id": "taling-ngam-9rai-dual-view-seaview-land",
+  "image": "/assets/imagery/c-villa-pool.jpg",
+  "gallery": [
+    "/assets/imagery/c-villa-pool.jpg",
+    "/assets/imagery/c-deck-sea.jpg",
+    "/assets/imagery/c-ocean.jpg"
+  ],
+  "location": "Taling Ngam · Koh Samui · Thailand",
+  "place": "Taling Ngam, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.465833,99.939167",
+  "market": "Koh Samui",
+  "title": "9-Rai Dual-Aspect Sea-View Land near InterContinental, Taling Ngam",
+  "type": "Land",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 0,
+  "baths": 0,
+  "interior": "—",
+  "plot": "14,400 m²",
+  "year": null,
+  "priceNum": 1365777,
+  "price": "$1,365,777",
+  "priceOriginal": "฿45,000,000",
+  "priceCurrency": "THB",
+  "added": 71,
+  "ownership": "Freehold",
+  "blurb": "An elevated 9-rai parcel (14,400 m²) on Koh Samui's prized Taling Ngam coast, moments from the InterContinental, with two distinct outlooks: north toward Khanom and the Mu Ko Thale Tai national park, and west to the sunset over Koh Phaluai (Virgin Island). At about 57 m elevation and 700 m from the beach.",
+  "detail": "Set on the tranquil south-west coast of Koh Samui near the InterContinental, this 9-rai (14,400 m²) parcel enjoys a rare dual aspect from a single elevated holding. To one side, the land frames a sweeping view across the channel toward Khanom and the scattered islands of the Mu Ko Thale Tai national park; to the other, it opens west to the sunset over Koh Phaluai — the so-called Virgin Island — and the calm waters of the gulf.\n\nAt roughly 57 metres elevation, the site catches cooling breezes and commands clean sightlines above the treeline, ideal for a private villa, a multi-villa estate or a boutique development designed around the two contrasting panoramas. The beach lies about 700 metres away, with the amenities, dining and marina life of the Taling Ngam coast close at hand.\n\nFreehold and generous in scale, the land offers a strong canvas in one of the island's most established luxury enclaves, where sunset views and national-park scenery rarely come together on the same plot.",
+  "features": [
+    {
+      "l": "≈14,400 m² · 9 rai",
+      "i": "plot"
+    },
+    {
+      "l": "Dual-aspect sea views",
+      "i": "view"
+    },
+    {
+      "l": "Sunset over Koh Phaluai",
+      "i": "sun"
+    },
+    {
+      "l": "Khanom & Mu Ko Thale Tai outlook",
+      "i": "mountain"
+    },
+    {
+      "l": "≈57 m elevation",
+      "i": "building"
+    },
+    {
+      "l": "≈700 m from the beach",
+      "i": "waves"
+    },
+    {
+      "l": "Near InterContinental Koh Samui",
+      "i": "home"
+    },
+    {
+      "l": "Cooling elevated breezes",
+      "i": "tree"
+    },
+    {
+      "l": "Suits villa or boutique estate",
+      "i": "sparkles"
+    },
+    {
+      "l": "Established luxury enclave",
+      "i": "users"
+    },
+    {
+      "l": "Taling Ngam south-west coast",
+      "i": "key"
+    },
+    {
+      "l": "Freehold",
+      "i": "shield"
+    }
+  ]
+}

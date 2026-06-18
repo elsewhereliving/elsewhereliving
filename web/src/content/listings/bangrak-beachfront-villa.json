@@ -1,0 +1,92 @@
+{
+  "id": "bangrak-beachfront-villa",
+  "image": "/assets/listings/bangrak-beachfront-villa/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/bangrak-beachfront-villa/ext-001.jpg",
+    "/assets/listings/bangrak-beachfront-villa/ext-002.jpg",
+    "/assets/listings/bangrak-beachfront-villa/ext-003.jpg",
+    "/assets/listings/bangrak-beachfront-villa/ext-004.jpg",
+    "/assets/listings/bangrak-beachfront-villa/ext-005.jpg",
+    "/assets/listings/bangrak-beachfront-villa/ext-006.jpg",
+    "/assets/listings/bangrak-beachfront-villa/ext-007.jpg",
+    "/assets/listings/bangrak-beachfront-villa/ext-008.jpg",
+    "/assets/listings/bangrak-beachfront-villa/ext-009.jpg",
+    "/assets/listings/bangrak-beachfront-villa/ext-010.jpg",
+    "/assets/listings/bangrak-beachfront-villa/ext-011.jpg",
+    "/assets/listings/bangrak-beachfront-villa/ext-012.jpg"
+  ],
+  "location": "Bang Rak · Koh Samui · Thailand",
+  "place": "Bang Rak, Bo Phut, Ko Samui District, Surat Thani 84320, Thailand",
+  "mapQuery": "9.5560,100.0560",
+  "market": "Koh Samui",
+  "title": "Modern Four-Bedroom Beachfront Villa, Bang Rak",
+  "type": "Villa",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "status": "Off-Plan",
+  "beds": 4,
+  "baths": 4,
+  "interior": "461 m²",
+  "plot": "800 m²",
+  "year": null,
+  "priceNum": 2428658,
+  "price": "$2,428,658",
+  "priceOriginal": "฿80,000,000",
+  "priceCurrency": "THB",
+  "added": 1,
+  "ownership": "Freehold",
+  "blurb": "An absolute-beachfront four-bedroom villa on a 800 m² plot in prestigious Bang Rak, with 461 m² of refined modern architecture, panoramic Gulf views and turquoise water steps from the garden. Four en-suite bedrooms, a private pool, expansive terraces and direct beach access. Off-plan, freehold.",
+  "detail": "One of Koh Samui's most exclusive coastal offerings — a luxury four-bedroom villa positioned directly on the shoreline in prestigious Bang Rak, combining absolute beachfront positioning, panoramic ocean views and refined modern architecture. Set on a generous 800 m² plot with a built-up area of 461 m², it delivers privacy, elegance and direct access to the sea, a rare combination in today's market.\n\nThe villa enjoys uninterrupted sea views and oceanfront frontage, with panoramic vistas across the Gulf of Thailand and tranquil turquoise water just steps from the garden. Four spacious bedrooms each have an en-suite bathroom, and the layout blends open-plan living with clearly defined entertainment and relaxation zones. High ceilings, modern architectural lines and expansive glass openings flood the interior with light and frame the ocean backdrop, while premium materials and refined finishes elevate the ambiance.\n\nOutdoor living is central to the design: a private swimming pool, expansive terrace and balcony areas, a landscaped garden and direct beach access create a seamless indoor–outdoor flow for entertaining, sunset dining or relaxing in complete privacy by the sea. Premium features include a jacuzzi, a bar area, a kitchen island, a laundry room with washer/dryer, air conditioning throughout, a private gated entrance and covered parking.\n\nBang Rak remains one of Koh Samui's most desirable coastal neighbourhoods, with strong rental demand and convenient access to Fisherman's Village, international schools, restaurants and Samui International Airport. Absolute beachfront properties here are extremely limited, making this a rare acquisition — ideal as a private residence, executive holiday home or high-end rental investment. Off-plan and offered freehold — priced at ฿80,000,000.",
+  "features": [
+    {
+      "l": "Absolute beachfront position",
+      "i": "waves"
+    },
+    {
+      "l": "Panoramic Gulf of Thailand views",
+      "i": "view"
+    },
+    {
+      "l": "800 m² plot · 461 m² build",
+      "i": "plot"
+    },
+    {
+      "l": "Four en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Private pool & expansive terraces",
+      "i": "pool"
+    },
+    {
+      "l": "Direct beach access",
+      "i": "terrace"
+    },
+    {
+      "l": "Open-plan living, high ceilings",
+      "i": "home"
+    },
+    {
+      "l": "Jacuzzi & bar area",
+      "i": "sparkles"
+    },
+    {
+      "l": "Island kitchen & laundry room",
+      "i": "utensils"
+    },
+    {
+      "l": "Private gated entrance & covered parking",
+      "i": "car"
+    },
+    {
+      "l": "Minutes to Fisherman's Village & airport",
+      "i": "road"
+    },
+    {
+      "l": "Off-plan · freehold",
+      "i": "shield"
+    }
+  ]
+}

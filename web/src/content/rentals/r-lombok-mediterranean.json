@@ -1,0 +1,68 @@
+{
+  "id": "r-lombok-mediterranean",
+  "image": "https://www.tampahhills.com/wp-content/uploads/2025/02/Tampah-Hills-Villa-Solah-Hero.jpg",
+  "gallery": [
+    "https://www.tampahhills.com/wp-content/uploads/2025/02/Tampah-Hills-Villa-Solah-Hero.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/04/Villa-Solah-_-Interiors-@presbanproductions-31-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2023/05/Tampah-Hills-Villa-Solah-1-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/04/Villa-Solah-_-Interiors-@presbanproductions-137-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/04/Villa-Solah-_-Interiors-@presbanproductions-23-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/04/Villa-Solah-_-Interiors-@presbanproductions-135-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/04/Villa-Solah-_-Interiors-@presbanproductions-178-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/04/Villa-Solah-_-Interiors-@presbanproductions-101-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/04/Villa-Solah-_-Interiors-@presbanproductions-104-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/04/Villa-Solah-_-Interiors-@presbanproductions-107-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/04/Villa-Solah-_-Interiors-@presbanproductions-103-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/04/Villa-Solah-_-Interiors-@presbanproductions-7-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/04/Villa-Solah-_-Interiors-@presbanproductions-5-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/04/Villa-Solah-_-Interiors-@presbanproductions-184-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/04/Villa-Solah-_-Interiors-@presbanproductions-185-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2022/04/Villa-Solah-_-Interiors-@presbanproductions-167-1024x682.jpg"
+  ],
+  "location": "Lombok · Indonesia",
+  "place": "Southwest Lombok, Indonesia",
+  "mapQuery": "-8.899061,116.199542",
+  "title": "Mediterranean Twin-Wing Villa in Lombok",
+  "view": [
+    "Sea View",
+    "Mountain View"
+  ],
+  "beds": 5,
+  "bedsLabel": "5",
+  "guests": 10,
+  "guestsLabel": "10",
+  "occupancy": "up to 10 guests · three families",
+  "size": "957 m²",
+  "nightlyNum": 1650,
+  "nightly": "$1,650",
+  "note": "Breakfast & housekeeping included",
+  "sleeps": "10 guests · 5 bedrooms",
+  "blurb": "A majestic five-bedroom villa with Mediterranean inspiration — two grand wings around an expansive pool and lounge, rooftop gardens, a second upper pool, and breathtaking panoramas of the beach, the Indian Ocean and the valley.",
+  "detail": "A grand five-bedroom villa with Mediterranean inspiration, offering breathtaking panoramas of the beach, the Indian Ocean and the valley, and comfortably housing up to three families. Two grand wings stretch out on each side with an expansive pool and lounge area in front; both buildings have rooftop gardens, and there is also a second, private upper pool. Two expansive master bedrooms sit on the upper floor with three guest bedrooms below, alongside the kitchen/dining room and a large living and dining space opening to the pool.\n\nThe two master bedrooms are private havens of comfort with king beds, en-suite bathrooms, desks and lounge daybeds; among the lower bedrooms, one has an en-suite bath and direct access to the social areas. A sculptural tree in the lounge/pool area is a scenic design feature that also provides shade through the day — perfect for making the most of social evenings while still finding time for yoga or a quick lap.\n\nInspired by Mediterranean architecture, the villa is composed of straight, minimalist lines and natural-toned façades, with local cream marble and dark regional wood used for roofs, bedroom floors and details. Oriented south to maximise the views and minimise the need for air-conditioning, perforated concrete blocks invite plenty of breeze and cast a fascinating light show as the sun moves through the day.",
+  "features": [
+    {
+      "l": "180 m² pool + private rooftop pool",
+      "i": "pool"
+    },
+    {
+      "l": "Two grand wings · up to 3 families",
+      "i": "building"
+    },
+    {
+      "l": "Five bedrooms · two master suites",
+      "i": "bed"
+    },
+    {
+      "l": "Sculptural shade tree in the lounge",
+      "i": "tree"
+    },
+    {
+      "l": "Cream marble & dark wood, Mediterranean lines",
+      "i": "home"
+    },
+    {
+      "l": "Panoramic sea, beach & valley views",
+      "i": "view"
+    }
+  ]
+}

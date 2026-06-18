@@ -1,0 +1,92 @@
+{
+  "id": "layan-wellness-community-pool-villa",
+  "image": "/assets/listings/layan-wellness-community-pool-villa/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/layan-wellness-community-pool-villa/ext-001.jpg",
+    "/assets/listings/layan-wellness-community-pool-villa/ext-002.jpg",
+    "/assets/listings/layan-wellness-community-pool-villa/ext-003.jpg",
+    "/assets/listings/layan-wellness-community-pool-villa/ext-004.jpg",
+    "/assets/listings/layan-wellness-community-pool-villa/ext-005.jpg",
+    "/assets/listings/layan-wellness-community-pool-villa/ext-006.jpg",
+    "/assets/listings/layan-wellness-community-pool-villa/ext-007.jpg",
+    "/assets/listings/layan-wellness-community-pool-villa/ext-008.jpg",
+    "/assets/listings/layan-wellness-community-pool-villa/ext-009.jpg",
+    "/assets/listings/layan-wellness-community-pool-villa/ext-010.jpg",
+    "/assets/listings/layan-wellness-community-pool-villa/ext-011.jpg",
+    "/assets/listings/layan-wellness-community-pool-villa/ext-012.jpg",
+    "/assets/listings/layan-wellness-community-pool-villa/ext-013.jpg",
+    "/assets/listings/layan-wellness-community-pool-villa/ext-014.jpg"
+  ],
+  "location": "Layan · Phuket · Thailand",
+  "place": "Pru Jampa, Thep Krasattri, Thalang District, Phuket 83110, Thailand",
+  "mapQuery": "8.0130,98.3270",
+  "market": "Phuket",
+  "title": "Lakeside Pool Villa in an Ultra-Low-Density Wellness Community, Layan",
+  "type": "Villa",
+  "view": "Garden / Pool View",
+  "status": "Off-Plan",
+  "beds": 2,
+  "bedsLabel": "2–4",
+  "baths": "2–4",
+  "interior": "333–853 m²",
+  "plot": null,
+  "year": 2025,
+  "priceNum": 1852155,
+  "price": "From $1,852,155",
+  "priceOriginal": "฿61,000,000",
+  "priceCurrency": "THB",
+  "added": 1,
+  "ownership": "Freehold",
+  "blurb": "A pool villa within one of Asia's most ambitious wellness communities — an ultra-low-density estate of just 70 homes across 237 acres of forest, lakes and parkland, where only 15% of the land is built. Two- to four-bedroom villas in two architectural languages, set along natural lakes, with a managed wellness resort, clubhouse, Olympic pools and an 11 km jogging trail. Fully furnished.",
+  "detail": "A one-of-a-kind landmark that integrates a multigenerational living community with a world-class wellness destination in Layan, northern Phuket — built by the owners of one of the island's most exclusive pool-villa resorts on 600 rai (237 acres) of pristine green land. It is ultra-low-density by design: only 15% of the territory will ever be developed, the rest left to greenery, lakes and park zones, much of it endemic planting grown over decades. Just 70 villas exist in the entire community, and the estate minimises car traffic — guests park centrally and travel by electric shuttle — while avoiding harmful chemicals in favour of organic alternatives.\n\nThe villas are designed to blend into the landscape, most built along one of the natural lakes or ponds, and come in two architectural languages: one rich in timber and natural materials with contemporary Japanese, Chinese and Thai influences, the other a modernist composition of concrete and curved glass. Both offer two-, three- and four-bedroom layouts, with built-up areas ranging from 333 to 853 m². All are delivered with a full furniture package, with optional upgrades including a circadian lighting system.\n\nLife centres on wellbeing. An on-site resort and clinic — operated by one of the world's leading authorities in preventative and regenerative medicine — anchors a roster of facilities: a clubhouse with a Michelin Green Star zero-waste restaurant, an Active Movement Center with Olympic-sized pools and certified instructors, a mindfulness centre and grand hall, a wellness restaurant set on a lake, a wetland nature reserve for natural water filtration, a community garden, and a network of jogging tracks (11 km within the residential area alone). Concierge, housekeeping and an in-house rental programme are complemented by shuttle access to the founders' beach resort.\n\nThe setting in Pru Jampa keeps the estate gated, tranquil and green, yet within ten minutes of Boat Avenue, Porto de Phuket and the Laguna resort district. Layan Beach and the airport are around fifteen to seventeen minutes away. As a transformative multi-billion-baht development occupying a significant share of the area, the project is itself the kind of large-scale anchor that lifts surrounding land values as it matures. Offered freehold and fully furnished — priced from ฿61,000,000.",
+  "features": [
+    {
+      "l": "Ultra-low-density · 70 villas in 237 acres",
+      "i": "tree"
+    },
+    {
+      "l": "Only 15% built · forest, lakes & park",
+      "i": "view"
+    },
+    {
+      "l": "Managed wellness resort & clinic",
+      "i": "sparkles"
+    },
+    {
+      "l": "Two architectural languages, 2–4 beds",
+      "i": "home"
+    },
+    {
+      "l": "Built along natural lakes & ponds",
+      "i": "waves"
+    },
+    {
+      "l": "Private pool villas, 333–853 m²",
+      "i": "pool"
+    },
+    {
+      "l": "Michelin Green Star clubhouse dining",
+      "i": "utensils"
+    },
+    {
+      "l": "Olympic pools & sports complex",
+      "i": "gym"
+    },
+    {
+      "l": "Mindfulness centre & spa",
+      "i": "sofa"
+    },
+    {
+      "l": "11 km jogging trail · car-light estate",
+      "i": "road"
+    },
+    {
+      "l": "Concierge, housekeeping & shuttle",
+      "i": "users"
+    },
+    {
+      "l": "Fully furnished · rental programme",
+      "i": "key"
+    }
+  ]
+}

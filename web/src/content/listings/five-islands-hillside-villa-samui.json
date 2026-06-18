@@ -1,0 +1,120 @@
+{
+  "id": "five-islands-hillside-villa-samui",
+  "image": "/assets/imagery/baan-sang-hero.jpg",
+  "gallery": [
+    "/assets/imagery/baan-sang-hero.jpg",
+    "/assets/listings/baan-sang/01.jpg",
+    "/assets/listings/baan-sang/02.jpg",
+    "/assets/listings/baan-sang/03.jpg",
+    "/assets/listings/baan-sang/04.jpg",
+    "/assets/listings/baan-sang/05.jpg",
+    "/assets/listings/baan-sang/06.jpg",
+    "/assets/listings/baan-sang/07.jpg",
+    "/assets/listings/baan-sang/08.jpg",
+    "/assets/listings/baan-sang/09.jpg",
+    "/assets/listings/baan-sang/10.jpg",
+    "/assets/listings/baan-sang/11.jpg",
+    "/assets/listings/baan-sang/12.jpg",
+    "/assets/listings/baan-sang/13.jpg",
+    "/assets/listings/baan-sang/14.jpg",
+    "/assets/listings/baan-sang/15.jpg",
+    "/assets/listings/baan-sang/16.jpg",
+    "/assets/listings/baan-sang/17.jpg",
+    "/assets/listings/baan-sang/18.jpg",
+    "/assets/listings/baan-sang/19.jpg",
+    "/assets/listings/baan-sang/20.jpg",
+    "/assets/listings/baan-sang/21.jpg",
+    "/assets/listings/baan-sang/22.jpg",
+    "/assets/listings/baan-sang/23.jpg",
+    "/assets/listings/baan-sang/24.jpg",
+    "/assets/listings/baan-sang/25.jpg",
+    "/assets/listings/baan-sang/26.jpg",
+    "/assets/listings/baan-sang/27.jpg",
+    "/assets/listings/baan-sang/28.jpg",
+    "/assets/listings/baan-sang/29.jpg",
+    "/assets/listings/baan-sang/30.jpg",
+    "/assets/listings/baan-sang/31.jpg",
+    "/assets/listings/baan-sang/32.jpg",
+    "/assets/listings/baan-sang/33.jpg",
+    "/assets/listings/baan-sang/34.jpg",
+    "/assets/listings/baan-sang/35.jpg",
+    "/assets/listings/baan-sang/36.jpg",
+    "/assets/listings/baan-sang/37.jpg",
+    "/assets/listings/baan-sang/38.jpg"
+  ],
+  "video": "https://www.youtube.com/watch?v=FnnAkkgVE0U",
+  "location": "Taling Ngam · Koh Samui · Thailand",
+  "place": "Five Islands Estate, Taling Ngam, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.4525,99.9486",
+  "market": "Koh Samui",
+  "title": "Hillside Villa with 270° Five-Islands Views, Taling Ngam",
+  "type": "Villa",
+  "view": [
+    "Sea View",
+    "Mountain View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 4,
+  "baths": 5,
+  "interior": "1,451 m²",
+  "plot": "3,036 m²",
+  "year": null,
+  "priceNum": 5000000,
+  "price": "$5,000,000",
+  "added": 44,
+  "ownership": "Freehold",
+  "blurb": "A palatial four-bedroom villa perched on a green Taling Ngam hillside in a private estate of only a handful of homes — 270-degree panoramas over the Five Islands, Ang Thong Marine Park and the mountains, a 25-metre salt-water infinity pool, and finishes of hand-cut granite and Thai teak.",
+  "detail": "Set on the quiet south-west corner of Koh Samui within the exclusive Five Islands Estate, this is contemporary tropical living at its most assured — a palatial home spread across roughly 1,451 m² over three levels, on a generous 3,036 m² hillside plot. From its elevated position the villa commands a jaw-dropping 270-degree panorama over the sea, the famous Five Islands, the Ang Thong Marine Park, the distant mainland and the green valleys and mountains behind.\n\nBuilt to the highest specification, the architecture is a study in modern Thai coastal design — hand-cut local granite walls, Thai teak floors, doors and accents, imported Sukabumi stone and distinctive terrazzo floors, with custom cast-bronze fittings throughout. The ground floor opens an indoor-outdoor great room — lounge, bar, dining for twelve and a dine-in kitchen — directly onto the pool deck and a 25-metre infinity pool run on a salt-converter system rather than chlorine.\n\nFour en-suite bedrooms with king beds, indoor rain showers and generous wardrobes look out to sea, mountain and jungle; the lower level adds covered parking, service rooms, a dedicated spa and a secondary lounge with an 86-inch screen for cinema or yoga. One of just a few residences in the estate, it is offered fully finished — a turnkey trophy home five minutes from the beach and forty-five from the airport.",
+  "features": [
+    {
+      "l": "270° Five Islands & marine-park views",
+      "i": "view"
+    },
+    {
+      "l": "25 m salt-water infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Hand-cut granite & Thai teak",
+      "i": "home"
+    },
+    {
+      "l": "Three levels · ~1,451 m² build",
+      "i": "building"
+    },
+    {
+      "l": "Open great room · dining for 12",
+      "i": "utensils"
+    },
+    {
+      "l": "Four en-suite king bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Dedicated spa & 86-inch lounge",
+      "i": "sparkles"
+    },
+    {
+      "l": "Covered parking & service rooms",
+      "i": "car"
+    },
+    {
+      "l": "3,036 m² hillside plot",
+      "i": "plot"
+    },
+    {
+      "l": "Private estate of few villas",
+      "i": "shield"
+    },
+    {
+      "l": "5 minutes to the beach",
+      "i": "waves"
+    },
+    {
+      "l": "Spectacular sunset aspect",
+      "i": "sun"
+    }
+  ],
+  "featured": true,
+  "featuredOrder": 3
+}

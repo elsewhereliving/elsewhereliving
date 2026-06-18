@@ -1,0 +1,71 @@
+{
+  "id": "r-lombok-twinwing",
+  "image": "https://www.tampahhills.com/wp-content/uploads/2025/02/Tampah-Hills-Villa-Kastil-Utara-Hero.jpg",
+  "gallery": [
+    "https://www.tampahhills.com/wp-content/uploads/2025/02/Tampah-Hills-Villa-Kastil-Utara-Hero.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/01/Tampah-Hills-Villa-Kastil-Utara2-1024x575.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/01/Tampah-Hills-Villa-Kastil-Utara3-1024x575.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/01/Tampah-Hills-Villa-Kastil-Utara4-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/01/Tampah-Hills-Villa-Kastil-Utara5-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/01/Tampah-Hills-Villa-Kastil-Utara10-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/01/Tampah-Hills-Villa-Kastil-Utara12-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/01/Tampah-Hills-Villa-Kastil-Utara11-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/01/Tampah-Hills-Villa-Kastil-Utara16-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/01/Tampah-Hills-Villa-Kastil-Utara14-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/01/Tampah-Hills-Villa-Kastil-Utara19-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/01/Tampah-Hills-Villa-Kastil-Utara17-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/01/Tampah-Hills-Villa-Kastil-Utara21-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/01/Tampah-Hills-Villa-Kastil-Utara22-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/01/Tampah-Hills-Villa-Kastil-Utara23-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/01/Tampah-Hills-Villa-Kastil-Utara27-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/01/Tampah-Hills-Villa-Kastil-Utara9-1024x682.jpg"
+  ],
+  "location": "Lombok · Indonesia",
+  "place": "Southwest Lombok, Indonesia",
+  "mapQuery": "-8.899061,116.199542",
+  "title": "Twin-Wing Clifftop Estate in Lombok",
+  "view": [
+    "Sea View",
+    "Mountain View"
+  ],
+  "beds": 7,
+  "bedsLabel": "7",
+  "guests": 16,
+  "guestsLabel": "16",
+  "occupancy": "up to 16 guests",
+  "size": "1,761 m²",
+  "nightlyNum": 3327,
+  "nightly": "$3,327",
+  "nightlyOriginal": "IDR 54,223,125",
+  "nightlyCurrency": "IDR",
+  "note": "Breakfast & housekeeping included",
+  "sleeps": "16 guests · 7 bedrooms",
+  "blurb": "A grand two-wing estate — effectively two villas in one — joined by a central social space, sleeping sixteen, with a dramatic central lap pool that angles out toward the horizon and stone-and-ironwood interiors.",
+  "detail": "A grand residence immersed in a privileged Lombok hilltop position, arranged as two wings joined by a central social area — effectively two villas in one — balancing luxurious living and world-class service with the island's lush nature.\n\nWith seven bedrooms, the estate hosts up to sixteen guests, ideal for a large gathering or two families: two exquisite master suites, four spacious guest bedrooms with en-suite bathrooms, and a charming kids' room with custom-made bunk beds. The eastern wing features a large lap pool with a shallow section for children and a natural boulder cleverly integrated into the design.\n\nInteriors showcase a sophisticated blend of natural stone-clad walls, recycled ironwood decks and pillars, timber panels and terrazzo bathrooms, with open-air showers and views that immerse you in nature. Two large kitchen and dining areas and a massive central living room set the scene for golden-hour gatherings, and from the living room the extraordinary central lap pool angles out from the villa — giving the sensation of floating toward the horizon.",
+  "features": [
+    {
+      "l": "Two-wing layout · two villas in one",
+      "i": "building"
+    },
+    {
+      "l": "Central lap pool (129 m²)",
+      "i": "pool"
+    },
+    {
+      "l": "Sleeps 16 · 7 bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Two kitchens & living rooms",
+      "i": "utensils"
+    },
+    {
+      "l": "Stone-clad & ironwood interiors",
+      "i": "sparkles"
+    },
+    {
+      "l": "Panoramic sea & sunset views",
+      "i": "view"
+    }
+  ]
+}

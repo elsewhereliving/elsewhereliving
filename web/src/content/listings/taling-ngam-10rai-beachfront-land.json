@@ -1,0 +1,84 @@
+{
+  "id": "taling-ngam-10rai-beachfront-land",
+  "image": "/assets/listings/taling-ngam-10rai-beachfront-land/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/taling-ngam-10rai-beachfront-land/ext-001.jpg",
+    "/assets/listings/taling-ngam-10rai-beachfront-land/ext-002.jpg",
+    "/assets/listings/taling-ngam-10rai-beachfront-land/ext-003.jpg",
+    "/assets/listings/taling-ngam-10rai-beachfront-land/ext-004.jpg",
+    "/assets/listings/taling-ngam-10rai-beachfront-land/ext-005.jpg"
+  ],
+  "location": "Taling Ngam · Koh Samui · Thailand",
+  "place": "Taling Ngam, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.4260,99.9020",
+  "market": "Koh Samui",
+  "title": "10-Rai Beachfront Development Land, Taling Ngam",
+  "type": "Land",
+  "view": [
+    "Beachfront"
+  ],
+  "status": "Move-In Ready",
+  "beds": 0,
+  "baths": 0,
+  "interior": "—",
+  "plot": "16,000 m²",
+  "year": null,
+  "priceNum": 10625379,
+  "price": "$10,625,379",
+  "priceOriginal": "฿350,000,000",
+  "priceCurrency": "THB",
+  "added": 1,
+  "ownership": "Freehold",
+  "blurb": "A rare 10-rai (16,000 m²) freehold beachfront landholding on Taling Ngam's pristine southwest coast, with wide direct beach frontage and unmatched ocean and sunset views. A vast canvas for a luxury resort, boutique retreat or exclusive villa enclave. Chanote title.",
+  "detail": "An exceptional 10-rai beachfront landholding in Taling Ngam, offering unmatched ocean views and direct access to a pristine sandy beach — a rare opportunity for investors and developers to establish a luxury resort, boutique retreat or exclusive residential enclave in one of Samui's most sought-after coastal locations. The expansive parcel ensures privacy and exclusivity, wrapped in lush tropical greenery with the sound of waves at its edge.\n\nThe 10 rai (16,000 m²) provides a vast canvas for imaginative development — luxury villas, a boutique resort or an upscale residential community that blends modern architecture with the island's natural beauty. Its wide beachfront frontage allows multiple configurations that maximise sea views and private beach access, and freehold ownership adds long-term security and flexibility rarely found at this scale.\n\nSituated in the southwest of Koh Samui, Taling Ngam balances seclusion with accessibility — home to some of the island's most luxurious five-star resorts and upscale dining, yet peaceful and low-density. Lipa Noi Beach and Thong Krut Village, both known for authentic Thai charm and seafood, are close by, with the airport, malls and healthcare conveniently connected. Sunsets, calm waters and views toward the Ang Thong Marine Park complete the setting. Offered freehold under Chanote title, with private transformer, underground cables and government utilities in place.",
+  "features": [
+    {
+      "l": "10 rai · 16,000 m² beachfront",
+      "i": "plot"
+    },
+    {
+      "l": "Wide direct beach frontage",
+      "i": "waves"
+    },
+    {
+      "l": "Unmatched Gulf & sunset views",
+      "i": "view"
+    },
+    {
+      "l": "Suits a resort or villa enclave",
+      "i": "building"
+    },
+    {
+      "l": "Private, low-density setting",
+      "i": "tree"
+    },
+    {
+      "l": "Beach access & private road",
+      "i": "road"
+    },
+    {
+      "l": "Government electricity & water",
+      "i": "sparkles"
+    },
+    {
+      "l": "Private transformer & underground cables",
+      "i": "home"
+    },
+    {
+      "l": "Near Lipa Noi & Thong Krut Village",
+      "i": "users"
+    },
+    {
+      "l": "Views to Ang Thong Marine Park",
+      "i": "sun"
+    },
+    {
+      "l": "~30 min to Samui Airport",
+      "i": "car"
+    },
+    {
+      "l": "Chanote freehold title",
+      "i": "shield"
+    }
+  ]
+}

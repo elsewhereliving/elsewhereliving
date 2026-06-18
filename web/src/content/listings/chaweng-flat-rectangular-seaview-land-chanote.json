@@ -1,0 +1,86 @@
+{
+  "id": "chaweng-flat-rectangular-seaview-land-chanote",
+  "image": "/assets/listings/chaweng-land-chanote/01.jpg",
+  "gallery": [
+    "/assets/listings/chaweng-land-chanote/01.jpg",
+    "/assets/listings/chaweng-land-chanote/02.jpg",
+    "/assets/listings/chaweng-land-chanote/03.jpg",
+    "/assets/listings/chaweng-land-chanote/04.jpg",
+    "/assets/listings/chaweng-land-chanote/05.jpg",
+    "/assets/listings/chaweng-land-chanote/06.jpg",
+    "/assets/listings/chaweng-land-chanote/07.jpg"
+  ],
+  "location": "Chaweng · Koh Samui · Thailand",
+  "place": "Chaweng, Bo Phut, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.513217,100.049579",
+  "market": "Koh Samui",
+  "title": "443 sqm, Flat Rectangular Sea-View Plot with Road Access, Chaweng",
+  "type": "Land",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 0,
+  "baths": 0,
+  "interior": "—",
+  "plot": "442.8 m²",
+  "year": null,
+  "priceNum": 166970,
+  "price": "$166,970",
+  "priceOriginal": "฿5,500,000",
+  "priceCurrency": "THB",
+  "added": 66,
+  "ownership": "Freehold",
+  "blurb": "A flat, regularly shaped 442.8 m² plot (1 ngan 10.7 wah) in the Chaweng area, with direct road frontage, a Chanote title and elevated views toward the coastline and sea. Its practical rectangular dimensions make it well suited to a private pool villa, a small development or a residential investment. Freehold.",
+  "detail": "Situated in the Chaweng area, this rectangular land parcel offers convenient road frontage and easy access, making it suitable for a private residence, a villa development or an investment project. The plot benefits from a practical shape and dimensions that allow for efficient design and construction, and its elevated position opens to views over the surrounding town and the sea beyond.\n\nThe land measures approximately 442.8 m² (1 ngan 10.7 wah) under Chanote title, with a front width of about 20.23 m, a rear width of about 16.11 m, and side boundaries of roughly 22.03 m and 21.86 m. Flat and regularly shaped, it maximises usable space and allows for efficient planning while maintaining generous outdoor living areas, with established neighbouring properties and direct access for construction.\n\nThe dimensions are ideal for constructing a private pool villa, a holiday residence or a boutique investment property. Whether intended as a future home, a vacation retreat or a long-term investment, this freehold plot offers strong potential in one of Thailand's most desirable island destinations.",
+  "features": [
+    {
+      "l": "442.8 m² · 1 ngan 10.7 wah",
+      "i": "plot"
+    },
+    {
+      "l": "Flat, regularly shaped plot",
+      "i": "building"
+    },
+    {
+      "l": "Sea & coastline views",
+      "i": "view"
+    },
+    {
+      "l": "Direct road access & frontage",
+      "i": "car"
+    },
+    {
+      "l": "Chanote freehold title",
+      "i": "shield"
+    },
+    {
+      "l": "Front width ≈ 20.23 m",
+      "i": "home"
+    },
+    {
+      "l": "Side boundaries ≈ 22 m",
+      "i": "key"
+    },
+    {
+      "l": "Suits a private pool villa",
+      "i": "pool"
+    },
+    {
+      "l": "Residential or investment use",
+      "i": "sparkles"
+    },
+    {
+      "l": "Established neighbouring homes",
+      "i": "users"
+    },
+    {
+      "l": "Easy access for construction",
+      "i": "sun"
+    },
+    {
+      "l": "Convenient for architectural planning",
+      "i": "tree"
+    }
+  ]
+}

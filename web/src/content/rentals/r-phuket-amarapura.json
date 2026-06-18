@@ -1,0 +1,68 @@
+{
+  "id": "r-phuket-amarapura",
+  "image": "https://www.theluxurysignature.com/wp-content/uploads/2022/12/45-Villa-Amarapura-Phuket-Cape-Yamu-Aerial-View.jpg",
+  "gallery": [
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/45-Villa-Amarapura-Phuket-Cape-Yamu-Aerial-View.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/01-Villa-Amarapura-Phuket-Cape-Yamu-Open-Living-Space.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/03.3-Villa-Amarapura-Phuket-Cape-Yamu-Swimming-Pool-Area.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/03.1-Villa-Amarapura-Phuket-Cape-Yamu-Swimming-Pool-Area.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/05-Villa-Amarapura-Phuket-Cape-Yamu-Swimming-Pool-Area.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/06-Villa-Amarapura-Phuket-Cape-Yamu-Sala.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/10-Villa-Amarapura-Phuket-Cape-Yamu-Outside-Lounging.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/12-Villa-Amarapura-Phuket-Cape-Yamu-Jacuzzi.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/16-Villa-Amarapura-Phuket-Cape-Yamu-Dining-Living-Area.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/21-Villa-Amarapura-Phuket-Cape-Yamu-Kitchen-Breakfast-Area.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/50-Villa-Amarapura-Phuket-Cape-Yamu-Master-Bedroom-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/55-Villa-Amarapura-Phuket-Cape-Yamu-Master-Bedroom-2.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/29.1-Villa-Amarapura-Phuket-Cape-Yamu-Cinema.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/32-Villa-Amarapura-Phuket-Cape-Yamu-Game-Room.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2022/12/35-Villa-Amarapura-Phuket-Cape-Yamu-Fitness-Room.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2021/07/86-Villa-Amarapura-Phuket-Cape-Yamu-By-Night.jpg"
+  ],
+  "location": "Cape Yamu · Phuket · Thailand",
+  "place": "Cape Yamu, Pa Klok, Thalang, Phuket, Thailand",
+  "mapQuery": "7.9939267,98.4095672",
+  "title": "Villa Amarapura — Beachfront Estate, Cape Yamu",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 7,
+  "bedsLabel": "5–7",
+  "guests": 14,
+  "guestsLabel": "14",
+  "occupancy": "up to 14 guests",
+  "size": "2,570 m²",
+  "nightlyNum": 4010,
+  "nightly": "$4,010",
+  "note": "Fully staffed incl. chef",
+  "sleeps": "14 guests · up to 7 bedrooms",
+  "blurb": "A seven-bedroom beachfront estate on Cape Yamu's serene eastern coast — a 25-metre infinity pool over the Andaman, a starlit atrium living room, cinema, games room with golf simulator, gym and its own basketball court, with six staff.",
+  "detail": "Situated in the luxurious vacation haven of Cape Yamu on Phuket's serene eastern coastline overlooking the Andaman Sea, Villa Amarapura is a seven-bedroom contemporary villa vision. Built in 2016 across 2,570 m² on a 7,300 m² beachfront plot, it combines the must-have elements of a luxury holiday rental — including six staff and a private chef — with stunning features and upscale design, for a chic, glamorous and comfortable retreat.\n\nThe infinity pool is absolutely stunning, with super-king beds in the two master rooms and gorgeous sea, pool or garden views from every bedroom; one suite is housed in an ultra-modern white-cube bungalow down a stepping-stone path. Bathrooms have star quality with rounded freestanding tubs, and an over-the-pool deck and wooden nest seats lend the outdoor space a trendy feel. In the evening, the architecture of the atrium living room lights up with magical starlight chandeliers.\n\nRelaxation meets activity: a cinema, TV room and lounge, a games room with a high-tech golf simulator and pool table, a fitness room, a putting green, a basketball court and a poolside BBQ sala. Practise your swing, shoot some hoops, or kayak the bay — Villa Amarapura delivers a truly exceptional villa vacation, minutes from COMO Point Yamu and the estate's restaurants.",
+  "features": [
+    {
+      "l": "25 m infinity pool over the Andaman",
+      "i": "pool"
+    },
+    {
+      "l": "Beachfront on Cape Yamu",
+      "i": "waves"
+    },
+    {
+      "l": "Cinema & games room w/ golf simulator",
+      "i": "music"
+    },
+    {
+      "l": "Fitness room & 6-person jacuzzi",
+      "i": "gym"
+    },
+    {
+      "l": "Basketball court & putting green",
+      "i": "sparkles"
+    },
+    {
+      "l": "7 en-suite bedrooms · 6 staff + chef",
+      "i": "users"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+---
+import "../styles/global.css";
+import Nav from "../components/react/Nav.tsx";
+import Footer from "../components/Footer.astro";
+
+const DS = "/_ds/design-system-abef38a9-b4ec-454e-999b-5c22fa6c925a";
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  /** route key for nav active state */
+  current?: string;
+  /** true on pages with a dark full-bleed hero at the top */
+  transparentNav?: boolean;
+  /** path for canonical (defaults to current URL path) */
+  canonicalPath?: string;
+  /** optional extra JSON-LD object */
+  jsonLd?: Record<string, unknown>;
+}
+
+const {
+  title = "Luxury Villas & Property for Sale in Koh Samui | Elsewhere Living",
+  description = "Buy luxury villas, condominiums and land in Koh Samui, Phuket, Bangkok, Bali and Dubai. Boutique real estate, bespoke custom homes and luxury vacation rentals — find your elsewhere.",
+  image = "/assets/imagery/og-image.jpg",
+  current = "home",
+  transparentNav = false,
+  canonicalPath,
+  jsonLd,
+} = Astro.props;
+
+const canonical = new URL(canonicalPath ?? Astro.url.pathname, Astro.site ?? "https://elsewhere.living").href;
+const ogImage = new URL(image, Astro.site ?? "https://elsewhere.living").href;
+
+const orgLd = {
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  name: "Elsewhere Living",
+  url: "https://elsewhere.living/",
+  image: ogImage,
+  description,
+  email: "contact@elsewhere.living",
+  telephone: "+66929993852",
+  areaServed: ["Koh Samui", "Phuket", "Bangkok", "Bali", "Dubai"],
+  slogan: "Find Your Elsewhere",
+};
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#152644" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/imagery/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/imagery/favicon-16.png" />
+    <link rel="apple-touch-icon" href="/assets/imagery/apple-touch-icon.png" />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Elsewhere Living" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <!-- Design-system tokens + brand utilities -->
+    <link rel="stylesheet" href={`${DS}/tokens/fonts.css`} />
+    <link rel="stylesheet" href={`${DS}/tokens/colors.css`} />
+    <link rel="stylesheet" href={`${DS}/tokens/typography.css`} />
+    <link rel="stylesheet" href={`${DS}/tokens/spacing.css`} />
+    <link rel="stylesheet" href={`${DS}/tokens/base.css`} />
+
+    <script type="application/ld+json" set:html={JSON.stringify(orgLd)} />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  </head>
+  <body>
+    <Nav current={current} transparent={transparentNav} client:load />
+    <main id="top">
+      <slot />
+    </main>
+    <Footer />
+    <div id="paper-vignette"></div>
+    <div id="paper-grain"></div>
+
+    <!-- Editorial scroll reveal: fade + lift .reveal elements into view, once. -->
+    <script is:inline>
+      (function () {
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+          document.querySelectorAll(".reveal").forEach((el) => el.classList.add("is-in"));
+          return;
+        }
+        const io = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((e) => {
+              if (e.isIntersecting) {
+                e.target.classList.add("is-in");
+                io.unobserve(e.target);
+              }
+            });
+          },
+          { threshold: 0.12, rootMargin: "0px 0px -8% 0px" }
+        );
+        const watch = () => document.querySelectorAll(".reveal:not(.is-in)").forEach((el) => io.observe(el));
+        watch();
+        document.addEventListener("astro:after-swap", watch);
+      })();
+    </script>
+  </body>
+</html>

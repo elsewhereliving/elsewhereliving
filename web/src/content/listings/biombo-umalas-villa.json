@@ -1,0 +1,80 @@
+{
+  "id": "biombo-umalas-villa",
+  "image": "/assets/listings/biombo-umalas-villa/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/biombo-umalas-villa/ext-001.jpg",
+    "/assets/listings/biombo-umalas-villa/ext-002.jpg",
+    "/assets/listings/biombo-umalas-villa/ext-003.jpg",
+    "/assets/listings/biombo-umalas-villa/ext-004.jpg",
+    "/assets/listings/biombo-umalas-villa/ext-005.jpg"
+  ],
+  "location": "Umalas · Bali · Indonesia",
+  "place": "Umalas, Kerobokan, North Kuta, Bali, Indonesia",
+  "mapQuery": "-8.65828,115.15808",
+  "market": "Bali",
+  "title": "Biombo Architects Tropical Villa in Umalas",
+  "type": "Villa",
+  "view": "Garden / Pool View",
+  "status": "Move-In Ready",
+  "beds": 3,
+  "baths": 4,
+  "interior": "290 m²",
+  "plot": "400 m²",
+  "year": 2023,
+  "priceNum": 995000,
+  "price": "$995,000",
+  "added": 37,
+  "ownership": "Leasehold",
+  "blurb": "An award-winning Biombo Architects villa in tranquil Umalas — three en-suite bedrooms, an integrated indoor pool, a signature aged-wood roof and a diagonal layout that draws the eye straight through to the water, under 2 km from Berawa Beach.",
+  "detail": "A modern architectural masterpiece in the tranquil, highly sought-after area of Umalas, this villa captures the essence of luxury tropical living — serene yet convenient, with easy access to Umalas's dining scene and chic cafés, and just under 2 km from Berawa Beach. Crafted by the renowned Biombo Architects, it forms part of an exclusive private compound of three architectural gems.\n\nThe villa is a true expression of modern minimalism intertwined with natural beauty. Its open-plan living area flows gracefully toward the pool, and a distinctive diagonal layout enhances openness and fluidity — the clever orientation optimising natural light and offering uninterrupted views from the entrance through to the integrated pool at the home's heart. Three elegant bedrooms each have en-suite bathrooms, with a sunken circular bathtub positioned as a statement feature.\n\nA signature architectural roof of aged wooden tiles gracefully envelops the villa — a hallmark of Biombo's refined aesthetic — while stone finishes and organic textures reflect timeless elegance and sustainability. Refined yet understated, it suits a residence, holiday home or investment alike, in an exclusive compound of only three villas. Offered leasehold to 2051 with the possibility to extend.",
+  "features": [
+    {
+      "l": "Designed by Biombo Architects",
+      "i": "sparkles"
+    },
+    {
+      "l": "Integrated indoor pool",
+      "i": "pool"
+    },
+    {
+      "l": "Signature aged-wood roof",
+      "i": "home"
+    },
+    {
+      "l": "Three en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Sunken circular bathtub",
+      "i": "bath"
+    },
+    {
+      "l": "Diagonal layout, extended pool view",
+      "i": "view"
+    },
+    {
+      "l": "Seamless indoor-outdoor living",
+      "i": "terrace"
+    },
+    {
+      "l": "Stone & organic textures",
+      "i": "tree"
+    },
+    {
+      "l": "Open kitchen with island & bar",
+      "i": "utensils"
+    },
+    {
+      "l": "Exclusive 3-villa compound",
+      "i": "shield"
+    },
+    {
+      "l": "Under 2 km to Berawa Beach",
+      "i": "road"
+    },
+    {
+      "l": "Leasehold to 2051 (extendable)",
+      "i": "key"
+    }
+  ]
+}

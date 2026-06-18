@@ -1,0 +1,85 @@
+{
+  "id": "r-samui-plailaem-horizon-pool-spa-villa",
+  "image": "https://samujana.com/__l5e/assets-v1/733a1f26-da55-45bc-af87-2a1590b1dd6c/2016-11-250922-Samujana-28-0045.jpg",
+  "gallery": [
+    "https://samujana.com/__l5e/assets-v1/733a1f26-da55-45bc-af87-2a1590b1dd6c/2016-11-250922-Samujana-28-0045.jpg",
+    "https://samujana.com/__l5e/assets-v1/81d4c871-eba6-4ebf-893a-8f5efa971ee7/2016-11-250922-Samujana-28-0066.jpg",
+    "https://samujana.com/__l5e/assets-v1/f454e9e8-db4b-4799-8504-64ca4273212c/2016-11-200818-Samujana-28-0021.jpg",
+    "https://samujana.com/__l5e/assets-v1/f20bb816-b53d-492d-8984-b3f54d8ee2b0/2016-11-250922-Samujana-28-0024.jpg",
+    "https://samujana.com/__l5e/assets-v1/92b29264-5427-4436-9a07-fa4893bc1021/2016-11-250922-Samujana-28-0011.jpg",
+    "https://samujana.com/__l5e/assets-v1/a0a53db8-4750-49f4-ba10-78bb38e57036/2016-11-250922-Samujana-28-0041-1.jpg",
+    "https://samujana.com/__l5e/assets-v1/be7957ba-7de6-4d7b-9c80-84b321f481f1/2016-11-250922-Samujana-28-0060.jpg",
+    "https://samujana.com/__l5e/assets-v1/4cfbfbb5-f460-49ee-92ee-3f7a39928299/2016-11-250922-Samujana-28-0048.jpg",
+    "https://samujana.com/__l5e/assets-v1/e9968fbf-1e0b-4063-b400-cacd5b590921/2016-11-200818-Samujana-28-0086.jpg"
+  ],
+  "location": "Plai Laem · Koh Samui · Thailand",
+  "place": "Plai Laem, Bo Phut, Ko Samui District, Surat Thani 84320, Thailand",
+  "mapQuery": "9.561773,100.085597",
+  "title": "Hillside Villa with Horizon-Edge Pool, Cinema & Spa Room, Plai Laem",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 6,
+  "bedsLabel": "6",
+  "baths": 8,
+  "guests": 12,
+  "guestsLabel": "12",
+  "occupancy": "up to 12 guests",
+  "size": "1,200 m²",
+  "nightlyNum": 3180,
+  "nightly": "$3,180",
+  "note": "Fully staffed · private chef available",
+  "sleeps": "up to 12 guests · 6 bedrooms",
+  "blurb": "A six-bedroom hillside villa above Koh Samui's north-eastern coast with over 1,200 m² of living space and an outstanding roster of facilities — a horizon-edge infinity pool, a poolside BBQ sala, a private cinema, gym, games room, spa treatment room and yoga deck, with six en-suite king bedrooms all opening to the sea.",
+  "detail": "Elevated above Koh Samui's north-eastern coastline, this six-bedroom hillside villa pairs panoramic ocean views with an outstanding collection of facilities — private yet just minutes from Choeng Mon's calm bay and Chaweng's lively dining and nightlife. Its centrepiece is a horizon-edge infinity pool flanked by sun terraces, shaded lounges and a rooftop deck, with a poolside BBQ sala and al fresco dining for long lunches and starlit evenings.\n\nIndoors, an air-conditioned sea-view lounge and open living areas deliver comfort and style in equal measure. Each of the six en-suite bedrooms is conceived as a private retreat, finished with elegant textures and opening onto terraces or balconies that invite in the sea breeze. The layout balances generous shared spaces with quiet corners for downtime, making it ideal for families or groups travelling together.\n\nEntertainment and leisure sit at the heart of the home: a private cinema seats the whole group for movie nights, a gym keeps routines on track, and the games room is stocked with table tennis, PlayStation, Wii U and board games. A dedicated yoga deck offers a tranquil space for sunrise stretches, and a spa treatment room brings wellness in-house. For dining, a designer kitchen — two professional kitchens in all — and the poolside BBQ sala make every meal an occasion.\n\nWith over 1,200 m² of living space, the villa is large enough for any occasion. A dedicated villa manager and resident team look after the stay, with a full-service kitchen and bar, Nuvo sound system throughout, private parking, full backup generators and uniformed security.",
+  "features": [
+    {
+      "l": "Horizon-edge infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic north-east sea views",
+      "i": "view"
+    },
+    {
+      "l": "Over 1,200 m² of living space",
+      "i": "plot"
+    },
+    {
+      "l": "Private cinema & projector",
+      "i": "music"
+    },
+    {
+      "l": "Private gym & games room",
+      "i": "gym"
+    },
+    {
+      "l": "Six en-suite bedrooms · 8 baths",
+      "i": "bed"
+    },
+    {
+      "l": "Spa treatment room",
+      "i": "sparkles"
+    },
+    {
+      "l": "Yoga deck & rooftop terrace",
+      "i": "tree"
+    },
+    {
+      "l": "Two professional kitchens",
+      "i": "utensils"
+    },
+    {
+      "l": "Poolside BBQ sala & al fresco dining",
+      "i": "terrace"
+    },
+    {
+      "l": "Villa manager & private parking",
+      "i": "car"
+    },
+    {
+      "l": "Backup power & uniformed security",
+      "i": "shield"
+    }
+  ]
+}

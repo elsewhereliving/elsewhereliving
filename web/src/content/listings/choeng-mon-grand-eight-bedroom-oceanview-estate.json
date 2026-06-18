@@ -1,0 +1,89 @@
+{
+  "id": "choeng-mon-grand-eight-bedroom-oceanview-estate",
+  "image": "/assets/listings/choeng-mon-grand-eight-bedroom-oceanview-estate/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/choeng-mon-grand-eight-bedroom-oceanview-estate/ext-001.jpg",
+    "/assets/listings/choeng-mon-grand-eight-bedroom-oceanview-estate/ext-002.jpg",
+    "/assets/listings/choeng-mon-grand-eight-bedroom-oceanview-estate/ext-003.jpg",
+    "/assets/listings/choeng-mon-grand-eight-bedroom-oceanview-estate/ext-004.jpg",
+    "/assets/listings/choeng-mon-grand-eight-bedroom-oceanview-estate/ext-005.jpg",
+    "/assets/listings/choeng-mon-grand-eight-bedroom-oceanview-estate/ext-006.jpg",
+    "/assets/listings/choeng-mon-grand-eight-bedroom-oceanview-estate/ext-007.jpg",
+    "/assets/listings/choeng-mon-grand-eight-bedroom-oceanview-estate/ext-008.jpg",
+    "/assets/listings/choeng-mon-grand-eight-bedroom-oceanview-estate/ext-009.jpg",
+    "/assets/listings/choeng-mon-grand-eight-bedroom-oceanview-estate/ext-010.jpg",
+    "/assets/listings/choeng-mon-grand-eight-bedroom-oceanview-estate/ext-011.jpg",
+    "/assets/listings/choeng-mon-grand-eight-bedroom-oceanview-estate/ext-012.jpg"
+  ],
+  "location": "Choeng Mon · Koh Samui · Thailand",
+  "place": "Choeng Mon headland estate, Bo Phut, Ko Samui District, Surat Thani 84240, Thailand",
+  "mapQuery": "9.561773,100.085597",
+  "market": "Koh Samui",
+  "title": "Grand Eight-Bedroom Ocean-View Estate with Infinity Pool & Twin Kitchens",
+  "type": "Villa",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 8,
+  "baths": 10,
+  "interior": "1,808 m²",
+  "plot": "2,164 m²",
+  "year": null,
+  "priceNum": 5500000,
+  "price": "$5,500,000",
+  "added": 61,
+  "ownership": "Leasehold",
+  "blurb": "One of the island's largest private estates — eight oversized en-suite bedrooms across 1,808 m² of build on a 2,164 m² freehold headland plot above Choeng Mon, with panoramic ocean views, an infinity pool, twin kitchens and resort-scale entertaining space. Fully furnished and move-in ready.",
+  "detail": "Set on an elevated headland in the prestigious Choeng Mon area, this is a rare mega-estate built for grand-scale living. Across 1,808 m² of built area on a 2,164 m² freehold Chanote plot, the home pairs unmatched scale with premium craftsmanship — high ceilings, expansive open-plan rooms and floor-to-ceiling glass framing sweeping views over the Gulf of Thailand.\n\nEight oversized bedrooms each have private en-suite bathrooms and in-room comforts, with ten bathrooms in total giving flexibility for large families, multi-generational stays or a high-yield luxury rental operation. Two fully equipped kitchens serve both everyday life and professional catering, while a grand lounge anchors the home alongside multiple TV and relaxation rooms for privacy and entertaining.\n\nOutdoor living centres on a large infinity pool and generous terraces, all oriented to capture the panoramic Choeng Mon seascape. Turnkey furnishings, government power and water, a private transformer, smart-home systems and a gated, secured setting complete a move-in-ready estate — minutes from Choeng Mon Beach, Chaweng, Fisherman's Village and Samui International Airport.",
+  "features": [
+    {
+      "l": "Infinity pool over the Gulf",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic Choeng Mon sea views",
+      "i": "view"
+    },
+    {
+      "l": "Eight en-suite bedrooms · 10 baths",
+      "i": "bed"
+    },
+    {
+      "l": "1,808 m² build · 2,164 m² plot",
+      "i": "plot"
+    },
+    {
+      "l": "Two fully equipped kitchens",
+      "i": "utensils"
+    },
+    {
+      "l": "Grand lounge & multiple TV rooms",
+      "i": "sofa"
+    },
+    {
+      "l": "Generous pool deck & terraces",
+      "i": "terrace"
+    },
+    {
+      "l": "Fully furnished & turnkey",
+      "i": "sparkles"
+    },
+    {
+      "l": "Freehold · Chanote title",
+      "i": "shield"
+    },
+    {
+      "l": "Smart-home · CCTV · 24/7 security",
+      "i": "key"
+    },
+    {
+      "l": "Private parking & carport",
+      "i": "car"
+    },
+    {
+      "l": "Gated community · private road",
+      "i": "home"
+    }
+  ]
+}

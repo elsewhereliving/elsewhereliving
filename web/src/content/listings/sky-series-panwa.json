@@ -1,0 +1,91 @@
+{
+  "id": "sky-series-panwa",
+  "image": "/assets/listings/sky-series-panwa/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/sky-series-panwa/ext-001.jpg",
+    "/assets/listings/sky-series-panwa/ext-002.jpg",
+    "/assets/listings/sky-series-panwa/ext-003.jpg",
+    "/assets/listings/sky-series-panwa/ext-004.jpg",
+    "/assets/listings/sky-series-panwa/ext-005.jpg",
+    "/assets/listings/sky-series-panwa/ext-006.jpg",
+    "/assets/listings/sky-series-panwa/ext-007.jpg",
+    "/assets/listings/sky-series-panwa/ext-008.jpg",
+    "/assets/listings/sky-series-panwa/ext-009.jpg",
+    "/assets/listings/sky-series-panwa/ext-010.jpg",
+    "/assets/listings/sky-series-panwa/ext-011.jpg",
+    "/assets/listings/sky-series-panwa/ext-012.jpg",
+    "/assets/listings/sky-series-panwa/ext-013.jpg",
+    "/assets/listings/sky-series-panwa/ext-014.jpg"
+  ],
+  "location": "Cape Panwa · Phuket · Thailand",
+  "place": "Cape Panwa, Phuket, Thailand",
+  "mapQuery": "Sri Panwa, Cape Panwa, Phuket, Thailand",
+  "market": "Phuket",
+  "title": "Five-Bedroom Sky Villa at Sri Panwa",
+  "type": "Villa",
+  "view": "Sea View",
+  "status": "Off-Plan",
+  "beds": 5,
+  "baths": 7,
+  "interior": "1,322 m²",
+  "plot": "1,015 m²",
+  "year": 2026,
+  "priceNum": 7594398,
+  "price": "$7,594,398",
+  "priceOriginal": "฿250,000,000",
+  "priceCurrency": "THB",
+  "added": 4,
+  "ownership": "Leasehold or Freehold",
+  "blurb": "The last of just four residences in The Sky Series, set on a forested headland at the southern tip of Phuket within the grounds of the award-winning Sri Panwa resort. Four levels linked by a private lift, a double-height living room walled in glass, and a rooftop sky deck with a second lap pool above the Andaman Sea.",
+  "detail": "Positioned on a forested headland at the southern tip of Phuket — one of the island's most coveted addresses — this is the last remaining villa in The Sky Series, a collection of just four residences set within the grounds of Sri Panwa, an award-winning resort known to readers of Condé Nast Traveler as home to one of the world's best rooftop bars.\n\nDesigned by Habita Architects with interiors by Studio Chemistri, the villa rises across four levels connected by a private lift. The centrepiece is a grand double-volume living area framed by full-height glazing, where the view across the islands of Phang Nga Bay fills the room from floor to ceiling. A curved infinity pool wraps the main terrace; above it, a 118 m² rooftop sky deck with a second lap pool opens to an unobstructed 180-degree panorama — sunrise over the bay in the morning, the islands silhouetted at dusk.\n\nThe lower level houses a private spa, sauna and game room. Five bedrooms, each with its own bath and walk-in wardrobe, are finished in natural stone, hand-textured wall panels and solid wood — materials chosen to age well in a tropical climate. A separate Thai kitchen sits alongside the main chef's kitchen, and owners enjoy full access to Sri Panwa's six restaurants, wellness facilities, pool club and private beach. Delivered fully furnished; one of four villas, three already sold.",
+  "features": [
+    {
+      "l": "Curved infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Rooftop sky deck & lap pool",
+      "i": "waves"
+    },
+    {
+      "l": "Panoramic sea view",
+      "i": "view"
+    },
+    {
+      "l": "Private lift, four levels",
+      "i": "key"
+    },
+    {
+      "l": "Private spa & sauna",
+      "i": "sparkles"
+    },
+    {
+      "l": "Steam room",
+      "i": "sun"
+    },
+    {
+      "l": "Game room",
+      "i": "sofa"
+    },
+    {
+      "l": "Chef's & Thai kitchens",
+      "i": "utensils"
+    },
+    {
+      "l": "Sri Panwa resort access",
+      "i": "building"
+    },
+    {
+      "l": "Private beach & pool club",
+      "i": "users"
+    },
+    {
+      "l": "Delivered fully furnished",
+      "i": "home"
+    },
+    {
+      "l": "Covered parking",
+      "i": "car"
+    }
+  ]
+}

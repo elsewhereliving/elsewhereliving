@@ -1,0 +1,94 @@
+{
+  "id": "kiara-reserve-residences-layan",
+  "image": "/assets/listings/kiara-reserve-residences-layan/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/kiara-reserve-residences-layan/ext-001.jpg",
+    "/assets/listings/kiara-reserve-residences-layan/ext-002.jpg",
+    "/assets/listings/kiara-reserve-residences-layan/ext-003.jpg",
+    "/assets/listings/kiara-reserve-residences-layan/ext-004.jpg",
+    "/assets/listings/kiara-reserve-residences-layan/ext-005.jpg",
+    "/assets/listings/kiara-reserve-residences-layan/ext-006.jpg",
+    "/assets/listings/kiara-reserve-residences-layan/ext-007.jpg",
+    "/assets/listings/kiara-reserve-residences-layan/ext-008.jpg",
+    "/assets/listings/kiara-reserve-residences-layan/ext-009.jpg",
+    "/assets/listings/kiara-reserve-residences-layan/ext-010.jpg",
+    "/assets/listings/kiara-reserve-residences-layan/ext-011.jpg",
+    "/assets/listings/kiara-reserve-residences-layan/ext-012.jpg",
+    "/assets/listings/kiara-reserve-residences-layan/ext-013.jpg",
+    "/assets/listings/kiara-reserve-residences-layan/ext-014.jpg"
+  ],
+  "location": "Layan · Phuket · Thailand",
+  "place": "Anantara Layan, Layan, Choeng Thale, Thalang District, Phuket 83110, Thailand",
+  "mapQuery": "7.9870,98.2820",
+  "market": "Phuket",
+  "title": "Kiara Reserve Residences by Anantara — Pool Villas & Condominiums in Layan Bay",
+  "type": "Condominium",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Off-Plan",
+  "beds": 3,
+  "bedsLabel": "3–4",
+  "baths": "3–5",
+  "interior": "251–829 m²",
+  "plot": null,
+  "year": "Q4 2025",
+  "priceNum": 1350942,
+  "price": "From $1,350,942",
+  "priceOriginal": "฿44,500,000",
+  "priceCurrency": "THB",
+  "added": 1,
+  "ownership": "Freehold",
+  "blurb": "Branded pool villas and condominiums set on a lush, ocean-facing hillside within a celebrated five-star resort in Layan Bay — just 42 residences across 100 rai, steps from Layan Beach. Three- and four-bedroom homes from 251 to 829 m², each with a private pool, plus access to the resort's spa, restaurants, beach club, helipad and yacht jetty. Freehold, off-plan.",
+  "detail": "A luxury branded residential development of just 42 private pool villas and condominiums in Layan Bay, on the north-west coast of Phuket — spaciously allotted over 100 rai (40 acres) of lush, ocean-facing hillside, steps from Layan Beach and adjacent to two existing ultra-luxury residences and a celebrated five-star resort. Set within the resort itself, the homes share its grounds, services and hotel-standard maintenance, with planned future expansion expected to lift both lifestyle and value over time.\n\nThe collection is composed of 17 three- and four-bedroom villas of 501 to 655 m², and 25 three- and four-bedroom condominiums — single-storey, duplex and penthouse layouts ranging from 251 to 829 m². Every villa and condominium has its own private pool. Interiors are generous and resort-grade, conceived for indoor-outdoor living against the hillside and ocean backdrop.\n\nOn-site facilities include a residents-only swimming pool, fitness centre, club house and parking, while the wider resort opens up Thai and international restaurants, a renowned spa, beachside dining and a rooftop bar at the beach club, an active sport-and-leisure zone, and an on-site helipad and yacht tender jetty. Ownership comes with a rental programme operated by the hotel group's real-estate team and exclusive privileges across its global hotel and loyalty networks.\n\nThe setting is the rare draw: serene, green Layan, with the resort's beach frontage and beach club at your doorstep, Layan Beach just 600 metres away, the Laguna resort district a couple of kilometres on, and Boat Avenue and Porto de Phuket around fifteen minutes' drive — Phuket International Airport is roughly twenty-five minutes. Offered freehold within a hotel development, with attractive terms of just 10% down and 70% payable on handover. Priced from ฿44,500,000.",
+  "features": [
+    {
+      "l": "Branded residences in a 5-star resort",
+      "i": "sparkles"
+    },
+    {
+      "l": "Just 42 homes across 100 rai",
+      "i": "tree"
+    },
+    {
+      "l": "Ocean-facing Layan hillside",
+      "i": "view"
+    },
+    {
+      "l": "Private pool to every residence",
+      "i": "pool"
+    },
+    {
+      "l": "Villas & condos, 3–4 bedrooms",
+      "i": "home"
+    },
+    {
+      "l": "251–829 m² · single-storey to penthouse",
+      "i": "building"
+    },
+    {
+      "l": "Resident pool, gym & clubhouse",
+      "i": "gym"
+    },
+    {
+      "l": "Spa, beach club & beachside dining",
+      "i": "utensils"
+    },
+    {
+      "l": "Helipad & yacht tender jetty",
+      "i": "road"
+    },
+    {
+      "l": "600 m to Layan Beach",
+      "i": "waves"
+    },
+    {
+      "l": "Hotel rental management programme",
+      "i": "key"
+    },
+    {
+      "l": "Freehold · 10% down, 70% on handover",
+      "i": "year"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+---
+// The elsewhere.living capsule — the brand's one rounded shape.
+interface Props { onDark?: boolean; href?: string; class?: string; }
+const { onDark = false, href, class: klass = "" } = Astro.props;
+const Tag = href ? "a" : "span";
+const color = onDark ? "var(--white)" : "var(--navy)";
+---
+<Tag class={`ew-pill ${klass}`} style={`color:${color}`} {...(href ? { href } : {})}>
+  <slot>elsewhere.living</slot>
+</Tag>

@@ -1,0 +1,58 @@
+{
+  "id": "r-samui-thai-japanese-tier-pool",
+  "image": "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/lipa-noi/villa-akatsuki/overview/villaakatsuki_01_pool.webp",
+  "gallery": [
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/lipa-noi/villa-akatsuki/overview/villaakatsuki_01_pool.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/lipa-noi/villa-akatsuki/overview/villaakatsuki_02_pool.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/lipa-noi/villa-akatsuki/overview/villaakatsuki_04_dining.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/lipa-noi/villa-akatsuki/overview/villaakatsuki_03_spa.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/lipa-noi/villa-akatsuki/overview/villaakatsuki_07_bedroom.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/lipa-noi/villa-akatsuki/overview/villaakatsuki_08_bedroom.webp"
+  ],
+  "location": "Lipa Noi · Koh Samui · Thailand",
+  "place": "Lipa Noi, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.4760,99.9180",
+  "title": "Thai-Japanese Beachfront Villa with Three-Tier Pool, Lipa Noi",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 6,
+  "bedsLabel": "6",
+  "guests": 16,
+  "guestsLabel": "16",
+  "occupancy": "up to 16 guests",
+  "size": "2,400 m²",
+  "nightlyNum": 2500,
+  "nightly": "$2,500",
+  "note": "Private chef & breakfast included",
+  "sleeps": "up to 16 guests · 6 bedrooms",
+  "blurb": "An architect-designed beachfront villa on Lipa Noi's quiet west coast where modern Thai meets Japanese calm — a cascading three-tier infinity pool stepping toward the sea, a Japanese-style spa, a home theatre and six serene en-suites named for sea, water and sky.",
+  "detail": "Conceived by architect Riccardo Tossani as a village of Irimoya-roofed pavilions on a gentle beachfront slope, this Lipa Noi retreat is a harmony of modern Thai warmth and Japanese restraint — built around Omotenashi, the spirit of wholeheartedly looking after one's guests. It opens directly to a paradise stretch of white sand and the calm turquoise of Samui's west coast, with uninterrupted views of the famous Five Islands in the heart of the Gulf of Thailand.\n\nAt its centre, a three-tier infinity pool descends like a quiet river toward the sea — a 12.8-metre main pool, a 17.9-metre reflection pool and a children's pool — edged by ten sun loungers and a jacuzzi for six. Days move between the 24-hour gym, the Japanese-style spa with two massage beds, the 85-inch home theatre, the atrium for yoga, and beach pursuits with transparent kayaks, paddleboards, water cycling and tennis.\n\nSix glamorous en-suite bedrooms — Umi, Mizu, Kokoro, Sora and Raku — each take their cue from the sea and tropical life, several opening to the pool or beach, with the Ocean master enjoying a private beach-facing balcony. Fully staffed with a villa manager, private chef, housekeeping and an in-house masseuse, with welcome drinks and daily breakfast included.",
+  "features": [
+    {
+      "l": "Cascading three-tier infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Absolute beachfront · Five Islands views",
+      "i": "waves"
+    },
+    {
+      "l": "Riccardo Tossani Thai-Japanese design",
+      "i": "home"
+    },
+    {
+      "l": "Japanese-style spa & 24h gym",
+      "i": "sparkles"
+    },
+    {
+      "l": "85-inch home theatre",
+      "i": "music"
+    },
+    {
+      "l": "Tennis court & transparent kayaks",
+      "i": "sun"
+    }
+  ]
+}

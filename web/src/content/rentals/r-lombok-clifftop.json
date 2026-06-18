@@ -1,0 +1,71 @@
+{
+  "id": "r-lombok-clifftop",
+  "image": "https://www.tampahhills.com/wp-content/uploads/2025/02/Tampah-Hills-Villa-V-Hero.jpg",
+  "gallery": [
+    "https://www.tampahhills.com/wp-content/uploads/2025/02/Tampah-Hills-Villa-V-Hero.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2023/05/DJI_0625.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/06/BP4A7310-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/06/BP4A6982-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/06/BP4A7318-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/06/BP4A7126-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/06/BP4A6770-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/06/BP4A6910-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/06/BP4A6922-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/06/BP4A7058-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/06/BP4A7074-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/06/BP4A7110-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/06/BP4A6874-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/06/BP4A7174-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/06/BP4A7242-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/06/BP4A7298-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2023/05/DJI_0604-1024x682.jpg"
+  ],
+  "location": "Lombok · Indonesia",
+  "place": "Southwest Lombok, Indonesia",
+  "mapQuery": "-8.899061,116.199542",
+  "title": "Clifftop Sea-View Villa in Lombok",
+  "view": [
+    "Sea View",
+    "Mountain View"
+  ],
+  "beds": 3,
+  "bedsLabel": "3",
+  "guests": 6,
+  "guestsLabel": "6",
+  "occupancy": "up to 6 guests",
+  "size": "730 m²",
+  "nightlyNum": 1373,
+  "nightly": "$1,373",
+  "nightlyOriginal": "IDR 22,385,000",
+  "nightlyCurrency": "IDR",
+  "note": "Breakfast & housekeeping included",
+  "sleeps": "6 guests · 3 bedrooms",
+  "blurb": "An exquisite, minimalist tropical hideaway perched high above the Indian Ocean on a Lombok hilltop — panoramic sea, sunrise and valley views, a 68 m² lap pool, and a sunken living room open to the breeze.",
+  "detail": "A serene, design-led retreat set on a peak hilltop position in southern Lombok, high above the Indian Ocean. Conceived as a sustainable, stylish tropical sanctuary, its minimalism and clean lines feel both bold and calming — a contrast of dark Ulin hardwood, sand-coloured cement floors and simple straight geometry that gives the villa its peaceful character. Expansive open sanctuaries let the ocean breeze cool the afternoon sun, and the open plan maximises panoramic sea, sunrise and valley views from nearly every part of the house.\n\nThe villa sits on a sloped site across two levels. The upper floor holds the spacious master suite alongside the kitchen and living room — anchored by a massive sunken sofa — the 68 m² lap pool with a shallow kids' section, and generous open areas to relax. The lower floor houses two further bedrooms with studies and private bathrooms, giving every guest privacy when they want it. In total the home sleeps six across three king bedrooms, with three en-suite bathrooms and a powder room over 730 m².\n\nA full guest-services team looks after the stay, with complimentary breakfast, daily housekeeping, turndown service and 24-hour security included. In-villa dining, private spa treatments, transportation, tailored activities and access to a sports centre are available on request — an effortless, premium hideaway for a slow Lombok escape.",
+  "features": [
+    {
+      "l": "68 m² lap pool",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic sea & sunrise views",
+      "i": "view"
+    },
+    {
+      "l": "3 en-suite king bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Complimentary breakfast & housekeeping",
+      "i": "users"
+    },
+    {
+      "l": "In-villa dining & spa on request",
+      "i": "sparkles"
+    },
+    {
+      "l": "24-hour security",
+      "i": "shield"
+    }
+  ]
+}

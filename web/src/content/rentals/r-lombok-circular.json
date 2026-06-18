@@ -1,0 +1,70 @@
+{
+  "id": "r-lombok-circular",
+  "image": "https://www.tampahhills.com/wp-content/uploads/2025/08/Villa-Kala-SoMe-2025-@solen_studios-2.jpg",
+  "gallery": [
+    "https://www.tampahhills.com/wp-content/uploads/2025/08/Villa-Kala-SoMe-2025-@solen_studios-2.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/08/Villa-Kala-SoMe-2025-@solen_studios-22-1024x575.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/08/Villa-Kala-SoMe-2025-@solen_studios-6-1024x575.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/08/Villa-Kala-SoMe-2025-@solen_studios-112-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/08/Villa-Kala-SoMe-2025-@solen_studios-85-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/08/Villa-Kala-SoMe-2025-@solen_studios-46-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/08/Villa-Kala-SoMe-2025-@solen_studios-24-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/08/Villa-Kala-SoMe-2025-@solen_studios-80-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/08/Villa-Kala-SoMe-2025-@solen_studios-27-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/08/Villa-Kala-SoMe-2025-@solen_studios-157-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/08/Villa-Kala-SoMe-2025-@solen_studios-116-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/08/Villa-Kala-SoMe-2025-@solen_studios-77-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/08/Villa-Kala-SoMe-2025-@solen_studios-33-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/08/Villa-Kala-SoMe-2025-@solen_studios-39-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/08/Villa-Kala-SoMe-2025-@solen_studios-43-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2025/08/Villa-Kala-SoMe-2025-@solen_studios-93-1024x682.jpg"
+  ],
+  "location": "Lombok · Indonesia",
+  "place": "Southwest Lombok, Indonesia",
+  "mapQuery": "-8.899061,116.199542",
+  "title": "Circular Hilltop Villa in Lombok",
+  "view": [
+    "Sea View",
+    "Mountain View"
+  ],
+  "beds": 4,
+  "bedsLabel": "4",
+  "guests": 8,
+  "guestsLabel": "8",
+  "occupancy": "up to 8 guests",
+  "size": "790 m²",
+  "nightlyNum": 1930,
+  "nightly": "$1,930",
+  "nightlyOriginal": "IDR 31,460,000",
+  "nightlyCurrency": "IDR",
+  "note": "Breakfast & housekeeping included",
+  "sleeps": "8 guests · 4 bedrooms",
+  "blurb": "A bold, sculptural retreat built as a full circle around a tree-filled courtyard, perched on a Lombok hilltop — a curved infinity pool over the farms and ocean, warm terracotta tones, and a private cinema.",
+  "detail": "A bold architectural retreat that integrates with Lombok's landscape through a striking circular design, perched on a privileged hilltop that opens to nature in every direction — ever-changing light, views and atmosphere from sunrise to sunset. On arrival, vertical timber slats, a skylight and a tranquil reflecting pond create a spectacular entrance and a magical interplay of light and shadow through the day.\n\nAt the heart of the home, a lush central courtyard with mature trees anchors the space and grounds its circular flow. Four spacious bedrooms, each with an en-suite bathroom, offer refined comfort, privacy and their own views. The generous living area flows seamlessly out to a curved infinity pool overlooking an organic farm below, swaying palms and the endless Indian Ocean — a perfect place to gather, unwind or simply take in the surroundings.\n\nWarm terracotta tones and natural textures give the villa a calm, earthy character, while sculptural circular gardens invite quiet contemplation. For entertainment, there is a private cinema room and a pool table — sculptural architecture, natural materials and panoramic views combining into a serene place to connect, reflect and recharge.",
+  "features": [
+    {
+      "l": "Curved 70 m² infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Sculptural circular architecture",
+      "i": "home"
+    },
+    {
+      "l": "Tree-filled central courtyard",
+      "i": "tree"
+    },
+    {
+      "l": "4 en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Private cinema & pool table",
+      "i": "music"
+    },
+    {
+      "l": "Panoramic Indian Ocean views",
+      "i": "view"
+    }
+  ]
+}

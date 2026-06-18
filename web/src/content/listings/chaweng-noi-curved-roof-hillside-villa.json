@@ -1,0 +1,120 @@
+{
+  "id": "chaweng-noi-curved-roof-hillside-villa",
+  "image": "/assets/listings/hillside-cn/p23.jpg",
+  "gallery": [
+    "/assets/listings/hillside-cn/p23.jpg",
+    "/assets/listings/hillside-cn/p35.jpg",
+    "/assets/listings/hillside-cn/p07.jpg",
+    "/assets/listings/hillside-cn/p17.jpg",
+    "/assets/listings/hillside-cn/p31.jpg",
+    "/assets/listings/hillside-cn/p01.jpg",
+    "/assets/listings/hillside-cn/p02.jpg",
+    "/assets/listings/hillside-cn/p03.jpg",
+    "/assets/listings/hillside-cn/p04.jpg",
+    "/assets/listings/hillside-cn/p05.jpg",
+    "/assets/listings/hillside-cn/p06.jpg",
+    "/assets/listings/hillside-cn/p08.jpg",
+    "/assets/listings/hillside-cn/p09.jpg",
+    "/assets/listings/hillside-cn/p10.jpg",
+    "/assets/listings/hillside-cn/p11.jpg",
+    "/assets/listings/hillside-cn/p12.jpg",
+    "/assets/listings/hillside-cn/p13.jpg",
+    "/assets/listings/hillside-cn/p14.jpg",
+    "/assets/listings/hillside-cn/p15.jpg",
+    "/assets/listings/hillside-cn/p16.jpg",
+    "/assets/listings/hillside-cn/p18.jpg",
+    "/assets/listings/hillside-cn/p19.jpg",
+    "/assets/listings/hillside-cn/p20.jpg",
+    "/assets/listings/hillside-cn/p21.jpg",
+    "/assets/listings/hillside-cn/p22.jpg",
+    "/assets/listings/hillside-cn/p24.jpg",
+    "/assets/listings/hillside-cn/p25.jpg",
+    "/assets/listings/hillside-cn/p26.jpg",
+    "/assets/listings/hillside-cn/p27.jpg",
+    "/assets/listings/hillside-cn/p28.jpg",
+    "/assets/listings/hillside-cn/p29.jpg",
+    "/assets/listings/hillside-cn/p30.jpg",
+    "/assets/listings/hillside-cn/p32.jpg",
+    "/assets/listings/hillside-cn/p33.jpg",
+    "/assets/listings/hillside-cn/p34.jpg",
+    "/assets/listings/hillside-cn/p36.jpg",
+    "/assets/listings/hillside-cn/p37.jpg",
+    "/assets/listings/hillside-cn/p38.jpg",
+    "/assets/listings/hillside-cn/p39.jpg",
+    "/assets/listings/hillside-cn/p40.jpg"
+  ],
+  "location": "Chaweng Noi · Koh Samui · Thailand",
+  "place": "Chaweng Noi Hills, Bo Phut, Ko Samui District, Surat Thani 84320, Thailand",
+  "mapQuery": "9.5125,100.0590",
+  "market": "Koh Samui",
+  "title": "Curved-Roof Hillside Villa with Infinity Pool & Sea Views, Chaweng Noi",
+  "type": "Villa",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 3,
+  "bedsLabel": "3–4",
+  "baths": 4,
+  "interior": "430 m²",
+  "plot": "670 m²",
+  "year": null,
+  "priceNum": 805471,
+  "price": "$805,471",
+  "priceOriginal": "฿26,500,000",
+  "priceCurrency": "THB",
+  "added": 58,
+  "ownership": "Freehold",
+  "blurb": "A sculptural villa in an exclusive gated hillside community above Chaweng Noi — sweeping curved-cantilever roofs over walls of glass, a stone-clad infinity pool with a sunken sea-view lounge, and panoramic views across the bay to Koh Phangan. The show villa shown; three- and four-bedroom layouts available.",
+  "detail": "Set within an exclusive gated community on the Chaweng Noi hillside, this is contemporary tropical architecture at its most assured — a single villa from a small collection of sea-view homes, defined by sweeping curved-cantilever roofs, natural stone feature walls and full-height glass that dissolves the line between inside and out. From its elevated position the home commands panoramic views across the bay and out to Koh Phangan, with cooling breezes drawn across the terraces.\n\nThe show villa pictured spans roughly 430 m² of built area on a 670 m² plot, arranged for effortless indoor-outdoor living: an open-plan living, dining and island kitchen in marble and warm timber slides open to a wide deck and a stone-clad infinity pool that reads as a sheet of water against the horizon. A sunken poolside lounge, sun deck and shaded sala extend the entertaining space, while the primary suite opens to its own sea-view terrace, freestanding tub and twin stone vanities.\n\nFinished to a high specification and delivered fully furnished, the residence includes covered parking for two cars and the security and landscaped grounds of a managed estate, five minutes from Chaweng Noi's beaches, restaurants and international schools. Offered freehold; the gated community also offers further three-bedroom and four-bedroom layouts to choose from.",
+  "features": [
+    {
+      "l": "Panoramic sea views to Koh Phangan",
+      "i": "view"
+    },
+    {
+      "l": "Stone-clad infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Sunken sea-view poolside lounge",
+      "i": "sofa"
+    },
+    {
+      "l": "Curved-cantilever roof architecture",
+      "i": "building"
+    },
+    {
+      "l": "Open-plan living & marble island kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Primary suite with sea-view terrace & tub",
+      "i": "bed"
+    },
+    {
+      "l": "430 m² build · 670 m² plot",
+      "i": "plot"
+    },
+    {
+      "l": "Covered parking for two cars",
+      "i": "car"
+    },
+    {
+      "l": "Gated community · landscaped grounds",
+      "i": "shield"
+    },
+    {
+      "l": "Fully furnished · move-in ready",
+      "i": "sparkles"
+    },
+    {
+      "l": "3 & 4-bedroom layouts available",
+      "i": "home"
+    },
+    {
+      "l": "Five minutes to Chaweng Noi beach",
+      "i": "waves"
+    }
+  ]
+}

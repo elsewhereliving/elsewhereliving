@@ -1,0 +1,87 @@
+{
+  "id": "santikhiri-panoramic-seaview-hilltop-land",
+  "image": "/assets/listings/santikhiri-plot-9/01.jpg",
+  "gallery": [
+    "/assets/listings/santikhiri-plot-9/01.jpg",
+    "/assets/listings/santikhiri-plot-9/02.jpg",
+    "/assets/listings/santikhiri-plot-9/03.jpg",
+    "/assets/listings/santikhiri-plot-9/04.jpg",
+    "/assets/listings/santikhiri-plot-9/05.jpg",
+    "/assets/listings/santikhiri-plot-9/06.jpg",
+    "/assets/listings/santikhiri-plot-9/07.jpg",
+    "/assets/listings/santikhiri-plot-9/08.png"
+  ],
+  "location": "Santikhiri · Koh Samui · Thailand",
+  "place": "Santikhiri hilltop community, Koh Samui, Surat Thani, Thailand",
+  "mapQuery": "9.427460,100.003489",
+  "market": "Koh Samui",
+  "title": "Near-Two-Rai Panoramic Sea-View Hilltop Land",
+  "type": "Land",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 0,
+  "baths": 0,
+  "interior": "—",
+  "plot": "2,883 m²",
+  "year": null,
+  "priceNum": 607165,
+  "price": "$607,165",
+  "priceOriginal": "฿20,000,000",
+  "priceCurrency": "THB",
+  "added": 60,
+  "ownership": "Freehold or Leasehold",
+  "blurb": "A near-two-rai hilltop plot at the top of one of Koh Samui's most original hillside communities — almost 2,883 m² with Chanote title, road access and a stunning panorama over the coastline and islands. The land faces south and west for the sunset, with high privacy yet good neighbours and easy convenience.",
+  "detail": "This land sits at the very top of Santikhiri, one of Koh Samui's most original and spectacular residential communities — a magical retreat to escape the stress of modern life. It is a village surrounded by nature, offering a high degree of privacy while keeping convenience, good care and good neighbours close at hand.\n\nThe plot measures 1-3-20.8 rai — almost two rai, around 2,883 m² — and is held under Chanote title, the strongest form of land ownership in Thailand, available freehold or on a leasehold basis. It connects directly to the community road and sits close to the common area, with a gentle elevated position that opens to a stunning panorama across the sea, the long beach below and the scattered islands beyond.\n\nThe land faces south and west, framing the sunset and catching cooling afternoon light and breeze — an ideal orientation for a private villa designed around the view. Surrounded by jungle and rock outcrops, it offers the seclusion of a hilltop while remaining part of an established, well-cared-for community of architectural villas.",
+  "features": [
+    {
+      "l": "1-3-20.8 rai · ≈2,883 m²",
+      "i": "plot"
+    },
+    {
+      "l": "Panoramic sea & island views",
+      "i": "view"
+    },
+    {
+      "l": "Chanote freehold title",
+      "i": "shield"
+    },
+    {
+      "l": "Freehold or leasehold available",
+      "i": "key"
+    },
+    {
+      "l": "South & west sunset aspect",
+      "i": "sun"
+    },
+    {
+      "l": "Connects to the community road",
+      "i": "car"
+    },
+    {
+      "l": "Hilltop position · high privacy",
+      "i": "mountain"
+    },
+    {
+      "l": "Close to common area",
+      "i": "users"
+    },
+    {
+      "l": "Surrounded by nature",
+      "i": "tree"
+    },
+    {
+      "l": "Views over beach & coastline",
+      "i": "waves"
+    },
+    {
+      "l": "Original hillside community",
+      "i": "home"
+    },
+    {
+      "l": "Ready to build a private villa",
+      "i": "building"
+    }
+  ]
+}

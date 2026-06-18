@@ -1,0 +1,90 @@
+{
+  "id": "koh-taen-beachfront-15-rai-resort-land",
+  "image": "/assets/listings/koh-taen-beachfront/01.jpg",
+  "gallery": [
+    "/assets/listings/koh-taen-beachfront/01.jpg",
+    "/assets/listings/koh-taen-beachfront/02.jpg",
+    "/assets/listings/koh-taen-beachfront/03.jpg",
+    "/assets/listings/koh-taen-beachfront/04.jpg",
+    "/assets/listings/koh-taen-beachfront/05.jpg",
+    "/assets/listings/koh-taen-beachfront/06.jpg",
+    "/assets/listings/koh-taen-beachfront/07.jpg",
+    "/assets/listings/koh-taen-beachfront/08.jpg",
+    "/assets/listings/koh-taen-beachfront/09.jpg",
+    "/assets/listings/koh-taen-beachfront/10.jpg"
+  ],
+  "location": "Koh Taen · Koh Samui · Thailand",
+  "place": "Koh Taen, Taling Ngam, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.393972,99.950861",
+  "market": "Koh Samui",
+  "title": "15-Rai Beachfront Land on Koh Taen with White-Sand Frontage",
+  "type": "Land",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 0,
+  "baths": 0,
+  "interior": "—",
+  "plot": "24,000 m²",
+  "year": null,
+  "priceNum": 2276313,
+  "price": "$2,276,313",
+  "priceOriginal": "฿75,000,000",
+  "priceCurrency": "THB",
+  "added": 68,
+  "ownership": "Freehold",
+  "blurb": "A rare 15-rai beachfront parcel on Koh Taen — a quiet island roughly a 7-minute boat ride from southern Koh Samui — fronting white sand, coral-fringed shallows and uninterrupted views back across the bay to Samui's green hills. With its scale, privacy and natural setting, the land is ideally suited to a boutique resort, a villa project or a beach club.",
+  "detail": "Set on Koh Taen, a tranquil, largely untouched island off the south coast of Koh Samui, this 15-rai parcel runs directly to the beach — soft white sand, smooth rocks and clear, coral-fringed shallows, backed by mature coconut palms and tropical jungle climbing the hillside behind. The outlook is open and serene, sweeping across the bay to the silhouettes of Samui and the smaller islands scattered along the horizon.\n\nThe island sits just a 7-minute boat ride from southern Koh Samui, close enough for easy access yet far enough to feel genuinely elsewhere — no crowds, no noise, only water, sand and forest. That balance of seclusion and proximity is exactly what makes the site so compelling for a considered development.\n\nWith approximately 24,000 m² (15 rai) of beachfront land and a generous stretch of natural shoreline, the property lends itself to a boutique resort, a private villa estate or a beach club — a destination built around the rhythm of the tides and the quiet of the island. A blank canvas of rare scale and beauty in one of the Gulf's most unspoiled settings. Price on request.",
+  "features": [
+    {
+      "l": "≈24,000 m² · 15 rai beachfront",
+      "i": "plot"
+    },
+    {
+      "l": "Direct white-sand frontage",
+      "i": "waves"
+    },
+    {
+      "l": "Coral-fringed shallows",
+      "i": "view"
+    },
+    {
+      "l": "≈7-minute boat ride to Samui",
+      "i": "car"
+    },
+    {
+      "l": "Quiet, untouched island setting",
+      "i": "mountain"
+    },
+    {
+      "l": "Mature coconut palms & jungle",
+      "i": "tree"
+    },
+    {
+      "l": "Open views across the bay",
+      "i": "sun"
+    },
+    {
+      "l": "Ideal for a boutique resort",
+      "i": "building"
+    },
+    {
+      "l": "Suits a villa or beach-club project",
+      "i": "sparkles"
+    },
+    {
+      "l": "Exceptional privacy & seclusion",
+      "i": "shield"
+    },
+    {
+      "l": "Freehold",
+      "i": "key"
+    },
+    {
+      "l": "Off southern Koh Samui",
+      "i": "home"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "r-samui-chaweng-estate",
+  "image": "https://www.theluxurysignature.com/wp-content/uploads/2023/07/Villa_Amylia_Ruby-00_aerial-19.jpg",
+  "gallery": [
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/07/Villa_Amylia_Ruby-00_aerial-19.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/07/Villla-Amylia-Koh-Samui-07_pool-8.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/07/Villa_Amylia_Ruby-08_pool_terrace-17.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/07/Villla-Amylia-Koh-Samui-02_pool_terrace-8.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/07/Villla-Amylia-Koh-Samui-00_aerial-16.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/07/Villa_Amylia_Ruby-01-1_pool_terrace-24.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/07/Villla-Amylia-Koh-Samui-04_pool_sala-4.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/07/Villa_Amylia_Ruby-15_living-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/07/Villla-Amylia-Koh-Samui-17_living-2.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/07/Villa_Amylia_Ruby-13_dining_kitchen-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/07/Villla-Amylia-Koh-Samui-18_dining-2.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/07/Villla-Amylia-Koh-Samui-23_bedroom_8-13.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/07/Villa_Amylia_Ruby-36_bedroom_1-1.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/07/Villla-Amylia-Koh-Samui-60_spa-5.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/07/Villla-Amylia-Koh-Samui-62_cinema-2.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2023/07/Villla-Amylia-Koh-Samui-56_gym-1.jpg"
+  ],
+  "location": "Chaweng · Koh Samui · Thailand",
+  "place": "Narayan Heights, North Chaweng, Bo Phut, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5453,100.0537",
+  "title": "Nine-Bedroom Sea-View Estate in North Chaweng",
+  "view": [
+    "Sea View",
+    "Garden / Pool View"
+  ],
+  "beds": 9,
+  "bedsLabel": "7–9",
+  "guests": 20,
+  "guestsLabel": "20",
+  "occupancy": "up to 20 guests",
+  "size": "1,600 m²",
+  "nightlyNum": 3520,
+  "nightly": "$3,520",
+  "note": "Chef & villa manager",
+  "sleeps": "20 guests · up to 9 bedrooms",
+  "blurb": "A contemporary nine-bedroom estate of two architect-designed villas in the gated Narayan Heights community above North Chaweng — twin saltwater infinity pools, a cinema, gym, spa room and rooftop terrace, framed by sweeping sea views.",
+  "detail": "Set in the prestigious Narayan Heights gated community in North Chaweng, this contemporary estate blends tropical elegance with modern luxury and serene seclusion — an ideal escape for families or groups seeking a refined island retreat. It comprises two beautiful four-storey villas, Emerald and Ruby, which together form a sprawling nine-bedroom residence accommodating up to 20 guests, including four expansive master suites, four guest bedrooms and a dedicated children's room.\n\nSurrounded by lush foliage and sweeping sea views, the villas feature 14-metre saltwater infinity pools with integrated kids' areas, jacuzzi, and spacious decks with plush loungers and shaded seating for sun-soaked days and sunset cocktails. Indoors, air-conditioned living areas open into sleek kitchens — each villa with a fully equipped kitchen plus a separate chef's kitchen — and multiple indoor and outdoor dining spaces seat up to 20 for everything from casual breakfasts to celebratory feasts.\n\nLifestyle spaces lift the experience further: a cinema room with state-of-the-art audio, a fitness room with LifeFitness equipment, a dedicated spa room with custom massage tables, a rooftop terrace and a kids' play garden. A villa manager and private chef anchor the service, with daily breakfast and housekeeping, just minutes from Chaweng Beach yet a peaceful, design-forward haven to return to at day's end.",
+  "features": [
+    {
+      "l": "Twin 14 m saltwater infinity pools",
+      "i": "pool"
+    },
+    {
+      "l": "Sweeping sea views",
+      "i": "view"
+    },
+    {
+      "l": "Cinema room",
+      "i": "music"
+    },
+    {
+      "l": "Fitness room & spa",
+      "i": "gym"
+    },
+    {
+      "l": "Rooftop terrace & kids' garden",
+      "i": "terrace"
+    },
+    {
+      "l": "9 bedrooms · chef & villa manager",
+      "i": "users"
+    }
+  ]
+}

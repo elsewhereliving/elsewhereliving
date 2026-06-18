@@ -1,0 +1,85 @@
+{
+  "id": "layan-wellness-villa",
+  "image": "/assets/listings/layan-wellness-villa/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/layan-wellness-villa/ext-001.jpg",
+    "/assets/listings/layan-wellness-villa/ext-002.jpg",
+    "/assets/listings/layan-wellness-villa/ext-003.jpg",
+    "/assets/listings/layan-wellness-villa/ext-004.jpg",
+    "/assets/listings/layan-wellness-villa/ext-005.jpg"
+  ],
+  "location": "Layan · Phuket · Thailand",
+  "place": "Layan, Tambon Choeng Thale, Thalang, Phuket, Thailand",
+  "mapQuery": "8.0424515,98.2927409",
+  "market": "Phuket",
+  "title": "Hillside Wellness Villa in Layan",
+  "type": "Villa",
+  "view": [
+    "Mountain View",
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 5,
+  "baths": 6,
+  "interior": "≈1,700 m²",
+  "plot": "≈1,700 m²",
+  "year": null,
+  "priceNum": 8285280,
+  "price": "$8,285,280",
+  "priceOriginal": "฿273,000,000",
+  "priceCurrency": "THB",
+  "added": 11,
+  "ownership": "Freehold",
+  "blurb": "Set high on the Layan hillside, an expansive contemporary villa conceived as a self-contained wellness retreat — minimalist architecture, a long lap pool, and resort-level spa, sauna and cinema spaces wrapped in landscaped valley views.",
+  "detail": "Set on an expansive hillside plot in the Layan area, this private luxury villa offers a rare combination of scale, architectural clarity and resort-level wellness amenities. Conceived as a self-contained retreat, the residence blends minimalist contemporary lines with warm natural textures, creating a calm, elevated atmosphere throughout. Arranged across several interconnected volumes on roughly 1,700 m² of land — with a built-up area approaching 1,700 m² — high ceilings, wide glazed façades and soft natural light let the indoor and outdoor zones merge into one continuous environment.\n\nThe primary living pavilion centres on a large open-plan lounge and dining area with an effortless connection to the pool terrace, supported by two kitchens: a beautifully appointed show kitchen for daily use and social gatherings, and a fully equipped back kitchen positioned discreetly for service. Five ensuite bedrooms are positioned across the villa for privacy and refined proportion; the master suite occupies its own wing with direct pool access, a spacious bathroom and ample wardrobe space, while a dedicated maid's room with separate circulation maintains the home's sense of order.\n\nLifestyle and wellness spaces define the villa's character — a dedicated spa room and sauna, a fitness room, a home theatre and a quiet study extend it far beyond a standard residence. Outdoors, a long swimming pool follows the line of the main pavilion alongside shaded seating and wide terraces, with mature planting and architectural screens keeping the home secluded. Tucked into a low-density stretch of the Layan hillside, it remains a short drive from Layan Beach, Banana Beach, Laguna Phuket and Bang Tao's dining and lifestyle destinations.",
+  "features": [
+    {
+      "l": "Long lap swimming pool",
+      "i": "pool"
+    },
+    {
+      "l": "Landscaped valley views",
+      "i": "view"
+    },
+    {
+      "l": "Dedicated spa room & sauna",
+      "i": "sparkles"
+    },
+    {
+      "l": "Steam room & jacuzzi",
+      "i": "waves"
+    },
+    {
+      "l": "Private home theatre",
+      "i": "music"
+    },
+    {
+      "l": "Fitness room",
+      "i": "gym"
+    },
+    {
+      "l": "Show & back kitchens",
+      "i": "utensils"
+    },
+    {
+      "l": "Landscaped gardens",
+      "i": "tree"
+    },
+    {
+      "l": "Wide pool terraces",
+      "i": "terrace"
+    },
+    {
+      "l": "Internal elevator",
+      "i": "building"
+    },
+    {
+      "l": "Maid's room & staff wing",
+      "i": "key"
+    },
+    {
+      "l": "Gated, private hillside",
+      "i": "shield"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "r-lombok-arched",
+  "image": "https://www.tampahhills.com/wp-content/uploads/2025/02/Tampah-Hills-Villa-Boe-Hero.jpg",
+  "gallery": [
+    "https://www.tampahhills.com/wp-content/uploads/2025/02/Tampah-Hills-Villa-Boe-Hero.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/05/BP4A8213-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/05/DJI_20240304083830_0120_D-2-1024x575.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/05/BP4A7817-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/05/BP4A7889-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/05/BP4A7429-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/05/BP4A7445-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/05/BP4A7685-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/05/BP4A7701-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/05/BP4A7513-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/05/BP4A8097-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/05/BP4A7913-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/05/BP4A8261-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/05/BP4A7933-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/05/BP4A7569-HDR-1024x682.jpg",
+    "https://www.tampahhills.com/wp-content/uploads/2024/05/BP4A8025-HDR-1024x682.jpg"
+  ],
+  "location": "Lombok · Indonesia",
+  "place": "Southwest Lombok, Indonesia",
+  "mapQuery": "-8.899061,116.199542",
+  "title": "Arched Sea-View Villa in Lombok",
+  "view": [
+    "Sea View",
+    "Mountain View"
+  ],
+  "beds": 4,
+  "bedsLabel": "4",
+  "guests": 8,
+  "guestsLabel": "8",
+  "occupancy": "up to 8 guests",
+  "size": "1,584 m²",
+  "nightlyNum": 2100,
+  "nightly": "$2,100",
+  "note": "Breakfast & housekeeping included",
+  "sleeps": "8 guests · 4 bedrooms",
+  "blurb": "An architectural masterpiece defined by a sweeping arched silhouette, perched high on a Lombok hilltop — white stone floors, tropical wood accents, a large lap pool, and an uninterrupted panorama of the Indian Ocean from sunrise to sunset.",
+  "detail": "A truly stunning architectural retreat that marries a unique arched silhouette with natural materials — white stone floors and warm tropical wood accents. Perched high on a Lombok hilltop, the arched design lets you enjoy every minute of the day, with privacy and an incredible panoramic view of the Indian Ocean: from sunrise, the warm tropical light colours the façades in different tones through the day until the dramatic climax of sunset.\n\nThe villa holds four elegant bedrooms with en-suite bathrooms, inviting the whole family to an unforgettable retreat. Massive social spaces open to the view and to a refreshingly large lap pool, and wherever you venture there is a new corner to discover or a fresh angle to frame the sea.\n\nAcross roughly 1,584 m² over indoor and outdoor zones, additional spaces include a play room, an office and a dedicated yoga deck — with panoramic sea, sunrise, sunset and valley views from a peak position. A full guest-services team provides complimentary breakfast, daily housekeeping, turndown and 24-hour security, with in-villa dining, spa and tailored activities on request.",
+  "features": [
+    {
+      "l": "Large 108 m² lap pool",
+      "i": "pool"
+    },
+    {
+      "l": "Sculptural arched silhouette",
+      "i": "home"
+    },
+    {
+      "l": "Panoramic Indian Ocean views",
+      "i": "view"
+    },
+    {
+      "l": "4 en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Play room, office & yoga deck",
+      "i": "sparkles"
+    },
+    {
+      "l": "White stone & tropical wood",
+      "i": "tree"
+    }
+  ]
+}

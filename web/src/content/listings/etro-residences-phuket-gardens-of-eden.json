@@ -1,0 +1,91 @@
+{
+  "id": "etro-residences-phuket-gardens-of-eden",
+  "image": "/assets/listings/etro-residences/01.jpg",
+  "gallery": [
+    "/assets/listings/etro-residences/01.jpg",
+    "/assets/listings/etro-residences/02.jpg",
+    "/assets/listings/etro-residences/03.jpg",
+    "/assets/listings/etro-residences/04.jpg",
+    "/assets/listings/etro-residences/05.jpg",
+    "/assets/listings/etro-residences/06.jpg",
+    "/assets/listings/etro-residences/07.jpg",
+    "/assets/listings/etro-residences/08.jpg",
+    "/assets/listings/etro-residences/09.jpg",
+    "/assets/listings/etro-residences/10.jpg",
+    "/assets/listings/etro-residences/11.jpg",
+    "/assets/listings/etro-residences/12.jpg",
+    "/assets/listings/etro-residences/13.jpg"
+  ],
+  "location": "Bang Tao · Phuket · Thailand",
+  "place": "Gardens of Eden, Cherngtalay, Choeng Thale, Thalang District, Phuket 83110, Thailand",
+  "mapQuery": "7.989700,98.282000",
+  "market": "Phuket",
+  "title": "ETRO Residences Phuket — Branded Residences in Gardens of Eden, Bang Tao",
+  "type": "Condominium",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Off-Plan",
+  "beds": 3,
+  "bedsLabel": "3 – Penthouse",
+  "baths": "3+",
+  "interior": "—",
+  "plot": null,
+  "year": null,
+  "priceNum": 6000000,
+  "price": "From $6,000,000",
+  "added": 74,
+  "ownership": "Freehold",
+  "blurb": "The debut of ETRO Residences Phuket — the Milanese fashion house's textile-rich soul re-threaded into the coastal fabric of Bang Tao. Just eight exclusive residences, three-bedroom apartments and sprawling penthouses, set at the heart of the 33-acre Gardens of Eden, where over 70% of the land is preserved nature. Freehold, from $6,000,000.",
+  "detail": "ETRO Residences Phuket is a rare expression of branded living — not a building stamped with a logo, but an entire creative ethos translated into a living environment. Developed by Amal Development within the prestigious, nature-first Gardens of Eden enclave and crafted with branded-real-estate specialists The One Atelier, the project re-threads ETRO's vibrant, textile-rich soul into the serene coastal fabric of Phuket's west coast.\n\nThe interiors — a collaboration between The One Atelier and ETRO Home Interiors realized with the ONIRO Group — are an atmospheric translation rather than a literal one. Expressive wall finishes and custom millwork draw on ETRO's textile archives, while a palette of oceanic blues, forest greens and sun-bleached neutrals echoes the surrounding jungle, sand and sea. Italian artistry is felt in velvet upholstery, artisanal wood and select marble; bespoke furnishings sit as integrated elements in a layered composition of light and proportion — expressive, tactile and deeply crafted, yet profoundly peaceful.\n\nThe residence is only one layer. Set within the 33-acre Gardens of Eden, where more than 70% of the land is dedicated to preserved nature, just eight residences — three-bedroom apartments and sprawling penthouses — are wrapped in lakes, shaded meditation trails and tropical gardens. Amenities unfold as a sequence of sensory experiences: yoga lawns at dawn, rainforest-edged and long lap pools, a dedicated concierge and personalized wellness programs, and eventual access to the pristine sands of Bang Tao Beach — with curated ETRO 'brand moments' connecting residents to the house's wider universe of fashion and culture. Freehold.",
+  "features": [
+    {
+      "l": "ETRO-branded residences",
+      "i": "sparkles"
+    },
+    {
+      "l": "Only 8 exclusive residences",
+      "i": "shield"
+    },
+    {
+      "l": "3-bed apartments & penthouses",
+      "i": "bed"
+    },
+    {
+      "l": "Interiors by The One Atelier & ETRO Home",
+      "i": "sofa"
+    },
+    {
+      "l": "33-acre Gardens of Eden enclave",
+      "i": "tree"
+    },
+    {
+      "l": "70%+ preserved nature",
+      "i": "mountain"
+    },
+    {
+      "l": "Rainforest pools & long lap pools",
+      "i": "pool"
+    },
+    {
+      "l": "Yoga lawns & wellness programs",
+      "i": "gym"
+    },
+    {
+      "l": "Dedicated concierge",
+      "i": "users"
+    },
+    {
+      "l": "Access to Bang Tao Beach",
+      "i": "waves"
+    },
+    {
+      "l": "Lakes & meditation trails",
+      "i": "sun"
+    },
+    {
+      "l": "Freehold",
+      "i": "key"
+    }
+  ]
+}

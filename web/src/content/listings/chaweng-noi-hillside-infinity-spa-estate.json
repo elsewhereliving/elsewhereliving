@@ -1,0 +1,102 @@
+{
+  "id": "chaweng-noi-hillside-infinity-spa-estate",
+  "image": "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-001.jpg",
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-002.jpg",
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-003.jpg",
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-004.jpg",
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-005.jpg",
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-006.jpg",
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-007.jpg",
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-008.jpg",
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-009.jpg",
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-010.jpg",
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-011.jpg",
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-012.jpg",
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-013.jpg",
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-014.jpg",
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-015.jpg",
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-016.jpg",
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-017.jpg",
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-018.jpg",
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-019.jpg",
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-020.jpg",
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-021.jpg",
+    "/assets/listings/chaweng-noi-hillside-infinity-spa-estate/ext-022.jpg"
+  ],
+  "location": "Chaweng Noi · Koh Samui · Thailand",
+  "place": "Chaweng Noi, Ko Samui District, Surat Thani 84310, Thailand",
+  "mapQuery": "9.5125,100.0590",
+  "market": "Koh Samui",
+  "title": "Hillside Estate with 20-Metre Infinity Pool & Spa, Chaweng Noi",
+  "type": "Villa",
+  "view": [
+    "Sea View",
+    "Mountain View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 5,
+  "baths": 11,
+  "interior": "2,700 m²",
+  "plot": "1,600 m²",
+  "year": null,
+  "priceNum": 6530983,
+  "price": "$6,530,983",
+  "priceOriginal": "฿215,000,000",
+  "priceCurrency": "THB",
+  "added": 53,
+  "ownership": "Freehold",
+  "blurb": "One of Chaweng Noi's most exclusive residences — a ~2,700 m² estate across multiple levels with a 20-metre infinity pool over the Gulf, a children's pool and a natural jacuzzi rock pool, plus a private spa and massage room. Five suites, eleven baths, panoramic sea-and-mountain views. Move-in ready, freehold.",
+  "detail": "This extraordinary five-bedroom estate is one of the most exclusive residential offerings in Chaweng Noi — set on a generous 1,600 m² plot with an impressive ~2,700 m² of built area, elevated above the coastline to capture sweeping sea views and a lush mountain backdrop. The scale, location and amenities place it firmly within the top tier of Koh Samui real estate, equally suited to a private family compound, a prestige holiday residence or a hospitality-style investment.\n\nThe architecture blends indoor luxury with expansive outdoor living: five bedrooms and eleven bathrooms give exceptional flexibility for family, guests and staff, while large open-plan living areas are positioned to capture both sea and mountain views in dramatic, light-filled volumes. Multiple leisure zones elevate it to a true resort — a spectacular 20-metre infinity-edge pool over the ocean, a separate children's pool, and a unique natural jacuzzi rock pool integrated into the landscape.\n\nWellness runs deep, with a dedicated spa area and massage room rarely found in private residences, alongside both Western and Thai kitchens for daily living and large-scale entertaining. Equipped with government electricity and deep-well water and held freehold under Chanote title, it sits minutes from Chaweng Noi's beaches, international schools, hospitals and the airport while remaining private on its hillside setting.",
+  "features": [
+    {
+      "l": "20 m infinity pool over the Gulf",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic sea & mountain views",
+      "i": "view"
+    },
+    {
+      "l": "Children's pool & jacuzzi rock pool",
+      "i": "waves"
+    },
+    {
+      "l": "Private spa & massage room",
+      "i": "sparkles"
+    },
+    {
+      "l": "Five suites · eleven bathrooms",
+      "i": "bed"
+    },
+    {
+      "l": "~2,700 m² across multiple levels",
+      "i": "building"
+    },
+    {
+      "l": "Western & Thai kitchens",
+      "i": "utensils"
+    },
+    {
+      "l": "1,600 m² hillside plot",
+      "i": "plot"
+    },
+    {
+      "l": "Custom-built furniture & luxury finishes",
+      "i": "sofa"
+    },
+    {
+      "l": "Freehold · Chanote · move-in ready",
+      "i": "shield"
+    },
+    {
+      "l": "Minutes to Chaweng & schools",
+      "i": "car"
+    },
+    {
+      "l": "High rental-yield potential",
+      "i": "users"
+    }
+  ]
+}

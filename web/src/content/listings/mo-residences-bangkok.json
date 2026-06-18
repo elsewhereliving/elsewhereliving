@@ -1,0 +1,83 @@
+{
+  "id": "mo-residences-bangkok",
+  "image": "/assets/listings/mo-residences-bangkok/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/mo-residences-bangkok/ext-001.jpg",
+    "/assets/listings/mo-residences-bangkok/ext-002.jpg",
+    "/assets/listings/mo-residences-bangkok/ext-003.jpg",
+    "/assets/listings/mo-residences-bangkok/ext-004.jpg",
+    "/assets/listings/mo-residences-bangkok/ext-005.jpg"
+  ],
+  "location": "Khlong San · Bangkok · Thailand",
+  "place": "The Residences at Mandarin Oriental, Charoen Nakhon, Khlong San, Bangkok, Thailand",
+  "mapQuery": "13.7277746,100.5109658",
+  "market": "Bangkok",
+  "title": "Mandarin Oriental Residences — Riverside Penthouse",
+  "type": "Condominium",
+  "view": [
+    "Waterfront",
+    "City View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 6,
+  "baths": 7,
+  "interior": "606 m²",
+  "plot": null,
+  "year": 2021,
+  "priceNum": 12190000,
+  "price": "$12,190,000",
+  "added": 20,
+  "ownership": "Freehold",
+  "blurb": "A 51st-floor penthouse at the iconic Residences at Mandarin Oriental, on the Chao Phraya riverside beside Iconsiam — 606 m² with three private lifts, six en-suite bedrooms and the legendary service of the Residences Elite programme.",
+  "detail": "Legendary riverside living at the iconic Residences at Mandarin Oriental, Bangkok. Set on the Chao Phraya waterfront and directly adjacent to the celebrated Iconsiam, residents enjoy the relaxed rhythm of riverside life with the city's finest shopping, dining and culture at the doorstep. This extraordinary penthouse occupies the 51st floor and offers approximately 606 m² of internal space.\n\nThe layout is conceived for grand entertaining and gracious daily living alike: a generous living room, a separate formal dining room and a drawing room for receiving guests, opening to wide river and city panoramas through full-height glazing. Six large en-suite bedrooms provide private retreat, while dedicated maid's quarters with their own entrance and a private lift lobby — three private lifts in total — preserve a seamless sense of service and privacy.\n\nThe freehold residence is finished to the highest specification of any luxury home in Bangkok, with kitchen and bathroom fixtures from deluxe European brands. Ownership includes immediate access to Mandarin Oriental's Residences Elite programme — daily concierge and bespoke benefits at home, and exceptional recognition and privileges at Mandarin Oriental hotels around the world.",
+  "features": [
+    {
+      "l": "51st-floor riverside penthouse",
+      "i": "building"
+    },
+    {
+      "l": "Chao Phraya & city panoramas",
+      "i": "view"
+    },
+    {
+      "l": "Adjacent to Iconsiam",
+      "i": "sparkles"
+    },
+    {
+      "l": "Three private lifts",
+      "i": "key"
+    },
+    {
+      "l": "Six en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Living, dining & drawing rooms",
+      "i": "sofa"
+    },
+    {
+      "l": "Wine cellar & bar",
+      "i": "utensils"
+    },
+    {
+      "l": "Gym, sauna & steam room",
+      "i": "gym"
+    },
+    {
+      "l": "Maid's quarters, separate entrance",
+      "i": "users"
+    },
+    {
+      "l": "Freehold ownership",
+      "i": "shield"
+    },
+    {
+      "l": "Mandarin Oriental Residences Elite",
+      "i": "trend"
+    },
+    {
+      "l": "Riverside pool & wellness",
+      "i": "pool"
+    }
+  ]
+}

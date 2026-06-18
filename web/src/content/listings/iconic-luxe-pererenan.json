@@ -1,0 +1,80 @@
+{
+  "id": "iconic-luxe-pererenan",
+  "image": "/assets/listings/iconic-luxe-pererenan/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/iconic-luxe-pererenan/ext-001.jpg",
+    "/assets/listings/iconic-luxe-pererenan/ext-002.jpg",
+    "/assets/listings/iconic-luxe-pererenan/ext-003.jpg",
+    "/assets/listings/iconic-luxe-pererenan/ext-004.jpg",
+    "/assets/listings/iconic-luxe-pererenan/ext-005.jpg"
+  ],
+  "location": "Pererenan · Bali · Indonesia",
+  "place": "Pererenan, Mengwi, Badung, Bali, Indonesia",
+  "mapQuery": "-8.63669,115.13458",
+  "market": "Bali",
+  "title": "Iconic Modern-Luxe Designer Villa in Pererenan",
+  "type": "Villa",
+  "view": "Garden / Pool View",
+  "status": "Move-In Ready",
+  "beds": 6,
+  "baths": 6,
+  "interior": "1,575 m²",
+  "plot": "1,960 m²",
+  "year": 2022,
+  "priceNum": 3950000,
+  "price": "$3,950,000",
+  "added": 38,
+  "ownership": "Freehold",
+  "blurb": "An architectural statement in the heart of Pererenan — a six-bedroom designer estate of two buildings linked by a covered bridge, with imported Italian marble, an L-shaped pool, a private cinema and panoramic rice-paddy views, minutes from Canggu.",
+  "detail": "An architectural masterpiece that redefines luxury living in one of Bali's most sought-after destinations — Pererenan. This iconic six-bedroom designer villa blends contemporary sophistication with tropical charm, minutes from the beach, Canggu's vibrant dining scene and world-famous surf breaks. Positioned on 1,960 m² of land with a total building size of 1,575 m², every element has been curated to perfection, from the grand layout and imported materials to surroundings framed by lush rice paddies.\n\nInside, premium imported Italian marble slabs, aluminium-framed glass doors and bespoke finishes exude timeless elegance, with fluid transitions between indoor and outdoor spaces. The six en-suite bedrooms each capture panoramic rice-field views, and the villa's two main buildings are connected by a covered bridge — a distinctive sense of scale and privacy.\n\nEntertainment is at the core: a dedicated cinema room, a secluded upstairs living area for sunset cocktails, and a ground-level entertainment zone with a pool table, elegant dining area and integrated modern kitchen that opens to the outdoors through wide glass sliders. Outside, a lush garden surrounds an enticing L-shaped swimming pool — a serene escape for lounging or poolside gatherings. Offered freehold.",
+  "features": [
+    {
+      "l": "L-shaped swimming pool",
+      "i": "pool"
+    },
+    {
+      "l": "Two buildings linked by covered bridge",
+      "i": "building"
+    },
+    {
+      "l": "Six en-suite rice-paddy bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Imported Italian marble",
+      "i": "sparkles"
+    },
+    {
+      "l": "Private cinema room",
+      "i": "music"
+    },
+    {
+      "l": "Entertainment zone with pool table",
+      "i": "sofa"
+    },
+    {
+      "l": "Integrated modern kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Secluded upstairs lounge",
+      "i": "home"
+    },
+    {
+      "l": "Panoramic rice-field views",
+      "i": "view"
+    },
+    {
+      "l": "Landscaped tropical gardens",
+      "i": "tree"
+    },
+    {
+      "l": "Freehold ownership",
+      "i": "key"
+    },
+    {
+      "l": "Minutes to Canggu & the beach",
+      "i": "road"
+    }
+  ]
+}

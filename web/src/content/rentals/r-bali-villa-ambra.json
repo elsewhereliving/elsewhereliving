@@ -1,0 +1,68 @@
+{
+  "id": "r-bali-villa-ambra",
+  "image": "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villaambra_01_pool.webp",
+  "gallery": [
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villaambra_01_pool.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villaambra_04_poolside.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villaambra_03_villa.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villaambra_25_aerial_view.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villaambra_06_living_area.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villaambra_07_dining_area.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villaambra_08_outdoor_dining_area.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villaambra_18_kitchen.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villaambra_09_bedroom_1.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villaambra_10_bedroom_2.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villaambra_14_bathroom_1.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villaambra_19_home_theatre.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villaambra_20_gym.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villaambra_21_massage_room.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villaambra_22_gazebo.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/indonesia/bali/canggu/pantai-lima-estate/overview/new/villaambra_26_beach.webp"
+  ],
+  "location": "Canggu · Bali · Indonesia",
+  "place": "Pantai Lima, Pererenan, Mengwi, Badung, Bali, Indonesia",
+  "mapQuery": "-8.6553,115.1153",
+  "title": "Villa Ambra — Beachfront Pool Villa, Pantai Lima",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 5,
+  "bedsLabel": "5",
+  "guests": 10,
+  "guestsLabel": "10",
+  "occupancy": "up to 10 guests",
+  "size": "900 m²",
+  "nightlyNum": 1372,
+  "nightly": "$1,372",
+  "note": "Private chef",
+  "sleeps": "10 guests · 5 bedrooms",
+  "blurb": "A five-bedroom beachfront villa on the water's edge at Pantai Lima — open ocean-view living over three levels, a spa room with daybed terrace, a basement gym and study, and direct steps to the black-sand beach, fully staffed with a private chef.",
+  "detail": "Villa Ambra sits right on the water's edge within the four-acre Pantai Lima Estate, a five-bedroom beachfront retreat arranged across three levels. The ground floor opens to indoor and outdoor living areas, two bedrooms, the kitchen, pool and a garden-side outdoor dining area; the second floor holds three further bedrooms including the master, plus a spa room with an open terrace and daybeds; and the basement adds an office/study and a fitness area.\n\nThe open indoor living area frames a beautiful ocean view, with an enclosed air-conditioned dining room beside the kitchen and generous poolside seating overlooking the sea. Each en-suite bedroom is air-conditioned with its own satellite TV, and the villa is well stocked for downtime with a Harman Kardon sound system, table tennis, backgammon and a library of books, games and puzzles.\n\nFully staffed with a private chef, attendants, gardener and security, Villa Ambra includes daily breakfast, a complimentary car with driver, and shared access to the estate's night-lit tennis court. In-villa massage, yoga on the villa's own mats, and a full slate of tours and activities can be arranged on request — a serene beachfront base a minute from the sand.",
+  "features": [
+    {
+      "l": "Beachfront infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Ocean-view open living",
+      "i": "view"
+    },
+    {
+      "l": "Spa room & basement gym",
+      "i": "gym"
+    },
+    {
+      "l": "Steps to black-sand beach",
+      "i": "waves"
+    },
+    {
+      "l": "Shared night-lit tennis court",
+      "i": "sparkles"
+    },
+    {
+      "l": "5 en-suite bedrooms · private chef",
+      "i": "users"
+    }
+  ]
+}

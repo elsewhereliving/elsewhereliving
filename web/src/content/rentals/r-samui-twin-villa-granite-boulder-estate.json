@@ -1,0 +1,59 @@
+{
+  "id": "r-samui-twin-villa-granite-boulder-estate",
+  "image": "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/lamai---hua-thanon/hinta-hinyai-beach-villas/gallery/hintahinyaibeachvillas_samui_01_hintahinyaibeachvillasexterior_-_hinta_hinyai_beach_villas_-_samui_-_thailand.webp",
+  "gallery": [
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/lamai---hua-thanon/hinta-hinyai-beach-villas/gallery/hintahinyaibeachvillas_samui_01_hintahinyaibeachvillasexterior_-_hinta_hinyai_beach_villas_-_samui_-_thailand.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/lamai---hua-thanon/hinta-hinyai-beach-villas/gallery/hintahinyaibeachvillas_samui_02_baanhinyaibeachfront_-_hinta_hinyai_beach_villas_-_samui_-_thailand.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/lamai---hua-thanon/hinta-hinyai-beach-villas/gallery/hintahinyaibeachvillas_samui_06_baanhintapool_-_hinta_hinyai_beach_villas_-_samui_-_thailand.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/lamai---hua-thanon/hinta-hinyai-beach-villas/gallery/hintahinyaibeachvillas_samui_08_baanhinyailivingarea_-_hinta_hinyai_beach_villas_-_samui_-_thailand.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/lamai---hua-thanon/hinta-hinyai-beach-villas/gallery/hintahinyaibeachvillas_samui_12_baanhintadiningarea_-_hinta_hinyai_beach_villas_-_samui_-_thailand.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/lamai---hua-thanon/hinta-hinyai-beach-villas/gallery/hintahinyaibeachvillas_samui_14_baanhinyaibedroom1_-_hinta_hinyai_beach_villas_-_samui_-_thailand.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/lamai---hua-thanon/hinta-hinyai-beach-villas/gallery/hintahinyaibeachvillas_samui_47_baanhinyaipool_-_hinta_hinyai_beach_villas_-_samui_-_thailand.webp"
+  ],
+  "location": "Lamai · Koh Samui · Thailand",
+  "place": "Lamai, Tambon Maret, Ko Samui District, Surat Thani 84310, Thailand",
+  "mapQuery": "9.4570,100.0450",
+  "title": "Twin-Villa Beachfront Estate Framed by Granite Boulders, Lamai",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 10,
+  "bedsLabel": "5–10",
+  "guests": 24,
+  "guestsLabel": "24",
+  "occupancy": "up to 20 guests (+4)",
+  "size": "720–950 m²",
+  "nightlyNum": 1390,
+  "nightly": "$1,390",
+  "note": "Two villas · a private chef each",
+  "sleeps": "up to 24 guests · 5–10 bedrooms",
+  "blurb": "A private coastal estate of rare distinction on Koh Samui's unspoilt Lamai–Hua Thanon shore — two iconic villas, Baan Hinta and Baan Hinyai, set among dramatic granite boulders and coconut palms, with twin 20-metre infinity pools, ten sea-view bedrooms and an outdoor cinema by the sand.",
+  "detail": "Hinta Hinyai Beach Villas pairs two iconic homes — Baan Hinta and Baan Hinyai — along Koh Samui's unspoilt Lamai–Hua Thanon shoreline, framed by granite boulders, coconut palms and uninterrupted ocean vistas in a setting both dramatic and deeply serene. Bookable together as a single fully-staffed estate for up to twenty guests across ten bedrooms, or villa by villa, it is built for multi-generational escapes and refined group gatherings.\n\nEach villa is laid out as a pavilion-style composition that celebrates seamless indoor-outdoor living, with natural light and sea breezes flowing throughout — and no cookie-cutter rooms: every bedroom has a sea view and a unique layout shaped around the surrounding rock formations, each with its own freestanding bathtub. Days gather around open-plan dining rooms and high-ceilinged living rooms, then move outdoors to terraces and infinity pools (a 19.7-metre at Baan Hinta, a 20-metre at Baan Hinyai) with kid-friendly shallow ends, daybeds and sunset views.\n\nKayaks, SUP boards and a table-tennis table are on hand for the active; a dedicated team — villa manager, private chef, housekeeper and handymen at each villa — looks after the rest. As evening falls, chef-prepared dinners give way to cinematic nights under the stars beneath Baan Hinta's poolside projector screen, the famous Hin Ta and Hin Yai rocks just along the coast.",
+  "features": [
+    {
+      "l": "Beachfront among granite boulders",
+      "i": "waves"
+    },
+    {
+      "l": "Twin ~20 m infinity pools",
+      "i": "pool"
+    },
+    {
+      "l": "Two villas · a private chef each",
+      "i": "utensils"
+    },
+    {
+      "l": "Ten sea-view bedrooms with tubs",
+      "i": "bed"
+    },
+    {
+      "l": "Outdoor cinema by the pool",
+      "i": "music"
+    },
+    {
+      "l": "Kayaks, SUPs & table tennis",
+      "i": "sun"
+    }
+  ]
+}

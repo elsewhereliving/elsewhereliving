@@ -1,0 +1,80 @@
+{
+  "id": "villa-mayavee-kamala",
+  "image": "/assets/listings/villa-mayavee-kamala/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/villa-mayavee-kamala/ext-001.jpg",
+    "/assets/listings/villa-mayavee-kamala/ext-002.jpg",
+    "/assets/listings/villa-mayavee-kamala/ext-003.jpg",
+    "/assets/listings/villa-mayavee-kamala/ext-004.jpg",
+    "/assets/listings/villa-mayavee-kamala/ext-005.jpg"
+  ],
+  "location": "Kamala · Phuket · Thailand",
+  "place": "Villa Mayavee, Waterfall Bay, Kamala, Phuket, Thailand",
+  "mapQuery": "7.9354569,98.2586101",
+  "market": "Phuket",
+  "title": "Villa Mayavee — Oceanfront Super Villa",
+  "type": "Villa",
+  "view": "Waterfront",
+  "status": "Move-In Ready",
+  "beds": 4,
+  "baths": 6,
+  "interior": "2,400 m²",
+  "plot": "3,100 m²",
+  "year": 2023,
+  "priceNum": 18900000,
+  "price": "$18,900,000",
+  "added": 16,
+  "ownership": "Freehold",
+  "blurb": "The apogee of modern Phuket oceanfront villa design — bold linear lines and vast glass expanses over the Andaman Sea, set on a Kamala cliff top above glorious westward sunsets. Known to many who've visited as 'The James Bond Villa'.",
+  "detail": "Villa Mayavee is the apogee of modern Phuket oceanfront villa design. Big, bold, linear lines and large glass expanses overlooking the Andaman Sea set the scene of a design that seems to befit a James Bond movie set — indeed, among many who have visited, it is known as 'The James Bond Villa'. Situated on a cliff top, the villa faces westwards across the open ocean to glorious sunsets, securely and privately positioned at the end of a magnificent tree-lined boulevard of mature tropical trees within a spacious private residential estate of only eight other premium homes. From this position one can gain 360-degree views, especially from the iconic sunset roof terrace, which must rank as one of Phuket's finest viewpoints.\n\nSet in 3,100 m² of land, the villa has a gross floor area of 2,400 m², arranged in three distinct structural areas aligned in an 'S' shape when viewed from above. The central and most obvious part is the massive 'floating' main living, dining and show-kitchen area, running parallel to the oceanfront and overlooking the especially wide 21 × 5 m main infinity pool and sunbathing areas. This is linked to the dramatic owner's suite — with its own 15 m private lap pool, spacious dressing area, linked office suite, formal dining area, commercial-grade kitchen, staff areas and internal garage — while a separate guest block houses three spacious guest bedrooms and a well-equipped gym with sauna.\n\nCustom designed by Martin Palleros of Terra Designs, all materials were carefully chosen to exude quality and textural richness — from natural exterior stonework and Japanese pool tiles to solid wood and French limestone and sandstone floors, oversized glazing and a who's who of European furniture: Poliform, Gandia Blasco, Boffi, Dornbracht, Paola Lenti and Minotti. Multiple covered and open-air terraces provide al fresco dining and relaxation throughout, in addition to the internal air-conditioned formal, informal and TV lounges. The villa was comprehensively redecorated in 2023 and sits within gated Waterfall Bay with 24-hour on-site security and fully managed common areas.",
+  "features": [
+    {
+      "l": "21 × 5 m infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Oceanfront cliff-top · Andaman views",
+      "i": "waves"
+    },
+    {
+      "l": "360° sunset roof terrace",
+      "i": "view"
+    },
+    {
+      "l": "Owner's-suite 15 m lap pool",
+      "i": "sun"
+    },
+    {
+      "l": "Gym with sauna",
+      "i": "gym"
+    },
+    {
+      "l": "Wine cellar",
+      "i": "sparkles"
+    },
+    {
+      "l": "Show kitchen & commercial kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Office suite & game room",
+      "i": "info"
+    },
+    {
+      "l": "Multiple covered terraces",
+      "i": "terrace"
+    },
+    {
+      "l": "Designer furnishings throughout",
+      "i": "sofa"
+    },
+    {
+      "l": "Staff quarters & internal garage",
+      "i": "car"
+    },
+    {
+      "l": "Gated estate · 24/7 security",
+      "i": "shield"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "bang-kao-1rai-beachfront-seawall-land",
+  "image": "/assets/listings/bangkao-1rai-seawall/02.jpg",
+  "gallery": [
+    "/assets/listings/bangkao-1rai-seawall/02.jpg",
+    "/assets/listings/bangkao-1rai-seawall/01.jpg",
+    "/assets/listings/bangkao-1rai-seawall/07.jpg",
+    "/assets/listings/bangkao-1rai-seawall/04.jpg",
+    "/assets/listings/bangkao-1rai-seawall/03.jpg",
+    "/assets/listings/bangkao-1rai-seawall/06.jpg",
+    "/assets/listings/bangkao-1rai-seawall/05.jpg",
+    "/assets/listings/bangkao-1rai-seawall/08.jpg"
+  ],
+  "location": "Bang Kao · Koh Samui · Thailand",
+  "place": "Bang Kao, Maret, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.421194,99.983056",
+  "market": "Koh Samui",
+  "title": "One-Rai Beachfront Land with Sea Wall, Bang Kao",
+  "type": "Land",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 0,
+  "baths": 0,
+  "interior": "—",
+  "plot": "1,600 m²",
+  "year": null,
+  "priceNum": 1517542,
+  "price": "$1,517,542",
+  "priceOriginal": "฿50,000,000",
+  "priceCurrency": "THB",
+  "added": 73,
+  "ownership": "Freehold",
+  "blurb": "A flat one-rai (1,600 m²) beachfront plot on Koh Samui's quiet southern coast, fronting a gently curving sand beach with calm, shallow water and island views across the bay. An existing concrete sea wall already protects the frontage, and the land is held under Chanote freehold title — a ready canvas for a private beach villa.",
+  "detail": "Set on the tranquil south coast of Koh Samui near Bang Kao, this one-rai (1,600 m²) parcel sits directly on the beach, with a gentle arc of soft sand, calm shallow water and open views across the bay to the islands of the Mu Ko Thale Tai national park beyond. Mature coconut palms line the shore, and the setting is peaceful and residential — yet close to the markets of Hua Thanon, the restaurants of Bang Kao and Lamai, and the island ring road.\n\nUnusually, the beachfront is already protected by an existing concrete sea wall, removing one of the larger costs and approvals involved in building directly on the shore. The land is flat, cleared and ready to develop, with road access along the rear boundary and power at the street.\n\nHeld under Chanote title — the strongest form of freehold ownership in Thailand — the plot is well suited to a private beach villa or a small boutique residence. Genuine titled beachfront of this size is increasingly rare on Koh Samui, making this an attractive holding for an owner-occupier or investor. Freehold · Chanote.",
+  "features": [
+    {
+      "l": "≈1,600 m² · 1 rai beachfront",
+      "i": "plot"
+    },
+    {
+      "l": "Direct sand-beach frontage",
+      "i": "waves"
+    },
+    {
+      "l": "Existing concrete sea wall",
+      "i": "shield"
+    },
+    {
+      "l": "Calm, shallow swimmable water",
+      "i": "view"
+    },
+    {
+      "l": "Island views across the bay",
+      "i": "sun"
+    },
+    {
+      "l": "Mature coconut palms",
+      "i": "tree"
+    },
+    {
+      "l": "Flat & ready to build",
+      "i": "sparkles"
+    },
+    {
+      "l": "Rear road access & power",
+      "i": "car"
+    },
+    {
+      "l": "Chanote freehold title",
+      "i": "key"
+    },
+    {
+      "l": "Quiet south-coast setting",
+      "i": "mountain"
+    },
+    {
+      "l": "Near Hua Thanon & Lamai",
+      "i": "home"
+    },
+    {
+      "l": "Suits a private beach villa",
+      "i": "building"
+    }
+  ]
+}

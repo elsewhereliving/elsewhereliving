@@ -1,0 +1,92 @@
+{
+  "id": "kata-andaman-villa",
+  "image": "/assets/listings/kata/01-exterior-aerial.jpg",
+  "gallery": [
+    "/assets/listings/kata/01-exterior-aerial.jpg",
+    "/assets/listings/kata/02-living-pano.jpg",
+    "/assets/listings/kata/03-living-stair.jpg",
+    "/assets/listings/kata/04-dining.jpg",
+    "/assets/listings/kata/05-master-bedroom.jpg",
+    "/assets/listings/kata/06-master-bedroom-2.jpg",
+    "/assets/listings/kata/07-master-bath.jpg",
+    "/assets/listings/kata/08-bedroom.jpg",
+    "/assets/listings/kata/09-bedroom-2.jpg",
+    "/assets/listings/kata/10-bathroom.jpg",
+    "/assets/listings/kata/11-bathroom-2.jpg",
+    "/assets/listings/kata/12-gym.jpg",
+    "/assets/listings/kata/13-spa.jpg",
+    "/assets/listings/kata/14-entrance.jpg"
+  ],
+  "location": "Kata · Phuket · Thailand",
+  "place": "Kata, Phuket, Thailand",
+  "mapQuery": "Kata Beach, Phuket, Thailand",
+  "market": "Phuket",
+  "title": "Hillside Sea-View Villa Above Kata",
+  "type": "Villa",
+  "view": "Sea View",
+  "status": "Off-Plan",
+  "beds": 7,
+  "baths": 10,
+  "interior": "753 m²",
+  "plot": "819 m²",
+  "year": 2028,
+  "priceNum": 4233998,
+  "price": "$4,233,998",
+  "priceOriginal": "฿139,379,012",
+  "priceCurrency": "THB",
+  "yield": "12.73%",
+  "added": 9,
+  "ownership": "Leasehold or Freehold",
+  "blurb": "Set high on the hillside above Kata Beach, a sculptural contemporary villa with one of the largest built-up footprints on Phuket's west coast — seven sea-facing suites, walls of glass, and a signature infinity pool reaching toward the Andaman horizon.",
+  "detail": "Part of a boutique, low-density estate of just eight homes, this villa is designed across multiple levels to chase the sea view and the light. 753 m² of internal space opens through floor-to-ceiling glazing onto a commanding Andaman panorama, while sliding panels fold the entire façade away so the main living level — a grand open-plan lounge, dining area and contemporary kitchen — flows straight out to the infinity pool.\n\nSeven bedrooms and ten bathrooms include a panoramic master suite with a spa-style bath and extensive wardrobes; every additional suite is sea-facing and ensuite. A private spa room, a fully equipped fitness room and two staff rooms sit discreetly across the lower levels, alongside an estate clubhouse with elevated sea-view decks inspired by the work of Kerry Hill Architects.\n\nProfessional property management and a private concierge are built into ownership — covering maintenance, housekeeping and rental operations — with Kata's beaches, beach clubs and dining a short descent from the hillside.",
+  "features": [
+    {
+      "l": "Infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic sea view",
+      "i": "view"
+    },
+    {
+      "l": "Private spa room",
+      "i": "sparkles"
+    },
+    {
+      "l": "Sauna & jacuzzi",
+      "i": "sun"
+    },
+    {
+      "l": "Fitness room",
+      "i": "gym"
+    },
+    {
+      "l": "Floor-to-ceiling glazing",
+      "i": "home"
+    },
+    {
+      "l": "Open-plan kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Walk-in wardrobes",
+      "i": "sofa"
+    },
+    {
+      "l": "Gated estate & clubhouse",
+      "i": "building"
+    },
+    {
+      "l": "Concierge & management",
+      "i": "users"
+    },
+    {
+      "l": "Staff quarters",
+      "i": "key"
+    },
+    {
+      "l": "Covered parking",
+      "i": "car"
+    }
+  ]
+}

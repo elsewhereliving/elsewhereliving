@@ -1,0 +1,80 @@
+{
+  "id": "designer-med-umalas",
+  "image": "/assets/listings/designer-med-umalas/ext-001.jpg",
+  "gallery": [
+    "/assets/listings/designer-med-umalas/ext-001.jpg",
+    "/assets/listings/designer-med-umalas/ext-002.jpg",
+    "/assets/listings/designer-med-umalas/ext-003.jpg",
+    "/assets/listings/designer-med-umalas/ext-004.jpg",
+    "/assets/listings/designer-med-umalas/ext-005.jpg"
+  ],
+  "location": "Umalas · Bali · Indonesia",
+  "place": "Umalas, Kerobokan, North Kuta, Bali, Indonesia",
+  "mapQuery": "-8.654213,115.151909",
+  "market": "Bali",
+  "title": "Designer Mediterranean Villa in Umalas",
+  "type": "Villa",
+  "view": "Garden / Pool View",
+  "status": "Move-In Ready",
+  "beds": 4,
+  "baths": 4.5,
+  "interior": "348 m²",
+  "plot": "540 m²",
+  "year": 2023,
+  "priceNum": 1250000,
+  "price": "$1,250,000",
+  "added": 39,
+  "ownership": "Leasehold",
+  "blurb": "A beautifully designed four-bedroom villa in sought-after Umalas — clean lines, natural textures and floor-to-ceiling glass opening to a private pool and tropical garden, minutes from Canggu's cafés and beaches.",
+  "detail": "Positioned in one of Bali's most sought-after residential enclaves, this beautifully designed villa presents a seamless blend of modern architecture and tropical sensibility. Clean lines, natural textures and expansive openings create a home that feels both refined and relaxed — ideal for full-time living or as a high-performing investment.\n\nThoughtfully arranged to maximise natural light and airflow, floor-to-ceiling glass doors connect the indoor living area to the private pool and landscaped garden for a fluid indoor-outdoor experience. The open-plan living and dining space is complemented by a fully equipped modern kitchen, perfect for entertaining or quiet family evenings. Each of the four bedrooms is generously sized and designed as a private retreat with its own en-suite, soft neutral palettes and quality finishes; the master suite enjoys direct pool access for a resort-style ambiance.\n\nOutdoors, the private swimming pool is framed by tropical greenery — a serene escape minutes from popular cafés, fitness studios and beaches, with strong rental appeal. Set on 540 m² of land with 348 m² of building, the villa is offered leasehold until 2054 (Pondok Wisata / tourism licence) — a turnkey opportunity combining comfort, design integrity and long-term value.",
+  "features": [
+    {
+      "l": "Private pool & tropical garden",
+      "i": "pool"
+    },
+    {
+      "l": "Floor-to-ceiling indoor-outdoor glass",
+      "i": "home"
+    },
+    {
+      "l": "Four en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Master with direct pool access",
+      "i": "view"
+    },
+    {
+      "l": "Fully equipped modern kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Wine cellar",
+      "i": "sparkles"
+    },
+    {
+      "l": "Walk-in closets & storage",
+      "i": "key"
+    },
+    {
+      "l": "Landscaped garden & terraces",
+      "i": "terrace"
+    },
+    {
+      "l": "Gated community",
+      "i": "shield"
+    },
+    {
+      "l": "Private parking",
+      "i": "car"
+    },
+    {
+      "l": "A/C in all bedrooms",
+      "i": "wind"
+    },
+    {
+      "l": "Leasehold to 2054 · tourism licence",
+      "i": "building"
+    }
+  ]
+}

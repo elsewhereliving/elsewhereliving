@@ -1,0 +1,72 @@
+{
+  "id": "r-samui-kerem-seaview",
+  "image": "https://www.keremvillas.com/app/uploads/2023/11/opti-outside-back.jpg",
+  "gallery": [
+    "https://www.keremvillas.com/app/uploads/2023/11/opti-outside-back.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/outside-back-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/sunset-pool-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Pool-furniture-beds-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/pool-furniture-1-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Upper_Kerem_living_room-19-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Upper_Kerem_living_room-15-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/sunset-living-room-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/kitchen-2-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Great-room-2-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/bedroom-1-size-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/bedroom-3-balcony-1-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/bathroom-1024x683.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Upper_kerem_villa_entrance-4.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Bedroom-3-view.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Dining-Table.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Upper-Villa-Bedroom-View-1.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/bedroom-3-lamp.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/bathroom-architectural-feature.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/bedroom-2-balcony-view.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/Entrace.jpg"
+  ],
+  "location": "Plai Laem · Koh Samui · Thailand",
+  "place": "Plai Laem, Bophut, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5014,99.9956",
+  "title": "Elevated Sea-View Terrace Villa, Plai Laem",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 3,
+  "bedsLabel": "3",
+  "guests": 8,
+  "guestsLabel": "8",
+  "occupancy": "up to 6 adults + children",
+  "size": "Terrace villa",
+  "nightlyNum": 1000,
+  "nightly": "$1,000",
+  "note": "Daily breakfast & cleaning included",
+  "sleeps": "up to 8 guests · 3 bedrooms",
+  "blurb": "An elevated 'tree-house' terrace villa set back from the shore in a gated Plai Laem estate — designed by Gary Fell so the sea is visible from everywhere, with a full-width infinity pool, 180-degree views, and a secluded sea-facing master suite.",
+  "detail": "An exclusive retreat from the hectic noise of the island, this terrace villa is your private modern tree house, set on the second row above the shoreline for sweeping, elevated sea views. The interior is a testament to the architectural genius of Gary Fell — not only can you see the sea from everywhere, but the boundaries between home and tropical garden seem to blur. Guests still enjoy full access to the estate's private beach, kayaks and fully equipped gym just below.\n\nThe entry floor opens to a great room with seating for ten, two large sofas and a full kitchen with full-size appliances and a stocked mini bar, all framed by a wall of glass doors that give a full 180-degree sea view and open onto a large infinity pool and patio. The crown of the home is the enormous secluded master on the lower floor, closest to the sea, with an indoor seating area, an extra-large private balcony and a sofa that converts to a second bed.\n\nTwo further queen bedrooms upstairs each have an en-suite, walk-in rain shower, wide-screen Netflix TV and a private sea-facing balcony — all fully soundproofed with black-out blinds, natural-latex mattress toppers and 100% cotton sheets. Daily cleaning and turndown, breakfast made to order, airport transfers and concierge are included, with a private chef on request.",
+  "features": [
+    {
+      "l": "Infinity pool with 180° sea views",
+      "i": "pool"
+    },
+    {
+      "l": "Elevated 'tree-house' design by Gary Fell",
+      "i": "home"
+    },
+    {
+      "l": "Secluded sea-facing master suite",
+      "i": "bed"
+    },
+    {
+      "l": "Great room & full kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Shared private beach, kayaks & gym",
+      "i": "gym"
+    },
+    {
+      "l": "Breakfast, cleaning & concierge",
+      "i": "users"
+    }
+  ]
+}

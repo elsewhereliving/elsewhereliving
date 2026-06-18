@@ -1,0 +1,100 @@
+{
+  "id": "layan-forest-eco-residences-resort-amenities",
+  "image": "/assets/listings/layan-verde/17.jpg",
+  "gallery": [
+    "/assets/listings/layan-verde/17.jpg",
+    "/assets/listings/layan-verde/01.jpg",
+    "/assets/listings/layan-verde/02.jpg",
+    "/assets/listings/layan-verde/03.jpg",
+    "/assets/listings/layan-verde/04.jpg",
+    "/assets/listings/layan-verde/05.jpg",
+    "/assets/listings/layan-verde/06.jpg",
+    "/assets/listings/layan-verde/07.jpg",
+    "/assets/listings/layan-verde/08.jpg",
+    "/assets/listings/layan-verde/09.jpg",
+    "/assets/listings/layan-verde/10.jpg",
+    "/assets/listings/layan-verde/11.jpg",
+    "/assets/listings/layan-verde/12.jpg",
+    "/assets/listings/layan-verde/13.jpg",
+    "/assets/listings/layan-verde/14.jpg",
+    "/assets/listings/layan-verde/18.jpg",
+    "/assets/listings/layan-verde/19.jpg",
+    "/assets/listings/layan-verde/20.jpg",
+    "/assets/listings/layan-verde/15.jpg",
+    "/assets/listings/layan-verde/16.jpg"
+  ],
+  "location": "Layan · Phuket · Thailand",
+  "place": "Layan, Choeng Thale, Thalang District, Phuket 83110, Thailand",
+  "mapQuery": "8.0013,98.3043",
+  "market": "Phuket",
+  "title": "Layan Verde — Forest-Set Eco Residences with Resort Amenities, Layan",
+  "type": "Condominium",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Off-Plan",
+  "beds": 0,
+  "bedsLabel": "Studio–5",
+  "baths": "1–5",
+  "interior": "38–584 m²",
+  "plot": null,
+  "year": "Q4 2028",
+  "priceNum": 248093,
+  "price": "From $248,093",
+  "priceOriginal": "฿8,172,180",
+  "priceCurrency": "THB",
+  "added": 62,
+  "ownership": "Freehold or Leasehold",
+  "blurb": "An eco-inspired, self-sufficient residential resort set into lush tropical forest in Phuket's prestigious Layan–Bang Tao hills, about 1.1 km from Layan Beach. Bionic terraced architecture draped in greenery wraps sky pools, gardens and a vast amenity programme, with studio to five-bedroom residences delivered fully furnished. Off-plan, completing Q4 2028.",
+  "detail": "Designed as a standalone resort environment — a verdant mini-city in the heart of Phuket's beauty — this eco-inspired development sets cascading, plant-draped terraces into the tropical forest of the Layan–Bang Tao hills, roughly 1.1 km from Layan Beach on the island's coveted west coast. The bionic architecture blends modern living with nature: green façades, winding garden boardwalks over water, and resort pools woven between the buildings.\n\nResidences range from studios to expansive five-bedroom duplexes, with built areas from around 38 m² to 584 m², all designed by leading studios and delivered fully furnished with premium finishes and appliances. Interiors pair warm timber, travertine and soft sage tones with floor-to-ceiling glazing, open-plan living and private terraces — many with plunge pools and sea or forest views.\n\nThe amenity programme is exceptional: signature and all-day-dining restaurants, an ocean club, banquet hall and chef's table, spa, onsen and sauna, fitness centres and group-training studios, rooftop and lap pools, lounge cafés and rooftop bars, kids' clubs and playgrounds, coworking spaces and meeting rooms, a golf simulator, padel and squash courts, a climbing wall, BBQ zones and a dog park — alongside a shopping centre, supermarket and conference facilities.\n\nForeign buyers can own under the condominium freehold quota, with leasehold also available. With 24-hour security, generous parking and a wellness-driven, walkable masterplan, it suits families, lifestyle buyers, remote professionals and long-term investors seeking capital growth in one of Phuket's most sought-after areas. Off-plan, with completion scheduled for Q4 2028.",
+  "features": [
+    {
+      "l": "Eco-bionic terraced architecture",
+      "i": "building"
+    },
+    {
+      "l": "≈1.1 km to Layan Beach",
+      "i": "waves"
+    },
+    {
+      "l": "Sea & forest views",
+      "i": "view"
+    },
+    {
+      "l": "Studio–5 bedroom residences",
+      "i": "bed"
+    },
+    {
+      "l": "Built area 38–584 m²",
+      "i": "plot"
+    },
+    {
+      "l": "Fully furnished & turnkey",
+      "i": "sparkles"
+    },
+    {
+      "l": "Resort & rooftop swimming pools",
+      "i": "pool"
+    },
+    {
+      "l": "Spa, onsen, sauna & fitness",
+      "i": "gym"
+    },
+    {
+      "l": "Restaurants, ocean club & bars",
+      "i": "utensils"
+    },
+    {
+      "l": "Kids' clubs, padel, squash & climbing",
+      "i": "users"
+    },
+    {
+      "l": "Coworking, meeting rooms & golf sim",
+      "i": "home"
+    },
+    {
+      "l": "Foreign freehold quota · 24/7 security",
+      "i": "shield"
+    }
+  ]
+}
