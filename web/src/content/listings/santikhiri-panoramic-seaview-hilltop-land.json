@@ -81,5 +81,8 @@
       "l": "Ready to build a private villa",
       "i": "building"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredRank": 14,
+  "imageFocal": ""
 }

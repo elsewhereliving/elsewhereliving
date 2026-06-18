@@ -104,5 +104,8 @@
       "l": "Double garage · gated estate (~50 plots)",
       "i": "car"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredRank": 2,
+  "imageFocal": ""
 }

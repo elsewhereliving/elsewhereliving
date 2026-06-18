@@ -33,7 +33,6 @@
   "plot": null,
   "year": null,
   "priceOriginalNum": 6000000,
-  "priceCurrency": "USD",
   "priceFrom": true,
   "added": 74,
   "ownership": "Freehold",
@@ -88,5 +87,8 @@
       "l": "Freehold",
       "i": "key"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredRank": 18,
+  "imageFocal": ""
 }

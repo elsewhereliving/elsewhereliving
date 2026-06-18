@@ -1,9 +1,9 @@
 {
   "id": "plai-laem-seaview-16m-pool-villa",
-  "image": "/assets/listings/plai-laem-seaview-16m-pool-villa/ext-007.jpg",
+  "image": "/assets/listings/plai-laem-seaview-16m-pool-villa/ext-002.jpg",
   "gallery": [
-    "/assets/listings/plai-laem-seaview-16m-pool-villa/ext-001.jpg",
     "/assets/listings/plai-laem-seaview-16m-pool-villa/ext-002.jpg",
+    "/assets/listings/plai-laem-seaview-16m-pool-villa/ext-001.jpg",
     "/assets/listings/plai-laem-seaview-16m-pool-villa/ext-003.jpg",
     "/assets/listings/plai-laem-seaview-16m-pool-villa/ext-004.jpg",
     "/assets/listings/plai-laem-seaview-16m-pool-villa/ext-005.jpg",
@@ -103,5 +103,6 @@
       "l": "High rental-yield potential",
       "i": "users"
     }
-  ]
+  ],
+  "imageFocal": ""
 }

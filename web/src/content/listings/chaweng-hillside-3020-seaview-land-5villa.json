@@ -87,5 +87,8 @@
       "l": "Strong investment potential",
       "i": "key"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredRank": 8,
+  "imageFocal": ""
 }

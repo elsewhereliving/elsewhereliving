@@ -94,5 +94,8 @@
       "l": "Bophut Hills · private-road community",
       "i": "shield"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredRank": 3,
+  "imageFocal": ""
 }

@@ -88,5 +88,8 @@
       "l": "Rental-ready investment",
       "i": "check"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredRank": 4,
+  "imageFocal": ""
 }

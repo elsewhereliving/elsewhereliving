@@ -1,9 +1,9 @@
 {
   "id": "koh-taen-30-rai-west-facing-sunset-seafront-land",
-  "image": "/assets/listings/koh-taen-30rai/01.jpg",
+  "image": "/assets/listings/koh-taen-30rai/02.jpg",
   "gallery": [
-    "/assets/listings/koh-taen-30rai/01.jpg",
     "/assets/listings/koh-taen-30rai/02.jpg",
+    "/assets/listings/koh-taen-30rai/01.jpg",
     "/assets/listings/koh-taen-30rai/03.jpg",
     "/assets/listings/koh-taen-30rai/04.jpg",
     "/assets/listings/koh-taen-30rai/05.jpg",
@@ -84,5 +84,8 @@
       "l": "Freehold",
       "i": "shield"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredRank": 16,
+  "imageFocal": ""
 }

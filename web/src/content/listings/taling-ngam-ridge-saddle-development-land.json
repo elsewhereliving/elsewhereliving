@@ -33,7 +33,6 @@
   "plot": "20,572 m²",
   "year": null,
   "priceOriginalNum": 4000000,
-  "priceCurrency": "USD",
   "added": 58,
   "ownership": "Freehold",
   "blurb": "A rare 20,572 m² (12-3-43 rai) hillside landholding in one of Koh Samui's most exclusive, untouched corners — Taling Ngam, on the quiet southwest coast. A dramatic ridge-and-saddle topography divides naturally into elevated plots with uninterrupted panoramic views across the Gulf of Thailand. Eleven Chanote freehold deeds, single ownership.",
@@ -87,5 +86,8 @@
       "l": "Southwest-coast sunset aspect",
       "i": "sun"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredRank": 1,
+  "imageFocal": ""
 }

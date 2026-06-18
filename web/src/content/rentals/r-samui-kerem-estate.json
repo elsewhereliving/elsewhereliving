@@ -1,9 +1,11 @@
 {
   "id": "r-samui-kerem-estate",
-  "image": "https://www.keremvillas.com/app/uploads/2023/12/7c172a232e87c8ff40073625bab293d9.jpg",
+  "image": "/assets/listings/r-samui-kerem-estate/up-mqk2d2d9-1.jpg",
   "gallery": [
-    "https://www.keremvillas.com/app/uploads/2023/11/opti-Kerem_B2_beach-22.jpg",
+    "/assets/listings/r-samui-kerem-estate/up-mqk2d2d9-1.jpg",
+    "/assets/listings/r-samui-kerem-estate/up-mqk2d2d9-2.avif",
     "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_swimming_pool-9-1.jpg",
+    "https://www.keremvillas.com/app/uploads/2023/11/opti-Kerem_B2_beach-22.jpg",
     "https://www.keremvillas.com/app/uploads/2023/11/sunset-pool-1024x683.jpg",
     "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_terrace-7-1024x683.jpg",
     "https://www.keremvillas.com/app/uploads/2023/11/outside-back-1024x683.jpg",
@@ -12,7 +14,6 @@
     "https://www.keremvillas.com/app/uploads/2023/11/Upper_Kerem_living_room-19-1024x683.jpg",
     "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_garden-2-1024x683.jpg",
     "https://www.keremvillas.com/app/uploads/2023/11/Pool-furniture-beds-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2025/02/Kerem_breakfast-3.webp",
     "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_terrace-12-1024x683.jpg",
     "https://www.keremvillas.com/app/uploads/2023/11/Upper_kerem_villa_entrance-4.jpg",
     "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_villa-1.jpg",
@@ -36,7 +37,6 @@
   "occupancy": "up to 24 adults + children",
   "size": "Four-villa estate",
   "nightlyOriginalNum": 3995,
-  "nightlyCurrency": "USD",
   "note": "Whole estate · book all four villas",
   "sleeps": "up to 24 adults · 12 bedrooms",
   "blurb": "The entire gated estate — four architect-designed villas totalling twelve bedrooms, two beachfront and two elevated for sea views, sharing a private white-sand beach, a full gym and kayaks. Built for weddings, retreats and multi-family gatherings.",
@@ -66,5 +66,7 @@
       "l": "Weddings, retreats & events",
       "i": "users"
     }
-  ]
+  ],
+  "focals": {},
+  "imageFocal": "52% 32%"
 }

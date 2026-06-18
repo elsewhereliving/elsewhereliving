@@ -1,10 +1,10 @@
 {
   "id": "bang-kao-1rai-beachfront-seawall-land",
-  "image": "/assets/listings/bangkao-1rai-seawall/02.jpg",
+  "image": "/assets/listings/bangkao-1rai-seawall/07.jpg",
   "gallery": [
+    "/assets/listings/bangkao-1rai-seawall/07.jpg",
     "/assets/listings/bangkao-1rai-seawall/02.jpg",
     "/assets/listings/bangkao-1rai-seawall/01.jpg",
-    "/assets/listings/bangkao-1rai-seawall/07.jpg",
     "/assets/listings/bangkao-1rai-seawall/04.jpg",
     "/assets/listings/bangkao-1rai-seawall/03.jpg",
     "/assets/listings/bangkao-1rai-seawall/06.jpg",
@@ -82,5 +82,9 @@
       "l": "Suits a private beach villa",
       "i": "building"
     }
-  ]
+  ],
+  "focals": {
+    "/assets/listings/bangkao-1rai-seawall/07.jpg": "50% 31%"
+  },
+  "imageFocal": "50% 31%"
 }

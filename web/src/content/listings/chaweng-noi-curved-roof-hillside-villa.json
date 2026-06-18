@@ -1,7 +1,8 @@
 {
   "id": "chaweng-noi-curved-roof-hillside-villa",
-  "image": "/assets/listings/hillside-cn/p23.jpg",
+  "image": "/assets/listings/hillside-cn/p18.jpg",
   "gallery": [
+    "/assets/listings/hillside-cn/p18.jpg",
     "/assets/listings/hillside-cn/p23.jpg",
     "/assets/listings/hillside-cn/p35.jpg",
     "/assets/listings/hillside-cn/p07.jpg",
@@ -22,7 +23,6 @@
     "/assets/listings/hillside-cn/p14.jpg",
     "/assets/listings/hillside-cn/p15.jpg",
     "/assets/listings/hillside-cn/p16.jpg",
-    "/assets/listings/hillside-cn/p18.jpg",
     "/assets/listings/hillside-cn/p19.jpg",
     "/assets/listings/hillside-cn/p20.jpg",
     "/assets/listings/hillside-cn/p21.jpg",
@@ -114,5 +114,8 @@
       "l": "Five minutes to Chaweng Noi beach",
       "i": "waves"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredRank": 10,
+  "imageFocal": ""
 }

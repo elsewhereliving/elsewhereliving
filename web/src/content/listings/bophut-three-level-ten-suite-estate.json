@@ -1,6 +1,6 @@
 {
   "id": "bophut-three-level-ten-suite-estate",
-  "image": "/assets/listings/bophut-three-level-ten-suite-estate/ext-006.jpg",
+  "image": "/assets/listings/bophut-three-level-ten-suite-estate/ext-001.jpg",
   "gallery": [
     "/assets/listings/bophut-three-level-ten-suite-estate/ext-001.jpg",
     "/assets/listings/bophut-three-level-ten-suite-estate/ext-002.jpg",
@@ -95,5 +95,8 @@
       "l": "High rental-yield potential",
       "i": "users"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredRank": 11,
+  "imageFocal": ""
 }

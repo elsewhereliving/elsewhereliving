@@ -60,7 +60,6 @@
   "plot": "3,036 m²",
   "year": null,
   "priceOriginalNum": 5000000,
-  "priceCurrency": "USD",
   "added": 44,
   "ownership": "Freehold",
   "blurb": "A palatial four-bedroom villa perched on a green Taling Ngam hillside in a private estate of only a handful of homes — 270-degree panoramas over the Five Islands, Ang Thong Marine Park and the mountains, a 25-metre salt-water infinity pool, and finishes of hand-cut granite and Thai teak.",
@@ -116,5 +115,7 @@
     }
   ],
   "featured": true,
-  "featuredOrder": 3
+  "featuredOrder": 3,
+  "featuredRank": 7,
+  "imageFocal": ""
 }

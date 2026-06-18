@@ -115,5 +115,8 @@
       "l": "Off-plan · completion Q4 2028",
       "i": "shield"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredRank": 20,
+  "imageFocal": ""
 }

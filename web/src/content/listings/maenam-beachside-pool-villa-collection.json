@@ -82,5 +82,8 @@
       "l": "Limited collection",
       "i": "tree"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredRank": 12,
+  "imageFocal": ""
 }

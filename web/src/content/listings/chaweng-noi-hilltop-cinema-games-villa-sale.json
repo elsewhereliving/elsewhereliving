@@ -11,7 +11,7 @@
     "/assets/listings/chaweng-noi-hilltop-cinema-games-villa-sale/ext-007.jpg",
     "/assets/listings/chaweng-noi-hilltop-cinema-games-villa-sale/ext-008.jpg"
   ],
-  "video": "https://www.youtube.com/watch?v=4MPCbz4NC_U",
+  "video": "",
   "location": "Chaweng Noi · Koh Samui · Thailand",
   "place": "Chaweng Noi Hills, Bo Phut, Ko Samui District, Surat Thani 84320, Thailand",
   "mapQuery": "9.498580,100.057920",
@@ -83,5 +83,6 @@
       "l": "Freehold · move-in ready",
       "i": "shield"
     }
-  ]
+  ],
+  "imageFocal": ""
 }

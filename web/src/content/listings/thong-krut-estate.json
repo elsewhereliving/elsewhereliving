@@ -111,5 +111,8 @@
       "l": "Gated community · 24/7 security",
       "i": "building"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredRank": 9,
+  "imageFocal": ""
 }
