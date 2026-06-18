@@ -499,30 +499,56 @@ const VIEWS = ["All", "Sea View", "Beachfront", "Waterfront", "Mountain View", "
 export default function RentalsBrowser({ items, destinations }: Props) {
   const destOpts = [ALL, ...destinations];
 
-  // Price slider bounds from the data (ignoring "on request").
-  const [priceMin, priceMax] = useMemo(() => {
-    const nums = items.map((r) => r.nightlyNum).filter((n) => n && n > 0);
-    if (!nums.length) return [0, 0];
-    return [floorTo(Math.min(...nums), NIGHTLY_STEP), ceilTo(Math.max(...nums), NIGHTLY_STEP)];
-  }, [items]);
-
   const [dest, setDest] = useState(ALL);
   const [view, setView] = useState(ALL);
   const [minBeds, setMinBeds] = useState(0);
+  const [sort, setSort] = useState("featured");
+
+  // The price slider scales to the SELECTED destination, so its range always
+  // reflects what's actually available there (ignoring "on request").
+  const priceValues = useMemo(
+    () =>
+      items
+        .filter((r) => dest === ALL || r.dest === dest)
+        .map((r) => r.nightlyNum)
+        .filter((n) => n && n > 0)
+        .sort((a, b) => a - b),
+    [items, dest]
+  );
+  const [priceMin, priceMax] = useMemo(() => {
+    if (!priceValues.length) return [0, 0];
+    return [floorTo(priceValues[0], NIGHTLY_STEP), ceilTo(priceValues[priceValues.length - 1], NIGHTLY_STEP)];
+  }, [priceValues]);
+
   const [priceLo, setPriceLo] = useState(priceMin);
   const [priceHi, setPriceHi] = useState(priceMax);
-  const [sort, setSort] = useState("featured");
-  const [showMore, setShowMore] = useState(false);
   const priceActive = priceLo > priceMin || priceHi < priceMax;
+
+  // Lowest/highest nightly rate for a destination — used to (re)scale the slider.
+  const boundsFor = (d: string): [number, number] => {
+    const pool = items.filter((r) => d === ALL || r.dest === d).map((r) => r.nightlyNum).filter((n) => n && n > 0);
+    return pool.length ? [floorTo(Math.min(...pool), NIGHTLY_STEP), ceilTo(Math.max(...pool), NIGHTLY_STEP)] : [0, 0];
+  };
+  // Switching destination resets the price range to that area's own min/max,
+  // so a stale filter from a pricier area can't hide everything.
+  const changeDest = (d: string) => {
+    setDest(d);
+    const [lo, hi] = boundsFor(d);
+    setPriceLo(lo);
+    setPriceHi(hi);
+  };
 
   // hydrate filters from the URL on mount
   useEffect(() => {
     const q = new URLSearchParams(window.location.search);
-    if (q.get("dest")) setDest(q.get("dest")!);
-    if (q.get("view")) { setView(q.get("view")!); setShowMore(true); }
+    const d = q.get("dest");
+    if (d) setDest(d);
+    if (q.get("view")) setView(q.get("view")!);
     if (q.get("beds")) setMinBeds(Number(q.get("beds")));
-    if (q.get("pmin")) setPriceLo(Math.max(priceMin, Number(q.get("pmin"))));
-    if (q.get("pmax")) setPriceHi(Math.min(priceMax, Number(q.get("pmax"))));
+    // scale price to the (possibly URL-set) destination, clamping any pmin/pmax
+    const [bMin, bMax] = boundsFor(d || ALL);
+    setPriceLo(q.get("pmin") ? Math.max(bMin, Number(q.get("pmin"))) : bMin);
+    setPriceHi(q.get("pmax") ? Math.min(bMax, Number(q.get("pmax"))) : bMax);
     if (q.get("sort")) setSort(q.get("sort")!);
   }, []);
 
@@ -585,7 +611,7 @@ export default function RentalsBrowser({ items, destinations }: Props) {
           <Segmented
             label="Destination"
             value={dest}
-            onChange={(v) => setDest(String(v))}
+            onChange={(v) => changeDest(String(v))}
             options={destOpts.map((d) => ({ label: d, value: d }))}
           />
           <SortSelect
@@ -629,25 +655,20 @@ export default function RentalsBrowser({ items, destinations }: Props) {
               hi={priceHi}
               onChange={(lo, hi) => { setPriceLo(lo); setPriceHi(hi); }}
               format={fmtNightly}
+              scale="log"
             />
           )}
         </div>
 
-        {/* More filters — View (collapsed by default) */}
-        {showMore && (
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "22px 40px", alignItems: "flex-start", paddingTop: 20, borderTop: "1px solid var(--border-subtle)" }}>
-            <Segmented
-              label="View"
-              value={view}
-              onChange={(v) => setView(String(v))}
-              options={VIEWS.map((v) => ({ label: v, value: v }))}
-            />
-          </div>
-        )}
-
-        <button onClick={() => setShowMore((s) => !s)} style={moreBtnStyle}>
-          {showMore ? "– Fewer filters" : "+ More filters"}
-        </button>
+        {/* View */}
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "22px 40px", alignItems: "flex-start", paddingTop: 20, borderTop: "1px solid var(--border-subtle)" }}>
+          <Segmented
+            label="View"
+            value={view}
+            onChange={(v) => setView(String(v))}
+            options={VIEWS.map((v) => ({ label: v, value: v }))}
+          />
+        </div>
       </div>
 
       <div

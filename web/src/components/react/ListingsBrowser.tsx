@@ -490,34 +490,58 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
   const statusOpts = [ALL, ...statuses];
   const viewOpts = [ALL, ...views];
 
-  // Price slider bounds, derived from the data (ignoring "price on request").
-  const [priceMin, priceMax] = useMemo(() => {
-    const nums = items.map((l) => l.priceNum).filter((n) => n && n > 0);
-    if (!nums.length) return [0, 0];
-    return [floorTo(Math.min(...nums), PRICE_STEP), ceilTo(Math.max(...nums), PRICE_STEP)];
-  }, [items]);
-
   const [market, setMarket] = useState(ALL);
   const [type, setType] = useState(ALL);
   const [status, setStatus] = useState(ALL);
   const [view, setView] = useState(ALL);
   const [minBeds, setMinBeds] = useState(0);
+  const [sort, setSort] = useState("featured");
+
+  // The price slider scales to the SELECTED market, so its range always
+  // reflects what's actually available there (ignoring "price on request").
+  const priceValues = useMemo(
+    () =>
+      items
+        .filter((l) => market === ALL || l.market === market)
+        .map((l) => l.priceNum)
+        .filter((n) => n && n > 0)
+        .sort((a, b) => a - b),
+    [items, market]
+  );
+  const [priceMin, priceMax] = useMemo(() => {
+    if (!priceValues.length) return [0, 0];
+    return [floorTo(priceValues[0], PRICE_STEP), ceilTo(priceValues[priceValues.length - 1], PRICE_STEP)];
+  }, [priceValues]);
+
   const [priceLo, setPriceLo] = useState(priceMin);
   const [priceHi, setPriceHi] = useState(priceMax);
-  const [sort, setSort] = useState("featured");
-  const [showMore, setShowMore] = useState(false);
   const priceActive = priceLo > priceMin || priceHi < priceMax;
+
+  // Lowest/highest price for a market — used to (re)scale the slider.
+  const boundsFor = (m: string): [number, number] => {
+    const pool = items.filter((l) => m === ALL || l.market === m).map((l) => l.priceNum).filter((n) => n && n > 0);
+    return pool.length ? [floorTo(Math.min(...pool), PRICE_STEP), ceilTo(Math.max(...pool), PRICE_STEP)] : [0, 0];
+  };
+  // Switching market resets the price range to that market's own min/max.
+  const changeMarket = (m: string) => {
+    setMarket(m);
+    const [lo, hi] = boundsFor(m);
+    setPriceLo(lo);
+    setPriceHi(hi);
+  };
 
   // hydrate filters from the URL on mount
   useEffect(() => {
     const q = new URLSearchParams(window.location.search);
-    if (q.get("dest")) setMarket(q.get("dest")!);
+    const m = q.get("dest");
+    if (m) setMarket(m);
     if (q.get("type")) setType(q.get("type")!);
-    if (q.get("status")) { setStatus(q.get("status")!); setShowMore(true); }
-    if (q.get("view")) { setView(q.get("view")!); setShowMore(true); }
+    if (q.get("status")) setStatus(q.get("status")!);
+    if (q.get("view")) setView(q.get("view")!);
     if (q.get("beds")) setMinBeds(Number(q.get("beds")));
-    if (q.get("pmin")) setPriceLo(Math.max(priceMin, Number(q.get("pmin"))));
-    if (q.get("pmax")) setPriceHi(Math.min(priceMax, Number(q.get("pmax"))));
+    const [bMin, bMax] = boundsFor(m || ALL);
+    setPriceLo(q.get("pmin") ? Math.max(bMin, Number(q.get("pmin"))) : bMin);
+    setPriceHi(q.get("pmax") ? Math.min(bMax, Number(q.get("pmax"))) : bMax);
     if (q.get("sort")) setSort(q.get("sort")!);
   }, []);
 
@@ -591,7 +615,7 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
           <Segmented
             label="Destination"
             value={market}
-            onChange={(v) => setMarket(String(v))}
+            onChange={(v) => changeMarket(String(v))}
             options={marketOpts.map((m) => ({ label: m, value: m }))}
           />
           <SortSelect
@@ -637,31 +661,26 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
               hi={priceHi}
               onChange={(lo, hi) => { setPriceLo(lo); setPriceHi(hi); }}
               format={fmtUSD}
+              scale="log"
             />
           )}
         </div>
 
-        {/* More filters — Status + View (collapsed by default) */}
-        {showMore && (
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "22px 40px", alignItems: "flex-start", paddingTop: 20, borderTop: "1px solid var(--border-subtle)" }}>
-            <Segmented
-              label="Status"
-              value={status}
-              onChange={(v) => setStatus(String(v))}
-              options={statusOpts.map((s) => ({ label: s, value: s }))}
-            />
-            <Segmented
-              label="View"
-              value={view}
-              onChange={(v) => setView(String(v))}
-              options={viewOpts.map((v) => ({ label: v, value: v }))}
-            />
-          </div>
-        )}
-
-        <button onClick={() => setShowMore((s) => !s)} style={moreBtnStyle}>
-          {showMore ? "– Fewer filters" : "+ More filters"}
-        </button>
+        {/* Status + View */}
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "22px 40px", alignItems: "flex-start", paddingTop: 20, borderTop: "1px solid var(--border-subtle)" }}>
+          <Segmented
+            label="Status"
+            value={status}
+            onChange={(v) => setStatus(String(v))}
+            options={statusOpts.map((s) => ({ label: s, value: s }))}
+          />
+          <Segmented
+            label="View"
+            value={view}
+            onChange={(v) => setView(String(v))}
+            options={viewOpts.map((v) => ({ label: v, value: v }))}
+          />
+        </div>
       </div>
 
       <div
