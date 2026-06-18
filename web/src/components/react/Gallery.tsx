@@ -77,7 +77,7 @@ export default function Gallery({ images, thumbs, title }: Props) {
               decoding="async"
               fetchPriority={i === 0 ? "high" : "low"}
               style={{
-                position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover",
+                position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "contain",
                 opacity: i === active ? 1 : 0, transition: "opacity var(--dur-slow) var(--ease-out)",
               }}
             />

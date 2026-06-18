@@ -17,7 +17,7 @@ const tooltip = item.priceOriginal
 ---
 <a href={link} class="pcard" aria-label={item.title}>
   <div class="pcard__media pcard__media--32 ew-grain">
-    <img src={optImg(item.image, "small")} alt={item.title} loading="lazy" decoding="async" width="640" height="427" onerror={`this.onerror=null;this.src='${item.image}'`} />
+    <img src={optImg(item.image, "small")} alt={item.title} loading="lazy" decoding="async" width="640" height="427" style={`object-position:${item.imageFocal || "center"}`} onerror={`this.onerror=null;this.src='${item.image}'`} />
     {item.status && <div style="position:absolute; top:14px; left:14px; z-index:2;"><Badge tone="light">{item.status}</Badge></div>}
     <div style="position:absolute; top:12px; right:12px; z-index:2;"><SaveButton id={item.id} client:visible /></div>
   </div>

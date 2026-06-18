@@ -18,7 +18,7 @@ const priceTip = nightlyOriginal
 ---
 <a href={link} class="pcard" aria-label={item.title}>
   <div class="pcard__media pcard__media--32 ew-grain">
-    <img src={item.image} alt={item.title} loading="lazy" decoding="async" />
+    <img src={item.image} alt={item.title} loading="lazy" decoding="async" style={`object-position:${item.imageFocal || "center"}`} />
     {views.length > 0 && (
       <div style="position:absolute; top:14px; left:14px; z-index:2; display:flex; flex-wrap:wrap; gap:6px;">
         {views.map((v) => <Badge tone="light">{v}</Badge>)}

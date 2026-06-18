@@ -27,6 +27,13 @@ const all = await getRentals();
 // Three other homes by the week (RentalScreen: RENTALS, excluding this one).
 const related = relatedRentals(r, all, 3);
 
+function youTubeId(u?: string): string {
+  if (!u) return "";
+  const m = String(u).match(/(?:v=|youtu\.be\/|embed\/)([\w-]{11})/);
+  return m ? m[1] : String(u);
+}
+const videoId = youTubeId((r as any).video);
+
 const detail =
   r.detail ||
   "Every Elsewhere rental comes fully staffed and ready — housekeeping, a welcome stock, and a local concierge a message away. Tell us your dates and we'll handle transfers, a private chef, and anything else that makes the week effortless.";
@@ -152,6 +159,23 @@ const jsonLd = {
           </div>
         </aside>
       </div>
+
+      <!-- Film -->
+      {videoId && (
+        <div style="margin-top:clamp(56px, 8vw, 96px);">
+          <div style="color:var(--slate); margin-bottom:14px;"><Label>Film</Label></div>
+          <div style="position:relative; width:100%; aspect-ratio:16 / 9; overflow:hidden; background:var(--navy); border:1px solid var(--border-subtle);">
+            <iframe
+              title={`${r.title} — film`}
+              src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0`}
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              style="position:absolute; inset:0; width:100%; height:100%; border:0;"
+            ></iframe>
+          </div>
+        </div>
+      )}
 
       <!-- Location -->
       {(r.mapQuery || r.place) && (

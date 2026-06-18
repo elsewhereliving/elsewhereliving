@@ -49,6 +49,12 @@ export interface Listing {
   featured?: boolean;
   /** Order within the homepage featured row — lower shows first. */
   featuredOrder?: number;
+  /** Studio: 1-based featured order (preferred over featuredOrder). */
+  featuredRank?: number | null;
+  /** Studio: cover crop focus, e.g. "50% 30%" (object-position). */
+  imageFocal?: string;
+  /** Studio: per-image focal map keyed by URL. */
+  focals?: Record<string, string>;
   blurb: string;
   detail: string;
   features: Feature[];
@@ -86,6 +92,11 @@ export interface Rental {
   nightlyOriginal?: string;
   note?: string;
   sleeps?: string;
+  video?: string;
+  featured?: boolean;
+  featuredRank?: number | null;
+  imageFocal?: string;
+  focals?: Record<string, string>;
   blurb: string;
   detail: string;
   features: Feature[];

@@ -7,6 +7,7 @@
 
 import type { Listing, Rental, SiteContent } from "./types";
 import siteLocal from "../data/site.json";
+import homeLocal from "../data/home.json";
 import { listingPrice, rentalPrice } from "./price";
 
 // Eagerly import every per-property file at build time.
@@ -56,11 +57,15 @@ export function getSiteContent(): SiteContent {
  * fall back to the most recently added listings so the row is never empty.
  */
 export async function getFeaturedListings(n = 3): Promise<Listing[]> {
-  const flagged = LISTINGS.filter((l) => l.featured).sort(
-    (a, b) => (a.featuredOrder ?? 999) - (b.featuredOrder ?? 999)
-  );
-  if (flagged.length > 0) return flagged;
+  const rank = (l: Listing) => (l as any).featuredRank ?? l.featuredOrder ?? 999;
+  const flagged = LISTINGS.filter((l) => l.featured).sort((a, b) => rank(a) - rank(b));
+  if (flagged.length > 0) return flagged.slice(0, n);
   return [...LISTINGS].sort((a, b) => (b.added ?? 0) - (a.added ?? 0)).slice(0, n);
+}
+
+/** How many featured listings the homepage "collection" shows (set in /admin). */
+export function getHomeFeaturedCount(): number {
+  return (homeLocal as { count?: number }).count || 3;
 }
 
 /** Distinct markets present in the listing set, in MARKETS order. */

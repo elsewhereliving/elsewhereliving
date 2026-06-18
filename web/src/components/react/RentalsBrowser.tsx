@@ -229,6 +229,7 @@ function RentalCard({ item }: { item: RentalItem }) {
             width: "100%",
             height: "100%",
             objectFit: "cover",
+            objectPosition: (item as any).imageFocal || "center",
             transition: "transform 1.4s var(--ease-out)",
             transform: hover ? "scale(1.06)" : "scale(1)",
           }}

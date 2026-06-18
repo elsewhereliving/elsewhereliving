@@ -6,14 +6,14 @@ import Icon from "../components/Icon.astro";
 import SectionHead from "../components/SectionHead.astro";
 import PropertyCard from "../components/PropertyCard.astro";
 import TestimonialCarousel from "../components/react/TestimonialCarousel.tsx";
-import { getListings, getFeaturedListings, getSiteContent } from "../lib/content";
+import { getListings, getFeaturedListings, getHomeFeaturedCount, getSiteContent } from "../lib/content";
 
 const all = await getListings();
 const { markets, pillars, testimonials } = getSiteContent();
 
-// Featured row is chosen in /admin (the "Feature on homepage" toggle + order).
-// Falls back to the newest listings if nothing is flagged.
-const featured = await getFeaturedListings(3);
+// Featured row is chosen in /admin (the Studio's Featured tab): how many to show
+// (home.json count) + which listings, in order. Falls back to the newest.
+const featured = await getFeaturedListings(getHomeFeaturedCount());
 
 const services = [
   { i: "home", t: "Buy & Sell", b: "Villas, land and condominiums across our markets — each one personally vetted for design, location and the numbers behind it.", cta: "Browse properties", href: "/properties/" },
