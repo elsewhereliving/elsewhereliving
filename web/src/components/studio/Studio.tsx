@@ -1,4 +1,4 @@
-import { createContext, useCallback, useContext, useMemo, useState } from "react";
+import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import { rentDest } from "../../lib/format";
 import { listingPrice, rentalPrice } from "../../lib/price";
 import Dashboard from "./Dashboard";
@@ -129,24 +129,37 @@ export default function Studio({ listings: l0, rentals: r0, markets }: StudioDat
     };
   }, [listings, rentals, markets, homeCount, connected, connectRepo]);
 
+  // While the editor is open, lock the page behind it so it can't scroll and we
+  // don't show a second scrollbar. This does NOT change the dashboard's scroll
+  // position, so when the editor closes the list is exactly where it was left —
+  // same scroll, same tab, same filters (the Dashboard is never unmounted).
+  const editing = route.view === "editor";
+  useEffect(() => {
+    if (!editing) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => { document.body.style.overflow = prev; };
+  }, [editing]);
+
   return (
     <StoreCtx.Provider value={store}>
       <ToastCtx.Provider value={push}>
         <div className="ew-studio">
-          {route.view === "editor" ? (
-            <Editor
-              collection={route.collection}
-              id={route.id}
-              onClose={() => setRoute({ view: "dashboard" })}
-              onSaved={() => setRoute({ view: "dashboard" })}
-            />
-          ) : (
-            <Dashboard
-              onEdit={(c, id) => setRoute({ view: "editor", collection: c, id })}
-              onNew={(c) => setRoute({ view: "editor", collection: c, id: null })}
-              onImport={() => push("Import-from-link arrives in a later phase")}
-              onLogout={() => push("Sign-out lands with auth in Phase 5")}
-            />
+          <Dashboard
+            onEdit={(c, id) => setRoute({ view: "editor", collection: c, id })}
+            onNew={(c) => setRoute({ view: "editor", collection: c, id: null })}
+            onImport={() => push("Import-from-link arrives in a later phase")}
+            onLogout={() => push("Sign-out lands with auth in Phase 5")}
+          />
+          {route.view === "editor" && (
+            <div className="ew-editor-overlay" style={{ position: "fixed", inset: 0, zIndex: 60, overflowY: "auto", background: "var(--paper)" }}>
+              <Editor
+                collection={route.collection}
+                id={route.id}
+                onClose={() => setRoute({ view: "dashboard" })}
+                onSaved={() => setRoute({ view: "dashboard" })}
+              />
+            </div>
           )}
         </div>
         <ToastHost toasts={toasts} />

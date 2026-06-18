@@ -52,10 +52,14 @@ export interface ListingPriceFields {
   priceNum: number;
   price: string;
   priceOriginal?: string;
-  priceCurrency?: string;
 }
 
 /** Compute a listing's display price fields from its source price. */
+// NOTE: we deliberately do NOT return `priceCurrency` here. That is a *source*
+// field (the currency the owner entered), and overlaying a computed value with
+// the same name — e.g. `{ ...listing, ...listingPrice(listing) }` — would clobber
+// it (USD prices would lose their currency on the next /admin save). The native
+// tooltip reads `priceOriginal`; the source `priceCurrency` passes through as-is.
 export function listingPrice(src: {
   priceOriginalNum?: number | null;
   priceCurrency?: string;
@@ -64,7 +68,7 @@ export function listingPrice(src: {
   const amt = src.priceOriginalNum;
   const cur = (src.priceCurrency || "").toUpperCase();
   if (!cur || amt == null || amt <= 0) {
-    return { priceNum: 0, price: "Price on request", priceOriginal: undefined, priceCurrency: undefined };
+    return { priceNum: 0, price: "Price on request", priceOriginal: undefined };
   }
   const usd = Math.round(toUsd(amt, cur));
   return {
@@ -72,7 +76,6 @@ export function listingPrice(src: {
     price: formatUsd(usd, { from: src.priceFrom }),
     // Tooltip only matters when the native price isn't already USD.
     priceOriginal: cur === "USD" ? undefined : formatNative(amt, cur),
-    priceCurrency: cur === "USD" ? undefined : cur,
   };
 }
 
@@ -80,10 +83,11 @@ export interface RentalPriceFields {
   nightlyNum: number;
   nightly: string;
   nightlyOriginal?: string;
-  nightlyCurrency?: string;
 }
 
 /** Compute a rental's display nightly fields from its source price. */
+// See the note on listingPrice: `nightlyCurrency` is a source field and must not
+// be overlaid with a computed value, or USD rentals lose it on the next save.
 export function rentalPrice(src: {
   nightlyOriginalNum?: number | null;
   nightlyCurrency?: string;
@@ -91,13 +95,12 @@ export function rentalPrice(src: {
   const amt = src.nightlyOriginalNum;
   const cur = (src.nightlyCurrency || "").toUpperCase();
   if (!cur || amt == null || amt <= 0) {
-    return { nightlyNum: 0, nightly: "Price on request", nightlyOriginal: undefined, nightlyCurrency: undefined };
+    return { nightlyNum: 0, nightly: "Price on request", nightlyOriginal: undefined };
   }
   const usd = Math.round(toUsd(amt, cur));
   return {
     nightlyNum: usd,
     nightly: formatUsd(usd),
     nightlyOriginal: cur === "USD" ? undefined : formatNative(amt, cur),
-    nightlyCurrency: cur === "USD" ? undefined : cur,
   };
 }
