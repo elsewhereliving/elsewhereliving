@@ -4,6 +4,7 @@ import { listingPrice, rentalPrice } from "../../lib/price";
 import { optImg } from "../../lib/img";
 import { Icon, ICON_KEYS } from "./icons";
 import { TextField, NumberField, TextArea, SelectField, ChipMulti, FormSection } from "./fields";
+import PhotoManager from "./PhotoManager";
 import { useStudio, useToast, type Rec } from "./Studio";
 
 const VIEW_OPTIONS = ["Sea View", "Beachfront", "Waterfront", "City View", "Mountain View", "Garden / Pool View"];
@@ -24,6 +25,7 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
   const [dirty, setDirty] = useState(false);
 
   const set = useCallback((patch: Partial<Rec>) => { setRec((r) => ({ ...r, ...patch })); setDirty(true); }, []);
+  const setGallery = useCallback((g: string[]) => { setRec((r) => ({ ...r, gallery: g, image: g[0] || "" })); setDirty(true); }, []);
 
   const previewItem = useMemo<Rec>(() => {
     const cover = (rec.gallery && rec.gallery[0]) || rec.image || "";
@@ -70,24 +72,8 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
 
       <div className="ew-editor-grid" style={{ maxWidth: 1240, margin: "0 auto", padding: "34px 28px 90px", display: "grid", gridTemplateColumns: "1fr 340px", gap: 44, alignItems: "start" }}>
         <div>
-          {/* Photos (read-only here; full manager is Phase 3) */}
           <div style={{ background: "var(--white)", border: "1px solid var(--border-subtle)", padding: 24, marginBottom: 38 }}>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 14 }}>
-              <span style={{ fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--slate)", fontWeight: 500 }}>[ Photos ]</span>
-              <span style={{ fontFamily: "var(--font-sans)", fontSize: 10.5, color: "var(--stone)" }}>Manager (reorder · cover · focus) — Phase 3</span>
-            </div>
-            {(rec.gallery || []).length ? (
-              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(110px,1fr))", gap: 8 }}>
-                {rec.gallery.map((g: string, i: number) => (
-                  <div key={g + i} style={{ position: "relative", border: i === 0 ? "2px solid var(--navy)" : "1px solid var(--border-subtle)" }}>
-                    <img src={optImg(g, "small")} alt="" style={{ width: "100%", height: "auto", display: "block" }} />
-                    {i === 0 && <span style={{ position: "absolute", top: 4, left: 4, background: "var(--navy)", color: "var(--white)", fontFamily: "var(--font-sans)", fontSize: 8.5, letterSpacing: "0.1em", textTransform: "uppercase", padding: "2px 6px" }}>Cover</span>}
-                  </div>
-                ))}
-              </div>
-            ) : (
-              <div style={{ aspectRatio: "4/3", background: "var(--paper-2)", border: "1px dashed var(--stone)", display: "flex", alignItems: "center", justifyContent: "center", color: "var(--slate)", fontFamily: "var(--font-sans)", fontSize: 12 }}>No photos yet</div>
-            )}
+            <PhotoManager gallery={rec.gallery || []} onChange={setGallery} focals={rec.focals || {}} onFocals={(f) => set({ focals: f })} />
           </div>
 
           <FormSection eyebrow="Essentials">
