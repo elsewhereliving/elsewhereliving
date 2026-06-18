@@ -4,10 +4,11 @@ import Label from "../../components/Label.astro";
 import SectionHead from "../../components/SectionHead.astro";
 import RentalsBrowser, { type RentalItem } from "../../components/react/RentalsBrowser.tsx";
 import ContactForm from "../../components/react/ContactForm.tsx";
-import { getRentals } from "../../lib/content";
+import { getRentals, getSiteContent } from "../../lib/content";
 import { rentDest } from "../../lib/format";
 
 const rentals = await getRentals();
+const { contact } = getSiteContent();
 
 // Destinations — ["All", ...unique rentDest(location)] (RentalsScreen verbatim).
 const destinations = Array.from(
@@ -83,8 +84,8 @@ const HERO_IMAGE = "/assets/imagery/c-chairs.jpg";
             max={620}
           />
         </div>
-        <div style="background:var(--navy-80); border:1px solid var(--border-on-dark); padding:clamp(26px, 4vw, 44px);">
-          <ContactForm subject="Vacation rental enquiry" intents={["Rent", "Buy", "Build"]} client:visible />
+        <div style="background:var(--white); border:1px solid var(--border-subtle); padding:clamp(26px, 4vw, 44px);">
+          <ContactForm email={contact.email} whatsapp={contact.whatsapp} client:visible />
         </div>
       </div>
     </section>
