@@ -1,0 +1,33 @@
+---
+import "../styles/global.css";
+import "../styles/studio.css";
+import Studio from "../components/studio/Studio.tsx";
+import { getListings, getRentals, getListingMarkets } from "../lib/content";
+
+// Load the current portfolio as the Studio's starting data. (Saving back to
+// GitHub lands in Phase 5; for now the studio is a read + preview surface.)
+const listings = await getListings();
+const rentals = await getRentals();
+const markets = await getListingMarkets();
+
+const DS = "/_ds/design-system-abef38a9-b4ec-454e-999b-5c22fa6c925a";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>The Listings Studio — Elsewhere Living</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/imagery/favicon-32.png" />
+    <link rel="stylesheet" href={`${DS}/tokens/fonts.css`} />
+    <link rel="stylesheet" href={`${DS}/tokens/colors.css`} />
+    <link rel="stylesheet" href={`${DS}/tokens/typography.css`} />
+    <link rel="stylesheet" href={`${DS}/tokens/spacing.css`} />
+    <link rel="stylesheet" href={`${DS}/tokens/base.css`} />
+  </head>
+  <body style="margin:0; background:var(--paper);">
+    <Studio listings={listings} rentals={rentals} markets={markets} client:only="react" />
+  </body>
+</html>

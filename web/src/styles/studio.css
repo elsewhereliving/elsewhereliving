@@ -1,0 +1,33 @@
+/* The Listings Studio (admin CRM) — scoped styles + token fallbacks.
+   Reuses the public site's design tokens; fills in a few admin-only ones. */
+.ew-studio {
+  --border-on-light: var(--border-subtle, rgba(31, 31, 31, 0.14));
+  --paper-2: #e4e4e2;
+  --navy-80: #2a3a56;
+  --stone: var(--stone, #c9c9c6);
+  --ease-out: var(--ease-out, cubic-bezier(0.22, 1, 0.36, 1));
+  min-height: 100vh;
+  background: var(--paper);
+  color: var(--charcoal);
+  -webkit-font-smoothing: antialiased;
+}
+.ew-studio * { box-sizing: border-box; }
+
+/* The only rounded controls (per the shape language): the toolbar pills + search. */
+.ew-studio .ew-pillctl,
+.ew-studio .ew-searchbar { border-radius: 999px; }
+.ew-studio select.ew-pillctl { border-radius: 999px; }
+
+.ew-studio input::placeholder { color: var(--slate); opacity: 0.8; }
+
+@keyframes ew-shake {
+  10%, 90% { transform: translateX(-1px); }
+  20%, 80% { transform: translateX(2px); }
+  30%, 50%, 70% { transform: translateX(-4px); }
+  40%, 60% { transform: translateX(4px); }
+}
+.ew-shake { animation: ew-shake 0.5s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ew-studio * { transition: none !important; animation: none !important; }
+}
