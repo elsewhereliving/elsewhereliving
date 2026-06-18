@@ -1,25 +1,25 @@
 {
-  "id": "r-samui-kerem-beachfront",
-  "image": "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_swimming_pool-9-1.jpg",
+  "id": "r-samui-plai-laem-beachfront-pool-villa",
+  "image": "/assets/listings/r-samui-plai-laem-beachfront-pool-villa/01.jpg",
   "gallery": [
-    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_swimming_pool-9-1.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_swimming_pool-10-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_swimming_pool-2-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_terrace-7-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_terrace-12-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_garden-2-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_garden-4-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/opti-Kerem_B2_beach-22.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_living-1-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_dining-1-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_bedroom_1-1-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_villa-1.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_villa-9.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_beach-16.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_bedroom_1-3.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_bedroom_3_terrace-1.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B1_swimming_pool-8.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Kerem_B2_stairs_entrance-12.jpg"
+    "/assets/listings/r-samui-plai-laem-beachfront-pool-villa/01.jpg",
+    "/assets/listings/r-samui-plai-laem-beachfront-pool-villa/02.jpg",
+    "/assets/listings/r-samui-plai-laem-beachfront-pool-villa/03.jpg",
+    "/assets/listings/r-samui-plai-laem-beachfront-pool-villa/04.jpg",
+    "/assets/listings/r-samui-plai-laem-beachfront-pool-villa/05.jpg",
+    "/assets/listings/r-samui-plai-laem-beachfront-pool-villa/06.jpg",
+    "/assets/listings/r-samui-plai-laem-beachfront-pool-villa/07.jpg",
+    "/assets/listings/r-samui-plai-laem-beachfront-pool-villa/08.jpg",
+    "/assets/listings/r-samui-plai-laem-beachfront-pool-villa/09.jpg",
+    "/assets/listings/r-samui-plai-laem-beachfront-pool-villa/10.jpg",
+    "/assets/listings/r-samui-plai-laem-beachfront-pool-villa/11.jpg",
+    "/assets/listings/r-samui-plai-laem-beachfront-pool-villa/12.jpg",
+    "/assets/listings/r-samui-plai-laem-beachfront-pool-villa/13.jpg",
+    "/assets/listings/r-samui-plai-laem-beachfront-pool-villa/14.jpg",
+    "/assets/listings/r-samui-plai-laem-beachfront-pool-villa/15.jpg",
+    "/assets/listings/r-samui-plai-laem-beachfront-pool-villa/16.jpg",
+    "/assets/listings/r-samui-plai-laem-beachfront-pool-villa/17.jpg",
+    "/assets/listings/r-samui-plai-laem-beachfront-pool-villa/18.jpg"
   ],
   "location": "Plai Laem · Koh Samui · Thailand",
   "place": "Plai Laem, Bophut, Ko Samui District, Surat Thani, Thailand",
@@ -66,5 +66,6 @@
       "l": "Breakfast, cleaning & concierge",
       "i": "users"
     }
-  ]
+  ],
+  "focals": {}
 }

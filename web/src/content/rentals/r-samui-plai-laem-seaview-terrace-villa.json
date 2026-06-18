@@ -1,28 +1,27 @@
 {
-  "id": "r-samui-kerem-seaview",
-  "image": "https://www.keremvillas.com/app/uploads/2023/11/opti-outside-back.jpg",
+  "id": "r-samui-plai-laem-seaview-terrace-villa",
+  "image": "/assets/listings/r-samui-plai-laem-seaview-terrace-villa/01.jpg",
   "gallery": [
-    "https://www.keremvillas.com/app/uploads/2023/11/opti-outside-back.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/outside-back-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/sunset-pool-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Pool-furniture-beds-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/pool-furniture-1-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Upper_Kerem_living_room-19-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Upper_Kerem_living_room-15-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/sunset-living-room-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/kitchen-2-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Great-room-2-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/bedroom-1-size-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/bedroom-3-balcony-1-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/bathroom-1024x683.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Upper_kerem_villa_entrance-4.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Bedroom-3-view.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Dining-Table.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Upper-Villa-Bedroom-View-1.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/bedroom-3-lamp.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/bathroom-architectural-feature.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/bedroom-2-balcony-view.jpg",
-    "https://www.keremvillas.com/app/uploads/2023/11/Entrace.jpg"
+    "/assets/listings/r-samui-plai-laem-seaview-terrace-villa/01.jpg",
+    "/assets/listings/r-samui-plai-laem-seaview-terrace-villa/02.jpg",
+    "/assets/listings/r-samui-plai-laem-seaview-terrace-villa/03.jpg",
+    "/assets/listings/r-samui-plai-laem-seaview-terrace-villa/04.jpg",
+    "/assets/listings/r-samui-plai-laem-seaview-terrace-villa/05.jpg",
+    "/assets/listings/r-samui-plai-laem-seaview-terrace-villa/06.jpg",
+    "/assets/listings/r-samui-plai-laem-seaview-terrace-villa/07.jpg",
+    "/assets/listings/r-samui-plai-laem-seaview-terrace-villa/08.jpg",
+    "/assets/listings/r-samui-plai-laem-seaview-terrace-villa/09.jpg",
+    "/assets/listings/r-samui-plai-laem-seaview-terrace-villa/10.jpg",
+    "/assets/listings/r-samui-plai-laem-seaview-terrace-villa/11.jpg",
+    "/assets/listings/r-samui-plai-laem-seaview-terrace-villa/12.jpg",
+    "/assets/listings/r-samui-plai-laem-seaview-terrace-villa/13.jpg",
+    "/assets/listings/r-samui-plai-laem-seaview-terrace-villa/14.jpg",
+    "/assets/listings/r-samui-plai-laem-seaview-terrace-villa/15.jpg",
+    "/assets/listings/r-samui-plai-laem-seaview-terrace-villa/16.jpg",
+    "/assets/listings/r-samui-plai-laem-seaview-terrace-villa/17.jpg",
+    "/assets/listings/r-samui-plai-laem-seaview-terrace-villa/18.jpg",
+    "/assets/listings/r-samui-plai-laem-seaview-terrace-villa/19.jpg",
+    "/assets/listings/r-samui-plai-laem-seaview-terrace-villa/20.jpg"
   ],
   "location": "Plai Laem · Koh Samui · Thailand",
   "place": "Plai Laem, Bophut, Ko Samui District, Surat Thani, Thailand",
@@ -68,5 +67,6 @@
       "l": "Breakfast, cleaning & concierge",
       "i": "users"
     }
-  ]
+  ],
+  "focals": {}
 }
