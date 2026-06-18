@@ -1,0 +1,66 @@
+{
+  "id": "r-bali-pantai-lima-beachfront-villa-bale",
+  "image": "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/01.jpg",
+  "gallery": [
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/01.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/02.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/03.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/04.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/05.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/06.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/07.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/08.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/09.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/10.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/11.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/12.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/13.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/14.jpg"
+  ],
+  "location": "Canggu · Bali · Indonesia",
+  "place": "Pantai Lima, Pererenan, Mengwi, Badung, Bali, Indonesia",
+  "mapQuery": "-8.6553,115.1153",
+  "title": "Beachfront Five-Bedroom Ocean-View Villa with Beach Bale, Pantai Lima",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 5,
+  "bedsLabel": "5",
+  "guests": 10,
+  "guestsLabel": "10",
+  "occupancy": "up to 10 guests",
+  "size": "1,218 m²",
+  "nightlyOriginalNum": 1566,
+  "nightlyCurrency": "USD",
+  "note": "Private chef",
+  "sleeps": "10 guests · 5 bedrooms",
+  "blurb": "A freshly refurbished five-bedroom beachfront villa at Pantai Lima — open-plan living with surround sound over two levels, a poolside lounge and beachfront bale for private massage, with ocean views and direct steps to the black sand.",
+  "detail": "This five-bedroom beachfront villa sits within a four-acre beachfront estate, refreshed in 2024 and spread across two levels. The ground floor holds a semi-open indoor living area with surround sound, a fully equipped kitchen, enclosed air-conditioned dining, the master and two further bedrooms, plus the pool and garden; two more bedrooms sit on the upper level. Each en-suite bedroom has a Smart TV with Netflix and its own sound system.\n\nThe living spaces flow effortlessly to the outdoors — a poolside lounge and dining area with beach and ocean views, and a beachfront bale that makes a serene haven for private massages. With the sea just steps away across the estate's boardwalk, it balances open-air Bali living with air-conditioned comfort throughout.\n\nFully staffed with a private chef, attendants, housekeepers, maintenance and security, the villa includes daily breakfast and shared access to the estate's night-lit tennis court. In-villa spa treatments, yoga, a chef shopping service and tours can all be arranged on request, making it an effortless beachfront base for families and groups.",
+  "features": [
+    {
+      "l": "Beachfront pool with ocean views",
+      "i": "pool"
+    },
+    {
+      "l": "Beachfront bale for massage",
+      "i": "waves"
+    },
+    {
+      "l": "Open-plan living, surround sound",
+      "i": "sofa"
+    },
+    {
+      "l": "Steps to black-sand beach",
+      "i": "tree"
+    },
+    {
+      "l": "Shared night-lit tennis court",
+      "i": "sparkles"
+    },
+    {
+      "l": "5 en-suite bedrooms · private chef",
+      "i": "users"
+    }
+  ]
+}

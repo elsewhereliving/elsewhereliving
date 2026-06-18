@@ -1,0 +1,68 @@
+{
+  "id": "r-bali-pantai-lima-beachfront-villa-spa",
+  "image": "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/01.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/02.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/03.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/04.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/05.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/06.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/07.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/08.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/09.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/10.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/11.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/12.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/13.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/14.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/15.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/16.jpg"
+  ],
+  "location": "Canggu · Bali · Indonesia",
+  "place": "Pantai Lima, Pererenan, Mengwi, Badung, Bali, Indonesia",
+  "mapQuery": "-8.6553,115.1153",
+  "title": "Beachfront Five-Bedroom Ocean-View Villa with Spa Room, Pantai Lima",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 5,
+  "bedsLabel": "5",
+  "guests": 10,
+  "guestsLabel": "10",
+  "occupancy": "up to 10 guests",
+  "size": "900 m²",
+  "nightlyOriginalNum": 1372,
+  "nightlyCurrency": "USD",
+  "note": "Private chef",
+  "sleeps": "10 guests · 5 bedrooms",
+  "blurb": "A five-bedroom beachfront villa on the water's edge at Pantai Lima — open ocean-view living over three levels, a spa room with daybed terrace, a basement gym and study, and direct steps to the black-sand beach, fully staffed with a private chef.",
+  "detail": "This villa sits right on the water's edge within a four-acre beachfront estate, a five-bedroom retreat arranged across three levels. The ground floor opens to indoor and outdoor living areas, two bedrooms, the kitchen, pool and a garden-side outdoor dining area; the second floor holds three further bedrooms including the master, plus a spa room with an open terrace and daybeds; and the basement adds an office/study and a fitness area.\n\nThe open indoor living area frames a beautiful ocean view, with an enclosed air-conditioned dining room beside the kitchen and generous poolside seating overlooking the sea. Each en-suite bedroom is air-conditioned with its own satellite TV, and the villa is well stocked for downtime with a Harman Kardon sound system, table tennis, backgammon and a library of books, games and puzzles.\n\nFully staffed with a private chef, attendants, gardener and security, the villa includes daily breakfast, a complimentary car with driver, and shared access to the estate's night-lit tennis court. In-villa massage, yoga on the villa's own mats, and a full slate of tours and activities can be arranged on request — a serene beachfront base a minute from the sand.",
+  "features": [
+    {
+      "l": "Beachfront infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Ocean-view open living",
+      "i": "view"
+    },
+    {
+      "l": "Spa room & basement gym",
+      "i": "gym"
+    },
+    {
+      "l": "Steps to black-sand beach",
+      "i": "waves"
+    },
+    {
+      "l": "Shared night-lit tennis court",
+      "i": "sparkles"
+    },
+    {
+      "l": "5 en-suite bedrooms · private chef",
+      "i": "users"
+    }
+  ]
+}
