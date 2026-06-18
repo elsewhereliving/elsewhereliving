@@ -37,18 +37,57 @@
   "blurb": "A contemporary five-bedroom villa perched in the Plai Laem and Choeng Mon hills, framing a 180-degree sweep of the gulf from every principal room. An 18-metre infinity pool, a twelve-seat cinema and an indoor spa sit within roughly 700 m² of furnished, move-in-ready living, on a freehold Chanote plot of some 3,477 m² — ten minutes from Fisherman's Village and the airport.",
   "detail": "Set high in the Plai Laem and Choeng Mon hills on Koh Samui's north-east cape, this five-bedroom villa opens to an uninterrupted 180-degree panorama of the sea and the islands beyond, on a freehold Chanote-title plot of some 3,477 m². The architecture pairs a restrained, contemporary frame with traditional Thai detailing — an antique timber entrance gate, deep eaves and natural stone — for a home that feels both current and rooted in the island.\n\nSliding glass walls dissolve the line between the main living room and the pool deck, where an 18-metre infinity edge appears to spill toward the horizon above a generous sun terrace. The open living and dining spaces flow to a full kitchen, with a separate outdoor barbecue kitchen for entertaining as the sun goes down.\n\nEach of the five en-suite bedrooms is wrapped in floor-to-ceiling glass with direct access to a terrace or the garden, and bathrooms finished with terrazzo tubs and contemporary fixtures. Four sit on the main floor, while a fifth beside the pool offers added privacy for guests; a loft-style lounge with a sofa bed and a dedicated study round out the accommodation.\n\nWellness and leisure are built in, with an indoor spa and massage room and a twelve-seat private cinema. Offered fully furnished and move-in ready, the villa lies around ten minutes from Fisherman's Village, the beaches and dining of Choeng Mon and Chaweng, and Samui International Airport.",
   "features": [
-    { "l": "180° panoramic sea views", "i": "view" },
-    { "l": "18-metre infinity pool & sun deck", "i": "pool" },
-    { "l": "Five en-suite bedrooms", "i": "bed" },
-    { "l": "Twelve-seat private cinema", "i": "music" },
-    { "l": "Indoor spa & massage room", "i": "sparkles" },
-    { "l": "Outdoor barbecue kitchen & dining", "i": "utensils" },
-    { "l": "Floor-to-ceiling glass, indoor–outdoor living", "i": "home" },
-    { "l": "Loft lounge & dedicated study", "i": "sofa" },
-    { "l": "Terrazzo bathtubs & designer fixtures", "i": "bath" },
-    { "l": "Landscaped hillside gardens", "i": "tree" },
-    { "l": "≈3,477 m² freehold land · Chanote", "i": "plot" },
-    { "l": "≈700 m² build across two floors", "i": "building" },
-    { "l": "10 minutes to Fisherman's Village & airport", "i": "key" }
+    {
+      "l": "180° panoramic sea views",
+      "i": "view"
+    },
+    {
+      "l": "18-metre infinity pool & sun deck",
+      "i": "pool"
+    },
+    {
+      "l": "Five en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Twelve-seat private cinema",
+      "i": "music"
+    },
+    {
+      "l": "Indoor spa & massage room",
+      "i": "sparkles"
+    },
+    {
+      "l": "Outdoor barbecue kitchen & dining",
+      "i": "utensils"
+    },
+    {
+      "l": "Floor-to-ceiling glass, indoor–outdoor living",
+      "i": "home"
+    },
+    {
+      "l": "Loft lounge & dedicated study",
+      "i": "sofa"
+    },
+    {
+      "l": "Terrazzo bathtubs & designer fixtures",
+      "i": "bath"
+    },
+    {
+      "l": "Landscaped hillside gardens",
+      "i": "tree"
+    },
+    {
+      "l": "≈3,477 m² freehold land · Chanote",
+      "i": "plot"
+    },
+    {
+      "l": "≈700 m² build across two floors",
+      "i": "building"
+    },
+    {
+      "l": "10 minutes to Fisherman's Village & airport",
+      "i": "key"
+    }
   ]
 }

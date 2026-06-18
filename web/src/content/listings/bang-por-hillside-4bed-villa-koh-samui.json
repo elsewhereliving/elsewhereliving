@@ -38,18 +38,57 @@
   "blurb": "A contemporary four-bedroom villa set high in the Bang Por hills, with a horizon-edge pool and panoramic views over Koh Samui's green interior to the sea beyond. Around 600 m² of open-plan living on a generous 2,106 m² plot, completed in 2017 and offered move-in ready.",
   "detail": "Set high in the peaceful hills above Bang Por on Koh Samui's quieter north-west coast, this four-bedroom villa pairs clean contemporary architecture with natural timber and stone. Stacked, deep-eaved floors step down the slope, opening through walls of glass to an elevated terrace and a horizon-edge pool that seems to hang above the treetops.\n\nInside, open-plan living and dining flow to a sleek island kitchen, all framing the same sweeping outlook across the island's green interior toward the sea. Vaulted ceilings and full-height glazing keep the spaces light and airy, with a natural, understated material palette throughout.\n\nAll four bedrooms are en-suite, each with its own access to a balcony or terrace and the view, and the principal suite takes the prime elevation. Over roughly 600 m² across two floors, the layout balances easy entertaining with private retreat, and the home adds covered parking and rooftop solar.\n\nCompleted in 2017 and offered move-in ready on a generous 2,106 m² plot, the villa sits a short drive from Bang Por's quiet beach and seafood restaurants, with Maenam, Bophut's Fisherman's Village and the airport all within easy reach.",
   "features": [
-    { "l": "Horizon-edge infinity pool", "i": "pool" },
-    { "l": "Panoramic mountain & sea views", "i": "view" },
-    { "l": "Four en-suite bedrooms", "i": "bed" },
-    { "l": "Five bathrooms", "i": "bath" },
-    { "l": "Open-plan living & island kitchen", "i": "utensils" },
-    { "l": "Full-height glass, indoor–outdoor living", "i": "home" },
-    { "l": "Vaulted ceilings & natural materials", "i": "sparkles" },
-    { "l": "Elevated hillside position, Bang Por", "i": "mountain" },
-    { "l": "≈600 m² build over two floors", "i": "building" },
-    { "l": "≈2,106 m² plot", "i": "plot" },
-    { "l": "Rooftop solar & covered parking", "i": "sun" },
-    { "l": "Landscaped tropical gardens", "i": "tree" },
-    { "l": "Minutes to Bang Por beach & seafood", "i": "key" }
+    {
+      "l": "Horizon-edge infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic mountain & sea views",
+      "i": "view"
+    },
+    {
+      "l": "Four en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Five bathrooms",
+      "i": "bath"
+    },
+    {
+      "l": "Open-plan living & island kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Full-height glass, indoor–outdoor living",
+      "i": "home"
+    },
+    {
+      "l": "Vaulted ceilings & natural materials",
+      "i": "sparkles"
+    },
+    {
+      "l": "Elevated hillside position, Bang Por",
+      "i": "mountain"
+    },
+    {
+      "l": "≈600 m² build over two floors",
+      "i": "building"
+    },
+    {
+      "l": "≈2,106 m² plot",
+      "i": "plot"
+    },
+    {
+      "l": "Rooftop solar & covered parking",
+      "i": "sun"
+    },
+    {
+      "l": "Landscaped tropical gardens",
+      "i": "tree"
+    },
+    {
+      "l": "Minutes to Bang Por beach & seafood",
+      "i": "key"
+    }
   ]
 }

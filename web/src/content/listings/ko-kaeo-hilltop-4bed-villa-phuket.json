@@ -35,17 +35,53 @@
   "blurb": "A brand-new four-bedroom villa rising on a Ko Kaeo hillside in central Phuket, with double-height glass, a private pool and wide mountain-and-city views. Around 650 m² over two floors, due for completion in 2026 and still open to custom finishes.",
   "detail": "Rising on a quiet hillside in Ko Kaeo — one of Phuket's fastest-emerging residential pockets — this four-bedroom villa is a study in clean, contemporary lines: stacked horizontal planes, timber screening and full-height glass that open the house to the slope and the views beyond. Set over two floors and roughly 650 m² of built space, it balances generous shared living with genuine privacy.\n\nThe ground floor is given over to open-plan living, dining and a sleek island kitchen that slide out to a covered terrace and a private swimming pool, framed by lawn and tropical planting. Glazing on three sides keeps the interiors bright and connected to the mountain and city outlook in every direction.\n\nAll four bedrooms are en-suite, with the principal suite taking the best of the elevation, and a fifth bathroom serves the living areas. Finishes are modern and restrained throughout, and — as a new build still under construction — there is scope to tailor materials and details to taste.\n\nScheduled for completion in 2026, the villa is a rare chance to secure a brand-new home with a covered garage and room to personalise, within easy reach of central Phuket's international schools, marinas, beaches and the airport.",
   "features": [
-    { "l": "Private pool & covered terrace", "i": "pool" },
-    { "l": "Four en-suite bedrooms", "i": "bed" },
-    { "l": "Five bathrooms", "i": "bath" },
-    { "l": "Mountain & city views", "i": "mountain" },
-    { "l": "Floor-to-ceiling glass, indoor–outdoor living", "i": "home" },
-    { "l": "≈650 m² build over two floors", "i": "building" },
-    { "l": "≈672 m² plot", "i": "plot" },
-    { "l": "Hilltop position in Ko Kaeo", "i": "view" },
-    { "l": "Covered garage", "i": "car" },
-    { "l": "Brand-new build · customisable finishes", "i": "sparkles" },
-    { "l": "Landscaped tropical gardens", "i": "tree" },
-    { "l": "Central Phuket — schools, marinas & beaches", "i": "key" }
+    {
+      "l": "Private pool & covered terrace",
+      "i": "pool"
+    },
+    {
+      "l": "Four en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Five bathrooms",
+      "i": "bath"
+    },
+    {
+      "l": "Mountain & city views",
+      "i": "mountain"
+    },
+    {
+      "l": "Floor-to-ceiling glass, indoor–outdoor living",
+      "i": "home"
+    },
+    {
+      "l": "≈650 m² build over two floors",
+      "i": "building"
+    },
+    {
+      "l": "≈672 m² plot",
+      "i": "plot"
+    },
+    {
+      "l": "Hilltop position in Ko Kaeo",
+      "i": "view"
+    },
+    {
+      "l": "Covered garage",
+      "i": "car"
+    },
+    {
+      "l": "Brand-new build · customisable finishes",
+      "i": "sparkles"
+    },
+    {
+      "l": "Landscaped tropical gardens",
+      "i": "tree"
+    },
+    {
+      "l": "Central Phuket — schools, marinas & beaches",
+      "i": "key"
+    }
   ]
 }

@@ -43,17 +43,53 @@
   "blurb": "A four-bedroom, two-storey pool villa in a private Plai Laem estate — organic-modern architecture in warm plaster, natural stone and timber, set into the Koh Samui hillside. Around 200 m² of living space with a private pool and a 63 m² terrace, on freehold Chanote land, twelve minutes from the airport. Under construction, from ฿20,900,000.",
   "detail": "One of a pair of mirrored homes in an intimate, gated estate, this four-bedroom villa is wrapped in warm earthy plaster, natural stone and timber — an organic-modern design set among palms on a quiet Plai Laem hillside. Across two floors of roughly 200 m², floor-to-ceiling glass and deep, shaded terraces dissolve the line between living space and tropical garden.\n\nThe ground floor opens to an open-plan living and kitchen that flows out to a private swimming pool, a generous 63 m² terrace, a pool lounge, outdoor shower and a dedicated dining and barbecue zone. Above, four en-suite bedrooms — 4.5 bathrooms in all — each open to a private balcony, finished in a restrained, contemporary palette of warm neutrals.\n\nThe home sits within a private estate on freehold Chanote-title land, with planning permission granted and construction already underway. Considered, durable detailing runs throughout — rooftop solar, a pergola-shaded roof terrace, and a deep well installed on the plot for a reliable, independent water supply.\n\nOffered off-plan, the villa is priced from ฿20,900,000, with an optional turnkey furniture package at ฿700,000. The estate lies about twelve minutes from Samui International Airport, with the beaches, dining and marinas of Plai Laem, Choeng Mon and Bophut close at hand.",
   "features": [
-    { "l": "Four en-suite bedrooms", "i": "bed" },
-    { "l": "4.5 bathrooms", "i": "bath" },
-    { "l": "≈200 m² over two floors", "i": "building" },
-    { "l": "Private pool & 63 m² terrace", "i": "pool" },
-    { "l": "Outdoor dining, BBQ & pool lounge", "i": "utensils" },
-    { "l": "Freehold — Chanote title", "i": "shield" },
-    { "l": "Private gated estate", "i": "key" },
-    { "l": "Rooftop solar & pergola terrace", "i": "sun" },
-    { "l": "Deep well on the plot", "i": "waves" },
-    { "l": "12 minutes from the airport", "i": "car" },
-    { "l": "Optional furniture package", "i": "sparkles" },
-    { "l": "Permitted & under construction", "i": "home" }
+    {
+      "l": "Four en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "4.5 bathrooms",
+      "i": "bath"
+    },
+    {
+      "l": "≈200 m² over two floors",
+      "i": "building"
+    },
+    {
+      "l": "Private pool & 63 m² terrace",
+      "i": "pool"
+    },
+    {
+      "l": "Outdoor dining, BBQ & pool lounge",
+      "i": "utensils"
+    },
+    {
+      "l": "Freehold — Chanote title",
+      "i": "shield"
+    },
+    {
+      "l": "Private gated estate",
+      "i": "key"
+    },
+    {
+      "l": "Rooftop solar & pergola terrace",
+      "i": "sun"
+    },
+    {
+      "l": "Deep well on the plot",
+      "i": "waves"
+    },
+    {
+      "l": "12 minutes from the airport",
+      "i": "car"
+    },
+    {
+      "l": "Optional furniture package",
+      "i": "sparkles"
+    },
+    {
+      "l": "Permitted & under construction",
+      "i": "home"
+    }
   ]
 }
