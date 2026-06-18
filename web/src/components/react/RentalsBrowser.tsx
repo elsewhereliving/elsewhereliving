@@ -579,7 +579,10 @@ export default function RentalsBrowser({ items, destinations }: Props) {
     const rentPrice = (x: RentalItem) => (x.nightlyNum && x.nightlyNum > 0 ? x.nightlyNum : Infinity);
     if (sort === "low") out = [...out].sort((a, b) => rentPrice(a) - rentPrice(b));
     if (sort === "high") out = [...out].sort((a, b) => rentPrice(b) - rentPrice(a));
-    if (sort === "guests") out = [...out].sort((a, b) => (b.guests || 0) - (a.guests || 0));
+    if (sort === "newest") {
+      const recency = (x: RentalItem) => (x as any).created ?? (x as any).added ?? 0;
+      out = [...out].sort((a, b) => recency(b) - recency(a));
+    }
     return out;
   }, [items, dest, view, minBeds, priceLo, priceHi, priceActive, sort]);
 
@@ -622,7 +625,7 @@ export default function RentalsBrowser({ items, destinations }: Props) {
               { label: "Featured", value: "featured" },
               { label: "Price · low to high", value: "low" },
               { label: "Price · high to low", value: "high" },
-              { label: "Most guests", value: "guests" },
+              { label: "Newest", value: "newest" },
             ]}
           />
         </div>
