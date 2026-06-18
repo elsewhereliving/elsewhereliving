@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 
-import { listingPrice, rentalPrice } from "../../lib/price";
+import { listingPrice, rentalPrice, formatNative } from "../../lib/price";
 import { optImg } from "../../lib/img";
 import { Icon, ICON_KEYS } from "./icons";
 import { TextField, NumberField, TextArea, SelectField, ChipMulti, FormSection } from "./fields";
@@ -150,6 +150,8 @@ function PriceEditor({ isRental, rec, set }: { isRental: boolean; rec: Rec; set:
   const curKey = isRental ? "nightlyCurrency" : "priceCurrency";
   const computed = isRental ? rentalPrice(rec) : listingPrice(rec);
   const display = isRental ? computed.nightly : computed.price;
+  const amt = rec[amtKey], cur = (rec[curKey] || "").toUpperCase();
+  const native = cur && cur !== "USD" && amt ? formatNative(amt, cur) : "";
   return (
     <div>
       <div style={{ display: "grid", gridTemplateColumns: "150px 1fr", gap: 28, alignItems: "end" }}>
@@ -163,7 +165,8 @@ function PriceEditor({ isRental, rec, set }: { isRental: boolean; rec: Rec; set:
       )}
       <div style={{ marginTop: 16, fontFamily: "var(--font-sans)", fontSize: 12, color: "var(--slate)" }}>
         Shown on the site: <strong style={{ fontFamily: "var(--font-serif)", fontSize: 17, color: "var(--navy)" }}>{display || "Price on request"}</strong>
-        <span style={{ marginLeft: 8 }}>(USD computed from the native amount at the day's rate)</span>
+        {native && <span style={{ marginLeft: 8 }}>· originally {native} ({cur})</span>}
+        <div style={{ marginTop: 4, color: "var(--stone)" }}>USD is computed from the native amount at the site's build-time rate (refreshed each deploy), so this preview matches the live site.</div>
       </div>
     </div>
   );

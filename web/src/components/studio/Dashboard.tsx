@@ -3,6 +3,7 @@ import type { CSSProperties, ReactNode } from "react";
 import { rentDest } from "../../lib/format";
 import { optImg } from "../../lib/img";
 import { Icon } from "./icons";
+import HomeFeatured from "./HomeFeatured";
 import { useStudio, useToast, type Rec } from "./Studio";
 
 const meta = (extra?: CSSProperties): CSSProperties => ({
@@ -133,9 +134,7 @@ export default function Dashboard({
         </div>
 
         {collection === "home" ? (
-          <div style={{ border: "1px dashed var(--stone)", padding: "70px 20px", textAlign: "center", fontFamily: "var(--font-serif)", fontStyle: "italic", fontSize: 21, color: "var(--slate)" }}>
-            The Featured manager arrives in Phase 4.
-          </div>
+          <HomeFeatured />
         ) : (
           <>
             <div style={{ display: "flex", flexWrap: "wrap", gap: 14, alignItems: "center", marginBottom: 14 }}>

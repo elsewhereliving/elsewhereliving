@@ -42,6 +42,9 @@ interface Store {
   remove: (c: string, id: string) => void;
   toggleFeatured: (c: string, id: string) => void;
   featuredList: (c: string) => Rec[];
+  setFeaturedOrder: (c: string, ids: string[]) => void;
+  getHomeCount: () => number;
+  setHomeCount: (n: number) => void;
 }
 const StoreCtx = createContext<Store | null>(null);
 export function useStudio() {
@@ -62,6 +65,7 @@ type Route = { view: "dashboard" } | { view: "editor"; collection: string; id: s
 export default function Studio({ listings: l0, rentals: r0, markets }: StudioData) {
   const [listings, setListings] = useState<Rec[]>(l0);
   const [rentals, setRentals] = useState<Rec[]>(r0);
+  const [homeCount, setHomeCountState] = useState<number>(3);
   const [route, setRoute] = useState<Route>({ view: "dashboard" });
   const [toasts, setToasts] = useState<{ id: string; msg: string; tone: string }[]>([]);
 
@@ -102,8 +106,15 @@ export default function Studio({ listings: l0, rentals: r0, markets }: StudioDat
       toggleFeatured: (c, id) =>
         setArr(c, (arr) => arr.map((x) => (x.id !== id ? x : x.featured ? { ...x, featured: false, featuredRank: null } : { ...x, featured: true, featuredRank: maxRank(arr) + 1 }))),
       featuredList: (c) => list(c).filter((x) => x.featured).sort((a, b) => (a.featuredRank ?? a.featuredOrder ?? 9999) - (b.featuredRank ?? b.featuredOrder ?? 9999)),
+      setFeaturedOrder: (c, ids) => {
+        const rank: Record<string, number> = {};
+        ids.forEach((id, i) => (rank[id] = i + 1));
+        setArr(c, (arr) => arr.map((x) => (ids.indexOf(x.id) >= 0 ? { ...x, featured: true, featuredRank: rank[x.id] } : x.featured ? { ...x, featured: false, featuredRank: null } : x)));
+      },
+      getHomeCount: () => homeCount,
+      setHomeCount: (n) => setHomeCountState(n),
     };
-  }, [listings, rentals, markets]);
+  }, [listings, rentals, markets, homeCount]);
 
   return (
     <StoreCtx.Provider value={store}>
