@@ -5,6 +5,7 @@ import { optImg } from "../../lib/img";
 import { Icon, ICON_KEYS } from "./icons";
 import { TextField, NumberField, TextArea, SelectField, ChipMulti, FormSection } from "./fields";
 import PhotoManager from "./PhotoManager";
+import { saveRecord, deleteRecord } from "./fsRepo";
 import { useStudio, useToast, type Rec } from "./Studio";
 
 const VIEW_OPTIONS = ["Sea View", "Beachfront", "Waterfront", "City View", "Mountain View", "Garden / Pool View"];
@@ -33,15 +34,20 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
     return { ...rec, ...priced, image: cover, imageFocal: (rec.focals && rec.focals[cover]) || "" };
   }, [rec, isRental]);
 
-  function save(close: boolean) {
+  async function save(close: boolean) {
     if (!(rec.title || "").trim()) { toast("Add a title first", "danger"); return; }
-    const out: Rec = { ...rec };
+    let out: Rec = { ...rec };
     out.image = (out.gallery && out.gallery[0]) || out.image || "";
     out.imageFocal = (out.focals && out.focals[out.image]) || "";
     if (!out.id) out.id = crm.uniqueId(collection, crm.slugify(out.title));
+    if (crm.fsConnected) {
+      try { out = await saveRecord(collection, out); toast("Saved to your repo — review in GitHub Desktop & push"); }
+      catch (e: any) { toast(e?.message || "Couldn't write to disk", "danger"); return; }
+    } else {
+      toast("Saved this session — connect your repo folder to write it to disk");
+    }
     const savedId = crm.upsert(collection, out);
     setDirty(false);
-    toast(existing ? "Saved (this session — GitHub commit in Phase 5)" : "Created (this session)");
     if (close) onSaved(savedId);
     else setRec({ ...out, id: savedId });
   }
@@ -136,7 +142,7 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
           <PreviewCard item={previewItem} isRental={isRental} />
           <Checklist rec={previewItem} isRental={isRental} />
           {existing && (
-            <button type="button" onClick={() => { if (window.confirm("Delete this listing? This can't be undone.")) { crm.remove(collection, existing.id); toast("Listing deleted", "danger"); onClose(); } }}
+            <button type="button" onClick={() => { if (window.confirm("Delete this listing? This can't be undone.")) { crm.remove(collection, existing.id); if (crm.fsConnected) deleteRecord(collection, existing.id).catch(() => {}); toast(crm.fsConnected ? "Deleted — review in GitHub Desktop & push" : "Listing deleted", "danger"); onClose(); } }}
               style={{ marginTop: 18, width: "100%", padding: "11px", background: "transparent", border: "1px solid var(--border-on-light)", color: "var(--navy)", cursor: "pointer", fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.16em", textTransform: "uppercase" }}>Delete listing</button>
           )}
         </aside>

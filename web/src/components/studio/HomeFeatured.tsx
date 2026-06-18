@@ -2,6 +2,7 @@ import { Fragment, useState } from "react";
 import type { CSSProperties } from "react";
 import { optImg } from "../../lib/img";
 import { Icon } from "./icons";
+import { saveRecord, writeHome } from "./fsRepo";
 import { useStudio, useToast, type Rec } from "./Studio";
 
 const ml: CSSProperties = { fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--slate)", fontWeight: 500 };
@@ -33,7 +34,19 @@ export default function HomeFeatured() {
     setRows((r) => { const a = r.slice(); const fi = a.findIndex((x) => x.id === fromId); const ti = a.findIndex((x) => x.id === toId); if (fi < 0 || ti < 0) return r; const [x] = a.splice(fi, 1); a.splice(ti, 0, x); return a; });
     setDirty(true);
   };
-  const save = () => { crm.setFeaturedOrder(C, rows.map((x) => x.id)); crm.setHomeCount(count); setDirty(false); toast("Home page updated (this session)"); };
+  const save = async () => {
+    const ids = rows.map((x) => x.id);
+    crm.setFeaturedOrder(C, ids); crm.setHomeCount(count); setDirty(false);
+    if (crm.fsConnected) {
+      try {
+        const rank: Record<string, number> = {}; ids.forEach((id, i) => (rank[id] = i + 1));
+        const toWrite = crm.list(C).filter((l) => l.featured || ids.indexOf(l.id) >= 0);
+        for (const l of toWrite) { const chosen = ids.indexOf(l.id) >= 0; await saveRecord(C, { ...l, featured: chosen, featuredRank: chosen ? rank[l.id] : null }); }
+        await writeHome(count);
+        toast("Home page saved to your repo — review & push");
+      } catch (e: any) { toast(e?.message || "Couldn't write to disk", "danger"); }
+    } else toast("Home page updated this session — connect your repo folder to write it");
+  };
 
   return (
     <div>

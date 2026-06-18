@@ -87,12 +87,17 @@ export default function Dashboard({
           <div style={{ position: "relative" }}>
             <button type="button" className="ew-pillctl" onClick={() => setMenu(!menu)}
               style={{ display: "flex", alignItems: "center", gap: 10, background: "none", border: "1px solid var(--border-on-light)", padding: "8px 16px", cursor: "pointer" }}>
+              <span title={crm.fsConnected ? "Repo connected — Save writes to disk" : "Not connected — Save is session-only"} style={{ width: 7, height: 7, borderRadius: "50%", background: crm.fsConnected ? "#3a8a4a" : "var(--stone)", flex: "0 0 auto" }} />
               <span style={{ fontFamily: "var(--font-sans)", fontSize: 10.5, fontWeight: 500, letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--charcoal)", lineHeight: 1 }}>Elsewhere Living</span>
               <Icon name="chevronRight" size={13} color="var(--slate)" style={{ transform: "rotate(90deg)" }} />
             </button>
             {menu && (
-              <div style={{ position: "absolute", right: 0, top: "calc(100% + 6px)", background: "var(--white)", border: "1px solid var(--border-on-light)", minWidth: 240, boxShadow: "0 20px 50px -24px rgba(15,22,40,0.5)", zIndex: 30 }}>
-                <MenuItem icon="external" label="Export listings file" sub="Coming with Save (Phase 5)" onClick={() => { toast("Export arrives with Save"); setMenu(false); }} />
+              <div style={{ position: "absolute", right: 0, top: "calc(100% + 6px)", background: "var(--white)", border: "1px solid var(--border-on-light)", minWidth: 260, boxShadow: "0 20px 50px -24px rgba(15,22,40,0.5)", zIndex: 30 }}>
+                {crm.fsSupported ? (
+                  <MenuItem icon="home" label={crm.fsConnected ? "Repo folder connected" : "Connect repo folder"} sub={crm.fsConnected ? "Save writes to your local repo" : "Pick your repo clone so Save can write files"} onClick={() => { crm.connectRepo(); setMenu(false); }} />
+                ) : (
+                  <MenuItem icon="info" label="Open in Chrome to save" sub="Saving needs Chrome/Edge folder access" onClick={() => setMenu(false)} />
+                )}
                 <div style={{ borderTop: "1px solid var(--border-subtle)" }} />
                 <MenuItem icon="key" label="Sign out" onClick={onLogout} />
               </div>

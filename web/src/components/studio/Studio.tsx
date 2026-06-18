@@ -3,6 +3,7 @@ import { rentDest } from "../../lib/format";
 import { listingPrice, rentalPrice } from "../../lib/price";
 import Dashboard from "./Dashboard";
 import Editor from "./Editor";
+import { connect as fsConnect, fsSupported } from "./fsRepo";
 
 export type Rec = Record<string, any> & { id: string };
 
@@ -45,6 +46,9 @@ interface Store {
   setFeaturedOrder: (c: string, ids: string[]) => void;
   getHomeCount: () => number;
   setHomeCount: (n: number) => void;
+  fsSupported: boolean;
+  fsConnected: boolean;
+  connectRepo: () => Promise<void>;
 }
 const StoreCtx = createContext<Store | null>(null);
 export function useStudio() {
@@ -66,7 +70,13 @@ export default function Studio({ listings: l0, rentals: r0, markets }: StudioDat
   const [listings, setListings] = useState<Rec[]>(l0);
   const [rentals, setRentals] = useState<Rec[]>(r0);
   const [homeCount, setHomeCountState] = useState<number>(3);
+  const [connected, setConnected] = useState(false);
   const [route, setRoute] = useState<Route>({ view: "dashboard" });
+
+  const connectRepo = useCallback(async () => {
+    try { const name = await fsConnect(); setConnected(true); push(`Connected to ${name} — Save now writes to your repo`); }
+    catch (e: any) { if (e?.name !== "AbortError") push(e?.message || "Couldn't connect to that folder", "danger"); }
+  }, []);
   const [toasts, setToasts] = useState<{ id: string; msg: string; tone: string }[]>([]);
 
   const push = useCallback<Toast>((msg, tone = "default") => {
@@ -113,8 +123,11 @@ export default function Studio({ listings: l0, rentals: r0, markets }: StudioDat
       },
       getHomeCount: () => homeCount,
       setHomeCount: (n) => setHomeCountState(n),
+      fsSupported: fsSupported(),
+      fsConnected: connected,
+      connectRepo,
     };
-  }, [listings, rentals, markets, homeCount]);
+  }, [listings, rentals, markets, homeCount, connected, connectRepo]);
 
   return (
     <StoreCtx.Provider value={store}>
