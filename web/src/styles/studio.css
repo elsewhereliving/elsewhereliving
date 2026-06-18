@@ -31,3 +31,8 @@
 @media (prefers-reduced-motion: reduce) {
   .ew-studio * { transition: none !important; animation: none !important; }
 }
+
+/* Editor: collapse the preview rail above the form on narrow screens. */
+@media (max-width: 900px) {
+  .ew-studio .ew-editor-grid { grid-template-columns: 1fr !important; }
+}

@@ -1,42 +1,56 @@
-// Thin Lucide-style icon set for the Studio (1.5px stroke), matching the site.
+// The brand's thin Lucide-style icon set (mirrors src/components/Icon.astro)
+// so the Studio's feature picker + previews match the public site exactly.
 import type { CSSProperties } from "react";
 
-const P: Record<string, string> = {
-  chevronRight: '<path d="M9 18l6-6-6-6"/>',
-  arrowRight: '<path d="M5 12h14"/><path d="M12 5l7 7-7 7"/>',
-  external: '<path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>',
-  view: '<path d="M2 12s3.2-7 10-7 10 7 10 7-3.2 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>',
-  sparkles: '<path d="M12 2l2.2 7 6.8 2.2-6.8 2.2L12 22l-2.2-6.8L3 12.2 9.8 10 12 2z"/>',
-  info: '<circle cx="12" cy="12" r="9"/><path d="M12 16v-4"/><path d="M12 8h.01"/>',
-  key: '<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="M16 17l5-5-5-5"/><path d="M21 12H9"/>',
-  plus: '<path d="M12 5v14"/><path d="M5 12h14"/>',
-  star: '<path d="M12 2l2.9 6.3 6.9.7-5.1 4.6 1.4 6.8L12 17.8 5.9 20.4l1.4-6.8L2.2 9l6.9-.7L12 2z"/>',
+export const EW_ICONS: Record<string, string> = {
+  bed: '<path d="M2 4v16"/><path d="M2 8h18a2 2 0 0 1 2 2v10"/><path d="M2 17h20"/><path d="M6 8v9"/>',
+  bath: '<path d="M2 12h20"/><path d="M4 12V6a2 2 0 0 1 4 0"/><path d="M4 12v3a5 5 0 0 0 5 5h6a5 5 0 0 0 5-5v-3"/><path d="M8 20l-1 2"/><path d="M16 20l1 2"/>',
   interior: '<path d="M8 3H5a2 2 0 0 0-2 2v3"/><path d="M21 8V5a2 2 0 0 0-2-2h-3"/><path d="M3 16v3a2 2 0 0 0 2 2h3"/><path d="M16 21h3a2 2 0 0 0 2-2v-3"/>',
+  plot: '<path d="M4 8V4h4"/><path d="M20 8V4h-4"/><path d="M4 16v4h4"/><path d="M20 16v4h-4"/><path d="M9 12h6"/><path d="M12 9v6"/>',
+  year: '<rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18"/><path d="M8 2v4"/><path d="M16 2v4"/>',
+  view: '<path d="M2 12s3.2-7 10-7 10 7 10 7-3.2 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/>',
+  waves: '<path d="M2 7c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M2 12c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M2 17c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/>',
+  mountain: '<path d="m8 3 4 8 5-5 5 11H2L8 3z"/>',
+  tree: '<path d="M12 2 7 11h10z"/><path d="M12 8 8 15h8z"/><path d="M12 15v6"/>',
+  sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5 19 19M19 5l-1.5 1.5M6.5 17.5 5 19"/>',
+  gym: '<path d="M6 7v10"/><path d="M3 9v6"/><path d="M18 7v10"/><path d="M21 9v6"/><path d="M6 12h12"/>',
+  users: '<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>',
+  home: '<path d="m3 10 9-7 9 7v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 21V12h6v9"/>',
+  car: '<path d="M5 11l1.5-4.2A2 2 0 0 1 8.4 5.5h7.2a2 2 0 0 1 1.9 1.3L19 11"/><path d="M4 11h16v6H4z"/><circle cx="7.5" cy="17" r="1.4"/><circle cx="16.5" cy="17" r="1.4"/>',
+  sofa: '<path d="M5 12V8a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v4"/><path d="M3 12a2 2 0 0 1 2 2v3h14v-3a2 2 0 0 1 2-2"/><path d="M6 19v2"/><path d="M18 19v2"/>',
+  sparkles: '<path d="M12 3l1.8 4.2L18 9l-4.2 1.8L12 15l-1.8-4.2L6 9l4.2-1.8z"/><path d="M19 15l.7 1.6L21 17l-1.3.7L19 19l-.7-1.3L17 17l1.3-.4z"/>',
+  check: '<path d="M20 6 9 17l-5-5"/>',
+  utensils: '<path d="M4 3v7a2 2 0 0 0 2 2v9"/><path d="M8 3v6"/><path d="M16 3c-1.6 0-2.5 2-2.5 5v5H16"/><path d="M16 3v18"/>',
+  building: '<rect x="5" y="2" width="14" height="20" rx="1"/><path d="M9 22v-4h6v4"/><path d="M9 6h.01M12 6h.01M15 6h.01M9 10h.01M12 10h.01M15 10h.01M9 14h.01M12 14h.01M15 14h.01"/>',
+  road: '<path d="M5 21 8 3"/><path d="M19 21 16 3"/><path d="M12 5v2"/><path d="M12 11v2"/><path d="M12 17v2"/>',
+  bolt: '<path d="M13 2 4 14h7l-1 8 9-12h-7z"/>',
+  trend: '<path d="M3 17l6-6 4 4 8-8"/><path d="M16 7h5v5"/>',
+  shield: '<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="m9 12 2 2 4-4"/>',
+  key: '<circle cx="8" cy="14" r="4"/><path d="m11 11 9-9"/><path d="m17 5 2 2"/><path d="m14 8 2 2"/>',
+  pool: '<path d="M9 3v11"/><path d="M14 3v11"/><path d="M9 6.5h5"/><path d="M9 10h5"/><path d="M3 17c1.5 0 1.5 1.3 3 1.3s1.5-1.3 3-1.3 1.5 1.3 3 1.3 1.5-1.3 3-1.3 1.5 1.3 3 1.3"/><path d="M3 20.6c1.5 0 1.5 1.3 3 1.3s1.5-1.3 3-1.3 1.5 1.3 3 1.3 1.5-1.3 3-1.3 1.5 1.3 3 1.3"/>',
+  terrace: '<rect x="3" y="9" width="18" height="2.6" rx="0.6"/><path d="M5 11.6V19"/><path d="M19 11.6V19"/><path d="M5 15h14"/>',
+  pin: '<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/>',
+  arrowRight: '<path d="M5 12h14"/><path d="m13 6 6 6-6 6"/>',
+  chevronLeft: '<path d="m15 6-6 6 6 6"/>',
+  chevronRight: '<path d="m9 6 6 6-6 6"/>',
+  music: '<path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>',
+  info: '<circle cx="12" cy="12" r="9"/><path d="M12 16v-4"/><path d="M12 8h.01"/>',
+  external: '<path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>',
+  mail: '<rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>',
 };
 
+export const ICON_KEYS = Object.keys(EW_ICONS);
+
 export function Icon({
-  name,
-  size = 16,
-  color = "currentColor",
-  stroke = 1.5,
-  fill = "none",
-  style,
+  name, size = 16, color = "currentColor", stroke = 1.5, fill = "none", style,
 }: {
-  name: keyof typeof P | string;
-  size?: number;
-  color?: string;
-  stroke?: number;
-  fill?: string;
-  style?: CSSProperties;
+  name: string; size?: number; color?: string; stroke?: number; fill?: string; style?: CSSProperties;
 }) {
-  const inner = P[name] || "";
+  const inner = EW_ICONS[name] || "";
   const svg =
     `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 24 24" ` +
     `fill="${fill}" stroke="${color}" stroke-width="${stroke}" stroke-linecap="round" stroke-linejoin="round" style="display:block">${inner}</svg>`;
   return (
-    <span
-      style={{ display: "inline-flex", flexShrink: 0, lineHeight: 0, color, ...style }}
-      dangerouslySetInnerHTML={{ __html: svg }}
-    />
+    <span style={{ display: "inline-flex", flexShrink: 0, lineHeight: 0, color, ...style }} dangerouslySetInnerHTML={{ __html: svg }} />
   );
 }
