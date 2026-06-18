@@ -3,7 +3,8 @@
 First time? No problem. This is two parts:
 
 - **Part 1 — Put the site online** (~10 min). Do this first; your site goes live.
-- **Part 2 — Turn on editing** (~5 min). Makes the `/admin` login work.
+- **Part 2 — Edit your listings** — no setup needed; it works the moment the
+  site is online.
 
 You'll need two free accounts: **GitHub** (you already have one — `elsewhereliving`) and **Cloudflare** (sign up at cloudflare.com if you haven't).
 
@@ -43,35 +44,37 @@ Cloudflare builds the site (a few minutes the first time — it's optimizing ~1,
 
 ---
 
-## Part 2 — Turn on editing (the `/admin` login)
+## Part 2 — Edit your listings (The Listings Studio)
 
-The editor logs in with GitHub. You create a small "GitHub OAuth app" once and paste two values into Cloudflare.
+There's **nothing to set up** here — no login app, no environment variables.
+Editing happens in **The Listings Studio** at `/admin`, which saves listings
+straight into your repo folder on your computer; you then push with **GitHub
+Desktop** and Cloudflare republishes.
 
-### 1. Create the GitHub login app
-1. Go to **github.com/settings/developers** → **OAuth Apps** → **New OAuth App**.
-2. Fill in:
-   - **Application name:** `Elsewhere Living Admin`
-   - **Homepage URL:** `https://elsewhere.living`
-   - **Authorization callback URL:** `https://elsewhere.living/callback`
-3. Click **Register application**.
-4. Copy the **Client ID**. Click **Generate a new client secret** and copy that too.
+How it works, in short:
 
-### 2. Give them to Cloudflare
-1. In your Cloudflare Pages project → **Settings → Environment variables** → **Add** (for **Production**):
-   - `GITHUB_CLIENT_ID` = the Client ID
-   - `GITHUB_CLIENT_SECRET` = the secret
-2. Save, then **Deployments → Retry deployment** (so the new values take effect).
+1. Open **elsewhere.living/admin** (or `http://localhost:4321/admin` when running
+   the site locally) **in Chrome or Edge** — saving needs a browser that can
+   write to a folder.
+2. Account menu → **Connect repo folder** → pick your `elsewhereliving` folder
+   (the one GitHub Desktop uses). Once per session.
+3. Add/edit/feature listings, click **Save** — files land in your folder.
+4. In **GitHub Desktop**, review the changes, **Commit to main**, **Push**.
+   Cloudflare rebuilds and the site is live a couple of minutes later.
 
-### 3. Log in
-Go to **https://elsewhere.living/admin** → **Login with GitHub** → approve. You're in — add, edit, and feature listings, and the site updates itself.
+The full day-to-day walkthrough is in **HOW-TO-EDIT-LISTINGS.md**.
 
-Day-to-day editing is in **HOW-TO-EDIT-LISTINGS.md**.
+> No public login gate yet. Anyone who opens `/admin` can browse the editor, but
+> they can't save anything without picking *your* repo folder on *their* machine,
+> so nothing can be changed or published from someone else's computer. If you
+> want `/admin` hidden from the public entirely, add a free **Cloudflare Access**
+> rule on the `/admin` path (ask me and I'll set it up).
 
 ---
 
 ## Part 3 — Keep prices current (optional, ~3 min)
 
-Prices are entered in their **real currency** (THB, EUR, USD…) and shown in **USD**, converted at the day's exchange rate. The rate is refreshed **every time the site builds** — and the site builds every time you save a listing. So prices are already current whenever you edit.
+Prices are entered in their **real currency** (THB, EUR, USD…) and shown in **USD**, converted at the day's exchange rate. The rate is refreshed **every time the site builds** — and the site builds every time you push a change. So prices are already current whenever you publish.
 
 To also refresh prices on **quiet days when nobody edits**, set up a once-a-day automatic rebuild:
 
@@ -88,7 +91,7 @@ That's it. A scheduled job (`.github/workflows/daily-fx-rebuild.yml`) pings it d
 
 ## Good to know
 
-- **Editing publishes automatically.** When you save in `/admin`, it commits to GitHub, and Cloudflare rebuilds + republishes within a couple of minutes.
+- **You publish when you push.** Saving in `/admin` writes files to your repo folder; review them in GitHub Desktop and push, then Cloudflare rebuilds + republishes within a couple of minutes.
 - **The contact form** opens the visitor's email/WhatsApp — there's nothing to configure and no spam inbox to manage.
 - **Builds re-optimize photos** each time (the `_img` folder isn't stored in git, it's rebuilt). That's why the first deploy takes a few minutes.
 - **Repo size:** the photos make the repo large (~700MB). The first `git push` may take a while on a slow connection — that's normal, and only the first time.

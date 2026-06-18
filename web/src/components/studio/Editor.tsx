@@ -9,7 +9,7 @@ import { saveRecord, deleteRecord } from "./fsRepo";
 import { useStudio, useToast, type Rec } from "./Studio";
 
 const VIEW_OPTIONS = ["Sea View", "Beachfront", "Waterfront", "City View", "Mountain View", "Garden / Pool View"];
-const CURRENCIES = ["", "USD", "THB", "EUR", "IDR", "AED", "GBP", "SGD", "AUD", "CHF"];
+const CURRENCIES = ["USD", "THB", "EUR", "IDR", "AED", "GBP", "SGD", "AUD", "CHF"];
 
 function youTubeId(u: string): string {
   const m = (u || "").match(/(?:youtu\.be\/|v=|\/embed\/|\/shorts\/)([\w-]{11})/);
@@ -117,7 +117,7 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
                 <TextField label="Interior" value={rec.interior} onChange={(v) => set({ interior: v })} placeholder="450 m² or —" />
                 <TextField label="Plot / land" value={rec.plot || ""} onChange={(v) => set({ plot: v || null })} placeholder="1,600 m²" />
                 <TextField label="Year built" value={rec.year || ""} onChange={(v) => set({ year: v || null })} placeholder="2025" />
-                <SelectField label="Ownership" value={rec.ownership || "Freehold"} onChange={(v) => set({ ownership: v })} options={["Freehold", "Leasehold", "Freehold (Chanote title)", "Leasehold — 30 yrs, renewable"]} />
+                <SelectField label="Ownership" value={rec.ownership || "Freehold"} onChange={(v) => set({ ownership: v })} options={["Freehold", "Leasehold", "Freehold or Leasehold"]} />
               </>
             )}
           </FormSection>
@@ -154,25 +154,38 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
 function PriceEditor({ isRental, rec, set }: { isRental: boolean; rec: Rec; set: (p: Partial<Rec>) => void }) {
   const amtKey = isRental ? "nightlyOriginalNum" : "priceOriginalNum";
   const curKey = isRental ? "nightlyCurrency" : "priceCurrency";
+  const cur = (rec[curKey] || "").toUpperCase();
+  const amt = rec[amtKey];
+  const onRequest = !cur;
   const computed = isRental ? rentalPrice(rec) : listingPrice(rec);
   const display = isRental ? computed.nightly : computed.price;
-  const amt = rec[amtKey], cur = (rec[curKey] || "").toUpperCase();
   const native = cur && cur !== "USD" && amt ? formatNative(amt, cur) : "";
+
+  const setOnRequest = (v: boolean) =>
+    v ? set({ [amtKey]: null, [curKey]: "" } as Partial<Rec>) : set({ [curKey]: "USD" } as Partial<Rec>);
+
   return (
     <div>
-      <div style={{ display: "grid", gridTemplateColumns: "150px 1fr", gap: 28, alignItems: "end" }}>
-        <SelectField label="Currency" value={rec[curKey] || ""} onChange={(v) => set({ [curKey]: v } as Partial<Rec>)} options={CURRENCIES.map((c) => c || "On request")} />
-        <NumberField label={isRental ? "Nightly amount (native)" : "Price amount (native)"} value={rec[amtKey] ?? ""} onChange={(v) => set({ [amtKey]: v === "" ? null : v } as Partial<Rec>)} hint="just the number, e.g. 45000000" />
-      </div>
-      {!isRental && (
-        <label style={{ display: "inline-flex", alignItems: "center", gap: 9, marginTop: 16, cursor: "pointer", fontFamily: "var(--font-sans)", fontSize: 12, color: "var(--charcoal)" }}>
-          <input type="checkbox" checked={!!rec.priceFrom} onChange={(e) => set({ priceFrom: e.target.checked })} /> Show as a “From” price
-        </label>
+      <label style={{ display: "inline-flex", alignItems: "center", gap: 9, marginBottom: onRequest ? 0 : 18, cursor: "pointer", fontFamily: "var(--font-sans)", fontSize: 12.5, color: "var(--charcoal)" }}>
+        <input type="checkbox" checked={onRequest} onChange={(e) => setOnRequest(e.target.checked)} /> Price on request (hide the number)
+      </label>
+      {!onRequest && (
+        <>
+          <div style={{ display: "grid", gridTemplateColumns: "150px 1fr", gap: 28, alignItems: "end" }}>
+            <SelectField label="Currency" value={cur || "USD"} onChange={(v) => set({ [curKey]: v } as Partial<Rec>)} options={CURRENCIES} />
+            <NumberField label={isRental ? "Nightly amount (native)" : "Price amount (native)"} value={rec[amtKey] ?? ""} onChange={(v) => set({ [amtKey]: v === "" ? null : v } as Partial<Rec>)} hint="just the number, e.g. 45000000" />
+          </div>
+          {!isRental && (
+            <label style={{ display: "inline-flex", alignItems: "center", gap: 9, marginTop: 16, cursor: "pointer", fontFamily: "var(--font-sans)", fontSize: 12, color: "var(--charcoal)" }}>
+              <input type="checkbox" checked={!!rec.priceFrom} onChange={(e) => set({ priceFrom: e.target.checked })} /> Show as a “From” price
+            </label>
+          )}
+        </>
       )}
       <div style={{ marginTop: 16, fontFamily: "var(--font-sans)", fontSize: 12, color: "var(--slate)" }}>
         Shown on the site: <strong style={{ fontFamily: "var(--font-serif)", fontSize: 17, color: "var(--navy)" }}>{display || "Price on request"}</strong>
         {native && <span style={{ marginLeft: 8 }}>· originally {native} ({cur})</span>}
-        <div style={{ marginTop: 4, color: "var(--stone)" }}>USD is computed from the native amount at the site's build-time rate (refreshed each deploy), so this preview matches the live site.</div>
+        {!onRequest && <div style={{ marginTop: 4, color: "var(--stone)" }}>USD is computed from the native amount at the site's build-time rate, so this preview matches the live site.</div>}
       </div>
     </div>
   );
@@ -182,7 +195,7 @@ function PreviewCard({ item, isRental }: { item: Rec; isRental: boolean }) {
   if (!item.image) {
     return <div style={{ aspectRatio: "3 / 2", background: "var(--paper-2)", border: "1px solid var(--border-subtle)", display: "flex", alignItems: "center", justifyContent: "center", color: "var(--slate)", fontFamily: "var(--font-sans)", fontSize: 12 }}>Add a photo to preview</div>;
   }
-  const badges = (isRental ? item.view : [item.type, item.status]).filter(Boolean);
+  const badges = (isRental ? (Array.isArray(item.view) ? item.view : []) : [item.type, item.status]).filter(Boolean);
   return (
     <div style={{ background: "var(--white)", border: "1px solid var(--border-subtle)", overflow: "hidden" }}>
       <div className="ew-grain" style={{ position: "relative", aspectRatio: "3 / 2", overflow: "hidden", background: "var(--paper-2)" }}>
