@@ -35,7 +35,7 @@ const detail =
 const nightlyOriginal = (r as any).nightlyOriginal as string | undefined;
 const nightlyCurrency = (r as any).nightlyCurrency as string | undefined;
 // RentalScreen: prefix "from " unless the value already starts with "from"/"price".
-const nightlyValue = /^(from |price)/i.test(r.nightly) ? r.nightly : "from " + r.nightly;
+const nightlyValue = r.nightlyFixed || /^(from |price)/i.test(r.nightly) ? r.nightly : "from " + r.nightly;
 const priceTip = nightlyOriginal
   ? `Shown in USD — originally ${nightlyOriginal}${nightlyCurrency ? ` (${nightlyCurrency})` : ""}`
   : undefined;
@@ -124,9 +124,10 @@ const jsonLd = {
               <div style="display:flex; justify-content:space-between; align-items:baseline; padding:14px 0; border-bottom:1px solid var(--border-subtle);">
                 <span style="font-family:var(--font-sans); font-size:11px; letter-spacing:0.16em; text-transform:uppercase; color:var(--slate);">Nightly rate</span>
                 {nightlyOriginal ? (
-                  <span style="position:relative; display:inline-flex; align-items:center; gap:7px;" title={priceTip}>
+                  <span class="ew-pricetip" style="position:relative; display:inline-flex; align-items:center; gap:7px;" tabindex="0" aria-label={priceTip}>
                     <span style="font-family:var(--font-serif); font-weight:400; font-size:17px; color:var(--charcoal); border-bottom:1px dotted var(--stone); padding-bottom:1px;">{nightlyValue}</span>
                     <Icon name="info" size={12} color="var(--slate)" stroke={1.5} />
+                    <span class="ew-pricetip-bubble">{priceTip}</span>
                   </span>
                 ) : (
                   <span style="font-family:var(--font-serif); font-weight:400; font-size:17px; color:var(--charcoal); text-align:right;">{nightlyValue}</span>

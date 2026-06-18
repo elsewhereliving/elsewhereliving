@@ -11,6 +11,10 @@ No code. No developer. Here's everything you need.
 3. To change one, click it. To add one, click **New Property** (top right).
 4. Fill in the form — title, market, price, photos, description, features.
    - **Photos:** drag them in or click to upload. The first one is the main photo.
+   - **Price:** pick the **currency** (THB, EUR, USD…) and type the price as a
+     plain number in that currency (e.g. `45000000` for ฿45,000,000). The site
+     shows it in **USD automatically**, converted at the day's exchange rate, so
+     you never have to do the maths. Leave the price blank for "Price on request".
    - **Description:** leave a blank line between paragraphs.
 5. Click **Publish** → **Publish now**.
 

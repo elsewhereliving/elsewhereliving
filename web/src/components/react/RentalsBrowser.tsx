@@ -310,17 +310,19 @@ function RentalCard({ item }: { item: RentalItem }) {
           }}
         >
           <span style={{ display: "flex", flexDirection: "column" }}>
-            <span
-              style={{
-                fontFamily: "var(--font-sans)",
-                fontSize: 9.5,
-                letterSpacing: "0.16em",
-                textTransform: "uppercase",
-                color: "var(--slate)",
-              }}
-            >
-              From
-            </span>
+            {!item.nightlyFixed && (
+              <span
+                style={{
+                  fontFamily: "var(--font-sans)",
+                  fontSize: 9.5,
+                  letterSpacing: "0.16em",
+                  textTransform: "uppercase",
+                  color: "var(--slate)",
+                }}
+              >
+                From
+              </span>
+            )}
             <span style={{ fontFamily: "var(--font-serif)", fontWeight: 400, fontSize: 22, color: "var(--charcoal)" }}>
               <PriceTag value={item.nightly} original={original} currency={currency} size={22} />
               <span

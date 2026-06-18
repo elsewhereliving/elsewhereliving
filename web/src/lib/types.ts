@@ -27,10 +27,20 @@ export interface Listing {
   interior?: string;
   plot?: string | null;
   year?: number | null;
-  priceNum: number;
-  price: string;
-  priceOriginal?: string;
+  // --- Source price (what the owner enters) -------------------------------
+  /** The real price in its native currency, e.g. 45000000 for ฿45,000,000. */
+  priceOriginalNum?: number | null;
+  /** ISO currency code of priceOriginalNum: "THB" | "USD" | "EUR" | … */
   priceCurrency?: string;
+  /** Show the USD price as "From $X" (a starting price). */
+  priceFrom?: boolean;
+  // --- Computed at build from live FX rates (see lib/price.ts) ------------
+  /** USD amount, derived from priceOriginalNum at the latest rate. */
+  priceNum: number;
+  /** Formatted USD display, e.g. "$2,577,845" or "Price on request". */
+  price: string;
+  /** Formatted native price for the hover tooltip (omitted when USD). */
+  priceOriginal?: string;
   added?: number;
   ownership?: string;
   yield?: string;
@@ -60,8 +70,20 @@ export interface Rental {
   guestsLabel?: string;
   occupancy?: string;
   size?: string;
+  // --- Source price (what the owner enters) -------------------------------
+  /** The real nightly rate in its native currency, e.g. 18000000 for IDR. */
+  nightlyOriginalNum?: number | null;
+  /** ISO currency code of nightlyOriginalNum: "USD" | "IDR" | "THB" | … */
+  nightlyCurrency?: string;
+  /** When true, shown as a fixed nightly price (no "From" prefix/eyebrow). */
+  nightlyFixed?: boolean;
+  // --- Computed at build from live FX rates (see lib/price.ts) ------------
+  /** USD nightly amount, derived from nightlyOriginalNum at the latest rate. */
   nightlyNum: number;
+  /** Formatted USD display, e.g. "$1,215" or "Price on request". */
   nightly: string;
+  /** Formatted native price for the hover tooltip (omitted when USD). */
+  nightlyOriginal?: string;
   note?: string;
   sleeps?: string;
   blurb: string;

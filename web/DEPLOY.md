@@ -69,6 +69,23 @@ Day-to-day editing is in **HOW-TO-EDIT-LISTINGS.md**.
 
 ---
 
+## Part 3 — Keep prices current (optional, ~3 min)
+
+Prices are entered in their **real currency** (THB, EUR, USD…) and shown in **USD**, converted at the day's exchange rate. The rate is refreshed **every time the site builds** — and the site builds every time you save a listing. So prices are already current whenever you edit.
+
+To also refresh prices on **quiet days when nobody edits**, set up a once-a-day automatic rebuild:
+
+1. Cloudflare Pages → your project → **Settings → Builds & deployments → Deploy hooks** → **Add deploy hook** (name it `daily`, branch `main`) → **copy the URL**.
+2. GitHub → your repo → **Settings → Secrets and variables → Actions → New repository secret**:
+   - **Name:** `CF_DEPLOY_HOOK`
+   - **Secret:** paste the URL.
+
+That's it. A scheduled job (`.github/workflows/daily-fx-rebuild.yml`) pings it daily and the site rebuilds with fresh rates. Skip this and prices still update on every edit — just not on idle days.
+
+> Note: free exchange-rate data updates about once a day, so this is as "live" as rates realistically get without a paid feed.
+
+---
+
 ## Good to know
 
 - **Editing publishes automatically.** When you save in `/admin`, it commits to GitHub, and Cloudflare rebuilds + republishes within a couple of minutes.

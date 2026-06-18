@@ -8,7 +8,8 @@
     "dev": "astro dev",
     "start": "astro dev",
     "images": "node scripts/optimize-images.mjs",
-    "build": "node scripts/optimize-images.mjs && astro build",
+    "fx": "node scripts/update-fx.mjs",
+    "build": "node scripts/update-fx.mjs && node scripts/optimize-images.mjs && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },

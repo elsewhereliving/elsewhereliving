@@ -35,7 +35,7 @@ collections:
     identifier_field: title
     slug: "{{slug}}"
     summary: "{{title}} — {{market}}"
-    sortable_fields: [title, market, priceNum, added, featuredOrder]
+    sortable_fields: [title, market, priceOriginalNum, added, featuredOrder]
     fields:
       - { name: featured, label: "⭐ Feature on homepage", widget: boolean, default: false, hint: "Show this property in the featured row on the home page." }
       - { name: featuredOrder, label: "Homepage order", widget: number, value_type: int, required: false, hint: "Lower numbers show first (1, 2, 3 …). Only matters when 'Feature on homepage' is on." }
@@ -46,10 +46,9 @@ collections:
       - { name: location, label: "Location line", widget: string, hint: "e.g. Bang Tao · Phuket · Thailand" }
       - { name: image, label: "Main photo", widget: image }
       - { name: gallery, label: "Photo gallery", widget: list, field: { name: photo, label: "Photo", widget: image } }
-      - { name: price, label: "Price (shown)", widget: string, hint: 'e.g. "$2,450,000" or "From $6,000,000"' }
-      - { name: priceNum, label: "Price (number, for sorting)", widget: number, value_type: int, required: false }
-      - { name: priceOriginal, label: "Original price (optional)", widget: string, required: false }
-      - { name: priceCurrency, label: "Currency (optional)", widget: string, required: false }
+      - { name: priceCurrency, label: "Currency", widget: select, required: false, default: "THB", options: ["THB", "USD", "EUR", "GBP", "IDR", "AUD", "SGD", "AED", "HKD"], hint: "The currency the price is quoted in. Leave blank for 'Price on request'." }
+      - { name: priceOriginalNum, label: "Price (in that currency)", widget: number, value_type: int, required: false, hint: "Just the number — e.g. 45000000 for ฿45,000,000. The site shows it converted to USD automatically at the day's exchange rate. Leave blank for 'Price on request'." }
+      - { name: priceFrom, label: "Show as a “From” price", widget: boolean, default: false, required: false, hint: "Tick if this is a starting price (displays “From $…”)." }
       - { name: beds, label: "Bedrooms", widget: number, value_type: int, default: 0, required: false }
       - { name: bedsLabel, label: "Bedrooms (text, optional)", widget: string, required: false }
       - { name: baths, label: "Bathrooms", widget: string, required: false }
@@ -85,14 +84,15 @@ collections:
     identifier_field: title
     slug: "r-{{slug}}"
     summary: "{{title}}"
-    sortable_fields: [title, nightlyNum]
+    sortable_fields: [title, nightlyOriginalNum]
     fields:
       - { name: title, label: "Title", widget: string }
       - { name: location, label: "Location line", widget: string, hint: "e.g. Plai Laem · Koh Samui · Thailand" }
       - { name: image, label: "Main photo", widget: image }
       - { name: gallery, label: "Photo gallery", widget: list, field: { name: photo, label: "Photo", widget: image } }
-      - { name: nightly, label: "Nightly rate (shown)", widget: string, hint: 'e.g. "$3,180"' }
-      - { name: nightlyNum, label: "Nightly rate (number, for sorting)", widget: number, value_type: int, required: false }
+      - { name: nightlyCurrency, label: "Currency", widget: select, required: false, default: "USD", options: ["USD", "THB", "EUR", "GBP", "IDR", "AUD", "SGD", "AED", "HKD"], hint: "The currency the nightly rate is quoted in. Leave blank for 'Price on request'." }
+      - { name: nightlyOriginalNum, label: "Nightly rate (in that currency)", widget: number, value_type: int, required: false, hint: "Just the number. The site shows it converted to USD automatically. Leave blank for 'Price on request'." }
+      - { name: nightlyFixed, label: "Exact nightly price (no “From”)", widget: boolean, default: false, required: false, hint: "Tick for a fixed nightly price rather than a 'from' starting rate." }
       - { name: beds, label: "Bedrooms", widget: number, value_type: int, default: 0 }
       - { name: baths, label: "Bathrooms", widget: string, required: false }
       - { name: guests, label: "Max guests", widget: number, value_type: int, required: false }

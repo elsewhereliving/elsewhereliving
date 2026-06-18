@@ -7,6 +7,7 @@
 
 import type { Listing, Rental, SiteContent } from "./types";
 import siteLocal from "../data/site.json";
+import { listingPrice, rentalPrice } from "./price";
 
 // Eagerly import every per-property file at build time.
 const listingFiles = import.meta.glob<{ default: Listing }>("../content/listings/*.json", { eager: true });
@@ -21,8 +22,12 @@ function collect<T extends { id?: string }>(files: Record<string, { default: T }
   });
 }
 
-const LISTINGS: Listing[] = collect<Listing>(listingFiles);
-const RENTALS: Rental[] = collect<Rental>(rentalFiles);
+// Each property stores its price in its native currency; the USD figures shown
+// on the site are computed here from the latest exchange rates (refreshed at
+// the start of every build). All display/sort/filter code reads these computed
+// fields, so nothing downstream needs to know about currencies.
+const LISTINGS: Listing[] = collect<Listing>(listingFiles).map((l) => ({ ...l, ...listingPrice(l) }));
+const RENTALS: Rental[] = collect<Rental>(rentalFiles).map((r) => ({ ...r, ...rentalPrice(r) }));
 
 export async function getListings(): Promise<Listing[]> {
   return LISTINGS;

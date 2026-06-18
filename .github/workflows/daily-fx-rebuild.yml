@@ -1,0 +1,30 @@
+name: Daily exchange-rate rebuild
+
+# Rebuilds the site once a day so displayed USD prices follow the latest
+# exchange rates. Each build runs scripts/update-fx.mjs, which fetches fresh
+# rates before Astro builds.
+#
+# One-time setup (see web/DEPLOY.md → "Part 3"):
+#   1. Cloudflare Pages → your project → Settings → Builds & deployments →
+#      Deploy hooks → create one → copy the URL.
+#   2. GitHub repo → Settings → Secrets and variables → Actions → New secret
+#      named CF_DEPLOY_HOOK, paste the URL.
+# Until that secret exists this job runs but does nothing (no error).
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # 06:17 UTC every day
+  workflow_dispatch: {} # also lets you trigger it by hand from the Actions tab
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Cloudflare Pages deploy
+        run: |
+          if [ -z "${{ secrets.CF_DEPLOY_HOOK }}" ]; then
+            echo "CF_DEPLOY_HOOK secret not set yet — skipping. See web/DEPLOY.md (Part 3)."
+            exit 0
+          fi
+          curl -fsS -X POST "${{ secrets.CF_DEPLOY_HOOK }}" > /dev/null
+          echo "Triggered a Cloudflare rebuild — prices will refresh at the latest rate."
