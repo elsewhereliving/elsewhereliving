@@ -46,7 +46,7 @@ export default function Dashboard({
   const view = useMemo(() => {
     const idx: Record<string, number> = {};
     all.forEach((x, i) => (idx[x.id] = i));
-    const newOf = (it: Rec) => (isRental ? it.created : it.added) || 1e12 - idx[it.id];
+    const newOf = (it: Rec) => (it.created ?? it.added) || 1e12 - idx[it.id];
     const filtered = all.filter((it) => {
       const hay = (it.title + " " + it.location + " " + (it.place || "")).toLowerCase();
       if (q && hay.indexOf(q.toLowerCase()) < 0) return false;

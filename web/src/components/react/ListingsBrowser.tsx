@@ -576,7 +576,10 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
     const salePrice = (x: Listing) => (x.priceNum && x.priceNum > 0 ? x.priceNum : Infinity);
     if (sort === "low") out = [...out].sort((a, b) => salePrice(a) - salePrice(b));
     if (sort === "high") out = [...out].sort((a, b) => salePrice(b) - salePrice(a));
-    if (sort === "newest") out = [...out].sort((a, b) => (b.added || 0) - (a.added || 0));
+    if (sort === "newest") {
+      const recency = (x: Listing) => (x as any).created ?? (x as any).added ?? 0;
+      out = [...out].sort((a, b) => recency(b) - recency(a));
+    }
     return out;
   }, [items, market, type, status, view, minBeds, priceLo, priceHi, priceActive, sort]);
 
