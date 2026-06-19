@@ -128,7 +128,7 @@ export default function Dashboard({
         </div>
 
         <div style={{ display: "flex", gap: 26, borderBottom: "1px solid var(--border-on-light)", marginBottom: 22 }}>
-          {([["listings", "For sale", counts.listings], ["rentals", "Rentals", counts.rentals], ["home", "Homepage", ""], ["featrentals", "Featured rentals", ""]] as const).map((t) => {
+          {([["listings", "For sale", counts.listings], ["rentals", "Rentals", counts.rentals], ["home", "Featured sales", ""], ["featrentals", "Featured rentals", ""]] as const).map((t) => {
             const active = collection === t[0];
             return (
               <button key={t[0]} type="button" onClick={() => setCollection(t[0] as any)}
