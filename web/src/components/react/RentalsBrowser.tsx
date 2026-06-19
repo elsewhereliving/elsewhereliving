@@ -539,9 +539,16 @@ export default function RentalsBrowser({ items, destinations }: Props) {
     setPriceHi(hi);
   };
 
-  // hydrate filters from the URL on mount
+  // hydrate filters on mount. URL params (browser back/forward) win; on a clean
+  // URL (e.g. an "All rentals" link) fall back to the last view saved this
+  // session so filters, sort and scroll position are remembered, not reset.
   useEffect(() => {
-    const q = new URLSearchParams(window.location.search);
+    let q = new URLSearchParams(window.location.search);
+    let fromSession = false;
+    if (![...q.keys()].length) {
+      const saved = sessionStorage.getItem("ew:rentals");
+      if (saved) { q = new URLSearchParams(saved); fromSession = true; }
+    }
     const d = q.get("dest");
     if (d) setDest(d);
     if (q.get("view")) setView(q.get("view")!);
@@ -551,6 +558,17 @@ export default function RentalsBrowser({ items, destinations }: Props) {
     setPriceLo(q.get("pmin") ? Math.max(bMin, Number(q.get("pmin"))) : bMin);
     setPriceHi(q.get("pmax") ? Math.min(bMax, Number(q.get("pmax"))) : bMax);
     if (q.get("sort")) setSort(q.get("sort")!);
+    if (fromSession) {
+      const y = sessionStorage.getItem("ew:rentals:y");
+      if (y) requestAnimationFrame(() => requestAnimationFrame(() => window.scrollTo(0, Number(y))));
+    }
+  }, []);
+
+  // remember scroll position when leaving (e.g. clicking into a rental)
+  useEffect(() => {
+    const save = () => sessionStorage.setItem("ew:rentals:y", String(window.scrollY));
+    window.addEventListener("pagehide", save);
+    return () => window.removeEventListener("pagehide", save);
   }, []);
 
   // reflect active filters to the URL (no history spam)
@@ -565,6 +583,7 @@ export default function RentalsBrowser({ items, destinations }: Props) {
     const qs = q.toString();
     const next = window.location.pathname + (qs ? `?${qs}` : "");
     window.history.replaceState(window.history.state, "", next);
+    sessionStorage.setItem("ew:rentals", qs);
   }, [dest, view, minBeds, priceLo, priceHi, sort]);
 
   const result = useMemo(() => {

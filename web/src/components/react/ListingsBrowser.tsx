@@ -531,9 +531,17 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
     setPriceHi(hi);
   };
 
-  // hydrate filters from the URL on mount
+  // hydrate filters on mount. If the URL has params (e.g. browser back/forward),
+  // use them. If it's a clean URL (arriving via an "All properties" link), fall
+  // back to the last view saved this session so the visitor's filters, sort and
+  // scroll position are remembered instead of resetting to default.
   useEffect(() => {
-    const q = new URLSearchParams(window.location.search);
+    let q = new URLSearchParams(window.location.search);
+    let fromSession = false;
+    if (![...q.keys()].length) {
+      const saved = sessionStorage.getItem("ew:properties");
+      if (saved) { q = new URLSearchParams(saved); fromSession = true; }
+    }
     const m = q.get("dest");
     if (m) setMarket(m);
     if (q.get("type")) setType(q.get("type")!);
@@ -544,6 +552,17 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
     setPriceLo(q.get("pmin") ? Math.max(bMin, Number(q.get("pmin"))) : bMin);
     setPriceHi(q.get("pmax") ? Math.min(bMax, Number(q.get("pmax"))) : bMax);
     if (q.get("sort")) setSort(q.get("sort")!);
+    if (fromSession) {
+      const y = sessionStorage.getItem("ew:properties:y");
+      if (y) requestAnimationFrame(() => requestAnimationFrame(() => window.scrollTo(0, Number(y))));
+    }
+  }, []);
+
+  // remember scroll position when leaving (e.g. clicking into a listing)
+  useEffect(() => {
+    const save = () => sessionStorage.setItem("ew:properties:y", String(window.scrollY));
+    window.addEventListener("pagehide", save);
+    return () => window.removeEventListener("pagehide", save);
   }, []);
 
   // reflect active filters to the URL (no history spam)
@@ -560,6 +579,7 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
     const qs = q.toString();
     const next = window.location.pathname + (qs ? `?${qs}` : "");
     window.history.replaceState(window.history.state, "", next);
+    sessionStorage.setItem("ew:properties", qs);
   }, [market, type, status, view, minBeds, priceLo, priceHi, sort]);
 
   const result = useMemo(() => {
