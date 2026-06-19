@@ -22,8 +22,8 @@
     "Garden"
   ],
   "status": "Off-Plan",
-  "beds": 4,
-  "bedsLabel": "Flexible layout",
+  "beds": 3,
+  "bedsLabel": "3–5 bedrooms",
   "baths": 4,
   "interior": "380–422 m²",
   "plot": "240 m²",
@@ -38,6 +38,10 @@
   "blurb": "A three-storey \"multi-flex\" house with a rooftop garden, set beside a private lagoon in Bang Tao – Cherngtalay, Phuket. A double-frontage design that works as a multigenerational home or a residence with a home office, with residents-only lake club access. Off-plan, from ฿39,800,000.",
   "detail": "On the Cherngtalay side of a private lagoon community in Bang Tao, this is a three-storey house designed around flexibility. Its \"double-frontage\" plan gives it two faces: a serene residential front opening to the tranquillity of the lagoon, and a second frontage connecting to the surrounding Cherngtalay neighbourhood — so the home adapts to however you live.\n\nAcross three levels and a rooftop garden, the layout flexes between a multigenerational family home, a residence with a dedicated home office, or a live-and-invest configuration. Generous open-plan living and dining spaces open through full-height glazing to a private pool and garden, finished in a warm, contemporary palette.\n\nHomes range from about 380 to 422 m² of built area on 240 m² plots, balancing privacy with an easy connection to nature and to one of Phuket's most established lifestyle quarters.\n\nResidents share the community's members-only lake club — lap and kids pools, a hydrotherapy zone, sauna and ice bath, gym and private studio, co-working lounge, sun decks and 24-hour security. Bang Tao Beach is roughly ten minutes away, with Porto de Phuket about four minutes and Boat Avenue five. Offered off-plan from ฿39,800,000.",
   "features": [
+    {
+      "l": "Three to five bedrooms · 4–6 baths",
+      "i": "bed"
+    },
     {
       "l": "Three storeys + rooftop garden",
       "i": "building"
@@ -82,5 +86,6 @@
       "l": "≈10 min to Bang Tao Beach",
       "i": "car"
     }
-  ]
+  ],
+  "mapQuery": "7.982269,98.309815"
 }
