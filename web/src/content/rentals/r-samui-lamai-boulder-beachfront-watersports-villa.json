@@ -1,0 +1,99 @@
+{
+  "location": "Lamai · Koh Samui · Thailand",
+  "place": "Lamai, Tambon Maret, Ko Samui District, Surat Thani 84310, Thailand",
+  "mapQuery": "9.4570,100.0450",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 5,
+  "bedsLabel": "5",
+  "baths": 5,
+  "guests": 10,
+  "guestsLabel": "10",
+  "occupancy": "up to 10 guests",
+  "nightlyCurrency": "USD",
+  "note": "Fully staffed · private chef & daily breakfast",
+  "featured": false,
+  "imageFocal": "",
+  "id": "r-samui-lamai-boulder-beachfront-watersports-villa",
+  "image": "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/01.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/02.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/03.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/04.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/05.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/06.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/07.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/08.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/09.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/10.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/11.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/12.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/13.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/14.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/15.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/16.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/17.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/18.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/19.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/20.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/21.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/22.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/23.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/24.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/25.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/26.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/27.jpg",
+    "/assets/listings/r-samui-lamai-boulder-beachfront-watersports-villa/28.jpg"
+  ],
+  "title": "Granite-Boulder Beachfront Pool Villa with Watersports, Lamai",
+  "nightlyOriginalNum": 1140,
+  "sleeps": "up to 10 guests · 5 bedrooms",
+  "created": 1781922500000,
+  "blurb": "A five-bedroom beachfront villa on Koh Samui’s unspoilt Lamai–Hua Thanon shore, framed by granite boulders and tropical gardens, with a 20-metre infinity pool, kayaks, paddleboards and jet-ski at the door, and sea views throughout. Fully staffed with a private chef. From $1,140 a night.",
+  "detail": "The second of two iconic homes on this private boulder-strewn shore, this pavilion-style villa sits between lush gardens and the sea, its living spaces opening fully to terraces, breezes and the water beyond.\n\nA 20-metre infinity pool with a kid-friendly shallow end, sun loungers and a sea-facing balcony anchors the outdoor living, while the beach below is set up for play — kayaks, paddleboards, a jet-ski and boat outings for those who want to get on the water. A Thai massage sala balances the active days.\n\nFive en-suite bedrooms each have a sea view and a freestanding bathtub, shaped individually around the surrounding granite. Open-plan dining and a generous living room flow out to the garden and pool, and a private chef turns the day’s catch and market produce into long, easy meals.\n\nThe villa is fully staffed with a manager, private chef, housekeeper and handyman, with daily breakfast included; book it alone or together with its twin next door as one estate. Offered from $1,140 a night.",
+  "features": [
+    {
+      "l": "Five sea-view en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Absolute beachfront among granite boulders",
+      "i": "waves"
+    },
+    {
+      "l": "20 m infinity pool · shallow end",
+      "i": "pool"
+    },
+    {
+      "l": "Kayaks, SUP, jet-ski & boat outings",
+      "i": "sun"
+    },
+    {
+      "l": "Tropical garden & sea-view balcony",
+      "i": "tree"
+    },
+    {
+      "l": "Freestanding bathtub in every room",
+      "i": "bath"
+    },
+    {
+      "l": "Fully staffed · private chef",
+      "i": "utensils"
+    },
+    {
+      "l": "Thai massage sala",
+      "i": "gym"
+    },
+    {
+      "l": "Sleeps up to 10",
+      "i": "users"
+    },
+    {
+      "l": "Booked solo or as a twin-villa estate",
+      "i": "key"
+    }
+  ]
+}
