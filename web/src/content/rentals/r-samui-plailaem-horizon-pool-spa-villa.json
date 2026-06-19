@@ -82,5 +82,8 @@
       "i": "shield"
     }
   ],
-  "created": 1781642529000
+  "created": 1781642529000,
+  "featured": true,
+  "featuredRank": 7,
+  "imageFocal": ""
 }

@@ -60,5 +60,8 @@
       "i": "users"
     }
   ],
-  "created": 1781725329000
+  "created": 1781725329000,
+  "featured": true,
+  "featuredRank": 13,
+  "imageFocal": ""
 }

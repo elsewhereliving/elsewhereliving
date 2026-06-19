@@ -79,5 +79,8 @@
       "i": "year"
     }
   ],
-  "created": 1781635329000
+  "created": 1781635329000,
+  "featured": true,
+  "featuredRank": 24,
+  "imageFocal": ""
 }

@@ -65,5 +65,8 @@
       "i": "view"
     }
   ],
-  "created": 1781775729000
+  "created": 1781775729000,
+  "featured": true,
+  "featuredRank": 5,
+  "imageFocal": ""
 }
