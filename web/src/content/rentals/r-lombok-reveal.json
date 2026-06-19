@@ -1,13 +1,12 @@
 {
   "id": "r-lombok-reveal",
-  "image": "https://www.tampahhills.com/wp-content/uploads/2025/02/Tampah-Hills-House-of-Herring-Hero.jpg",
+  "image": "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring23-1024x682.jpg",
   "gallery": [
+    "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring23-1024x682.jpg",
     "https://www.tampahhills.com/wp-content/uploads/2025/02/Tampah-Hills-House-of-Herring-Hero.jpg",
-    "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring7-1024x682.jpg",
     "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring1-1024x682.jpg",
     "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring5-1024x682.jpg",
     "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring25-1024x682.jpg",
-    "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring23-1024x682.jpg",
     "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring8-1024x682.jpg",
     "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring9-1024x682.jpg",
     "https://www.tampahhills.com/wp-content/uploads/2022/12/Tampah-Hills-House-of-Herring11-1024x682.jpg",
@@ -65,5 +64,6 @@
       "i": "home"
     }
   ],
-  "created": 1781761329000
+  "created": 1781761329000,
+  "imageFocal": ""
 }

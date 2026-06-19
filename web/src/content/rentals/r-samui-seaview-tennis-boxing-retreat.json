@@ -1,10 +1,10 @@
 {
   "id": "r-samui-seaview-tennis-boxing-retreat",
-  "image": "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/praana-residence/overview/praanaresidence_01_pool.webp",
+  "image": "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/praana-residence/overview/praanaresidence_03_villa.webp",
   "gallery": [
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/praana-residence/overview/praanaresidence_03_villa.webp",
     "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/praana-residence/overview/praanaresidence_01_pool.webp",
     "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/praana-residence/overview/praanaresidence_02_poolview.webp",
-    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/praana-residence/overview/praanaresidence_03_villa.webp",
     "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/praana-residence/overview/praanaresidence_05_living_area.webp",
     "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/praana-residence/overview/praanaresidence_06_dining_area.webp",
     "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/praana-residence/overview/praanaresidence_08_bedroom_1-1.webp",
@@ -55,5 +55,6 @@
       "i": "users"
     }
   ],
-  "created": 1781631729000
+  "created": 1781631729000,
+  "imageFocal": ""
 }

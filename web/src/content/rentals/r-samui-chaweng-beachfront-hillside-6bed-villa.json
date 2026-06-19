@@ -1,12 +1,12 @@
 {
   "id": "r-samui-chaweng-beachfront-hillside-6bed-villa",
-  "image": "/assets/listings/r-samui-chaweng-beachfront-hillside-6bed-villa/01.jpg",
+  "image": "/assets/listings/r-samui-chaweng-beachfront-hillside-6bed-villa/02.jpg",
   "gallery": [
-    "/assets/listings/r-samui-chaweng-beachfront-hillside-6bed-villa/01.jpg",
     "/assets/listings/r-samui-chaweng-beachfront-hillside-6bed-villa/02.jpg",
+    "/assets/listings/r-samui-chaweng-beachfront-hillside-6bed-villa/05.jpg",
     "/assets/listings/r-samui-chaweng-beachfront-hillside-6bed-villa/03.jpg",
     "/assets/listings/r-samui-chaweng-beachfront-hillside-6bed-villa/04.jpg",
-    "/assets/listings/r-samui-chaweng-beachfront-hillside-6bed-villa/05.jpg",
+    "/assets/listings/r-samui-chaweng-beachfront-hillside-6bed-villa/01.jpg",
     "/assets/listings/r-samui-chaweng-beachfront-hillside-6bed-villa/06.jpg",
     "/assets/listings/r-samui-chaweng-beachfront-hillside-6bed-villa/07.jpg",
     "/assets/listings/r-samui-chaweng-beachfront-hillside-6bed-villa/08.jpg",
@@ -34,7 +34,7 @@
   "location": "Chaweng · Koh Samui · Thailand",
   "place": "Bo Phut, Ko Samui District, Surat Thani, Thailand",
   "mapQuery": "9.553483,100.077709",
-  "title": "Hillside Beachfront Villa, Six Bedrooms, Chaweng",
+  "title": "6-Bedroom Beachfront Villa in Chaweng",
   "view": [
     "Beachfront",
     "Sea View"
@@ -46,7 +46,7 @@
   "guestsLabel": "14",
   "occupancy": "up to 14 guests",
   "size": "3,200 m²",
-  "nightlyOriginalNum": 1600,
+  "nightlyOriginalNum": 1250,
   "nightlyCurrency": "USD",
   "note": "Fully staffed · breakfast, welcome dinner & airport transfers included",
   "sleeps": "up to 14 guests · 6 bedrooms + 1 dorm",

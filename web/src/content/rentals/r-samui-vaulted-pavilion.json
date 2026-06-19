@@ -1,11 +1,11 @@
 {
   "id": "r-samui-vaulted-pavilion",
-  "image": "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_01_pool_1680.webp",
+  "image": "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_03_livingarea_1680.webp",
   "gallery": [
-    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_01_pool_1680.webp",
-    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_02_pool_1680.webp",
-    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_18_aerialview_1680.webp",
     "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_03_livingarea_1680.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_02_pool_1680.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_01_pool_1680.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_18_aerialview_1680.webp",
     "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_04_diningarea_1680.webp",
     "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_14_kitchen_1680.webp",
     "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_06_bedroom1terrace_1680.webp",
@@ -58,5 +58,6 @@
       "i": "users"
     }
   ],
-  "created": 1781606529000
+  "created": 1781606529000,
+  "imageFocal": ""
 }

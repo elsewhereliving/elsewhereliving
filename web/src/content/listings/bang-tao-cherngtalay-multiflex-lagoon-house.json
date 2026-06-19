@@ -1,9 +1,9 @@
 {
   "id": "bang-tao-cherngtalay-multiflex-lagoon-house",
-  "image": "/assets/listings/bang-tao-cherngtalay-multiflex-lagoon-house/01.jpg",
+  "image": "/assets/listings/bang-tao-cherngtalay-multiflex-lagoon-house/02.jpg",
   "gallery": [
-    "/assets/listings/bang-tao-cherngtalay-multiflex-lagoon-house/01.jpg",
     "/assets/listings/bang-tao-cherngtalay-multiflex-lagoon-house/02.jpg",
+    "/assets/listings/bang-tao-cherngtalay-multiflex-lagoon-house/01.jpg",
     "/assets/listings/bang-tao-cherngtalay-multiflex-lagoon-house/03.jpg",
     "/assets/listings/bang-tao-cherngtalay-multiflex-lagoon-house/04.jpg",
     "/assets/listings/bang-tao-cherngtalay-multiflex-lagoon-house/05.jpg",
@@ -87,5 +87,6 @@
       "i": "car"
     }
   ],
-  "mapQuery": "7.982269,98.309815"
+  "mapQuery": "7.982269,98.309815",
+  "imageFocal": ""
 }

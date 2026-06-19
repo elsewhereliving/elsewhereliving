@@ -1,9 +1,9 @@
 {
   "id": "r-samui-overwater-sala-bophut",
-  "image": "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/baan-benjamart/overview/baanbenjamart_01_pool.webp",
+  "image": "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/baan-benjamart/overview/baanbenjamart_03_pooldeck.webp",
   "gallery": [
-    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/baan-benjamart/overview/baanbenjamart_01_pool.webp",
     "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/baan-benjamart/overview/baanbenjamart_03_pooldeck.webp",
+    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/baan-benjamart/overview/baanbenjamart_01_pool.webp",
     "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/baan-benjamart/overview/baanbenjamart_24_beach.webp",
     "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/baan-benjamart/overview/baanbenjamart_05_openlivingarea.webp",
     "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/baan-benjamart/overview/baanbenjamart_20_diningarea.webp",
@@ -55,5 +55,6 @@
       "i": "users"
     }
   ],
-  "created": 1781660529000
+  "created": 1781660529000,
+  "imageFocal": ""
 }

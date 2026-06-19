@@ -1,9 +1,9 @@
 {
   "id": "r-phuket-zai",
-  "image": "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Aerial-5-e1744331897167.jpg",
+  "image": "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Aerial-2.jpg",
   "gallery": [
-    "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Aerial-5-e1744331897167.jpg",
     "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Aerial-2.jpg",
+    "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Aerial-5-e1744331897167.jpg",
     "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Swimming-Pool-Area-11.jpg",
     "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Swimming-Pool-Area-1.jpg",
     "https://www.theluxurysignature.com/wp-content/uploads/2024/07/Villa-Zai-Phuket-Aerial-9.jpg",
@@ -67,5 +67,6 @@
       "i": "users"
     }
   ],
-  "created": 1781736129000
+  "created": 1781736129000,
+  "imageFocal": ""
 }

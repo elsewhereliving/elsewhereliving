@@ -1,9 +1,9 @@
 {
   "id": "r-samui-grand-estate-24",
-  "image": "https://samujana.com/__l5e/assets-v1/ae03445b-13bb-4d41-9c75-3864b5af9fa9/2016-11-220728-Samujana-24-0082.jpg",
+  "image": "https://samujana.com/__l5e/assets-v1/3747d9c9-568e-4c3e-82c3-a4053ed96c2e/2016-11-220728-Samujana-24-0014.jpg",
   "gallery": [
-    "https://samujana.com/__l5e/assets-v1/ae03445b-13bb-4d41-9c75-3864b5af9fa9/2016-11-220728-Samujana-24-0082.jpg",
     "https://samujana.com/__l5e/assets-v1/3747d9c9-568e-4c3e-82c3-a4053ed96c2e/2016-11-220728-Samujana-24-0014.jpg",
+    "https://samujana.com/__l5e/assets-v1/ae03445b-13bb-4d41-9c75-3864b5af9fa9/2016-11-220728-Samujana-24-0082.jpg",
     "https://samujana.com/__l5e/assets-v1/97abd246-b553-48b1-96cd-265867498662/2016-11-220728-Samujana-24-0001.jpg",
     "https://samujana.com/__l5e/assets-v1/21ca0a21-ba18-4cf1-9824-76f7a16b902b/2016-11-220728-Samujana-24-0027.jpg",
     "https://samujana.com/__l5e/assets-v1/5cf01394-5759-47d2-9adb-d586b3c9f1cb/2016-11-V24-Infinity-Pool-view.jpg",
@@ -55,5 +55,6 @@
       "i": "users"
     }
   ],
-  "created": 1781674929000
+  "created": 1781674929000,
+  "imageFocal": ""
 }

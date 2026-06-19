@@ -1,13 +1,13 @@
 {
   "id": "r-bali-canggu-tropical-modern-pool-villa",
-  "image": "/assets/listings/r-bali-canggu-tropical-modern-pool-villa/01.jpg",
+  "image": "/assets/listings/r-bali-canggu-tropical-modern-pool-villa/06.jpg",
   "gallery": [
+    "/assets/listings/r-bali-canggu-tropical-modern-pool-villa/06.jpg",
     "/assets/listings/r-bali-canggu-tropical-modern-pool-villa/01.jpg",
     "/assets/listings/r-bali-canggu-tropical-modern-pool-villa/02.jpg",
     "/assets/listings/r-bali-canggu-tropical-modern-pool-villa/03.jpg",
     "/assets/listings/r-bali-canggu-tropical-modern-pool-villa/04.jpg",
     "/assets/listings/r-bali-canggu-tropical-modern-pool-villa/05.jpg",
-    "/assets/listings/r-bali-canggu-tropical-modern-pool-villa/06.jpg",
     "/assets/listings/r-bali-canggu-tropical-modern-pool-villa/07.jpg",
     "/assets/listings/r-bali-canggu-tropical-modern-pool-villa/08.jpg",
     "/assets/listings/r-bali-canggu-tropical-modern-pool-villa/09.jpg",
@@ -65,5 +65,6 @@
       "i": "users"
     }
   ],
-  "created": 1781808129000
+  "created": 1781808129000,
+  "imageFocal": ""
 }
