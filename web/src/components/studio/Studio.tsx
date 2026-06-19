@@ -11,6 +11,7 @@ interface StudioData {
   listings: Rec[];
   rentals: Rec[];
   markets: string[];
+  homeCount: number;
 }
 
 const slugify = (s: string) =>
@@ -66,10 +67,10 @@ export function useToast() {
 
 type Route = { view: "dashboard" } | { view: "editor"; collection: string; id: string | null };
 
-export default function Studio({ listings: l0, rentals: r0, markets }: StudioData) {
+export default function Studio({ listings: l0, rentals: r0, markets, homeCount: hc0 }: StudioData) {
   const [listings, setListings] = useState<Rec[]>(l0);
   const [rentals, setRentals] = useState<Rec[]>(r0);
-  const [homeCount, setHomeCountState] = useState<number>(3);
+  const [homeCount, setHomeCountState] = useState<number>(hc0 || 3);
   const [connected, setConnected] = useState(false);
   const [route, setRoute] = useState<Route>({ view: "dashboard" });
 

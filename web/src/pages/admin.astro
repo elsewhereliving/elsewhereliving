@@ -2,13 +2,14 @@
 import "../styles/global.css";
 import "../styles/studio.css";
 import Studio from "../components/studio/Studio.tsx";
-import { getListings, getRentals, getListingMarkets } from "../lib/content";
+import { getListings, getRentals, getListingMarkets, getHomeFeaturedCount } from "../lib/content";
 
 // Load the current portfolio as the Studio's starting data. (Saving back to
 // GitHub lands in Phase 5; for now the studio is a read + preview surface.)
 const listings = await getListings();
 const rentals = await getRentals();
 const markets = await getListingMarkets();
+const homeCount = getHomeFeaturedCount();
 
 const DS = "/_ds/design-system-abef38a9-b4ec-454e-999b-5c22fa6c925a";
 ---
@@ -28,6 +29,6 @@ const DS = "/_ds/design-system-abef38a9-b4ec-454e-999b-5c22fa6c925a";
     <link rel="stylesheet" href={`${DS}/tokens/base.css`} />
   </head>
   <body style="margin:0; background:var(--paper);">
-    <Studio listings={listings} rentals={rentals} markets={markets} client:only="react" />
+    <Studio listings={listings} rentals={rentals} markets={markets} homeCount={homeCount} client:only="react" />
   </body>
 </html>
