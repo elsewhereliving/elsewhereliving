@@ -583,6 +583,13 @@ export default function RentalsBrowser({ items, destinations }: Props) {
       const recency = (x: RentalItem) => (x as any).created ?? (x as any).added ?? 0;
       out = [...out].sort((a, b) => recency(b) - recency(a));
     }
+    if (sort === "featured") {
+      // Featured rentals first (in the order set in the Studio), then the rest
+      // by newest. Tie-break on id so duplicate ranks can't scramble the order.
+      const rank = (x: RentalItem) => ((x as any).featured ? ((x as any).featuredRank ?? (x as any).featuredOrder ?? 9999) : Infinity);
+      const recency = (x: RentalItem) => (x as any).created ?? (x as any).added ?? 0;
+      out = [...out].sort((a, b) => rank(a) - rank(b) || recency(b) - recency(a) || a.id.localeCompare(b.id));
+    }
     return out;
   }, [items, dest, view, minBeds, priceLo, priceHi, priceActive, sort]);
 

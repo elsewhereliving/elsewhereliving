@@ -4,6 +4,7 @@ import { rentDest } from "../../lib/format";
 import { optImg } from "../../lib/img";
 import { Icon } from "./icons";
 import HomeFeatured from "./HomeFeatured";
+import FeaturedRentals from "./FeaturedRentals";
 import { useStudio, useToast, type Rec } from "./Studio";
 
 const meta = (extra?: CSSProperties): CSSProperties => ({
@@ -22,7 +23,8 @@ export default function Dashboard({
 }) {
   const crm = useStudio();
   const toast = useToast();
-  const [collection, setCollection] = useState<"listings" | "rentals" | "home">("listings");
+  const [collection, setCollection] = useState<"listings" | "rentals" | "home" | "featrentals">("listings");
+  const isFeaturedView = collection === "home" || collection === "featrentals";
   const [q, setQ] = useState("");
   const [fMarket, setFMarket] = useState("All");
   const [fType, setFType] = useState("All");
@@ -109,12 +111,12 @@ export default function Dashboard({
       <main style={{ maxWidth: 1320, margin: "0 auto", padding: "38px 30px 90px" }}>
         <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", flexWrap: "wrap", gap: 20, marginBottom: 26 }}>
           <div>
-            <span style={meta()}>[ {collection === "home" ? "Featured" : "Portfolio"} ]</span>
+            <span style={meta()}>[ {isFeaturedView ? "Featured" : "Portfolio"} ]</span>
             <h1 style={{ fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: "clamp(32px, 5vw, 46px)", color: "var(--navy)", margin: "6px 0 0", letterSpacing: "-0.015em" }}>
-              {collection === "home" ? "What visitors see first." : "Every elsewhere, in one place."}
+              {collection === "home" ? "What visitors see first." : collection === "featrentals" ? "Featured rentals, front and centre." : "Every elsewhere, in one place."}
             </h1>
           </div>
-          {collection !== "home" && (
+          {!isFeaturedView && (
             <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
               <button type="button" className="ew-pillctl" onClick={() => onImport(collection)}
                 style={{ display: "inline-flex", alignItems: "center", gap: 9, padding: "14px 24px", cursor: "pointer", background: "transparent", color: "var(--navy)", border: "1px solid var(--navy)", fontFamily: "var(--font-sans)", fontSize: 11.5, letterSpacing: "0.16em", textTransform: "uppercase" }}>
@@ -126,7 +128,7 @@ export default function Dashboard({
         </div>
 
         <div style={{ display: "flex", gap: 26, borderBottom: "1px solid var(--border-on-light)", marginBottom: 22 }}>
-          {([["listings", "For sale", counts.listings], ["rentals", "Rentals", counts.rentals], ["home", "Featured", ""]] as const).map((t) => {
+          {([["listings", "For sale", counts.listings], ["rentals", "Rentals", counts.rentals], ["home", "Homepage", ""], ["featrentals", "Featured rentals", ""]] as const).map((t) => {
             const active = collection === t[0];
             return (
               <button key={t[0]} type="button" onClick={() => setCollection(t[0] as any)}
@@ -138,7 +140,9 @@ export default function Dashboard({
           })}
         </div>
 
-        {collection === "home" ? (
+        {collection === "featrentals" ? (
+          <FeaturedRentals />
+        ) : collection === "home" ? (
           <HomeFeatured />
         ) : (
           <>
