@@ -1,0 +1,110 @@
+{
+  "id": "r-samui-taling-ngam-five-islands-4bed-villa",
+  "image": "/assets/imagery/five-islands-taling-ngam-hero.jpg",
+  "gallery": [
+    "/assets/imagery/five-islands-taling-ngam-hero.jpg",
+    "/assets/listings/five-islands-taling-ngam/01.jpg",
+    "/assets/listings/five-islands-taling-ngam/02.jpg",
+    "/assets/listings/five-islands-taling-ngam/03.jpg",
+    "/assets/listings/five-islands-taling-ngam/04.jpg",
+    "/assets/listings/five-islands-taling-ngam/05.jpg",
+    "/assets/listings/five-islands-taling-ngam/06.jpg",
+    "/assets/listings/five-islands-taling-ngam/07.jpg",
+    "/assets/listings/five-islands-taling-ngam/08.jpg",
+    "/assets/listings/five-islands-taling-ngam/09.jpg",
+    "/assets/listings/five-islands-taling-ngam/10.jpg",
+    "/assets/listings/five-islands-taling-ngam/11.jpg",
+    "/assets/listings/five-islands-taling-ngam/12.jpg",
+    "/assets/listings/five-islands-taling-ngam/13.jpg",
+    "/assets/listings/five-islands-taling-ngam/14.jpg",
+    "/assets/listings/five-islands-taling-ngam/15.jpg",
+    "/assets/listings/five-islands-taling-ngam/16.jpg",
+    "/assets/listings/five-islands-taling-ngam/17.jpg",
+    "/assets/listings/five-islands-taling-ngam/18.jpg",
+    "/assets/listings/five-islands-taling-ngam/19.jpg",
+    "/assets/listings/five-islands-taling-ngam/20.jpg",
+    "/assets/listings/five-islands-taling-ngam/21.jpg",
+    "/assets/listings/five-islands-taling-ngam/22.jpg",
+    "/assets/listings/five-islands-taling-ngam/23.jpg",
+    "/assets/listings/five-islands-taling-ngam/24.jpg",
+    "/assets/listings/five-islands-taling-ngam/25.jpg",
+    "/assets/listings/five-islands-taling-ngam/26.jpg",
+    "/assets/listings/five-islands-taling-ngam/27.jpg",
+    "/assets/listings/five-islands-taling-ngam/28.jpg",
+    "/assets/listings/five-islands-taling-ngam/29.jpg",
+    "/assets/listings/five-islands-taling-ngam/30.jpg",
+    "/assets/listings/five-islands-taling-ngam/31.jpg",
+    "/assets/listings/five-islands-taling-ngam/32.jpg",
+    "/assets/listings/five-islands-taling-ngam/33.jpg",
+    "/assets/listings/five-islands-taling-ngam/34.jpg",
+    "/assets/listings/five-islands-taling-ngam/35.jpg",
+    "/assets/listings/five-islands-taling-ngam/36.jpg",
+    "/assets/listings/five-islands-taling-ngam/37.jpg",
+    "/assets/listings/five-islands-taling-ngam/38.jpg"
+  ],
+  "location": "Taling Ngam · Koh Samui · Thailand",
+  "place": "Taling Ngam, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.4525,99.9486",
+  "title": "Hillside Villa with Five-Islands Views, Four Bedrooms, Taling Ngam",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 4,
+  "bedsLabel": "4",
+  "baths": 4,
+  "guests": 8,
+  "guestsLabel": "8",
+  "occupancy": "up to 8 guests",
+  "size": "1,260 m²",
+  "nightlyOriginalNum": 2000,
+  "nightlyCurrency": "USD",
+  "note": "Minimum stay 30 nights · breakfast & airport transfers included",
+  "sleeps": "up to 8 guests · 4 bedrooms",
+  "created": 1781926000000,
+  "featured": false,
+  "imageFocal": "",
+  "blurb": "A four-bedroom hillside villa nestled in lush canopy above Koh Samui’s Taling Ngam, with unparalleled views of the Five Islands and the Gulf beyond. A 25-metre infinity-edge pool and an expansive terrace, four en-suite bedrooms and a private chef — offered for long stays of 30 nights or more.",
+  "detail": "Sun, sea and serenity. Set within a lush canopy on a magnificent Taling Ngam hillside, this villa promises seclusion and tranquillity, with uninterrupted views of the Five Islands and the horizon beyond from the moment you step in.\n\nDays unfold around a 25-metre infinity-edge pool and expansive terrace — a sunbed and a cocktail as the blue sky meets azure water. Inside, the cool, salt-tinged breeze flows through open-plan spaces and rooms strategically angled toward the tropical landscaping and the sea.\n\nThe interior is a timeless Thai take on contemporary coastal living: a natural palette of granite, teak and pebble-wash drawn from the surroundings, across a two-storey villa of effortless elegance. Four en-suite bedrooms look out to soothing sea or garden views, and a fully-equipped kitchen with a Nespresso machine sits ready for the days you cook yourself.\n\nA private chef is on hand to tailor a menu to your tastes, with sunset barbecues by arrangement; in-villa spa and massage, a gym, and sailing excursions can all be organised. Complimentary WiFi and round-trip airport transfers, JBL speakers and a Smart TV with streaming round out an easy, fully-staffed stay. Available for stays of 30 nights and longer.",
+  "features": [
+    {
+      "l": "Four en-suite bedrooms · sea or garden views",
+      "i": "bed"
+    },
+    {
+      "l": "270° Five-Islands & ocean views",
+      "i": "view"
+    },
+    {
+      "l": "25 m infinity-edge pool & terrace",
+      "i": "pool"
+    },
+    {
+      "l": "Two-storey contemporary Thai design",
+      "i": "home"
+    },
+    {
+      "l": "Private chef · sunset BBQ",
+      "i": "utensils"
+    },
+    {
+      "l": "In-villa spa, massage & gym",
+      "i": "gym"
+    },
+    {
+      "l": "Breakfast & airport transfers included",
+      "i": "key"
+    },
+    {
+      "l": "Fully staffed · daily housekeeping",
+      "i": "users"
+    },
+    {
+      "l": "Sailing excursions on request",
+      "i": "waves"
+    },
+    {
+      "l": "Minimum stay 30 nights",
+      "i": "sparkles"
+    }
+  ]
+}

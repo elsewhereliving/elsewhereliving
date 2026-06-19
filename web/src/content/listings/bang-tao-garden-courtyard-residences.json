@@ -1,10 +1,10 @@
 {
   "id": "bang-tao-garden-courtyard-residences",
-  "image": "/assets/listings/bang-tao-garden-courtyard-residences/ext-001.jpg",
+  "image": "/assets/listings/bang-tao-garden-courtyard-residences/ext-002.jpg",
   "gallery": [
-    "/assets/listings/bang-tao-garden-courtyard-residences/ext-001.jpg",
     "/assets/listings/bang-tao-garden-courtyard-residences/ext-002.jpg",
     "/assets/listings/bang-tao-garden-courtyard-residences/ext-003.jpg",
+    "/assets/listings/bang-tao-garden-courtyard-residences/ext-001.jpg",
     "/assets/listings/bang-tao-garden-courtyard-residences/ext-004.jpg",
     "/assets/listings/bang-tao-garden-courtyard-residences/ext-005.jpg",
     "/assets/listings/bang-tao-garden-courtyard-residences/ext-006.jpg",
@@ -86,5 +86,6 @@
       "i": "year"
     }
   ],
-  "created": 1781509329000
+  "created": 1781509329000,
+  "imageFocal": ""
 }

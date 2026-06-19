@@ -1,12 +1,12 @@
 {
   "id": "villa-boomerang-bophut",
-  "image": "/assets/listings/boomerang/01-aerial-pool.jpg",
+  "image": "/assets/listings/boomerang/04-aerial-side.jpg",
   "gallery": [
+    "/assets/listings/boomerang/04-aerial-side.jpg",
+    "/assets/listings/boomerang/05-aerial-above.jpg",
     "/assets/listings/boomerang/01-aerial-pool.jpg",
     "/assets/listings/boomerang/02-pool-sea.jpg",
     "/assets/listings/boomerang/03-pool-deck.jpg",
-    "/assets/listings/boomerang/04-aerial-side.jpg",
-    "/assets/listings/boomerang/05-aerial-above.jpg",
     "/assets/listings/boomerang/06-master-bedroom.jpg",
     "/assets/listings/boomerang/07-kitchen-dining.jpg"
   ],
@@ -82,5 +82,6 @@
       "i": "shield"
     }
   ],
-  "created": 1781588529000
+  "created": 1781588529000,
+  "imageFocal": ""
 }

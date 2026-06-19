@@ -1,11 +1,11 @@
 {
   "id": "vista-del-mar-naithon",
-  "image": "/assets/listings/vista-del-mar-naithon/ext-001.jpg",
+  "image": "/assets/listings/vista-del-mar-naithon/ext-004.jpg",
   "gallery": [
+    "/assets/listings/vista-del-mar-naithon/ext-004.jpg",
     "/assets/listings/vista-del-mar-naithon/ext-001.jpg",
     "/assets/listings/vista-del-mar-naithon/ext-002.jpg",
     "/assets/listings/vista-del-mar-naithon/ext-003.jpg",
-    "/assets/listings/vista-del-mar-naithon/ext-004.jpg",
     "/assets/listings/vista-del-mar-naithon/ext-005.jpg"
   ],
   "location": "Nai Thon · Phuket · Thailand",
@@ -80,5 +80,6 @@
       "i": "users"
     }
   ],
-  "created": 1781552529000
+  "created": 1781552529000,
+  "imageFocal": ""
 }

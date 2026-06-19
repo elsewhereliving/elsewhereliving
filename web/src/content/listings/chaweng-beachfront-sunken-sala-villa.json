@@ -1,9 +1,9 @@
 {
   "id": "chaweng-beachfront-sunken-sala-villa",
-  "image": "/assets/listings/chaweng-beachfront-sunken-sala-villa/ext-005.jpg",
+  "image": "/assets/listings/chaweng-beachfront-sunken-sala-villa/ext-002.jpg",
   "gallery": [
-    "/assets/listings/chaweng-beachfront-sunken-sala-villa/ext-001.jpg",
     "/assets/listings/chaweng-beachfront-sunken-sala-villa/ext-002.jpg",
+    "/assets/listings/chaweng-beachfront-sunken-sala-villa/ext-001.jpg",
     "/assets/listings/chaweng-beachfront-sunken-sala-villa/ext-003.jpg",
     "/assets/listings/chaweng-beachfront-sunken-sala-villa/ext-004.jpg",
     "/assets/listings/chaweng-beachfront-sunken-sala-villa/ext-005.jpg",
@@ -115,5 +115,6 @@
       "i": "users"
     }
   ],
-  "created": 1781667729000
+  "created": 1781667729000,
+  "imageFocal": ""
 }

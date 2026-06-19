@@ -1,7 +1,8 @@
 {
   "id": "chaweng-offplan-four-bed-pool-villa",
-  "image": "/assets/listings/chaweng-offplan-four-bed-pool-villa/ext-001.jpg",
+  "image": "/assets/listings/chaweng-offplan-four-bed-pool-villa/ext-018.jpg",
   "gallery": [
+    "/assets/listings/chaweng-offplan-four-bed-pool-villa/ext-018.jpg",
     "/assets/listings/chaweng-offplan-four-bed-pool-villa/ext-001.jpg",
     "/assets/listings/chaweng-offplan-four-bed-pool-villa/ext-002.jpg",
     "/assets/listings/chaweng-offplan-four-bed-pool-villa/ext-003.jpg",
@@ -18,8 +19,6 @@
     "/assets/listings/chaweng-offplan-four-bed-pool-villa/ext-014.jpg",
     "/assets/listings/chaweng-offplan-four-bed-pool-villa/ext-015.jpg",
     "/assets/listings/chaweng-offplan-four-bed-pool-villa/ext-016.jpg",
-    "/assets/listings/chaweng-offplan-four-bed-pool-villa/ext-017.jpg",
-    "/assets/listings/chaweng-offplan-four-bed-pool-villa/ext-018.jpg",
     "/assets/listings/chaweng-offplan-four-bed-pool-villa/ext-019.jpg",
     "/assets/listings/chaweng-offplan-four-bed-pool-villa/ext-020.jpg",
     "/assets/listings/chaweng-offplan-four-bed-pool-villa/ext-021.jpg",
@@ -121,5 +120,6 @@
       "i": "users"
     }
   ],
-  "created": 1781674929000
+  "created": 1781674929000,
+  "imageFocal": ""
 }
