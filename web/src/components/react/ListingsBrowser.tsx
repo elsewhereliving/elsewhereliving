@@ -580,6 +580,13 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
       const recency = (x: Listing) => (x as any).created ?? (x as any).added ?? 0;
       out = [...out].sort((a, b) => recency(b) - recency(a));
     }
+    if (sort === "featured") {
+      // Featured listings first, in the exact order set in the Studio
+      // (featuredRank), then the rest by newest. Tie-break on id.
+      const rank = (x: Listing) => ((x as any).featured ? ((x as any).featuredRank ?? (x as any).featuredOrder ?? 9999) : Infinity);
+      const recency = (x: Listing) => (x as any).created ?? (x as any).added ?? 0;
+      out = [...out].sort((a, b) => rank(a) - rank(b) || recency(b) - recency(a) || a.id.localeCompare(b.id));
+    }
     return out;
   }, [items, market, type, status, view, minBeds, priceLo, priceHi, priceActive, sort]);
 
