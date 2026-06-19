@@ -1,34 +1,34 @@
 {
   "id": "r-samui-bophut-beachfront",
-  "image": "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_03_Pool.jpg",
+  "image": "/assets/listings/r-samui-bophut-beachfront/01.jpg",
   "gallery": [
-    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_03_Pool.jpg",
-    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_26_Drone.jpg",
-    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_04_BeachView.jpg",
-    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_27_Beach.jpg",
-    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_01_Living.jpg",
-    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_05_Living.jpg",
-    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_06_Dining.jpg",
-    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_23_Kitchen.jpg",
-    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_07_Entrance.jpg",
-    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_08_Bedroom1.jpg",
-    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_11_Bedroom2.jpg",
-    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_16_Bedroom4.jpg",
-    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_10_Bathroom1.jpg",
-    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_22_Balcony.jpg",
-    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_24_MediaRoom.jpg",
-    "https://www.theluxurysignature.com/wp-content/uploads/2025/11/VillaMaliya_Samui_25_EveningExteriors.jpg"
+    "/assets/listings/r-samui-bophut-beachfront/01.jpg",
+    "/assets/listings/r-samui-bophut-beachfront/02.jpg",
+    "/assets/listings/r-samui-bophut-beachfront/03.jpg",
+    "/assets/listings/r-samui-bophut-beachfront/04.jpg",
+    "/assets/listings/r-samui-bophut-beachfront/05.jpg",
+    "/assets/listings/r-samui-bophut-beachfront/06.jpg",
+    "/assets/listings/r-samui-bophut-beachfront/07.jpg",
+    "/assets/listings/r-samui-bophut-beachfront/08.jpg",
+    "/assets/listings/r-samui-bophut-beachfront/09.jpg",
+    "/assets/listings/r-samui-bophut-beachfront/10.jpg",
+    "/assets/listings/r-samui-bophut-beachfront/11.jpg",
+    "/assets/listings/r-samui-bophut-beachfront/12.jpg",
+    "/assets/listings/r-samui-bophut-beachfront/13.jpg",
+    "/assets/listings/r-samui-bophut-beachfront/14.jpg",
+    "/assets/listings/r-samui-bophut-beachfront/15.jpg",
+    "/assets/listings/r-samui-bophut-beachfront/16.jpg"
   ],
   "location": "Bo Phut · Koh Samui · Thailand",
   "place": "Bo Phut, Ko Samui District, Surat Thani, Thailand",
-  "mapQuery": "9.5683,100.0089",
-  "title": "Five-Bedroom Beachfront Villa on Bophut Shore",
+  "mapQuery": "9.589242,100.070130",
+  "title": "Five-Bedroom Beachfront Villa, Laem Samrong, Bophut",
   "view": [
     "Beachfront",
     "Sea View"
   ],
   "beds": 5,
-  "bedsLabel": "3–5",
+  "bedsLabel": "5",
   "guests": 10,
   "guestsLabel": "10",
   "occupancy": "up to 10 guests",
@@ -37,31 +37,47 @@
   "nightlyCurrency": "USD",
   "note": "4 staff incl. chef",
   "sleeps": "10 guests · up to 5 bedrooms",
-  "blurb": "A stylish five-bedroom beachfront villa on the tranquil shore of Bophut — sweeping ocean views and direct beach access, a 16-metre free-form infinity pool, a poolside sala, and airy interiors layered with Jim Thompson fabrics and natural textures.",
-  "detail": "Set along the tranquil coast of Bophut, this contemporary villa offers a sanctuary of coastal calm — sweeping ocean vistas and direct beach access for an unforgettable getaway. Hidden behind a private entrance, the shoreline retreat comfortably accommodates up to ten guests, its airy interiors blending organic textures, Jim Thompson fabrics and soft neutral tones that draw the shimmering sea inside.\n\nEvery space is crafted to inspire rest — from the open-concept living and dining room to the outdoor terrace with its shaded sala and BBQ facilities, made for grilling beside the 16-metre free-form infinity pool. Five en-suite bedrooms provide a soothing refuge for guests of all ages: four feature king beds, indoor jacuzzis and bathtubs and a compact mini-pantry, while a family room with twin beds and a flatscreen TV gives children their own comfortable space.\n\nFinished with a 65-inch Smart TV, a Sonos sound system, a media room and high-speed WiFi throughout, the villa is supported by four attentive staff including a private chef, with daily breakfast, housekeeping and turndown. Just minutes from Bophut's Fisherman's Village and a short drive from Samui Airport, it is an effortless blend of refinement and beachfront relaxation.",
+  "blurb": "A five-bedroom beachfront villa opening straight onto Laem Samrong beach on Koh Samui’s tranquil Bophut shore — sweeping sea views through a private, secure beach gate, a 16-metre saltwater infinity pool with a swim-up bar, and four sea-view master suites with Jacuzzi bathrooms. Calm, British-designed interiors and a full team led by a Thai chef.",
+  "detail": "Step through a private, secure beach gate and the sand is yours — this five-bedroom villa sits right on the turquoise water of the quiet Laem Samrong shore, every space turned to the sea and the islands beyond.\n\nFive en-suite bedrooms are elegantly furnished and full of light. Four are sea-view master suites with double king beds and en-suite bathrooms fitted with Jacuzzis; the fifth is a children’s room with two single beds that join into a king, and its own bathroom — a relaxed retreat for younger guests.\n\nThe interiors are the work of a British designer alongside local artisans: high-quality Jim Thompson textiles, natural materials and a restrained, neutral palette that lets the turquoise of the sea become the colour of the room. Indoor and outdoor living flow together, with natural light and breezes throughout.\n\nOutdoors, a 16-metre saltwater infinity pool with a swim-up bar anchors the terrace, with daybeds and lounging beside the sand. The villa is fully staffed — including a wonderful Thai chef — with direct, private access to Laem Samrong beach.",
   "features": [
     {
-      "l": "16 m free-form infinity pool",
+      "l": "Five en-suite bedrooms · four sea-view masters",
+      "i": "bed"
+    },
+    {
+      "l": "Master baths with Jacuzzi",
+      "i": "bath"
+    },
+    {
+      "l": "16 m saltwater infinity pool",
       "i": "pool"
     },
     {
-      "l": "Beachfront · direct beach access",
+      "l": "Swim-up pool bar",
+      "i": "sun"
+    },
+    {
+      "l": "Direct, private beach access",
       "i": "waves"
     },
     {
-      "l": "Sea views from most rooms",
+      "l": "Indoor-outdoor living · natural light",
+      "i": "home"
+    },
+    {
+      "l": "British-designed · Jim Thompson textiles",
+      "i": "sparkles"
+    },
+    {
+      "l": "Fully staffed · Thai chef",
+      "i": "utensils"
+    },
+    {
+      "l": "On Laem Samrong beach, Bophut",
       "i": "view"
     },
     {
-      "l": "Poolside sala & BBQ",
-      "i": "terrace"
-    },
-    {
-      "l": "Media room & Sonos sound",
-      "i": "music"
-    },
-    {
-      "l": "5 en-suite bedrooms · chef & 4 staff",
+      "l": "Sleeps up to 10",
       "i": "users"
     }
   ],
