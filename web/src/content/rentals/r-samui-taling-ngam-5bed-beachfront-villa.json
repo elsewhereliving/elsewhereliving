@@ -43,28 +43,32 @@
     "Sea View"
   ],
   "beds": 5,
-  "bedsLabel": "5",
-  "baths": 5,
-  "guests": 14,
-  "guestsLabel": "10+4",
-  "occupancy": "10 adults + 4 children",
-  "size": "Beachfront estate",
+  "bedsLabel": "5 + 2 kids'",
+  "baths": 8,
+  "guests": 18,
+  "guestsLabel": "12–18",
+  "occupancy": "12–18 guests (10 adults + 4 children)",
+  "size": "2,250 m²",
   "nightlyOriginalNum": 1290,
   "nightlyCurrency": "USD",
   "note": "Fully staffed · chef · + tax & service",
-  "sleeps": "10 adults + 4 children · 5 bedrooms",
+  "sleeps": "12–18 guests · 5 + 2 bedrooms",
   "created": 1782172800000,
   "featured": false,
   "imageFocal": "",
-  "blurb": "A five-bedroom beachfront villa on the quiet south-west coast of Koh Samui at Taling Ngam, framing sunset views across the water to the Five Islands. Direct sand-to-sea access, a beachfront infinity pool and jacuzzi, an in-house gym, library and sala, and a full team led by a private Thai chef. Sleeps up to ten adults and four children.",
-  "detail": "Set right on the sand at Taling Ngam, on the tranquil south-western shore of Koh Samui, this five-bedroom villa opens straight onto its own stretch of beach with an uninterrupted outlook to the Five Islands and some of the island's finest sunsets.\n\nThe heart of the home is a beachfront infinity pool that mirrors the palms and the evening sky, edged by sun loungers and a bubbling jacuzzi, with manicured lawns running down to the water. Indoor and outdoor living and dining areas, a library and a fully-equipped kitchen make it as easy to host a long lunch as a quiet evening in.\n\nFive en-suite bedrooms sleep up to ten adults, with a large master suite and two rooms that connect to adjoining children's rooms fitted with bunk beds — space for four children, and up to four further guests by arrangement. A dedicated kids' room, an in-house gym, a sala for shade and a Thai massage space round out the villa.\n\nA full team looks after every stay: a villa manager coordinating the household, daily housekeeping and laundry, butlers on hand through mealtimes, and a skilled Thai chef preparing Thai cuisine and Western favourites to order. Taling Ngam keeps you close to the island's west-coast beaches, the marina and golf, with Nathon town and the main pier a short drive away.",
+  "blurb": "A three-storey beachfront estate of around 2,250 m² on the quiet south-west coast of Koh Samui at Taling Ngam, framing uninterrupted sunset views across the bay to the Five Islands. A large infinity pool above its own swimmable beach, an oceanfront pavilion, gym, movie room, sala and library — fully staffed with a private Thai chef. Five main bedrooms plus two adjoining bunk rooms sleep 12 to 18.",
+  "detail": "Set on a sheltered, swimmable bay on the tranquil south-western shore of Koh Samui, this three-storey beachfront estate spreads across roughly 2,250 square metres of lawns and terraces, opening straight onto the sand with an uninterrupted outlook to the Five Islands and some of the island's finest sunsets.\n\nA large infinity pool sits above the beach, edged by ten sunbeds and parasols, with a separate children's pool, a jacuzzi and an oceanfront pavilion for sundowners. Manicured gardens make room for volleyball and table tennis, while indoors there is a gym, a movie room, an outdoor dining sala and a library — free Wi-Fi runs throughout. The interiors are crisply contemporary and quintessentially Thai: white walls, dark floors, metallic accents and a floating staircase.\n\nThe master suite occupies almost a full floor, with a king bed, walk-in closet, lounge and kitchenette, its own terrace and a bathtub angled to the sea. Four further bedrooms line the pool on the ground floor, each en-suite with a tub and a private deck, and two of them open to adjoining children's rooms fitted with two bunk beds apiece. In all the villa sleeps 10 adults and 4 children in comfort, and up to 18 guests by arrangement.\n\nA full household team looks after every stay — a private chef cooking Thai, Chinese, Western or vegetarian menus to order, daily breakfast and housekeeping, a concierge, and staff on hand throughout. The estate is gated and private, with 24-hour CCTV, alarm systems, in-room safes, BBQ, and private parking. Taling Ngam keeps you close to the island's west-coast beaches, the marina and golf, with Nathon town and the main pier a short drive away.",
   "features": [
     {
-      "l": "Five en-suite bedrooms · sleeps 10+4",
+      "l": "Five bedrooms + two bunk kids' rooms",
       "i": "bed"
     },
     {
-      "l": "Absolute beachfront · private beach access",
+      "l": "Sleeps 12–18 · 7.5–8.5 baths",
+      "i": "bath"
+    },
+    {
+      "l": "Absolute beachfront · swimmable beach",
       "i": "waves"
     },
     {
@@ -72,32 +76,28 @@
       "i": "view"
     },
     {
-      "l": "Beachfront infinity pool & jacuzzi",
+      "l": "Beachfront infinity pool · kids' pool · jacuzzi",
       "i": "pool"
     },
     {
-      "l": "Private Thai chef · butlers",
+      "l": "Private Thai chef · breakfast · daily housekeeping",
       "i": "utensils"
     },
     {
-      "l": "Villa manager · daily housekeeping",
-      "i": "sparkles"
-    },
-    {
-      "l": "In-house gym",
+      "l": "Gym · movie room",
       "i": "gym"
     },
     {
-      "l": "Library, sala & Thai massage",
+      "l": "Oceanfront pavilion · sala · library",
       "i": "sofa"
     },
     {
-      "l": "Indoor & outdoor living and dining",
-      "i": "home"
+      "l": "Volleyball · table tennis · 2,250 m² grounds",
+      "i": "plot"
     },
     {
-      "l": "Family-friendly · bunk-bed kids' rooms",
-      "i": "users"
+      "l": "Gated · 24h CCTV · concierge · parking",
+      "i": "shield"
     }
   ]
 }
