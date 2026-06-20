@@ -1,6 +1,6 @@
 {
   "id": "bophut-panoramic-cinema-resort-pool-villa",
-  "image": "/assets/listings/bophut-panoramic-cinema-resort-pool-villa/ext-007.jpg",
+  "image": "/assets/listings/bophut-panoramic-cinema-resort-pool-villa/ext-001.jpg",
   "gallery": [
     "/assets/listings/bophut-panoramic-cinema-resort-pool-villa/ext-001.jpg",
     "/assets/listings/bophut-panoramic-cinema-resort-pool-villa/ext-002.jpg",
@@ -32,7 +32,7 @@
   "interior": "1,017 m²",
   "plot": null,
   "year": null,
-  "priceOriginalNum": 95000000,
+  "priceOriginalNum": 150000000,
   "priceCurrency": "THB",
   "added": 47,
   "ownership": "Freehold",
@@ -88,5 +88,6 @@
       "i": "users"
     }
   ],
-  "created": 1781664129000
+  "created": 1781664129000,
+  "imageFocal": ""
 }

@@ -32,8 +32,8 @@
   "interior": "1,000 m²",
   "plot": "1,780 m²",
   "year": null,
-  "priceOriginalNum": 133000000,
-  "priceCurrency": "THB",
+  "priceOriginalNum": 4000000,
+  "priceCurrency": "USD",
   "added": 1,
   "ownership": "Freehold",
   "blurb": "A rare trophy villa in the Chaweng hills, set on a 1,780 m² plot with roughly 1,000 m² of build and panoramic views over the Gulf of Thailand. Its signature is a double-level infinity pool — a 16-metre upper pool on the main terrace and a second oasis below — alongside six en-suite bedrooms, a private gym, sunken pool lounge and BBQ sala. Move-in ready, fully furnished, Chanote freehold.",
@@ -88,5 +88,6 @@
       "i": "plot"
     }
   ],
-  "created": 1781494929000
+  "created": 1781494929000,
+  "imageFocal": ""
 }
