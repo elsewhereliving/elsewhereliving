@@ -308,6 +308,11 @@ function PropertyCard({ item }: { item: Listing }) {
               <span style={{ display: "inline-flex", alignItems: "center", gap: 6 }}>
                 <Icon name="interior" size={15} color="var(--slate)" stroke={1.4} /> {item.interior}
               </span>
+              {item.plot && (
+                <span style={{ display: "inline-flex", alignItems: "center", gap: 6 }}>
+                  <Icon name="plot" size={15} color="var(--slate)" stroke={1.4} /> {item.plot}
+                </span>
+              )}
             </>
           )}
         </div>

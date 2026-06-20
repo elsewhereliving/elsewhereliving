@@ -37,6 +37,9 @@ const tooltip = item.priceOriginal
           {item.interior && item.interior !== "—" && (
             <span style="display:inline-flex; align-items:center; gap:6px;"><Icon name="interior" size={15} color="var(--slate)" stroke={1.4} /> {item.interior}</span>
           )}
+          {item.plot && item.plot !== "—" && (
+            <span style="display:inline-flex; align-items:center; gap:6px;"><Icon name="plot" size={15} color="var(--slate)" stroke={1.4} /> {item.plot}</span>
+          )}
         </>
       )}
     </div>
