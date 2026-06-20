@@ -31,7 +31,7 @@
   "nightlyOriginalNum": 1215,
   "nightlyCurrency": "USD",
   "nightlyFixed": true,
-  "note": "7-night minimum · staffed · private chef",
+  "note": "Minimum stay 7 nights",
   "sleeps": "up to 8 guests · 4 bedrooms",
   "blurb": "A modern multi-level villa perched in the Chaweng Noi hills with a wraparound terrace and an infinity pool framing Chaweng Beach and Koh Phangan beyond — four en-suite king bedrooms, a private cinema, a games room with full bar, and a five-star butler-and-chef team.",
   "detail": "Perched majestically in the prestigious Chaweng Noi hills, this contemporary four-bedroom villa is a study in indoor-outdoor island living, opening to panoramic views that sweep from the vibrant curve of Chaweng Beach to the serene silhouette of Koh Phangan. A wide cantilevered terrace and an infinity-edge pool anchor the home, with a vast sun deck, daybeds and a covered sanctuary for shaded afternoons above the sea.\n\nInside, a large air-conditioned living space is layered with plush seating, fine art and wall-mounted screens, flowing to a fully equipped Western show kitchen. Entertainment runs deep: a private cinema, a games room with pool, ping-pong and foosball tables, a full-size arcade, karaoke upstairs and down, a PlayStation 5 and an in-house bar — plus Sonos throughout, a stocked wine fridge and a garden with a tranquil waterfall and Buddha.\n\nFour en-suite double bedrooms each have king beds and the master enjoys spectacular sea views from one of the largest bathrooms on the island. A five-star resident team looks after the stay — villa manager, butler service, housekeeping and an experienced private chef preparing Thai and international menus from breakfast onward. Families are welcome with a shallow pool end, high chair and pool toys, and Chaweng Noi beach is a five-minute walk with restaurants, bakeries and shops moments away.",
@@ -85,5 +85,6 @@
       "i": "users"
     }
   ],
-  "created": 1781703729000
+  "created": 1781703729000,
+  "imageFocal": ""
 }
