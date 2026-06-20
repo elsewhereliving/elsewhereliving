@@ -305,12 +305,13 @@ function RentalCard({ item }: { item: RentalItem }) {
             display: "flex",
             alignItems: "baseline",
             justifyContent: "space-between",
+            gap: 18,
             marginTop: 20,
             paddingTop: 18,
             borderTop: "1px solid var(--border-subtle)",
           }}
         >
-          <span style={{ display: "flex", flexDirection: "column" }}>
+          <span style={{ display: "flex", flexDirection: "column", flex: "none" }}>
             {!item.nightlyFixed && (
               <span
                 style={{
@@ -341,6 +342,11 @@ function RentalCard({ item }: { item: RentalItem }) {
           </span>
           <span
             style={{
+              flex: "0 1 auto",
+              minWidth: 0,
+              maxWidth: "50%",
+              textAlign: "right",
+              lineHeight: 1.4,
               fontFamily: "var(--font-sans)",
               fontSize: 11,
               letterSpacing: "0.1em",

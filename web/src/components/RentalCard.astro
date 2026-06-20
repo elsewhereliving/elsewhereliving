@@ -34,8 +34,8 @@ const priceTip = nightlyOriginal
       <span style="display:inline-flex; align-items:center; gap:6px;"><Icon name="users" size={15} color="var(--slate)" stroke={1.4} /> {item.guestsLabel || item.guests} guests</span>
       <span style="display:inline-flex; align-items:center; gap:6px;"><Icon name="interior" size={15} color="var(--slate)" stroke={1.4} /> {item.size}</span>
     </div>
-    <div style="display:flex; align-items:baseline; justify-content:space-between; margin-top:20px; padding-top:18px; border-top:1px solid var(--border-subtle);">
-      <span style="display:flex; flex-direction:column;">
+    <div style="display:flex; align-items:baseline; justify-content:space-between; gap:18px; margin-top:20px; padding-top:18px; border-top:1px solid var(--border-subtle);">
+      <span style="display:flex; flex-direction:column; flex:none;">
         {!item.nightlyFixed && <span style="font-family:var(--font-sans); font-size:9.5px; letter-spacing:0.16em; text-transform:uppercase; color:var(--slate);">From</span>}
         <span style="font-family:var(--font-serif); font-weight:400; font-size:22px; color:var(--charcoal);">
           {nightlyOriginal ? (
@@ -48,7 +48,7 @@ const priceTip = nightlyOriginal
           )}<span style="font-family:var(--font-sans); font-size:12px; color:var(--slate); letter-spacing:0.04em;"> / night</span>
         </span>
       </span>
-      {item.note && <span style="font-family:var(--font-sans); font-size:11px; letter-spacing:0.1em; text-transform:uppercase; color:var(--slate);">{item.note}</span>}
+      {item.note && <span style="flex:0 1 auto; min-width:0; max-width:50%; text-align:right; line-height:1.4; font-family:var(--font-sans); font-size:11px; letter-spacing:0.1em; text-transform:uppercase; color:var(--slate);">{item.note}</span>}
     </div>
   </div>
 </a>
