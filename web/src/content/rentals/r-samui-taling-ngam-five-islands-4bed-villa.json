@@ -1,7 +1,8 @@
 {
   "id": "r-samui-taling-ngam-five-islands-4bed-villa",
-  "image": "/assets/imagery/five-islands-taling-ngam-hero.jpg",
+  "image": "/assets/listings/five-islands-taling-ngam/36.jpg",
   "gallery": [
+    "/assets/listings/five-islands-taling-ngam/36.jpg",
     "/assets/imagery/five-islands-taling-ngam-hero.jpg",
     "/assets/listings/five-islands-taling-ngam/01.jpg",
     "/assets/listings/five-islands-taling-ngam/02.jpg",
@@ -38,7 +39,6 @@
     "/assets/listings/five-islands-taling-ngam/33.jpg",
     "/assets/listings/five-islands-taling-ngam/34.jpg",
     "/assets/listings/five-islands-taling-ngam/35.jpg",
-    "/assets/listings/five-islands-taling-ngam/36.jpg",
     "/assets/listings/five-islands-taling-ngam/37.jpg",
     "/assets/listings/five-islands-taling-ngam/38.jpg"
   ],
