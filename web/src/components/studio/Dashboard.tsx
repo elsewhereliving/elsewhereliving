@@ -80,9 +80,7 @@ export default function Dashboard({
       <header style={{ position: "sticky", top: 0, zIndex: 20, background: "var(--white)", borderBottom: "1px solid var(--border-on-light)" }}>
         <div style={{ maxWidth: 1320, margin: "0 auto", padding: "0 30px", height: 70, display: "flex", alignItems: "center", justifyContent: "space-between", gap: 20 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 22 }}>
-            <span style={{ fontFamily: "var(--font-serif)", fontSize: 21, fontWeight: 400, color: "var(--navy)", letterSpacing: "-0.01em" }}>
-              <em>else</em>WHERE
-            </span>
+            <img src="/assets/logos/elsewhere-black.png" alt="Elsewhere Living" style={{ height: 26, width: "auto", display: "block" }} />
             <span style={{ width: 1, height: 24, background: "var(--border-subtle)" }} />
             <span style={meta({ color: "var(--charcoal)" })}>The Listings Studio</span>
           </div>
