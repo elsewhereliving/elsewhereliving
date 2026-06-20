@@ -106,6 +106,25 @@ export default function Dashboard({
         </div>
       </header>
 
+      {!crm.fsConnected && (
+        <div style={{ background: "var(--butter)", borderBottom: "1px solid var(--border-on-light)" }}>
+          <div style={{ maxWidth: 1320, margin: "0 auto", padding: "11px 30px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 14 }}>
+            <span style={{ display: "inline-flex", alignItems: "center", gap: 9, fontFamily: "var(--font-sans)", fontSize: 12.5, color: "var(--navy)" }}>
+              <span style={{ width: 7, height: 7, borderRadius: "50%", background: "var(--navy)", flex: "0 0 auto" }} />
+              {crm.fsSupported
+                ? "Connect your repo folder before you start editing — otherwise your changes won't be saved."
+                : "Open this page in Chrome or Edge to connect your repo folder and save changes."}
+            </span>
+            {crm.fsSupported && (
+              <button type="button" className="ew-pillctl" onClick={() => crm.connectRepo()}
+                style={{ flex: "0 0 auto", padding: "8px 18px", background: "var(--navy)", color: "var(--white)", border: "1px solid var(--navy)", cursor: "pointer", fontFamily: "var(--font-sans)", fontSize: 11, letterSpacing: "0.14em", textTransform: "uppercase" }}>
+                Connect repo folder
+              </button>
+            )}
+          </div>
+        </div>
+      )}
+
       <main style={{ maxWidth: 1320, margin: "0 auto", padding: "38px 30px 90px" }}>
         <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", flexWrap: "wrap", gap: 20, marginBottom: 26 }}>
           <div>
