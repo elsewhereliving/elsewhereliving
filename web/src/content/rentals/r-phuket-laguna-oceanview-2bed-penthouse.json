@@ -57,7 +57,7 @@
   "guests": 4,
   "guestsLabel": "4",
   "occupancy": "up to 4 guests",
-  "size": "316 m²",
+  "size": "311 m²",
   "nightlyOriginalNum": 10500,
   "nightlyCurrency": "THB",
   "note": "Serviced residence · in-app concierge",
@@ -65,11 +65,11 @@
   "created": 1782000000000,
   "featured": false,
   "imageFocal": "",
-  "blurb": "A contemporary two-bedroom penthouse of around 316 m² in the gated Laguna resort lands at Bang Tao, Phuket, looking out over the lagoon and the sea. Modern interiors threaded with traditional Thai detail, a full kitchen and a private balcony — minutes from Bang Tao Beach, Boat Avenue and the golf course.",
-  "detail": "Set high in a contemporary residence within the Laguna resort enclave at Bang Tao, this two-bedroom penthouse spreads across roughly 316 square metres and frames wide views over the lagoon and the Andaman beyond. Its design blends a modern, light-filled sensibility with traditional Thai detail, drawn from the culture of the island.\n\nThe living and dining spaces are open and airy, opening to a private balcony for sunset drinks, with a fully-equipped kitchen for easy in-residence meals. Two bedrooms with quality linens and en-suite bathrooms — one with a bathtub — make it an easy base for a family or two couples.\n\nThe setting is one of Phuket’s most connected: about 1.4 km to Bang Tao Beach, 2 km to the restaurants and boutiques of Boat Avenue, and roughly 3 km to the Laguna golf course, the Cherngtalay temple and the Blue Tree water park. Air-conditioning, ceiling fans, elevator access, a BBQ grill, beach essentials and an in-app concierge round out a comfortable, serviced stay.",
+  "blurb": "A contemporary two-bedroom penthouse of around 311 m² across two floors in the gated Laguna resort lands at Bang Tao, Phuket, looking out over the lagoon and the sea. Modern interiors threaded with traditional Thai detail, a full kitchen and a private balcony — minutes from Bang Tao Beach, Boat Avenue and the golf course.",
+  "detail": "Set high in a contemporary residence within the Laguna resort enclave at Bang Tao, this two-bedroom penthouse spreads across roughly 311 square metres across two floors and frames wide views over the lagoon and the Andaman beyond. Its design blends a modern, light-filled sensibility with traditional Thai detail, drawn from the culture of the island.\n\nThe living and dining spaces are open and airy, opening to a private balcony for sunset drinks, with a fully-equipped kitchen for easy in-residence meals. Two bedrooms with quality linens and en-suite bathrooms — one with a bathtub — make it an easy base for a family or two couples.\n\nThe setting is one of Phuket’s most connected: about 1.4 km to Bang Tao Beach, 2 km to the restaurants and boutiques of Boat Avenue, and roughly 3 km to the Laguna golf course, the Cherngtalay temple and the Blue Tree water park. Air-conditioning, ceiling fans, elevator access, a BBQ grill, beach essentials and an in-app concierge round out a comfortable, serviced stay.",
   "features": [
     {
-      "l": "Two-bedroom penthouse · ≈316 m²",
+      "l": "Two-bedroom duplex penthouse · ≈311 m²",
       "i": "bed"
     },
     {
@@ -108,5 +108,6 @@
       "l": "Sleeps up to 4",
       "i": "users"
     }
-  ]
+  ],
+  "mapQuery": "8.004495,98.297669"
 }

@@ -1,0 +1,104 @@
+{
+  "id": "r-phuket-laguna-oceanview-2bed-deluxe",
+  "image": "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/01.jpg",
+  "gallery": [
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/01.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/02.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/03.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/04.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/05.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/06.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/07.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/08.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/09.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/10.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/11.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/12.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/13.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/14.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/15.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/16.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/17.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/18.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/19.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/20.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/21.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/22.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/23.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/24.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/25.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/26.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/27.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/28.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/29.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/30.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/31.jpg",
+    "/assets/listings/r-phuket-laguna-oceanview-2bed-deluxe/32.jpg"
+  ],
+  "location": "Laguna · Bang Tao · Phuket · Thailand",
+  "place": "Choeng Thale, Thalang District, Phuket, Thailand",
+  "mapQuery": "8.004495,98.297669",
+  "title": "Two-Bedroom Deluxe Oceanview Residence, Laguna, Phuket",
+  "view": [
+    "Sea View",
+    "Waterfront"
+  ],
+  "beds": 2,
+  "bedsLabel": "2",
+  "baths": 2,
+  "guests": 4,
+  "guestsLabel": "4",
+  "occupancy": "up to 4 guests",
+  "size": "173 m²",
+  "nightlyOriginalNum": 8400,
+  "nightlyCurrency": "THB",
+  "note": "Minimum stay 7 nights · serviced residence",
+  "sleeps": "up to 4 guests · 2 bedrooms",
+  "created": 1782000500000,
+  "featured": false,
+  "imageFocal": "",
+  "blurb": "A contemporary two-bedroom deluxe residence of around 173 m² in the gated Laguna resort enclave at Bang Tao, Phuket, with lagoon and ocean views, a full kitchen and a private balcony. Minutes from Bang Tao Beach, Boat Avenue and the golf course.",
+  "detail": "Part of a contemporary residence in the Laguna resort lands at Bang Tao, this two-bedroom deluxe home spans around 173 square metres on a single level, framing views over the lagoon and the Andaman beyond. The interiors pair a modern, light-filled feel with traditional Thai detail drawn from the island.\n\nOpen-plan living and dining flow to a private balcony, with a fully-equipped kitchen for easy in-residence meals. Two bedrooms with quality linens and en-suite bathrooms — one with a bathtub — suit a family or two couples.\n\nThe location is among Phuket’s most connected: roughly 1.4 km to Bang Tao Beach, 2 km to the restaurants and shops of Boat Avenue, and about 3 km to the Laguna golf course, the Cherngtalay temple and the Blue Tree water park. Air-conditioning, ceiling fans, elevator access, a BBQ grill, beach essentials and an in-app concierge complete a comfortable, serviced stay.",
+  "features": [
+    {
+      "l": "Two-bedroom deluxe · ≈173 m²",
+      "i": "bed"
+    },
+    {
+      "l": "Oceanview over the Laguna lagoon",
+      "i": "waves"
+    },
+    {
+      "l": "Contemporary Thai-inspired design",
+      "i": "home"
+    },
+    {
+      "l": "Full kitchen & dining",
+      "i": "utensils"
+    },
+    {
+      "l": "En-suite baths · bathtub",
+      "i": "bath"
+    },
+    {
+      "l": "Private balcony · BBQ grill",
+      "i": "sun"
+    },
+    {
+      "l": "Elevator access · in-app concierge",
+      "i": "key"
+    },
+    {
+      "l": "1.4 km to Bang Tao Beach",
+      "i": "view"
+    },
+    {
+      "l": "2 km to Boat Avenue · 3 km to golf",
+      "i": "car"
+    },
+    {
+      "l": "Sleeps up to 4",
+      "i": "users"
+    }
+  ]
+}
