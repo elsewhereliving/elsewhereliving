@@ -38,46 +38,46 @@
   "view": [
     "Sea View"
   ],
-  "beds": 4,
-  "bedsLabel": "4",
-  "baths": 5,
-  "guests": 10,
-  "guestsLabel": "8–10",
-  "occupancy": "8–10 guests",
+  "beds": 5,
+  "bedsLabel": "5",
+  "baths": 6,
+  "guests": 12,
+  "guestsLabel": "10–12",
+  "occupancy": "10–12 guests",
   "size": "2,000 m²",
   "nightlyOriginalNum": 835,
-  "note": "Fully staffed · chef on request · + tax & service",
-  "sleeps": "8–10 guests · 4 bedrooms",
-  "blurb": "An elegant hillside residence within a managed retreat in the Bophut hills, its wood-lined pavilions opening to a long infinity pool and sweeping views over the Gulf. Vaulted ceilings, sea-facing bedrooms and a master with a terrazzo bathtub, with access to the retreat’s shared facilities and a fully-staffed service. Optional private chef.",
-  "detail": "Set high in the Bophut hills within a managed retreat, this elegant residence makes the most of its elevated position, its wood-lined pavilions opening through full-height glass to a long infinity pool and sweeping views across the Gulf and the islands beyond.\n\nThe living and dining pavilion sits beneath a high, vaulted timber ceiling, with an open kitchen and breakfast bar and generous terraces that blur the line between inside and out. Sea-facing bedrooms are finished in natural materials and warm timber, each with an en-suite bathroom; the master suite adds a terrazzo bathtub positioned to the ocean view.\n\nGuests enjoy a fully-staffed service alongside access to the wider retreat’s shared facilities — a gym, dining and wellness amenities — with an optional private chef available to prepare meals throughout the day. A short drive from Bophut village, Fisherman’s Village and Maenam Beach.",
+  "note": "Fully staffed · private chef · + tax & service",
+  "sleeps": "10–12 guests · 5 bedrooms",
+  "blurb": "An exclusive five-bedroom hillside residence of around 2,000 m² within a managed retreat in the Bophut hills, entered over stepping stones across a water feature. A vaulted living-and-dining pavilion runs almost the full length of the villa behind a wraparound wall of glass, opening to a balcony above the garden and a 20-metre pool with a panoramic sea view. Fully staffed with a private chef.",
+  "detail": "Your own exclusive tropical getaway, this five-bedroom hillside residence sits within a managed retreat in the Bophut hills. Entering over large stepping stones across a water feature, you arrive in an impressive living and dining pavilion with an integrated kitchen — running almost the full length of the villa beneath a vaulted ceiling, with a wraparound wall of glass that opens onto the terrace and an incredible panoramic view.\n\nAt one end is a tropical lounge with Thai artefacts, table lamps and deeply cushioned rattan sofas around a Smart TV, while a square dining table for ten sits beside the gourmet kitchen — top-of-the-range appliances, honey-coloured wooden units, chrome fittings and marble surfaces, with a central island bar and a built-in wine cooler. A balcony with a clear glass barrier runs along the outside of the room, all-weather chairs positioned to take in the garden and the 20-metre pool.\n\nStairs on both sides of the balcony lead down to the lower level, where three of the five bedrooms face out across the garden, pool and views, connected by a covered walkway that doubles as a shaded terrace. All bedrooms have king-size beds, TVs, ample storage and private en-suites; the master suites open directly onto the pool terrace, each with a separate dressing area and an en-suite of twin washbasins, a rain shower and a terrazzo bathtub set by a window looking across the pool to the ocean. On one side of the pool, sunken stools rest beside a built-in bar within a covered sala that also houses a dining table and cushioned bench seats — ideal for lazy days, an alfresco feast or a small pool party. Fully staffed with a private chef, a short drive from Bophut village, Fisherman’s Village and Maenam Beach.",
   "features": [
     {
-      "l": "Four bedrooms · ≈2,000 m²",
+      "l": "Five bedrooms · 6 baths · ≈2,000 m²",
       "i": "bed"
     },
     {
-      "l": "Hillside · sweeping Gulf & island views",
+      "l": "Hillside · panoramic sea views",
       "i": "view"
     },
     {
-      "l": "Long infinity pool · sea-facing terraces",
+      "l": "20 m pool · covered sala bar",
       "i": "pool"
     },
     {
-      "l": "Wood-lined vaulted pavilions",
+      "l": "Vaulted glass-walled living pavilion",
       "i": "home"
     },
     {
-      "l": "Master with sea-view terrazzo bathtub",
+      "l": "Gourmet island kitchen · wine cooler",
+      "i": "utensils"
+    },
+    {
+      "l": "Master suites · sea-view terrazzo bathtubs",
       "i": "sparkles"
     },
     {
-      "l": "Access to shared retreat facilities",
-      "i": "gym"
-    },
-    {
-      "l": "Fully staffed · chef on request",
-      "i": "utensils"
+      "l": "Fully staffed · private chef",
+      "i": "waves"
     },
     {
       "l": "Near Bophut village & Maenam Beach",
