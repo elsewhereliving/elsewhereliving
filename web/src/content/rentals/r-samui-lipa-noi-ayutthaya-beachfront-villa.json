@@ -1,0 +1,79 @@
+{
+  "id": "r-samui-lipa-noi-ayutthaya-beachfront-villa",
+  "image": "/assets/listings/r-samui-lipa-noi-ayutthaya-beachfront-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-lipa-noi-ayutthaya-beachfront-villa/01.jpg",
+    "/assets/listings/r-samui-lipa-noi-ayutthaya-beachfront-villa/02.jpg",
+    "/assets/listings/r-samui-lipa-noi-ayutthaya-beachfront-villa/03.jpg",
+    "/assets/listings/r-samui-lipa-noi-ayutthaya-beachfront-villa/04.jpg",
+    "/assets/listings/r-samui-lipa-noi-ayutthaya-beachfront-villa/05.jpg",
+    "/assets/listings/r-samui-lipa-noi-ayutthaya-beachfront-villa/06.jpg",
+    "/assets/listings/r-samui-lipa-noi-ayutthaya-beachfront-villa/07.jpg",
+    "/assets/listings/r-samui-lipa-noi-ayutthaya-beachfront-villa/08.jpg",
+    "/assets/listings/r-samui-lipa-noi-ayutthaya-beachfront-villa/09.jpg",
+    "/assets/listings/r-samui-lipa-noi-ayutthaya-beachfront-villa/10.jpg",
+    "/assets/listings/r-samui-lipa-noi-ayutthaya-beachfront-villa/11.jpg",
+    "/assets/listings/r-samui-lipa-noi-ayutthaya-beachfront-villa/12.jpg",
+    "/assets/listings/r-samui-lipa-noi-ayutthaya-beachfront-villa/13.jpg",
+    "/assets/listings/r-samui-lipa-noi-ayutthaya-beachfront-villa/14.jpg",
+    "/assets/listings/r-samui-lipa-noi-ayutthaya-beachfront-villa/15.jpg"
+  ],
+  "location": "Lipa Noi · Koh Samui · Thailand",
+  "place": "Lipa Noi, Ko Samui District, Surat Thani, Thailand",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "nightlyCurrency": "USD",
+  "created": 1782604800000,
+  "featured": false,
+  "imageFocal": "",
+  "mapQuery": "9.478896,99.927342",
+  "title": "Ayutthaya-Style Beachfront Pavilion Villa, Lipa Noi, Koh Samui",
+  "beds": 5,
+  "bedsLabel": "3–5",
+  "baths": 5,
+  "guests": 11,
+  "guestsLabel": "6–11",
+  "occupancy": "6–11 guests",
+  "size": "1,700 m²",
+  "nightlyOriginalNum": 800,
+  "note": "Fully staffed · breakfast · + tax & service",
+  "sleeps": "6–11 guests · 3–5 bedrooms",
+  "blurb": "A five-bedroom beachfront villa at Lipa Noi on Koh Samui’s quiet west coast, evoking the splendour of the old Ayutthaya palaces in a spread of contemporary pavilions. A 19-metre pool with a waterfall and built-in jacuzzi overlooks a quiet, swimmable white-sand beach with great sunset views, and the home is fully staffed with a private chef. Flexible for three to five bedrooms.",
+  "detail": "Set on a quiet, swimmable stretch of white sand at Lipa Noi, on Koh Samui’s tranquil west coast, this beachfront villa transports you into a luxurious tropical paradise. Evoking the splendour of the ancient Ayutthaya palaces, it is arranged over a series of contemporary pavilions and comfortably sleeps up to ten across five bedrooms, taken flexibly as a three to five-bedroom home.\n\nThe social heart is a 19-metre swimming pool overlooking the white-sand beach, its waterfall feature and built-in jacuzzi made for unwinding; eleven poolside sunbeds and a daybed line the deck. The main living pavilion enjoys a poolside view with natural materials, high-vaulted ceilings and large glass doors for maximum daylight, fully air-conditioned with ceiling fans, oversized sofas and a Smart TV. An outdoor beach sala sets the scene for dinner with panoramic views of sky and sea.\n\nEvery bedroom is beautifully designed with wooden furnishings and art, looking onto the manicured lawns, the pool or the ocean, each with a Smart TV and walk-in wardrobe; all but one have king beds, and the two first-floor rooms add private balconies. Bathrooms are en-suite with freestanding tubs, and some open to an inner garden with an outdoor shower. The villa is fully staffed with a chef and daily breakfast, with a communal gym, shared sauna, BBQ and 24-hour security — a short drive from Nathon and the island’s amenities.",
+  "features": [
+    {
+      "l": "Flexible three to five bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Absolute beachfront · swimmable beach",
+      "i": "waves"
+    },
+    {
+      "l": "19 m pool · waterfall · jacuzzi",
+      "i": "pool"
+    },
+    {
+      "l": "Ayutthaya-inspired pavilions",
+      "i": "home"
+    },
+    {
+      "l": "Beach sala · sunset views",
+      "i": "view"
+    },
+    {
+      "l": "Private chef · daily breakfast",
+      "i": "utensils"
+    },
+    {
+      "l": "Communal gym & sauna",
+      "i": "gym"
+    },
+    {
+      "l": "Fully staffed · 24-hour security",
+      "i": "shield"
+    }
+  ]
+}

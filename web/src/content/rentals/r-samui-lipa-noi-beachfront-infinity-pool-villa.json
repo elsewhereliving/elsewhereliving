@@ -1,0 +1,79 @@
+{
+  "id": "r-samui-lipa-noi-beachfront-infinity-pool-villa",
+  "image": "/assets/listings/r-samui-lipa-noi-beachfront-infinity-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-lipa-noi-beachfront-infinity-pool-villa/01.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-infinity-pool-villa/02.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-infinity-pool-villa/03.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-infinity-pool-villa/04.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-infinity-pool-villa/05.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-infinity-pool-villa/06.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-infinity-pool-villa/07.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-infinity-pool-villa/08.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-infinity-pool-villa/09.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-infinity-pool-villa/10.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-infinity-pool-villa/11.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-infinity-pool-villa/12.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-infinity-pool-villa/13.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-infinity-pool-villa/14.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-infinity-pool-villa/15.jpg"
+  ],
+  "location": "Lipa Noi · Koh Samui · Thailand",
+  "place": "Lipa Noi, Ko Samui District, Surat Thani, Thailand",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "nightlyCurrency": "USD",
+  "created": 1782604800000,
+  "featured": false,
+  "imageFocal": "",
+  "mapQuery": "9.478611,99.927389",
+  "title": "Beachfront Infinity-Pool Estate Villa, Lipa Noi, Koh Samui",
+  "beds": 5,
+  "bedsLabel": "3–5",
+  "baths": 5,
+  "guests": 12,
+  "guestsLabel": "6–12",
+  "occupancy": "6–12 guests",
+  "size": "2,100 m²",
+  "nightlyOriginalNum": 800,
+  "note": "Fully staffed · breakfast · + tax & service",
+  "sleeps": "6–12 guests · 3–5 bedrooms",
+  "blurb": "The largest beachfront villa in its Lipa Noi estate — around 2,100 m² of pavilioned living tucked into a pristine cove on Koh Samui’s west coast, with an 18.5-metre infinity pool that meets ocean views. Five bedrooms in separate pavilions, a beach sala and a 12-person dining table, fully staffed with a chef. Flexible for three to five bedrooms.",
+  "detail": "The largest beachfront villa within its estate, this home impresses with generous size and amazing views, tucked into a pristine cove near Nathon at Lipa Noi on Koh Samui’s west coast. The embodiment of style and tranquillity, it is welcomed by manicured gardens and an unspoiled expanse of sandy beach, with the gentle symphony of breaking waves a constant backdrop — ideally suited to big families and groups of up to ten.\n\nAll bedrooms are arranged in separate pavilions (bar two that share a building), for the best of indoor-outdoor living through large windows, high ceilings and full-height sliding glass doors, cooled by ceiling fans and air-conditioning. Spend lazy hours on the sprawling pool deck — a daybed and ten sunbeds with parasols — then dive into the 18.5-metre infinity pool amid picture-perfect ocean vistas.\n\nEqually stunning are the views from the outdoor dining sala, which opens to the beach; fire up the barbecue and gather at the 12-person circular dining table beside the open-plan kitchen, modern and well-equipped with a breakfast island and bar stools. Around 2,100 m² in all, fully staffed with a private chef and daily breakfast, with a gym, BBQ, private parking and Wi-Fi.",
+  "features": [
+    {
+      "l": "Flexible three to five bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Largest villa in the estate · ≈2,100 m²",
+      "i": "sparkles"
+    },
+    {
+      "l": "Absolute beachfront cove",
+      "i": "waves"
+    },
+    {
+      "l": "18.5 m infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Bedrooms in separate pavilions",
+      "i": "home"
+    },
+    {
+      "l": "Beach sala · 12-person dining",
+      "i": "utensils"
+    },
+    {
+      "l": "Ocean views throughout",
+      "i": "view"
+    },
+    {
+      "l": "Fully staffed · private chef",
+      "i": "users"
+    }
+  ]
+}
