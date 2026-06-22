@@ -83,6 +83,7 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
           </div>
 
           <FormSection eyebrow="Essentials">
+            <TextField label="Villa name (internal)" value={rec.internalName} onChange={(v) => set({ internalName: v })} hint="Studio only — never shown on the website" placeholder="e.g. Baan Kilee" />
             <TextField label="Title" value={rec.title} onChange={(v) => set({ title: v })} placeholder="A distinctive name — by character, not the real project name" />
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 28 }}>
               <TextField label="Location line" value={rec.location} onChange={(v) => set({ location: v })} placeholder="Bang Tao · Phuket · Thailand" />

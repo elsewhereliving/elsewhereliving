@@ -50,7 +50,7 @@ export default function Dashboard({
     all.forEach((x, i) => (idx[x.id] = i));
     const newOf = (it: Rec) => (it.created ?? it.added) || 1e12 - idx[it.id];
     const filtered = all.filter((it) => {
-      const hay = (it.title + " " + it.location + " " + (it.place || "")).toLowerCase();
+      const hay = (it.title + " " + it.location + " " + (it.place || "") + " " + (it.internalName || "")).toLowerCase();
       if (q && hay.indexOf(q.toLowerCase()) < 0) return false;
       if (!isRental) {
         if (fMarket !== "All" && it.market !== fMarket) return false;
@@ -241,6 +241,7 @@ function AdminCard({ item, isRental, onEdit, onFeature }: { item: Rec; isRental:
       <div style={{ padding: "16px 18px 18px", flex: 1, display: "flex", flexDirection: "column" }}>
         <div style={{ fontFamily: "var(--font-sans)", fontSize: 10, letterSpacing: "0.16em", textTransform: "uppercase", color: "var(--slate)" }}>{item.location}</div>
         <h3 style={{ margin: "7px 0 0", fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: 20, lineHeight: 1.16, color: "var(--navy)", letterSpacing: "-0.01em" }}>{item.title || "Untitled"}</h3>
+        {item.internalName && <div style={{ marginTop: 4, fontFamily: "var(--font-sans)", fontSize: 11.5, color: "var(--slate)", fontStyle: "italic" }}>{item.internalName}</div>}
         <div style={{ marginTop: "auto", paddingTop: 14, display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: 10 }}>
           <span style={{ fontFamily: "var(--font-serif)", fontSize: 16, color: "var(--charcoal)" }}>{isRental ? (item.nightly ? item.nightly + " / night" : "On request") : (item.price || "—")}</span>
           <span style={{ display: "inline-flex", alignItems: "center", gap: 6, fontFamily: "var(--font-sans)", fontSize: 10, letterSpacing: "0.14em", textTransform: "uppercase", color: h ? "var(--navy)" : "var(--slate)", transition: "color .25s" }}>

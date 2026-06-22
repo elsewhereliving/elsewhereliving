@@ -2,12 +2,12 @@
 import "../styles/global.css";
 import "../styles/studio.css";
 import Studio from "../components/studio/Studio.tsx";
-import { getListings, getRentals, getListingMarkets, getHomeFeaturedCount } from "../lib/content";
+import { getListingsAdmin, getRentalsAdmin, getListingMarkets, getHomeFeaturedCount } from "../lib/content";
 
-// Load the current portfolio as the Studio's starting data. (Saving back to
-// GitHub lands in Phase 5; for now the studio is a read + preview surface.)
-const listings = await getListings();
-const rentals = await getRentals();
+// Load the current portfolio as the Studio's starting data. Use the *Admin
+// getters so the Studio sees `internalName` (stripped from all public getters).
+const listings = await getListingsAdmin();
+const rentals = await getRentalsAdmin();
 const markets = await getListingMarkets();
 const homeCount = getHomeFeaturedCount();
 

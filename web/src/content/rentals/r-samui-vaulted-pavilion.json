@@ -1,21 +1,30 @@
 {
   "id": "r-samui-vaulted-pavilion",
-  "image": "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_03_livingarea_1680.webp",
+  "image": "/assets/listings/r-samui-vaulted-pavilion/01.jpg",
   "gallery": [
-    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_03_livingarea_1680.webp",
-    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_02_pool_1680.webp",
-    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_01_pool_1680.webp",
-    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_18_aerialview_1680.webp",
-    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_04_diningarea_1680.webp",
-    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_14_kitchen_1680.webp",
-    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_06_bedroom1terrace_1680.webp",
-    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_16_poolsidesala_1680.webp",
-    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_17_poolsideloungers_1680.webp",
-    "https://ddvz0opm6lufl.cloudfront.net/media/images/properties/thailand/samui/bophut/atulya-residence/overview/atulyaresidence_19_villaview_1680.webp"
+    "/assets/listings/r-samui-vaulted-pavilion/01.jpg",
+    "/assets/listings/r-samui-vaulted-pavilion/02.jpg",
+    "/assets/listings/r-samui-vaulted-pavilion/03.jpg",
+    "/assets/listings/r-samui-vaulted-pavilion/04.jpg",
+    "/assets/listings/r-samui-vaulted-pavilion/05.jpg",
+    "/assets/listings/r-samui-vaulted-pavilion/06.jpg",
+    "/assets/listings/r-samui-vaulted-pavilion/07.jpg",
+    "/assets/listings/r-samui-vaulted-pavilion/08.jpg",
+    "/assets/listings/r-samui-vaulted-pavilion/09.jpg",
+    "/assets/listings/r-samui-vaulted-pavilion/10.jpg",
+    "/assets/listings/r-samui-vaulted-pavilion/11.jpg",
+    "/assets/listings/r-samui-vaulted-pavilion/12.jpg",
+    "/assets/listings/r-samui-vaulted-pavilion/13.jpg",
+    "/assets/listings/r-samui-vaulted-pavilion/14.jpg",
+    "/assets/listings/r-samui-vaulted-pavilion/15.jpg",
+    "/assets/listings/r-samui-vaulted-pavilion/16.jpg",
+    "/assets/listings/r-samui-vaulted-pavilion/17.jpg",
+    "/assets/listings/r-samui-vaulted-pavilion/18.jpg",
+    "/assets/listings/r-samui-vaulted-pavilion/19.jpg"
   ],
   "location": "Bophut · Koh Samui · Thailand",
   "place": "Bophut Hills, Bo Phut, Ko Samui District, Surat Thani, Thailand",
-  "mapQuery": "9.5586,100.0247",
+  "mapQuery": "9.551591,100.018680",
   "title": "Vaulted-Pavilion Hillside Villa, Bophut Hills",
   "view": [
     "Sea View"
@@ -59,5 +68,6 @@
     }
   ],
   "created": 1781606529000,
-  "imageFocal": ""
+  "imageFocal": "",
+  "internalName": "Atulya Residence"
 }

@@ -1,0 +1,87 @@
+{
+  "id": "r-samui-bophut-beachfront-rose-pool-villa",
+  "image": "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/01.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/02.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/03.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/04.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/05.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/06.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/07.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/08.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/09.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/10.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/11.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/12.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/13.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/14.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/15.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/16.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/17.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/18.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/19.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/20.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/21.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-rose-pool-villa/22.jpg"
+  ],
+  "nightlyCurrency": "USD",
+  "created": 1782864000000,
+  "featured": false,
+  "imageFocal": "",
+  "internalName": "Baan Kularb",
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bophut, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.569068,100.017477",
+  "title": "Beachfront Rose-Garden Pool Villa, Bophut, Koh Samui",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 4,
+  "bedsLabel": "2–4",
+  "baths": 4,
+  "guests": 10,
+  "guestsLabel": "4–10",
+  "occupancy": "4–10 guests",
+  "size": "1,000 m²",
+  "nightlyOriginalNum": 640,
+  "note": "Fully staffed · private chef · + tax & service",
+  "sleeps": "4–10 guests · 2–4 bedrooms",
+  "blurb": "A romantic four-bedroom beachfront pool villa of around 1,000 m² in a managed residence estate at Bophut, pairing soft pink accents with a modern tropical design. A 12-metre blue-tiled infinity pool runs beside a lawn and a Thai-style poolside sala, the single-storey pavilions connected by stepping stones across a koi pond. Six minutes to Fisherman’s Village, three to Bophut Beach; fully staffed with a private chef.",
+  "detail": "Savour the beautiful beachfront view and the slow life of island living at this 1,000 m² pool villa, set within a managed residence estate at Bophut. A romantic four-bedroom home that combines warm rose-pink hues with a modern tropical design, this single-storey villa is just a six-minute drive to Fisherman’s Village and a three-minute walk to Bophut Beach.\n\nSun seekers will love the 12-metre blue-tiled infinity pool, set beside a lawn and an outdoor terrace of sun loungers and umbrellas; a poolside sala, a Thai-style gazebo, provides shade and the perfect spot for relaxation. The main pavilion holds the living and dining areas behind glass doors that fold away for indoor-outdoor living and entertaining, elegantly furnished and connected by stepping stones across a delightful koi pond to a kitchen with cooking appliances and a standalone breakfast bar.\n\nEach bedroom has an en-suite shower room and glass sliding doors looking across the garden or pool; the largest is housed in a beachfront pavilion with a canopied four-poster bed, a spacious bathtub and glass doors leading to the pool terrace. Fully staffed with a private chef, and kayaks, yoga mats and a BBQ grill available on request. The shoreline in front of the estate is rocky; a short 200-metre stroll along the coast brings you to a swimmable stretch of beach.",
+  "features": [
+    {
+      "l": "Two to four bedrooms · ≈1,000 m²",
+      "i": "bed"
+    },
+    {
+      "l": "Absolute beachfront · single-storey pavilions",
+      "i": "home"
+    },
+    {
+      "l": "12 m blue-tiled infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Koi pond · poolside Thai sala",
+      "i": "waves"
+    },
+    {
+      "l": "Master beachfront pavilion · four-poster",
+      "i": "sparkles"
+    },
+    {
+      "l": "Fully staffed · private chef",
+      "i": "utensils"
+    },
+    {
+      "l": "Kayaks · yoga mats · BBQ on request",
+      "i": "view"
+    },
+    {
+      "l": "6 min to Fisherman’s Village · 3 min to beach",
+      "i": "car"
+    }
+  ]
+}

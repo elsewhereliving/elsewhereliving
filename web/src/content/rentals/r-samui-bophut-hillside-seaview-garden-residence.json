@@ -1,0 +1,82 @@
+{
+  "id": "r-samui-bophut-hillside-seaview-garden-residence",
+  "image": "/assets/listings/r-samui-bophut-hillside-seaview-garden-residence/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-bophut-hillside-seaview-garden-residence/01.jpg",
+    "/assets/listings/r-samui-bophut-hillside-seaview-garden-residence/02.jpg",
+    "/assets/listings/r-samui-bophut-hillside-seaview-garden-residence/03.jpg",
+    "/assets/listings/r-samui-bophut-hillside-seaview-garden-residence/04.jpg",
+    "/assets/listings/r-samui-bophut-hillside-seaview-garden-residence/05.jpg",
+    "/assets/listings/r-samui-bophut-hillside-seaview-garden-residence/06.jpg",
+    "/assets/listings/r-samui-bophut-hillside-seaview-garden-residence/07.jpg",
+    "/assets/listings/r-samui-bophut-hillside-seaview-garden-residence/08.jpg",
+    "/assets/listings/r-samui-bophut-hillside-seaview-garden-residence/09.jpg",
+    "/assets/listings/r-samui-bophut-hillside-seaview-garden-residence/10.jpg",
+    "/assets/listings/r-samui-bophut-hillside-seaview-garden-residence/11.jpg",
+    "/assets/listings/r-samui-bophut-hillside-seaview-garden-residence/12.jpg",
+    "/assets/listings/r-samui-bophut-hillside-seaview-garden-residence/13.jpg",
+    "/assets/listings/r-samui-bophut-hillside-seaview-garden-residence/14.jpg",
+    "/assets/listings/r-samui-bophut-hillside-seaview-garden-residence/15.jpg",
+    "/assets/listings/r-samui-bophut-hillside-seaview-garden-residence/16.jpg",
+    "/assets/listings/r-samui-bophut-hillside-seaview-garden-residence/17.jpg",
+    "/assets/listings/r-samui-bophut-hillside-seaview-garden-residence/18.jpg"
+  ],
+  "nightlyCurrency": "USD",
+  "created": 1782864000000,
+  "featured": false,
+  "imageFocal": "",
+  "internalName": "Kalya Residence at Panacea Retreat",
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bophut, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.551591,100.018680",
+  "title": "Hillside Sea-View Garden Residence, Bophut, Koh Samui",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 4,
+  "bedsLabel": "4",
+  "baths": 5,
+  "guests": 10,
+  "guestsLabel": "8–10",
+  "occupancy": "8–10 guests",
+  "size": "2,000 m²",
+  "nightlyOriginalNum": 750,
+  "note": "Fully staffed · chef on request · + tax & service",
+  "sleeps": "8–10 guests · 4 bedrooms",
+  "blurb": "A serene four-bedroom hillside residence within a managed retreat in the Bophut hills, entered through a shingle-roofed gate into landscaped gardens with a water feature and bridge. An elevated, wood-lined living pavilion overlooks a 20-metre infinity pool and the ocean, with a swim-up bar and a master suite framing sea views. Fully staffed, with an optional private chef.",
+  "detail": "A sanctuary of luxury and serenity, this four-bedroom residence sits within a managed retreat in the Bophut hills. A wooden gate with a shingle-roof structure brings you into a landscaped tropical garden; steps lead up to a terrace beside the main building, while a high natural-stone retaining wall drops to a water feature that runs behind the villa, with steps up to a bridge.\n\nThe elevated living and dining room extends almost the full width of the property beneath a very high, wood-lined vaulted ceiling with windows on both sides that heighten the grandiose sense of space. A square pedestal table for ten sits at the centre, beside an open-plan kitchen with an island breakfast bar, top-of-the-range appliances and a built-in wine cooler. The lounge is furnished with a creamy white sofa and chairs around a marble coffee table, oriented toward a Smart TV and lit by a hanging candelabra and mood lamps, while a covered balcony runs the entire length of the pavilion behind a clear glass barrier, overlooking the garden and 20-metre infinity pool.\n\nOn the lower level, three of the four bedrooms look out across the garden, pool and views, a covered walkway running along the front of these king-bed guest rooms, each adjoined by an en-suite with a rain shower. On one side of the pool, sunken stools are positioned by a swim-up bar integrated into a covered sala with a dining table and cushioned bench seats; on the other, the master suite has a vaulted wooden ceiling and doors opening onto the pool terrace, with a separate dressing area leading to an en-suite of twin washbasins, a rain shower and a terrazzo bathtub set by a window looking out to the ocean. Fully staffed, with an optional private chef.",
+  "features": [
+    {
+      "l": "Four bedrooms · ≈2,000 m²",
+      "i": "bed"
+    },
+    {
+      "l": "Hillside · panoramic sea views",
+      "i": "view"
+    },
+    {
+      "l": "20 m infinity pool · swim-up bar sala",
+      "i": "pool"
+    },
+    {
+      "l": "Landscaped garden · water feature & bridge",
+      "i": "waves"
+    },
+    {
+      "l": "Wood-lined vaulted living pavilion",
+      "i": "home"
+    },
+    {
+      "l": "Master with sea-view terrazzo bathtub",
+      "i": "sparkles"
+    },
+    {
+      "l": "Fully staffed · chef on request",
+      "i": "utensils"
+    },
+    {
+      "l": "Near Bophut village & Maenam Beach",
+      "i": "car"
+    }
+  ]
+}

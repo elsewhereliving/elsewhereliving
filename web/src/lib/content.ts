@@ -27,8 +27,17 @@ function collect<T extends { id?: string }>(files: Record<string, { default: T }
 // on the site are computed here from the latest exchange rates (refreshed at
 // the start of every build). All display/sort/filter code reads these computed
 // fields, so nothing downstream needs to know about currencies.
-const LISTINGS: Listing[] = collect<Listing>(listingFiles).map((l) => ({ ...l, ...listingPrice(l) }));
-const RENTALS: Rental[] = collect<Rental>(rentalFiles).map((r) => ({ ...r, ...rentalPrice(r) }));
+// `internalName` is a Studio-only label (the real villa name). It must never
+// reach a public page — not even serialized into a React island's props — so
+// the public getters strip it. The Studio uses the *Admin getters, which keep it.
+const stripInternal = <T extends Record<string, any>>(r: T): T => {
+  const { internalName, ...rest } = r;
+  return rest as T;
+};
+const LISTINGS_RAW: Listing[] = collect<Listing>(listingFiles).map((l) => ({ ...l, ...listingPrice(l) }));
+const RENTALS_RAW: Rental[] = collect<Rental>(rentalFiles).map((r) => ({ ...r, ...rentalPrice(r) }));
+const LISTINGS: Listing[] = LISTINGS_RAW.map(stripInternal);
+const RENTALS: Rental[] = RENTALS_RAW.map(stripInternal);
 
 export async function getListings(): Promise<Listing[]> {
   return LISTINGS;
@@ -36,6 +45,15 @@ export async function getListings(): Promise<Listing[]> {
 
 export async function getRentals(): Promise<Rental[]> {
   return RENTALS;
+}
+
+// Studio-only: full records including `internalName`.
+export async function getListingsAdmin(): Promise<Listing[]> {
+  return LISTINGS_RAW;
+}
+
+export async function getRentalsAdmin(): Promise<Rental[]> {
+  return RENTALS_RAW;
 }
 
 export async function getListing(id: string): Promise<Listing | undefined> {
