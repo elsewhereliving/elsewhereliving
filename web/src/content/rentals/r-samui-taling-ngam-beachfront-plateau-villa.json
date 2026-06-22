@@ -1,0 +1,84 @@
+{
+  "id": "r-samui-taling-ngam-beachfront-plateau-villa",
+  "image": "/assets/listings/r-samui-taling-ngam-beachfront-plateau-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-taling-ngam-beachfront-plateau-villa/01.jpg",
+    "/assets/listings/r-samui-taling-ngam-beachfront-plateau-villa/02.jpg",
+    "/assets/listings/r-samui-taling-ngam-beachfront-plateau-villa/03.jpg",
+    "/assets/listings/r-samui-taling-ngam-beachfront-plateau-villa/04.jpg",
+    "/assets/listings/r-samui-taling-ngam-beachfront-plateau-villa/05.jpg",
+    "/assets/listings/r-samui-taling-ngam-beachfront-plateau-villa/06.jpg",
+    "/assets/listings/r-samui-taling-ngam-beachfront-plateau-villa/07.jpg",
+    "/assets/listings/r-samui-taling-ngam-beachfront-plateau-villa/08.jpg",
+    "/assets/listings/r-samui-taling-ngam-beachfront-plateau-villa/09.jpg",
+    "/assets/listings/r-samui-taling-ngam-beachfront-plateau-villa/10.jpg",
+    "/assets/listings/r-samui-taling-ngam-beachfront-plateau-villa/11.jpg",
+    "/assets/listings/r-samui-taling-ngam-beachfront-plateau-villa/12.jpg",
+    "/assets/listings/r-samui-taling-ngam-beachfront-plateau-villa/13.jpg",
+    "/assets/listings/r-samui-taling-ngam-beachfront-plateau-villa/14.jpg",
+    "/assets/listings/r-samui-taling-ngam-beachfront-plateau-villa/15.jpg",
+    "/assets/listings/r-samui-taling-ngam-beachfront-plateau-villa/16.jpg",
+    "/assets/listings/r-samui-taling-ngam-beachfront-plateau-villa/17.jpg",
+    "/assets/listings/r-samui-taling-ngam-beachfront-plateau-villa/18.jpg",
+    "/assets/listings/r-samui-taling-ngam-beachfront-plateau-villa/19.jpg",
+    "/assets/listings/r-samui-taling-ngam-beachfront-plateau-villa/20.jpg"
+  ],
+  "location": "Taling Ngam · Koh Samui · Thailand",
+  "place": "Taling Ngam, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.4525,99.9486",
+  "title": "Beachfront Plateau Pool Villa, Taling Ngam, Koh Samui",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 2,
+  "bedsLabel": "1–2",
+  "baths": 3,
+  "guests": 4,
+  "guestsLabel": "4",
+  "occupancy": "up to 4 guests",
+  "size": "Beachfront",
+  "nightlyOriginalNum": 495,
+  "nightlyCurrency": "USD",
+  "note": "Fully staffed · breakfast · + tax & service",
+  "sleeps": "up to 4 guests · 1–2 bedrooms",
+  "created": 1782518400000,
+  "featured": false,
+  "imageFocal": "",
+  "blurb": "A romantic one-to-two-bedroom villa set on a natural plateau above the beach at Taling Ngam, on Koh Samui's quiet south-west coast. A 10.3-metre infinity pool runs toward the water, with direct beach access below and a panorama across the Gulf to the Five Islands and Ang Thong Marine Park. Flexible for a couple or a small family, and fully staffed.",
+  "detail": "Perched on a natural plateau just above the sand on Koh Samui's tranquil south-western coast, this villa is built for sunsets — its terrace and rooms look straight out over the Gulf to the famous Five Islands and the peaks of Ang Thong Marine Park, with golden sand and palm trees stretching below.\n\nA 10.3-metre infinity pool sits on the edge of the view, with sun loungers and an outdoor terrace for cocktails as the sky changes colour, and direct access down to the beach. Indoor and outdoor living blend seamlessly through floor-to-ceiling glass, with an open-plan living and dining room, a full kitchen and a mezzanine lounge.\n\nThe layout is flexible — taken as a one or two-bedroom home, it suits a couple seeking seclusion or a small family, with a master suite and a twin room. A full team looks after the stay, with daily breakfast and housekeeping included and a private chef available on request, plus a BBQ, private parking and Wi-Fi throughout. So peaceful and private it can feel like your own deserted island, yet within easy reach of the rest of Samui.",
+  "features": [
+    {
+      "l": "Flexible one to two bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Beachfront plateau · direct beach access",
+      "i": "waves"
+    },
+    {
+      "l": "10.3 m infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Five Islands & Ang Thong views",
+      "i": "view"
+    },
+    {
+      "l": "Indoor–outdoor living · mezzanine lounge",
+      "i": "home"
+    },
+    {
+      "l": "Fully staffed · daily breakfast",
+      "i": "sparkles"
+    },
+    {
+      "l": "Chef on request · BBQ",
+      "i": "utensils"
+    },
+    {
+      "l": "Private parking · Wi-Fi",
+      "i": "car"
+    }
+  ]
+}

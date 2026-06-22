@@ -1,0 +1,91 @@
+{
+  "id": "r-samui-taling-ngam-hilltop-wellness-villa",
+  "image": "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/01.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/02.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/03.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/04.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/05.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/06.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/07.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/08.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/09.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/10.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/11.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/12.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/13.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/14.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/15.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/16.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/17.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/18.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/19.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/20.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/21.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/22.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/23.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/24.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/25.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/26.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/27.jpg",
+    "/assets/listings/r-samui-taling-ngam-hilltop-wellness-villa/28.jpg"
+  ],
+  "location": "Taling Ngam · Koh Samui · Thailand",
+  "place": "Taling Ngam, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.4525,99.9486",
+  "title": "Hilltop Five-Islands Pool Villa, Taling Ngam, Koh Samui",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 3,
+  "bedsLabel": "1–3",
+  "baths": 3,
+  "guests": 6,
+  "guestsLabel": "6",
+  "occupancy": "up to 6 guests",
+  "size": "Hilltop",
+  "nightlyOriginalNum": 450,
+  "nightlyCurrency": "USD",
+  "note": "Fully staffed · breakfast · + tax & service",
+  "sleeps": "up to 6 guests · 1–3 bedrooms",
+  "created": 1782518400000,
+  "featured": false,
+  "imageFocal": "",
+  "blurb": "A freshly renovated one-to-three-bedroom hilltop villa above the palm-lined shores of Taling Ngam, on Koh Samui's quiet south-west coast. A 9-metre pool with a kid-friendly shallow looks across to the Five Islands, with an ocean-facing BBQ terrace for sunsets and a new Finnish sauna and ice bath. Fully staffed with daily breakfast; the beach is a few minutes down the hill.",
+  "detail": "Nestled on a hilltop above the palm-lined shore at Taling Ngam, this crisp white villa is barefoot luxury with a \"Hamptons goes tropical\" feel — floor-to-ceiling doors open the indoor-outdoor living spaces to the natural breeze and a wonderful outlook over the valley to the Five Islands and the sunsets across the Gulf of Thailand.\n\nRenovated in 2024, the home now adds a Finnish-style sauna and an ice bath to its line-up of ways to unwind after a day of island-hopping. A 9-metre pool with a kid-friendly shallow area sits beside an ocean-facing terrace with a BBQ and a sunset-watching daybed, and the white sand beach is just a few minutes down the hill.\n\nFlexible as a one to three-bedroom stay, it suits couples and families alike. The villa is fully staffed with daily breakfast included; an optional private chef is available, and stays of more than five nights include one round-trip airport transfer. The Air Bar and a beachfront restaurant are a short buggy ride away — island living at its finest, with the rest of Samui within easy reach.",
+  "features": [
+    {
+      "l": "Flexible one to three bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Renovated 2024 · sauna & ice bath",
+      "i": "sparkles"
+    },
+    {
+      "l": "Hilltop Five Islands & sunset views",
+      "i": "view"
+    },
+    {
+      "l": "9 m pool · kid-friendly shallow",
+      "i": "pool"
+    },
+    {
+      "l": "Ocean-facing BBQ terrace",
+      "i": "terrace"
+    },
+    {
+      "l": "Fully staffed · daily breakfast",
+      "i": "utensils"
+    },
+    {
+      "l": "Beach a few minutes downhill",
+      "i": "waves"
+    },
+    {
+      "l": "Airport transfer on stays of 5+ nights",
+      "i": "car"
+    }
+  ]
+}
