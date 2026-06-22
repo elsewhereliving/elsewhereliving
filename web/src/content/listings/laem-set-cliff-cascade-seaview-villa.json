@@ -1,0 +1,92 @@
+{
+  "id": "laem-set-cliff-cascade-seaview-villa",
+  "image": "/assets/listings/r-samui-cliff-cascade/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-cliff-cascade/01.jpg",
+    "/assets/listings/r-samui-cliff-cascade/02.jpg",
+    "/assets/listings/r-samui-cliff-cascade/03.jpg",
+    "/assets/listings/r-samui-cliff-cascade/04.jpg",
+    "/assets/listings/r-samui-cliff-cascade/05.jpg",
+    "/assets/listings/r-samui-cliff-cascade/06.jpg",
+    "/assets/listings/r-samui-cliff-cascade/07.jpg",
+    "/assets/listings/r-samui-cliff-cascade/08.jpg",
+    "/assets/listings/r-samui-cliff-cascade/09.jpg",
+    "/assets/listings/r-samui-cliff-cascade/10.jpg",
+    "/assets/listings/r-samui-cliff-cascade/11.jpg",
+    "/assets/listings/r-samui-cliff-cascade/12.jpg",
+    "/assets/listings/r-samui-cliff-cascade/13.jpg",
+    "/assets/listings/r-samui-cliff-cascade/14.jpg",
+    "/assets/listings/r-samui-cliff-cascade/15.jpg",
+    "/assets/listings/r-samui-cliff-cascade/16.jpg",
+    "/assets/listings/r-samui-cliff-cascade/17.jpg",
+    "/assets/listings/r-samui-cliff-cascade/18.jpg",
+    "/assets/listings/r-samui-cliff-cascade/19.jpg",
+    "/assets/listings/r-samui-cliff-cascade/20.jpg",
+    "/assets/listings/r-samui-cliff-cascade/21.jpg",
+    "/assets/listings/r-samui-cliff-cascade/22.jpg"
+  ],
+  "location": "Laem Set · Koh Samui · Thailand",
+  "place": "Santikhiri Estate, Na Muang, Laem Set, Ko Samui District, Surat Thani, Thailand",
+  "market": "Koh Samui",
+  "title": "Cliff-Cascade Five-Bedroom Sea-View Villa, Laem Set, Koh Samui",
+  "type": "Villa",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 5,
+  "bedsLabel": "5",
+  "baths": 6,
+  "interior": "900 m²",
+  "plot": "1,526 m²",
+  "year": null,
+  "ownership": "Leasehold",
+  "priceOriginalNum": 2000000,
+  "priceCurrency": "USD",
+  "priceFrom": false,
+  "added": 85,
+  "created": 1782432000000,
+  "video": "",
+  "blurb": "An extraordinary five-bedroom villa built into a lush rocky cliff in the gated Santikhiri Estate at Laem Set, its living spaces cascading down four storeys of timber decks and stone terraces to a waterfall plunge pool, with a 180-degree view across the Gulf of Siam. 900 m² of home on a 1,526 m² Chanote-titled plot, offered leasehold.",
+  "detail": "Built into a lush hillside within the gated Santikhiri Estate at Laem Set, this extraordinary five-bedroom villa commands a breathtaking 180-degree panorama across the Gulf of Siam. The 900 m² home is designed to cascade down toward the ocean, its living spaces following the natural slope of the cliff: a series of timber decks and stone terraces descends over four storeys to a deck with a private plunge pool, a man-made waterfall and sunbeds, while a separate platform doubles as a yoga deck and sunset lounge — every room thoughtfully integrated with the landscape.\n\nThe interiors are seriously chic and entirely un-templated, with no two spaces alike. Floor-to-ceiling glass doors invite the outdoors in, and vintage and designer furnishings sit alongside curated artworks for a unique, welcoming atmosphere throughout. The home centres on an open-plan living room with a projector and SONOS sound system, a minimalist kitchen, an outdoor bar, an outdoor wet kitchen and an al-fresco dining area, with five stylish en-suite bedrooms — six bathrooms in all — each opening to a private balcony.\n\nThe property sits on a 1,526 m² plot held on a Chanote title and is offered on a leasehold basis. Santikhiri is one of the island's most established gated estates, with 24-hour security and a residents' pool a short walk up the hill, and the villa is fully serviceable with an established rental track record. It is a short drive from Lamai Beach and the Kamalaya wellness sanctuary, with the island's dining and amenities within easy reach — a rare architectural home for an owner or as an income-producing investment.",
+  "features": [
+    {
+      "l": "Five en-suite bedrooms · 6 baths",
+      "i": "bed"
+    },
+    {
+      "l": "900 m² home · 1,526 m² plot",
+      "i": "plot"
+    },
+    {
+      "l": "Waterfall plunge pool",
+      "i": "pool"
+    },
+    {
+      "l": "Cliff-cascading four-storey design",
+      "i": "home"
+    },
+    {
+      "l": "180° Gulf of Siam sea views",
+      "i": "view"
+    },
+    {
+      "l": "Yoga deck & massage area",
+      "i": "sparkles"
+    },
+    {
+      "l": "Projector cinema & SONOS sound",
+      "i": "music"
+    },
+    {
+      "l": "Gated estate · 24-hour security",
+      "i": "shield"
+    },
+    {
+      "l": "Chanote title · leasehold",
+      "i": "key"
+    }
+  ],
+  "mapQuery": "9.4358,100.0231",
+  "imageFocal": ""
+}
