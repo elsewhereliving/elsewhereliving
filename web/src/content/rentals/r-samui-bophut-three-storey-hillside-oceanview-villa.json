@@ -1,0 +1,84 @@
+{
+  "id": "r-samui-bophut-three-storey-hillside-oceanview-villa",
+  "image": "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/01.jpg",
+    "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/02.jpg",
+    "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/03.jpg",
+    "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/04.jpg",
+    "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/05.jpg",
+    "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/06.jpg",
+    "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/07.jpg",
+    "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/08.jpg",
+    "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/09.jpg",
+    "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/10.jpg",
+    "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/11.jpg",
+    "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/12.jpg",
+    "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/13.jpg",
+    "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/14.jpg",
+    "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/15.jpg",
+    "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/16.jpg",
+    "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/17.jpg",
+    "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/18.jpg",
+    "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/19.jpg",
+    "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/20.jpg"
+  ],
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "nightlyCurrency": "USD",
+  "created": 1782777600000,
+  "featured": false,
+  "imageFocal": "",
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bophut, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.568767,100.017140",
+  "title": "Three-Storey Hillside Oceanview Villa, Bophut, Koh Samui",
+  "beds": 3,
+  "bedsLabel": "2–3",
+  "baths": 3,
+  "guests": 8,
+  "guestsLabel": "4–8",
+  "occupancy": "4–8 guests",
+  "size": "693 m²",
+  "nightlyOriginalNum": 330,
+  "note": "Fully staffed · chef on request · + tax & service",
+  "sleeps": "4–8 guests · 2–3 bedrooms",
+  "blurb": "A three-storey hillside villa of around 693 m² in a managed beachfront residence estate at Bophut, with elevated ocean views, a 12-metre pool and a bean-bag terrace. Just 130 metres from the beach and a six-minute drive to Fisherman’s Village. Pavilion-style en-suite bedrooms, a master with sunken bathtub and balcony, and an optional private chef.",
+  "detail": "Take in elevated ocean views from this three-storey hillside villa within a managed beachfront residence estate at Bophut. The 693 m² property sits just 130 metres from the beach and a six-minute drive from Fisherman’s Village.\n\nLounge in a spacious air-conditioned living and dining room beside an outdoor terrace lined with bean bags, then dip into the adjacent 12-metre pool while admiring the sea. The property has a pavilion-style layout, with all bedrooms in a modern tropical design and their own en-suite bathrooms — one enjoys direct pool access, while two more on the top floor share a lovely vantage point. The largest bedroom adds its own balcony and a sunken bathtub with an ocean view.\n\nThe kitchen is well equipped with a central island that doubles as a breakfast bar, and the fully-staffed villa offers an optional private chef to prepare meals throughout the day at an additional cost. Kayaks, yoga mats and a BBQ are available on request. The shoreline directly in front of the estate is rocky; a short 200-metre stroll along the coast brings you to a swimmable stretch of beach.",
+  "features": [
+    {
+      "l": "Two to three bedrooms · ≈693 m²",
+      "i": "bed"
+    },
+    {
+      "l": "Three-storey hillside · ocean views",
+      "i": "view"
+    },
+    {
+      "l": "12 m pool · bean-bag terrace",
+      "i": "pool"
+    },
+    {
+      "l": "Pavilion-style en-suite bedrooms",
+      "i": "home"
+    },
+    {
+      "l": "Master with sunken bathtub & balcony",
+      "i": "sparkles"
+    },
+    {
+      "l": "Fully staffed · chef on request",
+      "i": "utensils"
+    },
+    {
+      "l": "Kayaks · yoga mats · BBQ on request",
+      "i": "waves"
+    },
+    {
+      "l": "130 m to beach · 6 min to Fisherman’s Village",
+      "i": "car"
+    }
+  ]
+}

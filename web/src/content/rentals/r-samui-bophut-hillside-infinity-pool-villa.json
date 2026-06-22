@@ -1,0 +1,93 @@
+{
+  "id": "r-samui-bophut-hillside-infinity-pool-villa",
+  "image": "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/01.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/02.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/03.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/04.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/05.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/06.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/07.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/08.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/09.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/10.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/11.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/12.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/13.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/14.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/15.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/16.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/17.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/18.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/19.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/20.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/21.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/22.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/23.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/24.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/25.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/26.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/27.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/28.jpg",
+    "/assets/listings/r-samui-bophut-hillside-infinity-pool-villa/29.jpg"
+  ],
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "nightlyCurrency": "USD",
+  "created": 1782777600000,
+  "featured": false,
+  "imageFocal": "",
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bophut, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.549894,100.021072",
+  "title": "Hillside Infinity-Pool Villa, Bophut, Koh Samui",
+  "beds": 5,
+  "bedsLabel": "3–5",
+  "baths": 5,
+  "guests": 12,
+  "guestsLabel": "6–12",
+  "occupancy": "6–12 guests",
+  "size": "2,400 m²",
+  "nightlyOriginalNum": 570,
+  "note": "Fully staffed · breakfast · + tax & service",
+  "sleeps": "6–12 guests · 3–5 bedrooms",
+  "blurb": "A large five-bedroom hillside villa nestled in the tranquil Bophut hills, a ten-minute drive from Fisherman’s Village. Sprawled across three pavilions and levels, it balances traditional Thai architecture with modern tropical design, framing stunning sunrise and sunset views from a 20-metre terrace and a 19.5-metre infinity pool that reaches toward the bay. Fully staffed with a chef.",
+  "detail": "Just a ten-minute drive from Fisherman’s Village, this villa is nestled in the heart of the tranquil Bophut hills — one of our favourite locations on the island, with an aspect that enjoys stunning sunrise and sunset views and the relaxing breeze from the sea. Sprawled across three separate pavilions and levels, the five-bedroom hillside getaway is an example of the balance of traditional Thai architecture and modern tropical design, with lofty wooden ceilings, gleaming dark-wood decor, natural materials and Buddhist accents.\n\nGenerous sleeping quarters and grand bathrooms — fitted with both outdoor or rain showers and large bathtubs — assure privacy and comfort for every guest, alongside amazing views of the ocean. Highlights include a 20-metre terrace perfect for entertaining, breathtaking views over the lush landscape garden, outdoor BBQ facilities for al fresco dining, and a 19.5-metre infinity swimming pool oriented toward Fisherman’s Village and the bay.\n\nThe expansive mountain and sea views from the massive infinity-edge pool are unforgettable, and the villa sits roughly fifteen minutes’ drive from Samui International Airport — a private, luxurious retreat for jet-setting families or groups of friends. Fully staffed with a private chef and daily breakfast.",
+  "features": [
+    {
+      "l": "Flexible three to five bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Hillside · sunrise & sunset sea views",
+      "i": "view"
+    },
+    {
+      "l": "19.5 m infinity-edge pool",
+      "i": "pool"
+    },
+    {
+      "l": "20 m open-air entertaining terrace",
+      "i": "terrace"
+    },
+    {
+      "l": "Traditional Thai · Buddhist accents",
+      "i": "home"
+    },
+    {
+      "l": "Al fresco BBQ dining · lush garden",
+      "i": "utensils"
+    },
+    {
+      "l": "10 min to Fisherman’s Village · 15 min airport",
+      "i": "car"
+    },
+    {
+      "l": "Fully staffed · private chef",
+      "i": "sparkles"
+    }
+  ]
+}

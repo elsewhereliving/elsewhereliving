@@ -1,0 +1,91 @@
+{
+  "id": "r-samui-lipa-noi-beachfront-courtyard-pool-villa",
+  "image": "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/01.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/02.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/03.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/04.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/05.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/06.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/07.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/08.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/09.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/10.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/11.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/12.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/13.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/14.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/15.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/16.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/17.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/18.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/19.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/20.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/21.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/22.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/23.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/24.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/25.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/26.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-courtyard-pool-villa/27.jpg"
+  ],
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "nightlyCurrency": "USD",
+  "created": 1782777600000,
+  "featured": false,
+  "imageFocal": "",
+  "location": "Lipa Noi · Koh Samui · Thailand",
+  "place": "Lipa Noi, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.490910,99.926627",
+  "title": "Beachfront Courtyard Pool Villa, Lipa Noi, Koh Samui",
+  "beds": 5,
+  "bedsLabel": "3–5",
+  "baths": 5,
+  "guests": 12,
+  "guestsLabel": "6–12",
+  "occupancy": "6–12 guests",
+  "size": "1,700 m²",
+  "nightlyOriginalNum": 800,
+  "note": "Fully staffed · breakfast · + tax & service",
+  "sleeps": "6–12 guests · 3–5 bedrooms",
+  "blurb": "A gorgeous beachfront sanctuary at Lipa Noi on Koh Samui’s west coast, inspired by classic Thai design. Spread across three pavilions around a water-flanked courtyard, the five-bedroom villa sleeps ten, with a 12-metre infinity pool and jacuzzi, a shallow kids’ zone and a 10-seat beachfront sala. Ten minutes to the Nathon ferry, fully staffed with a private chef.",
+  "detail": "A gorgeous beachfront sanctuary blessed with a prime location at Lipa Noi, this villa pairs classic Thai design with modern facilities — the Nathon ferry port just ten minutes away and Samui International Airport around fifty by car. Spread across three pavilions, it comprises five bedrooms accommodating ten guests.\n\nStepping in, a little pathway flanked by water features leads to the central courtyard, whose easygoing tropical feel sets the tone — a wooden deck, gentle sea breeze and decorative gardens, with a yoga mat to hand for an open-air session. The 12-metre infinity pool has a built-in jacuzzi and a shallow zone for children; lounge on the six sunbeds with a book or watch the sunset over the horizon, with outdoor speakers for a livelier evening. Indoors, an open-plan living area with earthy wooden furnishings, high-vaulted ceilings and abundant natural light wraps an L-shaped couch, a Smart TV and a quality sound system.\n\nThe well-equipped kitchen opens to a breakfast bar, and meals are served either at the 10-seat outdoor sala amid magnificent views or the 10-person indoor table. All five bedrooms are beautifully appointed with king beds, safes and air-conditioning; bathrooms are en-suite with walk-in showers and ornamental gardens, and the master adds a stone bathtub. Fully staffed with a private chef and daily breakfast.",
+  "features": [
+    {
+      "l": "Flexible three to five bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Absolute beachfront · classic Thai design",
+      "i": "waves"
+    },
+    {
+      "l": "12 m infinity pool · jacuzzi · kids’ shallow",
+      "i": "pool"
+    },
+    {
+      "l": "Three pavilions around a water courtyard",
+      "i": "home"
+    },
+    {
+      "l": "10-seat beachfront sala · indoor dining",
+      "i": "utensils"
+    },
+    {
+      "l": "Master with stone bathtub",
+      "i": "view"
+    },
+    {
+      "l": "10 min to Nathon ferry",
+      "i": "car"
+    },
+    {
+      "l": "Fully staffed · private chef",
+      "i": "sparkles"
+    }
+  ]
+}

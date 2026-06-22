@@ -1,0 +1,81 @@
+{
+  "id": "r-samui-bophut-hillside-oceanview-pool-villa",
+  "image": "/assets/listings/r-samui-bophut-hillside-oceanview-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-bophut-hillside-oceanview-pool-villa/01.jpg",
+    "/assets/listings/r-samui-bophut-hillside-oceanview-pool-villa/02.jpg",
+    "/assets/listings/r-samui-bophut-hillside-oceanview-pool-villa/03.jpg",
+    "/assets/listings/r-samui-bophut-hillside-oceanview-pool-villa/04.jpg",
+    "/assets/listings/r-samui-bophut-hillside-oceanview-pool-villa/05.jpg",
+    "/assets/listings/r-samui-bophut-hillside-oceanview-pool-villa/06.jpg",
+    "/assets/listings/r-samui-bophut-hillside-oceanview-pool-villa/07.jpg",
+    "/assets/listings/r-samui-bophut-hillside-oceanview-pool-villa/08.jpg",
+    "/assets/listings/r-samui-bophut-hillside-oceanview-pool-villa/09.jpg",
+    "/assets/listings/r-samui-bophut-hillside-oceanview-pool-villa/10.jpg",
+    "/assets/listings/r-samui-bophut-hillside-oceanview-pool-villa/11.jpg",
+    "/assets/listings/r-samui-bophut-hillside-oceanview-pool-villa/12.jpg",
+    "/assets/listings/r-samui-bophut-hillside-oceanview-pool-villa/13.jpg",
+    "/assets/listings/r-samui-bophut-hillside-oceanview-pool-villa/14.jpg",
+    "/assets/listings/r-samui-bophut-hillside-oceanview-pool-villa/15.jpg",
+    "/assets/listings/r-samui-bophut-hillside-oceanview-pool-villa/16.jpg",
+    "/assets/listings/r-samui-bophut-hillside-oceanview-pool-villa/17.jpg"
+  ],
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "nightlyCurrency": "USD",
+  "created": 1782777600000,
+  "featured": false,
+  "imageFocal": "",
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bophut, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.568767,100.017140",
+  "title": "Hillside Oceanview Pool Villa, Bophut, Koh Samui",
+  "beds": 4,
+  "bedsLabel": "2–4",
+  "baths": 4,
+  "guests": 10,
+  "guestsLabel": "4–10",
+  "occupancy": "4–10 guests",
+  "size": "640 m²",
+  "nightlyOriginalNum": 330,
+  "note": "Fully staffed · chef on request · + tax & service",
+  "sleeps": "4–10 guests · 2–4 bedrooms",
+  "blurb": "A serene hillside villa of around 640 m² in a managed beachfront residence estate at Bophut, with an elevated ocean view and a sea-facing 12-metre infinity pool. Just 100 metres from Bophut Beach and a six-minute drive to Fisherman’s Village. Designed over three levels with a top-floor master suite, and an optional private chef.",
+  "detail": "Discover a serene hillside sanctuary in a managed beachfront residence estate at Bophut — a private hillside villa with an elevated ocean view, designed over three levels and accommodating up to eight guests.\n\nThe focal point is the large air-conditioned living and dining room, whose floor-to-ceiling doors slide open to a sea-facing 12-metre infinity pool. An outdoor terrace with daybeds and umbrellas invites you to relax in the sunshine or take a refreshing dip. The kitchen is fully equipped with cookware and appliances and a central island that doubles as a breakfast bar, while high-quality furnishings, neutral tones, colourful modern artwork and natural materials create a calm and stylish environment.\n\nThe largest bedroom takes pride of place on the top floor, with a king bed, dressing area and a spacious en-suite featuring a sunken bathtub, shower area and its own balcony; the other bedrooms are airy spaces furnished with teakwood pieces and artefacts. The villa is just a six-minute drive to Fisherman’s Village and a three-minute walk to Bophut Beach. The shoreline directly in front of the estate is rocky; a short 200-metre stroll along the coast brings you to a swimmable stretch of beach. Fully staffed, with an optional private chef and kayaks, yoga mats and a BBQ on request.",
+  "features": [
+    {
+      "l": "Two to four bedrooms · ≈640 m²",
+      "i": "bed"
+    },
+    {
+      "l": "Hillside · elevated ocean views",
+      "i": "view"
+    },
+    {
+      "l": "Sea-facing 12 m infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Daybed terrace with umbrellas",
+      "i": "terrace"
+    },
+    {
+      "l": "Top-floor master · sunken bathtub · balcony",
+      "i": "sparkles"
+    },
+    {
+      "l": "Fully staffed · chef on request",
+      "i": "utensils"
+    },
+    {
+      "l": "Kayaks · yoga mats · BBQ on request",
+      "i": "waves"
+    },
+    {
+      "l": "100 m to Bophut Beach · 6 min to Fisherman’s Village",
+      "i": "car"
+    }
+  ]
+}
