@@ -1,0 +1,90 @@
+{
+  "id": "r-samui-bophut-beachfront-sunrise-pool-villa",
+  "image": "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/01.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/02.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/03.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/04.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/05.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/06.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/07.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/08.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/09.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/10.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/11.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/12.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/13.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/14.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/15.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/16.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/17.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/18.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/19.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/20.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/21.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/22.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/23.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/24.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/25.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/26.jpg"
+  ],
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bophut, Ko Samui District, Surat Thani, Thailand",
+  "nightlyCurrency": "USD",
+  "created": 1782777600000,
+  "featured": false,
+  "imageFocal": "",
+  "beds": 4,
+  "bedsLabel": "2–4",
+  "baths": 4,
+  "guests": 10,
+  "guestsLabel": "4–10",
+  "occupancy": "4–10 guests",
+  "mapQuery": "9.569068,100.017477",
+  "title": "Beachfront Sunrise Pool Villa, Bophut, Koh Samui",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "size": "1,041 m²",
+  "nightlyOriginalNum": 670,
+  "note": "Fully staffed · private chef · + tax & service",
+  "sleeps": "4–10 guests · 2–4 bedrooms",
+  "blurb": "A beautiful 1,041 m² beachfront villa in a managed residence estate at Bophut, perfectly positioned for sunrise views yet a six-minute drive from Fisherman’s Village. Four bedrooms in modern pavilions open toward an infinity pool, a Thai-style gazebo and the beach beyond. Fully staffed with a private chef.",
+  "detail": "Named for peaceful seclusion by the sea, this beautiful beachfront villa sits within a managed residence estate at Bophut, perfectly positioned for sunrise views while a six-minute drive from the lively Fisherman’s Village. The 1,041 m² home is set within beautifully manicured tropical gardens, its modern pavilions opening toward an infinity pool and the beach beyond.\n\nThe air-conditioned living and dining pavilions feature fold-away glass doors for breezy, open-air living. Relax in the beachfront lounge with plush sofas, or dine at the 12-seat wooden table beside the open kitchen with its Nespresso machine and breakfast bar. The infinity pool pairs with a Thai-style gazebo and direct beach access.\n\nThis is barefoot island luxury — unwind by the pool, practise yoga on the lawn, or paddle out by kayak. The open-sided sala is ideal for leisurely lunches or romantic beachfront dinners. A villa manager ensures a seamless stay, while a private chef crafts exquisite Thai and international meals. Kayaks and a BBQ grill are available for guest use on request. The shoreline in front of the estate is rocky; a short 200-metre stroll along the coast brings you to a swimmable stretch of beach.",
+  "features": [
+    {
+      "l": "Two to four bedrooms · ≈1,041 m²",
+      "i": "bed"
+    },
+    {
+      "l": "Absolute beachfront · sunrise views",
+      "i": "waves"
+    },
+    {
+      "l": "Infinity pool · Thai-style gazebo · beach access",
+      "i": "pool"
+    },
+    {
+      "l": "Fold-away glass pavilions",
+      "i": "home"
+    },
+    {
+      "l": "12-seat dining · open kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Beachfront sala · yoga lawn",
+      "i": "sparkles"
+    },
+    {
+      "l": "Fully staffed · private chef",
+      "i": "view"
+    },
+    {
+      "l": "Kayaks & BBQ on request · 6 min to Fisherman’s Village",
+      "i": "car"
+    }
+  ]
+}

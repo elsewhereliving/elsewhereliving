@@ -1,0 +1,80 @@
+{
+  "id": "r-samui-bophut-hillside-treetop-pool-villa",
+  "image": "/assets/listings/r-samui-bophut-hillside-treetop-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-bophut-hillside-treetop-pool-villa/01.jpg",
+    "/assets/listings/r-samui-bophut-hillside-treetop-pool-villa/02.jpg",
+    "/assets/listings/r-samui-bophut-hillside-treetop-pool-villa/03.jpg",
+    "/assets/listings/r-samui-bophut-hillside-treetop-pool-villa/04.jpg",
+    "/assets/listings/r-samui-bophut-hillside-treetop-pool-villa/05.jpg",
+    "/assets/listings/r-samui-bophut-hillside-treetop-pool-villa/06.jpg",
+    "/assets/listings/r-samui-bophut-hillside-treetop-pool-villa/07.jpg",
+    "/assets/listings/r-samui-bophut-hillside-treetop-pool-villa/08.jpg",
+    "/assets/listings/r-samui-bophut-hillside-treetop-pool-villa/09.jpg",
+    "/assets/listings/r-samui-bophut-hillside-treetop-pool-villa/10.jpg",
+    "/assets/listings/r-samui-bophut-hillside-treetop-pool-villa/11.jpg",
+    "/assets/listings/r-samui-bophut-hillside-treetop-pool-villa/12.jpg",
+    "/assets/listings/r-samui-bophut-hillside-treetop-pool-villa/13.jpg",
+    "/assets/listings/r-samui-bophut-hillside-treetop-pool-villa/14.jpg",
+    "/assets/listings/r-samui-bophut-hillside-treetop-pool-villa/15.jpg",
+    "/assets/listings/r-samui-bophut-hillside-treetop-pool-villa/16.jpg",
+    "/assets/listings/r-samui-bophut-hillside-treetop-pool-villa/17.jpg"
+  ],
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bophut, Ko Samui District, Surat Thani, Thailand",
+  "nightlyCurrency": "USD",
+  "created": 1782777600000,
+  "featured": false,
+  "imageFocal": "",
+  "beds": 4,
+  "bedsLabel": "2–4",
+  "baths": 4,
+  "guests": 10,
+  "guestsLabel": "4–10",
+  "occupancy": "4–10 guests",
+  "mapQuery": "9.569004,100.017209",
+  "title": "Hillside Treetop & Ocean-View Pool Villa, Bophut, Koh Samui",
+  "view": [
+    "Sea View"
+  ],
+  "size": "630 m²",
+  "nightlyOriginalNum": 330,
+  "note": "Fully staffed · chef on request · + tax & service",
+  "sleeps": "4–10 guests · 2–4 bedrooms",
+  "blurb": "A 630 m² hillside villa in a managed beachfront residence estate at Bophut, waking to ocean and treetop views from an elevated setting. Just a six-minute drive to Fisherman’s Village and a three-minute walk to Bophut Beach, with an open-plan living room whose full-height doors frame a 12-metre infinity pool. Fully staffed, with an optional private chef.",
+  "detail": "Wake to ocean and treetop views from this 630 m² hillside villa, set on an elevated plot within a managed beachfront residence estate at Bophut. The property is just a six-minute drive to Fisherman’s Village and a three-minute walk to Bophut Beach; highlights include an open-plan living room with full-height doors that frame a view of the 12-metre infinity pool and the beach beyond.\n\nFacilities are made for a life of leisure, set across three storeys in a pavilion-style layout. The villa features an outdoor dining area as well as an air-conditioned indoor dining room with a well-equipped kitchen, while water hyacinths and other verdant touches complete the restful tableau.\n\nTwo double guest rooms sit on the pool level and open onto the pool deck and a sea view, while a twin bedroom on the ground floor has sliding doors into a secret garden and atrium. Each bedroom has its own en-suite with a rain shower, safe and TV; on the top level the largest bedroom adds its own balcony and a sunken bathtub with a sea view. The 12-metre pool has a shallow end for children. Fully staffed with an optional private chef, and kayaks, yoga mats and a BBQ grill available on request. The shoreline in front of the estate is rocky; a short 200-metre stroll along the coast brings you to a swimmable stretch of beach.",
+  "features": [
+    {
+      "l": "Two to four bedrooms · ≈630 m²",
+      "i": "bed"
+    },
+    {
+      "l": "Hillside · ocean & treetop views",
+      "i": "view"
+    },
+    {
+      "l": "12 m infinity pool · kids’ shallow end",
+      "i": "pool"
+    },
+    {
+      "l": "Three-storey pavilion layout",
+      "i": "home"
+    },
+    {
+      "l": "Top master · balcony · sunken bathtub",
+      "i": "sparkles"
+    },
+    {
+      "l": "Fully staffed · chef on request",
+      "i": "utensils"
+    },
+    {
+      "l": "Kayaks · yoga mats · BBQ on request",
+      "i": "waves"
+    },
+    {
+      "l": "130 m to beach · 6 min to Fisherman’s Village",
+      "i": "car"
+    }
+  ]
+}

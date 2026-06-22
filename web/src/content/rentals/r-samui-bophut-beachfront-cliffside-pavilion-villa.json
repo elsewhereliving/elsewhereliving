@@ -1,0 +1,88 @@
+{
+  "id": "r-samui-bophut-beachfront-cliffside-pavilion-villa",
+  "image": "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/01.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/02.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/03.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/04.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/05.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/06.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/07.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/08.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/09.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/10.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/11.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/12.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/13.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/14.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/15.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/16.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/17.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/18.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/19.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/20.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/21.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/22.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/23.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/24.jpg"
+  ],
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bophut, Ko Samui District, Surat Thani, Thailand",
+  "nightlyCurrency": "USD",
+  "created": 1782777600000,
+  "featured": false,
+  "imageFocal": "",
+  "beds": 4,
+  "bedsLabel": "2–4",
+  "baths": 4,
+  "guests": 10,
+  "guestsLabel": "4–10",
+  "occupancy": "4–10 guests",
+  "mapQuery": "9.569068,100.017477",
+  "title": "Beachfront Cliffside Pavilion Villa, Bophut, Koh Samui",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "size": "1,247 m²",
+  "nightlyOriginalNum": 640,
+  "note": "Fully staffed · private chef · + tax & service",
+  "sleeps": "4–10 guests · 2–4 bedrooms",
+  "blurb": "An enchanting 1,247 m² beachfront villa in a managed residence estate at Bophut, with a sparkling 12-metre infinity pool and overwater steps to a Thai-style sala framing Samui’s golden sunrise. A ground-floor pavilion and two elevated cliffside pavilions, fully staffed with a private chef. Six minutes to Fisherman’s Village, three to Bophut Beach.",
+  "detail": "An enchanting 1,247 m² beachfront villa with a sparkling 12-metre infinity pool, set within a managed residence estate at Bophut. The property is fully staffed with a private chef, and yoga mats and in-villa spa treatments are available on request — relaxation is as much a part of the experience as the view. The multi-storey home is just a six-minute drive to Fisherman’s Village and a three-minute walk to Bophut Beach.\n\nThe four-bedroom villa features air-conditioned pavilions with rich wooden accents, airy interiors and floor-to-ceiling glass doors that invite natural light. Overwater steps lead to a charming sala, a Thai-style gazebo perfect for admiring Samui’s golden sunrise.\n\nThe main ground-floor pavilion houses the indoor lounge, dining room, kitchen and a bedroom with twin beds. Two elevated cliffside pavilions hold three further bedrooms, each with sea views and access to a shared balcony-terrace; the largest features a romantic four-poster bed and a dressing area leading to a soaking tub for two, a rain shower and a private garden. Kayaks and a BBQ grill are available on request. The shoreline in front of the estate is rocky; a short 200-metre stroll along the coast brings you to a swimmable stretch of beach.",
+  "features": [
+    {
+      "l": "Two to four bedrooms · ≈1,247 m²",
+      "i": "bed"
+    },
+    {
+      "l": "Absolute beachfront · golden sunrise",
+      "i": "waves"
+    },
+    {
+      "l": "12 m infinity pool · overwater steps to sala",
+      "i": "pool"
+    },
+    {
+      "l": "Elevated cliffside pavilions · sea views",
+      "i": "home"
+    },
+    {
+      "l": "Master four-poster · soaking tub for two",
+      "i": "sparkles"
+    },
+    {
+      "l": "Yoga mats & in-villa spa on request",
+      "i": "view"
+    },
+    {
+      "l": "Fully staffed · private chef",
+      "i": "utensils"
+    },
+    {
+      "l": "Kayaks & BBQ on request · 6 min to Fisherman’s Village",
+      "i": "car"
+    }
+  ]
+}

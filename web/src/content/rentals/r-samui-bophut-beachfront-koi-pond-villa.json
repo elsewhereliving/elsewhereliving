@@ -1,0 +1,82 @@
+{
+  "id": "r-samui-bophut-beachfront-koi-pond-villa",
+  "image": "/assets/listings/r-samui-bophut-beachfront-koi-pond-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-bophut-beachfront-koi-pond-villa/01.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-koi-pond-villa/02.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-koi-pond-villa/03.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-koi-pond-villa/04.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-koi-pond-villa/05.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-koi-pond-villa/06.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-koi-pond-villa/07.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-koi-pond-villa/08.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-koi-pond-villa/09.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-koi-pond-villa/10.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-koi-pond-villa/11.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-koi-pond-villa/12.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-koi-pond-villa/13.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-koi-pond-villa/14.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-koi-pond-villa/15.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-koi-pond-villa/16.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-koi-pond-villa/17.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-koi-pond-villa/18.jpg"
+  ],
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bophut, Ko Samui District, Surat Thani, Thailand",
+  "nightlyCurrency": "USD",
+  "created": 1782777600000,
+  "featured": false,
+  "imageFocal": "",
+  "beds": 4,
+  "bedsLabel": "2–4",
+  "baths": 4,
+  "guests": 10,
+  "guestsLabel": "4–10",
+  "occupancy": "4–10 guests",
+  "mapQuery": "9.569068,100.017477",
+  "title": "Beachfront Koi-Pond Pool Villa, Bophut, Koh Samui",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "size": "1,075 m²",
+  "nightlyOriginalNum": 640,
+  "note": "Fully staffed · private chef · + tax & service",
+  "sleeps": "4–10 guests · 2–4 bedrooms",
+  "blurb": "An elegant beachfront villa of 1,075 m² in a managed residence estate at Bophut, with sweeping views across Bophut Beach. Six low-rise pavilions lead to a 12-metre seafront infinity pool, with a koi pond and stepping stones connecting to the dining pavilion. Fully staffed with a private chef; a short drive to Fisherman’s Village.",
+  "detail": "An elegant four-bedroom beachfront villa offering sweeping views across Bophut Beach, the 1,075 m² property sits within a managed residence estate just a short drive from the lively Fisherman’s Village.\n\nThe layout features six low-rise pavilions leading toward a spectacular 12-metre seafront infinity pool. The air-conditioned living room opens to a sea view and is adorned with white tiled floors, plush sofas and Asian-inspired décor. A koi pond with stepping stones connects to the dining pavilion, which seats ten around a timber table beside a modern kitchen and breakfast bar; both pavilions open on three sides for effortless indoor-outdoor living.\n\nDays here are spent in poolside bliss — sun loungers and umbrellas line the glistening blue-tiled pool, ideal for basking in the sun or indulging in a massage or yoga session, while a beachfront sala offers the perfect setting for relaxed lunches, barbecues or romantic dinners under the stars. Four stylish en-suite bedrooms accommodate up to eight guests, finished with natural stone, teakwood floors and Thai accents; the largest adds a luxurious bathtub. Fully staffed with a private chef, with kayaks and a BBQ grill available on request. The shoreline in front of the estate is rocky; a short 200-metre stroll along the coast brings you to a swimmable stretch of beach.",
+  "features": [
+    {
+      "l": "Two to four bedrooms · ≈1,075 m²",
+      "i": "bed"
+    },
+    {
+      "l": "Absolute beachfront · sweeping bay views",
+      "i": "waves"
+    },
+    {
+      "l": "12 m seafront infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Six low-rise pavilions · koi pond",
+      "i": "home"
+    },
+    {
+      "l": "10-seat dining pavilion · beachfront sala",
+      "i": "utensils"
+    },
+    {
+      "l": "Teakwood & natural-stone en-suites",
+      "i": "sparkles"
+    },
+    {
+      "l": "Fully staffed · private chef",
+      "i": "view"
+    },
+    {
+      "l": "Kayaks & BBQ on request · 6 min to Fisherman’s Village",
+      "i": "car"
+    }
+  ]
+}
