@@ -1,0 +1,89 @@
+{
+  "id": "chaweng-noi-4bed-seaview-pool-villa",
+  "internalName": "Verano Residence - Villa A20",
+  "image": "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/01.jpg",
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/02.jpg",
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/03.jpg",
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/04.jpg",
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/05.jpg",
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/06.jpg",
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/07.jpg",
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/08.jpg",
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/09.jpg",
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/10.jpg",
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/11.jpg",
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/12.jpg",
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/13.jpg",
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/14.jpg",
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/15.jpg",
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/16.jpg",
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/17.jpg",
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/18.jpg",
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/19.jpg",
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/20.jpg",
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/21.jpg",
+    "/assets/listings/chaweng-noi-4bed-seaview-pool-villa/22.jpg"
+  ],
+  "location": "Chaweng Noi · Koh Samui · Thailand",
+  "place": "Chaweng Noi, Bo Phut, Ko Samui District, Surat Thani, Thailand",
+  "market": "Koh Samui",
+  "title": "Four-Bedroom Sea-View Pool Villa, Chaweng Noi, Koh Samui",
+  "type": "Villa",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 4,
+  "bedsLabel": "4",
+  "baths": 5,
+  "interior": "600 m²",
+  "plot": "980 m²",
+  "year": null,
+  "ownership": "Freehold",
+  "priceOriginalNum": 39990000,
+  "priceCurrency": "THB",
+  "priceFrom": false,
+  "added": 86,
+  "created": 1782950400000,
+  "video": "",
+  "imageFocal": "",
+  "blurb": "A striking modern villa set high on a Chaweng Noi hillside, with panoramic views over the bay and the sea from an infinity-edge pool. Four bedrooms across light-filled, double-height living spaces wrapped in floor-to-ceiling glass, 600 m² of living area on a 980 m² freehold plot. Sold fully furnished. ฿39,990,000.",
+  "detail": "Perched high on the hillside above Chaweng Noi on Koh Samui’s east coast, this contemporary villa is designed around its sweeping panorama — an uninterrupted outlook over the bay, the beach and the open sea. A crisp, multi-level white architecture steps down the slope, its living spaces opening completely to the view through walls of floor-to-ceiling glass.\n\nThe heart of the home is a double-height living and dining pavilion with a sculptural staircase and an open kitchen, flowing out to a wide terrace and an infinity-edge pool that appears to spill toward the horizon. Bright, minimalist interiors in white and pale stone keep the focus on the seascape, with generous glazing drawing light and view into every room.\n\nFour en-suite bedrooms are arranged across the levels, several opening directly to sea-view balconies; the master adds a freestanding tub positioned to the water, alongside sleek stone-clad bathrooms. Roughly 600 m² of living area sits on a 980 m² plot held freehold, and the villa is sold fully furnished — a turnkey island home or a strong rental investment, minutes from Chaweng’s beaches, dining and nightlife.",
+  "features": [
+    {
+      "l": "Four en-suite bedrooms · 5 baths",
+      "i": "bed"
+    },
+    {
+      "l": "600 m² living · 980 m² plot",
+      "i": "plot"
+    },
+    {
+      "l": "Infinity-edge pool",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic Chaweng bay & sea views",
+      "i": "waves"
+    },
+    {
+      "l": "Double-height glass living pavilion",
+      "i": "home"
+    },
+    {
+      "l": "Master with sea-view freestanding tub",
+      "i": "sparkles"
+    },
+    {
+      "l": "Sold fully furnished · freehold",
+      "i": "key"
+    },
+    {
+      "l": "Minutes to Chaweng beach & dining",
+      "i": "car"
+    }
+  ],
+  "mapQuery": "9.494383,100.050604"
+}
