@@ -265,11 +265,12 @@ function PropertyCard({ item }: { item: Listing }) {
             transform: hover ? "scale(1.07)" : "scale(1)",
           }}
         />
-        {item.status ? (
-          <div style={{ position: "absolute", top: 14, left: 14, zIndex: 2 }}>
-            <BadgeLight>{item.status}</BadgeLight>
-          </div>
-        ) : null}
+        <div style={{ position: "absolute", top: 14, left: 14, zIndex: 2, display: "flex", flexWrap: "wrap", gap: 6 }}>
+          {item.status ? <BadgeLight>{item.status}</BadgeLight> : null}
+          {viewList(item.view).map((v) => (
+            <BadgeLight key={v}>{v}</BadgeLight>
+          ))}
+        </div>
         <div style={{ position: "absolute", top: 12, right: 12, zIndex: 2 }}>
           <SaveHeart id={item.id} />
         </div>
