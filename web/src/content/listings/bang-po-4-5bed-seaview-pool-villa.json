@@ -1,0 +1,73 @@
+{
+  "id": "bang-po-4-5bed-seaview-pool-villa",
+  "internalName": "Bel Roc Villas — Type A (Bel Cielo)",
+  "image": "/assets/listings/bang-po-4-5bed-seaview-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/bang-po-4-5bed-seaview-pool-villa/01.jpg",
+    "/assets/listings/bang-po-4-5bed-seaview-pool-villa/02.jpg",
+    "/assets/listings/bang-po-4-5bed-seaview-pool-villa/03.jpg",
+    "/assets/listings/bang-po-4-5bed-seaview-pool-villa/04.jpg",
+    "/assets/listings/bang-po-4-5bed-seaview-pool-villa/05.jpg",
+    "/assets/listings/bang-po-4-5bed-seaview-pool-villa/06.jpg",
+    "/assets/listings/bang-po-4-5bed-seaview-pool-villa/07.jpg"
+  ],
+  "location": "Bang Po · Koh Samui · Thailand",
+  "place": "Bang Po, Maenam, Ko Samui District, Surat Thani, Thailand",
+  "market": "Koh Samui",
+  "type": "Villa",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Off-Plan",
+  "year": 2026,
+  "ownership": "Freehold or Leasehold",
+  "priceCurrency": "THB",
+  "priceFrom": true,
+  "mapQuery": "9.570758,99.948759",
+  "created": 1782950400000,
+  "video": "",
+  "imageFocal": "",
+  "title": "Four-to-Five-Bedroom Sea-View Pool Villa, Bang Po, Koh Samui",
+  "beds": 5,
+  "bedsLabel": "4–5",
+  "baths": "5–6",
+  "interior": "440–472 m²",
+  "plot": "982 m²",
+  "priceOriginalNum": 33900000,
+  "blurb": "The largest design in an exclusive ten-villa development 900 m from Bang Po Beach, Koh Samui — a four-to-five-bedroom sea-view villa of 440–472 m² on a 982 m² plot, with curved architecture, walls of glass and a private infinity pool framing the Gulf of Thailand. Fully furnished, off-plan from ฿33,900,000.",
+  "detail": "Part of an exclusive development of ten luxury villas on a 5,892 m² estate, just 900 metres from the pristine sands of Bang Po Beach on Koh Samui’s tranquil north coast, reached by an almost-flat road ending in a quiet cul-de-sac. An extraordinary curved architecture is combined with a tropical aesthetic that integrates the villas harmoniously into their surroundings while ensuring stunning sea views from each home.\n\nThis is the development’s most generous design — a four-to-five-bedroom home of roughly 440–472 m² of built area on a 982 m² plot, with five to six bathrooms. The sweeping, curved roofline shelters open-plan living and dining spaces that flow out to a wide pool terrace, with sea views drawn deep into every room.\n\nLarge floor-to-ceiling windows and doors dissolve the boundary between interior and exterior, flooding the living spaces with natural light and framing panoramic views of the Gulf of Thailand below, while the private infinity pool is surrounded by hundreds of thousands of square metres of untouched tropical forest. Delivered fully furnished with a modern kitchen, and supported by comprehensive property management covering common-area, pool and garden maintenance, housekeeping and rental management. Construction of the first villas is expected to complete by August 2026; offered freehold or on a 30+30-year leasehold.",
+  "features": [
+    {
+      "l": "Four to five bedrooms · 5–6 baths",
+      "i": "bed"
+    },
+    {
+      "l": "440–472 m² built · 982 m² plot",
+      "i": "plot"
+    },
+    {
+      "l": "Private infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic Gulf of Thailand sea views",
+      "i": "waves"
+    },
+    {
+      "l": "Curved architecture · walls of glass",
+      "i": "home"
+    },
+    {
+      "l": "Fully furnished · modern kitchen",
+      "i": "sparkles"
+    },
+    {
+      "l": "900 m to Bang Po Beach",
+      "i": "view"
+    },
+    {
+      "l": "Freehold or 30+30 leasehold · completes 2026",
+      "i": "shield"
+    }
+  ]
+}
