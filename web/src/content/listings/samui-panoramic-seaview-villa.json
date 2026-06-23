@@ -33,7 +33,7 @@
   "place": "Koh Samui, Surat Thani, Thailand",
   "mapQuery": "9.551338,100.018316",
   "market": "Koh Samui",
-  "title": "Three-Pavilion Sea-View Estate with 25-Metre Pool - Bophut",
+  "title": "Sea-View Hilltop Estate with Tennis Court & Boxing Ring - Bophut",
   "type": "Villa",
   "view": "Sea View",
   "status": "Move-In Ready",
@@ -47,7 +47,7 @@
   "added": 23,
   "ownership": "Freehold",
   "blurb": "A six-bedroom estate conceived as one of Koh Samui's finest private havens — pavilion bedrooms with unobstructed sea and island views, a 25-metre infinity pool, and a resort's worth of amenities from private cinema and tennis court to a Muay Thai ring.",
-  "detail": "Welcome to a crown jewel of luxury living on Koh Samui — a stunning six-bedroom estate that stands as one of the island's finest private havens, perched for unobstructed views of the sea. You enter across stepping stones over a serene koi pond, with tall Buddha statues set into a stone-clad wall, setting the tone for the opulence that follows. At the heart of the residence, a two-storey pavilion houses a vast glass-walled lounge and dining room on the upper level, where contemporary artwork and a cascading glass chandelier meet seascapes and lush tropical forest on every side.\n\nThe three master bedrooms each occupy standalone pavilions, positioned for dramatic sea and island views from their king-size beds, with glass-walled rain showers, private rooftop gardens, terrazzo bathtubs and terraces — and one suite enjoys its own private 12-metre pool. Doors slide open onto wide terraces above the garden and the enticing 25-metre infinity pool, which blends seamlessly into the horizon.\n\nFar more than a retreat, the estate is an entertainment haven: a private cinema with ten recliners, a games room with pool table, a children's club and playroom, a fully equipped gym, sauna and dedicated spa room, plus a private tennis court and a Muay Thai boxing ring. With a full team of dedicated staff and private chef on hand, it is a singular setting for celebrations and gatherings — the pinnacle of luxury living on Koh Samui.",
+  "detail": "Welcome to a crown jewel of luxury living on Koh Samui — a stunning six-bedroom estate that stands as one of the island's finest private havens, perched for unobstructed views of the sea. You enter across stepping stones over a serene koi pond, with tall Buddha statues set into a stone-clad wall, setting the tone for the opulence that follows. At the heart of the residence, a two-storey pavilion houses a vast glass-walled lounge and dining room on the upper level, where contemporary artwork and a cascading glass chandelier meet seascapes and lush tropical forest on every side.\n\nThe three master bedrooms each occupy standalone pavilions, positioned for dramatic sea and island views from their king-size beds, with glass-walled rain showers, private rooftop gardens, terrazzo bathtubs and terraces — and one suite enjoys its own private 12-metre pool. Doors slide open onto wide terraces above the garden and the enticing 25-metre infinity pool, which blends seamlessly into the horizon.\n\nFar more than a retreat, the estate is an entertainment haven: a private cinema with ten recliners, a games room with pool table, a children's club and playroom, a fully equipped gym, a sauna and steam room and a dedicated spa room, a wine cellar, and poolside and sunset salas, plus a private tennis court and a Muay Thai boxing ring. Across roughly 3,200 m² over three floors it sleeps up to fourteen, with a full team of dedicated staff and a private chef on hand — a singular setting for celebrations and gatherings of up to sixty guests, and the pinnacle of luxury living on Koh Samui.",
   "features": [
     {
       "l": "25 m infinity pool",
@@ -74,8 +74,12 @@
       "i": "users"
     },
     {
-      "l": "Gym, sauna & spa room",
+      "l": "Gym, sauna, steam & spa room",
       "i": "gym"
+    },
+    {
+      "l": "Wine cellar · poolside & sunset salas",
+      "i": "sun"
     },
     {
       "l": "Private tennis court & Muay Thai ring",
