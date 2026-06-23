@@ -1,6 +1,6 @@
 {
   "id": "plai-laem-dual-pool-hilltop-estate",
-  "image": "/assets/listings/plai-laem-dual-pool-hilltop-estate/ext-002.jpg",
+  "image": "/assets/listings/plai-laem-dual-pool-hilltop-estate/ext-001.jpg",
   "gallery": [
     "/assets/listings/plai-laem-dual-pool-hilltop-estate/ext-001.jpg",
     "/assets/listings/plai-laem-dual-pool-hilltop-estate/ext-002.jpg",
@@ -111,5 +111,7 @@
       "i": "car"
     }
   ],
-  "created": 1781678529000
+  "created": 1781678529000,
+  "internalName": "Villa Uno",
+  "imageFocal": ""
 }

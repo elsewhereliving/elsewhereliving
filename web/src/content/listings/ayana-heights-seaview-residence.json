@@ -1,6 +1,6 @@
 {
   "id": "ayana-heights-seaview-residence",
-  "image": "/assets/listings/ayana-heights-seaview-residence/ext-004.jpg",
+  "image": "/assets/listings/ayana-heights-seaview-residence/ext-001.jpg",
   "gallery": [
     "/assets/listings/ayana-heights-seaview-residence/ext-001.jpg",
     "/assets/listings/ayana-heights-seaview-residence/ext-002.jpg",
@@ -87,5 +87,7 @@
       "i": "waves"
     }
   ],
-  "created": 1781750529000
+  "created": 1781750529000,
+  "internalName": "AYANA Heights Seaview Residence",
+  "imageFocal": ""
 }

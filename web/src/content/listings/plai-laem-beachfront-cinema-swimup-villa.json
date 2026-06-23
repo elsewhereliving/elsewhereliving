@@ -23,7 +23,7 @@
     "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-019.jpg",
     "/assets/listings/plai-laem-beachfront-cinema-swimup-villa/ext-020.jpg"
   ],
-  "video": "https://www.youtube.com/watch?v=Wo0Pc4UA7CQ",
+  "video": "",
   "location": "Plai Laem · Koh Samui · Thailand",
   "place": "Samrong Bay, Plai Laem, Bo Phut, Ko Samui District, Surat Thani 84320, Thailand",
   "mapQuery": "9.58897,100.07031",
@@ -96,5 +96,7 @@
       "i": "building"
     }
   ],
-  "created": 1781736129000
+  "created": 1781736129000,
+  "internalName": "Villa Blue Amber",
+  "imageFocal": ""
 }

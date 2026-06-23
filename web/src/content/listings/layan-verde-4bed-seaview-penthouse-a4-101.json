@@ -1,13 +1,12 @@
 {
   "id": "layan-verde-4bed-seaview-penthouse-a4-101",
-  "image": "/assets/listings/layan-a4-101/05.jpg",
+  "image": "/assets/listings/layan-a4-101/01.jpg",
   "gallery": [
-    "/assets/listings/layan-a4-101/05.jpg",
-    "/assets/listings/layan-a4-101/13.jpg",
-    "/assets/listings/layan-a4-101/04.jpg",
     "/assets/listings/layan-a4-101/01.jpg",
     "/assets/listings/layan-a4-101/02.jpg",
     "/assets/listings/layan-a4-101/03.jpg",
+    "/assets/listings/layan-a4-101/04.jpg",
+    "/assets/listings/layan-a4-101/05.jpg",
     "/assets/listings/layan-a4-101/06.jpg",
     "/assets/listings/layan-a4-101/07.jpg",
     "/assets/listings/layan-a4-101/08.jpg",
@@ -15,6 +14,7 @@
     "/assets/listings/layan-a4-101/10.jpg",
     "/assets/listings/layan-a4-101/11.jpg",
     "/assets/listings/layan-a4-101/12.jpg",
+    "/assets/listings/layan-a4-101/13.jpg",
     "/assets/listings/layan-a4-101/14.jpg",
     "/assets/listings/layan-a4-101/15.jpg",
     "/assets/listings/layan-a4-101/16.jpg",
@@ -119,5 +119,6 @@
   "featured": true,
   "featuredRank": 19,
   "imageFocal": "",
-  "created": 1781754129000
+  "created": 1781754129000,
+  "internalName": "Layan Verde - Penthouse"
 }
