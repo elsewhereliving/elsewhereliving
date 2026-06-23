@@ -3,7 +3,7 @@
 import Icon from "./Icon.astro";
 import Badge from "./Badge.astro";
 import SaveButton from "./react/SaveButton.tsx";
-import { viewList, viewText } from "../lib/format";
+import { viewBadges, viewText } from "../lib/format";
 import { optImg } from "../lib/img";
 import type { Listing } from "../lib/types";
 
@@ -20,7 +20,7 @@ const tooltip = item.priceOriginal
     <img src={optImg(item.image, "main")} alt={item.title} loading="lazy" decoding="async" width="640" height="427" style={`object-position:${item.imageFocal || "center"}`} onerror={`this.onerror=null;this.src='${item.image}'`} />
     <div style="position:absolute; top:14px; left:14px; z-index:2; display:flex; flex-wrap:wrap; gap:6px;">
       {item.status && <Badge tone="light">{item.status}</Badge>}
-      {viewList(item.view).map((v) => <Badge tone="light">{v}</Badge>)}
+      {viewBadges(item.view).map((v) => <Badge tone="light">{v}</Badge>)}
     </div>
     <div style="position:absolute; top:12px; right:12px; z-index:2;"><SaveButton id={item.id} client:visible /></div>
   </div>

@@ -3,12 +3,12 @@
 import Icon from "./Icon.astro";
 import Badge from "./Badge.astro";
 import SaveButton from "./react/SaveButton.tsx";
-import { viewList } from "../lib/format";
+import { viewBadges } from "../lib/format";
 import type { Rental } from "../lib/types";
 interface Props { item: Rental; href?: string; }
 const { item, href } = Astro.props;
 const link = href ?? `/rentals/${item.id}/`;
-const views = viewList(item.view);
+const views = viewBadges(item.view);
 // nightlyOriginal / nightlyCurrency may appear in the data (PriceTag tooltip).
 const nightlyOriginal = (item as any).nightlyOriginal as string | undefined;
 const nightlyCurrency = (item as any).nightlyCurrency as string | undefined;

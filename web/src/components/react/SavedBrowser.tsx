@@ -1,6 +1,6 @@
 import { useState } from "react";
 import type { Listing, Rental } from "../../lib/types";
-import { viewList, viewText } from "../../lib/format";
+import { viewBadges, viewText } from "../../lib/format";
 import { useSaved } from "./useSaved";
 import SaveButton from "./SaveButton";
 
@@ -267,7 +267,7 @@ function PropertyCard({ item }: { item: Listing }) {
         />
         <div style={{ position: "absolute", top: 14, left: 14, zIndex: 2, display: "flex", flexWrap: "wrap", gap: 6 }}>
           {item.status ? <BadgeLight>{item.status}</BadgeLight> : null}
-          {viewList(item.view).map((v) => (
+          {viewBadges(item.view).map((v) => (
             <BadgeLight key={v}>{v}</BadgeLight>
           ))}
         </div>
@@ -367,7 +367,7 @@ function PropertyCard({ item }: { item: Listing }) {
 // --- RentalCard (js/pages.js RentalCard) — whole card is an <a> -----------
 function RentalCard({ item }: { item: Rental }) {
   const [hover, setHover] = useState(false);
-  const views = viewList(item.view);
+  const views = viewBadges(item.view);
   const original = (item as Rental & { nightlyOriginal?: string }).nightlyOriginal;
   const currency = (item as Rental & { nightlyCurrency?: string }).nightlyCurrency;
   return (

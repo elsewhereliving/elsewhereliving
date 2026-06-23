@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Rental } from "../../lib/types";
-import { viewList } from "../../lib/format";
+import { viewBadges, viewList } from "../../lib/format";
 import SaveButton from "./SaveButton";
 import RangeSlider from "./RangeSlider";
 
@@ -196,7 +196,7 @@ function PriceTag({
 // --- RentalCard (js/pages.js RentalCard) — whole card is an <a> ------------
 function RentalCard({ item }: { item: RentalItem }) {
   const [hover, setHover] = useState(false);
-  const views = viewList(item.view);
+  const views = viewBadges(item.view);
   const original = (item as Rental & { nightlyOriginal?: string }).nightlyOriginal;
   const currency = (item as Rental & { nightlyCurrency?: string }).nightlyCurrency;
   return (
