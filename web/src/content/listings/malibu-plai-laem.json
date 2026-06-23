@@ -29,7 +29,7 @@
   "market": "Koh Samui",
   "title": "Malibu Villas — Three-Bedroom Beachside Villa in Plai Laem",
   "type": "Villa",
-  "view": "Beachside",
+  "view": ["Beachside", "Garden / Pool View"],
   "status": "Off-Plan",
   "beds": 3,
   "baths": 4,

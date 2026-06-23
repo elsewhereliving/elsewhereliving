@@ -8,7 +8,7 @@ import PhotoManager from "./PhotoManager";
 import { saveRecord, deleteRecord } from "./fsRepo";
 import { useStudio, useToast, type Rec } from "./Studio";
 
-const VIEW_OPTIONS = ["Sea View", "Beachfront", "Waterfront", "City View", "Mountain View", "Garden / Pool View"];
+const VIEW_OPTIONS = ["Sea View", "Beachfront", "Beachside", "Waterfront", "City View", "Mountain View", "Garden / Pool View"];
 const CURRENCIES = ["USD", "THB", "EUR", "IDR", "AED", "GBP", "SGD", "AUD", "CHF"];
 
 function youTubeId(u: string): string {

@@ -501,7 +501,7 @@ function OutlineButton({ children, onClick }: { children: React.ReactNode; onCli
   );
 }
 
-const VIEWS = ["All", "Sea View", "Beachfront", "Waterfront", "Mountain View", "Garden / Pool View"];
+const VIEWS = ["All", "Sea View", "Beachfront", "Beachside", "Waterfront", "Mountain View", "Garden / Pool View"];
 
 export default function RentalsBrowser({ items, destinations }: Props) {
   const destOpts = [ALL, ...destinations];
