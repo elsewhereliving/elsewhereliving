@@ -9,6 +9,15 @@ let root: any = null;
 export const fsSupported = () => typeof (globalThis as any).showDirectoryPicker === "function";
 export const fsConnected = () => !!root;
 
+// Verify we actually hold read-write access; re-prompt (needs a user gesture,
+// e.g. the Save click) if the grant lapsed or the folder was opened view-only.
+async function ensureWritable(h: any): Promise<void> {
+  if (!h || typeof h.queryPermission !== "function") return;
+  const opts = { mode: "readwrite" } as any;
+  if ((await h.queryPermission(opts)) === "granted") return;
+  if ((await h.requestPermission(opts)) === "granted") return;
+  throw new Error("Write access to the repo folder was declined — re-connect it and choose “Edit files” when Chrome asks.");
+}
 async function getDir(base: any, parts: string[], create = false) {
   let d = base;
   for (const p of parts) d = await d.getDirectoryHandle(p, { create });
@@ -37,6 +46,7 @@ export async function connect(): Promise<string> {
   const h = await (globalThis as any).showDirectoryPicker({ mode: "readwrite", id: "ew-repo" });
   try { await getDir(h, ["web", "src", "content", "listings"]); }
   catch { throw new Error("That folder isn't the site repo (no web/src/content/listings)."); }
+  await ensureWritable(h);
   root = h;
   return h.name;
 }
@@ -49,6 +59,7 @@ const folderOf = (c: string) => (c === "rentals" ? "rentals" : "listings");
 // paths) so the in-memory copy can be synced.
 export async function saveRecord(collection: string, rec: Rec): Promise<Rec> {
   if (!root) throw new Error("Connect your repo folder first");
+  await ensureWritable(root);
   const id = rec.id;
   const stamp = Date.now().toString(36);
   const gallery: string[] = [];
@@ -71,10 +82,12 @@ export async function saveRecord(collection: string, rec: Rec): Promise<Rec> {
 
 export async function deleteRecord(collection: string, id: string) {
   if (!root) throw new Error("Connect your repo folder first");
+  await ensureWritable(root);
   await removeFile(["web", "src", "content", folderOf(collection)], id + ".json");
 }
 
 export async function writeHome(count: number) {
   if (!root) throw new Error("Connect your repo folder first");
+  await ensureWritable(root);
   await writeFile(["web", "src", "data"], "home.json", JSON.stringify({ count }, null, 2) + "\n");
 }
