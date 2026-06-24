@@ -68,7 +68,16 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
             <span style={{ fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--slate)", fontWeight: 500 }}>{isRental ? "Rental" : "For sale"}{dirty ? " · Unsaved" : existing ? "" : " · New"}</span>
             <div style={{ fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: 17, color: "var(--navy)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{rec.title || "Untitled property"}</div>
           </div>
-          <div style={{ display: "flex", gap: 10 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            <button
+              type="button"
+              onClick={() => { if (crm.fsSupported) crm.connectRepo(); }}
+              title={crm.fsConnected ? "Repo folder connected — Save writes to disk" : crm.fsSupported ? "Not connected — Save is session-only. Click to connect your repo folder." : "Open this page in Chrome or Edge to connect a folder"}
+              style={{ display: "inline-flex", alignItems: "center", gap: 7, background: "none", border: "1px solid var(--border-on-light)", borderRadius: 999, padding: "7px 13px", cursor: crm.fsSupported && !crm.fsConnected ? "pointer" : "default", fontFamily: "var(--font-sans)", fontSize: 10, letterSpacing: "0.12em", textTransform: "uppercase", color: "var(--slate)", whiteSpace: "nowrap" }}
+            >
+              <span style={{ width: 7, height: 7, borderRadius: "50%", background: crm.fsConnected ? "#3a8a4a" : "var(--stone)", flex: "0 0 auto" }} />
+              {crm.fsConnected ? "Repo connected" : crm.fsSupported ? "Connect repo" : "Chrome only"}
+            </button>
             {dirty && <BarBtn onClick={requestClose} variant="ghost" label="Cancel" />}
             <BarBtn onClick={() => save(false)} variant="ghost" label="Save" />
             <BarBtn onClick={() => save(true)} variant="solid" label="Save & close" />
