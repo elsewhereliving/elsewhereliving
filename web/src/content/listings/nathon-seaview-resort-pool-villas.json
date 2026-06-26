@@ -1,0 +1,71 @@
+{
+  "id": "nathon-seaview-resort-pool-villas",
+  "internalName": "THEVA DARA / The Vadara Collection — RoomQuest THEVA Resort",
+  "image": "/assets/listings/nathon-seaview-resort-pool-villas/01.jpg",
+  "gallery": [
+    "/assets/listings/nathon-seaview-resort-pool-villas/01.jpg",
+    "/assets/listings/nathon-seaview-resort-pool-villas/02.jpg",
+    "/assets/listings/nathon-seaview-resort-pool-villas/03.jpg",
+    "/assets/listings/nathon-seaview-resort-pool-villas/04.jpg"
+  ],
+  "location": "Nathon · Koh Samui · Thailand",
+  "place": "Nathon, Ko Samui District, Surat Thani, Thailand",
+  "market": "Koh Samui",
+  "title": "Resort-Managed Sea-View Pool Villas — Investment - Nathon",
+  "type": "Villa",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Off-Plan",
+  "beds": 1,
+  "bedsLabel": "1",
+  "baths": 1,
+  "interior": "",
+  "plot": "",
+  "year": 2027,
+  "ownership": "",
+  "priceOriginalNum": 6500000,
+  "priceCurrency": "THB",
+  "priceFrom": true,
+  "yield": "10% ROI guaranteed · first 5 years",
+  "added": 86,
+  "created": 1783036800000,
+  "video": "",
+  "imageFocal": "",
+  "blurb": "A boutique release of just seven private-pool sea-view villas on a palm-clad hillside near Nathon, on Koh Samui’s quiet west coast. Each villa has its own infinity plunge pool framing the Gulf, and is fully managed within the resort hotel programme — generating passive income while owners enjoy the property whenever they choose. A guaranteed 10% ROI for the first five years; from ฿6,500,000, completing Q2 2027.",
+  "detail": "A limited collection of only seven private-pool villas set into a green hillside above the west coast of Koh Samui, close to Nathon — a calmer, more local stretch of the island that stays well connected to everywhere else (around 15 minutes to Lipa Noi Beach, 30 to Fisherman’s Village and 40 to Chaweng and the airport).\n\nEach single-level villa is conceived for tropical indoor-outdoor living — glass walls slide back to dissolve the line between the living pavilion and a private infinity plunge pool that looks out over the palms to the sea and the island’s sunsets. The architecture is restrained and contemporary, finished in natural stone and warm timber.\n\nWhat makes this a smart investment as much as a retreat is the management: every villa is operated as part of the resort hotel programme, with housekeeping, cleaning and pool maintenance held to five-star resort standards, so the home earns consistently and transparently while sitting ready for the owner whenever they visit. Owners also enjoy the resort’s facilities at exclusive partner rates.\n\nThe developer offers a guaranteed 10% return on investment for the first five years. Pricing rises with each release phase as units sell in order of reservation — the founder release (units 1–2) from ฿6,500,000, the early-investor release (units 3–4) at ฿7,000,000, and the final release (units 5–7) at ฿7,500,000. All prices in Thai Baht, excluding legal and transfer fees. Completion is targeted for Q2 2027.",
+  "features": [
+    {
+      "l": "Only 7 private-pool villas",
+      "i": "home"
+    },
+    {
+      "l": "Infinity plunge pool with sea views",
+      "i": "pool"
+    },
+    {
+      "l": "Guaranteed 10% ROI · first 5 years",
+      "i": "key"
+    },
+    {
+      "l": "Fully resort-managed · passive income",
+      "i": "shield"
+    },
+    {
+      "l": "Five-star housekeeping & pool service",
+      "i": "sparkles"
+    },
+    {
+      "l": "Owner partner rates at the resort",
+      "i": "users"
+    },
+    {
+      "l": "Near Nathon · 15 min to Lipa Noi Beach",
+      "i": "car"
+    },
+    {
+      "l": "From ฿6.5M · completing Q2 2027",
+      "i": "view"
+    }
+  ]
+}

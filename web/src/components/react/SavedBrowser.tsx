@@ -355,7 +355,7 @@ function PropertyCard({ item }: { item: Listing }) {
                 color: "var(--slate)",
               }}
             >
-              {isLand ? item.yield : item.yield + " yield"}
+              {isLand || /yield|roi|guarant|return|p\.a/i.test(item.yield) ? item.yield : item.yield + " yield"}
             </div>
           ) : null}
         </div>

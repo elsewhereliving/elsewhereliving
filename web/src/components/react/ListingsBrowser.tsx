@@ -342,7 +342,7 @@ function PropertyCard({ item }: { item: Listing }) {
                 color: "var(--slate)",
               }}
             >
-              {item.type === "Land" ? item.yield : item.yield + " yield"}
+              {item.type === "Land" || /yield|roi|guarant|return|p\.a/i.test(item.yield) ? item.yield : item.yield + " yield"}
             </div>
           ) : null}
         </div>
