@@ -604,7 +604,7 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
     if (sort === "high") out = [...out].sort((a, b) => salePrice(b) - salePrice(a));
     if (sort === "newest") {
       const recency = (x: Listing) => (x as any).created ?? (x as any).added ?? 0;
-      out = [...out].sort((a, b) => recency(b) - recency(a));
+      out = [...out].sort((a, b) => recency(b) - recency(a) || a.id.localeCompare(b.id));
     }
     if (sort === "featured") {
       // Featured listings first, in the exact order set in the Studio
