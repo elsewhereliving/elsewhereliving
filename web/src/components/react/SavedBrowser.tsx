@@ -134,7 +134,7 @@ function PriceTag({
   const [show, setShow] = useState(false);
   if (!original) {
     return (
-      <span style={{ fontFamily: "var(--font-serif)", fontWeight: 400, fontSize: size, color }}>
+      <span style={{ fontFamily: "var(--font-serif)", fontWeight: 400, fontSize: size, color, whiteSpace: "nowrap" }}>
         {value}
       </span>
     );
@@ -157,6 +157,7 @@ function PriceTag({
           color,
           borderBottom: "1px dotted var(--stone)",
           paddingBottom: 1,
+          whiteSpace: "nowrap",
         }}
       >
         {value}
@@ -332,9 +333,11 @@ function PropertyCard({ item }: { item: Listing }) {
               <span style={{ display: "inline-flex", alignItems: "center", gap: 6 }}>
                 <Icon name="bath" size={15} color="var(--slate)" stroke={1.4} /> {item.baths}
               </span>
-              <span style={{ display: "inline-flex", alignItems: "center", gap: 6 }}>
-                <Icon name="interior" size={15} color="var(--slate)" stroke={1.4} /> {item.interior}
-              </span>
+              {item.interior && (
+                <span style={{ display: "inline-flex", alignItems: "center", gap: 6 }}>
+                  <Icon name="interior" size={15} color="var(--slate)" stroke={1.4} /> {item.interior}
+                </span>
+              )}
               {item.plot && (
                 <span style={{ display: "inline-flex", alignItems: "center", gap: 6 }}>
                   <Icon name="plot" size={15} color="var(--slate)" stroke={1.4} /> {item.plot}
@@ -344,18 +347,26 @@ function PropertyCard({ item }: { item: Listing }) {
           )}
         </div>
         <div style={{ marginTop: 16, display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: 12 }}>
-          <PriceTag value={item.price} original={item.priceOriginal} currency={item.priceCurrency} size={19} />
+          <span style={{ flexShrink: 0 }}>
+            <PriceTag value={item.price} original={item.priceOriginal} currency={item.priceCurrency} size={19} />
+          </span>
           {item.yield ? (
             <div
               style={{
                 fontFamily: "var(--font-sans)",
                 fontSize: 10.5,
-                letterSpacing: "0.14em",
+                letterSpacing: "0.07em",
                 textTransform: "uppercase",
                 color: "var(--slate)",
+                textAlign: "right",
+                lineHeight: 1.5,
               }}
             >
-              {isLand || /yield|roi|guarant|return|p\.a/i.test(item.yield) ? item.yield : item.yield + " yield"}
+              {(isLand || /yield|roi|guarant|return|p\.a/i.test(item.yield) ? item.yield : item.yield + " yield")
+                .split(" · ")
+                .map((part, i) => (
+                  <div key={i} style={{ whiteSpace: "nowrap" }}>{part}</div>
+                ))}
             </div>
           ) : null}
         </div>
