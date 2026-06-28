@@ -1,5 +1,6 @@
 {
   "id": "ko-kaeo-hilltop-4bed-villa-phuket",
+  "internalName": "Canopy Hills Villas - Phuket",
   "image": "/assets/listings/ko-kaeo-hilltop-4bed-villa-phuket/01.jpg",
   "gallery": [
     "/assets/listings/ko-kaeo-hilltop-4bed-villa-phuket/01.jpg",
@@ -29,59 +30,57 @@
   "interior": "650 m²",
   "plot": "672 m²",
   "year": 2026,
-  "priceOriginalNum": 1440000,
+  "ownership": "Freehold or Leasehold",
+  "priceOriginalNum": 1743000,
   "priceCurrency": "USD",
+  "priceFrom": true,
   "added": 74,
-  "blurb": "A brand-new four-bedroom villa rising on a Ko Kaeo hillside in central Phuket, with double-height glass, a private pool and wide mountain-and-city views. Around 650 m² over two floors, due for completion in 2026 and still open to custom finishes.",
-  "detail": "Rising on a quiet hillside in Ko Kaeo — one of Phuket's fastest-emerging residential pockets — this four-bedroom villa is a study in clean, contemporary lines: stacked horizontal planes, timber screening and full-height glass that open the house to the slope and the views beyond. Set over two floors and roughly 650 m² of built space, it balances generous shared living with genuine privacy.\n\nThe ground floor is given over to open-plan living, dining and a sleek island kitchen that slide out to a covered terrace and a private swimming pool, framed by lawn and tropical planting. Glazing on three sides keeps the interiors bright and connected to the mountain and city outlook in every direction.\n\nAll four bedrooms are en-suite, with the principal suite taking the best of the elevation, and a fifth bathroom serves the living areas. Finishes are modern and restrained throughout, and — as a new build still under construction — there is scope to tailor materials and details to taste.\n\nScheduled for completion in 2026, the villa is a rare chance to secure a brand-new home with a covered garage and room to personalise, within easy reach of central Phuket's international schools, marinas, beaches and the airport.",
+  "blurb": "A boutique hilltop development in Ko Kaeo, central Phuket — contemporary four-bedroom pool villas with double-height glass and wide mountain-and-city views, a five-minute drive from British International School Phuket. Four-bedroom homes from $1,743,000, each with a 12 × 3.5 m private pool; the first show villa completes in August 2026, with larger five-bedroom villas also available.",
+  "detail": "Rising on a quiet hillside in Ko Kaeo — one of central Phuket's fastest-emerging residential pockets — this is a boutique collection of contemporary pool villas defined by clean, stacked horizontal planes, timber screening and full-height glass that open each home to the slope and the views beyond. The setting is ideal for families: British International School Phuket is just a five-minute drive away, making this a natural choice for parents with children at the school, with marinas, beaches, the airport and central Phuket all within easy reach.\n\nThe four-bedroom villas are set over two floors of roughly 650 m². The ground floor is given over to open-plan living, dining and a sleek island kitchen that slide out to a covered terrace and a private 12 × 3.5-metre swimming pool, framed by lawn and tropical planting. Glazing on three sides keeps the interiors bright and connected to the mountain and city outlook in every direction.\n\nAll four bedrooms are en-suite, with the principal suite taking the best of the elevation, and a fifth bathroom serves the living areas. Finishes are modern and restrained throughout and — as new builds still under construction — there is scope to tailor materials and details to taste. An optional furniture package (approximately ฿3.4–4.5 million) can hand the villa over fully fitted and turnkey.\n\nFour-bedroom villas are priced from $1,743,000 (about ฿57,500,000), with larger five-bedroom villas in the development up to around $2,320,000. The first show villa is scheduled for completion in August 2026, and homes are offered on freehold or leasehold terms, each with a covered garage.",
   "features": [
     {
-      "l": "Private pool & covered terrace",
+      "l": "Private pool · 12 × 3.5 m",
       "i": "pool"
     },
     {
-      "l": "Four en-suite bedrooms",
+      "l": "Four en-suite bedrooms · 5 baths",
       "i": "bed"
     },
     {
-      "l": "Five bathrooms",
-      "i": "bath"
+      "l": "5 min to British International School Phuket",
+      "i": "key"
     },
     {
       "l": "Mountain & city views",
       "i": "mountain"
     },
     {
-      "l": "Floor-to-ceiling glass, indoor–outdoor living",
+      "l": "Floor-to-ceiling glass · indoor–outdoor living",
       "i": "home"
     },
     {
-      "l": "≈650 m² build over two floors",
-      "i": "building"
-    },
-    {
-      "l": "≈672 m² plot",
-      "i": "plot"
-    },
-    {
-      "l": "Hilltop position in Ko Kaeo",
-      "i": "view"
-    },
-    {
-      "l": "Covered garage",
-      "i": "car"
-    },
-    {
-      "l": "Brand-new build · customisable finishes",
+      "l": "First show villa completes August 2026",
       "i": "sparkles"
     },
     {
-      "l": "Landscaped tropical gardens",
-      "i": "tree"
+      "l": "Optional furniture package · ฿3.4–4.5M",
+      "i": "sofa"
     },
     {
-      "l": "Central Phuket — schools, marinas & beaches",
-      "i": "key"
+      "l": "≈650 m² build · ≈672 m² plot",
+      "i": "plot"
+    },
+    {
+      "l": "Larger five-bedroom villas also available",
+      "i": "building"
+    },
+    {
+      "l": "Freehold or leasehold · covered garage",
+      "i": "car"
+    },
+    {
+      "l": "Hilltop position in Ko Kaeo, central Phuket",
+      "i": "view"
     }
   ],
   "created": 1781790129000
