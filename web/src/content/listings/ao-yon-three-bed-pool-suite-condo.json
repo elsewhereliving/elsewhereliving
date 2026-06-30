@@ -1,0 +1,73 @@
+{
+  "id": "ao-yon-three-bed-pool-suite-condo",
+  "internalName": "Veranda Villas & Suites Phuket — Pool Suites",
+  "image": "/assets/listings/ao-yon-three-bed-pool-suite-condo/01.jpg",
+  "gallery": [
+    "/assets/listings/ao-yon-three-bed-pool-suite-condo/01.jpg",
+    "/assets/listings/ao-yon-three-bed-pool-suite-condo/02.jpg",
+    "/assets/listings/ao-yon-three-bed-pool-suite-condo/03.jpg",
+    "/assets/listings/ao-yon-three-bed-pool-suite-condo/04.jpg",
+    "/assets/listings/ao-yon-three-bed-pool-suite-condo/05.jpg",
+    "/assets/listings/ao-yon-three-bed-pool-suite-condo/06.jpg"
+  ],
+  "location": "Ao Yon · Phuket · Thailand",
+  "place": "Ao Yon, Wichit, Mueang Phuket District, Phuket 83000, Thailand",
+  "market": "Phuket",
+  "status": "Move-In Ready",
+  "year": 2026,
+  "priceCurrency": "THB",
+  "priceFrom": true,
+  "video": "",
+  "imageFocal": "",
+  "mapQuery": "7.816771,98.386785",
+  "title": "Three-Bedroom Beachside Pool Suite - Ao Yon",
+  "type": "Condominium",
+  "view": [
+    "Sea View",
+    "Beachside"
+  ],
+  "beds": 3,
+  "bedsLabel": "3",
+  "baths": 2,
+  "interior": "160 m²",
+  "ownership": "Leasehold",
+  "priceOriginalNum": 30600000,
+  "added": 85,
+  "created": 1783293000000,
+  "blurb": "A private pool suite within a contemporary resort collection at Ao Yon, Cape Panwa, on Phuket’s south-east coast — chic coastal living with a private pool, sea views and beachfront access. Three-bedroom suites of about 160 m², fully fitted and completed. Two remain available, leasehold, from ฿30,600,000.",
+  "detail": "A three-bedroom pool suite within an exclusive seaside collection at Ao Yon, on the lush headland of Cape Panwa at Phuket’s south-eastern tip. Conceived for a cosier, resort-like ambience than the project’s villas, the suites strike a balance between a chic coastal lifestyle and easy, lock-up-and-leave convenience, with interiors by August Design Consultant that carry through the project’s Phuket Old Town accents.\n\nEach suite spans roughly 160 m² of usable space over two levels, with an open-plan living, dining and kitchen area that opens to a private swimming pool and sun deck framing the sea. Three bedrooms and two bathrooms are finished to a fully fitted, move-in-ready standard.\n\nResidents share private beachfront access and the facilities of the adjacent five-star resort — beach club and pool deck, swimming pools, bar and restaurant, fitness, kids’ club and 24-hour security — with on-demand services available (resort facilities are available for a fee).\n\nTwo three-bedroom suites remain available, both completed and offered leasehold, at ฿30,600,000 and ฿30,990,000. Cape Panwa is a short drive from Phuket Town and around an hour’s flight from Bangkok.",
+  "features": [
+    {
+      "l": "Three-bedroom pool suite · ≈160 m²",
+      "i": "bed"
+    },
+    {
+      "l": "Private pool & sun deck",
+      "i": "pool"
+    },
+    {
+      "l": "Sea views · private beachfront access",
+      "i": "waves"
+    },
+    {
+      "l": "Fully fitted · move-in ready",
+      "i": "sparkles"
+    },
+    {
+      "l": "Leasehold",
+      "i": "shield"
+    },
+    {
+      "l": "Adjacent 5-star resort · beach club, gym, kids’ club",
+      "i": "key"
+    },
+    {
+      "l": "Coastal-chic interiors · Phuket Old Town accents",
+      "i": "home"
+    },
+    {
+      "l": "Cape Panwa / Ao Yon, south-east Phuket",
+      "i": "car"
+    }
+  ]
+}

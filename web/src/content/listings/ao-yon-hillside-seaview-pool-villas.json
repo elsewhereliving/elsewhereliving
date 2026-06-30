@@ -1,0 +1,75 @@
+{
+  "id": "ao-yon-hillside-seaview-pool-villas",
+  "internalName": "Veranda Villas & Suites Phuket — Villas",
+  "image": "/assets/listings/ao-yon-hillside-seaview-pool-villas/01.jpg",
+  "gallery": [
+    "/assets/listings/ao-yon-hillside-seaview-pool-villas/01.jpg",
+    "/assets/listings/ao-yon-hillside-seaview-pool-villas/02.jpg",
+    "/assets/listings/ao-yon-hillside-seaview-pool-villas/03.jpg",
+    "/assets/listings/ao-yon-hillside-seaview-pool-villas/04.jpg",
+    "/assets/listings/ao-yon-hillside-seaview-pool-villas/05.jpg",
+    "/assets/listings/ao-yon-hillside-seaview-pool-villas/06.jpg",
+    "/assets/listings/ao-yon-hillside-seaview-pool-villas/07.jpg"
+  ],
+  "location": "Ao Yon · Phuket · Thailand",
+  "place": "Ao Yon, Wichit, Mueang Phuket District, Phuket 83000, Thailand",
+  "market": "Phuket",
+  "status": "Move-In Ready",
+  "year": 2026,
+  "priceCurrency": "THB",
+  "priceFrom": true,
+  "video": "",
+  "imageFocal": "",
+  "mapQuery": "7.816771,98.386785",
+  "title": "Hillside Sea-View Pool Villa Collection - Ao Yon",
+  "type": "Villa",
+  "view": [
+    "Sea View",
+    "Beachside"
+  ],
+  "beds": 4,
+  "bedsLabel": "3–4",
+  "baths": "3–4",
+  "interior": "675–1,060 m²",
+  "plot": "888–1,425 m²",
+  "ownership": "Freehold or Leasehold",
+  "priceOriginalNum": 84000000,
+  "added": 86,
+  "created": 1783296000000,
+  "blurb": "A private collection of contemporary pool villas set into a lush hillside at Ao Yon, Cape Panwa, on Phuket’s quiet south-east coast — with beachfront access and borderless views over the Andaman Sea. Three- to four-bedroom homes of 675–1,060 m² with private pools and the run of an adjacent five-star resort. Three of the six villas remain available, freehold or leasehold, from ฿84,000,000.",
+  "detail": "An exclusive hillside collection of just six pool villas at Ao Yon, on the green headland of Cape Panwa at Phuket’s south-eastern tip, where fresh sea breezes and an unbroken outlook over the Andaman Sea set the tone. Designed by the Office of Bangkok Architects with interiors by August Design Consultant, the villas weave selected elements of Phuket Old Town’s architectural heritage into a clean, contemporary form, framing the island’s natural beauty through full-height glass and expansive outdoor terraces.\n\nThe available homes run from three to four bedrooms across roughly 675 to 1,060 m² of usable space on plots of 888 to 1,425 m², each with its own private swimming pool. Living spaces are open and light-filled, opening to pool decks and gardens that look out to the sea, with the principal suites taking full advantage of the elevation.\n\nResidents enjoy private beachfront access and the facilities of the adjacent five-star resort — beach club and pool deck, swimming pools, bar and restaurant, fitness, kids’ club, lobby and 24-hour security — alongside on-demand services (resort facilities are available for a fee).\n\nThree of the six villas remain available: a three-bedroom from ฿84,000,000 and two four-bedroom homes around ฿117,500,000–฿119,500,000, offered freehold or leasehold, with completion through 2026. The wider project also includes a collection of pool suites. Cape Panwa is a short drive from Phuket Town and roughly an hour’s flight from Bangkok.",
+  "features": [
+    {
+      "l": "Three to four bedrooms · private pool",
+      "i": "bed"
+    },
+    {
+      "l": "Hillside sea views over the Andaman",
+      "i": "waves"
+    },
+    {
+      "l": "Private beachfront access",
+      "i": "key"
+    },
+    {
+      "l": "≈675–1,060 m² usable · 888–1,425 m² plots",
+      "i": "plot"
+    },
+    {
+      "l": "Freehold or leasehold",
+      "i": "shield"
+    },
+    {
+      "l": "Adjacent 5-star resort · beach club, pools, gym",
+      "i": "sparkles"
+    },
+    {
+      "l": "By the Office of Bangkok Architects",
+      "i": "building"
+    },
+    {
+      "l": "Three of six villas available · completing 2026",
+      "i": "home"
+    }
+  ]
+}
