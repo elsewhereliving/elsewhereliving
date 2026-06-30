@@ -1,0 +1,93 @@
+{
+  "id": "bophut-hillside-seaview-villa-collection",
+  "internalName": "The Signature Samui — Villas",
+  "image": "/assets/listings/bophut-hillside-seaview-villa-collection/01.jpg",
+  "gallery": [
+    "/assets/listings/bophut-hillside-seaview-villa-collection/01.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/02.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/03.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/04.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/05.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/06.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/07.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/08.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/09.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/10.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/11.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/12.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/13.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/14.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/15.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/16.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/17.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/18.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/19.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/20.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/21.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/22.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/23.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/24.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/25.jpg",
+    "/assets/listings/bophut-hillside-seaview-villa-collection/26.jpg"
+  ],
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bophut, Ko Samui District, Surat Thani, Thailand",
+  "market": "Koh Samui",
+  "type": "Villa",
+  "status": "Off-Plan",
+  "year": null,
+  "ownership": "Leasehold",
+  "priceCurrency": "THB",
+  "priceFrom": true,
+  "video": "",
+  "imageFocal": "",
+  "mapQuery": "9.546333,100.018583",
+  "title": "Hillside Sea-View Pool Villa Collection - Bophut",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 6,
+  "bedsLabel": "2–6",
+  "baths": "3–6",
+  "interior": "412–975 m²",
+  "plot": "486–1,285 m²",
+  "priceOriginalNum": 14500000,
+  "added": 86,
+  "created": 1783209600000,
+  "blurb": "A collection of architect-designed pool villas on a coconut-grove hillside between Bophut and Maenam, on Koh Samui’s north coast, each positioned to embrace open valley views reaching out to the sea. Two to six bedrooms across 412–975 m², with a private pool to every home and a residents’ clubhouse. Leasehold from ฿14,500,000 — price excludes the land lease.",
+  "detail": "Part of a contemporary residential estate set among towering coconut palms on the hillside between Bophut and Maenam, this is a collection of ten individually designed villas, each with its own architectural identity and positioned to embrace open valley views that extend toward the sea on Koh Samui’s north coast.\n\nThe villas range from two to six bedrooms across roughly 412 to 975 m² of built area, on plots of 486 to 1,285 m². Clean horizontal volumes, dark flat roofs and full-height glass open the living spaces to wide terraces and a private swimming pool, with the elevated setting drawing the eye across the treetops to the Gulf beyond. Interiors are modern and restrained, with open-plan living, dining and kitchen flowing out to the view.\n\nResidents share a clubhouse at the heart of the estate, and the location is quietly connected — minutes from Fisherman’s Village, Bophut and Maenam beaches, with the airport a short drive away.\n\nThe villas are offered leasehold from ฿14,500,000; this price is for the villa only and does not include the land lease, which is quoted separately. A monthly common-area fee of ฿45 per m² and a one-time sinking fund of ฿100,000 apply. Several villas are already reserved — availability, plot sizes and configurations are confirmed on the current price list.",
+  "features": [
+    {
+      "l": "Two to six bedrooms · 412–975 m²",
+      "i": "bed"
+    },
+    {
+      "l": "Private pool to every villa",
+      "i": "pool"
+    },
+    {
+      "l": "Open valley views toward the sea",
+      "i": "waves"
+    },
+    {
+      "l": "Residents’ clubhouse",
+      "i": "building"
+    },
+    {
+      "l": "Floor-to-ceiling glass · indoor–outdoor living",
+      "i": "home"
+    },
+    {
+      "l": "Plots 486–1,285 m²",
+      "i": "plot"
+    },
+    {
+      "l": "Leasehold · price excludes land lease",
+      "i": "shield"
+    },
+    {
+      "l": "Between Bophut & Maenam · near the beaches",
+      "i": "car"
+    }
+  ]
+}

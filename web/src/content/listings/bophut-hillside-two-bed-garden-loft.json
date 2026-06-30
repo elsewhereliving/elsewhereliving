@@ -1,0 +1,93 @@
+{
+  "id": "bophut-hillside-two-bed-garden-loft",
+  "internalName": "The Signature Samui — Garden Loft",
+  "image": "/assets/listings/bophut-hillside-two-bed-garden-loft/01.jpg",
+  "gallery": [
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/01.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/02.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/03.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/04.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/05.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/06.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/07.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/08.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/09.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/10.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/11.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/12.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/13.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/14.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/15.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/16.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/17.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/18.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/19.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/20.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/21.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/22.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/23.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/24.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/25.jpg",
+    "/assets/listings/bophut-hillside-two-bed-garden-loft/26.jpg"
+  ],
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bophut, Ko Samui District, Surat Thani, Thailand",
+  "market": "Koh Samui",
+  "type": "Villa",
+  "status": "Off-Plan",
+  "year": null,
+  "ownership": "Leasehold",
+  "priceCurrency": "THB",
+  "priceFrom": true,
+  "video": "",
+  "imageFocal": "",
+  "mapQuery": "9.546333,100.018583",
+  "title": "Two-Bedroom Garden Loft with Plunge Pool - Bophut",
+  "view": [
+    "Garden / Pool View"
+  ],
+  "beds": 2,
+  "bedsLabel": "2",
+  "baths": 2,
+  "interior": "100–170 m²",
+  "plot": "116–225 m²",
+  "priceOriginalNum": 8000000,
+  "added": 85,
+  "created": 1783206000000,
+  "blurb": "Compact two-bedroom garden lofts within a contemporary hillside estate between Bophut and Maenam on Koh Samui. Two-storey homes of around 100–170 m² with a private plunge pool, walled garden and a residents’ clubhouse. Leasehold from ฿8,000,000 — price excludes the land lease.",
+  "detail": "A two-bedroom garden loft within a contemporary residential estate set among coconut palms on the hillside between Bophut and Maenam, on Koh Samui’s north coast. Conceived as a low-maintenance lock-up-and-leave home or an investment, the lofts share the estate’s architecture of clean dark-roofed volumes and lush landscaping, with a residents’ clubhouse at its centre.\n\nEach loft is arranged over two floors of roughly 100 m² (up to about 170 m² in later phases), on a private plot of 116 to 225 m². The ground floor holds an open-plan living, dining and kitchen space that opens to a walled garden and a private plunge pool of around nine square metres; upstairs, two en-suite bedrooms each open to the greenery, one with a wooden terrace and outdoor bathtub.\n\nThe lofts are offered leasehold from ฿8,000,000; this price is for the loft only and does not include the land lease, which is quoted separately. A monthly common-area fee of ฿45 per m² and a one-time sinking fund of ฿100,000 apply. The first phase is selling now, with further phases to follow — availability and plot sizes are confirmed on the current price list.",
+  "features": [
+    {
+      "l": "Two en-suite bedrooms · two storeys",
+      "i": "bed"
+    },
+    {
+      "l": "Private plunge pool · walled garden",
+      "i": "pool"
+    },
+    {
+      "l": "≈100–170 m² built · 116–225 m² plot",
+      "i": "plot"
+    },
+    {
+      "l": "Open-plan living · outdoor bathtub terrace",
+      "i": "home"
+    },
+    {
+      "l": "Residents’ clubhouse",
+      "i": "building"
+    },
+    {
+      "l": "Lock-up-and-leave · low maintenance",
+      "i": "key"
+    },
+    {
+      "l": "Leasehold · price excludes land lease",
+      "i": "shield"
+    },
+    {
+      "l": "Between Bophut & Maenam · near the beaches",
+      "i": "car"
+    }
+  ]
+}
