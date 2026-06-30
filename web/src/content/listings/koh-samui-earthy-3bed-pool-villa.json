@@ -1,0 +1,92 @@
+{
+  "id": "koh-samui-earthy-3bed-pool-villa",
+  "internalName": "Nadi Villas (Idea Development)",
+  "image": "/assets/listings/koh-samui-earthy-3bed-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/01.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/02.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/03.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/04.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/05.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/06.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/07.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/08.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/09.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/10.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/11.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/12.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/13.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/14.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/15.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/16.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/17.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/18.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/19.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/20.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/21.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/22.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/23.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/24.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/25.jpg",
+    "/assets/listings/koh-samui-earthy-3bed-pool-villa/26.jpg"
+  ],
+  "location": "Koh Samui · Thailand",
+  "place": "Ko Samui District, Surat Thani, Thailand",
+  "market": "Koh Samui",
+  "title": "Earthy One-Storey Three-Bedroom Pool Villa - Koh Samui",
+  "type": "Villa",
+  "view": [
+    "Garden / Pool View"
+  ],
+  "status": "Off-Plan",
+  "beds": 3,
+  "bedsLabel": "3",
+  "baths": 3,
+  "interior": "297 m²",
+  "plot": "566 m²",
+  "year": null,
+  "ownership": "Leasehold",
+  "priceOriginalNum": 10200000,
+  "priceCurrency": "THB",
+  "priceFrom": true,
+  "added": 86,
+  "created": 1783641600000,
+  "video": "",
+  "imageFocal": "",
+  "blurb": "A serene single-storey island residence on Koh Samui, designed in calm, natural tones — one of a boutique development of five villas wrapped in stone and warm wood, with panoramic glazing that dissolves the line between the living spaces and a private pool. Three en-suite bedrooms across 297 m² on a 566 m² plot. 30-year leasehold, from ฿10,200,000.",
+  "detail": "Conceived as a serene island residence, this single-storey villa is one of a boutique development of just five homes on Koh Samui, designed in calm and natural tones for a refined tropical-island lifestyle.\n\nThe architecture embraces materials close to nature — stone and warm wood, soft neutral palettes and natural textures — for a gentle connection between the island environment and the living space. Expansive panoramic glazing fills the interior with daylight and frames a seamless transition between indoor and outdoor areas: open-plan living, dining and kitchen flow out to a covered sala, a terrace and a private swimming pool set among tropical planting.\n\nThe three-bedroom layout runs to 296.81 m² of total build (118.50 m² enclosed living) on a 565.50 m² plot, with three en-suite bedrooms, a laundry and powder room, and a private car park. The wider development also includes a larger four-bedroom villa of 378.90 m² on an 858 m² plot for those who need more space.\n\nQuietly balanced and full of light, it is a home designed for comfort, presence and naturalness — ideal as a full-time island base or a low-maintenance holiday home. Offered on a 30-year leasehold from ฿10,200,000.",
+  "features": [
+    {
+      "l": "Three en-suite bedrooms · single storey",
+      "i": "bed"
+    },
+    {
+      "l": "Private pool · covered sala & terrace",
+      "i": "pool"
+    },
+    {
+      "l": "Natural stone & wood · calm tones",
+      "i": "sparkles"
+    },
+    {
+      "l": "Panoramic glazing · indoor-outdoor living",
+      "i": "home"
+    },
+    {
+      "l": "297 m² build · 566 m² plot",
+      "i": "plot"
+    },
+    {
+      "l": "30-year leasehold",
+      "i": "shield"
+    },
+    {
+      "l": "Private car park",
+      "i": "car"
+    },
+    {
+      "l": "Boutique five-villa development",
+      "i": "key"
+    }
+  ]
+}
