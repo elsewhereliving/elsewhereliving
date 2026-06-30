@@ -1,0 +1,70 @@
+{
+  "id": "botanica-sky-valley-hilltop-villas-layan",
+  "image": "/assets/listings/botanica-sky-valley-hilltop-villas-layan/01.jpg",
+  "gallery": [
+    "/assets/listings/botanica-sky-valley-hilltop-villas-layan/01.jpg",
+    "/assets/listings/botanica-sky-valley-hilltop-villas-layan/02.jpg",
+    "/assets/listings/botanica-sky-valley-hilltop-villas-layan/03.jpg",
+    "/assets/listings/botanica-sky-valley-hilltop-villas-layan/04.jpg"
+  ],
+  "location": "Layan · Phuket · Thailand",
+  "place": "Layan, Choeng Thale, Thalang District, Phuket, Thailand",
+  "market": "Phuket",
+  "title": "Botanica Sky Valley — Hilltop Mountain-View Pool Villas - Layan",
+  "type": "Villa",
+  "view": [
+    "Mountain View"
+  ],
+  "status": "Off-Plan",
+  "beds": 5,
+  "bedsLabel": "4–5",
+  "baths": "4–8",
+  "interior": "531–1,216 m²",
+  "plot": "782–1,592 m²",
+  "year": null,
+  "ownership": "Freehold or Leasehold",
+  "priceOriginalNum": 71443000,
+  "priceCurrency": "THB",
+  "priceFrom": true,
+  "added": 86,
+  "created": 1783468800000,
+  "video": "",
+  "imageFocal": "",
+  "blurb": "Botanica Sky Valley is a collection of 18 hilltop pool villas with panoramic mountain views, set among the lush hills of Layan on Phuket’s sought-after north-west coast. By leading local developer AAP Property — of the celebrated Botanica villa brand — these four- and five-bedroom homes bring a striking, highly functional modern-tropical Balinese architecture to one of the area’s rare view plots. Freehold or leasehold, from ฿71,443,000.",
+  "detail": "Sky Valley is a collection of luxury pool villas with panoramic mountain views, set among lush hills in the Layan area of Phuket. The project is by AAP Property — one of the island’s top local developers, famous for their Botanica villa brand — and ranks among their most luxurious to date, with the immaculate architecture, design and build quality that reputation implies.\n\nThe first thing you notice is the head-turning yet highly functional modern design. The carefully crafted, cascading architecture blends each villa into its tropical surroundings while making the most of the panoramic views — a modern-tropical Balinese style of flowing lines, with layouts arranged so every room captures the outlook without compromising privacy. Perched on a hilltop, all 18 villas open to mountain vistas — a genuine rarity in Bang Tao/Layan, where few new developments have views.\n\nTwo principal villa types anchor the collection: a four-bedroom, four-bathroom home of around 625 m² built area, and a five-bedroom layout running to an impressive 1,079–1,216 m². Across the project, built-up areas span roughly 531 to 1,216 m² on plots of 783 to 1,592 m², each with a private pool. The show unit is villa SV07; prices currently run from ฿71,443,000 to around ฿149,352,000 depending on type, plot and stage of construction.\n\nThe setting is exceptional yet connected — serene southern Layan, on the edge of Laguna Phuket and Bang Tao, with established high-end neighbours including Angsana and The Pavilions next door. Layan Beach is about seven minutes away, Porto de Phuket and Boat Avenue around ten, Laguna Golf and UWC International School about fifteen, and the international airport roughly twenty — a location equally compelling for living and for investment.",
+  "features": [
+    {
+      "l": "18 hilltop pool villas · 4–5 bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Panoramic mountain views from every villa",
+      "i": "mountain"
+    },
+    {
+      "l": "Private pool to every villa",
+      "i": "pool"
+    },
+    {
+      "l": "Modern tropical Balinese architecture",
+      "i": "sparkles"
+    },
+    {
+      "l": "Built 531–1,216 m² · plots 782–1,592 m²",
+      "i": "plot"
+    },
+    {
+      "l": "By Botanica / AAP Property",
+      "i": "building"
+    },
+    {
+      "l": "Freehold or leasehold",
+      "i": "shield"
+    },
+    {
+      "l": "Layan · 7 min to beach · 20 min to airport",
+      "i": "car"
+    }
+  ],
+  "mapQuery": "8.027298,98.304015"
+}
