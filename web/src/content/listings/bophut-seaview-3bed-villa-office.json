@@ -1,0 +1,94 @@
+{
+  "id": "bophut-seaview-3bed-villa-office",
+  "internalName": "Regolith Village",
+  "image": "/assets/listings/bophut-seaview-3bed-villa-office/01.jpg",
+  "gallery": [
+    "/assets/listings/bophut-seaview-3bed-villa-office/01.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/02.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/03.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/04.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/05.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/06.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/07.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/08.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/09.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/10.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/11.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/12.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/13.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/14.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/15.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/16.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/17.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/18.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/19.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/20.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/21.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/22.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/23.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/24.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/25.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/26.jpg",
+    "/assets/listings/bophut-seaview-3bed-villa-office/27.jpg"
+  ],
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bophut, Ko Samui District, Surat Thani, Thailand",
+  "market": "Koh Samui",
+  "title": "Sea-View Three-Bedroom Pool Villa with Office - Bophut",
+  "type": "Villa",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 3,
+  "bedsLabel": "3",
+  "baths": 4,
+  "interior": "365 m²",
+  "plot": "",
+  "year": null,
+  "ownership": "Freehold",
+  "priceOriginalNum": 21500000,
+  "priceCurrency": "THB",
+  "priceFrom": true,
+  "added": 86,
+  "created": 1783555200000,
+  "video": "",
+  "imageFocal": "",
+  "blurb": "One of the last two villas in an intimate hillside village of six in Bophut, on Koh Samui’s north coast — a three-bedroom-plus-office sea-view home in warm stone and wood, with an infinity-edge pool and panoramic Gulf views. Fully furnished and ready to move into; 365 m² of build, freehold. From ฿21,500,000.",
+  "detail": "Set into the hillside in the Bophut area of Koh Samui’s north coast, this is an intimate village of just six contemporary villas — four already sold, with only two now remaining at ฿21,500,000 and ฿23,500,000.\n\nEach is a stylish three-bedroom home with a dedicated office, of 365 m² total build (185 m² of living space), wrapped in panoramic glazing that opens to a breathtaking view of the sea — light shifting from the morning sun to a pink evening sunset. The architecture is warm and natural, in stone and wood, for an atmosphere of calm and comfort: an ideal choice for those who value naturalness and a quiet connection to the landscape.\n\nThe living spaces flow out to a terrace and a private infinity-edge swimming pool that appears to spill toward the horizon, with a tropical-island design carried through to the fully furnished interiors. Every villa comes with private parking, a deep well for its own water supply, and is handed over fully furnished and ready to move into.\n\nBophut is one of Samui’s most established and desirable areas, a short drive from Fisherman’s Village, the beaches and the island’s dining — a setting equally suited to full-time living or a turnkey holiday home.",
+  "features": [
+    {
+      "l": "Three bedrooms + office",
+      "i": "bed"
+    },
+    {
+      "l": "Infinity-edge pool · panoramic sea views",
+      "i": "pool"
+    },
+    {
+      "l": "Stone & wood · tropical island design",
+      "i": "sparkles"
+    },
+    {
+      "l": "365 m² build · 185 m² living",
+      "i": "plot"
+    },
+    {
+      "l": "Fully furnished · move-in ready",
+      "i": "home"
+    },
+    {
+      "l": "Private parking · deep-well water",
+      "i": "car"
+    },
+    {
+      "l": "Freehold",
+      "i": "shield"
+    },
+    {
+      "l": "Only two of six villas remain",
+      "i": "key"
+    }
+  ],
+  "mapQuery": "9.541533,100.030267"
+}
