@@ -87,34 +87,21 @@ const jsonLd = {
         <span style="font-size:16px;">←</span> All properties
       </a>
 
-      <div data-grid="split" style="display:grid; grid-template-columns:1.55fr 1fr; gap:clamp(32px, 5vw, 72px); align-items:start;">
-        <!-- Main column -->
-        <div class="reveal is-in" style="min-width:0;">
+      <!--
+        Single grid for both layouts. Desktop (>880px): two columns — gallery +
+        description/features on the left, sticky info card on the right, with
+        film/map/related full-width below. Mobile (≤880px): the same DOM is
+        reordered via grid-template-areas to photos → info card → location →
+        description → features → film → related. Desktop stays pixel-identical.
+      -->
+      <div class="ew-detail">
+        <!-- Photos -->
+        <div class="ew-detail__gallery reveal is-in" style="grid-area:gallery; min-width:0;">
           <Gallery images={l.gallery.map((s) => optImg(s, "main"))} thumbs={l.gallery.map((s) => optImg(s, "small"))} title={l.title} client:load />
-
-          <div style="margin-top:48px;">
-            <div style="color:var(--slate); margin-bottom:16px;"><Label>The residence</Label></div>
-            <p style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.4rem, 2.4vw, 1.9rem); line-height:1.4; letter-spacing:-0.01em; color:var(--navy);">{l.blurb}</p>
-            <p style="margin:26px 0 0; font-family:var(--font-sans); font-weight:300; font-size:16px; line-height:1.8; color:var(--text-body); max-width:640px; white-space:pre-line;">{detail}</p>
-          </div>
-
-          {l.features?.length > 0 && (
-            <div style="margin-top:48px;">
-              <div style="color:var(--slate); margin-bottom:22px;"><Label>Features & amenities</Label></div>
-              <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:2px 32px;">
-                {l.features.map((f) => (
-                  <div style="display:flex; align-items:center; gap:14px; padding:15px 0; border-bottom:1px solid var(--border-subtle);">
-                    <Icon name={f.i} size={20} color="var(--navy)" stroke={1.4} />
-                    <span style="font-family:var(--font-sans); font-weight:300; font-size:15.5px; color:var(--charcoal);">{f.l}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
         </div>
 
-        <!-- Sticky rail -->
-        <aside style="position:sticky; top:100px;">
+        <!-- Info card (sticky rail on desktop) -->
+        <aside class="ew-detail__info" style="grid-area:info;">
           <div style="background:var(--white); border:1px solid var(--border-subtle); padding:clamp(24px, 3vw, 34px);">
             <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:14px;">
               <div>
@@ -159,59 +146,109 @@ const jsonLd = {
             </div>
           </div>
         </aside>
-      </div>
 
-      <!-- Film -->
-      {videoId && (
-        <div style="margin-top:clamp(56px, 8vw, 96px);">
-          <div style="color:var(--slate); margin-bottom:14px;"><Label>Film</Label></div>
-          <div style="position:relative; width:100%; aspect-ratio:16 / 9; overflow:hidden; background:var(--navy); border:1px solid var(--border-subtle);">
-            <iframe
-              title={`${l.title} — film`}
-              src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0`}
-              loading="lazy"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-              style="position:absolute; inset:0; width:100%; height:100%; border:0;"
-            ></iframe>
+        <!-- Description + features -->
+        <div class="ew-detail__body reveal is-in" style="grid-area:desc; min-width:0;">
+          <div style="margin-top:48px;">
+            <div style="color:var(--slate); margin-bottom:16px;"><Label>The residence</Label></div>
+            <p style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.4rem, 2.4vw, 1.9rem); line-height:1.4; letter-spacing:-0.01em; color:var(--navy);">{l.blurb}</p>
+            <p style="margin:26px 0 0; font-family:var(--font-sans); font-weight:300; font-size:16px; line-height:1.8; color:var(--text-body); max-width:640px; white-space:pre-line;">{detail}</p>
           </div>
-        </div>
-      )}
 
-      <!-- Location -->
-      {(l.mapQuery || l.place) && (
-        <div style="margin-top:clamp(56px, 8vw, 96px);">
-          <div style="margin-bottom:24px;">
-            <div style="color:var(--slate); margin-bottom:14px;"><Label>Location</Label></div>
-            <h3 style="margin:0; display:flex; align-items:center; gap:12px; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.6rem, 2.8vw, 2.3rem); letter-spacing:-0.01em; color:var(--navy);">
-              <Icon name="pin" size={24} color="var(--navy)" stroke={1.4} /> {l.place}
-            </h3>
-          </div>
-          <div style="width:100%; height:clamp(300px, 42vw, 460px); border:1px solid var(--border-subtle); overflow:hidden;">
-            <Map query={l.mapQuery} place={l.place} title={l.title} />
-          </div>
-          <p style="margin:14px 0 0; font-family:var(--font-sans); font-weight:300; font-size:13px; color:var(--slate); display:flex; align-items:center; gap:8px;">
-            <Icon name="view" size={15} color="var(--slate)" stroke={1.4} /> Approximate area shown — the exact address is shared privately upon enquiry.
-          </p>
+          {l.features?.length > 0 && (
+            <div style="margin-top:48px;">
+              <div style="color:var(--slate); margin-bottom:22px;"><Label>Features & amenities</Label></div>
+              <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:2px 32px;">
+                {l.features.map((f) => (
+                  <div style="display:flex; align-items:center; gap:14px; padding:15px 0; border-bottom:1px solid var(--border-subtle);">
+                    <Icon name={f.i} size={20} color="var(--navy)" stroke={1.4} />
+                    <span style="font-family:var(--font-sans); font-weight:300; font-size:15.5px; color:var(--charcoal);">{f.l}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
-      )}
 
-      <!-- Related -->
-      <div style="margin-top:clamp(64px, 9vw, 110px);">
-        <div class="reveal" style="margin-bottom:36px;">
-          <SectionHead eyebrow="You may also love" title="More from the collection." max={560} />
-        </div>
-        <div class="reveal" data-grid="3" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:26px;">
-          {related.map((it) => <PropertyCard item={it} />)}
+        <!-- Film -->
+        {videoId && (
+          <div style="grid-area:video; margin-top:clamp(56px, 8vw, 96px);">
+            <div style="color:var(--slate); margin-bottom:14px;"><Label>Film</Label></div>
+            <div style="position:relative; width:100%; aspect-ratio:16 / 9; overflow:hidden; background:var(--navy); border:1px solid var(--border-subtle);">
+              <iframe
+                title={`${l.title} — film`}
+                src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0`}
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                style="position:absolute; inset:0; width:100%; height:100%; border:0;"
+              ></iframe>
+            </div>
+          </div>
+        )}
+
+        <!-- Location -->
+        {(l.mapQuery || l.place) && (
+          <div style="grid-area:map; margin-top:clamp(56px, 8vw, 96px);">
+            <div style="margin-bottom:24px;">
+              <div style="color:var(--slate); margin-bottom:14px;"><Label>Location</Label></div>
+              <h3 style="margin:0; display:flex; align-items:center; gap:12px; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.6rem, 2.8vw, 2.3rem); letter-spacing:-0.01em; color:var(--navy);">
+                <Icon name="pin" size={24} color="var(--navy)" stroke={1.4} /> {l.place}
+              </h3>
+            </div>
+            <div style="width:100%; height:clamp(300px, 42vw, 460px); border:1px solid var(--border-subtle); overflow:hidden;">
+              <Map query={l.mapQuery} place={l.place} title={l.title} />
+            </div>
+            <p style="margin:14px 0 0; font-family:var(--font-sans); font-weight:300; font-size:13px; color:var(--slate); display:flex; align-items:center; gap:8px;">
+              <Icon name="view" size={15} color="var(--slate)" stroke={1.4} /> Approximate area shown — the exact address is shared privately upon enquiry.
+            </p>
+          </div>
+        )}
+
+        <!-- Related -->
+        <div style="grid-area:related; margin-top:clamp(64px, 9vw, 110px);">
+          <div class="reveal" style="margin-bottom:36px;">
+            <SectionHead eyebrow="You may also love" title="More from the collection." max={560} />
+          </div>
+          <div class="reveal" data-grid="3" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:26px;">
+            {related.map((it) => <PropertyCard item={it} />)}
+          </div>
         </div>
       </div>
     </div>
   </main>
 
   <style>
+    /* Desktop (>880px): two-column layout — gallery + description on the left,
+       sticky info card on the right; film/map/related full-width below. */
+    .ew-detail {
+      display: grid;
+      grid-template-columns: 1.55fr 1fr;
+      column-gap: clamp(32px, 5vw, 72px);
+      align-items: start;
+      grid-template-areas:
+        "gallery info"
+        "desc    info"
+        "video   video"
+        "map     map"
+        "related related";
+    }
+    .ew-detail__info { position: sticky; top: 100px; }
+
+    /* Mobile (≤880px): single column, key info lifted up under the photos —
+       photos → info card → location → description → features → film → related. */
     @media (max-width: 880px) {
-      main [data-grid="split"] { grid-template-columns: 1fr !important; }
-      main aside { position: static !important; }
+      .ew-detail {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "gallery"
+          "info"
+          "map"
+          "desc"
+          "video"
+          "related";
+      }
+      .ew-detail__info { position: static; margin-top: 24px; }
     }
     @media (max-width: 760px) {
       main [data-grid="3"] { grid-template-columns: 1fr !important; }
