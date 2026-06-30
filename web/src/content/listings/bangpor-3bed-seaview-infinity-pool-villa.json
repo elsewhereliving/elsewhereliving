@@ -105,7 +105,7 @@
       "i": "shield"
     },
     {
-      "l": "Proven rental · ≈11% indicative yield",
+      "l": "12% historical net ROI · proven income & expense",
       "i": "key"
     },
     {
@@ -114,5 +114,6 @@
     }
   ],
   "mapQuery": "9.565155,99.926312",
-  "imageFocal": ""
+  "imageFocal": "",
+  "yield": "12% net ROI · historical & proven"
 }
