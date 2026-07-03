@@ -1,10 +1,10 @@
 {
-  "id": "layan-hillside-seaview-pool-villas",
-  "internalName": "Cohiba Villas",
-  "image": "/assets/listings/layan-hillside-seaview-pool-villas/03.jpg",
+  "id": "cohiba-villa-7",
+  "internalName": "Cohiba Villa 7",
+  "image": "/assets/listings/layan-hillside-seaview-pool-villas/02.jpg",
   "gallery": [
-    "/assets/listings/layan-hillside-seaview-pool-villas/03.jpg",
     "/assets/listings/layan-hillside-seaview-pool-villas/02.jpg",
+    "/assets/listings/layan-hillside-seaview-pool-villas/03.jpg",
     "/assets/listings/layan-hillside-seaview-pool-villas/01.jpg",
     "/assets/listings/layan-hillside-seaview-pool-villas/04.jpg",
     "/assets/listings/layan-hillside-seaview-pool-villas/05.jpg",
@@ -51,35 +51,35 @@
   "location": "Layan · Phuket · Thailand",
   "place": "Layan, Cherng Talay, Thalang District, Phuket, Thailand",
   "market": "Phuket",
-  "title": "Hillside Sea-View Villa Collection with Private Pools - Layan",
+  "title": "Completed Sea-View Show Villa with Private Pool - Layan",
   "type": "Villa",
   "view": [
     "Sea View"
   ],
-  "status": "Off-Plan",
-  "beds": 6,
-  "bedsLabel": "3–6",
-  "baths": "4–7",
-  "interior": "832–1,437 m²",
-  "plot": "662–1,340 m²",
+  "status": "Move-In Ready",
+  "beds": 4,
+  "bedsLabel": "3+1",
+  "baths": "4",
+  "interior": "921 m²",
+  "plot": "749 m²",
   "year": 2026,
   "ownership": "Freehold or Leasehold",
-  "priceOriginalNum": 71000000,
+  "priceOriginalNum": 110000000,
   "priceCurrency": "THB",
-  "priceFrom": true,
+  "priceFrom": false,
   "added": 86,
   "created": 1783015200000,
   "video": "",
   "imageFocal": "",
-  "blurb": "An exclusive collection of hillside villas above Layan Beach on Phuket’s north-west coast, each framing panoramic sea views from a private infinity pool. Three- to six-bedroom homes of contemporary design — white forms, warm timber and walls of glass — with options for a private gym and cinema room. A strong rental investment with a projected 8–14% yield. From ฿71,000,000 (entry villa has a valley outlook; sea-view villas priced above).",
-  "detail": "A boutique collection of luxury sea-view villas set into a hillside above Layan Beach, on the prestigious north-west coast of Phuket. Each home is oriented to the panorama — the Andaman Sea framed through floor-to-ceiling glass and from a private infinity pool of 13 to 16 metres — in a contemporary architecture of crisp white planes, warm timber ceilings and natural stone.\n\nThe villas range from three to six bedrooms across roughly 830–1,440 m² of built area on plots of 660–1,340 m², with open-plan living and dining flowing to the pool terrace, designer kitchens and bathrooms, and options for a private gym and cinema room in the larger homes. Layan is one of Phuket’s most sought-after enclaves — a quiet, green setting minutes from Layan and Bang Tao beaches, Laguna’s golf and the island’s best dining.\n\nA strong investment as well as a home: the developer projects a rental yield of roughly 8–14%. Several villas are under construction with completion through 2026, while a completed, fully-furnished three-plus-one-bedroom show villa with panoramic sea views is available now at ฿110,000,000. Other villas start from ฿71,000,000 — note that the entry-priced villa has a valley outlook rather than a sea view, while the sea-view villas are priced above. Per-villa sizes, views and freehold/lease structuring are confirmed on the current price list. Offered freehold or leasehold.",
+  "blurb": "The completed, fully-furnished show villa of an exclusive hillside collection above Layan Beach — a three-plus-one-bedroom sea-view home that frames the Andaman through walls of glass, with a private 13-metre infinity pool on its terrace. Move-in ready across 921 m² of built area on a 749 m² plot. ฿110,000,000.",
+  "detail": "The completed show villa of an exclusive hillside collection set above Layan Beach, on Phuket's prestigious north-west coast — delivered fully furnished and ready to move into. Three bedrooms plus a fourth flexible room open onto panoramic Andaman Sea views, framed through floor-to-ceiling glass and reflected in a private infinity pool that runs the length of the terrace.\n\nThe home offers 921 m² of built area on a 749 m² plot, in a contemporary architecture of crisp white planes, warm timber ceilings and natural stone. Open-plan living and dining flow directly to the pool deck, where a 13.00 × 4.00 m infinity pool with a 1.30 m depth sits against the sea horizon. Every room is turnkey — furnished, styled and equipped, with designer kitchen and bathrooms.\n\nLayan is one of Phuket's most sought-after enclaves — a quiet, green setting minutes from Layan and Bang Tao beaches, Laguna's golf and the island's best dining. Completed in 2026 and available now, the villa suits both an immediate move-in and a strong rental investment. Offered freehold or leasehold.",
   "features": [
     {
-      "l": "Hillside sea-view pool villas · 3–6 bed",
+      "l": "3+1 bedrooms · completed & fully furnished",
       "i": "bed"
     },
     {
-      "l": "Private 13–16 m infinity pools",
+      "l": "13.00 × 4.00 × 1.30 m infinity pool",
       "i": "pool"
     },
     {
@@ -87,24 +87,16 @@
       "i": "waves"
     },
     {
-      "l": "Optional gym & cinema rooms",
-      "i": "gym"
-    },
-    {
-      "l": "≈830–1,440 m² built · 660–1,340 m² plots",
+      "l": "921 m² built · 749 m² plot",
       "i": "plot"
     },
     {
-      "l": "Projected 8–14% rental yield",
+      "l": "Move-in ready · completed 2026",
       "i": "key"
     },
     {
-      "l": "Completed, furnished show villa available",
+      "l": "Turnkey, fully furnished",
       "i": "sparkles"
-    },
-    {
-      "l": "Layan Beach · select villas completing 2026",
-      "i": "view"
     }
   ],
   "mapQuery": "8.032623,98.302329"
