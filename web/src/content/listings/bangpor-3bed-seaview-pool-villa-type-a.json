@@ -122,5 +122,7 @@
     }
   ],
   "mapQuery": "9.570915,99.928118",
-  "imageFocal": ""
+  "imageFocal": "",
+  "featured": true,
+  "featuredRank": 27
 }

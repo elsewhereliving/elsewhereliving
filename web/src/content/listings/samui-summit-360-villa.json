@@ -94,8 +94,8 @@
       "i": "shield"
     }
   ],
-  "featured": true,
-  "featuredRank": 14,
+  "featured": false,
+  "featuredRank": null,
   "imageFocal": "",
   "created": 1781581329000
 }

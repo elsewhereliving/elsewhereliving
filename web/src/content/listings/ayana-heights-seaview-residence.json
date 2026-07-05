@@ -89,5 +89,7 @@
   ],
   "created": 1781750529000,
   "internalName": "AYANA Heights Seaview Residence",
-  "imageFocal": ""
+  "imageFocal": "",
+  "featured": true,
+  "featuredRank": 25
 }

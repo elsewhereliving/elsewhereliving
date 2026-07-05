@@ -111,5 +111,7 @@
   ],
   "created": 1781811729000,
   "internalName": "OKA Villas",
-  "imageFocal": ""
+  "imageFocal": "",
+  "featured": true,
+  "featuredRank": 29
 }

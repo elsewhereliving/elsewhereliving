@@ -115,5 +115,7 @@
   ],
   "mapQuery": "9.565155,99.926312",
   "imageFocal": "",
-  "yield": "12% net ROI · historical & proven"
+  "yield": "12% net ROI · historical & proven",
+  "featured": true,
+  "featuredRank": 26
 }

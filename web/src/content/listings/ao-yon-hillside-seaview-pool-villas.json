@@ -71,5 +71,7 @@
       "l": "Three of six villas available · completing 2026",
       "i": "home"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredRank": 24
 }
