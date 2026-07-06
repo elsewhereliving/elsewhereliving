@@ -62,14 +62,14 @@
   "beds": 4,
   "baths": 5,
   "interior": "1,200 m²",
-  "plot": "1,250 m²",
+  "plot": "1,250 m² min",
   "year": null,
   "priceOriginalNum": 70000000,
   "priceCurrency": "THB",
   "added": 50,
   "ownership": "Freehold",
-  "blurb": "A contemporary off-plan villa on an elevated Chaweng plot — four en-suite bedrooms across 1,200 m², floor-to-ceiling glass framing panoramic Gulf views, and a private pool on a generous sun terrace. Delivered fully furnished, freehold.",
-  "detail": "An off-plan opportunity in the heart of Chaweng, this contemporary villa spans an impressive 1,200 m² of built space on a 1,250 m² plot, composed for modern tropical living with privacy, style and comfort. Four spacious bedrooms each have a private en-suite, while floor-to-ceiling windows flood the open-plan living and dining areas with light and frame breathtaking sea views from an elevated position over the Gulf of Thailand.\n\nThe home centres on a private swimming pool ringed by a spacious sun terrace — a year-round setting for entertaining and relaxing — alongside a sleek Western-style kitchen, lush landscaping and private parking. It is delivered fully furnished with curated décor, secure Chanote title and freehold ownership.\n\nSet in the heart of Chaweng, the villa balances tranquility with access to the island's most vibrant beaches, nightlife, dining and shopping, with Samui International Airport a short drive away. Its size, design and position make it equally compelling as a private residence or a high-yield rental investment.",
+  "blurb": "A contemporary four-bedroom pool villa to build to order on Koh Samui — 1,200 m² across four en-suite bedrooms, floor-to-ceiling glass framing panoramic sea views and a private pool on a generous sun terrace. The ฿70,000,000 price covers construction and full furnishing of this exact villa and excludes land; build it on a plot of at least 1,250 m², and we'll help you find a suitable site on the island.",
+  "detail": "A design-and-build opportunity on Koh Samui: this contemporary villa spans an impressive 1,200 m² of built space, composed for modern tropical living with privacy, style and comfort. Four spacious bedrooms each have a private en-suite, while floor-to-ceiling windows flood the open-plan living and dining areas with light and are oriented to frame panoramic views over the Gulf of Thailand from an elevated plot.\n\nThe home centres on a private swimming pool ringed by a spacious sun terrace — a year-round setting for entertaining and relaxing — alongside a sleek Western-style kitchen, lush landscaping and private parking, and is delivered fully furnished with curated décor.\n\nThe price of ฿70,000,000 is for the construction and furnishing of this exact 1,200 m² villa and does not include the land. Building it calls for a plot of at least 1,250 m², and our team will help you find a suitable site on Koh Samui — ideally an elevated, sea-view position — to secure under freehold Chanote title. Set within reach of the island's most vibrant beaches, nightlife, dining and shopping, with Samui International Airport a short drive away, its size and design make it equally compelling as a private residence or a high-yield rental investment.",
   "features": [
     {
       "l": "Panoramic Gulf sea views",
@@ -92,11 +92,19 @@
       "i": "utensils"
     },
     {
-      "l": "1,200 m² build · 1,250 m² plot",
+      "l": "1,200 m² build · min 1,250 m² plot",
       "i": "plot"
     },
     {
-      "l": "Elevated, private position",
+      "l": "฿70M covers construction + furnishing — land separate",
+      "i": "key"
+    },
+    {
+      "l": "We help you source a suitable Koh Samui plot",
+      "i": "pin"
+    },
+    {
+      "l": "Designed for an elevated, sea-view plot",
       "i": "building"
     },
     {
