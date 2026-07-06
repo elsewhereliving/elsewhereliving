@@ -21,6 +21,16 @@ function Wordmark({ size, color }: { size: number; color: string }) {
     </span>
   );
 }
+function InstagramIcon({ size = 19 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="3" y="3" width="18" height="18" rx="5" />
+      <circle cx="12" cy="12" r="4" />
+      <circle cx="17" cy="7" r="1" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+const IG_URL = "https://www.instagram.com/elsewhere.living/";
 function HeartIcon({ filled }: { filled: boolean }) {
   return (
     <svg width="17" height="17" viewBox="0 0 24 24" fill={filled ? "currentColor" : "none"} stroke="currentColor" strokeWidth="1.6" aria-hidden="true">
@@ -73,6 +83,9 @@ export default function Nav({ current = "home", transparent = false }: { current
             })}
           </nav>
           <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+            <a href={IG_URL} target="_blank" rel="noopener" aria-label="Instagram — @elsewhere.living" title="@elsewhere.living on Instagram" className="ew-nav-ig" style={{ cursor: "pointer", color: fg, display: "inline-flex", alignItems: "center", transition: "color var(--dur-slow) var(--ease-out), opacity var(--dur-base) var(--ease-out)" }}>
+              <InstagramIcon size={19} />
+            </a>
             <a href="/saved/" title="Saved properties" className="ew-nav-saved" style={{ cursor: "pointer", color: fg, display: "inline-flex", alignItems: "center", gap: 7, fontFamily: "var(--font-sans)", fontSize: 11.5, letterSpacing: "0.14em", textTransform: "uppercase", transition: "color var(--dur-slow) var(--ease-out)" }}>
               <HeartIcon filled={savedCount > 0} />
               <span style={{ minWidth: 18, textAlign: "center", color: current === "saved" ? (solid ? "var(--navy)" : "var(--white)") : "inherit" }}>{savedCount}</span>
@@ -103,6 +116,9 @@ export default function Nav({ current = "home", transparent = false }: { current
             ))}
           </nav>
           <div style={{ marginTop: "auto" }}>
+            <a href={IG_URL} target="_blank" rel="noopener" style={{ display: "inline-flex", alignItems: "center", gap: 10, marginBottom: 22, color: "var(--white)", opacity: 0.85, fontFamily: "var(--font-sans)", fontSize: 11.5, letterSpacing: "0.16em", textTransform: "uppercase", textDecoration: "none" }}>
+              <InstagramIcon size={18} /> @elsewhere.living
+            </a>
             <Button as="a" href="/contact/" variant="accent" size="md" shape="pill" style={{ width: "100%" }}>Start your enquiry</Button>
           </div>
         </div>

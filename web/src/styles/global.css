@@ -79,6 +79,14 @@ img { display: block; max-width: 100%; }
   opacity: 1 !important;
 }
 
+/* Instagram nav icon — 85% opacity, full on hover (colour inherits inline). */
+.ew-nav-ig { opacity: 0.85; }
+.ew-nav-ig:hover { opacity: 1; }
+
+/* Homepage hero proof line link — muted white, brightens subtly on hover. */
+.ew-hero-proof { color: rgba(255,255,255,0.6); text-decoration: none; transition: color var(--dur-base) var(--ease-out); }
+.ew-hero-proof:hover { color: rgba(255,255,255,0.82); }
+
 .ew-dest-row { transition: padding-left var(--dur-base) var(--ease-out), background var(--dur-base) var(--ease-out); }
 .ew-dest-row:hover { padding-left: 22px !important; background: rgba(255,255,255,0.05); }
 .ew-dest-row:hover .ew-dest-arrow { transform: translateX(8px); opacity: 1 !important; }
@@ -162,7 +170,7 @@ img { display: block; max-width: 100%; }
   .grid-cards { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 940px) {
-  .ew-nav-desktop, .ew-nav-saved, .ew-nav-cta { display: none !important; }
+  .ew-nav-desktop, .ew-nav-saved, .ew-nav-cta, .ew-nav-ig { display: none !important; }
   .ew-nav-burger { display: inline-flex !important; }
   .ew-scroll-hint { display: none !important; }
 }
