@@ -61,6 +61,24 @@ img { display: block; max-width: 100%; }
 .ew-btn { transition: background var(--dur-base) var(--ease-out), color var(--dur-base) var(--ease-out), opacity var(--dur-base) var(--ease-out); }
 .ew-btn:hover { opacity: 0.86; }
 
+/* Hero CTA hover — colour shift only (no movement/scale), ~600ms ease-out.
+   !important overrides the Button component's inline variant styles. */
+.ew-cta-browse, .ew-cta-stay {
+  transition: background 0.6s var(--ease-out), color 0.6s var(--ease-out), border-color 0.6s var(--ease-out) !important;
+}
+.ew-cta-browse:hover {
+  background: var(--navy) !important;
+  color: var(--butter) !important;
+  border-color: var(--butter) !important;
+  opacity: 1 !important;
+}
+.ew-cta-stay:hover {
+  background: var(--white) !important;
+  color: var(--navy) !important;
+  border-color: var(--white) !important;
+  opacity: 1 !important;
+}
+
 .ew-dest-row { transition: padding-left var(--dur-base) var(--ease-out), background var(--dur-base) var(--ease-out); }
 .ew-dest-row:hover { padding-left: 22px !important; background: rgba(255,255,255,0.05); }
 .ew-dest-row:hover .ew-dest-arrow { transform: translateX(8px); opacity: 1 !important; }
