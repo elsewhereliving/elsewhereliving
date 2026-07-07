@@ -50,7 +50,7 @@ const LEGAL_GUIDES: Guide[] = [
       { t: "Withholding tax", r: "1% or progressive", n: "Calculated on the appraised value and years of ownership — your effective rate falls the longer you've held" },
       { t: "Business tax or stamp", r: "3.3% / 0.5%", n: "Specific Business Tax if you sell within 5 years; stamp duty after that" },
       { t: "Transfer fee share", r: "1%", n: "Your customary half of the 2% transfer fee" },
-      { t: "Agent commission", r: "3–5%", n: "Standard for resale in the islands; less in Bangkok" },
+      { t: "Agent commission", r: "5%", n: "Standard for resale in the islands; less in Bangkok" },
       { t: "Repatriation", r: "0", n: "With your FET forms on file, sale proceeds can be converted and sent home freely — no exit tax" },
     ],
     financing: "Thai banks rarely lend to non-resident foreigners, so ==most purchases are cash==. Real options that do exist: a handful of international banks lend against Bangkok and resort condos from Singapore (typically 50–60% LTV, to qualifying nationalities); developers offer staged or post-handover payment plans on off-plan projects; and some buyers borrow against assets at home, where rates are usually better. We'll tell you honestly what's realistic for your passport and profile before you start viewing.",
@@ -130,7 +130,7 @@ const LEGAL_GUIDES: Guide[] = [
     buy: [
       { t: "DLD transfer fee", r: "4%", n: "Dubai Land Department, paid at transfer — customarily by the buyer. Abu Dhabi charges 2%" },
       { t: "Registration trustee", r: "AED 4,000", n: "Approximate fixed fee at the trustee office (AED 2,000 below AED 500k)" },
-      { t: "Agent commission", r: "2% + VAT", n: "On resale purchases; developer sales usually carry no buyer commission" },
+      { t: "Agent commission", r: "2%", n: "No buyer fee on off-plan bought direct with the developer through an agent" },
       { t: "Mortgage fees", r: "0.25% + ~1%", n: "0.25% of the loan to register the mortgage, plus typical bank arrangement fees and valuation — only when financing" },
       { t: "Oqood (off-plan)", r: "4%", n: "The same DLD fee, paid on registration of an off-plan sale" },
     ],
