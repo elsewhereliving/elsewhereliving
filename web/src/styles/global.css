@@ -94,6 +94,83 @@ img { display: block; max-width: 100%; }
   .ew-hero-inner { padding-top: 108px !important; padding-bottom: clamp(56px, 10vw, 88px) !important; }
 }
 
+/* ===== Custom Homes sales page ===== */
+/* Stage journey */
+.ew-ch-stage { position: relative; display: grid; grid-template-columns: 1fr 96px 1fr; align-items: center; }
+.ew-ch-stage .ew-ch-copy { grid-column: 3; text-align: left; padding: 34px 0 34px 8px; }
+.ew-ch-stage[data-side="left"] .ew-ch-copy { grid-column: 1; grid-row: 1; text-align: right; padding: 34px 8px 34px 0; }
+.ew-ch-dot {
+  grid-column: 2; grid-row: 1; justify-self: center;
+  width: 52px; height: 52px; border-radius: 999px; display: flex; align-items: center; justify-content: center;
+  background: var(--navy); border: 1px solid var(--border-on-dark);
+  font-family: var(--font-serif); font-weight: 300; font-size: 16px; color: rgba(255,255,255,0.55);
+  transition: border-color 700ms var(--ease-out), color 700ms var(--ease-out), box-shadow 700ms var(--ease-out);
+  position: relative; z-index: 2;
+}
+.ew-ch-stage.is-passed .ew-ch-dot { border-color: var(--butter); color: var(--butter); box-shadow: 0 0 0 5px rgba(247,242,160,0.07); }
+.ew-ch-line-track { position: absolute; top: 0; bottom: 0; left: 50%; width: 1px; margin-left: -0.5px; background: var(--border-on-dark); }
+.ew-ch-line-fill { position: absolute; top: 0; left: 0; width: 100%; height: 0%; background: var(--butter); }
+@media (max-width: 860px) {
+  .ew-ch-stage { grid-template-columns: 72px 1fr; }
+  .ew-ch-stage .ew-ch-copy, .ew-ch-stage[data-side="left"] .ew-ch-copy { grid-column: 2; text-align: left; padding: 26px 0; }
+  .ew-ch-dot { grid-column: 1; }
+  .ew-ch-line-track { left: 36px; }
+}
+/* Budget explorer */
+.ew-ch-island {
+  appearance: none; cursor: pointer; background: transparent; color: var(--navy);
+  border: 1px solid rgba(21,38,68,0.3); border-radius: 999px; padding: 12px 26px;
+  font-family: var(--font-sans); font-weight: 400; font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase;
+  transition: background 400ms var(--ease-out), color 400ms var(--ease-out), border-color 400ms var(--ease-out);
+}
+.ew-ch-island[aria-pressed="true"] { background: var(--navy); color: var(--white); border-color: var(--navy); }
+.ew-ch-range { appearance: none; -webkit-appearance: none; width: 100%; height: 34px; background: transparent; cursor: pointer; margin: 0; }
+.ew-ch-range::-webkit-slider-runnable-track { height: 2px; background: rgba(21,38,68,0.25); }
+.ew-ch-range::-webkit-slider-thumb {
+  -webkit-appearance: none; width: 26px; height: 26px; border-radius: 999px; margin-top: -12px;
+  background: var(--navy); border: 6px solid var(--white); box-shadow: 0 0 0 1px rgba(21,38,68,0.35), 0 10px 24px -10px rgba(15,22,40,0.5);
+}
+.ew-ch-range::-moz-range-track { height: 2px; background: rgba(21,38,68,0.25); }
+.ew-ch-range::-moz-range-thumb {
+  width: 14px; height: 14px; border-radius: 999px;
+  background: var(--navy); border: 6px solid var(--white); box-shadow: 0 0 0 1px rgba(21,38,68,0.35), 0 10px 24px -10px rgba(15,22,40,0.5);
+}
+@keyframes ew-ch-fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.ew-ch-fade { animation: ew-ch-fade 500ms var(--ease-out); }
+.ew-ch-seg { transition: width 700ms var(--ease-out); }
+/* Timeline */
+.ew-ch-bar { transform: scaleX(0); transform-origin: left center; transition: transform 1100ms var(--ease-out); }
+.reveal.is-in .ew-ch-bar { transform: scaleX(1); }
+.ew-ch-tl-row { display: grid; grid-template-columns: 230px 1fr; gap: 18px; align-items: center; }
+@media (max-width: 700px) { .ew-ch-tl-row { grid-template-columns: 1fr; gap: 7px; } }
+@media (max-width: 560px) { .ew-ch-form-split { grid-template-columns: 1fr !important; } }
+/* Floating WhatsApp */
+.ew-ch-wa {
+  position: fixed; right: 24px; bottom: 24px; z-index: 9000;
+  display: flex; align-items: center; gap: 0; text-decoration: none;
+  background: var(--navy); color: var(--white); border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 999px; height: 58px; padding: 0 17px;
+  box-shadow: 0 18px 44px -16px rgba(15,22,40,0.65);
+  opacity: 0; transform: translateY(16px); pointer-events: none;
+  transition: opacity 600ms var(--ease-out), transform 600ms var(--ease-out), background 300ms var(--ease-out);
+}
+.ew-ch-wa.is-on { opacity: 1; transform: none; pointer-events: auto; }
+.ew-ch-wa:hover { background: var(--ink-black); }
+.ew-ch-wa .ew-ch-wa-label {
+  max-width: 0; overflow: hidden; white-space: nowrap; opacity: 0;
+  font-family: var(--font-sans); font-weight: 400; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase;
+  transition: max-width 500ms var(--ease-out), opacity 400ms var(--ease-out), margin 500ms var(--ease-out);
+}
+.ew-ch-wa:hover .ew-ch-wa-label { max-width: 210px; opacity: 1; margin-left: 12px; }
+.ew-ch-wa-ring { position: absolute; inset: 0; border-radius: 999px; border: 1px solid var(--butter); animation: ew-ch-wa-pulse 3s var(--ease-out) infinite; pointer-events: none; }
+@keyframes ew-ch-wa-pulse { 0% { transform: scale(1); opacity: 0.5; } 70%, 100% { transform: scale(1.45); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .ew-ch-bar { transform: none !important; transition: none; }
+  .ew-ch-fade { animation: none; }
+  .ew-ch-wa-ring { animation: none; display: none; }
+  .ew-ch-dot, .ew-ch-wa, .ew-ch-seg, .ew-ch-line-fill { transition: none; }
+}
+
 /* Buying guide — butter "real highlighter" on hand-picked phrases. */
 .ew-hl {
   background: linear-gradient(100deg,
