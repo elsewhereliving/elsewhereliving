@@ -87,6 +87,28 @@ img { display: block; max-width: 100%; }
 .ew-hero-proof { color: rgba(255,255,255,0.6); text-decoration: none; transition: color var(--dur-base) var(--ease-out); }
 .ew-hero-proof:hover { color: rgba(255,255,255,0.82); }
 
+/* Buying guide — butter "real highlighter" on hand-picked phrases. */
+.ew-hl {
+  background: linear-gradient(100deg,
+    rgba(247,242,160,0) 0.8%, rgba(247,242,160,0.95) 3.5%,
+    rgba(247,242,160,0.72) 96%, rgba(247,242,160,0) 99%);
+  padding: 0.08em 0.28em; margin: 0 -0.12em; border-radius: 2px;
+  box-decoration-break: clone; -webkit-box-decoration-break: clone;
+  color: inherit;
+}
+
+/* Buying guide responsive grids. */
+@media (max-width: 860px) {
+  .ew-legal [data-grid="split"] { grid-template-columns: 1fr !important; }
+}
+@media (max-width: 620px) {
+  .ew-legal [data-grid="2"], .ew-legal [data-grid="3"] { grid-template-columns: 1fr !important; }
+  .ew-legal [data-grid="fee"] { grid-template-columns: 1fr auto !important; }
+  .ew-legal [data-grid="fee"] > :nth-child(3) { grid-column: 1 / -1 !important; }
+  .ew-legal [data-grid="step"] { grid-template-columns: 48px 1fr !important; }
+  .ew-legal [data-grid="step"] > :nth-child(3) { grid-column: 1 / -1 !important; }
+}
+
 .ew-dest-row { transition: padding-left var(--dur-base) var(--ease-out), background var(--dur-base) var(--ease-out); }
 .ew-dest-row:hover { padding-left: 22px !important; background: rgba(255,255,255,0.05); }
 .ew-dest-row:hover .ew-dest-arrow { transform: translateX(8px); opacity: 1 !important; }
