@@ -65,7 +65,10 @@ img { display: block; max-width: 100%; }
 .ew-btn[data-variant="ink"]:hover { background: var(--navy) !important; border-color: var(--navy) !important; }
 .ew-btn[data-variant="outline"]:hover { background: var(--navy) !important; color: var(--white) !important; border-color: var(--navy) !important; }
 .ew-btn[data-variant="outline-light"]:hover { background: var(--white) !important; color: var(--navy) !important; border-color: var(--white) !important; }
-.ew-btn[data-variant="accent"]:hover { background: color-mix(in oklab, var(--butter), var(--navy) 16%) !important; border-color: color-mix(in oklab, var(--butter), var(--navy) 16%) !important; color: var(--navy) !important; }
+.ew-btn[data-variant="accent"]:hover { background: var(--navy) !important; border-color: var(--butter) !important; color: var(--butter) !important; }
+/* Navy CTA (solid variant) — hover flips to butter fill / navy text. Placed after
+   the solid rule so it wins at equal specificity, overriding the ink-black hover. */
+.ew-btn.ew-cta-navy:hover { background: var(--butter) !important; color: var(--navy) !important; border-color: var(--butter) !important; }
 
 /* Hero CTA hover — colour shift only (no movement/scale), ~600ms ease-out.
    !important overrides the Button component's inline variant styles. */

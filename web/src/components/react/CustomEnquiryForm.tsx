@@ -73,7 +73,7 @@ export default function CustomEnquiryForm({ email = "", whatsapp = "" }: { email
         <Field label="Budget" name="budget" placeholder="e.g. $1.5M, or flexible" value={budget} onChange={(e: any) => setBudget(e.target.value)} />
       </div>
       <Field label="The home you see" name="message" textarea placeholder="Bedrooms, view, the feeling you're after…" />
-      <Button variant="solid" size="md" type="submit" style={{ width: "100%", marginTop: 4 }}>Send enquiry</Button>
+      <Button variant="solid" size="md" type="submit" className="ew-cta-navy" style={{ width: "100%", marginTop: 4 }}>Send enquiry</Button>
       <span style={{ fontFamily: "var(--font-sans)", fontWeight: 300, fontSize: 11.5, letterSpacing: "0.04em", color: "var(--slate)", textAlign: "center" }}>
         No obligation — a conversation, not a contract.
       </span>

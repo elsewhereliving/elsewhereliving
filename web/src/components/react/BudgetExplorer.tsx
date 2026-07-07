@@ -55,7 +55,7 @@ export default function BudgetExplorer() {
   const rows = [
     { l: "Land — the balance", c: "var(--navy)", v: compact(landLo) + "–" + compact(landHi), n: "Plots vary hugely — the same money buys smaller near the beach or larger on the hill" },
     { l: "Construction & interiors", c: "rgba(21,38,68,0.55)", v: compact(buildLo) + "–" + compact(buildHi), n: built(tier) + " built, depending on the site and the finish" },
-    { l: "Our fee — project management", c: "var(--mist)", v: "5%", n: "Every stage handled for you — land, design, permits, build, interiors, handover" },
+    { l: "Development management fee", c: "var(--mist)", v: "5%", n: "Every stage handled for you — land, design, permits, build, interiors, handover" },
     { l: "Legal & tax — included", c: "var(--butter)", v: "~2–3%", n: "Independent lawyer, due diligence, transfer or lease registration — priced in from day one" },
   ];
 
@@ -114,7 +114,7 @@ export default function BudgetExplorer() {
       </div>
 
       <div style={{ marginTop: 30, textAlign: "center" }}>
-        <Button variant="solid" size="md" shape="pill" onClick={discuss}>Plan my build at this budget</Button>
+        <Button variant="solid" size="md" shape="pill" className="ew-cta-navy" onClick={discuss}>Plan my build at this budget</Button>
         <p style={{ margin: "16px 0 0", fontFamily: "var(--font-sans)", fontWeight: 300, fontSize: 12.5, color: "var(--slate)" }}>
           Indicative only — two plots at the same price can differ enormously in size, aspect and distance to the sand. USD figures at ฿35/$; your exact plot and build get modelled before anything begins.
         </p>
