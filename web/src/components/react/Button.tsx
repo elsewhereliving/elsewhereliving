@@ -49,14 +49,14 @@ export default function Button({
     whiteSpace: "nowrap",
     lineHeight: 1,
     borderRadius: shape === "pill" ? "var(--radius-pill)" : "var(--radius-xs)",
-    transition: "background var(--dur-base) var(--ease-out), color var(--dur-base) var(--ease-out), opacity var(--dur-base) var(--ease-out)",
+    transition: "background var(--dur-base) var(--ease-out), color var(--dur-base) var(--ease-out), border-color var(--dur-base) var(--ease-out), opacity var(--dur-base) var(--ease-out)",
     ...SIZES[size],
     ...VARIANTS[variant],
     ...style,
   };
   const Tag = as as "button";
   return (
-    <Tag className={`ew-btn ${className}`} style={base} {...rest}>
+    <Tag className={`ew-btn ${className}`} data-variant={variant} style={base} {...rest}>
       {children}
     </Tag>
   );

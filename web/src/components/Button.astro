@@ -26,8 +26,8 @@ const VARIANTS = {
 const base =
   "display:inline-flex;align-items:center;justify-content:center;gap:0.6em;font-family:var(--font-sans);font-weight:400;text-transform:uppercase;text-decoration:none;cursor:pointer;white-space:nowrap;line-height:1;" +
   `border-radius:${shape === "pill" ? "var(--radius-pill)" : "var(--radius-xs)"};` +
-  "transition:background var(--dur-base) var(--ease-out),color var(--dur-base) var(--ease-out),opacity var(--dur-base) var(--ease-out);" +
+  "transition:background var(--dur-base) var(--ease-out),color var(--dur-base) var(--ease-out),border-color var(--dur-base) var(--ease-out),opacity var(--dur-base) var(--ease-out);" +
   SIZES[size] + VARIANTS[variant] + style;
 const Tag = href ? "a" : "button";
 ---
-<Tag class={`ew-btn ${klass}`} style={base} {...(href ? { href } : {})}><slot /></Tag>
+<Tag class={`ew-btn ${klass}`} data-variant={variant} style={base} {...(href ? { href } : {})}><slot /></Tag>
