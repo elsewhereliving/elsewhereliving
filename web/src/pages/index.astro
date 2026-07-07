@@ -16,9 +16,9 @@ const { markets, pillars, testimonials } = getSiteContent();
 const featured = await getFeaturedListings(getHomeFeaturedCount());
 
 const services = [
-  { i: "home", t: "Buy & Sell", b: "Villas, land and condominiums across our markets — each one personally vetted for design, location and the numbers behind it.", cta: "Browse properties", href: "/properties/" },
-  { i: "key", t: "Custom Homes", b: "Build from nothing. We handle the land, the architecture, construction, interiors and furnishing — then hand you the keys.", cta: "Explore custom homes", href: "/custom-homes/" },
-  { i: "sun", t: "Vacation Rentals", b: "Short stays of 30 days or less in the same calibre of home — live the life here before you decide to make it yours.", cta: "See rentals", href: "/rentals/" },
+  { i: "home", t: "Buy & Sell", b: "Villas, land and condominiums across our markets — each one personally vetted for design, location and the numbers behind it.", cta: "Browse properties", href: "/properties/", image: "/assets/imagery/c-villa-pool.jpg" },
+  { i: "key", t: "Custom Homes", b: "Build from nothing. We handle the land, the architecture, construction, interiors and furnishing — then hand you the keys.", cta: "Explore custom homes", href: "/custom-homes/", image: "/assets/imagery/custom-cta-render.jpg" },
+  { i: "sun", t: "Vacation Rentals", b: "Short stays of 30 days or less in the same calibre of home — live the life here before you decide to make it yours.", cta: "See rentals", href: "/rentals/", image: "/assets/imagery/c-deck-sea.jpg" },
 ];
 const rentMarkets = [
   { name: "Koh Samui", img: "/assets/imagery/samui-card.jpg" },
@@ -110,16 +110,25 @@ const SECTION = "clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px)";
   <section style={`background:var(--mist); padding:${SECTION};`}>
     <div style="max-width:1320px; margin:0 auto;">
       <div class="reveal" style="margin-bottom:54px;">
-        <SectionHead eyebrow="What we do" title="Three ways to find your elsewhere." intro="Whether you're buying, building from the ground up, or simply staying a while — we look after the whole journey." max={720} />
+        <div style="max-width:720px;">
+          <div style="color:var(--slate); margin-bottom:18px;"><span class="ew-label" style="letter-spacing:0.04em;">[ What we do ]</span></div>
+          <h2 style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(2rem, 4vw, 3.1rem); line-height:1.08; letter-spacing:-0.015em; color:var(--navy);">Three ways to find your <span style="font-style:italic; font-weight:200;">elsewhere</span>.</h2>
+          <p style="margin:22px 0 0; font-family:var(--font-sans); font-weight:300; font-size:17px; line-height:1.7; color:var(--text-body);">Whether you're buying, building from the ground up, or simply staying a while — we look after the whole journey.</p>
+        </div>
       </div>
       <div class="reveal" data-grid="3" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:clamp(28px,4vw,56px);">
         {services.map((s) => (
-          <div style="border-top:1px solid var(--border-on-light); padding-top:26px; display:flex; flex-direction:column;">
-            <Icon name={s.i} size={30} color="var(--navy)" stroke={1.4} />
-            <h3 style="margin:22px 0 0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.5rem,2.6vw,2rem); line-height:1.1; letter-spacing:-0.01em; color:var(--navy);">{s.t}</h3>
-            <p style="margin:14px 0 22px; font-family:var(--font-sans); font-weight:300; font-size:15px; line-height:1.72; color:var(--text-body); flex:1;">{s.b}</p>
-            <a href={s.href} class="ew-textlink" style="align-self:flex-start; display:inline-flex; align-items:center; gap:8px; font-family:var(--font-sans); font-size:11.5px; letter-spacing:0.14em; text-transform:uppercase; color:var(--navy);">{s.cta} <span style="font-size:15px;">→</span></a>
-          </div>
+          <a href={s.href} class="ew-svc-card" style="display:flex; flex-direction:column; background:var(--white); border:1px solid var(--border-subtle); overflow:hidden; text-decoration:none;">
+            <div class="ew-grain" style="position:relative; aspect-ratio:3 / 2; overflow:hidden;">
+              <img src={s.image} alt={s.t} loading="lazy" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;" />
+              <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(15,22,40,0) 45%, rgba(15,22,40,0.66));"></div>
+              <h3 style="position:absolute; left:24px; bottom:20px; margin:0; color:var(--white); font-family:var(--font-serif); font-weight:300; font-size:clamp(1.6rem,2.8vw,2.1rem); line-height:1.05; letter-spacing:-0.01em;">{s.t}</h3>
+            </div>
+            <div style="padding:24px 26px 26px; display:flex; flex-direction:column; flex:1;">
+              <p style="margin:0; font-family:var(--font-sans); font-weight:300; font-size:15px; line-height:1.72; color:var(--text-body); flex:1;">{s.b}</p>
+              <span class="ew-textlink" style="margin-top:20px; align-self:flex-start; display:inline-flex; align-items:center; gap:8px; font-family:var(--font-sans); font-size:11.5px; letter-spacing:0.14em; text-transform:uppercase; color:var(--navy);">{s.cta} <span style="font-size:15px;">→</span></span>
+            </div>
+          </a>
         ))}
       </div>
     </div>

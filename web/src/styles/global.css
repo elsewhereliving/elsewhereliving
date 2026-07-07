@@ -97,7 +97,18 @@ img { display: block; max-width: 100%; }
    viewport, so top-align it and clear the fixed nav with breathing room. */
 @media (max-width: 720px) {
   .ew-hero { align-items: flex-start !important; min-height: auto !important; }
-  .ew-hero-inner { padding-top: 108px !important; padding-bottom: clamp(56px, 10vw, 88px) !important; }
+  .ew-hero-inner { padding-top: clamp(110px, 16vh, 160px) !important; padding-bottom: clamp(56px, 10vw, 88px) !important; }
+}
+
+/* Home service photo cards — lift + image zoom on hover. */
+.ew-svc-card { transition: transform var(--dur-base) var(--ease-out), box-shadow var(--dur-base) var(--ease-out); box-shadow: 0 0 0 rgba(0,0,0,0); }
+.ew-svc-card img { transition: transform 1.4s var(--ease-out); }
+.ew-svc-card:hover { transform: translateY(-3px); box-shadow: 0 26px 60px -38px rgba(15,22,40,0.55); }
+.ew-svc-card:hover img { transform: scale(1.07); }
+@media (prefers-reduced-motion: reduce) {
+  .ew-svc-card, .ew-svc-card img { transition: none; }
+  .ew-svc-card:hover { transform: none; box-shadow: none; }
+  .ew-svc-card:hover img { transform: none; }
 }
 
 /* ===== Custom Homes sales page ===== */

@@ -19,6 +19,13 @@ export default function TestimonialCarousel({ items }: { items: Testimonial[] })
   const many = items.length > 1;
   const go = (d: number) => setIdx((i) => (i + d + items.length) % items.length);
 
+  // Adaptive quote sizing — long testimonials read at a calmer body scale,
+  // short ones get the full serif display treatment.
+  const long = (t.quote?.length ?? 0) > 220;
+  const quoteStyle: React.CSSProperties = long
+    ? { fontSize: "clamp(1.1rem, 1.8vw, 1.45rem)", lineHeight: 1.55, maxWidth: 720 }
+    : { fontSize: "clamp(1.4rem, 2.6vw, 2rem)", lineHeight: 1.35, maxWidth: 860 };
+
   const arrowStyle: React.CSSProperties = {
     flex: "0 0 auto",
     width: 44,
@@ -49,7 +56,7 @@ export default function TestimonialCarousel({ items }: { items: Testimonial[] })
       <div style={{ color: "var(--slate)", marginBottom: 22 }}>
         <span className="ew-label">[ Testimonial ]</span>
       </div>
-      <div style={{ color: "var(--butter)", letterSpacing: "0.3em", fontSize: 18, marginBottom: 28, filter: "drop-shadow(0 1px 0 rgba(0,0,0,0.12))" }}>★★★★★</div>
+      <div style={{ color: "var(--butter)", letterSpacing: "0.3em", fontSize: 15, marginBottom: 28, filter: "drop-shadow(0 1px 0 rgba(0,0,0,0.12))" }}>★★★★★</div>
 
       <div style={{ display: "flex", alignItems: "center", gap: "clamp(12px, 3vw, 32px)", justifyContent: "center" }}>
         {many && (
@@ -58,7 +65,7 @@ export default function TestimonialCarousel({ items }: { items: Testimonial[] })
           </button>
         )}
         <div key={idx} className="ew-testi-fade" style={{ flex: "1 1 auto", minWidth: 0 }}>
-          <blockquote style={{ margin: 0, fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: "clamp(1.5rem, 3vw, 2.4rem)", lineHeight: 1.32, letterSpacing: "-0.01em", color: "var(--navy)", textWrap: "balance" } as React.CSSProperties}>
+          <blockquote style={{ margin: "0 auto", fontFamily: "var(--font-serif)", fontWeight: 300, letterSpacing: "-0.01em", color: "var(--navy)", textWrap: "balance", ...quoteStyle } as React.CSSProperties}>
             “{t.quote}”
           </blockquote>
           <div style={{ marginTop: 32, fontFamily: "var(--font-sans)", fontSize: 12, letterSpacing: "0.16em", textTransform: "uppercase", color: "var(--slate)" }}>
