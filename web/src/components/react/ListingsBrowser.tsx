@@ -700,20 +700,23 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
               { label: "3+", value: 3 },
               { label: "4+", value: 4 },
               { label: "5+", value: 5 },
+              { label: "6+", value: 6 },
             ]}
           />
           {priceMax > priceMin && (
-            <RangeSlider
-              label="Price"
-              min={priceMin}
-              max={priceMax}
-              step={PRICE_STEP}
-              lo={priceLo}
-              hi={priceHi}
-              onChange={(lo, hi) => { setPriceLo(lo); setPriceHi(hi); }}
-              format={fmtUSD}
-              scale="log"
-            />
+            <div style={{ marginLeft: "auto", marginRight: "clamp(0px, 8vw, 140px)", width: "100%", maxWidth: 300 }}>
+              <RangeSlider
+                label="Price"
+                min={priceMin}
+                max={priceMax}
+                step={PRICE_STEP}
+                lo={priceLo}
+                hi={priceHi}
+                onChange={(lo, hi) => { setPriceLo(lo); setPriceHi(hi); }}
+                format={fmtUSD}
+                scale="log"
+              />
+            </div>
           )}
         </div>
 

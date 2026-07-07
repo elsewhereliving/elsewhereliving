@@ -604,9 +604,9 @@ export default function RentalsBrowser({ items, destinations }: Props) {
     const rentPrice = (x: RentalItem) => (x.nightlyNum && x.nightlyNum > 0 ? x.nightlyNum : Infinity);
     if (sort === "low") out = [...out].sort((a, b) => rentPrice(a) - rentPrice(b));
     if (sort === "high") out = [...out].sort((a, b) => rentPrice(b) - rentPrice(a));
-    if (sort === "newest") {
-      const recency = (x: RentalItem) => (x as any).created ?? (x as any).added ?? 0;
-      out = [...out].sort((a, b) => recency(b) - recency(a));
+    if (sort === "guests") {
+      const cap = (x: RentalItem) => Number(x.guests) || 0;
+      out = [...out].sort((a, b) => cap(b) - cap(a) || a.id.localeCompare(b.id));
     }
     if (sort === "featured") {
       // Featured rentals first (in the order set in the Studio), then the rest
@@ -657,7 +657,7 @@ export default function RentalsBrowser({ items, destinations }: Props) {
               { label: "Featured", value: "featured" },
               { label: "Price · low to high", value: "low" },
               { label: "Price · high to low", value: "high" },
-              { label: "Newest", value: "newest" },
+              { label: "Most guests", value: "guests" },
             ]}
           />
         </div>
@@ -682,17 +682,19 @@ export default function RentalsBrowser({ items, destinations }: Props) {
             ]}
           />
           {priceMax > priceMin && (
-            <RangeSlider
-              label="Price / night"
-              min={priceMin}
-              max={priceMax}
-              step={NIGHTLY_STEP}
-              lo={priceLo}
-              hi={priceHi}
-              onChange={(lo, hi) => { setPriceLo(lo); setPriceHi(hi); }}
-              format={fmtNightly}
-              scale="log"
-            />
+            <div style={{ marginLeft: "auto", marginRight: "clamp(0px, 8vw, 140px)", width: "100%", maxWidth: 300 }}>
+              <RangeSlider
+                label="Price / night"
+                min={priceMin}
+                max={priceMax}
+                step={NIGHTLY_STEP}
+                lo={priceLo}
+                hi={priceHi}
+                onChange={(lo, hi) => { setPriceLo(lo); setPriceHi(hi); }}
+                format={fmtNightly}
+                scale="log"
+              />
+            </div>
           )}
         </div>
 
