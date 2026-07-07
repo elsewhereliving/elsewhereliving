@@ -102,8 +102,8 @@ export default function Nav({ current = "home", transparent = false }: { current
       {/* Mobile slide-in menu */}
       <div style={{ position: "fixed", inset: 0, zIndex: 300, pointerEvents: menuOpen ? "auto" : "none" }}>
         <div onClick={() => setMenuOpen(false)} style={{ position: "absolute", inset: 0, background: "rgba(10,12,16,0.5)", opacity: menuOpen ? 1 : 0, transition: "opacity var(--dur-base) var(--ease-out)" }} />
-        <div style={{ position: "absolute", top: 0, right: 0, bottom: 0, width: "min(82vw, 360px)", background: "var(--navy)", padding: "30px 30px 40px", transform: menuOpen ? "translateX(0)" : "translateX(100%)", transition: "transform var(--dur-slow) var(--ease-out)", display: "flex", flexDirection: "column" }}>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 44 }}>
+        <div style={{ position: "absolute", top: 0, right: 0, bottom: 0, maxHeight: "100dvh", overflowY: "auto", width: "min(82vw, 360px)", background: "var(--navy)", padding: "26px 28px calc(28px + env(safe-area-inset-bottom))", transform: menuOpen ? "translateX(0)" : "translateX(100%)", transition: "transform var(--dur-slow) var(--ease-out)", display: "flex", flexDirection: "column" }}>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 28 }}>
             <Wordmark size={24} color="var(--white)" />
             <button onClick={() => setMenuOpen(false)} aria-label="Close menu" style={{ background: "transparent", border: "none", cursor: "pointer", color: "var(--white)", padding: 6 }}>
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4"><path d="M5 5l14 14M19 5L5 19" /></svg>
@@ -111,7 +111,7 @@ export default function Nav({ current = "home", transparent = false }: { current
           </div>
           <nav style={{ display: "flex", flexDirection: "column", gap: 4 }}>
             {NAV_LINKS.concat([{ key: "saved", href: "/saved/", label: `Saved (${savedCount})` }]).map((l) => (
-              <a key={l.key} href={l.href} style={{ cursor: "pointer", color: "var(--white)", padding: "14px 0", borderBottom: "1px solid var(--border-on-dark)", fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: 26, letterSpacing: "-0.01em", opacity: l.key === current ? 1 : 0.7 }}>
+              <a key={l.key} href={l.href} style={{ cursor: "pointer", color: "var(--white)", padding: "11px 0", borderBottom: "1px solid var(--border-on-dark)", fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: 22, letterSpacing: "-0.01em", opacity: l.key === current ? 1 : 0.7 }}>
                 {l.label}
               </a>
             ))}

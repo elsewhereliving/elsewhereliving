@@ -87,6 +87,13 @@ img { display: block; max-width: 100%; }
 .ew-hero-proof { color: rgba(255,255,255,0.6); text-decoration: none; transition: color var(--dur-base) var(--ease-out); }
 .ew-hero-proof:hover { color: rgba(255,255,255,0.82); }
 
+/* Homepage hero on mobile: the stacked copy is too tall to bottom-align in one
+   viewport, so top-align it and clear the fixed nav with breathing room. */
+@media (max-width: 720px) {
+  .ew-hero { align-items: flex-start !important; min-height: auto !important; }
+  .ew-hero-inner { padding-top: 108px !important; padding-bottom: clamp(56px, 10vw, 88px) !important; }
+}
+
 /* Buying guide — butter "real highlighter" on hand-picked phrases. */
 .ew-hl {
   background: linear-gradient(100deg,
