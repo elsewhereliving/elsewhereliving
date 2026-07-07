@@ -6,8 +6,16 @@ import Icon from "../components/Icon.astro";
 import SectionHead from "../components/SectionHead.astro";
 import { getSiteContent } from "../lib/content";
 
-const { personas, differentiators } = getSiteContent();
+const { personas, differentiators, contact } = getSiteContent();
 const HERO_IMAGE = "/assets/imagery/c-ocean.jpg";
+const waDigits = (contact.whatsappRaw || contact.whatsapp || "").replace(/[^0-9]/g, "");
+const waHref = `https://wa.me/${waDigits}`;
+const stats = [
+  { v: "20M+", l: "Views" },
+  { v: "20K+", l: "Followers" },
+  { v: "5", l: "Markets" },
+  { v: "1 day", l: "Reply" },
+];
 ---
 <Base
   current="about"
@@ -51,11 +59,50 @@ const HERO_IMAGE = "/assets/imagery/c-ocean.jpg";
       </div>
     </section>
 
+    <!-- Founder -->
+    <section style="background:var(--paper); padding:clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px);">
+      <div data-grid="split" style="max-width:1320px; margin:0 auto; display:grid; grid-template-columns:1.5fr 1fr; gap:clamp(40px, 6vw, 90px); align-items:center;">
+        <div class="reveal">
+          <SectionHead
+            eyebrow="The person behind it"
+            title="Founder-led, hands-on — in three countries."
+            intro="Elsewhere was founded by Sofia — Thai, ten years in marketing, and a following that found her through honest videos about island life and property. Our home base is Koh Samui, Thailand, with trusted local partners in every market we work in — and Sofia stays close to every client's journey."
+          />
+          <p style="margin:22px 0 0; max-width:560px; font-family:var(--font-sans); font-weight:300; font-size:16px; line-height:1.75; color:var(--text-body);">
+            Being based on Koh Samui gives us a real edge here — local relationships and early word on land and off-market homes before they surface. And staying deliberately hands-on means every property is hand-picked by us, every listing known personally — and marketed the way ten years in the craft taught us.
+          </p>
+          <div style="margin-top:30px; display:flex; flex-wrap:wrap; gap:12px;">
+            <Button href={waHref} variant="solid" size="md" shape="pill">WhatsApp</Button>
+            <Button href={`mailto:${contact.email}`} variant="outline" size="md" shape="pill">Email</Button>
+            <Button href="https://www.instagram.com/sofia.elsewhere/" variant="outline" size="md" shape="pill">Instagram</Button>
+          </div>
+          <p style="margin:18px 0 0; font-family:var(--font-sans); font-weight:300; font-size:13px; letter-spacing:0.02em; color:var(--slate);">A real person answers — usually within a day.</p>
+        </div>
+        <div class="reveal" style="display:flex; justify-content:center;">
+          <div class="ew-grain" style="position:relative; width:100%; max-width:380px; aspect-ratio:3 / 4; overflow:hidden;">
+            <img src="/assets/imagery/sofia-portrait.jpg" alt="Sofia — founder of Elsewhere Living" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:50% 22%;" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats strip -->
+    <section style="background:var(--mist); color:var(--navy); padding:clamp(44px, 6vw, 72px) clamp(20px, 4vw, 56px);">
+      <div class="reveal" data-grid="4" style="max-width:1100px; margin:0 auto; display:grid; grid-template-columns:repeat(4, 1fr); gap:clamp(20px, 4vw, 52px);">
+        {stats.map((s) => (
+          <div style="border-top:1px solid rgba(21,38,68,0.2); padding-top:18px;">
+            <div style="font-family:var(--font-serif); font-weight:300; font-size:clamp(2rem, 4vw, 3rem); letter-spacing:-0.01em; color:var(--navy); line-height:1;">{s.v}</div>
+            <div style="margin-top:10px; font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.18em; text-transform:uppercase; color:var(--navy);">{s.l}</div>
+          </div>
+        ))}
+      </div>
+    </section>
+
     <!-- Our belief -->
     <section style="background:var(--paper); padding:clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px);">
       <div
         data-grid="split"
-        style="max-width:1320px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:clamp(40px, 6vw, 90px); align-items:center;"
+        style="max-width:1320px; margin:0 auto; display:grid; grid-template-columns:1.5fr 1fr; gap:clamp(40px, 6vw, 90px); align-items:center;"
       >
         <div class="reveal">
           <SectionHead
@@ -67,12 +114,14 @@ const HERO_IMAGE = "/assets/imagery/c-ocean.jpg";
             <Button href="/properties/" variant="solid" size="md" shape="pill">See the collection</Button>
           </div>
         </div>
-        <div class="reveal ew-grain" style="position:relative; aspect-ratio:4 / 5; overflow:hidden;">
-          <img
-            src="/assets/imagery/belief-jungle-pool.jpg"
-            alt=""
-            style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;"
-          />
+        <div class="reveal" style="display:flex; justify-content:center;">
+          <div class="ew-grain" style="position:relative; width:100%; max-width:380px; aspect-ratio:3 / 4; overflow:hidden;">
+            <img
+              src="/assets/imagery/belief-jungle-pool.jpg"
+              alt=""
+              style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;"
+            />
+          </div>
         </div>
       </div>
     </section>

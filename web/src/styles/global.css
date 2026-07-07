@@ -347,3 +347,6 @@ img { display: block; max-width: 100%; }
   visibility: visible;
   transform: translateY(0);
 }
+
+/* About stats strip / founder split stack on small screens. */
+@media (max-width: 620px) { main [data-grid="4"] { grid-template-columns: repeat(2, 1fr) !important; } }
