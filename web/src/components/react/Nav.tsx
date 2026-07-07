@@ -11,7 +11,6 @@ const NAV_LINKS: Array<{ key: string; href: string; label: string }> = [
   { key: "rentals", href: "/rentals/", label: "Vacation Rentals" },
   { key: "buying-guide", href: "/buying-guide/", label: "Buying Guide" },
   { key: "about", href: "/about/", label: "About" },
-  { key: "contact", href: "/contact/", label: "Contact" },
 ];
 
 function Wordmark({ size, color }: { size: number; color: string }) {
