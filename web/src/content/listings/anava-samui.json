@@ -1,0 +1,89 @@
+{
+  "id": "anava-samui",
+  "image": "/assets/listings/anava-samui/01.jpg",
+  "gallery": [
+    "/assets/listings/anava-samui/01.jpg",
+    "/assets/listings/anava-samui/02.jpg",
+    "/assets/listings/anava-samui/03.jpg",
+    "/assets/listings/anava-samui/04.jpg",
+    "/assets/listings/anava-samui/05.jpg",
+    "/assets/listings/anava-samui/06.jpg",
+    "/assets/listings/anava-samui/07.jpg",
+    "/assets/listings/anava-samui/08.jpg",
+    "/assets/listings/anava-samui/09.jpg",
+    "/assets/listings/anava-samui/10.jpg",
+    "/assets/listings/anava-samui/11.jpg",
+    "/assets/listings/anava-samui/12.jpg",
+    "/assets/listings/anava-samui/13.jpg",
+    "/assets/listings/anava-samui/14.jpg",
+    "/assets/listings/anava-samui/15.jpg",
+    "/assets/listings/anava-samui/16.jpg",
+    "/assets/listings/anava-samui/17.jpg",
+    "/assets/listings/anava-samui/18.jpg",
+    "/assets/listings/anava-samui/19.jpg"
+  ],
+  "location": "Bang Rak · Koh Samui · Thailand",
+  "place": "Bang Rak Beach, Bo Phut, Ko Samui District, Surat Thani, Thailand",
+  "market": "Koh Samui",
+  "title": "Anava Samui — Freehold & Leasehold Beachfront Condominium, Bang Rak",
+  "type": "Condominium",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Off-Plan",
+  "beds": 3,
+  "bedsLabel": "Studio–3",
+  "baths": "1–3",
+  "interior": "28–101 m²",
+  "plot": null,
+  "year": "2025–2027",
+  "ownership": "Freehold or Leasehold",
+  "priceOriginalNum": 2990000,
+  "priceCurrency": "THB",
+  "priceFrom": true,
+  "added": 86,
+  "created": 1783015200000,
+  "video": "",
+  "imageFocal": "",
+  "blurb": "Anava Samui is a brand-new beachfront condominium on Bang Rak Bay, Koh Samui — one of the island's first EIA-approved condos, offering 100% foreign freehold (leasehold also available). A hotel-style community of 564 studio-to-three-bedroom residences wrapped around resort pools and landscaped gardens, with a gym, sky bar, restaurant, concierge and direct beach access. A strong rental play with a projected 8–15% yield. From ฿2,990,000.",
+  "detail": "Anava Samui is a brand-new beachfront condominium set directly on Bang Rak Bay, on the sought-after north-east coast of Koh Samui. It holds a rare distinction as one of the island's first EIA-approved condominiums, which allows full foreign freehold ownership under the Thai Condominium Act — the only route to own real estate outright as a foreigner — with leasehold structuring available as an alternative.\n\nConceived around a \"garden by the pool\" concept and inspired by five-star resort design, the development spans 564 residences in low-rise blocks threaded with swimming pools, water features and tropical landscaping. Homes range from studios to three-bedroom layouts, most with 2.71-metre ceilings and sea, pool or garden outlooks. Hotel-style amenities include a residents' gym, sky bar, restaurant, lobby and concierge, with direct access to the beach at the foot of the site.\n\nThe setting is one of Samui's most convenient: Bang Rak (Big Buddha) Beach, minutes from Fisherman's Village and Choeng Mon, close to international schools, hospitals and shopping, and under fifteen minutes from Samui International Airport. With a professional rental-management program in place, the developer projects a rental yield of roughly 8–15%, making it as compelling for investors as for owner-occupiers. Offered freehold or leasehold, with completion phased through 2027.\n\nStarting prices by type (leasehold / freehold):\nStudio · from ฿2,990,000 / ฿3,600,000\n1-bedroom · from ฿4,566,224 / ฿5,077,956\n2-bedroom · from ฿9,242,100 / ฿10,269,000\n3-bedroom · price on request\n\nPrices reflect the current price list (special release, updated April 2026); availability, sizes and unit mix vary by block and release.",
+  "features": [
+    {
+      "l": "EIA-approved · 100% foreign freehold available",
+      "i": "shield"
+    },
+    {
+      "l": "Direct beachfront access · Bang Rak Bay",
+      "i": "waves"
+    },
+    {
+      "l": "564 residences · studio to 3-bedroom",
+      "i": "building"
+    },
+    {
+      "l": "Resort pools & landscaped gardens",
+      "i": "pool"
+    },
+    {
+      "l": "Gym, sky bar, restaurant & concierge",
+      "i": "gym"
+    },
+    {
+      "l": "2.71 m ceilings · sea, pool & garden views",
+      "i": "view"
+    },
+    {
+      "l": "Projected 8–15% yield · managed rental program",
+      "i": "key"
+    },
+    {
+      "l": "Freehold or leasehold · completion through 2027",
+      "i": "year"
+    },
+    {
+      "l": "Under 15 min to airport, beaches & Fisherman's Village",
+      "i": "road"
+    }
+  ],
+  "mapQuery": "9.5599,100.0510"
+}
