@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 
 // Crossfading hero frame + thumbnail strip. For speed it loads photos ON DEMAND:
 // only the active image (and its immediate neighbours, for instant navigation)
@@ -46,6 +47,10 @@ export default function Gallery({ images, thumbs, title }: Props) {
   const goto = (i: number) => { setActive(i); reveal(i); };
   const go = (dir: number) => goto((active + dir + list.length) % list.length);
 
+  // Fullscreen lightbox: shows the whole photo (object-fit: contain) so nothing
+  // gets cropped — useful for portrait shots with text/detail near the edges.
+  const [zoom, setZoom] = useState(false);
+
   // Keep the active thumbnail centered in the strip.
   useEffect(() => {
     const strip = stripRef.current;
@@ -53,6 +58,23 @@ export default function Gallery({ images, thumbs, title }: Props) {
     if (!strip || !thumb) return;
     strip.scrollTo({ left: Math.max(0, thumb.offsetLeft - strip.clientWidth / 2 + thumb.clientWidth / 2), behavior: "smooth" });
   }, [active]);
+
+  // While the lightbox is open: lock page scroll and wire up keyboard nav.
+  useEffect(() => {
+    if (!zoom) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setZoom(false);
+      else if (e.key === "ArrowRight" && many) go(1);
+      else if (e.key === "ArrowLeft" && many) go(-1);
+    };
+    window.addEventListener("keydown", onKey);
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.body.style.overflow = prevOverflow;
+    };
+  }, [zoom, many, active]);
 
   if (!list.length) return null;
 
@@ -66,7 +88,11 @@ export default function Gallery({ images, thumbs, title }: Props) {
 
   return (
     <div style={{ minWidth: 0 }}>
-      <div className="ew-grain" style={{ position: "relative", aspectRatio: "16 / 10", overflow: "hidden", background: "var(--navy)" }}>
+      <div
+        className="ew-grain"
+        onClick={() => setZoom(true)}
+        style={{ position: "relative", aspectRatio: "16 / 10", overflow: "hidden", background: "var(--navy)", cursor: "zoom-in" }}
+      >
         {list.map((src, i) =>
           loaded.has(i) ? (
             <img
@@ -83,12 +109,20 @@ export default function Gallery({ images, thumbs, title }: Props) {
             />
           ) : null
         )}
+        <div
+          aria-hidden="true"
+          style={{ position: "absolute", top: 14, left: 14, zIndex: 3, width: 34, height: 34, display: "flex", alignItems: "center", justifyContent: "center", background: "rgba(15,22,40,0.4)", backdropFilter: "blur(3px)", WebkitBackdropFilter: "blur(3px)", pointerEvents: "none" }}
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--white)" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round">
+            <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+          </svg>
+        </div>
         {many && (
           <>
-            <button onClick={() => go(-1)} aria-label="Previous photo" className="ew-gallery-arrow" style={{ ...arrowBase, left: 14 }}>
+            <button onClick={(e) => { e.stopPropagation(); go(-1); }} aria-label="Previous photo" className="ew-gallery-arrow" style={{ ...arrowBase, left: 14 }}>
               <Chevron dir="left" />
             </button>
-            <button onClick={() => go(1)} aria-label="Next photo" className="ew-gallery-arrow" style={{ ...arrowBase, right: 14 }}>
+            <button onClick={(e) => { e.stopPropagation(); go(1); }} aria-label="Next photo" className="ew-gallery-arrow" style={{ ...arrowBase, right: 14 }}>
               <Chevron dir="right" />
             </button>
             <div style={{ position: "absolute", bottom: 14, right: 14, zIndex: 3, padding: "6px 12px", background: "rgba(15,22,40,0.5)", backdropFilter: "blur(3px)", WebkitBackdropFilter: "blur(3px)", fontFamily: "var(--font-sans)", fontSize: 11, letterSpacing: "0.14em", color: "var(--white)" }}>
@@ -110,6 +144,48 @@ export default function Gallery({ images, thumbs, title }: Props) {
             </button>
           ))}
         </div>
+      )}
+
+      {zoom && typeof document !== "undefined" && createPortal(
+        <div
+          role="dialog"
+          aria-modal="true"
+          aria-label={title + " — photo viewer"}
+          onClick={() => setZoom(false)}
+          style={{ position: "fixed", inset: 0, zIndex: 200, background: "rgba(8,12,24,0.94)", display: "flex", alignItems: "center", justifyContent: "center" }}
+        >
+          <img
+            src={list[active]}
+            alt={title + " — view " + (active + 1)}
+            onClick={(e) => e.stopPropagation()}
+            style={{ maxWidth: "94vw", maxHeight: "90vh", width: "auto", height: "auto", objectFit: "contain", cursor: "default" }}
+          />
+
+          <button
+            onClick={(e) => { e.stopPropagation(); setZoom(false); }}
+            aria-label="Close photo viewer"
+            style={{ position: "fixed", top: 20, right: 20, zIndex: 3, width: 46, height: 46, display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", border: "1px solid rgba(255,255,255,0.55)", background: "rgba(15,22,40,0.34)", backdropFilter: "blur(3px)", WebkitBackdropFilter: "blur(3px)", color: "var(--white)" }}
+          >
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--white)" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M18 6 6 18M6 6l12 12" />
+            </svg>
+          </button>
+
+          {many && (
+            <>
+              <button onClick={(e) => { e.stopPropagation(); go(-1); }} aria-label="Previous photo" className="ew-gallery-arrow" style={{ ...arrowBase, left: 20 }}>
+                <Chevron dir="left" />
+              </button>
+              <button onClick={(e) => { e.stopPropagation(); go(1); }} aria-label="Next photo" className="ew-gallery-arrow" style={{ ...arrowBase, right: 20 }}>
+                <Chevron dir="right" />
+              </button>
+              <div style={{ position: "fixed", bottom: 22, left: "50%", transform: "translateX(-50%)", zIndex: 3, padding: "6px 14px", background: "rgba(15,22,40,0.5)", backdropFilter: "blur(3px)", WebkitBackdropFilter: "blur(3px)", fontFamily: "var(--font-sans)", fontSize: 12, letterSpacing: "0.14em", color: "var(--white)" }}>
+                {active + 1} / {list.length}
+              </div>
+            </>
+          )}
+        </div>,
+        document.body
       )}
     </div>
   );
