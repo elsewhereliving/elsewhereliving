@@ -117,8 +117,9 @@
     }
   ],
   "featured": true,
-  "featuredRank": 18,
+  "featuredRank": 23,
   "imageFocal": "",
   "created": 1781754129000,
-  "internalName": "Layan Verde - Penthouse"
+  "internalName": "Layan Verde - Penthouse",
+  "focals": {}
 }

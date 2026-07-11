@@ -124,5 +124,6 @@
   "mapQuery": "9.570915,99.928118",
   "imageFocal": "",
   "featured": true,
-  "featuredRank": 27
+  "featuredRank": 30,
+  "focals": {}
 }

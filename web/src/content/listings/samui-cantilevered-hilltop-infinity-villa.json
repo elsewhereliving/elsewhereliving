@@ -121,8 +121,9 @@
     }
   ],
   "featured": true,
-  "featuredRank": 2,
+  "featuredRank": 3,
   "imageFocal": "",
   "created": 1781462529000,
-  "internalName": "Villa Teal"
+  "internalName": "Villa Teal",
+  "focals": {}
 }

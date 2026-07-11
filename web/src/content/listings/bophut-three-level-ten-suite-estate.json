@@ -97,8 +97,9 @@
     }
   ],
   "featured": true,
-  "featuredRank": 12,
+  "featuredRank": 13,
   "imageFocal": "",
   "created": 1781660529000,
-  "internalName": "Ivory sanctuary villa - 10-bedroom"
+  "internalName": "Ivory sanctuary villa - 10-bedroom",
+  "focals": {}
 }

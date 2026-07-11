@@ -113,5 +113,6 @@
   "internalName": "OKA Villas",
   "imageFocal": "",
   "featured": true,
-  "featuredRank": 29
+  "featuredRank": 20,
+  "focals": {}
 }

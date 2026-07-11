@@ -93,8 +93,9 @@
     }
   ],
   "featured": true,
-  "featuredRank": 4,
+  "featuredRank": 7,
   "imageFocal": "",
   "created": 1781505729000,
-  "yield": "10% ROI"
+  "yield": "10% ROI",
+  "focals": {}
 }

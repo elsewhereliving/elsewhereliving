@@ -116,8 +116,9 @@
     }
   ],
   "featured": true,
-  "featuredRank": 10,
+  "featuredRank": 11,
   "imageFocal": "",
   "created": 1781714529000,
-  "internalName": "Verano Residence Phase 4"
+  "internalName": "Verano Residence Phase 4",
+  "focals": {}
 }

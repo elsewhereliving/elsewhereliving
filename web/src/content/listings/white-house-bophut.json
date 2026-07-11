@@ -96,7 +96,8 @@
     }
   ],
   "featured": true,
-  "featuredRank": 3,
+  "featuredRank": 4,
   "imageFocal": "",
-  "created": 1781545329000
+  "created": 1781545329000,
+  "focals": {}
 }

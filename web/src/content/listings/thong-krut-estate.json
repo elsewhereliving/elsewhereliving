@@ -113,8 +113,9 @@
     }
   ],
   "featured": true,
-  "featuredRank": 9,
+  "featuredRank": 10,
   "imageFocal": "",
   "created": 1781437329000,
-  "internalName": "Villa Azul"
+  "internalName": "Villa Azul",
+  "focals": {}
 }

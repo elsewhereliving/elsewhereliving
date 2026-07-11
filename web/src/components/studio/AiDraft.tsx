@@ -17,7 +17,16 @@ const FIELD_LABELS: Record<string, string> = {
   nightlyOriginalNum: "Nightly rate", nightlyCurrency: "Currency", note: "Rate note", blurb: "Blurb", detail: "Detail", features: "Features",
 };
 
-interface Bubble { role: "user" | "assistant" | "error"; text: string; photos?: string[]; filled?: string[] }
+interface Bubble { role: "user" | "assistant" | "error"; text: string; photos?: string[]; docs?: string[]; filled?: string[] }
+
+const isPdf = (f: File) => f.type === "application/pdf";
+const fileToBase64 = (f: File) =>
+  new Promise<string>((res, rej) => {
+    const r = new FileReader();
+    r.onload = () => res((r.result as string).split(",")[1]);
+    r.onerror = () => rej(new Error("Couldn't read " + f.name));
+    r.readAsDataURL(f);
+  });
 
 const sans = (extra?: CSSProperties): CSSProperties => ({ fontFamily: "var(--font-sans)", ...extra });
 const mlabel: CSSProperties = sans({ fontSize: 10.5, letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--slate)", fontWeight: 500 });
@@ -50,8 +59,16 @@ export default function AiDraft({ collection, rec, markets, seed, onApply, onAdd
   useEffect(() => { scrollRef.current?.scrollTo({ top: 1e6, behavior: "smooth" }); }, [bubbles, busy]);
 
   function pickFiles(list: FileList | File[]) {
-    const imgs = Array.from(list).filter((f) => /^image\//.test(f.type));
-    if (imgs.length) setFiles((p) => p.concat(imgs));
+    const ok: File[] = [];
+    for (const f of Array.from(list)) {
+      if (f.type === "application/pdf") {
+        // The API takes PDFs up to ~30 MB / 100 pages; keep a margin for base64 overhead.
+        if (f.size > 20 * 1024 * 1024) { toast(f.name + " is over 20 MB — export a lighter PDF or drop its pages as images", "danger"); continue; }
+        ok.push(f);
+      } else if (/^image\//.test(f.type)) ok.push(f);
+      else toast("Only photos and PDF brochures can be dropped here", "danger");
+    }
+    if (ok.length) setFiles((p) => p.concat(ok));
   }
 
   async function send() {
@@ -62,13 +79,19 @@ export default function AiDraft({ collection, rec, markets, seed, onApply, onAdd
     const myFiles = files;
     setFiles([]);
     try {
-      // Resize each dropped photo twice: full quality for the gallery, small for the model.
+      const photos = myFiles.filter((f) => !isPdf(f));
+      const pdfs = myFiles.filter(isPdf);
       const thumbs: string[] = [];
       const content: any[] = pendingToolIds.map((id) => ({ type: "tool_result", tool_use_id: id, content: "Applied to the form." }));
       setPendingToolIds([]);
-      if (myFiles.length) {
+      // PDF brochures go to the model whole — it reads text, layout and photos.
+      for (const f of pdfs) {
+        content.push({ type: "document", source: { type: "base64", media_type: "application/pdf", data: await fileToBase64(f) } });
+      }
+      // Photos are resized twice: full quality for the gallery, small for the model.
+      if (photos.length) {
         const galleryUrls: string[] = [];
-        for (const f of myFiles) {
+        for (const f of photos) {
           galleryUrls.push(await resizeToDataUrl(f, GALLERY_EDGE));
           const small = await resizeToDataUrl(f, AI_EDGE, 0.8);
           thumbs.push(small);
@@ -76,8 +99,8 @@ export default function AiDraft({ collection, rec, markets, seed, onApply, onAdd
         }
         onAddPhotos(galleryUrls);
       }
-      content.push({ type: "text", text: (notes || "(photos only — extract what you can)") + "\n\n[Current form values]\n" + formSnapshot(recRef.current, isRental) });
-      setBubbles((b) => b.concat([{ role: "user", text: notes, photos: thumbs }]));
+      content.push({ type: "text", text: (notes || "(attachments only — extract what you can)") + "\n\n[Current form values]\n" + formSnapshot(recRef.current, isRental) });
+      setBubbles((b) => b.concat([{ role: "user", text: notes, photos: thumbs, docs: pdfs.map((f) => f.name) }]));
       const messages = history.concat([{ role: "user", content }]);
       const res = await sendChat({ isRental, markets, messages });
       setHistory(messages.concat([{ role: "assistant", content: res.assistantContent }]));
@@ -118,8 +141,8 @@ export default function AiDraft({ collection, rec, markets, seed, onApply, onAdd
           <div style={{ border: "1px dashed var(--stone)", padding: "22px 18px", background: "var(--paper)" }}>
             <div style={{ fontFamily: "var(--font-serif)", fontSize: 17, color: "var(--navy)", marginBottom: 8 }}>Chat this listing into shape.</div>
             <p style={sans({ fontSize: 12.5, color: "var(--slate)", lineHeight: 1.6, margin: 0 })}>
-              Drop the photos and paste whatever you have — the agent's WhatsApp message, brochure text, a few bullet specs.
-              I'll add the photos to the gallery (resized), read them, and fill the title, story, facts and price on the form.
+              Drop the photos or the agent's PDF brochure, and paste whatever else you have — a WhatsApp message, a few bullet specs.
+              I'll add the photos to the gallery (resized), read everything, and fill the title, story, facts and price on the form.
               Then keep chatting: “price is 45M THB”, “make the blurb shorter”, “it also has a gym”.
             </p>
           </div>
@@ -128,6 +151,15 @@ export default function AiDraft({ collection, rec, markets, seed, onApply, onAdd
           <div key={i} style={{ alignSelf: m.role === "user" ? "flex-end" : "stretch", maxWidth: m.role === "user" ? "88%" : "100%" }}>
             {m.role === "user" ? (
               <div style={{ background: "var(--navy)", color: "var(--white)", padding: "11px 14px" }}>
+                {!!m.docs?.length && (
+                  <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: m.text || m.photos?.length ? 8 : 0 }}>
+                    {m.docs.map((d) => (
+                      <span key={d} style={sans({ fontSize: 11, border: "1px solid rgba(255,255,255,0.4)", padding: "4px 9px", display: "inline-flex", alignItems: "center", gap: 6, maxWidth: 200, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" })}>
+                        <Icon name="info" size={11} color="var(--white)" /> {d}
+                      </span>
+                    ))}
+                  </div>
+                )}
                 {!!m.photos?.length && (
                   <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: m.text ? 8 : 0 }}>
                     {m.photos.map((p, j) => <img key={j} src={p} alt="" style={{ width: 64, height: 48, objectFit: "cover", display: "block" }} />)}
@@ -172,8 +204,14 @@ export default function AiDraft({ collection, rec, markets, seed, onApply, onAdd
             <div style={{ display: "flex", gap: 7, flexWrap: "wrap", marginBottom: 10 }}>
               {files.map((f, i) => (
                 <span key={i} style={{ position: "relative", display: "inline-block", lineHeight: 0 }}>
-                  <img src={URL.createObjectURL(f)} alt="" style={{ width: 58, height: 44, objectFit: "cover", border: "1px solid var(--border-subtle)" }} onLoad={(e) => URL.revokeObjectURL((e.target as HTMLImageElement).src)} />
-                  <button type="button" onClick={() => setFiles((p) => p.filter((_, j) => j !== i))} aria-label="Remove photo"
+                  {isPdf(f) ? (
+                    <span style={sans({ fontSize: 11, color: "var(--navy)", border: "1px solid var(--border-on-light)", background: "var(--paper)", padding: "6px 10px", display: "inline-flex", alignItems: "center", gap: 6, maxWidth: 180, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", lineHeight: 1.2 })}>
+                      <Icon name="info" size={12} color="var(--navy)" /> {f.name}
+                    </span>
+                  ) : (
+                    <img src={URL.createObjectURL(f)} alt="" style={{ width: 58, height: 44, objectFit: "cover", border: "1px solid var(--border-subtle)" }} onLoad={(e) => URL.revokeObjectURL((e.target as HTMLImageElement).src)} />
+                  )}
+                  <button type="button" onClick={() => setFiles((p) => p.filter((_, j) => j !== i))} aria-label="Remove attachment"
                     style={{ position: "absolute", top: -6, right: -6, width: 17, height: 17, borderRadius: "50%", border: "none", background: "var(--navy)", color: "var(--white)", fontSize: 11, lineHeight: 1, cursor: "pointer", padding: 0 }}>×</button>
                 </span>
               ))}
@@ -183,7 +221,7 @@ export default function AiDraft({ collection, rec, markets, seed, onApply, onAdd
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); send(); } }}
-            placeholder={"Drop photos here + paste the raw info…\ne.g. “4br pool villa in Bang Tao, 620 m² on a 900 m² plot, 45M THB, completed 2023”"}
+            placeholder={"Drop photos or a PDF brochure here + paste the raw info…\ne.g. “4br pool villa in Bang Tao, 620 m² on a 900 m² plot, 45M THB, completed 2023”"}
             rows={3}
             style={{ width: "100%", boxSizing: "border-box", background: "var(--paper)", border: "1px solid var(--border-subtle)", padding: "11px 13px", fontFamily: "var(--font-sans)", fontSize: 13, color: "var(--charcoal)", resize: "none", outline: "none", borderRadius: 0, lineHeight: 1.55 }}
           />
@@ -192,7 +230,7 @@ export default function AiDraft({ collection, rec, markets, seed, onApply, onAdd
               style={sans({ display: "inline-flex", alignItems: "center", gap: 7, background: "none", border: "1px solid var(--border-on-light)", padding: "8px 14px", cursor: "pointer", fontSize: 10.5, letterSpacing: "0.12em", textTransform: "uppercase", color: "var(--navy)" })}>
               + Photos
             </button>
-            <input ref={fileRef} type="file" accept="image/*" multiple style={{ display: "none" }} onChange={(e) => { if (e.target.files) pickFiles(e.target.files); e.target.value = ""; }} />
+            <input ref={fileRef} type="file" accept="image/*,application/pdf" multiple style={{ display: "none" }} onChange={(e) => { if (e.target.files) pickFiles(e.target.files); e.target.value = ""; }} />
             <button type="button" onClick={send} disabled={busy || (!input.trim() && !files.length)}
               style={sans({ display: "inline-flex", alignItems: "center", gap: 8, padding: "10px 20px", cursor: busy ? "default" : "pointer", background: "var(--navy)", color: "var(--white)", border: "none", fontSize: 11, letterSpacing: "0.16em", textTransform: "uppercase", opacity: busy || (!input.trim() && !files.length) ? 0.55 : 1 })}>
               {busy ? "Working…" : "Send"} <Icon name="arrowRight" size={13} color="var(--white)" />
