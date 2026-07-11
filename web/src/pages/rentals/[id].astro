@@ -47,12 +47,15 @@ const priceTip = nightlyOriginal
   ? `Shown in USD — originally ${nightlyOriginal}${nightlyCurrency ? ` (${nightlyCurrency})` : ""}`
   : undefined;
 
-// Spec rows for the sticky rail (RentalScreen SpecRow order).
-const specs: [string, string][] = [
-  ["Bedrooms", String(r.bedsLabel || r.beds)],
-  ["Sleeps", `${r.guestsLabel || r.guests} guests`],
-  ["Property size", String(r.size)],
-];
+// Spec rows for the sticky rail (RentalScreen SpecRow order). Rows with no
+// value (e.g. size unknown) are dropped rather than rendered empty.
+const specs: [string, string][] = (
+  [
+    ["Bedrooms", String(r.bedsLabel || r.beds)],
+    ["Sleeps", `${r.guestsLabel || r.guests} guests`],
+    ["Property size", String(r.size || "")],
+  ] as [string, string][]
+).filter(([, v]) => v.trim() !== "" && v !== "0" && v !== "undefined");
 
 const jsonLd = {
   "@context": "https://schema.org",
