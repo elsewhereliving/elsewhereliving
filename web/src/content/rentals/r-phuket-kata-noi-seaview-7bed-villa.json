@@ -1,0 +1,67 @@
+{
+  "id": "r-phuket-kata-noi-seaview-7bed-villa",
+  "image": "/assets/listings/r-phuket-kata-noi-seaview-7bed-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-phuket-kata-noi-seaview-7bed-villa/01.jpg",
+    "/assets/listings/r-phuket-kata-noi-seaview-7bed-villa/02.jpg",
+    "/assets/listings/r-phuket-kata-noi-seaview-7bed-villa/03.jpg",
+    "/assets/listings/r-phuket-kata-noi-seaview-7bed-villa/04.jpg",
+    "/assets/listings/r-phuket-kata-noi-seaview-7bed-villa/05.jpg",
+    "/assets/listings/r-phuket-kata-noi-seaview-7bed-villa/06.jpg",
+    "/assets/listings/r-phuket-kata-noi-seaview-7bed-villa/07.jpg",
+    "/assets/listings/r-phuket-kata-noi-seaview-7bed-villa/08.jpg",
+    "/assets/listings/r-phuket-kata-noi-seaview-7bed-villa/09.jpg",
+    "/assets/listings/r-phuket-kata-noi-seaview-7bed-villa/10.jpg",
+    "/assets/listings/r-phuket-kata-noi-seaview-7bed-villa/11.jpg",
+    "/assets/listings/r-phuket-kata-noi-seaview-7bed-villa/12.jpg",
+    "/assets/listings/r-phuket-kata-noi-seaview-7bed-villa/13.jpg",
+    "/assets/listings/r-phuket-kata-noi-seaview-7bed-villa/14.jpg",
+    "/assets/listings/r-phuket-kata-noi-seaview-7bed-villa/15.jpg"
+  ],
+  "location": "Kata Noi · Phuket · Thailand",
+  "place": "Kata Noi, Karon, Phuket, Thailand",
+  "mapQuery": "7.8102055,98.2985469",
+  "title": "Hillside Seven-Bedroom Sea-View Villa above Kata Noi Beach, Kata - Phuket",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 7,
+  "bedsLabel": "4–7",
+  "guests": 14,
+  "guestsLabel": "14",
+  "occupancy": "up to 14 guests",
+  "size": "1,200 m²",
+  "nightlyOriginalNum": 1250,
+  "nightlyCurrency": "USD",
+  "note": "Fully staffed incl. chef",
+  "sleeps": "14 guests · 4–7 bedrooms",
+  "blurb": "A fully staffed seven-bedroom hillside villa looking straight down onto Kata Noi Bay — a 15-metre infinity pool across a two-level terrace, open-air spa room with sauna, private chef, and estate tennis court and gym, bookable from four to seven bedrooms.",
+  "detail": "Set on a secure, landscaped hillside estate above Kata Noi on Phuket's southwest coast, this seven-bedroom villa keeps the bay in view from almost everywhere — the living room, the dining table, the pool terrace and most of the bedrooms all look straight down onto one of the island's prettiest stretches of sand, about 800 m below. The villa is fully staffed, with a private chef and assistant, housekeeping and service staff, an on-call English-speaking manager and 24-hour estate security, and can be booked in configurations from four to seven bedrooms for up to 14 guests.\n\nOutdoor living spreads across a two-level terrace built around a 15-metre infinity-edge pool: shaded salas for lounging and dining, a barbecue, a bar, a pool table and table tennis, and an open-air spa room with massage bed and sauna for in-villa treatments. Inside, a generous living and dining room runs on sea views, with a bar, a study corner, formal dining for ten, a lower-floor TV lounge and a fully equipped modern kitchen; entertainment runs through Bang & Olufsen and Bose systems. Families are well catered for with a playroom, cots, high chairs and games, and guests also have use of the estate clubhouse — gym, full-size tennis court, café and two further pools.\n\nAll seven bedrooms are en suite with sea or garden views — six with king beds, one twin-bedded and convertible. The top-floor master pairs panoramic views with a furnished patio and a large bathtub; the second master has floor-to-ceiling windows, a freestanding tub and a garden-view window nook. Kata Noi's golden sand is a short (if steep) walk downhill, with the restaurants, surf breaks and nightlife of Kata and Patong a few minutes further on.",
+  "features": [
+    {
+      "l": "15 m infinity pool over Kata Noi Bay",
+      "i": "pool"
+    },
+    {
+      "l": "800 m from Kata Noi Beach",
+      "i": "waves"
+    },
+    {
+      "l": "Open-air spa room with sauna",
+      "i": "sparkles"
+    },
+    {
+      "l": "Estate gym, tennis court & clubhouse",
+      "i": "gym"
+    },
+    {
+      "l": "Pool table, table tennis & B&O sound",
+      "i": "music"
+    },
+    {
+      "l": "7 en-suite bedrooms · chef & staff",
+      "i": "users"
+    }
+  ],
+  "created": 1783779456000
+}
