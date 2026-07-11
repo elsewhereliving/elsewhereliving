@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { listingPrice, rentalPrice } from "../../lib/price";
 import Dashboard from "./Dashboard";
 import Editor from "./Editor";
-import { connect as fsConnect, fsSupported } from "./fsRepo";
+import { connect as fsConnect, restore as fsRestore, fsSupported } from "./fsRepo";
 import { StoreCtx, ToastCtx, type Rec, type Store, type Toast } from "./store";
 
 interface StudioData {
@@ -47,6 +47,14 @@ export default function Studio({ listings: l0, rentals: r0, markets, homeCount: 
     setToasts((t) => t.concat([{ id, msg, tone }]));
     setTimeout(() => setToasts((t) => t.filter((x) => x.id !== id)), 3200);
   }, []);
+
+  // Reconnect the repo folder remembered from a previous visit, silently if
+  // the browser still holds the permission grant (no prompt allowed here).
+  useEffect(() => {
+    fsRestore().then((name) => {
+      if (name) { setConnected(true); push(`Reconnected to ${name} — Save writes to your repo`); }
+    });
+  }, [push]);
 
   const maxRank = (arr: Rec[]) => arr.reduce((m, x) => (x.featured && typeof x.featuredRank === "number" ? Math.max(m, x.featuredRank) : m), 0);
 

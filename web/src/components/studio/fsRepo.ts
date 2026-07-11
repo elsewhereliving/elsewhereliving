@@ -9,6 +9,40 @@ let root: any = null;
 export const fsSupported = () => typeof (globalThis as any).showDirectoryPicker === "function";
 export const fsConnected = () => !!root;
 
+// Remember the picked folder across reloads. Directory handles are structured-
+// cloneable, so they can live in IndexedDB; permission is re-checked on load.
+// All IDB access is best-effort — a failure just means re-picking the folder.
+const IDB = { db: "ew-studio", store: "fs", key: "repo-root" };
+function idb(): Promise<any> {
+  return new Promise((res, rej) => {
+    const rq = indexedDB.open(IDB.db, 1);
+    rq.onupgradeneeded = () => rq.result.createObjectStore(IDB.store);
+    rq.onsuccess = () => res(rq.result);
+    rq.onerror = () => rej(rq.error);
+  });
+}
+async function idbGet(): Promise<any> {
+  try {
+    const db = await idb();
+    return await new Promise((res) => {
+      const rq = db.transaction(IDB.store).objectStore(IDB.store).get(IDB.key);
+      rq.onsuccess = () => res(rq.result);
+      rq.onerror = () => res(null);
+    });
+  } catch { return null; }
+}
+async function idbSet(v: any): Promise<void> {
+  try {
+    const db = await idb();
+    await new Promise<void>((res) => {
+      const tx = db.transaction(IDB.store, "readwrite");
+      tx.objectStore(IDB.store).put(v, IDB.key);
+      tx.oncomplete = () => res();
+      tx.onerror = () => res();
+    });
+  } catch {}
+}
+
 // Verify we actually hold read-write access; re-prompt (needs a user gesture,
 // e.g. the Save click) if the grant lapsed or the folder was opened view-only.
 async function ensureWritable(h: any): Promise<void> {
@@ -48,13 +82,43 @@ function dataUrlBytes(u: string) {
   return { bytes, ext };
 }
 
+async function isRepo(h: any): Promise<boolean> {
+  try { await getDir(h, ["web", "src", "content", "listings"]); return true; }
+  catch { return false; }
+}
+
 export async function connect(): Promise<string> {
+  // Prefer the folder remembered from a previous visit — one permission click
+  // (with an "Allow on every visit" option in Chrome) instead of re-browsing
+  // to the repo. Falls back to the picker if it's gone or access is declined.
+  const saved = await idbGet();
+  if (saved) {
+    try {
+      await ensureWritable(saved);
+      if (await isRepo(saved)) { root = saved; return saved.name; }
+    } catch {}
+  }
   const h = await (globalThis as any).showDirectoryPicker({ mode: "readwrite", id: "ew-repo" });
-  try { await getDir(h, ["web", "src", "content", "listings"]); }
-  catch { throw new Error("That folder isn't the site repo (no web/src/content/listings)."); }
+  if (!(await isRepo(h))) throw new Error("That folder isn't the site repo (no web/src/content/listings).");
   await ensureWritable(h);
   root = h;
+  await idbSet(h);
   return h.name;
+}
+
+// Silent reconnect on page load: succeeds only if the browser still holds a
+// "granted" permission for the remembered folder (e.g. the user chose "Allow
+// on every visit"). Never prompts — prompting needs a user gesture, which
+// connect() handles.
+export async function restore(): Promise<string | null> {
+  const saved = await idbGet();
+  if (!saved || typeof saved.queryPermission !== "function") return null;
+  try {
+    if ((await saved.queryPermission({ mode: "readwrite" })) !== "granted") return null;
+    if (!(await isRepo(saved))) return null;
+    root = saved;
+    return saved.name;
+  } catch { return null; }
 }
 
 // Build-computed fields are regenerated at build time — don't write them to disk.
