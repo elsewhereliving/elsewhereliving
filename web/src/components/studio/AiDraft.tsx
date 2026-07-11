@@ -31,17 +31,23 @@ const fileToBase64 = (f: File) =>
 const sans = (extra?: CSSProperties): CSSProperties => ({ fontFamily: "var(--font-sans)", ...extra });
 const mlabel: CSSProperties = sans({ fontSize: 10.5, letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--slate)", fontWeight: 500 });
 
-export default function AiDraft({ collection, rec, markets, seed, onApply, onAddPhotos, onClose }: {
+export default function AiDraft({ collection, rec, markets, seed, onApply, onAddPhotos, onSwitchCollection, onClose }: {
   collection: string;
   rec: Rec;
   markets: string[];
   seed?: string; // prefilled composer text (from the per-field "Draft…" buttons)
   onApply: (patch: Partial<Rec>) => void;
   onAddPhotos: (urls: string[]) => void;
+  onSwitchCollection?: () => void; // unsaved drafts only — flips For sale ↔ Rental
   onClose: () => void;
 }) {
   const toast = useToast();
   const isRental = collection === "rentals";
+  // send() can run right after a collection switch — read the live value, not
+  // the closure captured at render time.
+  const isRentalRef = useRef(isRental);
+  isRentalRef.current = isRental;
+  const [warn, setWarn] = useState<string | null>(null);
   const [hasKey, setHasKey] = useState(!!getAiKey());
   const [bubbles, setBubbles] = useState<Bubble[]>([]);
   const [history, setHistory] = useState<any[]>([]); // raw Anthropic messages
@@ -71,13 +77,13 @@ export default function AiDraft({ collection, rec, markets, seed, onApply, onAdd
     if (ok.length) setFiles((p) => p.concat(ok));
   }
 
-  async function send() {
-    const notes = input.trim();
-    if (busy || (!notes && !files.length)) return;
+  async function send(forcedText?: string) {
+    const notes = (forcedText ?? input).trim();
+    const myFiles = forcedText ? [] : files;
+    if (busy || (!notes && !myFiles.length)) return;
     setBusy(true);
-    setInput("");
-    const myFiles = files;
-    setFiles([]);
+    setWarn(null);
+    if (!forcedText) { setInput(""); setFiles([]); }
     try {
       const photos = myFiles.filter((f) => !isPdf(f));
       const pdfs = myFiles.filter(isPdf);
@@ -99,15 +105,16 @@ export default function AiDraft({ collection, rec, markets, seed, onApply, onAdd
         }
         onAddPhotos(galleryUrls);
       }
-      content.push({ type: "text", text: (notes || "(attachments only — extract what you can)") + "\n\n[Current form values]\n" + formSnapshot(recRef.current, isRental) });
+      content.push({ type: "text", text: (notes || "(attachments only — extract what you can)") + "\n\n[Current form values]\n" + formSnapshot(recRef.current, isRentalRef.current) });
       setBubbles((b) => b.concat([{ role: "user", text: notes, photos: thumbs, docs: pdfs.map((f) => f.name) }]));
       const messages = history.concat([{ role: "user", content }]);
-      const res = await sendChat({ isRental, markets, messages });
+      const res = await sendChat({ isRental: isRentalRef.current, markets, messages });
       setHistory(messages.concat([{ role: "assistant", content: res.assistantContent }]));
       setPendingToolIds(res.assistantContent.filter((b: any) => b.type === "tool_use").map((b: any) => b.id));
+      if (res.patch?.collectionWarning) setWarn(String(res.patch.collectionWarning));
       let filled: string[] = [];
       if (res.patch) {
-        const patch = normalizePatch(res.patch, isRental);
+        const patch = normalizePatch(res.patch, isRentalRef.current);
         filled = Object.keys(patch).filter((k) => FIELD_LABELS[k]).map((k) => FIELD_LABELS[k]);
         if (filled.length) { onApply(patch); toast("AI filled " + filled.length + " field" + (filled.length > 1 ? "s" : "")); }
       }
@@ -200,6 +207,33 @@ export default function AiDraft({ collection, rec, markets, seed, onApply, onAdd
           onDrop={(e) => { e.preventDefault(); setDragOver(false); pickFiles(e.dataTransfer.files); }}
           style={{ flex: "0 0 auto", borderTop: "1.5px " + (dragOver ? "dashed var(--navy)" : "solid var(--border-subtle)"), background: dragOver ? "var(--paper)" : "var(--white)", padding: "14px 18px 16px" }}
         >
+          {warn && (
+            <div style={{ background: "var(--butter)", border: "1px solid var(--border-on-light)", padding: "12px 14px", marginBottom: 12 }}>
+              <div style={sans({ fontSize: 12.5, color: "var(--navy)", lineHeight: 1.55 })}>
+                <strong style={{ letterSpacing: "0.08em", textTransform: "uppercase", fontSize: 10 }}>Wrong list? </strong>
+                {warn}
+              </div>
+              <div style={{ display: "flex", gap: 10, marginTop: 10 }}>
+                {onSwitchCollection && (
+                  <button type="button"
+                    onClick={async () => {
+                      setWarn(null);
+                      onSwitchCollection();
+                      // let the editor commit the flipped form before re-sending
+                      await new Promise((r) => setTimeout(r, 80));
+                      send("(I've switched the form to the correct type — re-apply everything from my material to the right fields, including the rate or price.)");
+                    }}
+                    style={sans({ padding: "8px 14px", cursor: "pointer", background: "var(--navy)", color: "var(--white)", border: "none", fontSize: 10.5, letterSpacing: "0.14em", textTransform: "uppercase" })}>
+                    Switch to {isRental ? "For sale" : "Rental"} & refill
+                  </button>
+                )}
+                <button type="button" onClick={() => setWarn(null)}
+                  style={sans({ padding: "8px 12px", cursor: "pointer", background: "none", color: "var(--navy)", border: "none", fontSize: 10.5, letterSpacing: "0.14em", textTransform: "uppercase", textDecoration: "underline" })}>
+                  Keep as is
+                </button>
+              </div>
+            </div>
+          )}
           {!!files.length && (
             <div style={{ display: "flex", gap: 7, flexWrap: "wrap", marginBottom: 10 }}>
               {files.map((f, i) => (
@@ -231,7 +265,7 @@ export default function AiDraft({ collection, rec, markets, seed, onApply, onAdd
               + Photos
             </button>
             <input ref={fileRef} type="file" accept="image/*,application/pdf" multiple style={{ display: "none" }} onChange={(e) => { if (e.target.files) pickFiles(e.target.files); e.target.value = ""; }} />
-            <button type="button" onClick={send} disabled={busy || (!input.trim() && !files.length)}
+            <button type="button" onClick={() => send()} disabled={busy || (!input.trim() && !files.length)}
               style={sans({ display: "inline-flex", alignItems: "center", gap: 8, padding: "10px 20px", cursor: busy ? "default" : "pointer", background: "var(--navy)", color: "var(--white)", border: "none", fontSize: 11, letterSpacing: "0.16em", textTransform: "uppercase", opacity: busy || (!input.trim() && !files.length) ? 0.55 : 1 })}>
               {busy ? "Working…" : "Send"} <Icon name="arrowRight" size={13} color="var(--white)" />
             </button>

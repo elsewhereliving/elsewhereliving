@@ -28,6 +28,9 @@ const N = (description: string) => ({ type: "number", description });
 
 function toolFor(isRental: boolean, markets: string[]) {
   const common: Record<string, any> = {
+    collectionWarning: S(isRental
+      ? "Set ONLY if the material clearly describes a property FOR SALE (asking price, freehold/leasehold, chanote title, off-plan payment plan) rather than a holiday rental. One sentence to the owner saying what you noticed. Otherwise omit."
+      : "Set ONLY if the material clearly describes a HOLIDAY RENTAL (nightly/weekly rates, guest capacity, included staff or breakfast, check-in terms) rather than a property for sale. One sentence to the owner saying what you noticed. Otherwise omit."),
     internalName: S("The property's REAL name if known (villa/project name). Studio-internal — never shown on the site."),
     title: S("Original, descriptive display title in the house style, e.g. 'Chaweng Noi Four-Level Sea-View Villa'. Do not copy a source headline."),
     location: S("Format: 'Area · Island/City · Country', e.g. 'Bang Tao · Phuket · Thailand'."),
@@ -81,6 +84,7 @@ function systemFor(isRental: boolean, markets: string[]) {
   return `You are the drafting assistant inside Elsewhere Living's Listings Studio — a boutique property site for Southeast Asia & beyond (markets: ${markets.join(", ") || "Koh Samui, Phuket, Bangkok, Bali, Dubai"}). The owner is creating a ${isRental ? "holiday rental" : "for-sale"} listing by chatting with you: dropping photos or PDF brochures and pasting raw material (agents' WhatsApp messages, bullet specs).
 
 Your job each turn:
+0. Sanity-check the form type first: this form is for a ${isRental ? "HOLIDAY RENTAL" : "property FOR SALE"}. If the material clearly describes the other kind (${isRental ? "asking price, freehold/leasehold, title deeds, payment plans" : "nightly or weekly rates, guest capacity, included breakfast/staff, check-in terms"}), set collectionWarning, leave every money field empty, and still fill the shared facts (title, location, beds, views, copy).
 1. Extract every hard fact from the notes and any attached PDF brochure; study the photos for what they genuinely show (pool, sea view, interiors, style, setting). Note: images inside a PDF do NOT reach the photo gallery — if the owner sent only a brochure, gently remind them to drop the photos themselves as image files.
 2. Call update_listing with everything you can support. Never invent numbers — no guessed prices, sizes, years or coordinates. Omit what you don't know.
 3. Write ORIGINAL copy in the house voice: restrained, precise, quietly confident. No hype ("stunning", "luxurious", "dream", "paradise"), no exclamation marks, no copied source wording, never name the source agency. Always write areas as "m²" — never "sqm" or "sq.m.", even when the source notes use them. The real property/brand name goes in internalName only — keep it out of title, blurb and detail unless the owner asks.

@@ -21,8 +21,11 @@ function youTubeId(u: string): string {
 export default function Editor({ collection, id, onClose, onSaved }: { collection: string; id: string | null; onClose: () => void; onSaved: (id: string) => void }) {
   const crm = useStudio();
   const toast = useToast();
-  const isRental = collection === "rentals";
   const existing = id ? crm.get(collection, id) : null;
+  // While the record is unsaved, the collection can be flipped in place — so a
+  // rental pasted under the For-sale tab (or vice versa) never ships wrong.
+  const [col, setCol] = useState(collection);
+  const isRental = col === "rentals";
 
   const [rec, setRec] = useState<Rec>(() => (existing ? JSON.parse(JSON.stringify(existing)) : crm.blank(collection)));
   const [dirty, setDirty] = useState(false);
@@ -37,6 +40,21 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
     setDirty(true);
   }, []);
   const openAi = (seed = "") => { setAiSeed(seed ? seed + " " : ""); setAiOpen(true); };
+
+  // Flip an unsaved draft between For sale and Rental: keep everything the two
+  // schemas share (photos, story, facts) and reset the money/collection fields.
+  const SHARED = ["id", "image", "gallery", "focals", "location", "place", "mapQuery", "title", "view", "beds", "bedsLabel", "baths", "video", "blurb", "detail", "features", "internalName", "created"];
+  function switchCollection(c2: string) {
+    if (existing || c2 === col) return;
+    setCol(c2);
+    setRec((r) => {
+      const out: Rec = { ...crm.blank(c2) };
+      for (const k of SHARED) if (r[k] !== undefined) out[k] = r[k];
+      return out;
+    });
+    setDirty(true);
+    toast(c2 === "rentals" ? "Switched to rental — set the nightly rate" : "Switched to for-sale — set the asking price");
+  }
 
   const previewItem = useMemo<Rec>(() => {
     const cover = (rec.gallery && rec.gallery[0]) || rec.image || "";
@@ -75,14 +93,19 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
     let out: Rec = { ...rec };
     out.image = (out.gallery && out.gallery[0]) || out.image || "";
     out.imageFocal = (out.focals && out.focals[out.image]) || "";
-    if (!out.id) out.id = crm.uniqueId(collection, crm.slugify(out.title));
+    if (!out.id) {
+      // Rentals follow the repo's "r-…" id convention, which also keeps their
+      // photo folder under assets/listings/ from colliding with a sale's.
+      const base = crm.slugify(out.title);
+      out.id = crm.uniqueId(col, isRental && !base.startsWith("r-") ? "r-" + base : base);
+    }
     if (crm.fsConnected) {
-      try { out = await saveRecord(collection, out); toast("Saved to your repo — review in GitHub Desktop & push"); }
+      try { out = await saveRecord(col, out); toast("Saved to your repo — review in GitHub Desktop & push"); }
       catch (e: any) { toast(e?.message || "Couldn't write to disk", "danger"); return; }
     } else {
       toast("Saved this session — connect your repo folder to write it to disk");
     }
-    const savedId = crm.upsert(collection, out);
+    const savedId = crm.upsert(col, out);
     setDirty(false);
     if (close) onSaved(savedId);
     else setRec({ ...out, id: savedId });
@@ -101,7 +124,22 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
             <Icon name="chevronLeft" size={17} /><span style={{ fontFamily: "var(--font-sans)", fontSize: 11, letterSpacing: "0.16em", textTransform: "uppercase" }}>{dirty ? "Discard" : "Studio"}</span>
           </button>
           <div style={{ flex: 1, textAlign: "center", overflow: "hidden" }}>
-            <span style={{ fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--slate)", fontWeight: 500 }}>{isRental ? "Rental" : "For sale"}{dirty ? " · Unsaved" : existing ? "" : " · New"}</span>
+            {existing ? (
+              <span style={{ fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--slate)", fontWeight: 500 }}>{isRental ? "Rental" : "For sale"}{dirty ? " · Unsaved" : ""}</span>
+            ) : (
+              <span style={{ display: "inline-flex", alignItems: "center", gap: 10 }}>
+                {([["listings", "For sale"], ["rentals", "Rental"]] as const).map(([c, label]) => {
+                  const active = col === c;
+                  return (
+                    <button key={c} type="button" onClick={() => switchCollection(c)} title={active ? undefined : "Switch this draft to " + label.toLowerCase()}
+                      style={{ background: "none", border: "none", cursor: active ? "default" : "pointer", padding: "2px 0", fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.2em", textTransform: "uppercase", fontWeight: active ? 600 : 500, color: active ? "var(--navy)" : "var(--stone)", borderBottom: "2px solid " + (active ? "var(--navy)" : "transparent") }}>
+                      {label}
+                    </button>
+                  );
+                })}
+                <span style={{ fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--slate)", fontWeight: 500 }}>· New{dirty ? " · Unsaved" : ""}</span>
+              </span>
+            )}
             <div style={{ fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: 17, color: "var(--navy)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{rec.title || "Untitled property"}</div>
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
@@ -200,12 +238,13 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
 
       {aiOpen && (
         <AiDraft
-          collection={collection}
+          collection={col}
           rec={rec}
           markets={crm.markets}
           seed={aiSeed}
           onApply={set}
           onAddPhotos={addPhotos}
+          onSwitchCollection={existing ? undefined : () => switchCollection(isRental ? "listings" : "rentals")}
           onClose={() => setAiOpen(false)}
         />
       )}
