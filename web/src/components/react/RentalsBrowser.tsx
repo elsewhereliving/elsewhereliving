@@ -610,11 +610,15 @@ export default function RentalsBrowser({ items, destinations }: Props) {
       const cap = (x: RentalItem) => Number(x.guests) || 0;
       out = [...out].sort((a, b) => cap(b) - cap(a) || a.id.localeCompare(b.id));
     }
+    // `created` (epoch ms, validated at build) is the only recency key.
+    const recency = (x: RentalItem) => (x as any).created ?? 0;
+    if (sort === "newest") {
+      out = [...out].sort((a, b) => recency(b) - recency(a) || a.id.localeCompare(b.id));
+    }
     if (sort === "featured") {
       // Featured rentals first (in the order set in the Studio), then the rest
       // by newest. Tie-break on id so duplicate ranks can't scramble the order.
       const rank = (x: RentalItem) => ((x as any).featured ? ((x as any).featuredRank ?? (x as any).featuredOrder ?? 9999) : Infinity);
-      const recency = (x: RentalItem) => (x as any).created ?? 0;
       out = [...out].sort((a, b) => rank(a) - rank(b) || recency(b) - recency(a) || a.id.localeCompare(b.id));
     }
     return out;
@@ -663,6 +667,7 @@ export default function RentalsBrowser({ items, destinations }: Props) {
               { label: "Price · low to high", value: "low" },
               { label: "Price · high to low", value: "high" },
               { label: "Most guests", value: "guests" },
+              { label: "Newest", value: "newest" },
             ]}
           />
         </div>
