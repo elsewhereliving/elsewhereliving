@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Rental } from "../../lib/types";
-import { viewBadges, viewList } from "../../lib/format";
+import { viewBadges, viewList, VIEW_TAGS } from "../../lib/format";
 import SaveButton from "./SaveButton";
 import RangeSlider from "./RangeSlider";
 
@@ -501,7 +501,9 @@ function OutlineButton({ children, onClick }: { children: React.ReactNode; onCli
   );
 }
 
-const VIEWS = ["All", "Sea View", "Beachfront", "Beachside", "Waterfront", "Mountain View", "Garden / Pool View"];
+// Filter options come from the site's fixed view vocabulary so this can't
+// drift from the build-time validator.
+const VIEWS = ["All", ...VIEW_TAGS];
 
 export default function RentalsBrowser({ items, destinations }: Props) {
   const destOpts = [ALL, ...destinations];
@@ -612,7 +614,7 @@ export default function RentalsBrowser({ items, destinations }: Props) {
       // Featured rentals first (in the order set in the Studio), then the rest
       // by newest. Tie-break on id so duplicate ranks can't scramble the order.
       const rank = (x: RentalItem) => ((x as any).featured ? ((x as any).featuredRank ?? (x as any).featuredOrder ?? 9999) : Infinity);
-      const recency = (x: RentalItem) => (x as any).created ?? (x as any).added ?? 0;
+      const recency = (x: RentalItem) => (x as any).created ?? 0;
       out = [...out].sort((a, b) => rank(a) - rank(b) || recency(b) - recency(a) || a.id.localeCompare(b.id));
     }
     return out;
@@ -622,8 +624,11 @@ export default function RentalsBrowser({ items, destinations }: Props) {
     setDest(ALL);
     setView(ALL);
     setMinBeds(0);
-    setPriceLo(priceMin);
-    setPriceHi(priceMax);
+    // priceMin/priceMax still reflect the destination being cleared — rescale
+    // to the all-destinations bounds or its narrower band stays active.
+    const [lo, hi] = boundsFor(ALL);
+    setPriceLo(lo);
+    setPriceHi(hi);
     setSort("featured");
   };
 

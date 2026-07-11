@@ -1,14 +1,16 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 
 import { listingPrice, rentalPrice, formatNative } from "../../lib/price";
+import { VIEW_TAGS } from "../../lib/format";
 import { optImg } from "../../lib/img";
 import { Icon, ICON_KEYS } from "./icons";
 import { TextField, NumberField, TextArea, SelectField, ChipMulti, FormSection } from "./fields";
 import PhotoManager from "./PhotoManager";
+import AiDraft from "./AiDraft";
 import { saveRecord, deleteRecord } from "./fsRepo";
-import { useStudio, useToast, type Rec } from "./Studio";
+import { useStudio, useToast, type Rec } from "./store";
 
-const VIEW_OPTIONS = ["Sea View", "Beachfront", "Beachside", "Waterfront", "City View", "Mountain View", "Garden / Pool View"];
+const VIEW_OPTIONS = [...VIEW_TAGS];
 const CURRENCIES = ["USD", "THB", "EUR", "IDR", "AED", "GBP", "SGD", "AUD", "CHF"];
 
 function youTubeId(u: string): string {
@@ -24,15 +26,49 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
 
   const [rec, setRec] = useState<Rec>(() => (existing ? JSON.parse(JSON.stringify(existing)) : crm.blank(collection)));
   const [dirty, setDirty] = useState(false);
+  // AI drafting chat — open by default when starting a fresh listing.
+  const [aiOpen, setAiOpen] = useState(!existing);
+  const [aiSeed, setAiSeed] = useState("");
 
   const set = useCallback((patch: Partial<Rec>) => { setRec((r) => ({ ...r, ...patch })); setDirty(true); }, []);
   const setGallery = useCallback((g: string[]) => { setRec((r) => ({ ...r, gallery: g, image: g[0] || "" })); setDirty(true); }, []);
+  const addPhotos = useCallback((urls: string[]) => {
+    setRec((r) => { const g = (r.gallery || []).concat(urls.filter((u) => (r.gallery || []).indexOf(u) < 0)); return { ...r, gallery: g, image: g[0] || "" }; });
+    setDirty(true);
+  }, []);
+  const openAi = (seed = "") => { setAiSeed(seed ? seed + " " : ""); setAiOpen(true); };
 
   const previewItem = useMemo<Rec>(() => {
     const cover = (rec.gallery && rec.gallery[0]) || rec.image || "";
     const priced = isRental ? rentalPrice(rec) : listingPrice(rec);
     return { ...rec, ...priced, image: cover, imageFocal: (rec.focals && rec.focals[cover]) || "" };
   }, [rec, isRental]);
+
+  // Photo folders under assets/listings referenced by a record's images.
+  const foldersOf = (r: Rec): Set<string> => {
+    const s = new Set<string>();
+    for (const u of [r.image, ...(r.gallery || [])]) {
+      const m = /^\/assets\/listings\/([^/]+)\//.exec(u || "");
+      if (m) s.add(m[1]);
+    }
+    return s;
+  };
+
+  async function del() {
+    if (!existing) return;
+    if (!window.confirm("Delete this listing? This can't be undone.")) return;
+    if (crm.fsConnected) {
+      // Related properties share photo folders — only remove folders that no
+      // other listing or rental still references.
+      const others = [...crm.listings, ...crm.rentals].filter((r) => r.id !== existing.id);
+      const orphaned = [...foldersOf(existing)].filter((f) => !others.some((o) => foldersOf(o).has(f)));
+      try { await deleteRecord(collection, existing.id, orphaned); }
+      catch (e: any) { toast(e?.message || "Couldn't delete from the repo — nothing was removed", "danger"); return; }
+    }
+    crm.remove(collection, existing.id);
+    toast(crm.fsConnected ? "Deleted — review in GitHub Desktop & push" : "Listing deleted", "danger");
+    onClose();
+  }
 
   async function save(close: boolean) {
     if (!(rec.title || "").trim()) { toast("Add a title first", "danger"); return; }
@@ -77,6 +113,10 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
             >
               <span style={{ width: 7, height: 7, borderRadius: "50%", background: crm.fsConnected ? "#3a8a4a" : "var(--stone)", flex: "0 0 auto" }} />
               {crm.fsConnected ? "Repo connected" : crm.fsSupported ? "Connect repo" : "Chrome only"}
+            </button>
+            <button type="button" onClick={() => (aiOpen ? setAiOpen(false) : openAi())} title="Draft this listing with AI — drop photos, paste notes"
+              style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "11px 18px", cursor: "pointer", background: aiOpen ? "var(--navy)" : "transparent", color: aiOpen ? "var(--white)" : "var(--navy)", border: "1px solid var(--navy)", fontFamily: "var(--font-sans)", fontSize: 11, letterSpacing: "0.16em", textTransform: "uppercase" }}>
+              <Icon name="sparkles" size={13} color={aiOpen ? "var(--white)" : "var(--navy)"} /> AI draft
             </button>
             {dirty && <BarBtn onClick={requestClose} variant="ghost" label="Cancel" />}
             <BarBtn onClick={() => save(false)} variant="ghost" label="Save" />
@@ -124,9 +164,9 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
               </>
             ) : (
               <>
-                <TextField label="Interior" value={rec.interior} onChange={(v) => set({ interior: v })} placeholder="450 m² or —" />
-                <TextField label="Plot / land" value={rec.plot || ""} onChange={(v) => set({ plot: v || null })} placeholder="1,600 m²" />
-                <TextField label="Year built" value={rec.year || ""} onChange={(v) => set({ year: v || null })} placeholder="2025" />
+                <TextField label="Property size" value={rec.interior} onChange={(v) => set({ interior: v })} hint="number + m² only" placeholder="450 m² or —" />
+                <TextField label="Plot / land" value={rec.plot || ""} onChange={(v) => set({ plot: v || null })} hint="number + m² / rai only" placeholder="1,600 m²" />
+                <TextField label="Completion" value={rec.year || ""} onChange={(v) => set({ year: v || null })} placeholder="2025" />
                 <SelectField label="Ownership" value={rec.ownership || "Freehold"} onChange={(v) => set({ ownership: v })} options={["Freehold", "Leasehold", "Freehold or Leasehold"]} />
               </>
             )}
@@ -139,9 +179,9 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
 
           <FormSection eyebrow="The story">
             <TextArea label="Blurb — the short pitch" value={rec.blurb} onChange={(v) => set({ blurb: v })} rows={4}
-              action={<AiStub label="Draft blurb" toast={toast} />} />
+              action={<AiBtn label="Draft blurb" onClick={() => openAi("Draft (or redraft) the blurb from the photos and the info on the form.")} />} />
             <TextArea label="Detail — the full description" value={rec.detail} onChange={(v) => set({ detail: v })} rows={9}
-              action={<AiStub label="Draft detail" toast={toast} />} />
+              action={<AiBtn label="Draft detail" onClick={() => openAi("Draft (or redraft) the full detail description from the photos and the info on the form.")} />} />
           </FormSection>
 
           <FeaturesEditor features={rec.features || []} onChange={(f) => set({ features: f })} />
@@ -152,11 +192,23 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
           <PreviewCard item={previewItem} isRental={isRental} />
           <Checklist rec={previewItem} isRental={isRental} />
           {existing && (
-            <button type="button" onClick={() => { if (window.confirm("Delete this listing? This can't be undone.")) { crm.remove(collection, existing.id); if (crm.fsConnected) deleteRecord(collection, existing.id).catch(() => {}); toast(crm.fsConnected ? "Deleted — review in GitHub Desktop & push" : "Listing deleted", "danger"); onClose(); } }}
+            <button type="button" onClick={del}
               style={{ marginTop: 18, width: "100%", padding: "11px", background: "transparent", border: "1px solid var(--border-on-light)", color: "var(--navy)", cursor: "pointer", fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.16em", textTransform: "uppercase" }}>Delete listing</button>
           )}
         </aside>
       </div>
+
+      {aiOpen && (
+        <AiDraft
+          collection={collection}
+          rec={rec}
+          markets={crm.markets}
+          seed={aiSeed}
+          onApply={set}
+          onAddPhotos={addPhotos}
+          onClose={() => setAiOpen(false)}
+        />
+      )}
     </div>
   );
 }
@@ -295,10 +347,10 @@ function BarBtn({ onClick, label, variant }: { onClick: () => void; label: strin
   );
 }
 
-function AiStub({ label, toast }: { label: string; toast: (m: string, t?: "default" | "danger") => void }) {
+function AiBtn({ label, onClick }: { label: string; onClick: () => void }) {
   return (
-    <button type="button" onClick={() => toast("AI drafting arrives in a later phase")}
-      style={{ display: "inline-flex", alignItems: "center", gap: 6, background: "none", border: "none", cursor: "pointer", fontFamily: "var(--font-sans)", fontSize: 10, letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--navy)", opacity: 0.55 }}>
+    <button type="button" onClick={onClick}
+      style={{ display: "inline-flex", alignItems: "center", gap: 6, background: "none", border: "none", cursor: "pointer", fontFamily: "var(--font-sans)", fontSize: 10, letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--navy)" }}>
       <Icon name="sparkles" size={13} color="var(--navy)" />{label}
     </button>
   );

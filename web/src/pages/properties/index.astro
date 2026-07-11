@@ -3,6 +3,7 @@ import Base from "../../layouts/Base.astro";
 import Label from "../../components/Label.astro";
 import ListingsBrowser from "../../components/react/ListingsBrowser.tsx";
 import { getListings, getSiteContent } from "../../lib/content";
+import { VIEW_TAGS } from "../../lib/format";
 
 const listings = await getListings();
 const { markets } = getSiteContent();
@@ -12,15 +13,9 @@ const { markets } = getSiteContent();
 const marketNames = markets.map((m) => m.name);
 const types = ["Villa", "Condominium", "Land"];
 const statuses = ["Move-In Ready", "Off-Plan"];
-const views = [
-  "Sea View",
-  "Beachfront",
-  "Beachside",
-  "Waterfront",
-  "City View",
-  "Mountain View",
-  "Garden / Pool View",
-];
+// Filter chips come straight from the brand vocabulary (in hierarchy order), so
+// the filter and the allowed tags can never drift apart.
+const views = [...VIEW_TAGS];
 
 const HERO_IMAGE = "/assets/imagery/c-deck-sea.jpg";
 ---

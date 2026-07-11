@@ -3,7 +3,7 @@ import type { CSSProperties } from "react";
 import { optImg } from "../../lib/img";
 import { Icon } from "./icons";
 import { saveRecord, writeHome } from "./fsRepo";
-import { useStudio, useToast, type Rec } from "./Studio";
+import { useStudio, useToast, type Rec } from "./store";
 
 const ml: CSSProperties = { fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--slate)", fontWeight: 500 };
 const dot: CSSProperties = { width: 3, height: 3, borderRadius: "50%", background: "currentColor", display: "block" };

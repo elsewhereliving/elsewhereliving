@@ -36,7 +36,7 @@
   "type": "Villa",
   "view": [
     "Sea View",
-    "Garden View"
+    "Garden / Pool View"
   ],
   "status": "Move-In Ready",
   "beds": 5,
@@ -99,7 +99,7 @@
       "i": "key"
     }
   ],
-  "created": 1784100000000,
+  "created": 1783687431005,
   "internalName": "Villa East Egg (WHY Architecture, The Phuket Residence) — auction from $2M",
   "imageFocal": "",
   "featured": true,

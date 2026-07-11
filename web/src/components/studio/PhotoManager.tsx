@@ -1,7 +1,8 @@
 import { useRef, useState } from "react";
 import type { CSSProperties } from "react";
 import { Icon } from "./icons";
-import { useToast } from "./Studio";
+import { useToast } from "./store";
+import { resizeToDataUrl, GALLERY_EDGE } from "./resize";
 
 // In the studio, image srcs are already absolute (/assets/…), remote (https) or
 // data: URLs, so no path rewriting is needed for display.
@@ -65,12 +66,9 @@ export default function PhotoManager({ gallery, onChange, focals, onFocals }: { 
   function handleFiles(files: FileList) {
     const arr = Array.from(files).filter((f) => /^image\//.test(f.type));
     if (!arr.length) return;
-    let pending = arr.length; const results: string[] = [];
-    arr.forEach((f, i) => {
-      const reader = new FileReader();
-      reader.onload = () => { results[i] = reader.result as string; if (--pending === 0) addImages(results.filter(Boolean)); };
-      reader.readAsDataURL(f);
-    });
+    // Downscale + re-encode in the browser so full-camera files never land in the repo.
+    Promise.all(arr.map((f) => resizeToDataUrl(f, GALLERY_EDGE).catch(() => "")))
+      .then((results) => addImages(results.filter(Boolean)));
   }
   function setCover(i: number) { if (i === 0) return; const n = gallery.slice(); const [x] = n.splice(i, 1); n.unshift(x); onChange(n); toast("Cover photo set"); }
   function removeAt(i: number) { const n = gallery.slice(); n.splice(i, 1); onChange(n); }

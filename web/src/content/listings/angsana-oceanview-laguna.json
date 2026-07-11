@@ -14,7 +14,10 @@
   "market": "Phuket",
   "title": "Angsana Oceanview Residences — Laguna Penthouse - Choeng Thale",
   "type": "Condominium",
-  "view": "Waterfront",
+  "view": [
+    "Waterfront",
+    "Lake View"
+  ],
   "status": "Move-In Ready",
   "beds": 2,
   "baths": 2,

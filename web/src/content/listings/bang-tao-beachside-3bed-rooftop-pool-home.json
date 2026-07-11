@@ -1,0 +1,94 @@
+{
+  "id": "bang-tao-beachside-3bed-rooftop-pool-home",
+  "image": "/assets/listings/bang-tao-beachside-3bed-rooftop-pool-home/01.jpg",
+  "gallery": [
+    "/assets/listings/bang-tao-beachside-3bed-rooftop-pool-home/01.jpg",
+    "/assets/listings/bang-tao-beachside-3bed-rooftop-pool-home/02.jpg",
+    "/assets/listings/bang-tao-beachside-3bed-rooftop-pool-home/03.jpg",
+    "/assets/listings/bang-tao-beachside-3bed-rooftop-pool-home/04.jpg",
+    "/assets/listings/bang-tao-beachside-3bed-rooftop-pool-home/05.jpg",
+    "/assets/listings/bang-tao-beachside-3bed-rooftop-pool-home/06.jpg",
+    "/assets/listings/bang-tao-beachside-3bed-rooftop-pool-home/07.jpg",
+    "/assets/listings/bang-tao-beachside-3bed-rooftop-pool-home/08.jpg",
+    "/assets/listings/bang-tao-beachside-3bed-rooftop-pool-home/09.jpg",
+    "/assets/listings/bang-tao-beachside-3bed-rooftop-pool-home/10.jpg",
+    "/assets/listings/bang-tao-beachside-3bed-rooftop-pool-home/11.jpg",
+    "/assets/listings/bang-tao-beachside-3bed-rooftop-pool-home/12.jpg",
+    "/assets/listings/bang-tao-beachside-3bed-rooftop-pool-home/13.jpg",
+    "/assets/listings/bang-tao-beachside-3bed-rooftop-pool-home/14.jpg",
+    "/assets/listings/bang-tao-beachside-3bed-rooftop-pool-home/15.jpg",
+    "/assets/listings/bang-tao-beachside-3bed-rooftop-pool-home/16.jpg",
+    "/assets/listings/bang-tao-beachside-3bed-rooftop-pool-home/17.jpg",
+    "/assets/listings/bang-tao-beachside-3bed-rooftop-pool-home/18.jpg"
+  ],
+  "location": "Bang Tao · Phuket · Thailand",
+  "place": "Bang Tao Beach, Choeng Thale, Phuket, Thailand",
+  "mapQuery": "8.013660,98.293111",
+  "market": "Phuket",
+  "title": "Beachside 3-Bedroom Home with Rooftop Pool — Bang Tao, Phuket",
+  "type": "Villa",
+  "view": ["Beachfront", "Sea View", "Mountain View"],
+  "status": "Off-Plan",
+  "beds": 3,
+  "baths": 4,
+  "interior": "468 m²",
+  "plot": "165–215 m²",
+  "year": null,
+  "priceOriginalNum": 115000000,
+  "priceCurrency": "THB",
+  "priceFrom": true,
+  "ownership": "Leasehold",
+  "blurb": "A four-storey beachside home moments from the fine sand of Bang Tao Beach — three en-suite bedrooms, sea to the west and mountains to the east, crowned by a private rooftop pool and sun deck, within a gated integrated resort on Phuket's calm north-west coast.",
+  "detail": "Set within a private, gated resort community a short walk from Bang Tao Beach, this is one of a small collection of four-storey homes arranged to capture the best of two aspects: the sapphire Andaman Sea to the west and jungle-covered mountains to the east. Vertical living gives each floor its own purpose and its own outlook, with a lift and staircase linking the levels.\n\nEntry is on the first floor, where an open living and entertainment space is paired with a flexible bespoke room that adapts to a media room, study or additional lounge. The second floor is given over to three generous en-suite bedrooms, each framed by full-height windows and served by a walk-in wardrobe. The third floor opens up again as a light-filled living and dining room, with panoramic glazing on both sides drawing the sea and the mountains inside.\n\nThe home is crowned by a rooftop that is open to the sky: a private plunge pool and sun deck for lounging, alongside a sheltered deck for alfresco dining as the sun sets over the water. Interiors are finished in warm timber, natural stone and quiet, minimal lines, with a fully fitted kitchen and generous storage integrated throughout.\n\nThe residence occupies a plot of approximately 165–215 m² with around 468 m² of built-up area. The building is sold freehold, while the land is offered to foreign buyers on a registered, renewable 30+30+30-year leasehold; quoted pricing reflects standard fixtures and finishes, with a loose-furniture package available separately. Ownership sits within an award-winning integrated resort — moments from a shopping village, signature restaurants, spas and a championship golf course — and carries membership privileges across the resort group's hotels, spas and golf worldwide, alongside 24-hour concierge, on-site management and optional rental services.",
+  "features": [
+    {
+      "l": "Beachside · sea & mountain views",
+      "i": "waves"
+    },
+    {
+      "l": "Private rooftop pool & sun deck",
+      "i": "pool"
+    },
+    {
+      "l": "Three en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Four-storey home with private lift",
+      "i": "building"
+    },
+    {
+      "l": "≈468 m² built-up · 165–215 m² plot",
+      "i": "plot"
+    },
+    {
+      "l": "Flexible media room / study",
+      "i": "sofa"
+    },
+    {
+      "l": "Dual-aspect living & dining floor",
+      "i": "view"
+    },
+    {
+      "l": "Full-height windows · walk-in wardrobe",
+      "i": "home"
+    },
+    {
+      "l": "Rooftop deck for alfresco dining",
+      "i": "terrace"
+    },
+    {
+      "l": "Gated integrated resort community",
+      "i": "shield"
+    },
+    {
+      "l": "Golf & spa club privileges",
+      "i": "sparkles"
+    },
+    {
+      "l": "Freehold building · leasehold land",
+      "i": "key"
+    }
+  ],
+  "created": 1783710739639
+}

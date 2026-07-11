@@ -40,7 +40,7 @@
   "beds": 2,
   "bedsLabel": "2–3",
   "baths": "2–3",
-  "interior": "206–274 m² built",
+  "interior": "206–274 m²",
   "plot": null,
   "year": null,
   "priceOriginalNum": 35000000,
@@ -96,6 +96,6 @@
       "i": "key"
     }
   ],
-  "created": 1784200000000,
+  "created": 1783694114007,
   "imageFocal": ""
 }

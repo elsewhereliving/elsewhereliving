@@ -1,11 +1,29 @@
 // Elsewhere Living — small formatting helpers, ported 1:1 from the original
 // data.js so listing/rental display logic stays identical.
 
-// View tags shown in priority order — most desirable first.
-const VIEW_RANK = ["Beachfront", "Waterfront", "Sea View", "Mountain View", "City View", "Beachside", "Garden / Pool View"];
+// The ONLY view tags a property may use, in priority order — most desirable
+// first. This array is the single source of truth for two things:
+//   1. The allowed vocabulary. content.ts validates every listing/rental `view`
+//      against it at build time, so a typo or a new coinage like "Garden View"
+//      fails the build instead of leaking a one-off tag onto the site.
+//   2. The hierarchy. viewList sorts by this order, so a property that is both
+//      "Beachfront" and "Sea View" shows "Beachfront" first, and the card badges
+//      (capped at 2) keep the strongest views.
+// To add a tag, add it here in its correct rank position — nowhere else.
+export const VIEW_TAGS = [
+  "Beachfront",
+  "Waterfront",
+  "Sea View",
+  "Lake View",
+  "Mountain View",
+  "City View",
+  "Beachside",
+  "Garden / Pool View",
+] as const;
+
 const viewRank = (v: string): number => {
-  const i = VIEW_RANK.indexOf(v);
-  return i === -1 ? VIEW_RANK.length : i;
+  const i = VIEW_TAGS.indexOf(v as (typeof VIEW_TAGS)[number]);
+  return i === -1 ? VIEW_TAGS.length : i;
 };
 
 /** A `view` field may be a single tag or an array. Normalise to a rank-sorted array. */

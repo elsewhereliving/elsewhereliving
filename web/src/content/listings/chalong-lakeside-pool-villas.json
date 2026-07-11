@@ -35,7 +35,7 @@
   "beds": 4,
   "bedsLabel": "4–5+1",
   "baths": "5–7",
-  "interior": "425–680 m² built",
+  "interior": "425–680 m²",
   "plot": "310–405 m²",
   "year": null,
   "priceOriginalNum": 24500000,
@@ -90,7 +90,7 @@
       "i": "key"
     }
   ],
-  "created": 1784000000000,
+  "created": 1783687531004,
   "internalName": "Larimar Vista — Athena Developer (Chalong) [de-branded public listing]",
   "imageFocal": ""
 }

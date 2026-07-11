@@ -3,7 +3,7 @@ import type { CSSProperties } from "react";
 import { optImg } from "../../lib/img";
 import { Icon } from "./icons";
 import { saveRecord } from "./fsRepo";
-import { useStudio, useToast, type Rec } from "./Studio";
+import { useStudio, useToast, type Rec } from "./store";
 
 // Featured-rentals manager — same logic as HomeFeatured but for the rentals
 // collection. Rentals don't go on the homepage, so there's no "how many to

@@ -616,15 +616,16 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
     const salePrice = (x: Listing) => (x.priceNum && x.priceNum > 0 ? x.priceNum : Infinity);
     if (sort === "low") out = [...out].sort((a, b) => salePrice(a) - salePrice(b));
     if (sort === "high") out = [...out].sort((a, b) => salePrice(b) - salePrice(a));
+    // `created` (epoch ms, validated at build) is the only recency key — the
+    // legacy `added` weight (1–95) must never mix into a timestamp comparison.
+    const recency = (x: Listing) => x.created ?? 0;
     if (sort === "newest") {
-      const recency = (x: Listing) => (x as any).created ?? (x as any).added ?? 0;
       out = [...out].sort((a, b) => recency(b) - recency(a) || a.id.localeCompare(b.id));
     }
     if (sort === "featured") {
       // Featured listings first, in the exact order set in the Studio
       // (featuredRank), then the rest by newest. Tie-break on id.
       const rank = (x: Listing) => ((x as any).featured ? ((x as any).featuredRank ?? (x as any).featuredOrder ?? 9999) : Infinity);
-      const recency = (x: Listing) => (x as any).created ?? (x as any).added ?? 0;
       out = [...out].sort((a, b) => rank(a) - rank(b) || recency(b) - recency(a) || a.id.localeCompare(b.id));
     }
     return out;
@@ -636,8 +637,11 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
     setStatus(ALL);
     setView(ALL);
     setMinBeds(0);
-    setPriceLo(priceMin);
-    setPriceHi(priceMax);
+    // priceMin/priceMax still reflect the market being cleared — rescale to the
+    // all-markets bounds or the old market's narrower band stays active.
+    const [lo, hi] = boundsFor(ALL);
+    setPriceLo(lo);
+    setPriceHi(hi);
     setSort("featured");
   };
 

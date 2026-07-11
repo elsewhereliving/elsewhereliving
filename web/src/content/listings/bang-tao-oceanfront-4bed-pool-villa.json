@@ -1,0 +1,93 @@
+{
+  "id": "bang-tao-oceanfront-4bed-pool-villa",
+  "image": "/assets/listings/bang-tao-oceanfront-4bed-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/bang-tao-oceanfront-4bed-pool-villa/01.jpg",
+    "/assets/listings/bang-tao-oceanfront-4bed-pool-villa/02.jpg",
+    "/assets/listings/bang-tao-oceanfront-4bed-pool-villa/03.jpg",
+    "/assets/listings/bang-tao-oceanfront-4bed-pool-villa/04.jpg",
+    "/assets/listings/bang-tao-oceanfront-4bed-pool-villa/05.jpg",
+    "/assets/listings/bang-tao-oceanfront-4bed-pool-villa/06.jpg",
+    "/assets/listings/bang-tao-oceanfront-4bed-pool-villa/07.jpg",
+    "/assets/listings/bang-tao-oceanfront-4bed-pool-villa/08.jpg",
+    "/assets/listings/bang-tao-oceanfront-4bed-pool-villa/09.jpg",
+    "/assets/listings/bang-tao-oceanfront-4bed-pool-villa/10.jpg",
+    "/assets/listings/bang-tao-oceanfront-4bed-pool-villa/11.jpg",
+    "/assets/listings/bang-tao-oceanfront-4bed-pool-villa/12.jpg",
+    "/assets/listings/bang-tao-oceanfront-4bed-pool-villa/13.jpg",
+    "/assets/listings/bang-tao-oceanfront-4bed-pool-villa/14.jpg",
+    "/assets/listings/bang-tao-oceanfront-4bed-pool-villa/15.jpg",
+    "/assets/listings/bang-tao-oceanfront-4bed-pool-villa/16.jpg",
+    "/assets/listings/bang-tao-oceanfront-4bed-pool-villa/17.jpg",
+    "/assets/listings/bang-tao-oceanfront-4bed-pool-villa/18.jpg"
+  ],
+  "location": "Bang Tao · Phuket · Thailand",
+  "place": "Bang Tao Beach, Choeng Thale, Phuket, Thailand",
+  "mapQuery": "8.016911,98.292595",
+  "market": "Phuket",
+  "title": "Oceanfront 4-Bedroom Pool Villa — Bang Tao, Phuket",
+  "type": "Villa",
+  "view": ["Beachfront", "Sea View"],
+  "status": "Off-Plan",
+  "beds": 4,
+  "baths": 4,
+  "interior": "793 m²",
+  "plot": "480 m²",
+  "year": null,
+  "priceOriginalNum": 265000000,
+  "priceCurrency": "THB",
+  "ownership": "Leasehold",
+  "blurb": "A west-facing oceanfront villa a short stroll from Bang Tao Beach — four en-suite bedrooms over two levels, a private infinity pool and jacuzzi wrapped in tropical gardens, set within a gated integrated resort on Phuket's calm north-west coast.",
+  "detail": "Framed by the fine white sand of Bang Tao Beach and the Andaman Sea to the west, this oceanfront villa is arranged to follow the water. Entry is from the upper level, where an open living and dining space unfolds onto a broad terrace: an expansive private infinity pool, a jacuzzi and shaded lounging are set among landscaped gardens, all oriented to the sunset over the sea.\n\nA sculptural spiral staircase descends to the lower level, where a second family living room connects four generous en-suite bedrooms. Each is finished in warm timber tones and quiet, minimal lines, opening to its own garden aspect. A flexible additional room adapts easily to a home cinema, children's playroom or private study, giving the four-bedroom plan the range of a considerably larger home.\n\nThe villa occupies a 480 m² plot with approximately 793 m² of built-up area, delivering the scale and seclusion of a standalone residence. The building is sold freehold, while the land is offered to foreign buyers on a registered, renewable 30+30+30-year leasehold. Quoted pricing reflects standard fixtures and finishes; a loose-furniture package is available separately.\n\nThe residence sits within a gated, master-planned resort community on Phuket's north-west coast — a short walk from the beach and moments from a shopping village, signature restaurants, spas and an award-winning championship golf course. Ownership carries membership privileges across the resort group's hotels, spas and golf worldwide, alongside dedicated on-site management, 24-hour concierge and optional rental services: an easy lock-and-leave home in one of the island's most established addresses.",
+  "features": [
+    {
+      "l": "Oceanfront · Andaman Sea views",
+      "i": "waves"
+    },
+    {
+      "l": "Four en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Private infinity pool & jacuzzi",
+      "i": "pool"
+    },
+    {
+      "l": "480 m² plot · 793 m² built-up",
+      "i": "plot"
+    },
+    {
+      "l": "Upper-level living opening to terrace",
+      "i": "terrace"
+    },
+    {
+      "l": "Sculptural spiral staircase",
+      "i": "home"
+    },
+    {
+      "l": "Convertible media room / study",
+      "i": "sofa"
+    },
+    {
+      "l": "Landscaped tropical gardens",
+      "i": "tree"
+    },
+    {
+      "l": "West-facing sunset aspect",
+      "i": "sun"
+    },
+    {
+      "l": "Gated integrated resort community",
+      "i": "shield"
+    },
+    {
+      "l": "Golf & spa club privileges",
+      "i": "sparkles"
+    },
+    {
+      "l": "Freehold building · leasehold land",
+      "i": "key"
+    }
+  ],
+  "created": 1783709902269
+}

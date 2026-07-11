@@ -5,7 +5,7 @@ import { optImg } from "../../lib/img";
 import { Icon } from "./icons";
 import HomeFeatured from "./HomeFeatured";
 import FeaturedRentals from "./FeaturedRentals";
-import { useStudio, useToast, type Rec } from "./Studio";
+import { useStudio, useToast, type Rec } from "./store";
 
 const meta = (extra?: CSSProperties): CSSProperties => ({
   fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.2em",
@@ -48,7 +48,8 @@ export default function Dashboard({
   const view = useMemo(() => {
     const idx: Record<string, number> = {};
     all.forEach((x, i) => (idx[x.id] = i));
-    const newOf = (it: Rec) => (it.created ?? it.added) || 1e12 - idx[it.id];
+    // `created` only — the legacy `added` weight (1–95) is not a timestamp.
+    const newOf = (it: Rec) => it.created || 1e12 - idx[it.id];
     const filtered = all.filter((it) => {
       const hay = (it.title + " " + it.location + " " + (it.place || "") + " " + (it.internalName || "")).toLowerCase();
       if (q && hay.indexOf(q.toLowerCase()) < 0) return false;

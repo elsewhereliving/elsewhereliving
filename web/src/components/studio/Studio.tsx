@@ -1,11 +1,9 @@
-import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
-import { rentDest } from "../../lib/format";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { listingPrice, rentalPrice } from "../../lib/price";
 import Dashboard from "./Dashboard";
 import Editor from "./Editor";
 import { connect as fsConnect, fsSupported } from "./fsRepo";
-
-export type Rec = Record<string, any> & { id: string };
+import { StoreCtx, ToastCtx, type Rec, type Store, type Toast } from "./store";
 
 interface StudioData {
   listings: Rec[];
@@ -27,42 +25,6 @@ function blank(c: string): Rec {
   if (c === "rentals")
     return { id: "", image: "", gallery: [], focals: {}, location: "", place: "", mapQuery: "", title: "", view: [], beds: 0, bedsLabel: "", baths: 0, guests: 0, guestsLabel: "", occupancy: "", size: "", nightlyOriginalNum: null, nightlyCurrency: "", nightly: "", nightlyNum: 0, note: "", sleeps: "", video: "", blurb: "", detail: "", features: [], created: Date.now() };
   return { id: "", image: "", gallery: [], focals: {}, location: "", place: "", mapQuery: "", market: "Koh Samui", title: "", type: "Villa", view: [], status: "Move-In Ready", beds: 0, bedsLabel: "", baths: 0, interior: "—", plot: null, year: null, priceOriginalNum: null, priceCurrency: "", priceFrom: false, price: "", priceNum: 0, ownership: "Freehold", added: 0, video: "", blurb: "", detail: "", features: [], created: Date.now() };
-}
-
-// ---- store context ---------------------------------------------------------
-interface Store {
-  listings: Rec[];
-  rentals: Rec[];
-  markets: string[];
-  list: (c: string) => Rec[];
-  get: (c: string, id: string) => Rec | null;
-  counts: () => { listings: number; rentals: number };
-  blank: (c: string) => Rec;
-  slugify: (s: string) => string;
-  uniqueId: (c: string, base: string) => string;
-  upsert: (c: string, rec: Rec) => string;
-  remove: (c: string, id: string) => void;
-  toggleFeatured: (c: string, id: string) => void;
-  featuredList: (c: string) => Rec[];
-  setFeaturedOrder: (c: string, ids: string[]) => void;
-  getHomeCount: () => number;
-  setHomeCount: (n: number) => void;
-  fsSupported: boolean;
-  fsConnected: boolean;
-  connectRepo: () => Promise<void>;
-}
-const StoreCtx = createContext<Store | null>(null);
-export function useStudio() {
-  const s = useContext(StoreCtx);
-  if (!s) throw new Error("useStudio outside provider");
-  return s;
-}
-
-// ---- toast -----------------------------------------------------------------
-type Toast = (msg: string, tone?: "default" | "danger") => void;
-const ToastCtx = createContext<Toast>(() => {});
-export function useToast() {
-  return useContext(ToastCtx);
 }
 
 type Route = { view: "dashboard" } | { view: "editor"; collection: string; id: string | null };
@@ -178,5 +140,3 @@ function ToastHost({ toasts }: { toasts: { id: string; msg: string; tone: string
     </div>
   );
 }
-
-export { rentDest };

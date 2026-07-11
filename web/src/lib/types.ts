@@ -1,6 +1,5 @@
 // Elsewhere Living — shared content types.
-// These mirror the fields in the migrated data (src/data/*.json) and the
-// shape the WordPress mappers (wordpress.ts) normalise to.
+// These mirror the per-property JSON files under src/content/.
 
 export interface Feature {
   /** Label, e.g. "Horizon-edge infinity pool" */
@@ -41,7 +40,10 @@ export interface Listing {
   price: string;
   /** Formatted native price for the hover tooltip (omitted when USD). */
   priceOriginal?: string;
+  /** Legacy hand-set sort weight — no longer used for sorting; see `created`. */
   added?: number;
+  /** Epoch ms the property was added — the recency key for the "Newest" sort. */
+  created?: number;
   ownership?: string;
   yield?: string;
   video?: string;
@@ -92,6 +94,8 @@ export interface Rental {
   nightlyOriginal?: string;
   note?: string;
   sleeps?: string;
+  /** Epoch ms the property was added — the recency key for the "Newest" sort. */
+  created?: number;
   video?: string;
   featured?: boolean;
   featuredRank?: number | null;

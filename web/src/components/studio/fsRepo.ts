@@ -2,7 +2,7 @@
 // owner picks their repo clone once per session; Save then writes the per-property
 // JSON (+ any uploaded photos) straight into web/src/content + assets, ready to
 // review in GitHub Desktop and push. No backend, no tokens.
-import type { Rec } from "./Studio";
+import type { Rec } from "./store";
 
 let root: any = null;
 
@@ -30,8 +30,14 @@ async function writeFile(parts: string[], name: string, data: string | Uint8Arra
   await w.write(data);
   await w.close();
 }
-async function removeFile(parts: string[], name: string) {
-  try { const d = await getDir(root, parts); await d.removeEntry(name); } catch {}
+// Remove a file or directory. Tolerates the entry (or its parent) already
+// being gone, but surfaces real failures — callers must not report success
+// on a delete that didn't happen.
+async function removeEntry(parts: string[], name: string, opts?: { recursive?: boolean }) {
+  let d: any;
+  try { d = await getDir(root, parts); } catch { return; }
+  try { await d.removeEntry(name, opts); }
+  catch (e: any) { if (e?.name !== "NotFoundError") throw e; }
 }
 function dataUrlBytes(u: string) {
   const m = u.match(/^data:image\/([\w+.-]+);base64,(.*)$/);
@@ -63,6 +69,13 @@ export async function saveRecord(collection: string, rec: Rec): Promise<Rec> {
   const id = rec.id;
   const stamp = Date.now().toString(36);
   const gallery: string[] = [];
+  // Focal points are keyed by image src. Uploads get rewritten from data: URLs
+  // to /assets paths below, so their focals must be re-keyed with them — and no
+  // data: key may ever reach the JSON (it embeds the whole base64 image).
+  const focals: Record<string, string> = {};
+  for (const [k, v] of Object.entries((rec.focals as Record<string, string>) || {})) {
+    if (!k.startsWith("data:")) focals[k] = v;
+  }
   let i = 0;
   for (const g of rec.gallery || []) {
     if (typeof g === "string" && g.startsWith("data:")) {
@@ -70,20 +83,27 @@ export async function saveRecord(collection: string, rec: Rec): Promise<Rec> {
       const { bytes, ext } = dataUrlBytes(g);
       const name = `up-${stamp}-${i}.${ext}`;
       await writeFile(["assets", "listings", id], name, bytes);
-      gallery.push(`/assets/listings/${id}/${name}`);
+      const path = `/assets/listings/${id}/${name}`;
+      if (rec.focals && rec.focals[g]) focals[path] = rec.focals[g];
+      gallery.push(path);
     } else gallery.push(g);
   }
-  const out: any = { ...rec, gallery, image: gallery[0] || rec.image || "" };
-  out.imageFocal = (rec.focals && rec.focals[out.image]) || rec.imageFocal || "";
+  const out: any = { ...rec, gallery, focals, image: gallery[0] || rec.image || "" };
+  out.imageFocal = focals[out.image] || rec.imageFocal || "";
   COMPUTED.forEach((k) => delete out[k]);
   await writeFile(["web", "src", "content", folderOf(collection)], id + ".json", JSON.stringify(out, null, 2) + "\n");
   return out;
 }
 
-export async function deleteRecord(collection: string, id: string) {
+// Delete a record's JSON plus its photo folders under assets/listings.
+// `photoDirs` must contain only folders no other record references — photo
+// folders are shared between related properties, so the caller (which can see
+// every record) decides what is safe to remove.
+export async function deleteRecord(collection: string, id: string, photoDirs: string[] = []) {
   if (!root) throw new Error("Connect your repo folder first");
   await ensureWritable(root);
-  await removeFile(["web", "src", "content", folderOf(collection)], id + ".json");
+  await removeEntry(["web", "src", "content", folderOf(collection)], id + ".json");
+  for (const dir of photoDirs) await removeEntry(["assets", "listings"], dir, { recursive: true });
 }
 
 export async function writeHome(count: number) {

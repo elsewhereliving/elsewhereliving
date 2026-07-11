@@ -56,14 +56,33 @@ neighbour like `taling-ngam-9rai-dual-view-seaview-land.json`). Key rules:
 - Price: set `priceOriginalNum` (number in its native currency) + `priceCurrency`
   (e.g. "USD"/"THB"). USD is computed automatically — never hardcode `price`.
 - `market` must be one of: Koh Samui, Phuket, Bangkok, Bali, Dubai.
-- `view`: subset of Sea View / Beachfront / Waterfront / City View / Mountain
-  View / Garden / Pool View. `type`: Villa | Condominium | Land.
+- `view`: subset of the FIXED vocabulary only — Beachfront / Waterfront / Sea
+  View / Lake View / Mountain View / City View / Beachside / Garden / Pool View.
+  Never invent a new tag (e.g. "Garden View", "Ocean View"); pick the closest
+  existing one. The list is defined in `web/src/lib/format.ts` (`VIEW_TAGS`, in
+  hierarchy order, most desirable first) and the build fails on any other value.
+  To genuinely add a new tag, add it to `VIEW_TAGS` — nowhere else. `type`:
+  Villa | Condominium | Land.
 - `features`: array of `{ "l": label, "i": icon }`. Valid icons: sparkles, bed,
   bath, pool, view, waves, plot, tree, mountain, sun, key, home, building, car,
   shield, gym, music, sofa, utensils, terrace, users.
+- `interior` / `plot`: strictly a number or range + unit — `"450 m²"`,
+  `"425–680 m²"`, `"≈700 m²"`, `"403+ m²"`, `"1 rai"`, or `"—"` (land
+  listings' `interior`). **No words at all** — not "built", "indoor", "total",
+  "min", "from"… — the card spec row supplies the labelling and the build fails
+  on anything else. A second area (total incl. terraces, minimum plot) goes in
+  `features` or `detail` instead.
+- Areas are written `m²` **everywhere** — titles, blurbs, detail, features. Never
+  "sqm" or "sq.m." (source listings often use them — convert); the build fails
+  on any string field containing one.
 - `mapQuery`: "lat,lng" if known (shows a map); omit to hide it. JamesEdition
   hides exact coords — leave blank unless the user provides them.
-- `added`: a sort weight (higher = nearer the top); ~75 for a fresh listing.
+- `created`: epoch **milliseconds** of right now — get the real value with
+  `date +%s000` (or `node -e 'console.log(Date.now())'`). This is the recency
+  key for the site's "Newest" sort. **Never invent, round, or pick a number
+  "bigger than the current max"** — made-up future timestamps have previously
+  pushed every later listing below stale ones, and the build now fails on a
+  missing or future `created`. Do not set `added` (a legacy weight, unused).
 - Flag any judgement calls (status vs. year, assumed currency) to the user.
 
 ## 5. Build, preview, hand off
