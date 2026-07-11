@@ -213,6 +213,7 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
           <FormSection eyebrow="Pricing">
             <PriceEditor isRental={isRental} rec={rec} set={set} />
             {isRental && <TextField label="Rate note" value={rec.note} onChange={(v) => set({ note: v })} placeholder="Fully staffed · private chef available" />}
+            {!isRental && <TextField label="Yield / ROI" value={rec.yield} onChange={(v) => set({ yield: v })} hint="optional — shows beside the price on the card; use · to split lines" placeholder="10% ROI guaranteed · first 5 years" />}
           </FormSection>
 
           <FormSection eyebrow="The story">
@@ -305,8 +306,21 @@ function PreviewCard({ item, isRental }: { item: Rec; isRental: boolean }) {
       <div style={{ padding: "14px 16px 16px" }}>
         <div style={{ fontFamily: "var(--font-sans)", fontSize: 9.5, letterSpacing: "0.16em", textTransform: "uppercase", color: "var(--slate)" }}>{item.location || "—"}</div>
         <h3 style={{ margin: "6px 0 0", fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: 18, lineHeight: 1.18, color: "var(--navy)" }}>{item.title || "Untitled"}</h3>
-        <div style={{ marginTop: 12, fontFamily: "var(--font-serif)", fontSize: 16, color: "var(--charcoal)" }}>
-          {isRental ? (item.nightly ? item.nightly + " / night" : "On request") : (item.price || "—")}
+        <div style={{ marginTop: 12, display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: 12 }}>
+          <span style={{ fontFamily: "var(--font-serif)", fontSize: 16, color: "var(--charcoal)", flexShrink: 0 }}>
+            {isRental ? (item.nightly ? item.nightly + " / night" : "On request") : (item.price || "—")}
+          </span>
+          {!isRental && item.yield ? (
+            // Mirrors the live card (ListingsBrowser): verbatim for Land or
+            // self-describing text, otherwise " yield" is appended; " · " splits lines.
+            <span style={{ fontFamily: "var(--font-sans)", fontSize: 10, letterSpacing: "0.07em", textTransform: "uppercase", color: "var(--slate)", textAlign: "right", lineHeight: 1.5 }}>
+              {(item.type === "Land" || /yield|roi|guarant|return|p\.a/i.test(item.yield) ? item.yield : item.yield + " yield")
+                .split(" · ")
+                .map((part: string, i: number) => (
+                  <span key={i} style={{ display: "block", whiteSpace: "nowrap" }}>{part}</span>
+                ))}
+            </span>
+          ) : null}
         </div>
       </div>
     </div>

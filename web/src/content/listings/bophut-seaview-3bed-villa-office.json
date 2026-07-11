@@ -39,13 +39,13 @@
   "view": [
     "Sea View"
   ],
-  "status": "Move-In Ready",
+  "status": "Off-Plan",
   "beds": 3,
   "bedsLabel": "3",
   "baths": 4,
   "interior": "316–406 m²",
   "plot": "524–776 m²",
-  "year": null,
+  "year": "2026",
   "ownership": "Freehold or Leasehold",
   "priceOriginalNum": 19500000,
   "priceCurrency": "THB",
@@ -91,5 +91,6 @@
     }
   ],
   "mapQuery": "9.541533,100.030267",
-  "yield": "10–17% est. ROI"
+  "yield": "10–17% est. ROI",
+  "focals": {}
 }

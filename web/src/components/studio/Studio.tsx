@@ -24,7 +24,7 @@ function withPrice(c: string, rec: Rec): Rec {
 function blank(c: string): Rec {
   if (c === "rentals")
     return { id: "", image: "", gallery: [], focals: {}, location: "", place: "", mapQuery: "", title: "", view: [], beds: 0, bedsLabel: "", baths: 0, guests: 0, guestsLabel: "", occupancy: "", size: "", nightlyOriginalNum: null, nightlyCurrency: "", nightly: "", nightlyNum: 0, note: "", sleeps: "", video: "", blurb: "", detail: "", features: [], created: Date.now() };
-  return { id: "", image: "", gallery: [], focals: {}, location: "", place: "", mapQuery: "", market: "Koh Samui", title: "", type: "Villa", view: [], status: "Move-In Ready", beds: 0, bedsLabel: "", baths: 0, interior: "—", plot: null, year: null, priceOriginalNum: null, priceCurrency: "", priceFrom: false, price: "", priceNum: 0, ownership: "Freehold", added: 0, video: "", blurb: "", detail: "", features: [], created: Date.now() };
+  return { id: "", image: "", gallery: [], focals: {}, location: "", place: "", mapQuery: "", market: "Koh Samui", title: "", type: "Villa", view: [], status: "Move-In Ready", beds: 0, bedsLabel: "", baths: 0, interior: "—", plot: null, year: null, priceOriginalNum: null, priceCurrency: "", priceFrom: false, price: "", priceNum: 0, ownership: "Freehold", yield: "", added: 0, video: "", blurb: "", detail: "", features: [], created: Date.now() };
 }
 
 type Route = { view: "dashboard" } | { view: "editor"; collection: string; id: string | null };

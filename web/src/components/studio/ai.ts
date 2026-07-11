@@ -63,6 +63,7 @@ function toolFor(isRental: boolean, markets: string[]) {
     priceOriginalNum: N("Asking price as a plain number in its NATIVE currency, e.g. 45000000. Never convert — USD is computed at build time."),
     priceCurrency: { type: "string", enum: CURRENCIES, description: "Native currency of priceOriginalNum." },
     priceFrom: { type: "boolean", description: "true when it's a 'from' price (multiple units)." },
+    yield: S("Investment-return note shown beside the price, e.g. '10% ROI guaranteed · first 5 years' or '7% net yield'. Only when the source states it — never invent or compute one."),
   };
   const rental: Record<string, any> = {
     sleeps: S("e.g. 'up to 12 guests · 6 bedrooms'."),
@@ -140,7 +141,7 @@ export async function sendChat(opts: {
 export function formSnapshot(rec: Rec, isRental: boolean): string {
   const keys = isRental
     ? ["internalName", "title", "location", "place", "mapQuery", "view", "beds", "bedsLabel", "baths", "sleeps", "guests", "occupancy", "size", "nightlyOriginalNum", "nightlyCurrency", "note", "blurb", "detail", "features"]
-    : ["internalName", "title", "location", "place", "mapQuery", "market", "type", "status", "view", "beds", "bedsLabel", "baths", "interior", "plot", "year", "ownership", "priceOriginalNum", "priceCurrency", "priceFrom", "blurb", "detail", "features"];
+    : ["internalName", "title", "location", "place", "mapQuery", "market", "type", "status", "view", "beds", "bedsLabel", "baths", "interior", "plot", "year", "ownership", "priceOriginalNum", "priceCurrency", "priceFrom", "yield", "blurb", "detail", "features"];
   const out: Record<string, any> = {};
   for (const k of keys) {
     const v = rec[k];
@@ -154,7 +155,7 @@ export function formSnapshot(rec: Rec, isRental: boolean): string {
 export function normalizePatch(raw: Record<string, any>, isRental: boolean): Partial<Rec> {
   const allowed = new Set(isRental
     ? ["internalName", "title", "location", "place", "mapQuery", "view", "beds", "bedsLabel", "baths", "sleeps", "guests", "occupancy", "size", "nightlyOriginalNum", "nightlyCurrency", "note", "blurb", "detail", "features"]
-    : ["internalName", "title", "location", "place", "mapQuery", "market", "type", "status", "view", "beds", "bedsLabel", "baths", "interior", "plot", "year", "ownership", "priceOriginalNum", "priceCurrency", "priceFrom", "blurb", "detail", "features"]);
+    : ["internalName", "title", "location", "place", "mapQuery", "market", "type", "status", "view", "beds", "bedsLabel", "baths", "interior", "plot", "year", "ownership", "priceOriginalNum", "priceCurrency", "priceFrom", "yield", "blurb", "detail", "features"]);
   const p: Partial<Rec> = {};
   for (const [k, v] of Object.entries(raw)) {
     if (!allowed.has(k) || v == null) continue;

@@ -86,5 +86,7 @@
     }
   ],
   "mapQuery": "9.500444,100.053306",
-  "focals": {}
+  "focals": {},
+  "featured": true,
+  "featuredRank": 4
 }

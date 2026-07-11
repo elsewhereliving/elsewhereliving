@@ -13,7 +13,7 @@ const FIELD_LABELS: Record<string, string> = {
   internalName: "Internal name", title: "Title", location: "Location", place: "Place", mapQuery: "Map", market: "Market",
   type: "Type", status: "Status", view: "View", beds: "Bedrooms", bedsLabel: "Beds label", baths: "Bathrooms",
   interior: "Property size", plot: "Plot", year: "Completion", ownership: "Ownership", priceOriginalNum: "Price", priceCurrency: "Currency",
-  priceFrom: "From price", sleeps: "Sleeps", guests: "Guests", occupancy: "Occupancy", size: "Size",
+  priceFrom: "From price", yield: "Yield / ROI", sleeps: "Sleeps", guests: "Guests", occupancy: "Occupancy", size: "Size",
   nightlyOriginalNum: "Nightly rate", nightlyCurrency: "Currency", note: "Rate note", blurb: "Blurb", detail: "Detail", features: "Features",
 };
 
