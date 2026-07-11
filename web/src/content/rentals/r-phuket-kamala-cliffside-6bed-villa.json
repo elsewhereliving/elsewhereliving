@@ -1,0 +1,67 @@
+{
+  "id": "r-phuket-kamala-cliffside-6bed-villa",
+  "image": "/assets/listings/r-phuket-kamala-cliffside-6bed-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-phuket-kamala-cliffside-6bed-villa/01.jpg",
+    "/assets/listings/r-phuket-kamala-cliffside-6bed-villa/02.jpg",
+    "/assets/listings/r-phuket-kamala-cliffside-6bed-villa/03.jpg",
+    "/assets/listings/r-phuket-kamala-cliffside-6bed-villa/04.jpg",
+    "/assets/listings/r-phuket-kamala-cliffside-6bed-villa/05.jpg",
+    "/assets/listings/r-phuket-kamala-cliffside-6bed-villa/06.jpg",
+    "/assets/listings/r-phuket-kamala-cliffside-6bed-villa/07.jpg",
+    "/assets/listings/r-phuket-kamala-cliffside-6bed-villa/08.jpg",
+    "/assets/listings/r-phuket-kamala-cliffside-6bed-villa/09.jpg",
+    "/assets/listings/r-phuket-kamala-cliffside-6bed-villa/10.jpg",
+    "/assets/listings/r-phuket-kamala-cliffside-6bed-villa/11.jpg",
+    "/assets/listings/r-phuket-kamala-cliffside-6bed-villa/12.jpg",
+    "/assets/listings/r-phuket-kamala-cliffside-6bed-villa/13.jpg",
+    "/assets/listings/r-phuket-kamala-cliffside-6bed-villa/14.jpg",
+    "/assets/listings/r-phuket-kamala-cliffside-6bed-villa/15.jpg"
+  ],
+  "location": "Kamala · Phuket · Thailand",
+  "place": "Kamala, Kathu District, Phuket, Thailand",
+  "mapQuery": "7.9255016,98.2632403",
+  "title": "Cliff-Top Ocean View Estate in Kamala",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 6,
+  "bedsLabel": "4–6",
+  "guests": 14,
+  "guestsLabel": "14",
+  "occupancy": "up to 14 adults",
+  "size": "1,213 m²",
+  "nightlyOriginalNum": 1600.7,
+  "nightlyCurrency": "USD",
+  "note": "Fully staffed incl. private chef",
+  "sleeps": "14 guests · up to 6 bedrooms",
+  "blurb": "A five-level cliff-top estate on Phuket's exclusive west-coast headland — sweeping Andaman sunset views, an infinity pool, a private cinema and games room, and a seaside massage sala, staffed with a villa manager, chef and housekeeping team.",
+  "detail": "Perched on a secluded headland on Phuket's celebrated west coast, this five-level villa is built into the cliff to frame uninterrupted views of the Andaman Sea and its sunsets. Designed with a restrained, contemporary hand and finished to an exacting standard, the villa blends seamlessly into its dramatic natural setting while remaining minutes from Kamala's beach and village.\n\nSix sea-view bedrooms are spread across the five levels — two master suites with wraparound decks and soaker tubs, a third king room, a fourth with twin queens and a balcony, and two further king rooms sharing a Jack-and-Jill bathroom — comfortably sleeping up to 14 guests. Living spaces flow from a formal dining room and full-service kitchen with breakfast bar to a home cinema with a large lounge and a separate games room with a pool table and bar.\n\nOutside, an infinity pool stretches along the clifftop deck, bordered by loungers and daybeds with the sea falling away beyond. A dedicated seaside sala with two massage beds, a poolside barbecue and bar, and covered parking for two cars round out the grounds, all within a secure, landscaped estate.\n\nA villa manager, private chef and housekeeping team are on hand throughout the stay, with round-the-clock estate security, complimentary Wi-Fi, and airport transfers arranged on request — a private clifftop retreat for families and groups seeking privacy without sacrificing convenience.",
+  "features": [
+    {
+      "l": "17.5 m clifftop infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic Andaman sunset views",
+      "i": "view"
+    },
+    {
+      "l": "Home cinema & games room with pool table",
+      "i": "music"
+    },
+    {
+      "l": "Seaside massage sala, 2 beds",
+      "i": "sparkles"
+    },
+    {
+      "l": "24-hour estate security",
+      "i": "shield"
+    },
+    {
+      "l": "6 sea-view bedrooms · staffed incl. chef",
+      "i": "users"
+    }
+  ],
+  "created": 1783786379646
+}

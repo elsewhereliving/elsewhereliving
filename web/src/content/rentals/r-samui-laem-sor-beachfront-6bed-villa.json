@@ -1,0 +1,76 @@
+{
+  "id": "r-samui-laem-sor-beachfront-6bed-villa",
+  "image": "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/01.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/02.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/03.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/04.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/05.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/06.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/07.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/08.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/09.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/10.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/11.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/12.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/13.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/14.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/15.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/16.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/17.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/18.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/19.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/20.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/21.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/22.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-6bed-villa/23.jpg"
+  ],
+  "location": "Laem Sor · Koh Samui · Thailand",
+  "place": "Laem Sor, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.4122182,99.9624823",
+  "title": "West-Facing Beachfront Villa in Laem Sor",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 6,
+  "bedsLabel": "6",
+  "guests": 18,
+  "guestsLabel": "12+6",
+  "occupancy": "up to 12 adults + 6 children",
+  "size": "Beachfront villa",
+  "nightlyOriginalNum": 1350,
+  "nightlyCurrency": "USD",
+  "note": "Fully staffed incl. private chef",
+  "sleeps": "12 adults + 6 children · 6 bedrooms",
+  "blurb": "A six-bedroom beachfront retreat on Laem Sor's west-facing shore, built for family groups — a 21-metre lap pool with a swim-up bar, a dedicated kids' bunk room sleeping six, gym, sauna, cinema and a private stretch of sand facing Koh Tan.",
+  "detail": "Set on a secluded stretch of Laem Sor Beach on Koh Samui's south-west coast, this beachfront villa is built to catch the sunset — every one of its six en-suite double bedrooms faces the sea, and the whole property is arranged around uninterrupted west-facing views over the water toward Koh Tan. A koi pond and waterfall greet arrivals at the carport before a grand wooden entrance opens straight onto the ocean.\n\nThe layout is designed for families and groups travelling together: a wellness zone with a glass-walled gym facing the water, a sauna, a massage sala, and a trampoline in a dedicated kids' garden sit alongside an indoor cinema with a large screen and both Netflix and IPTV. A separate bunk room sleeps six children (or nannies) with its own bathroom, wardrobes and a wall-mounted TV, giving parents and kids their own space.\n\nOutdoors, a 21-metre lap pool runs the length of the villa into a swim-up bar with a BBQ and beachfront seating, joined by a shaded dining pavilion, sunken loungers, and a sala at the pool's beach end. Steps lead down past a lawn to 25 metres of private beachfront. Six bedrooms include two masters with open-air star-gazing bathtubs, all with king beds, black-out curtains and private balconies or terraces; an indoor dining table seats 14, backed by a full guest kitchen and a separate chef's kitchen. A beachfront lounge with a 75-inch TV, a pool table, and a four-zone Sonos sound system rounds out the social spaces.\n\nThe villa is fully staffed with a villa manager, private chef, and a live-in couple, with CCTV, in-room safes and Wi-Fi throughout — a private, self-contained beachfront compound for large family gatherings.",
+  "features": [
+    {
+      "l": "21 m lap pool with swim-up bar",
+      "i": "pool"
+    },
+    {
+      "l": "25 m private beachfront on Koh Tan strait",
+      "i": "waves"
+    },
+    {
+      "l": "Dedicated kids' bunk room sleeps 6",
+      "i": "bed"
+    },
+    {
+      "l": "Gym, sauna & massage sala",
+      "i": "gym"
+    },
+    {
+      "l": "Indoor cinema & pool table lounge",
+      "i": "music"
+    },
+    {
+      "l": "6 en-suite bedrooms · staffed incl. chef",
+      "i": "users"
+    }
+  ],
+  "created": 1783783545496
+}
