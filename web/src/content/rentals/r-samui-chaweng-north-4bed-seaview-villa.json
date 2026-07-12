@@ -1,0 +1,68 @@
+{
+  "id": "r-samui-chaweng-north-4bed-seaview-villa",
+  "image": "/assets/listings/r-samui-chaweng-north-4bed-seaview-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-chaweng-north-4bed-seaview-villa/01.jpg",
+    "/assets/listings/r-samui-chaweng-north-4bed-seaview-villa/02.jpg",
+    "/assets/listings/r-samui-chaweng-north-4bed-seaview-villa/03.jpg",
+    "/assets/listings/r-samui-chaweng-north-4bed-seaview-villa/04.jpg",
+    "/assets/listings/r-samui-chaweng-north-4bed-seaview-villa/05.jpg",
+    "/assets/listings/r-samui-chaweng-north-4bed-seaview-villa/06.jpg",
+    "/assets/listings/r-samui-chaweng-north-4bed-seaview-villa/07.jpg",
+    "/assets/listings/r-samui-chaweng-north-4bed-seaview-villa/08.jpg",
+    "/assets/listings/r-samui-chaweng-north-4bed-seaview-villa/09.jpg",
+    "/assets/listings/r-samui-chaweng-north-4bed-seaview-villa/10.jpg",
+    "/assets/listings/r-samui-chaweng-north-4bed-seaview-villa/11.jpg",
+    "/assets/listings/r-samui-chaweng-north-4bed-seaview-villa/12.jpg",
+    "/assets/listings/r-samui-chaweng-north-4bed-seaview-villa/13.jpg",
+    "/assets/listings/r-samui-chaweng-north-4bed-seaview-villa/14.jpg",
+    "/assets/listings/r-samui-chaweng-north-4bed-seaview-villa/15.jpg",
+    "/assets/listings/r-samui-chaweng-north-4bed-seaview-villa/16.jpg",
+    "/assets/listings/r-samui-chaweng-north-4bed-seaview-villa/17.jpg",
+    "/assets/listings/r-samui-chaweng-north-4bed-seaview-villa/18.jpg",
+    "/assets/listings/r-samui-chaweng-north-4bed-seaview-villa/19.jpg",
+    "/assets/listings/r-samui-chaweng-north-4bed-seaview-villa/20.jpg"
+  ],
+  "location": "North Chaweng · Koh Samui · Thailand",
+  "place": "North Chaweng, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5515357,100.0740381",
+  "title": "Contemporary 4-Bedroom Seaview Villa Above North Chaweng",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 4,
+  "guests": 8,
+  "nightlyOriginalNum": 860,
+  "nightlyCurrency": "USD",
+  "note": "Live-in staff · panoramic sea views · 779 m² of living space",
+  "sleeps": "Up to 8 guests · 4 en-suite bedrooms",
+  "blurb": "A sleek contemporary villa set high on a hillside estate above North Chaweng, opening to panoramic ocean views across 779 m² of living space. Four en-suite master bedrooms with private balconies, four and a half bathrooms, and an open-plan living area that flows to a wide pool deck with sun loungers — discreet live-in staff and easy reach of Chaweng's beach, sleeping up to eight.",
+  "detail": "Set within a prestigious gated estate in the hills of North Chaweng, this four-bedroom villa was designed around its outlook — a broad, uninterrupted sweep of the sea framed by clean contemporary architecture. Across 779 m² of living space, high ceilings, ceiling fans and floor-to-ceiling glass draw in the light and the island breeze, keeping the interiors cool and open to the view.\n\nThe pool deck is the heart of the house: a generous swimming pool wrapped in a wooden terrace, with sun loungers and a sunken bench positioned to catch the sun through the day and the colours of the water beyond. The open-plan living and dining area, served by a modern kitchen, flows straight out to the poolside for an easy indoor-outdoor rhythm.\n\nEach of the four master bedrooms has its own private balcony, built-in wardrobes and an en-suite bathroom with twin basins and a walk-in rain shower, and every room is fitted with both ceiling fans and air conditioning. Discreet live-in staff quarters keep service close at hand without intruding on the privacy of the stay.\n\nThis is a home for peaceful stays rather than parties — shoes off indoors, quiet evenings, and long days by the pool. Chaweng's beach, restaurants and shops are a short drive down the hill, while the villa itself stays calm, private and firmly turned toward the sea.",
+  "features": [
+    {
+      "l": "Panoramic ocean views from a hillside estate",
+      "i": "view"
+    },
+    {
+      "l": "779 m² of contemporary living space",
+      "i": "home"
+    },
+    {
+      "l": "Four en-suite master bedrooms with balconies",
+      "i": "bed"
+    },
+    {
+      "l": "Four and a half bathrooms with rain showers",
+      "i": "bath"
+    },
+    {
+      "l": "Large pool with wooden sun deck",
+      "i": "pool"
+    },
+    {
+      "l": "Discreet live-in staff",
+      "i": "users"
+    }
+  ],
+  "created": 1783868139375
+}
