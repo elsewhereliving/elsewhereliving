@@ -3,9 +3,9 @@
   "image": "/assets/listings/chaweng-hills-double-infinity-mansion/ext-001.jpg",
   "gallery": [
     "/assets/listings/chaweng-hills-double-infinity-mansion/ext-001.jpg",
+    "/assets/listings/chaweng-hills-double-infinity-mansion/ext-004.jpg",
     "/assets/listings/chaweng-hills-double-infinity-mansion/ext-002.jpg",
     "/assets/listings/chaweng-hills-double-infinity-mansion/ext-003.jpg",
-    "/assets/listings/chaweng-hills-double-infinity-mansion/ext-004.jpg",
     "/assets/listings/chaweng-hills-double-infinity-mansion/ext-005.jpg",
     "/assets/listings/chaweng-hills-double-infinity-mansion/ext-006.jpg",
     "/assets/listings/chaweng-hills-double-infinity-mansion/ext-007.jpg",
@@ -89,5 +89,7 @@
     }
   ],
   "created": 1781494929000,
-  "imageFocal": ""
+  "imageFocal": "",
+  "internalName": "Villa Asi",
+  "focals": {}
 }

@@ -1,6 +1,6 @@
 {
   "id": "r-samui-bophut-beachfront-sunrise-pool-villa",
-  "internalName": "Baan Leelawadee",
+  "internalName": "Baan Leelawadee at Dhevatara Residence Estate",
   "image": "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/01.jpg",
   "gallery": [
     "/assets/listings/r-samui-bophut-beachfront-sunrise-pool-villa/01.jpg",
@@ -87,5 +87,6 @@
       "l": "Kayaks & BBQ on request · 6 min to Fisherman’s Village",
       "i": "car"
     }
-  ]
+  ],
+  "focals": {}
 }

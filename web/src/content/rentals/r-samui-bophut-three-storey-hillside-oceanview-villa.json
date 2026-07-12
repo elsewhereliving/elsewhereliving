@@ -1,6 +1,6 @@
 {
   "id": "r-samui-bophut-three-storey-hillside-oceanview-villa",
-  "internalName": "Baan Maliwan",
+  "internalName": "Baan Maliwan at Dhevatara Residence Estate",
   "image": "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/01.jpg",
   "gallery": [
     "/assets/listings/r-samui-bophut-three-storey-hillside-oceanview-villa/01.jpg",
@@ -81,5 +81,6 @@
       "l": "130 m to beach · 6 min to Fisherman’s Village",
       "i": "car"
     }
-  ]
+  ],
+  "focals": {}
 }

@@ -1,6 +1,6 @@
 {
   "id": "r-samui-twin-villa-granite-boulder-estate",
-  "internalName": "Hinta Hinyai Beach Villas",
+  "internalName": "Baan Hinta Baan Hinyai Beach Villas",
   "image": "/assets/listings/r-samui-lamai-boulder-beachfront-cinema-villa/03.jpg",
   "gallery": [
     "/assets/listings/r-samui-lamai-boulder-beachfront-cinema-villa/03.jpg",
@@ -102,5 +102,6 @@
     }
   ],
   "created": 1781610129000,
-  "imageFocal": ""
+  "imageFocal": "",
+  "focals": {}
 }

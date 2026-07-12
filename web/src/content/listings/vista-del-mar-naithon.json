@@ -12,7 +12,7 @@
   "place": "Vista del Mar, Nai Thon, Phuket, Thailand",
   "mapQuery": "8.0643035,98.3023559",
   "market": "Phuket",
-  "title": "Vista del Mar — Hillside Sunset-View Villa - Nai Thon",
+  "title": "A Contemporary Hillside Sunset-Sea-View Villa - Nai Thon",
   "type": "Villa",
   "view": [
     "Sea View",
@@ -81,5 +81,7 @@
     }
   ],
   "created": 1781552529000,
-  "imageFocal": ""
+  "imageFocal": "",
+  "internalName": "Vista del Mar",
+  "focals": {}
 }

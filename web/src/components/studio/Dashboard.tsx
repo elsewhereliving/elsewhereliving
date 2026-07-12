@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { CSSProperties, ReactNode } from "react";
 import { rentDest } from "../../lib/format";
 import { optImg } from "../../lib/img";
@@ -6,6 +6,23 @@ import { Icon } from "./icons";
 import HomeFeatured from "./HomeFeatured";
 import FeaturedRentals from "./FeaturedRentals";
 import { useStudio, useToast, type Rec } from "./store";
+
+// Saving writes a JSON file into web/src/content/, which Vite/Astro HMR picks up
+// and reloads — remounting this client:only island back to its defaults (For
+// sale, scrolled to the top). So the browsing position (tab, filters, sort,
+// scroll) is stashed in sessionStorage and restored on mount, surviving both an
+// HMR remount and a full reload. sessionStorage clears when the tab closes.
+const VIEW_KEY = "ew-studio-view";
+type ViewState = {
+  collection?: string; q?: string; fMarket?: string; fType?: string;
+  fStatus?: string; fDest?: string; sort?: string; scrollY?: number;
+};
+function readView(): ViewState {
+  try { return JSON.parse(sessionStorage.getItem(VIEW_KEY) || "{}"); } catch { return {}; }
+}
+function patchView(patch: ViewState) {
+  try { sessionStorage.setItem(VIEW_KEY, JSON.stringify({ ...readView(), ...patch })); } catch {}
+}
 
 const meta = (extra?: CSSProperties): CSSProperties => ({
   fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.2em",
@@ -23,21 +40,67 @@ export default function Dashboard({
 }) {
   const crm = useStudio();
   const toast = useToast();
-  const [collection, setCollection] = useState<"listings" | "rentals" | "home" | "featrentals">("listings");
+  const saved = useRef(readView()).current;
+  const [collection, setCollection] = useState<"listings" | "rentals" | "home" | "featrentals">((saved.collection as any) ?? "listings");
   const isFeaturedView = collection === "home" || collection === "featrentals";
-  const [q, setQ] = useState("");
-  const [fMarket, setFMarket] = useState("All");
-  const [fType, setFType] = useState("All");
-  const [fStatus, setFStatus] = useState("All");
-  const [fDest, setFDest] = useState("All");
-  const [sort, setSort] = useState("featured");
+  const [q, setQ] = useState(saved.q ?? "");
+  const [fMarket, setFMarket] = useState(saved.fMarket ?? "All");
+  const [fType, setFType] = useState(saved.fType ?? "All");
+  const [fStatus, setFStatus] = useState(saved.fStatus ?? "All");
+  const [fDest, setFDest] = useState(saved.fDest ?? "All");
+  const [sort, setSort] = useState(saved.sort ?? "newest");
   const [menu, setMenu] = useState(false);
 
   const isRental = collection === "rentals";
   const all = crm.list(collection === "home" ? "listings" : collection);
   const counts = crm.counts();
 
-  useEffect(() => { setFMarket("All"); setFType("All"); setFStatus("All"); setFDest("All"); }, [collection]);
+  // Reset the per-collection filters when the tab is switched — but not on the
+  // first render, so a tab restored from sessionStorage keeps its filters.
+  const mounted = useRef(false);
+  useEffect(() => {
+    if (!mounted.current) { mounted.current = true; return; }
+    setFMarket("All"); setFType("All"); setFStatus("All"); setFDest("All");
+  }, [collection]);
+
+  // Stash the browsing position on every change so a save-triggered reload lands
+  // back where the user was.
+  useEffect(() => {
+    patchView({ collection, q, fMarket, fType, fStatus, fDest, sort });
+  }, [collection, q, fMarket, fType, fStatus, fDest, sort]);
+
+  // Save the scroll position (coalesced to one write per frame) and restore it
+  // once on mount, after layout settles.
+  useEffect(() => {
+    let tick = false;
+    const onScroll = () => {
+      if (tick) return;
+      tick = true;
+      requestAnimationFrame(() => { tick = false; patchView({ scrollY: window.scrollY }); });
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+  useEffect(() => {
+    const y = saved.scrollY;
+    if (typeof y !== "number" || y <= 0) return;
+    // Jump straight to the saved offset (behavior:"instant" — the page sets
+    // scroll-behavior:smooth globally, so a plain scrollTo would animate). Retry
+    // on a timer until it lands: the card grid isn't laid out on the first tick,
+    // so an early attempt falls short. A timer (not rAF) so it still runs if the
+    // save/reload happened while this tab was in the background.
+    let tries = 0;
+    let timer = 0;
+    const restore = () => {
+      if (window.innerHeight > 0 && document.documentElement.scrollHeight > y) {
+        window.scrollTo({ top: y, left: 0, behavior: "instant" as ScrollBehavior });
+        if (Math.abs(window.scrollY - y) <= 2) return;
+      }
+      if (tries++ < 40) timer = window.setTimeout(restore, 50);
+    };
+    restore();
+    return () => window.clearTimeout(timer);
+  }, [saved]);
 
   const markets = useMemo(() => ["All", ...crm.markets], [crm.markets]);
   const dests = useMemo(

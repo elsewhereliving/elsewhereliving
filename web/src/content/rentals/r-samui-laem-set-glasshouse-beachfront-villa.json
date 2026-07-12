@@ -3,6 +3,7 @@
   "image": "/assets/listings/r-samui-laem-set-glasshouse-beachfront-villa/01.jpg",
   "gallery": [
     "/assets/listings/r-samui-laem-set-glasshouse-beachfront-villa/01.jpg",
+    "/assets/listings/r-samui-laem-set-glasshouse-beachfront-villa/36.jpg",
     "/assets/listings/r-samui-laem-set-glasshouse-beachfront-villa/02.jpg",
     "/assets/listings/r-samui-laem-set-glasshouse-beachfront-villa/03.jpg",
     "/assets/listings/r-samui-laem-set-glasshouse-beachfront-villa/04.jpg",
@@ -37,7 +38,6 @@
     "/assets/listings/r-samui-laem-set-glasshouse-beachfront-villa/33.jpg",
     "/assets/listings/r-samui-laem-set-glasshouse-beachfront-villa/34.jpg",
     "/assets/listings/r-samui-laem-set-glasshouse-beachfront-villa/35.jpg",
-    "/assets/listings/r-samui-laem-set-glasshouse-beachfront-villa/36.jpg",
     "/assets/listings/r-samui-laem-set-glasshouse-beachfront-villa/37.jpg",
     "/assets/listings/r-samui-laem-set-glasshouse-beachfront-villa/38.jpg",
     "/assets/listings/r-samui-laem-set-glasshouse-beachfront-villa/39.jpg",
@@ -107,5 +107,6 @@
       "l": "Wedding & events venue (up to 150)",
       "i": "sparkles"
     }
-  ]
+  ],
+  "focals": {}
 }

@@ -11,10 +11,10 @@
     "https://d24qm9hzk3dxrt.cloudfront.net/properties/61140827/61140827-bedroom_1-1.webp"
   ],
   "video": "https://www.youtube.com/watch?v=e-8_hHDa3l4",
-  "location": "Bophut · Koh Samui · Thailand",
-  "place": "Bophut Bay, Ko Samui District, Surat Thani, Thailand",
-  "mapQuery": "9.5722,100.0086",
-  "title": "Four-Villa Beachfront Compound with Sixteen Pools - Bophut",
+  "location": "Maenam · Koh Samui · Thailand",
+  "place": "Maenam  Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5676242,100.0155087",
+  "title": "Four-Villa Beachfront Compound with Sixteen Pools - Maenam",
   "view": [
     "Beachfront",
     "Sea View"
@@ -57,5 +57,7 @@
     }
   ],
   "created": 1781682129000,
-  "imageFocal": ""
+  "imageFocal": "",
+  "internalName": "Clay Beach Samui Luxury Beachfront Pool Villa",
+  "focals": {}
 }

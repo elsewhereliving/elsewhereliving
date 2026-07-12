@@ -1,6 +1,6 @@
 {
   "id": "r-samui-bophut-beachfront-cliffside-pavilion-villa",
-  "internalName": "Baan Benjamart",
+  "internalName": "Baan Benjamart at Dhevatara Residence Estate",
   "image": "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/01.jpg",
   "gallery": [
     "/assets/listings/r-samui-bophut-beachfront-cliffside-pavilion-villa/01.jpg",
@@ -85,5 +85,6 @@
       "l": "Kayaks & BBQ on request · 6 min to Fisherman’s Village",
       "i": "car"
     }
-  ]
+  ],
+  "focals": {}
 }
