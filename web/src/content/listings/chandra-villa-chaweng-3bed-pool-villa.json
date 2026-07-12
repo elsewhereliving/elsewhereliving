@@ -56,7 +56,7 @@
   "place": "Chaweng, Koh Samui, Surat Thani, Thailand",
   "mapQuery": "9.5176944,100.0390278",
   "market": "Koh Samui",
-  "title": "Chandra Villa - Contemporary 3-Bed Pool Villa near Chaweng",
+  "title": "Contemporary 3-Bed Pool Villa near Chaweng",
   "type": "Villa",
   "view": "Garden / Pool View",
   "status": "Move-In Ready",
@@ -64,12 +64,12 @@
   "baths": 3,
   "interior": "481 m²",
   "plot": "708 m²",
-  "year": 2024,
+  "year": "2026",
   "priceOriginalNum": 21500000,
   "priceCurrency": "THB",
   "ownership": "Freehold or Leasehold",
   "blurb": "A newly built three-bedroom villa a few minutes from Chaweng, where clean contemporary lines open onto a private salt-treated pool and a garden framed by tropical greenery — every room en-suite, air-conditioned and finished in warm wood and stone.",
-  "detail": "Set in a quiet residential pocket a short drive from Chaweng Beach, this three-bedroom villa pairs precise contemporary architecture with a relaxed island calm. Completed in 2024 and recognised with a regional design award, it opens almost entirely to the outdoors through tall bay windows, drawing daylight deep into the interiors and blurring the line between the living spaces and the garden beyond. The salt-treated infinity pool sits within minimalist white stone and planting, and the villa's gentle in-slope setting lends both easy access and a real sense of privacy.\n\nInside, an open-plan living room anchors the home — a soft-toned lounge, sheer curtains and solid timber detailing keep the mood warm and unhurried. The adjoining kitchen is fully equipped and finished in crisp white with wood accents, its island and dining table set up equally for family mornings and long dinners. The layout flows outward to a covered terrace that extends the living area toward the pool and the palms.\n\nThe master suite is a genuine retreat, with a king bed, a generous dressing room and an en-suite bathroom with a freestanding tub set against textures of wood and stone. Two further bedrooms each have their own king bed and en-suite, carrying through the same restrained palette of neutral tones, natural materials and handcrafted detail. Every bathroom is designed in a spa spirit — rain showers, timber finishes and glimpses of greenery — and air conditioning runs throughout.\n\nThe location balances convenience with seclusion: roughly 3 km to Chaweng Beach, 4 km to the town's restaurants and boutiques, and about 6 km to both Samui International Airport and Fisherman's Village, with supermarkets, markets and wellness spots close at hand.",
+  "detail": "Set in a quiet residential pocket a short drive from Chaweng Beach, this three-bedroom villa pairs precise contemporary architecture with a relaxed island calm. Completed in 2026 and recognised with a regional design award, it opens almost entirely to the outdoors through tall bay windows, drawing daylight deep into the interiors and blurring the line between the living spaces and the garden beyond. The salt-treated infinity pool sits within minimalist white stone and planting, and the villa's gentle in-slope setting lends both easy access and a real sense of privacy.\n\nInside, an open-plan living room anchors the home — a soft-toned lounge, sheer curtains and solid timber detailing keep the mood warm and unhurried. The adjoining kitchen is fully equipped and finished in crisp white with wood accents, its island and dining table set up equally for family mornings and long dinners. The layout flows outward to a covered terrace that extends the living area toward the pool and the palms.\n\nThe master suite is a genuine retreat, with a king bed, a generous dressing room and an en-suite bathroom with a freestanding tub set against textures of wood and stone. Two further bedrooms each have their own king bed and en-suite, carrying through the same restrained palette of neutral tones, natural materials and handcrafted detail. Every bathroom is designed in a spa spirit — rain showers, timber finishes and glimpses of greenery — and air conditioning runs throughout.\n\nThe location balances convenience with seclusion: roughly 3 km to Chaweng Beach, 4 km to the town's restaurants and boutiques, and about 6 km to both Samui International Airport and Fisherman's Village, with supermarkets, markets and wellness spots close at hand.",
   "features": [
     {
       "l": "Salt-treated infinity pool",
@@ -115,5 +115,6 @@
   "featured": false,
   "created": 1783871673000,
   "imageFocal": "",
-  "focals": {}
+  "focals": {},
+  "internalName": "Chandra Villa "
 }

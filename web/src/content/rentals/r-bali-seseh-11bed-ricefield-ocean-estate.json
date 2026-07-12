@@ -1,9 +1,12 @@
 {
   "id": "r-bali-seseh-11bed-ricefield-ocean-estate",
-  "image": "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/01.jpg",
+  "image": "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/46.jpg",
   "gallery": [
-    "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/01.jpg",
+    "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/46.jpg",
+    "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/78.jpg",
+    "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/21.jpg",
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/02.jpg",
+    "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/01.jpg",
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/03.jpg",
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/04.jpg",
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/05.jpg",
@@ -22,7 +25,6 @@
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/18.jpg",
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/19.jpg",
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/20.jpg",
-    "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/21.jpg",
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/22.jpg",
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/23.jpg",
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/24.jpg",
@@ -47,7 +49,6 @@
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/43.jpg",
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/44.jpg",
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/45.jpg",
-    "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/46.jpg",
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/47.jpg",
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/48.jpg",
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/49.jpg",
@@ -79,7 +80,6 @@
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/75.jpg",
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/76.jpg",
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/77.jpg",
-    "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/78.jpg",
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/79.jpg",
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/80.jpg",
     "/assets/listings/r-bali-seseh-11bed-ricefield-ocean-estate/81.jpg",
@@ -129,5 +129,7 @@
       "i": "users"
     }
   ],
-  "created": 1783865196986
+  "created": 1783865196986,
+  "imageFocal": "",
+  "focals": {}
 }

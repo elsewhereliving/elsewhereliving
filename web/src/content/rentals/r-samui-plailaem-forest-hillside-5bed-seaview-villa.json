@@ -13,15 +13,11 @@
     "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/09.jpg",
     "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/10.jpg",
     "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/11.jpg",
-    "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/12.jpg",
-    "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/13.jpg",
     "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/14.jpg",
     "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/15.jpg",
     "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/16.jpg",
     "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/17.jpg",
     "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/18.jpg",
-    "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/19.jpg",
-    "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/20.jpg",
     "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/21.jpg",
     "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/22.jpg",
     "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/23.jpg",
@@ -34,7 +30,11 @@
     "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/30.jpg",
     "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/31.jpg",
     "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/32.jpg",
-    "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/33.jpg"
+    "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/33.jpg",
+    "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/19.jpg",
+    "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/13.jpg",
+    "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/12.jpg",
+    "/assets/listings/r-samui-plailaem-forest-hillside-5bed-seaview-villa/20.jpg"
   ],
   "location": "Plai Laem · Koh Samui · Thailand",
   "place": "49/44 Moo 5, Bo Phut, Ko Samui District, Surat Thani 84320, Thailand",
@@ -106,5 +106,7 @@
       "i": "waves"
     }
   ],
-  "created": 1783869398000
+  "created": 1783869398000,
+  "imageFocal": "",
+  "focals": {}
 }

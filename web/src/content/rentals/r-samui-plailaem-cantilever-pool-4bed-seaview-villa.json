@@ -1,19 +1,19 @@
 {
   "id": "r-samui-plailaem-cantilever-pool-4bed-seaview-villa",
-  "image": "/assets/listings/r-samui-plailaem-cantilever-pool-4bed-seaview-villa/01.jpg",
+  "image": "/assets/listings/r-samui-plailaem-cantilever-pool-4bed-seaview-villa/18.jpg",
   "gallery": [
+    "/assets/listings/r-samui-plailaem-cantilever-pool-4bed-seaview-villa/18.jpg",
     "/assets/listings/r-samui-plailaem-cantilever-pool-4bed-seaview-villa/01.jpg",
     "/assets/listings/r-samui-plailaem-cantilever-pool-4bed-seaview-villa/02.jpg",
-    "/assets/listings/r-samui-plailaem-cantilever-pool-4bed-seaview-villa/03.jpg",
+    "/assets/listings/r-samui-plailaem-cantilever-pool-4bed-seaview-villa/13.jpg",
     "/assets/listings/r-samui-plailaem-cantilever-pool-4bed-seaview-villa/09.jpg",
     "/assets/listings/r-samui-plailaem-cantilever-pool-4bed-seaview-villa/08.jpg",
+    "/assets/listings/r-samui-plailaem-cantilever-pool-4bed-seaview-villa/03.jpg",
     "/assets/listings/r-samui-plailaem-cantilever-pool-4bed-seaview-villa/07.jpg",
     "/assets/listings/r-samui-plailaem-cantilever-pool-4bed-seaview-villa/05.jpg",
     "/assets/listings/r-samui-plailaem-cantilever-pool-4bed-seaview-villa/04.jpg",
     "/assets/listings/r-samui-plailaem-cantilever-pool-4bed-seaview-villa/10.jpg",
-    "/assets/listings/r-samui-plailaem-cantilever-pool-4bed-seaview-villa/13.jpg",
     "/assets/listings/r-samui-plailaem-cantilever-pool-4bed-seaview-villa/17.jpg",
-    "/assets/listings/r-samui-plailaem-cantilever-pool-4bed-seaview-villa/18.jpg",
     "/assets/listings/r-samui-plailaem-cantilever-pool-4bed-seaview-villa/22.jpg",
     "/assets/listings/r-samui-plailaem-cantilever-pool-4bed-seaview-villa/23.jpg",
     "/assets/listings/r-samui-plailaem-cantilever-pool-4bed-seaview-villa/24.jpg",
@@ -114,5 +114,7 @@
       "i": "waves"
     }
   ],
-  "created": 1783867927025
+  "created": 1783867927025,
+  "imageFocal": "",
+  "focals": {}
 }

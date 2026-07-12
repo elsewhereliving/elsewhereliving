@@ -27,7 +27,7 @@
   "place": "Vista del Mar, Nai Thon, Phuket, Thailand",
   "mapQuery": "8.0643035,98.3023559",
   "market": "Phuket",
-  "title": "Vista del Mar — 3-Bedroom Sea-View Villa - Nai Thon",
+  "title": "3-Bedroom Sea-View Villa - Nai Thon",
   "type": "Villa",
   "view": [
     "Sea View",
@@ -99,5 +99,6 @@
   ],
   "created": 1783691570006,
   "internalName": "Vista del Mar — 3-bed sea-view villa (Villa 8/9 type; renders Villa 10, cover Villa 22)",
-  "imageFocal": ""
+  "imageFocal": "",
+  "focals": {}
 }

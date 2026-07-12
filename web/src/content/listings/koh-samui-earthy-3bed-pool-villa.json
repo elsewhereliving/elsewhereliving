@@ -1,6 +1,6 @@
 {
   "id": "koh-samui-earthy-3bed-pool-villa",
-  "internalName": "Nadi Villas (Idea Development)",
+  "internalName": "Nadi Villas",
   "image": "/assets/listings/koh-samui-earthy-3bed-pool-villa/01.jpg",
   "gallery": [
     "/assets/listings/koh-samui-earthy-3bed-pool-villa/01.jpg",
@@ -89,5 +89,6 @@
       "i": "key"
     }
   ],
-  "mapQuery": "9.518133,100.039902"
+  "mapQuery": "9.518133,100.039902",
+  "focals": {}
 }

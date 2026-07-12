@@ -27,7 +27,11 @@
   "market": "Phuket",
   "title": "Beachside 3-Bedroom Home with Rooftop Pool — Bang Tao, Phuket",
   "type": "Villa",
-  "view": ["Beachfront", "Sea View", "Mountain View"],
+  "view": [
+    "Beachfront",
+    "Sea View",
+    "Mountain View"
+  ],
   "status": "Off-Plan",
   "beds": 3,
   "baths": 4,
@@ -90,5 +94,8 @@
       "i": "key"
     }
   ],
-  "created": 1783710739639
+  "created": 1783710739639,
+  "internalName": "Banyan Tree Beach Residences Nammu",
+  "imageFocal": "",
+  "focals": {}
 }

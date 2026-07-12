@@ -1,16 +1,16 @@
 {
   "id": "r-samui-bang-po-9bed-twin-pool-seaview-estate",
-  "image": "/assets/listings/r-samui-bang-po-9bed-twin-pool-seaview-estate/01.jpg",
+  "image": "/assets/listings/r-samui-bang-po-9bed-twin-pool-seaview-estate/02.jpg",
   "gallery": [
-    "/assets/listings/r-samui-bang-po-9bed-twin-pool-seaview-estate/01.jpg",
     "/assets/listings/r-samui-bang-po-9bed-twin-pool-seaview-estate/02.jpg",
+    "/assets/listings/r-samui-bang-po-9bed-twin-pool-seaview-estate/09.jpg",
+    "/assets/listings/r-samui-bang-po-9bed-twin-pool-seaview-estate/08.jpg",
+    "/assets/listings/r-samui-bang-po-9bed-twin-pool-seaview-estate/01.jpg",
     "/assets/listings/r-samui-bang-po-9bed-twin-pool-seaview-estate/03.jpg",
     "/assets/listings/r-samui-bang-po-9bed-twin-pool-seaview-estate/04.jpg",
     "/assets/listings/r-samui-bang-po-9bed-twin-pool-seaview-estate/05.jpg",
     "/assets/listings/r-samui-bang-po-9bed-twin-pool-seaview-estate/06.jpg",
     "/assets/listings/r-samui-bang-po-9bed-twin-pool-seaview-estate/07.jpg",
-    "/assets/listings/r-samui-bang-po-9bed-twin-pool-seaview-estate/08.jpg",
-    "/assets/listings/r-samui-bang-po-9bed-twin-pool-seaview-estate/09.jpg",
     "/assets/listings/r-samui-bang-po-9bed-twin-pool-seaview-estate/10.jpg",
     "/assets/listings/r-samui-bang-po-9bed-twin-pool-seaview-estate/11.jpg",
     "/assets/listings/r-samui-bang-po-9bed-twin-pool-seaview-estate/12.jpg",
@@ -111,5 +111,7 @@
       "i": "users"
     }
   ],
-  "created": 1783862640000
+  "created": 1783862640000,
+  "imageFocal": "",
+  "focals": {}
 }

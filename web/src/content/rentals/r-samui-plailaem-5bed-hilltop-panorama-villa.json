@@ -1,12 +1,13 @@
 {
   "id": "r-samui-plailaem-5bed-hilltop-panorama-villa",
-  "image": "/assets/listings/r-samui-plailaem-5bed-hilltop-panorama-villa/01.jpg",
+  "image": "/assets/listings/r-samui-plailaem-5bed-hilltop-panorama-villa/05.jpg",
   "gallery": [
+    "/assets/listings/r-samui-plailaem-5bed-hilltop-panorama-villa/05.jpg",
+    "/assets/listings/r-samui-plailaem-5bed-hilltop-panorama-villa/34.jpg",
     "/assets/listings/r-samui-plailaem-5bed-hilltop-panorama-villa/01.jpg",
     "/assets/listings/r-samui-plailaem-5bed-hilltop-panorama-villa/02.jpg",
     "/assets/listings/r-samui-plailaem-5bed-hilltop-panorama-villa/03.jpg",
     "/assets/listings/r-samui-plailaem-5bed-hilltop-panorama-villa/04.jpg",
-    "/assets/listings/r-samui-plailaem-5bed-hilltop-panorama-villa/05.jpg",
     "/assets/listings/r-samui-plailaem-5bed-hilltop-panorama-villa/06.jpg",
     "/assets/listings/r-samui-plailaem-5bed-hilltop-panorama-villa/07.jpg",
     "/assets/listings/r-samui-plailaem-5bed-hilltop-panorama-villa/08.jpg",
@@ -35,7 +36,6 @@
     "/assets/listings/r-samui-plailaem-5bed-hilltop-panorama-villa/31.jpg",
     "/assets/listings/r-samui-plailaem-5bed-hilltop-panorama-villa/32.jpg",
     "/assets/listings/r-samui-plailaem-5bed-hilltop-panorama-villa/33.jpg",
-    "/assets/listings/r-samui-plailaem-5bed-hilltop-panorama-villa/34.jpg",
     "/assets/listings/r-samui-plailaem-5bed-hilltop-panorama-villa/35.jpg",
     "/assets/listings/r-samui-plailaem-5bed-hilltop-panorama-villa/36.jpg",
     "/assets/listings/r-samui-plailaem-5bed-hilltop-panorama-villa/37.jpg",
@@ -93,5 +93,7 @@
       "i": "shield"
     }
   ],
-  "created": 1783865787000
+  "created": 1783865787000,
+  "imageFocal": "",
+  "focals": {}
 }

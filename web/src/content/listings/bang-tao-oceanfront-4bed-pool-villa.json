@@ -27,7 +27,10 @@
   "market": "Phuket",
   "title": "Oceanfront 4-Bedroom Pool Villa — Bang Tao, Phuket",
   "type": "Villa",
-  "view": ["Beachfront", "Sea View"],
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
   "status": "Off-Plan",
   "beds": 4,
   "baths": 4,
@@ -89,5 +92,8 @@
       "i": "key"
     }
   ],
-  "created": 1783709902269
+  "created": 1783709902269,
+  "internalName": "Banyan Tree Beach Residences Aegir",
+  "imageFocal": "",
+  "focals": {}
 }
