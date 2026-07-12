@@ -32,7 +32,9 @@ const priceTip = nightlyOriginal
     <div style="display:flex; gap:16px; margin-top:12px; font-family:var(--font-sans); font-weight:300; font-size:12.5px; letter-spacing:0.03em; color:var(--text-body);">
       <span style="display:inline-flex; align-items:center; gap:6px;"><Icon name="bed" size={15} color="var(--slate)" stroke={1.4} /> {item.bedsLabel || item.beds}</span>
       <span style="display:inline-flex; align-items:center; gap:6px;"><Icon name="users" size={15} color="var(--slate)" stroke={1.4} /> {item.guestsLabel || item.guests} guests</span>
-      <span style="display:inline-flex; align-items:center; gap:6px;"><Icon name="interior" size={15} color="var(--slate)" stroke={1.4} /> {item.size}</span>
+      {item.size && item.size !== "—" && (
+        <span style="display:inline-flex; align-items:center; gap:6px;"><Icon name="interior" size={15} color="var(--slate)" stroke={1.4} /> {item.size}</span>
+      )}
     </div>
     <div style="display:flex; align-items:baseline; justify-content:space-between; gap:18px; margin-top:20px; padding-top:18px; border-top:1px solid var(--border-subtle);">
       <span style="display:flex; flex-direction:column; flex:none;">

@@ -24,6 +24,7 @@ function collect<T extends { id?: string }>(files: Record<string, { default: T }
     validateView(kind, id, (m.default as Record<string, unknown>).view);
     validateSize(kind, id, "interior", (m.default as Record<string, unknown>).interior);
     validateSize(kind, id, "plot", (m.default as Record<string, unknown>).plot);
+    validateSize(kind, id, "size", (m.default as Record<string, unknown>).size);
     validateUnits(kind, id, m.default as Record<string, unknown>);
     return { ...m.default, id };
   });
