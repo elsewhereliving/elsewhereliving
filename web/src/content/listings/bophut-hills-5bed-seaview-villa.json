@@ -1,26 +1,27 @@
 {
   "id": "bophut-hills-5bed-seaview-villa",
-  "image": "/assets/listings/bophut-hills-5bed-seaview-villa/01.jpg",
+  "image": "/assets/listings/bophut-hills-5bed-seaview-villa/05.jpg",
   "gallery": [
+    "/assets/listings/bophut-hills-5bed-seaview-villa/05.jpg",
+    "/assets/listings/bophut-hills-5bed-seaview-villa/50.jpg",
     "/assets/listings/bophut-hills-5bed-seaview-villa/01.jpg",
     "/assets/listings/bophut-hills-5bed-seaview-villa/03.jpg",
     "/assets/listings/bophut-hills-5bed-seaview-villa/06.jpg",
     "/assets/listings/bophut-hills-5bed-seaview-villa/02.jpg",
     "/assets/listings/bophut-hills-5bed-seaview-villa/04.jpg",
-    "/assets/listings/bophut-hills-5bed-seaview-villa/05.jpg",
+    "/assets/listings/bophut-hills-5bed-seaview-villa/13.jpg",
     "/assets/listings/bophut-hills-5bed-seaview-villa/07.jpg",
     "/assets/listings/bophut-hills-5bed-seaview-villa/08.jpg",
     "/assets/listings/bophut-hills-5bed-seaview-villa/09.jpg",
     "/assets/listings/bophut-hills-5bed-seaview-villa/10.jpg",
     "/assets/listings/bophut-hills-5bed-seaview-villa/11.jpg",
     "/assets/listings/bophut-hills-5bed-seaview-villa/12.jpg",
-    "/assets/listings/bophut-hills-5bed-seaview-villa/13.jpg",
     "/assets/listings/bophut-hills-5bed-seaview-villa/14.jpg",
-    "/assets/listings/bophut-hills-5bed-seaview-villa/15.jpg",
     "/assets/listings/bophut-hills-5bed-seaview-villa/16.jpg",
     "/assets/listings/bophut-hills-5bed-seaview-villa/17.jpg",
     "/assets/listings/bophut-hills-5bed-seaview-villa/18.jpg",
     "/assets/listings/bophut-hills-5bed-seaview-villa/19.jpg",
+    "/assets/listings/bophut-hills-5bed-seaview-villa/15.jpg",
     "/assets/listings/bophut-hills-5bed-seaview-villa/20.jpg",
     "/assets/listings/bophut-hills-5bed-seaview-villa/21.jpg",
     "/assets/listings/bophut-hills-5bed-seaview-villa/22.jpg",
@@ -50,8 +51,7 @@
     "/assets/listings/bophut-hills-5bed-seaview-villa/46.jpg",
     "/assets/listings/bophut-hills-5bed-seaview-villa/47.jpg",
     "/assets/listings/bophut-hills-5bed-seaview-villa/48.jpg",
-    "/assets/listings/bophut-hills-5bed-seaview-villa/49.jpg",
-    "/assets/listings/bophut-hills-5bed-seaview-villa/50.jpg"
+    "/assets/listings/bophut-hills-5bed-seaview-villa/49.jpg"
   ],
   "location": "Bophut Hills · Koh Samui · Thailand",
   "place": "Bophut Hills, Ko Samui District, Surat Thani, Thailand",
@@ -124,5 +124,7 @@
       "i": "waves"
     }
   ],
-  "created": 1783867007000
+  "created": 1783867007000,
+  "imageFocal": "",
+  "focals": {}
 }

@@ -1,7 +1,9 @@
 {
   "id": "bophut-hills-5bed-cinema-seaview-villa",
-  "image": "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/01.jpg",
+  "image": "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/20.jpg",
   "gallery": [
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/20.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/18.jpg",
     "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/01.jpg",
     "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/12.jpg",
     "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/02.jpg",
@@ -19,9 +21,7 @@
     "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/15.jpg",
     "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/16.jpg",
     "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/17.jpg",
-    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/18.jpg",
     "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/19.jpg",
-    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/20.jpg",
     "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/21.jpg",
     "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/22.jpg",
     "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/23.jpg",
@@ -98,5 +98,7 @@
       "i": "waves"
     }
   ],
-  "created": 1783867009000
+  "created": 1783867009000,
+  "imageFocal": "",
+  "focals": {}
 }
