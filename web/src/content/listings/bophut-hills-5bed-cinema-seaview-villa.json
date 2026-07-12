@@ -1,0 +1,102 @@
+{
+  "id": "bophut-hills-5bed-cinema-seaview-villa",
+  "image": "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/01.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/12.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/02.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/03.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/04.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/05.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/06.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/07.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/08.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/09.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/10.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/11.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/13.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/14.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/15.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/16.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/17.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/18.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/19.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/20.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/21.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/22.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/23.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/24.jpg",
+    "/assets/listings/bophut-hills-5bed-cinema-seaview-villa/25.jpg"
+  ],
+  "location": "Bophut Hills · Koh Samui · Thailand",
+  "place": "Bophut Hills, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5423635,100.0286918",
+  "market": "Koh Samui",
+  "title": "New 5-Bedroom Sea-View Villa with Private Cinema - Bophut",
+  "type": "Villa",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 5,
+  "baths": 7,
+  "interior": "705 m²",
+  "plot": "654 m²",
+  "year": 2025,
+  "priceOriginalNum": 49000000,
+  "priceCurrency": "THB",
+  "ownership": "Freehold",
+  "blurb": "A newly completed five-bedroom villa on three levels in the Bophut hills, wrapping a full floor of leisure — a twelve-seat private cinema, gym, spa zone and pool table — beneath open-plan living and an infinity pool that frames the bay. Fully staffed and finished in 2025, ready to move straight into.",
+  "detail": "Newly built in 2025, this villa is planned across three deliberate levels in the hills above Bophut, each with its own role. Arrival is at the entertainment and wellness floor, where a twelve-seat private cinema, a fully equipped gym, a pool table and a dedicated spa zone turn a full storey over to leisure — a rare, all-in-one setup for a house of this size.\n\nThe main floor is given to open-plan living. Floor-to-ceiling windows frame a wide panorama of the bay, while sliding doors lead out to a sun deck and infinity pool that carries the eye toward the water. A relaxed lounge, integrated sound system and a large dining area open off a modern Western-style kitchen, with two king en-suite bedrooms on this level for guests who prefer to stay close to the action.\n\nUpstairs, three further en-suite bedrooms each have their own outlook and open onto a shared sun deck — an easy spot for morning coffee or evening gatherings above the treeline. Throughout, the finish is crisp and contemporary: pale timber floors, natural stone accents and clean white volumes that keep the focus on the view.\n\nHeld freehold on a Chanote-titled plot and cared for by a professional on-site couple handling housekeeping and breakfast, the villa is offered ready to occupy. With its scale, on-site amenities and outlook, it works equally as a family home, a high-yield rental or a private residence in one of Samui’s most sought-after hillsides.",
+  "features": [
+    {
+      "l": "5 en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "7 bathrooms",
+      "i": "bath"
+    },
+    {
+      "l": "12-seat private cinema",
+      "i": "music"
+    },
+    {
+      "l": "Infinity pool with bay view",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic sea views",
+      "i": "view"
+    },
+    {
+      "l": "Gym, spa & pool table",
+      "i": "gym"
+    },
+    {
+      "l": "Three-level layout",
+      "i": "building"
+    },
+    {
+      "l": "705 m² interior",
+      "i": "home"
+    },
+    {
+      "l": "Completed 2025",
+      "i": "sparkles"
+    },
+    {
+      "l": "Professional on-site staff",
+      "i": "users"
+    },
+    {
+      "l": "Chanote freehold title",
+      "i": "shield"
+    },
+    {
+      "l": "Above Bophut beach & village",
+      "i": "waves"
+    }
+  ],
+  "created": 1783867009000
+}
