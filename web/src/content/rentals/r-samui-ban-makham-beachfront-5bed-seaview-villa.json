@@ -1,0 +1,67 @@
+{
+  "id": "r-samui-ban-makham-beachfront-5bed-seaview-villa",
+  "image": "/assets/listings/r-samui-ban-makham-beachfront-5bed-seaview-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-ban-makham-beachfront-5bed-seaview-villa/01.jpg",
+    "/assets/listings/r-samui-ban-makham-beachfront-5bed-seaview-villa/02.jpg",
+    "/assets/listings/r-samui-ban-makham-beachfront-5bed-seaview-villa/03.jpg",
+    "/assets/listings/r-samui-ban-makham-beachfront-5bed-seaview-villa/04.jpg",
+    "/assets/listings/r-samui-ban-makham-beachfront-5bed-seaview-villa/05.jpg"
+  ],
+  "location": "Ban Makham · Koh Samui · Thailand",
+  "place": "Ban Makham, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.563863,99.922992",
+  "title": "Beachfront Five-Bedroom Villa with Sea-View Pool - Ban Makham",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 5,
+  "bedsLabel": "5",
+  "guests": 10,
+  "guestsLabel": "10",
+  "occupancy": "up to 10 guests",
+  "size": "340 m²",
+  "nightlyOriginalNum": 800,
+  "nightlyCurrency": "USD",
+  "note": "Villa manager & daily housekeeping included",
+  "sleeps": "10 guests · 5 bedrooms",
+  "blurb": "A beachfront five-bedroom villa on Koh Samui's quiet north-west coast at Ban Makham, sleeping up to ten. An infinity-edge pool above the sand, a BBQ sala, a private gym and a pool-table bar, with 340 m² of contemporary interior opening to wide terraces. Villa manager and daily housekeeping included; sunset views across the Gulf.",
+  "detail": "This five-bedroom villa sits directly on the sand at Ban Makham, on the calm, sunset-facing north-west coast of Koh Samui. An infinity-edge pool overlooks the beach, and the outlook reaches across the Gulf. Days move between the water, the pool and the shade of an outdoor sala — with Bang Po beach a few minutes away and Nathon around ten.\n\nInside, 340 m² of air-conditioned living opens through sliding walls to roughly 250 m² of terraces and covered outdoor space. A large open-plan lounge and dining area sits beside a fully equipped modern Western kitchen, and an entertainment corner with a pool table and bar, a private gym and a studio/office give the house plenty of room to spread out. A barbecue sala anchors the garden for long, social evenings.\n\nFive en-suite bedrooms sleep up to ten adults. A dedicated villa manager, daily housekeeping, linen changes and pool towels are included, along with private parking, leaving little to arrange beyond deciding between the pool and the sand.",
+  "features": [
+    {
+      "l": "Sleeps 10 · 5 en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Infinity-edge beachfront pool",
+      "i": "pool"
+    },
+    {
+      "l": "Direct access to Ban Makham Beach",
+      "i": "waves"
+    },
+    {
+      "l": "Pool table, bar & BBQ sala",
+      "i": "users"
+    },
+    {
+      "l": "Private gym & studio/office",
+      "i": "gym"
+    },
+    {
+      "l": "Fully equipped Western kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "340 m² interior · 250 m² terraces",
+      "i": "home"
+    },
+    {
+      "l": "Sea views · west-coast sunsets",
+      "i": "view"
+    }
+  ],
+  "created": 1783869532956,
+  "imageFocal": ""
+}

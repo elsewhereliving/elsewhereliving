@@ -1,0 +1,74 @@
+{
+  "id": "samui-ban-makham-beachfront-5bed-seaview-villa",
+  "image": "/assets/listings/samui-ban-makham-beachfront-5bed-seaview-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/samui-ban-makham-beachfront-5bed-seaview-villa/01.jpg",
+    "/assets/listings/samui-ban-makham-beachfront-5bed-seaview-villa/02.jpg",
+    "/assets/listings/samui-ban-makham-beachfront-5bed-seaview-villa/03.jpg",
+    "/assets/listings/samui-ban-makham-beachfront-5bed-seaview-villa/04.jpg",
+    "/assets/listings/samui-ban-makham-beachfront-5bed-seaview-villa/05.jpg"
+  ],
+  "location": "Ban Makham · Koh Samui · Thailand",
+  "place": "Ban Makham, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.563863,99.922992",
+  "market": "Koh Samui",
+  "title": "Beachfront Five-Bedroom Sea-View Pool Villa - Ban Makham",
+  "type": "Villa",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 5,
+  "baths": 6,
+  "interior": "340 m²",
+  "plot": "420 m²",
+  "ownership": "Freehold",
+  "priceOriginalNum": 48800000,
+  "priceCurrency": "THB",
+  "blurb": "A five-bedroom beachfront villa on Koh Samui's quiet north-west coast at Ban Makham, with an infinity-edge pool above the sand and direct beach access. 340 m² of contemporary interior plus around 250 m² of terraces on a 420 m² freehold plot — private gym, studio/office, a pool-table bar and a BBQ sala. Freehold Chanote title, offered at ฿48,800,000.",
+  "detail": "On the sand at Ban Makham, on Koh Samui's quiet north-west coast, this five-bedroom villa opens directly onto the beach, with an infinity-edge pool set above the water and an outlook across the Gulf. The setting is unhurried and sunset-facing — Bang Po beach is a few minutes away and Nathon around ten — and the house is designed to be lived in indoors and out in equal measure.\n\nThe contemporary design gives roughly 340 m² of air-conditioned interior alongside some 250 m² of terraces and covered outdoor space, on a 420 m² plot with a private garden. A generous open-plan living and dining room flows through sliding walls to the pool deck and a fully equipped modern Western kitchen, while an outdoor sala with a barbecue corner, an entertainment area with a pool table and bar, and a private gym turn the home into a resort of its own.\n\nAll five bedrooms are en-suite, and a dedicated studio/office suits remote work. Practical touches round out the plan — a separate laundry and storage room, and private parking for a car and motorbikes.\n\nHeld on a Freehold Chanote title with direct beachfront access, the villa is equally suited to family living or a high-yield rental, and trades as an established beachfront rental today. Offered at ฿48,800,000.",
+  "features": [
+    {
+      "l": "5 en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "6 bathrooms",
+      "i": "bath"
+    },
+    {
+      "l": "Infinity-edge beachfront pool",
+      "i": "pool"
+    },
+    {
+      "l": "Direct access to Ban Makham Beach",
+      "i": "waves"
+    },
+    {
+      "l": "340 m² interior · 250 m² terraces",
+      "i": "home"
+    },
+    {
+      "l": "420 m² plot · Freehold Chanote title",
+      "i": "shield"
+    },
+    {
+      "l": "Private gym & studio/office",
+      "i": "gym"
+    },
+    {
+      "l": "Pool table, bar & BBQ sala",
+      "i": "users"
+    },
+    {
+      "l": "Fully equipped Western kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Sea views · west-coast sunsets",
+      "i": "view"
+    }
+  ],
+  "created": 1783869532955
+}
