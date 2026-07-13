@@ -1,0 +1,85 @@
+{
+  "id": "r-samui-plai-laem-rock-house-5bed-seaview-villa",
+  "image": "/assets/listings/r-samui-plai-laem-rock-house-5bed-seaview-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-plai-laem-rock-house-5bed-seaview-villa/01.jpg",
+    "/assets/listings/r-samui-plai-laem-rock-house-5bed-seaview-villa/02.jpg",
+    "/assets/listings/r-samui-plai-laem-rock-house-5bed-seaview-villa/03.jpg",
+    "/assets/listings/r-samui-plai-laem-rock-house-5bed-seaview-villa/04.jpg",
+    "/assets/listings/r-samui-plai-laem-rock-house-5bed-seaview-villa/05.jpg",
+    "/assets/listings/r-samui-plai-laem-rock-house-5bed-seaview-villa/06.jpg",
+    "/assets/listings/r-samui-plai-laem-rock-house-5bed-seaview-villa/07.jpg",
+    "/assets/listings/r-samui-plai-laem-rock-house-5bed-seaview-villa/08.jpg",
+    "/assets/listings/r-samui-plai-laem-rock-house-5bed-seaview-villa/09.jpg",
+    "/assets/listings/r-samui-plai-laem-rock-house-5bed-seaview-villa/10.jpg",
+    "/assets/listings/r-samui-plai-laem-rock-house-5bed-seaview-villa/11.jpg",
+    "/assets/listings/r-samui-plai-laem-rock-house-5bed-seaview-villa/12.jpg",
+    "/assets/listings/r-samui-plai-laem-rock-house-5bed-seaview-villa/13.jpg",
+    "/assets/listings/r-samui-plai-laem-rock-house-5bed-seaview-villa/14.jpg",
+    "/assets/listings/r-samui-plai-laem-rock-house-5bed-seaview-villa/15.jpg",
+    "/assets/listings/r-samui-plai-laem-rock-house-5bed-seaview-villa/16.jpg",
+    "/assets/listings/r-samui-plai-laem-rock-house-5bed-seaview-villa/17.jpg",
+    "/assets/listings/r-samui-plai-laem-rock-house-5bed-seaview-villa/18.jpg"
+  ],
+  "location": "Plai Laem · Koh Samui · Thailand",
+  "place": "Plai Laem, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.567018,100.085275",
+  "title": "Rock-Built Five-Bedroom Villa with Sea-View Infinity Pool - Plai Laem",
+  "view": [
+    "Sea View",
+    "Beachside"
+  ],
+  "beds": 5,
+  "bedsLabel": "5",
+  "guests": 10,
+  "guestsLabel": "10",
+  "occupancy": "up to 10 guests",
+  "size": "800 m²",
+  "nightlyOriginalNum": 1130,
+  "nightlyCurrency": "USD",
+  "note": "4 staff incl. chef · 3-night minimum",
+  "sleeps": "10 guests · 5 bedrooms",
+  "blurb": "A five-bedroom villa on Koh Samui's north-east headland at Plai Laem, built around a natural rock outcrop and framed by open-air living that draws in the sea breeze. An L-shaped infinity pool and a rooftop terrace look out across the Gulf, with a home cinema, a bar-and-BBQ lounge and a fitness corner for longer stays, and a quiet beach a two-minute walk below. Sleeps ten across five en-suite bedrooms — configurable to five, four or three — with four resident staff including a chef.",
+  "detail": "This villa stands on the north-east headland of Koh Samui at Plai Laem, its design built directly around a natural rock formation so that stone, structure and garden read as one. Rooms open to the air on several sides, letting the sea breeze move through the house, and the outlook runs across jungle to the Gulf beyond. A quiet beach sits a two-minute walk below, with the restaurants of the Choeng Mon and Chaweng area about ten minutes away and Samui Airport a little closer.\n\nRoughly 800 m² of living space is arranged for both quiet days and full houses. An L-shaped infinity pool traces the terrace, and a rooftop terrace takes in the wider view. Inside there is a generous living room, a fully equipped Western kitchen, a home cinema, and a bar and lounge with a barbecue for long evenings — with a Sonos sound system through the living and pool areas, and dumbbells, a yoga mat and games for slower afternoons.\n\nFive en-suite bedrooms sleep up to ten, led by a 62 m² master with sea views, and the layout can be taken as five, four or three bedrooms to suit the group. A team of four, including a chef, looks after the stay, and the 1,800 m² grounds sit within a gated estate with a shared tennis court, 24-hour security, parking for two cars and a backup generator.",
+  "features": [
+    {
+      "l": "Sleeps 10 · 5 en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "L-shaped sea-view infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Built around a natural rock outcrop",
+      "i": "home"
+    },
+    {
+      "l": "Rooftop terrace over the Gulf",
+      "i": "terrace"
+    },
+    {
+      "l": "Home cinema · bar & BBQ lounge",
+      "i": "music"
+    },
+    {
+      "l": "Beach a two-minute walk below",
+      "i": "waves"
+    },
+    {
+      "l": "Tennis court · gated estate · 24h security",
+      "i": "shield"
+    },
+    {
+      "l": "800 m² villa · 1,800 m² grounds",
+      "i": "plot"
+    },
+    {
+      "l": "Four staff including a chef",
+      "i": "users"
+    }
+  ],
+  "created": 1783956109971,
+  "internalName": "Villa Hin",
+  "imageFocal": ""
+}

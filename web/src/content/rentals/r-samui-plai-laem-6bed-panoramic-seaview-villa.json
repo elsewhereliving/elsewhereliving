@@ -1,0 +1,86 @@
+{
+  "id": "r-samui-plai-laem-6bed-panoramic-seaview-villa",
+  "image": "/assets/listings/r-samui-plai-laem-6bed-panoramic-seaview-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-plai-laem-6bed-panoramic-seaview-villa/01.jpg",
+    "/assets/listings/r-samui-plai-laem-6bed-panoramic-seaview-villa/02.jpg",
+    "/assets/listings/r-samui-plai-laem-6bed-panoramic-seaview-villa/03.jpg",
+    "/assets/listings/r-samui-plai-laem-6bed-panoramic-seaview-villa/04.jpg",
+    "/assets/listings/r-samui-plai-laem-6bed-panoramic-seaview-villa/05.jpg",
+    "/assets/listings/r-samui-plai-laem-6bed-panoramic-seaview-villa/06.jpg",
+    "/assets/listings/r-samui-plai-laem-6bed-panoramic-seaview-villa/07.jpg",
+    "/assets/listings/r-samui-plai-laem-6bed-panoramic-seaview-villa/08.jpg",
+    "/assets/listings/r-samui-plai-laem-6bed-panoramic-seaview-villa/09.jpg",
+    "/assets/listings/r-samui-plai-laem-6bed-panoramic-seaview-villa/10.jpg",
+    "/assets/listings/r-samui-plai-laem-6bed-panoramic-seaview-villa/11.jpg",
+    "/assets/listings/r-samui-plai-laem-6bed-panoramic-seaview-villa/12.jpg",
+    "/assets/listings/r-samui-plai-laem-6bed-panoramic-seaview-villa/13.jpg",
+    "/assets/listings/r-samui-plai-laem-6bed-panoramic-seaview-villa/14.jpg",
+    "/assets/listings/r-samui-plai-laem-6bed-panoramic-seaview-villa/15.jpg",
+    "/assets/listings/r-samui-plai-laem-6bed-panoramic-seaview-villa/16.jpg",
+    "/assets/listings/r-samui-plai-laem-6bed-panoramic-seaview-villa/17.jpg",
+    "/assets/listings/r-samui-plai-laem-6bed-panoramic-seaview-villa/18.jpg",
+    "/assets/listings/r-samui-plai-laem-6bed-panoramic-seaview-villa/19.jpg",
+    "/assets/listings/r-samui-plai-laem-6bed-panoramic-seaview-villa/20.jpg"
+  ],
+  "location": "Plai Laem · Koh Samui · Thailand",
+  "place": "Plai Laem, Ko Samui District, Surat Thani, Thailand",
+  "title": "Panoramic Six-Bedroom Sea-View Villa with Infinity Pool - Plai Laem",
+  "view": [
+    "Sea View",
+    "Beachside"
+  ],
+  "beds": 6,
+  "bedsLabel": "6",
+  "guests": 14,
+  "guestsLabel": "14",
+  "occupancy": "up to 14 guests",
+  "size": "2,010 m²",
+  "nightlyOriginalNum": 1730,
+  "nightlyCurrency": "USD",
+  "note": "5 staff incl. chef · 3-night minimum",
+  "sleeps": "14 guests · 6 bedrooms",
+  "blurb": "A six-bedroom villa set high on Koh Samui's north-east coast, arranged over several levels for near-360-degree views across the sea. An L-shaped infinity pool with a Jacuzzi, a rooftop lounge and wide terraces open to the horizon, while a cinema, TV room, fitness room and ping-pong keep a full house occupied. Sleeps fourteen — configurable to six, five or four bedrooms — with five resident staff including a chef.",
+  "detail": "This villa sits high on the north-east coast of Koh Samui at Plai Laem, stepping down its slope across several levels so that almost every room meets the sea. The outlook is close to panoramic, reaching over the water and the island's headlands, and the estate runs down to its own beach. Samui Airport is a few minutes away, with the restaurants and shops of the Choeng Mon and Chaweng area within a short drive.\n\nAround 2,010 m² of living space is spread over three levels. An L-shaped infinity pool with a Jacuzzi anchors the main terrace beside the open living and dining area and a fully equipped American kitchen, while a rooftop lounge takes in the wider view. For longer stays there is a cinema with Apple TV and Netflix, a separate TV and study room, an office, a fitness room, a ping-pong table, two massage beds and a NUVO sound system throughout.\n\nSix en-suite bedrooms sleep up to fourteen, led by a 90 m² master with an ocean-view super-king and a private balcony; the guest rooms run from 45 to 50 m², and the house can be taken as six, five or four bedrooms. Built in 2015 and renovated in 2017, it comes with five resident staff including a chef, a tennis court within the gated estate, covered parking for two cars and a backup generator. Its multi-level layout involves several flights of stairs.",
+  "features": [
+    {
+      "l": "Sleeps 14 · 6 en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "L-shaped infinity pool with Jacuzzi",
+      "i": "pool"
+    },
+    {
+      "l": "Near-360° panoramic sea views",
+      "i": "view"
+    },
+    {
+      "l": "Rooftop terrace & lounge",
+      "i": "terrace"
+    },
+    {
+      "l": "Cinema, TV room & fitness room",
+      "i": "music"
+    },
+    {
+      "l": "Ping-pong · two massage beds",
+      "i": "sparkles"
+    },
+    {
+      "l": "90 m² ocean-view master suite",
+      "i": "sun"
+    },
+    {
+      "l": "Tennis court · gated beachside estate",
+      "i": "shield"
+    },
+    {
+      "l": "Five staff including a chef",
+      "i": "users"
+    }
+  ],
+  "created": 1783956111173,
+  "internalName": "Villa Anavaya",
+  "imageFocal": ""
+}
