@@ -1,0 +1,66 @@
+{
+  "id": "r-samui-lipa-noi-beachfront-6bed-teak-villa",
+  "image": "/assets/listings/r-samui-lipa-noi-beachfront-6bed-teak-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-lipa-noi-beachfront-6bed-teak-villa/01.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-6bed-teak-villa/02.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-6bed-teak-villa/03.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-6bed-teak-villa/04.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-6bed-teak-villa/05.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-6bed-teak-villa/06.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-6bed-teak-villa/07.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-6bed-teak-villa/08.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-6bed-teak-villa/09.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-6bed-teak-villa/10.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-6bed-teak-villa/11.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-6bed-teak-villa/12.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-6bed-teak-villa/13.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-6bed-teak-villa/14.jpg",
+    "/assets/listings/r-samui-lipa-noi-beachfront-6bed-teak-villa/15.jpg"
+  ],
+  "location": "Lipa Noi · Koh Samui · Thailand",
+  "place": "Lipa Noi Beach, West Coast, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.4972448,99.9316826",
+  "title": "Six-Bedroom Beachfront Teak Villa - Lipa Noi",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 6,
+  "bedsLabel": "3–6",
+  "guests": 12,
+  "nightlyOriginalNum": 1500,
+  "nightlyCurrency": "USD",
+  "note": "Fully staffed · villa manager · private chef · daily breakfast",
+  "sleeps": "Up to 12 guests (plus 2 children) · 6 en-suite bedrooms",
+  "blurb": "A six-bedroom beachfront villa on Koh Samui's quiet west coast at Lipa Noi, built in Southern Thai style around restored antique teak doors and windows — an elevated living pavilion opening to a 14-metre freshwater pool and a wide lawn that runs down to the sand, all six king rooms en-suite, fully staffed with a villa manager and private chef, and angled for sunsets over the water. Sleeps up to twelve.",
+  "detail": "Set right on the sand at Lipa Noi, on the calm west coast where Koh Samui watches the sun go down, this six-bedroom villa is a piece of Southern Thai architecture as much as a beach house. Restored teak doors and windows sourced from Burma, gabled roofs and warm timber throughout give it a character well beyond the usual villa stay, while an elevated living and dining pavilion looks straight out over the pool to the beach and the sea.\n\nThe grounds are built for long, easy days by the water: a 14-metre beachside freshwater pool with a shallow end for children, a tiled terrace for alfresco meals and sunset drinks, and an expansive tree-lined lawn that doubles as a setting for weddings and celebrations. Six double bedrooms are finished in warm teak and furnished with king beds — convertible to twins — curated antiques and en-suite bathrooms with travertine vanities, rain showers or freestanding tubs. A show kitchen with a breakfast bar sits alongside a separate preparation kitchen, and there is an estate gym and a recreation area with table tennis and games.\n\nThe villa comes fully staffed — a villa manager, housekeeping, gardener and security — with daily breakfast included and a private chef on hand for Thai and western menus served in the pavilion or on the beachfront deck. Sustainability runs through the property, from a chemical-free freshwater pool system to energy conservation and a no-plastics, zero-waste policy. Lipa Noi's soft sands, beach bars and seafood restaurants are on the doorstep, with Samui International Airport around 45 minutes away.",
+  "features": [
+    {
+      "l": "Absolute beachfront on Lipa Noi Beach",
+      "i": "waves"
+    },
+    {
+      "l": "14-metre beachside pool with sunset views",
+      "i": "pool"
+    },
+    {
+      "l": "Six en-suite king bedrooms sleep twelve",
+      "i": "bed"
+    },
+    {
+      "l": "Southern Thai architecture in antique teak",
+      "i": "home"
+    },
+    {
+      "l": "Beachfront event lawn, gym & games room",
+      "i": "tree"
+    },
+    {
+      "l": "Fully staffed with villa manager & private chef",
+      "i": "users"
+    }
+  ],
+  "created": 1783956730000,
+  "internalName": "Siritarar Residence"
+}
