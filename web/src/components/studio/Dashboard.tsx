@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { CSSProperties, ReactNode } from "react";
-import { rentDest } from "../../lib/format";
+import { rentDest, viewList, VIEW_TAGS } from "../../lib/format";
 import { optImg } from "../../lib/img";
 import { Icon } from "./icons";
 import HomeFeatured from "./HomeFeatured";
@@ -15,7 +15,8 @@ import { useStudio, useToast, type Rec } from "./store";
 const VIEW_KEY = "ew-studio-view";
 type ViewState = {
   collection?: string; q?: string; fMarket?: string; fType?: string;
-  fStatus?: string; fDest?: string; sort?: string; scrollY?: number;
+  fStatus?: string; fDest?: string; fMinBeds?: string; fView?: string;
+  sort?: string; scrollY?: number;
 };
 function readView(): ViewState {
   try { return JSON.parse(sessionStorage.getItem(VIEW_KEY) || "{}"); } catch { return {}; }
@@ -48,6 +49,8 @@ export default function Dashboard({
   const [fType, setFType] = useState(saved.fType ?? "All");
   const [fStatus, setFStatus] = useState(saved.fStatus ?? "All");
   const [fDest, setFDest] = useState(saved.fDest ?? "All");
+  const [fMinBeds, setFMinBeds] = useState(saved.fMinBeds ?? "All");
+  const [fView, setFView] = useState(saved.fView ?? "All");
   const [sort, setSort] = useState(saved.sort ?? "newest");
   const [menu, setMenu] = useState(false);
 
@@ -61,13 +64,14 @@ export default function Dashboard({
   useEffect(() => {
     if (!mounted.current) { mounted.current = true; return; }
     setFMarket("All"); setFType("All"); setFStatus("All"); setFDest("All");
+    setFMinBeds("All"); setFView("All");
   }, [collection]);
 
   // Stash the browsing position on every change so a save-triggered reload lands
   // back where the user was.
   useEffect(() => {
-    patchView({ collection, q, fMarket, fType, fStatus, fDest, sort });
-  }, [collection, q, fMarket, fType, fStatus, fDest, sort]);
+    patchView({ collection, q, fMarket, fType, fStatus, fDest, fMinBeds, fView, sort });
+  }, [collection, q, fMarket, fType, fStatus, fDest, fMinBeds, fView, sort]);
 
   // Save the scroll position (coalesced to one write per frame) and restore it
   // once on mount, after layout settles.
@@ -120,7 +124,11 @@ export default function Dashboard({
         if (fMarket !== "All" && it.market !== fMarket) return false;
         if (fType !== "All" && it.type !== fType) return false;
         if (fStatus !== "All" && it.status !== fStatus) return false;
-      } else if (fDest !== "All" && rentDest(it.location) !== fDest) return false;
+      } else {
+        if (fDest !== "All" && rentDest(it.location) !== fDest) return false;
+        if (fMinBeds !== "All" && (Number(it.beds) || 0) < Number(fMinBeds)) return false;
+        if (fView !== "All" && !viewList(it.view).includes(fView)) return false;
+      }
       return true;
     });
     const v = filtered.slice();
@@ -134,10 +142,10 @@ export default function Dashboard({
       return newOf(b) - newOf(a);
     });
     return v;
-  }, [all, q, fMarket, fType, fStatus, fDest, sort, isRental]);
+  }, [all, q, fMarket, fType, fStatus, fDest, fMinBeds, fView, sort, isRental]);
 
-  const activeFilters = (q ? 1 : 0) + [fMarket, fType, fStatus, fDest].filter((x) => x !== "All").length;
-  const clearAll = () => { setQ(""); setFMarket("All"); setFType("All"); setFStatus("All"); setFDest("All"); };
+  const activeFilters = (q ? 1 : 0) + [fMarket, fType, fStatus, fDest, fMinBeds, fView].filter((x) => x !== "All").length;
+  const clearAll = () => { setQ(""); setFMarket("All"); setFType("All"); setFStatus("All"); setFDest("All"); setFMinBeds("All"); setFView("All"); };
 
   return (
     <div style={{ minHeight: "100vh", background: "var(--paper)" }}>
@@ -241,7 +249,12 @@ export default function Dashboard({
                   <FilterSelect label="Status" value={fStatus} onChange={setFStatus} options={["All", "Move-In Ready", "Off-Plan"]} />
                 </>
               ) : (
-                <FilterSelect label="Destination" value={fDest} onChange={setFDest} options={dests} />
+                <>
+                  <FilterSelect label="Destination" value={fDest} onChange={setFDest} options={dests} />
+                  <FilterSelect label="Min beds" value={fMinBeds} onChange={setFMinBeds}
+                    options={["All", "2", "3", "4", "5", "6", "7", "8"]} format={(o) => o + "+ beds"} />
+                  <FilterSelect label="View" value={fView} onChange={setFView} options={["All", ...VIEW_TAGS]} />
+                </>
               )}
               {activeFilters > 0 && (
                 <button type="button" onClick={clearAll} style={{ background: "none", border: "none", cursor: "pointer", fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.12em", textTransform: "uppercase", color: "var(--navy)", textDecoration: "underline" }}>Clear</button>
@@ -331,13 +344,13 @@ function SortSelect({ value, onChange }: { value: string; onChange: (v: string) 
   );
 }
 
-function FilterSelect({ label, value, onChange, options }: { label: string; value: string; onChange: (v: string) => void; options: string[] }) {
+function FilterSelect({ label, value, onChange, options, format }: { label: string; value: string; onChange: (v: string) => void; options: string[]; format?: (o: string) => string }) {
   const active = value !== "All";
   return (
     <div style={{ position: "relative" }}>
       <select value={value} onChange={(e) => onChange(e.target.value)} className="ew-pillctl"
         style={{ appearance: "none", WebkitAppearance: "none", cursor: "pointer", background: active ? "var(--navy)" : "var(--white)", color: active ? "var(--white)" : "var(--charcoal)", border: "1px solid " + (active ? "var(--navy)" : "var(--border-on-light)"), padding: "13px 36px 13px 18px", fontFamily: "var(--font-sans)", fontSize: 11, letterSpacing: "0.08em", textTransform: "uppercase" }}>
-        {options.map((o) => <option key={o} value={o} style={{ color: "#000" }}>{o === "All" ? label + ": All" : o}</option>)}
+        {options.map((o) => <option key={o} value={o} style={{ color: "#000" }}>{o === "All" ? label + ": All" : format ? format(o) : o}</option>)}
       </select>
       <span style={{ position: "absolute", right: 12, top: "50%", transform: "translateY(-50%) rotate(90deg)", pointerEvents: "none" }}><Icon name="chevronRight" size={13} color={active ? "var(--white)" : "var(--slate)"} /></span>
     </div>
