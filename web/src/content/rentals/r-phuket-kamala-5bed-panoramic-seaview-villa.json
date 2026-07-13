@@ -41,22 +41,22 @@
   "location": "Kamala · Phuket · Thailand",
   "place": "Kamala, Kathu, Phuket, Thailand",
   "mapQuery": "7.923944,98.269418",
-  "title": "Five-Bedroom Villa with 270° Views over Patong Bay, Kamala - Phuket",
+  "title": "Six-Bedroom Villa with 270° Views over Patong Bay, Kamala - Phuket",
   "view": [
     "Sea View"
   ],
-  "beds": 5,
-  "bedsLabel": "5",
-  "guests": 10,
-  "guestsLabel": "10",
+  "beds": 6,
+  "bedsLabel": "6",
+  "guests": 8,
+  "guestsLabel": "8",
   "occupancy": "up to 10 guests",
   "size": "888 m²",
-  "nightlyOriginalNum": 1250,
+  "nightlyOriginalNum": 950,
   "nightlyCurrency": "USD",
   "note": "Estate-managed · 24h security",
   "sleeps": "10 guests · 5 bedrooms",
-  "blurb": "A five-bedroom hillside villa on Phuket's Millionaire's Mile with 270-degree views sweeping from Patong Bay to the open ocean — a 13-metre infinity pool, hilltop sunset sala, home cinema and freshly renovated kitchen, ten minutes from both Kamala and Patong beaches.",
-  "detail": "High on the headland between Kamala and Patong — the stretch of coast known as Phuket's Millionaire's Mile — this five-bedroom villa commands a 270-degree panorama that takes in the hills and lights of Patong Bay on one side and the open ocean and its sunsets on the other. Set within a well-run private estate with 24-hour security, it puts both world-class Kamala Beach and Patong's nightlife within a ten-minute drive.\n\nThe entry level opens into a cathedral-like living space under vaulted ceilings, where floor-to-ceiling bi-fold glass pulls back to frame the full sweep of the bay. A recent top-to-bottom renovation replaced the kitchen and dining area entirely, centred on a long fixed dining table made for sociable evenings, backed by a substantial second kitchen in stainless steel for serious food preparation. Outside, wide terraces and sun decks surround a 13-metre infinity-edge pool with an outdoor sound system, alfresco dining areas and a barbecue — and above it all, a covered hilltop sala that is the villa's most magical spot for sunset.\n\nAcross 888 m² of living space on two main levels, one guest suite sits on the entry floor while the master suite and three further bedrooms occupy the garden level below, alongside a fully equipped home cinema and a second lounge. Built in 2004 by an Australian contractor and impeccably maintained since, the villa sits on a 1,608 m² landscaped plot within an estate whose infrastructure includes backup power and its own water reserves — quietly reliable comfort behind the spectacle of the view.",
+  "blurb": "A six-bedroom hillside villa on Phuket's Millionaire's Mile with 270-degree views sweeping from Patong Bay to the open ocean — a 13-metre infinity pool, hilltop sunset sala, home cinema and freshly renovated kitchen, ten minutes from both Kamala and Patong beaches.",
+  "detail": "High on the headland between Kamala and Patong — the stretch of coast known as Phuket's Millionaire's Mile — this six-bedroom villa commands a 270-degree panorama that takes in the hills and lights of Patong Bay on one side and the open ocean and its sunsets on the other. Set within a well-run private estate with 24-hour security, it puts both world-class Kamala Beach and Patong's nightlife within a ten-minute drive.\n\nThe entry level opens into a cathedral-like living space under vaulted ceilings, where floor-to-ceiling bi-fold glass pulls back to frame the full sweep of the bay. A recent top-to-bottom renovation replaced the kitchen and dining area entirely, centred on a long fixed dining table made for sociable evenings, backed by a substantial second kitchen in stainless steel for serious food preparation. Outside, wide terraces and sun decks surround a 13-metre infinity-edge pool with an outdoor sound system, alfresco dining areas and a barbecue — and above it all, a covered hilltop sala that is the villa's most magical spot for sunset.\n\nAcross 888 m² of living space on two main levels, one guest suite sits on the entry floor while the master suite and three further bedrooms occupy the garden level below, alongside a fully equipped home cinema and a second lounge. Built in 2004 by an Australian contractor and impeccably maintained since, the villa sits on a 1,608 m² landscaped plot within an estate whose infrastructure includes backup power and its own water reserves — quietly reliable comfort behind the spectacle of the view.",
   "features": [
     {
       "l": "13 m infinity pool & sun decks",
@@ -81,6 +81,10 @@
     {
       "l": "Secured estate · 24h security",
       "i": "shield"
+    },
+    {
+      "l": "Private Chef",
+      "i": "utensils"
     }
   ],
   "created": 1783780250000,
