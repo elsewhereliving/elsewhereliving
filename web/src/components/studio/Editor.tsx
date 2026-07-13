@@ -22,6 +22,8 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
   const crm = useStudio();
   const toast = useToast();
   const existing = id ? crm.get(collection, id) : null;
+  // The saved URL slug, so we can tell an edited URL from an unchanged one.
+  const originalId = existing ? existing.id : null;
   // While the record is unsaved, the collection can be flipped in place — so a
   // rental pasted under the For-sale tab (or vice versa) never ships wrong.
   const [col, setCol] = useState(collection);
@@ -93,19 +95,30 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
     let out: Rec = { ...rec };
     out.image = (out.gallery && out.gallery[0]) || out.image || "";
     out.imageFocal = (out.focals && out.focals[out.image]) || "";
+    // The id is the page's URL slug. Sanitise whatever's in the URL field; if
+    // it's blank, derive one from the title (rentals keep the repo's "r-…"
+    // convention, which also keeps their photo folder from colliding with a sale's).
+    out.id = crm.slugify(out.id || "");
     if (!out.id) {
-      // Rentals follow the repo's "r-…" id convention, which also keeps their
-      // photo folder under assets/listings/ from colliding with a sale's.
       const base = crm.slugify(out.title);
       out.id = crm.uniqueId(col, isRental && !base.startsWith("r-") ? "r-" + base : base);
     }
+    // No two pages in a collection may share a URL.
+    if (crm.list(col).some((x) => x.id === out.id && x.id !== originalId)) {
+      toast("That URL is already taken by another " + (isRental ? "rental" : "listing"), "danger");
+      return;
+    }
+    const renamed = !!originalId && out.id !== originalId;
     if (crm.fsConnected) {
-      try { out = await saveRecord(col, out); toast("Saved to your repo — review in GitHub Desktop & push"); }
+      try {
+        out = await saveRecord(col, out, originalId || undefined);
+        toast(renamed ? "URL changed & saved — old links will now 404" : "Saved to your repo — review in GitHub Desktop & push");
+      }
       catch (e: any) { toast(e?.message || "Couldn't write to disk", "danger"); return; }
     } else {
-      toast("Saved this session — connect your repo folder to write it to disk");
+      toast(renamed ? "URL changed this session — connect your repo folder to write it to disk" : "Saved this session — connect your repo folder to write it to disk");
     }
-    const savedId = crm.upsert(col, out);
+    const savedId = renamed ? crm.rename(col, originalId as string, out) : crm.upsert(col, out);
     setDirty(false);
     if (close) onSaved(savedId);
     else setRec({ ...out, id: savedId });
@@ -172,6 +185,14 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
           <FormSection eyebrow="Essentials">
             <TextField label="Villa name (internal)" value={rec.internalName} onChange={(v) => set({ internalName: v })} hint="Studio only — never shown on the website" placeholder="e.g. Baan Kilee" />
             <TextField label="Title" value={rec.title} onChange={(v) => set({ title: v })} placeholder="A distinctive name — by character, not the real project name" />
+            <SlugField
+              value={rec.id}
+              original={originalId}
+              base={isRental ? "/rentals/" : "/property/"}
+              placeholder={crm.slugify(rec.title)}
+              slugify={crm.slugify}
+              onChange={(v) => set({ id: v })}
+            />
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 28 }}>
               <TextField label="Location line" value={rec.location} onChange={(v) => set({ location: v })} placeholder="Bang Tao · Phuket · Thailand" />
               {!isRental ? <SelectField label="Market" value={rec.market || crm.markets[0]} onChange={(v) => set({ market: v })} options={crm.markets} /> : <TextField label="Sleeps" value={rec.sleeps} onChange={(v) => set({ sleeps: v })} placeholder="up to 12 guests · 6 bedrooms" />}
@@ -249,6 +270,50 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
           onClose={() => setAiOpen(false)}
         />
       )}
+    </div>
+  );
+}
+
+// Edit the page's URL slug (the record's id). Sanitises to lowercase-hyphen on
+// blur, shows the resulting URL live, and warns when an existing page's URL is
+// being changed (old links break; photos keep their current location).
+function SlugField({ value, original, base, placeholder, slugify, onChange }: {
+  value: string; original: string | null; base: string; placeholder: string;
+  slugify: (s: string) => string; onChange: (v: string) => void;
+}) {
+  const [text, setText] = useState(value || "");
+  const [f, setF] = useState(false);
+  // Resync the field to the record's id — but only while it's not being edited,
+  // so live keystrokes (which may include a trailing "-") aren't clobbered by
+  // the sanitised id we push up on every change. On blur, this tidies the display.
+  useEffect(() => { if (!f) setText(value || ""); }, [value, f]);
+  const clean = slugify(text);
+  const shown = clean || slugify(placeholder || "");
+  const changed = !!original && !!clean && clean !== original;
+  // Keep the record's id current on every keystroke (like every other field),
+  // sanitised, while the visible input keeps the raw text for natural typing.
+  const onType = (v: string) => { setText(v); onChange(slugify(v)); };
+  return (
+    <div>
+      <span style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", marginBottom: 7, gap: 10 }}>
+        <span style={{ fontFamily: "var(--font-sans)", fontSize: 10, letterSpacing: "0.18em", textTransform: "uppercase", color: "var(--slate)" }}>Page URL</span>
+        <span style={{ fontFamily: "var(--font-sans)", fontSize: 10, letterSpacing: "0.04em", color: "var(--stone)" }}>lowercase-with-hyphens</span>
+      </span>
+      <div style={{ display: "flex", alignItems: "baseline", borderBottom: "1px solid " + (f ? "var(--navy)" : "var(--border-subtle)") }}>
+        <span style={{ fontFamily: "var(--font-sans)", fontSize: 14, color: "var(--stone)", whiteSpace: "nowrap", paddingBottom: 8 }}>{base}</span>
+        <input value={text} placeholder={slugify(placeholder || "") || "set-from-title-on-save"}
+          onFocus={() => setF(true)} onBlur={() => setF(false)}
+          onChange={(e) => onType(e.target.value)}
+          style={{ flex: 1, minWidth: 0, background: "transparent", border: "none", outline: "none", borderRadius: 0, color: "var(--charcoal)", fontFamily: "var(--font-sans)", fontSize: 14, padding: "5px 0 8px" }} />
+      </div>
+      <div style={{ marginTop: 7, fontFamily: "var(--font-sans)", fontSize: 11.5, lineHeight: 1.5, color: "var(--slate)" }}>
+        {shown ? <>Lives at <span style={{ color: "var(--navy)" }}>{base}{shown}</span></> : "Set from the title when you first save."}
+        {changed && (
+          <span style={{ display: "block", marginTop: 3, color: "var(--stone)" }}>
+            Was {base}{original} — changing it 404s any old links. Photos keep their current location.
+          </span>
+        )}
+      </div>
     </div>
   );
 }

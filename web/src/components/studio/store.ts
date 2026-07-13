@@ -18,6 +18,9 @@ export interface Store {
   slugify: (s: string) => string;
   uniqueId: (c: string, base: string) => string;
   upsert: (c: string, rec: Rec) => string;
+  // Replace the record saved under `oldId` with `rec` (whose id may differ),
+  // keeping its position in the list. Used when the URL slug is edited.
+  rename: (c: string, oldId: string, rec: Rec) => string;
   remove: (c: string, id: string) => void;
   toggleFeatured: (c: string, id: string) => void;
   featuredList: (c: string) => Rec[];

@@ -126,8 +126,11 @@ const COMPUTED = ["price", "priceNum", "priceOriginal", "nightly", "nightlyNum",
 const folderOf = (c: string) => (c === "rentals" ? "rentals" : "listings");
 
 // Write one record. Returns the cleaned record (gallery rewritten to /assets
-// paths) so the in-memory copy can be synced.
-export async function saveRecord(collection: string, rec: Rec): Promise<Rec> {
+// paths) so the in-memory copy can be synced. Pass `prevId` when the URL slug
+// changed: the old JSON is removed so the renamed page ships at the new path
+// only. Photo folders are left untouched — the record's image paths still point
+// at them (and re-optimising them needs the build step, not the browser).
+export async function saveRecord(collection: string, rec: Rec, prevId?: string): Promise<Rec> {
   if (!root) throw new Error("Connect your repo folder first");
   await ensureWritable(root);
   const id = rec.id;
@@ -156,6 +159,7 @@ export async function saveRecord(collection: string, rec: Rec): Promise<Rec> {
   out.imageFocal = focals[out.image] || rec.imageFocal || "";
   COMPUTED.forEach((k) => delete out[k]);
   await writeFile(["web", "src", "content", folderOf(collection)], id + ".json", JSON.stringify(out, null, 2) + "\n");
+  if (prevId && prevId !== id) await removeEntry(["web", "src", "content", folderOf(collection)], prevId + ".json");
   return out;
 }
 

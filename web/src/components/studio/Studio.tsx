@@ -83,6 +83,19 @@ export default function Studio({ listings: l0, rentals: r0, markets, homeCount: 
         });
         return rec.id;
       },
+      rename: (c, oldId, rec) => {
+        if (!rec.id) return oldId;
+        const computed = withPrice(c, rec);
+        setArr(c, (arr) => {
+          const i = arr.findIndex((x) => x.id === oldId);
+          // Replace in place so the renamed listing keeps its spot in the list;
+          // drop any stray entry that already held the new id (collision-checked
+          // by the caller, so this only guards against a duplicate).
+          if (i < 0) return arr.some((x) => x.id === rec.id) ? arr.map((x) => (x.id === rec.id ? computed : x)) : [computed, ...arr];
+          return arr.map((x, k) => (k === i ? computed : x)).filter((x, k) => k === i || x.id !== rec.id);
+        });
+        return rec.id;
+      },
       remove: (c, id) => setArr(c, (arr) => arr.filter((x) => x.id !== id)),
       toggleFeatured: (c, id) =>
         setArr(c, (arr) => arr.map((x) => (x.id !== id ? x : x.featured ? { ...x, featured: false, featuredRank: null } : { ...x, featured: true, featuredRank: maxRank(arr) + 1 }))),
