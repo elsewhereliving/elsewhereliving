@@ -1,0 +1,86 @@
+{
+  "id": "r-phuket-kata-noi-katamanda-6bed-seaview-villa",
+  "image": "/assets/listings/r-phuket-kata-noi-katamanda-6bed-seaview-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-phuket-kata-noi-katamanda-6bed-seaview-villa/01.jpg",
+    "/assets/listings/r-phuket-kata-noi-katamanda-6bed-seaview-villa/02.jpg",
+    "/assets/listings/r-phuket-kata-noi-katamanda-6bed-seaview-villa/03.jpg",
+    "/assets/listings/r-phuket-kata-noi-katamanda-6bed-seaview-villa/04.jpg",
+    "/assets/listings/r-phuket-kata-noi-katamanda-6bed-seaview-villa/05.jpg",
+    "/assets/listings/r-phuket-kata-noi-katamanda-6bed-seaview-villa/06.jpg",
+    "/assets/listings/r-phuket-kata-noi-katamanda-6bed-seaview-villa/07.jpg",
+    "/assets/listings/r-phuket-kata-noi-katamanda-6bed-seaview-villa/08.jpg",
+    "/assets/listings/r-phuket-kata-noi-katamanda-6bed-seaview-villa/09.jpg",
+    "/assets/listings/r-phuket-kata-noi-katamanda-6bed-seaview-villa/10.jpg",
+    "/assets/listings/r-phuket-kata-noi-katamanda-6bed-seaview-villa/11.jpg",
+    "/assets/listings/r-phuket-kata-noi-katamanda-6bed-seaview-villa/12.jpg",
+    "/assets/listings/r-phuket-kata-noi-katamanda-6bed-seaview-villa/13.jpg",
+    "/assets/listings/r-phuket-kata-noi-katamanda-6bed-seaview-villa/14.jpg",
+    "/assets/listings/r-phuket-kata-noi-katamanda-6bed-seaview-villa/15.jpg",
+    "/assets/listings/r-phuket-kata-noi-katamanda-6bed-seaview-villa/16.jpg",
+    "/assets/listings/r-phuket-kata-noi-katamanda-6bed-seaview-villa/17.jpg",
+    "/assets/listings/r-phuket-kata-noi-katamanda-6bed-seaview-villa/18.jpg",
+    "/assets/listings/r-phuket-kata-noi-katamanda-6bed-seaview-villa/19.jpg",
+    "/assets/listings/r-phuket-kata-noi-katamanda-6bed-seaview-villa/20.jpg"
+  ],
+  "location": "Kata Noi · Phuket · Thailand",
+  "place": "Kata Noi, Karon, Mueang Phuket District, Phuket, Thailand",
+  "title": "Hillside Six-Bedroom Villa Overlooking Kata Noi Beach",
+  "view": [
+    "Sea View",
+    "Beachside"
+  ],
+  "beds": 6,
+  "bedsLabel": "6",
+  "guests": 14,
+  "guestsLabel": "14",
+  "occupancy": "up to 14 guests",
+  "size": "1,600 m²",
+  "nightlyOriginalNum": 2140,
+  "nightlyCurrency": "USD",
+  "note": "5 staff incl. chef · 3-night minimum",
+  "sleeps": "14 guests · 6 bedrooms",
+  "blurb": "A six-bedroom villa set into the hillside of a gated estate on Phuket's south-west coast, looking down over Kata Noi Beach and the Andaman Sea. A 14-metre infinity pool and wide sun decks open to the horizon, with a spa plunge pool, a games room, a gym and a full commercial kitchen for a private chef. Sleeps fourteen across six en-suite bedrooms — configurable to six, five or four — a two-minute walk from the sand, with five resident staff.",
+  "detail": "This villa steps down a hillside within a gated estate above Kata Noi, on the quiet south-west coast of Phuket, its terraces angled to take in the beach and the Andaman Sea beyond. Kata Noi Beach sits roughly two hundred metres below, with Kata Beach, cafés and village shops all within an easy walk — a rare stretch of Phuket where a car isn't needed to reach the water or a meal.\n\nThe outdoor spaces run to around 1,600 m² of living area between covered and open decks. A 14-metre infinity pool traces the main terrace beside a children's pool and shaded al fresco dining, and a separate spa area holds a plunge pool. Inside there is a spacious living room, an elegant dining table seating up to fourteen, a fully equipped commercial kitchen for the chef, a games room with a pool table, a gym and a ping-pong table, with a lift serving the upper levels and a solar-panel system supporting the house.\n\nSix en-suite bedrooms sleep up to fourteen, led by a master suite, and the layout can be taken as six, five or four bedrooms to suit the group. Set on 2,555 m² of grounds, the villa comes with five resident staff including a chef, access to the estate's tennis court, and the run of a lush, well-kept community.",
+  "features": [
+    {
+      "l": "Sleeps 14 · 6 en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "14 m infinity pool · sea views",
+      "i": "pool"
+    },
+    {
+      "l": "Overlooks Kata Noi Beach · 200 m to sand",
+      "i": "waves"
+    },
+    {
+      "l": "Spa plunge pool · gym · ping-pong",
+      "i": "sparkles"
+    },
+    {
+      "l": "Games room with pool table",
+      "i": "music"
+    },
+    {
+      "l": "Commercial kitchen · dining for 14",
+      "i": "utensils"
+    },
+    {
+      "l": "Lift · solar power · estate tennis court",
+      "i": "shield"
+    },
+    {
+      "l": "1,600 m² villa · 2,555 m² grounds",
+      "i": "plot"
+    },
+    {
+      "l": "Five staff including a chef",
+      "i": "users"
+    }
+  ],
+  "created": 1783957111124,
+  "internalName": "Villa Amankara",
+  "imageFocal": ""
+}

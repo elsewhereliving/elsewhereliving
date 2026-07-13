@@ -1,0 +1,81 @@
+{
+  "id": "r-phuket-kamala-beachfront-6bed-villa",
+  "image": "/assets/listings/r-phuket-kamala-beachfront-6bed-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-phuket-kamala-beachfront-6bed-villa/01.jpg",
+    "/assets/listings/r-phuket-kamala-beachfront-6bed-villa/02.jpg",
+    "/assets/listings/r-phuket-kamala-beachfront-6bed-villa/03.jpg",
+    "/assets/listings/r-phuket-kamala-beachfront-6bed-villa/04.jpg",
+    "/assets/listings/r-phuket-kamala-beachfront-6bed-villa/05.jpg",
+    "/assets/listings/r-phuket-kamala-beachfront-6bed-villa/06.jpg",
+    "/assets/listings/r-phuket-kamala-beachfront-6bed-villa/07.jpg",
+    "/assets/listings/r-phuket-kamala-beachfront-6bed-villa/08.jpg",
+    "/assets/listings/r-phuket-kamala-beachfront-6bed-villa/09.jpg",
+    "/assets/listings/r-phuket-kamala-beachfront-6bed-villa/10.jpg",
+    "/assets/listings/r-phuket-kamala-beachfront-6bed-villa/11.jpg",
+    "/assets/listings/r-phuket-kamala-beachfront-6bed-villa/12.jpg",
+    "/assets/listings/r-phuket-kamala-beachfront-6bed-villa/13.jpg",
+    "/assets/listings/r-phuket-kamala-beachfront-6bed-villa/14.jpg",
+    "/assets/listings/r-phuket-kamala-beachfront-6bed-villa/15.jpg"
+  ],
+  "location": "Kamala · Phuket · Thailand",
+  "place": "Kamala, Kathu District, Phuket, Thailand",
+  "title": "Beachfront Six-Bedroom Villa with Private Beach - Kamala",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 6,
+  "bedsLabel": "6",
+  "guests": 12,
+  "guestsLabel": "12",
+  "occupancy": "up to 12 guests",
+  "size": "594 m²",
+  "nightlyOriginalNum": 2850,
+  "nightlyCurrency": "USD",
+  "note": "6 staff incl. chef · 3-night minimum",
+  "sleeps": "12 guests · 6 bedrooms",
+  "blurb": "A six-bedroom beachfront villa on Phuket's west coast at Kamala, with its own stretch of private sand and an infinity pool set just above the water. Living and dining spaces open to panoramic sea and sunset views, with a games room, entertainment room and BBQ for a full house, and kayaks and paddleboards on hand. Sleeps twelve — two master suites and four guest rooms — with a private chef and a team of six.",
+  "detail": "This villa sits directly on the beach at Kamala, on the calmer west coast of Phuket, with exclusive access to its own quiet stretch of sand. Days run from the water to the shade, with kayaks, a paddleboard and snorkelling gear ready at the villa, and evenings turn to long, blazing sunsets over the Andaman Sea. Kamala's restaurants and shops are a few minutes away, and the villa feels private while staying close to everything.\n\nAn infinity pool with a shallow lounging shelf stretches sixteen metres along the seafront terrace, beside a living and dining area framed by the water. The house is built for groups: a twelve-seat dining table, a pool table, a multi-purpose entertainment room, a mahjong table and a barbecue, with 55-inch smart TVs and a bar area feeding an easy, resort-style flow between the spaces.\n\nSix en-suite bedrooms sleep up to twelve, arranged as two master suites with king beds, sea-and-pool views and bathtub bathrooms, plus four guest rooms — and the villa can be taken as six, five or four bedrooms. Set on 1,000 m² of beachfront grounds, it comes with six resident staff including a private chef, covered parking and direct beach access.",
+  "features": [
+    {
+      "l": "Sleeps 12 · 6 en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Beachfront with private beach access",
+      "i": "waves"
+    },
+    {
+      "l": "16 m infinity pool over the sand",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic sea & sunset views",
+      "i": "view"
+    },
+    {
+      "l": "Pool table, entertainment room & BBQ",
+      "i": "music"
+    },
+    {
+      "l": "Kayak, paddleboard & snorkelling gear",
+      "i": "waves"
+    },
+    {
+      "l": "Two master suites · 12-seat dining",
+      "i": "utensils"
+    },
+    {
+      "l": "594 m² villa · 1,000 m² beachfront plot",
+      "i": "plot"
+    },
+    {
+      "l": "Six staff including a chef",
+      "i": "users"
+    }
+  ],
+  "created": 1783957112627,
+  "internalName": "Villa ANDA",
+  "imageFocal": ""
+}
