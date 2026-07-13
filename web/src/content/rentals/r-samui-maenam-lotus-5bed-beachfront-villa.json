@@ -1,0 +1,97 @@
+{
+  "id": "r-samui-maenam-lotus-5bed-beachfront-villa",
+  "image": "/assets/listings/r-samui-maenam-lotus-5bed-beachfront-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-maenam-lotus-5bed-beachfront-villa/01.jpg",
+    "/assets/listings/r-samui-maenam-lotus-5bed-beachfront-villa/02.jpg",
+    "/assets/listings/r-samui-maenam-lotus-5bed-beachfront-villa/03.jpg",
+    "/assets/listings/r-samui-maenam-lotus-5bed-beachfront-villa/04.jpg",
+    "/assets/listings/r-samui-maenam-lotus-5bed-beachfront-villa/05.jpg",
+    "/assets/listings/r-samui-maenam-lotus-5bed-beachfront-villa/06.jpg",
+    "/assets/listings/r-samui-maenam-lotus-5bed-beachfront-villa/07.jpg",
+    "/assets/listings/r-samui-maenam-lotus-5bed-beachfront-villa/08.jpg",
+    "/assets/listings/r-samui-maenam-lotus-5bed-beachfront-villa/09.jpg",
+    "/assets/listings/r-samui-maenam-lotus-5bed-beachfront-villa/10.jpg",
+    "/assets/listings/r-samui-maenam-lotus-5bed-beachfront-villa/11.jpg",
+    "/assets/listings/r-samui-maenam-lotus-5bed-beachfront-villa/12.jpg",
+    "/assets/listings/r-samui-maenam-lotus-5bed-beachfront-villa/13.jpg",
+    "/assets/listings/r-samui-maenam-lotus-5bed-beachfront-villa/14.jpg",
+    "/assets/listings/r-samui-maenam-lotus-5bed-beachfront-villa/15.jpg",
+    "/assets/listings/r-samui-maenam-lotus-5bed-beachfront-villa/16.jpg",
+    "/assets/listings/r-samui-maenam-lotus-5bed-beachfront-villa/17.jpg",
+    "/assets/listings/r-samui-maenam-lotus-5bed-beachfront-villa/18.jpg",
+    "/assets/listings/r-samui-maenam-lotus-5bed-beachfront-villa/19.jpg"
+  ],
+  "location": "Mae Nam · Koh Samui · Thailand",
+  "place": "Mae Nam Beach, North Coast, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.574500,99.999000",
+  "title": "Five-Bedroom Beachfront Villa with 27 m Lap Pool - Mae Nam",
+  "view": [
+    "Beachfront",
+    "Sea View",
+    "Garden / Pool View"
+  ],
+  "beds": 5,
+  "bedsLabel": "5",
+  "guests": 10,
+  "nightlyOriginalNum": 1780,
+  "nightlyCurrency": "USD",
+  "note": "Fully staffed · private chef · daily breakfast · 24-hour security",
+  "sleeps": "Up to 10 guests · 5 en-suite bedrooms",
+  "blurb": "A five-bedroom beachfront villa on Koh Samui's calm north shore at Mae Nam, laid out across a cluster of pavilions on the sand with the Gulf of Thailand and the hills of Koh Pha Ngan filling the horizon. A 27 m lap pool runs along the beachfront past a high-vaulted living pavilion, a marble kitchen and an oceanfront dining sala, with a jacuzzi, gym, massage sala and games room set among the gardens. Five en-suite king bedrooms sleep up to ten, and the villa is fully staffed with a private chef.",
+  "detail": "This beachfront villa stretches along the sand at Mae Nam, on the quiet northern coast of Koh Samui where the island looks out across the Gulf of Thailand to the peaks of Koh Pha Ngan. The plot runs to the water's edge, and the sea and the island opposite are in view from almost every room.\n\nThe villa is arranged as a group of air-conditioned pavilions set among lawns and mature planting, colourful and light-filled where many Samui houses are dark. At its centre a high-vaulted living room opens to the garden, alongside a fully equipped kitchen with a marble island and a beachfront dining pavilion that catches the sea breeze.\n\nA 27 m lap pool runs the length of the beachfront, with a jacuzzi and sun terraces beside it and the sand just beyond. Between the pavilions are a private gym, a massage sala for treatments and a games room fitted with a billiards table, table tennis and foosball, while a home cinema with surround sound handles the evenings in.\n\nAll five bedrooms are en-suite, each with a king bed, a flatscreen and calm, nature-toned interiors; the master leads the group, with four further guest rooms sleeping up to ten in all. Kayaks and paddleboards are on hand for the flat morning sea, and a barbecue is set up for cooking on the beach.\n\nThe villa comes fully staffed, with a resident team including a private chef, a daily breakfast and housekeeping, 24-hour security and airport transfers arranged on arrival. Mae Nam's beach, village shops and the pier for Koh Pha Ngan are close by, with Fisherman's Village at Bo Phut and Samui Airport a short drive along the coast.",
+  "features": [
+    {
+      "l": "Absolute beachfront on Mae Nam Beach",
+      "i": "waves"
+    },
+    {
+      "l": "27 m lap pool & jacuzzi",
+      "i": "pool"
+    },
+    {
+      "l": "Sea views to Koh Pha Ngan across the Gulf",
+      "i": "view"
+    },
+    {
+      "l": "Five en-suite king bedrooms · 5 baths",
+      "i": "bed"
+    },
+    {
+      "l": "Private gym & massage sala",
+      "i": "gym"
+    },
+    {
+      "l": "Home cinema with surround sound",
+      "i": "music"
+    },
+    {
+      "l": "Games room: billiards, foosball & table tennis",
+      "i": "sofa"
+    },
+    {
+      "l": "High-vaulted living & marble kitchen",
+      "i": "home"
+    },
+    {
+      "l": "Beachfront dining pavilion",
+      "i": "utensils"
+    },
+    {
+      "l": "Kayaks & paddleboards on the beach",
+      "i": "sun"
+    },
+    {
+      "l": "Private chef, breakfast & 24-hour security",
+      "i": "sparkles"
+    },
+    {
+      "l": "Sleeps up to 10 guests",
+      "i": "users"
+    }
+  ],
+  "created": 1783957808433,
+  "internalName": "Villa Lotus",
+  "imageFocal": "",
+  "focals": {}
+}
