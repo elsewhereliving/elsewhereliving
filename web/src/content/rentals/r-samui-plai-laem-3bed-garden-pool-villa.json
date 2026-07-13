@@ -1,0 +1,86 @@
+{
+  "id": "r-samui-plai-laem-3bed-garden-pool-villa",
+  "image": "/assets/listings/r-samui-plai-laem-3bed-garden-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-plai-laem-3bed-garden-pool-villa/01.jpg",
+    "/assets/listings/r-samui-plai-laem-3bed-garden-pool-villa/02.jpg",
+    "/assets/listings/r-samui-plai-laem-3bed-garden-pool-villa/03.jpg",
+    "/assets/listings/r-samui-plai-laem-3bed-garden-pool-villa/04.jpg",
+    "/assets/listings/r-samui-plai-laem-3bed-garden-pool-villa/05.jpg",
+    "/assets/listings/r-samui-plai-laem-3bed-garden-pool-villa/06.jpg",
+    "/assets/listings/r-samui-plai-laem-3bed-garden-pool-villa/07.jpg",
+    "/assets/listings/r-samui-plai-laem-3bed-garden-pool-villa/08.jpg",
+    "/assets/listings/r-samui-plai-laem-3bed-garden-pool-villa/09.jpg"
+  ],
+  "location": "Plai Laem · Koh Samui · Thailand",
+  "place": "Plai Laem, Bo Phut, North-East Coast, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.567000,100.065000",
+  "title": "Single-Storey 3-Bedroom Garden Pool Villa Steps from Plai Laem Beach",
+  "view": [
+    "Beachside",
+    "Garden / Pool View"
+  ],
+  "beds": 3,
+  "bedsLabel": "3",
+  "guests": 6,
+  "nightlyOriginalNum": 650,
+  "nightlyCurrency": "USD",
+  "note": "Fully staffed · daily breakfast & housekeeping · chef on request",
+  "sleeps": "Up to 6 guests (+1 extra bed on request) · 3 en-suite bedrooms",
+  "blurb": "A single-storey three-bedroom villa set in tropical gardens on the quiet north-east corner of Koh Samui, under a hundred metres from the calm sand at Plai Laem. A breezy open-plan living space slides open to a 12 m pool edged with sun loungers and a covered dining terrace, backed by a black chef's kitchen and a second guest kitchen. Three king bedrooms, each en-suite, with contemporary Asian-bohemian interiors and hand-crafted art — fully staffed with daily breakfast and housekeeping, and part of a two-villa estate with a private gym.",
+  "detail": "This single-storey villa sits among mature tropical gardens on the calm north-east coast of Koh Samui at Plai Laem, a short, level walk — under a hundred metres — from a quiet stretch of sheltered sand. The setting is green and private, screened by planting on every side, with the beach, Bangrak and Choeng Mon all close and Samui Airport a few minutes' drive away.\n\nThe living and dining space is a single breezy volume beneath dark timber beams, opening through walls of glass to the pool terrace beyond. Interiors are layered in a contemporary Asian-bohemian hand — pale plaster, herringbone stone floors, bespoke furniture and hand-crafted artworks — anchored by a striking black chef's kitchen with a stone island alongside a second guest kitchen for casual breakfasts.\n\nOutside, a 12 m pool runs the length of a sun-washed terrace, framed by an eight-seat lounger, sunbeds and a covered outdoor dining area set against the greenery. The flat, family-friendly layout keeps every room on one level and folds the whole house open to the garden and the sea breeze.\n\nAll three bedrooms carry king beds and en-suite bathrooms, styled with the same collected, textural feel as the living spaces. The master suite opens to the terrace with a dual-vanity bathroom, rain shower and bathtub; the second bedroom has its own private terrace and dual-vanity bathroom; and the third is a comfortable king room with a rain-shower en-suite. Each has a Smart TV, espresso machine and mini-fridge.\n\nThe villa comes fully staffed, with daily housekeeping, a daily breakfast prepared in-house and an on-call villa manager, plus one complimentary return airport transfer. A private Thai chef can be arranged on request, and guests share a fully air-conditioned private gym with the estate's neighbouring villa. Baby cots and high chairs are available for families.",
+  "features": [
+    {
+      "l": "Under 100 m walk to Plai Laem Beach",
+      "i": "waves"
+    },
+    {
+      "l": "12 m private pool with sun loungers",
+      "i": "pool"
+    },
+    {
+      "l": "Single-storey, family-friendly layout",
+      "i": "home"
+    },
+    {
+      "l": "Three en-suite king bedrooms · 3.5 baths",
+      "i": "bed"
+    },
+    {
+      "l": "Master suite with bathtub, opening to terrace",
+      "i": "bath"
+    },
+    {
+      "l": "Covered outdoor dining on the pool terrace",
+      "i": "terrace"
+    },
+    {
+      "l": "Chef's kitchen plus guest kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Asian-bohemian interiors & hand-crafted art",
+      "i": "sofa"
+    },
+    {
+      "l": "Tropical garden setting",
+      "i": "tree"
+    },
+    {
+      "l": "Shared private air-conditioned gym",
+      "i": "gym"
+    },
+    {
+      "l": "Daily breakfast, housekeeping & airport transfer",
+      "i": "sparkles"
+    },
+    {
+      "l": "Sleeps up to 6 (+1 extra bed)",
+      "i": "users"
+    }
+  ],
+  "created": 1783961689474,
+  "internalName": "Villa Cella · White Lotus Estate Samui",
+  "imageFocal": "",
+  "focals": {}
+}
