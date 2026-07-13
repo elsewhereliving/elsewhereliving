@@ -1,0 +1,73 @@
+{
+  "id": "r-samui-bophut-hillside-4bed-northshore-seaview-villa",
+  "image": "/assets/listings/r-samui-bophut-hillside-4bed-northshore-seaview-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-bophut-hillside-4bed-northshore-seaview-villa/01.jpg",
+    "/assets/listings/r-samui-bophut-hillside-4bed-northshore-seaview-villa/02.jpg",
+    "/assets/listings/r-samui-bophut-hillside-4bed-northshore-seaview-villa/03.jpg",
+    "/assets/listings/r-samui-bophut-hillside-4bed-northshore-seaview-villa/04.jpg",
+    "/assets/listings/r-samui-bophut-hillside-4bed-northshore-seaview-villa/05.jpg",
+    "/assets/listings/r-samui-bophut-hillside-4bed-northshore-seaview-villa/06.jpg",
+    "/assets/listings/r-samui-bophut-hillside-4bed-northshore-seaview-villa/07.jpg",
+    "/assets/listings/r-samui-bophut-hillside-4bed-northshore-seaview-villa/08.jpg",
+    "/assets/listings/r-samui-bophut-hillside-4bed-northshore-seaview-villa/09.jpg",
+    "/assets/listings/r-samui-bophut-hillside-4bed-northshore-seaview-villa/10.jpg",
+    "/assets/listings/r-samui-bophut-hillside-4bed-northshore-seaview-villa/11.jpg",
+    "/assets/listings/r-samui-bophut-hillside-4bed-northshore-seaview-villa/12.jpg",
+    "/assets/listings/r-samui-bophut-hillside-4bed-northshore-seaview-villa/13.jpg",
+    "/assets/listings/r-samui-bophut-hillside-4bed-northshore-seaview-villa/14.jpg",
+    "/assets/listings/r-samui-bophut-hillside-4bed-northshore-seaview-villa/15.jpg",
+    "/assets/listings/r-samui-bophut-hillside-4bed-northshore-seaview-villa/16.jpg",
+    "/assets/listings/r-samui-bophut-hillside-4bed-northshore-seaview-villa/17.jpg",
+    "/assets/listings/r-samui-bophut-hillside-4bed-northshore-seaview-villa/18.jpg",
+    "/assets/listings/r-samui-bophut-hillside-4bed-northshore-seaview-villa/19.jpg",
+    "/assets/listings/r-samui-bophut-hillside-4bed-northshore-seaview-villa/20.jpg"
+  ],
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bophut, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5479297,100.0206525",
+  "title": "Tiered Hillside Villa with Infinity Pool over Samui's North Shore - Bophut",
+  "view": [
+    "Sea View",
+    "Mountain View",
+    "Garden / Pool View"
+  ],
+  "beds": 4,
+  "guests": 8,
+  "nightlyOriginalNum": 480,
+  "nightlyCurrency": "USD",
+  "note": "Daily breakfast · Thai chef · full-time staff · return airport transfer",
+  "sleeps": "Up to 8 guests · 4 en-suite bedrooms",
+  "blurb": "A four-bedroom villa terraced into the Bophut hillside, its rooms stepping down the slope so every level opens to the north shore of Koh Samui and the ocean beyond. An infinity pool and shaded sala crown the pool terrace, with a gym, sauna and steam room cut deeper into the hill, breakfast and a Thai chef included, sleeping up to eight a few minutes above Fisherman's Village.",
+  "detail": "Set high on the Bophut hillside, this four-bedroom villa is built in tiers that follow the fall of the slope, so the north-shore views open from every level. White walls and a grey slate roof sit among potted bougainvillea, and stone-washed steps lead down from the courtyard parking to the main accommodation — a house that reads as a quiet blend of traditional Thai detail and open, contemporary living.\n\nThree bedrooms share the upper level, flanked by a long balcony with panoramic ocean views; a fourth sits on the level below. Each is en-suite, several with terrazzo bath tubs positioned to keep the sea in view, and all decorated with island artefacts, generous storage and modern comforts. The open-plan living and dining area seats eight, opening to a full western kitchen with a breakfast bar.\n\nThe pool terrace is the heart of the house: an infinity edge that reads out to the ocean and jungle, a shaded sala for cocktails, massages or al-fresco dining at the barbecue. Lower levels hold a sauna and steam room and an air-conditioned gym, each carrying the same view down the hillside.\n\nRates include a daily continental or Asian breakfast, full-time staff, one return airport transfer, a concierge and English-speaking villa manager, and a Thai chef on hand (food charged to guests). Bophut Beach and Fisherman's Village are just over five minutes down the hill, Chaweng around ten, and the airport fifteen.",
+  "features": [
+    {
+      "l": "Infinity pool over Samui's north shore",
+      "i": "pool"
+    },
+    {
+      "l": "Four en-suite bedrooms, tiered down the hillside",
+      "i": "bed"
+    },
+    {
+      "l": "Gym, sauna & steam room with sea views",
+      "i": "gym"
+    },
+    {
+      "l": "Shaded sala & barbecue on the pool terrace",
+      "i": "terrace"
+    },
+    {
+      "l": "Open-plan living & full western kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Thai chef, full-time staff & airport transfer",
+      "i": "users"
+    }
+  ],
+  "created": 1783955529502,
+  "internalName": "Baan Lealay",
+  "imageFocal": "",
+  "focals": {}
+}
