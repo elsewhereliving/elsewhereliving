@@ -17,7 +17,12 @@
     "/assets/listings/r-bali-ubud-joglo-jungle-estate/13.jpg",
     "/assets/listings/r-bali-ubud-joglo-jungle-estate/14.jpg",
     "/assets/listings/r-bali-ubud-joglo-jungle-estate/15.jpg",
-    "/assets/listings/r-bali-ubud-joglo-jungle-estate/16.jpg"
+    "/assets/listings/r-bali-ubud-joglo-jungle-estate/16.jpg",
+    "/assets/listings/r-bali-ubud-joglo-jungle-estate/17.jpg",
+    "/assets/listings/r-bali-ubud-joglo-jungle-estate/18.jpg",
+    "/assets/listings/r-bali-ubud-joglo-jungle-estate/19.jpg",
+    "/assets/listings/r-bali-ubud-joglo-jungle-estate/20.jpg",
+    "/assets/listings/r-bali-ubud-joglo-jungle-estate/21.jpg"
   ],
   "location": "Ubud · Bali · Indonesia",
   "place": "Taro, Tegallalang, Gianyar, Bali, Indonesia",
@@ -62,5 +67,6 @@
       "i": "users"
     }
   ],
-  "created": 1781790129000
+  "created": 1781790129000,
+  "internalName": "Nag Shampa Private Estate"
 }

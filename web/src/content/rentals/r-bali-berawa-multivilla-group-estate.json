@@ -3,11 +3,11 @@
   "image": "/assets/listings/r-bali-berawa-multivilla-group-estate/01.jpg",
   "gallery": [
     "/assets/listings/r-bali-berawa-multivilla-group-estate/01.jpg",
-    "/assets/listings/r-bali-berawa-multivilla-group-estate/06.jpg",
     "/assets/listings/r-bali-berawa-multivilla-group-estate/02.jpg",
     "/assets/listings/r-bali-berawa-multivilla-group-estate/03.jpg",
     "/assets/listings/r-bali-berawa-multivilla-group-estate/04.jpg",
     "/assets/listings/r-bali-berawa-multivilla-group-estate/05.jpg",
+    "/assets/listings/r-bali-berawa-multivilla-group-estate/06.jpg",
     "/assets/listings/r-bali-berawa-multivilla-group-estate/07.jpg",
     "/assets/listings/r-bali-berawa-multivilla-group-estate/08.jpg",
     "/assets/listings/r-bali-berawa-multivilla-group-estate/09.jpg",
@@ -15,7 +15,10 @@
     "/assets/listings/r-bali-berawa-multivilla-group-estate/11.jpg",
     "/assets/listings/r-bali-berawa-multivilla-group-estate/12.jpg",
     "/assets/listings/r-bali-berawa-multivilla-group-estate/13.jpg",
-    "/assets/listings/r-bali-berawa-multivilla-group-estate/14.jpg"
+    "/assets/listings/r-bali-berawa-multivilla-group-estate/14.jpg",
+    "/assets/listings/r-bali-berawa-multivilla-group-estate/15.jpg",
+    "/assets/listings/r-bali-berawa-multivilla-group-estate/16.jpg",
+    "/assets/listings/r-bali-berawa-multivilla-group-estate/17.jpg"
   ],
   "location": "Canggu · Bali · Indonesia",
   "place": "Berawa, Tibubeneng, North Kuta, Badung, Bali, Indonesia",
@@ -28,8 +31,8 @@
   "guestsLabel": "17",
   "occupancy": "up to 17 guests",
   "size": "1,800 m²",
-  "nightlyOriginalNum": 500,
-  "nightlyCurrency": "USD",
+  "nightlyOriginalNum": null,
+  "nightlyCurrency": "",
   "note": "Per villa per night · book one or all",
   "sleeps": "up to 17 guests · 3–8 bedrooms",
   "blurb": "A designer multi-villa estate in the heart of Berawa — anchored by a five-bedroom villa with a rooftop cinema, swim-up-bar pool and gym, alongside a three-bedroom residence, for group travel that balances togetherness and space.",
@@ -61,5 +64,6 @@
     }
   ],
   "imageFocal": "",
-  "created": 1781811729000
+  "created": 1781811729000,
+  "internalName": "Mandala Estate"
 }

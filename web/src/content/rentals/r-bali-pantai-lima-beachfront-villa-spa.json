@@ -17,7 +17,17 @@
     "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/13.jpg",
     "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/14.jpg",
     "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/15.jpg",
-    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/16.jpg"
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/16.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/17.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/18.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/19.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/20.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/21.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/22.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/23.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/24.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/25.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-spa/26.jpg"
   ],
   "location": "Canggu · Bali · Indonesia",
   "place": "Pantai Lima, Pererenan, Mengwi, Badung, Bali, Indonesia",
@@ -33,7 +43,7 @@
   "guestsLabel": "10",
   "occupancy": "up to 10 guests",
   "size": "900 m²",
-  "nightlyOriginalNum": 1372,
+  "nightlyOriginalNum": 1485,
   "nightlyCurrency": "USD",
   "note": "Private chef",
   "sleeps": "10 guests · 5 bedrooms",
@@ -65,5 +75,6 @@
       "i": "users"
     }
   ],
-  "created": 1781797329000
+  "created": 1781797329000,
+  "internalName": "Villa Ambra"
 }

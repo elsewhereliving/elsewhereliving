@@ -15,7 +15,11 @@
     "/assets/listings/r-bali-pantai-lima-beachfront-estate/11.jpg",
     "/assets/listings/r-bali-pantai-lima-beachfront-estate/12.jpg",
     "/assets/listings/r-bali-pantai-lima-beachfront-estate/13.jpg",
-    "/assets/listings/r-bali-pantai-lima-beachfront-estate/14.jpg"
+    "/assets/listings/r-bali-pantai-lima-beachfront-estate/14.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-estate/15.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-estate/16.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-estate/17.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-estate/18.jpg"
   ],
   "location": "Canggu · Bali · Indonesia",
   "place": "Pererenan, Mengwi, Badung, Bali, Indonesia",
@@ -64,5 +68,6 @@
     }
   ],
   "created": 1781804529000,
-  "imageFocal": ""
+  "imageFocal": "",
+  "internalName": "Pantai Lima Estate"
 }

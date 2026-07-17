@@ -17,7 +17,21 @@
     "/assets/listings/r-bali-pererenan-atrium-slide-villa/13.jpg",
     "/assets/listings/r-bali-pererenan-atrium-slide-villa/14.jpg",
     "/assets/listings/r-bali-pererenan-atrium-slide-villa/15.jpg",
-    "/assets/listings/r-bali-pererenan-atrium-slide-villa/16.jpg"
+    "/assets/listings/r-bali-pererenan-atrium-slide-villa/16.jpg",
+    "/assets/listings/r-bali-pererenan-atrium-slide-villa/17.jpg",
+    "/assets/listings/r-bali-pererenan-atrium-slide-villa/18.jpg",
+    "/assets/listings/r-bali-pererenan-atrium-slide-villa/19.jpg",
+    "/assets/listings/r-bali-pererenan-atrium-slide-villa/20.jpg",
+    "/assets/listings/r-bali-pererenan-atrium-slide-villa/21.jpg",
+    "/assets/listings/r-bali-pererenan-atrium-slide-villa/22.jpg",
+    "/assets/listings/r-bali-pererenan-atrium-slide-villa/23.jpg",
+    "/assets/listings/r-bali-pererenan-atrium-slide-villa/24.jpg",
+    "/assets/listings/r-bali-pererenan-atrium-slide-villa/25.jpg",
+    "/assets/listings/r-bali-pererenan-atrium-slide-villa/26.jpg",
+    "/assets/listings/r-bali-pererenan-atrium-slide-villa/27.jpg",
+    "/assets/listings/r-bali-pererenan-atrium-slide-villa/28.jpg",
+    "/assets/listings/r-bali-pererenan-atrium-slide-villa/29.jpg",
+    "/assets/listings/r-bali-pererenan-atrium-slide-villa/30.jpg"
   ],
   "location": "Canggu · Bali · Indonesia",
   "place": "Pererenan, Mengwi, Badung, Bali, Indonesia",
@@ -30,7 +44,7 @@
   "guestsLabel": "12",
   "occupancy": "up to 12 guests",
   "size": "2,000 m²",
-  "nightlyOriginalNum": 1323,
+  "nightlyOriginalNum": 1800,
   "nightlyCurrency": "USD",
   "note": "Private chef",
   "sleeps": "12 guests · up to 6 bedrooms",
@@ -62,5 +76,6 @@
       "i": "users"
     }
   ],
-  "created": 1781793729000
+  "created": 1781793729000,
+  "internalName": "Akashi Residence"
 }

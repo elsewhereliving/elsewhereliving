@@ -15,7 +15,25 @@
     "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/11.jpg",
     "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/12.jpg",
     "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/13.jpg",
-    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/14.jpg"
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/14.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/15.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/16.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/17.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/18.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/19.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/20.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/21.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/22.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/23.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/24.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/25.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/26.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/27.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/28.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/29.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/30.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/31.jpg",
+    "/assets/listings/r-bali-pantai-lima-beachfront-villa-bale/32.jpg"
   ],
   "location": "Canggu · Bali · Indonesia",
   "place": "Pantai Lima, Pererenan, Mengwi, Badung, Bali, Indonesia",
@@ -31,7 +49,7 @@
   "guestsLabel": "10",
   "occupancy": "up to 10 guests",
   "size": "1,218 m²",
-  "nightlyOriginalNum": 1566,
+  "nightlyOriginalNum": 1745,
   "nightlyCurrency": "USD",
   "note": "Private chef",
   "sleeps": "10 guests · 5 bedrooms",
@@ -63,5 +81,6 @@
       "i": "users"
     }
   ],
-  "created": 1781800929000
+  "created": 1781800929000,
+  "internalName": "Villa Melissa"
 }
