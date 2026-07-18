@@ -92,5 +92,7 @@
   ],
   "mapQuery": "9.541533,100.030267",
   "yield": "10–17% est. ROI",
-  "focals": {}
+  "focals": {},
+  "featured": true,
+  "featuredRank": 33
 }
