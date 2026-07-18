@@ -1,10 +1,10 @@
 {
   "id": "r-bali-candidasa-beachfront-8bed-estate",
-  "image": "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/109.jpg",
+  "image": "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/02.jpg",
   "gallery": [
-    "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/109.jpg",
-    "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/01.jpg",
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/02.jpg",
+    "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/104.jpg",
+    "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/109.jpg",
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/03.jpg",
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/04.jpg",
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/05.jpg",
@@ -19,12 +19,7 @@
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/14.jpg",
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/15.jpg",
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/16.jpg",
-    "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/17.jpg",
-    "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/18.jpg",
-    "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/19.jpg",
-    "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/20.jpg",
-    "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/21.jpg",
-    "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/22.jpg",
+    "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/01.jpg",
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/23.jpg",
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/24.jpg",
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/25.jpg",
@@ -46,6 +41,12 @@
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/41.jpg",
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/42.jpg",
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/43.jpg",
+    "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/17.jpg",
+    "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/19.jpg",
+    "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/20.jpg",
+    "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/18.jpg",
+    "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/21.jpg",
+    "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/22.jpg",
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/44.jpg",
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/45.jpg",
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/46.jpg",
@@ -106,7 +107,6 @@
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/101.jpg",
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/102.jpg",
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/103.jpg",
-    "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/104.jpg",
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/105.jpg",
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/106.jpg",
     "/assets/listings/r-bali-candidasa-beachfront-8bed-estate/107.jpg",
@@ -167,5 +167,7 @@
     }
   ],
   "created": 1784233563583,
-  "internalName": "The Seed Bali"
+  "internalName": "The Seed Bali",
+  "imageFocal": "",
+  "focals": {}
 }

@@ -65,7 +65,7 @@
   "sleeps": "up to 10 guests · 5 bedrooms",
   "nightlyOriginalNum": 750,
   "nightlyCurrency": "USD",
-  "note": "Fully staffed · maid & chef breakfast · resort golf-cart & 24/7 security",
+  "note": "breakfast included· resort golf-cart & 24/7 security",
   "blurb": "A five-bedroom villa set on the waterfront at the north-east tip of Koh Samui, wrapped by a near-270° sweep of the Gulf of Thailand. A 40 m pool runs along the edge above the sea, and floor-to-ceiling teak-framed windows carry the water into every room. Oriental-modern interiors in pale stone and warm wood, five en-suite bedrooms, an open teak kitchen and a resort's worth of staff — maid, chef and golf-cart service, with the beach a minute from the door.",
   "detail": "This five-bedroom villa sits on the waterfront at Choeng Mon, on the quiet north-east corner of Koh Samui, where the coastline curves and the Gulf of Thailand opens up in almost every direction. Set on a low headland just above the sea, its outlook runs close to 270 degrees across the water, from the morning light to the small islands scattered along the horizon, and the beach is a minute's walk from the door.\n\nSpread across roughly 1,000 m² of grounds, the house is designed in a restrained oriental-modern style — warm teak framing, timber floors and floor-to-ceiling windows that fold the sea into the living, dining and lounge spaces. A 40 m swimming pool stretches along the terrace above the water, with sun loungers, a shaded sala and a lawn that looks straight out over the Gulf.\n\nThe five en-suite bedrooms are arranged for both couples and families: a generous master with a soaking tub, open-air shower and its own sea-facing balcony, canopy and four-poster rooms with garden and sea aspects, and a twin room for children. Each has air conditioning, timber wardrobes and its own bathroom, several with tubs positioned to look straight out to the Gulf.\n\nLiving spaces centre on an open teak kitchen fully fitted for self-catering, a dining table that seats ten, and a lounge with a large-screen television and deep sofas beneath the sea view. Outside, a barbecue and open pavilion make an easy setting for evenings by the pool as the light drops over the water.\n\nThe villa comes fully serviced. A resident maid keeps the house, a chef prepares breakfast — with lunch and dinner available on request — and a resort golf cart, 24-hour security and beachfront restaurant sit within reach. Choeng Mon village, Fisherman's Village, the Big Buddha temple and Samui Airport are all within a short drive, with the airport roughly eight minutes away.",
   "features": [
@@ -106,7 +106,7 @@
       "i": "terrace"
     },
     {
-      "l": "Resident maid & chef breakfast",
+      "l": "Resident maid",
       "i": "sparkles"
     },
     {
@@ -119,5 +119,7 @@
     }
   ],
   "created": 1783869321000,
-  "internalName": "Blue Star 34"
+  "internalName": "Blue Star 34",
+  "imageFocal": "",
+  "focals": {}
 }

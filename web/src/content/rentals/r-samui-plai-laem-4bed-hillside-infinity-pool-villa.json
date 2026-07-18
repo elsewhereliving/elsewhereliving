@@ -1,13 +1,13 @@
 {
   "id": "r-samui-plai-laem-4bed-hillside-infinity-pool-villa",
-  "image": "/assets/listings/r-samui-plai-laem-4bed-hillside-infinity-pool-villa/01.jpg",
+  "image": "/assets/listings/r-samui-plai-laem-4bed-hillside-infinity-pool-villa/06.jpg",
   "gallery": [
+    "/assets/listings/r-samui-plai-laem-4bed-hillside-infinity-pool-villa/06.jpg",
     "/assets/listings/r-samui-plai-laem-4bed-hillside-infinity-pool-villa/01.jpg",
     "/assets/listings/r-samui-plai-laem-4bed-hillside-infinity-pool-villa/02.jpg",
     "/assets/listings/r-samui-plai-laem-4bed-hillside-infinity-pool-villa/03.jpg",
-    "/assets/listings/r-samui-plai-laem-4bed-hillside-infinity-pool-villa/04.jpg",
     "/assets/listings/r-samui-plai-laem-4bed-hillside-infinity-pool-villa/05.jpg",
-    "/assets/listings/r-samui-plai-laem-4bed-hillside-infinity-pool-villa/06.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-hillside-infinity-pool-villa/04.jpg",
     "/assets/listings/r-samui-plai-laem-4bed-hillside-infinity-pool-villa/07.jpg",
     "/assets/listings/r-samui-plai-laem-4bed-hillside-infinity-pool-villa/08.jpg",
     "/assets/listings/r-samui-plai-laem-4bed-hillside-infinity-pool-villa/09.jpg",
@@ -122,5 +122,7 @@
     }
   ],
   "created": 1784231964885,
-  "internalName": "San Suk Villa"
+  "internalName": "San Suk Villa",
+  "imageFocal": "",
+  "focals": {}
 }
