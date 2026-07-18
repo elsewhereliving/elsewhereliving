@@ -1,0 +1,86 @@
+{
+  "id": "r-bali-ubud-7bed-wellness-spa-villa",
+  "image": "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/01.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/02.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/03.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/04.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/05.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/06.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/07.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/08.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/09.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/10.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/11.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/12.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/13.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/14.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/15.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/16.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/17.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/18.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/19.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/20.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/21.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/22.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/23.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/24.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/25.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/26.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/27.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/28.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/29.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/30.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/31.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/32.jpg",
+    "/assets/listings/r-bali-ubud-7bed-wellness-spa-villa/33.jpg"
+  ],
+  "location": "Ubud · Bali · Indonesia",
+  "place": "Ubud, Gianyar, Bali, Indonesia",
+  "mapQuery": "-8.53185,115.27778",
+  "title": "Seven-Bedroom Wellness Estate with Yoga Shala and On-Site Spa - Ubud",
+  "view": [
+    "Garden / Pool View"
+  ],
+  "beds": 7,
+  "bedsLabel": "4–7",
+  "guests": 14,
+  "guestsLabel": "14",
+  "occupancy": "up to 14 guests",
+  "size": "4,600 m²",
+  "nightlyOriginalNum": 1200,
+  "nightlyCurrency": "USD",
+  "note": "Private chef · spa",
+  "sleeps": "14 guests · 4–7 bedrooms",
+  "blurb": "A seven-bedroom wellness estate spread across 4,600 m² of Ubud gardens, built from reclaimed timber and set with natural crystals, with a yoga shala, on-site spa, rose-quartz reflexology path, and an 18-metre pool overlooking rice fields and jungle.",
+  "detail": "Composed as a cluster of pavilions across 4,600 m², this seven-bedroom estate sleeps up to fourteen and is crafted from reclaimed timber and natural stone, with rare crystals set through the rooms as a quiet design signature. Bedrooms range from garden and pool-view suites to two standalone bungalows, each with its own kitchenette looking over the paddies. Teak furnishings and open walls let every space breathe into the next.\n\nLife centres on an expansive open-air living room where deep sofas face the 18-metre pool, its shallow end made for children. Beyond the water lie layered jungle and a rice field that shifts colour with the seasons. Stone paths wind through tropical gardens to a wellness quarter anchored by a rose-quartz spiral, a yoga shala for morning practice, and a spa room with massage beds and a juice bar for treatments on request.\n\nA private chef prepares everything from nourishing wellness menus to celebratory dinners, part of a full resident team of manager, attendants, gardener and housekeeping. The generous grounds lend themselves to retreats and intimate weddings, with room to host up to 100 guests in comfort. Days unfold at their own unhurried pace, shaped by the calm of the setting and the temples, markets and monkey forest a short drive away.",
+  "features": [
+    {
+      "l": "18m pool · shallow kids' end",
+      "i": "pool"
+    },
+    {
+      "l": "Rice-field & jungle outlook",
+      "i": "view"
+    },
+    {
+      "l": "Yoga shala & on-site spa",
+      "i": "sparkles"
+    },
+    {
+      "l": "Rose-quartz reflexology path",
+      "i": "tree"
+    },
+    {
+      "l": "Reclaimed timber & natural crystals",
+      "i": "home"
+    },
+    {
+      "l": "7 en-suite bedrooms · private chef",
+      "i": "users"
+    }
+  ],
+  "created": 1784341921623,
+  "internalName": "Villa Crystal Castle"
+}

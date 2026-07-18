@@ -1,0 +1,80 @@
+{
+  "id": "r-bali-seminyak-9bed-dual-pool-villa",
+  "image": "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/01.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/02.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/03.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/04.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/05.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/06.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/07.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/08.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/09.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/10.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/11.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/12.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/13.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/14.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/15.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/16.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/17.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/18.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/19.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/20.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/21.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/22.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/23.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/24.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/25.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/26.jpg",
+    "/assets/listings/r-bali-seminyak-9bed-dual-pool-villa/27.jpg"
+  ],
+  "location": "Seminyak · Bali · Indonesia",
+  "place": "Seminyak, Kuta, Badung, Bali, Indonesia",
+  "mapQuery": "-8.68194,115.17042",
+  "title": "Nine-Bedroom Seminyak Estate with Two Pools and a Private Gym",
+  "view": [
+    "Garden / Pool View"
+  ],
+  "beds": 9,
+  "bedsLabel": "6–9",
+  "guests": 18,
+  "guestsLabel": "18",
+  "occupancy": "up to 18 guests",
+  "size": "1,402 m²",
+  "nightlyOriginalNum": 1500,
+  "nightlyCurrency": "USD",
+  "note": "Chef on request",
+  "sleeps": "18 guests · 6–9 bedrooms",
+  "blurb": "A nine-bedroom Seminyak estate spread across two buildings on a 1,402 m² site — en-suite king bedrooms with pool or garden views, two swimming pools, a private gym, home theatre and wine cellar, and a broad garden made for yoga and gatherings, with a chef on request.",
+  "detail": "Built for large groups travelling together, this estate lays nine en-suite bedrooms across two buildings on a 1,402 m² site, giving both privacy and generous shared space. The main pavilion holds four bedrooms alongside the villa's core rooms — a private gym and air-conditioned indoor living and dining. Five more bedrooms fill the second building, two with their own balconies. Every room comes with a king bed and pool or garden views; the master adds a large-screen TV and a balcony shaded by a traveller's palm.\n\nTwo swimming pools anchor the outdoor life, one with a shallow end for children, framed by daybeds, loungers, and an outdoor dining area for poolside meals. Indoors, a timeless monochrome palette runs through the living spaces, backed by a home theatre, barbecue area, and wine cellar, with smart TVs, streaming, and a full sound system throughout. The main dining table seats fourteen, with more room at the kitchen counter and outside.\n\nThe wide garden shifts easily from quiet mornings to lively evenings, serving as a setting for yoga or larger gatherings, complemented by a spa area with massage beds. A full resident team — manager, butler, attendants, gardener, maintenance, and security — looks after the stay, with a private chef available on request. The villa sits a short drive from Seminyak's beaches and its wealth of cafés and restaurants.",
+  "features": [
+    {
+      "l": "Two swimming pools",
+      "i": "pool"
+    },
+    {
+      "l": "Private gym",
+      "i": "gym"
+    },
+    {
+      "l": "9 en-suite bedrooms · sleeps 18",
+      "i": "bed"
+    },
+    {
+      "l": "Garden for yoga & gatherings",
+      "i": "tree"
+    },
+    {
+      "l": "Home theatre & wine cellar",
+      "i": "sofa"
+    },
+    {
+      "l": "Short drive to beaches & cafés",
+      "i": "waves"
+    }
+  ],
+  "created": 1784341918623,
+  "internalName": "Villa Anaya Manis"
+}

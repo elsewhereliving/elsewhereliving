@@ -1,0 +1,86 @@
+{
+  "id": "r-bali-canggu-4bed-designer-pool-villa",
+  "image": "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/01.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/02.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/03.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/04.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/05.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/06.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/07.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/08.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/09.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/10.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/11.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/12.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/13.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/14.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/15.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/16.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/17.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/18.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/19.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/20.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/21.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/22.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/23.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/24.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/25.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/26.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/27.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/28.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/29.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/30.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/31.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/32.jpg",
+    "/assets/listings/r-bali-canggu-4bed-designer-pool-villa/33.jpg"
+  ],
+  "location": "Canggu · Bali · Indonesia",
+  "place": "Canggu, Kuta Utara, Badung, Bali, Indonesia",
+  "mapQuery": "-8.64928,115.13215",
+  "title": "Four-Bedroom Designer Pool Villa with Family Room, Steps from Canggu's Cafés",
+  "view": [
+    "Garden / Pool View"
+  ],
+  "beds": 4,
+  "bedsLabel": "3–4",
+  "guests": 8,
+  "guestsLabel": "8",
+  "occupancy": "up to 8 guests",
+  "size": "700 m²",
+  "nightlyOriginalNum": 545,
+  "nightlyCurrency": "USD",
+  "note": "Chef on request",
+  "sleeps": "8 guests · 3–4 bedrooms",
+  "blurb": "A four-bedroom, two-storey designer villa a short walk from Canggu's cafés and beaches, set on 700 m² around a 7m pool with a hammock gazebo and daybeds, with a dedicated kids' room, a double-height living space and a master suite opening to a pool-view balcony.",
+  "detail": "The two-storey villa sits on 700 m² and sleeps up to eight adults with room for two children. Two queen bedrooms on the ground floor open straight to the pool and garden; upstairs, the master suite takes a king bed, a dressing table and a private balcony over the water, alongside a family room fitted with a queen bed, bunks and a baby cot. Bathrooms are worked in poured concrete and stonework, several semi-outdoor, one with a soaking tub.\n\nInteriors lean on smooth cement, warm timber, rattan and quiet metallic notes. At the heart is a double-height living area wrapped in floor-to-ceiling glass around an indoor garden, so daylight and greenery pour in whether the air-conditioning is on or the doors are open. Meals gather at an eight-seater table or the kitchen's breakfast bar, and a grill by the pool makes an easy case for dining in.\n\nOutdoors, a 7m pool is edged by daybeds and a gazebo strung with a hammock for slow afternoons. A resident team looks after daily housekeeping, the garden and overnight security, and a private chef versed in Western, Indonesian, Asian and children's cooking can be arranged on request. Canggu's cafés, surf shops and beach clubs are all within a short stroll.",
+  "features": [
+    {
+      "l": "7m pool with hammock gazebo",
+      "i": "pool"
+    },
+    {
+      "l": "Double-height glass-walled living",
+      "i": "home"
+    },
+    {
+      "l": "Kids' room with bunks & cot",
+      "i": "bed"
+    },
+    {
+      "l": "Master suite · pool-view balcony",
+      "i": "view"
+    },
+    {
+      "l": "Short walk to Canggu's cafés",
+      "i": "tree"
+    },
+    {
+      "l": "4 en-suite bedrooms · chef on request",
+      "i": "users"
+    }
+  ],
+  "created": 1784341926623,
+  "internalName": "Villa Nonnavana"
+}

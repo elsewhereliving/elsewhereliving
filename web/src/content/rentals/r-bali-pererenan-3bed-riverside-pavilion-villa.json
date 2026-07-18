@@ -1,0 +1,68 @@
+{
+  "id": "r-bali-pererenan-3bed-riverside-pavilion-villa",
+  "image": "/assets/listings/r-bali-pererenan-3bed-riverside-pavilion-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-bali-pererenan-3bed-riverside-pavilion-villa/01.jpg",
+    "/assets/listings/r-bali-pererenan-3bed-riverside-pavilion-villa/02.jpg",
+    "/assets/listings/r-bali-pererenan-3bed-riverside-pavilion-villa/03.jpg",
+    "/assets/listings/r-bali-pererenan-3bed-riverside-pavilion-villa/04.jpg",
+    "/assets/listings/r-bali-pererenan-3bed-riverside-pavilion-villa/05.jpg",
+    "/assets/listings/r-bali-pererenan-3bed-riverside-pavilion-villa/06.jpg",
+    "/assets/listings/r-bali-pererenan-3bed-riverside-pavilion-villa/07.jpg",
+    "/assets/listings/r-bali-pererenan-3bed-riverside-pavilion-villa/08.jpg",
+    "/assets/listings/r-bali-pererenan-3bed-riverside-pavilion-villa/09.jpg",
+    "/assets/listings/r-bali-pererenan-3bed-riverside-pavilion-villa/10.jpg",
+    "/assets/listings/r-bali-pererenan-3bed-riverside-pavilion-villa/11.jpg",
+    "/assets/listings/r-bali-pererenan-3bed-riverside-pavilion-villa/12.jpg",
+    "/assets/listings/r-bali-pererenan-3bed-riverside-pavilion-villa/13.jpg",
+    "/assets/listings/r-bali-pererenan-3bed-riverside-pavilion-villa/14.jpg",
+    "/assets/listings/r-bali-pererenan-3bed-riverside-pavilion-villa/15.jpg"
+  ],
+  "location": "Canggu · Bali · Indonesia",
+  "place": "Pererenan, Mengwi, Badung, Bali, Indonesia",
+  "mapQuery": "-8.63913,115.13475",
+  "title": "Three-Bedroom Riverside Pavilion Villa with Rice-Terrace Garden, Pererenan - Canggu",
+  "view": [
+    "Garden / Pool View"
+  ],
+  "beds": 3,
+  "bedsLabel": "2–3",
+  "guests": 6,
+  "guestsLabel": "6",
+  "occupancy": "up to 6 guests",
+  "size": "2,100 m²",
+  "nightlyOriginalNum": 475,
+  "nightlyCurrency": "USD",
+  "note": "Private chef",
+  "sleeps": "6 guests · 2–3 bedrooms",
+  "blurb": "A three-bedroom villa built as a traditional Balinese compound of standalone pavilions, set on 2,100 m² of cascading garden above the rice terraces, with a free-form riverside pool, modern-Balinese interiors, a premium sound system and a private chef.",
+  "detail": "Laid out as a cluster of freestanding pavilions in the manner of a traditional family compound — a separate balé for each purpose — the villa spreads across 2,100 m² of grounds that step down toward the river. Three en-suite bedrooms each occupy their own pavilion, fitted with canopied teak beds, vaulted bamboo-lined ceilings, teak-framed doors and private terraces set with daybeds. The master sits close to the water with an oval tub at the centre of its bathroom; the two guest rooms take garden bathrooms with teak-clad tubs.\n\nAt the centre stands an open-sided living room under a traditional two-tier Balinese roof drawn for airflow, its doors closing for cool comfort when wanted. A low carved door leads to a well-equipped kitchen with a breakfast bar, while a media room holds a premium sound system and a library of books and films. Warm timber, natural stone and restful garden views carry the modern-Balinese mood throughout.\n\nThe cascading garden looks out over rice terraces, threaded by the sound of birds and the murmur of the neighbouring river the villa is named for. A free-form pool follows the riverside line, with an outdoor shower nearby. A resident team handles housekeeping, garden and security, and a private chef prepares meals in-house, with cafés, restaurants and beaches a short drive away.",
+  "features": [
+    {
+      "l": "Free-form riverside pool",
+      "i": "pool"
+    },
+    {
+      "l": "Standalone Balinese pavilions",
+      "i": "home"
+    },
+    {
+      "l": "Cascading rice-terrace garden",
+      "i": "tree"
+    },
+    {
+      "l": "Open-sided two-tier living balé",
+      "i": "sofa"
+    },
+    {
+      "l": "Media room · premium sound",
+      "i": "sparkles"
+    },
+    {
+      "l": "3 en-suite bedrooms · private chef",
+      "i": "users"
+    }
+  ],
+  "created": 1784341927623,
+  "internalName": "Villa Pangi Gita"
+}

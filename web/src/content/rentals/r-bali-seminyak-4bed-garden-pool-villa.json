@@ -1,0 +1,74 @@
+{
+  "id": "r-bali-seminyak-4bed-garden-pool-villa",
+  "image": "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/01.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/02.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/03.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/04.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/05.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/06.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/07.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/08.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/09.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/10.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/11.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/12.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/13.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/14.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/15.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/16.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/17.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/18.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/19.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/20.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-garden-pool-villa/21.jpg"
+  ],
+  "location": "Seminyak · Bali · Indonesia",
+  "place": "Seminyak, Kuta, Badung, Bali, Indonesia",
+  "mapQuery": "-8.68001,115.15566",
+  "title": "Newly Renovated Four-Bedroom Garden Villa with a 15-Metre Pool - Seminyak",
+  "view": [
+    "Garden / Pool View"
+  ],
+  "beds": 4,
+  "bedsLabel": "3–4",
+  "guests": 8,
+  "guestsLabel": "8",
+  "occupancy": "up to 8 guests",
+  "size": "900 m²",
+  "nightlyOriginalNum": 850,
+  "nightlyCurrency": "USD",
+  "note": "Chef on request",
+  "sleeps": "8 guests · 3–4 bedrooms",
+  "blurb": "A newly renovated four-bedroom retreat at the quiet end of a Seminyak lane — open-plan Balinese-modern living over two floors, a 15-metre pool set in a landscaped garden, generous indoor and outdoor lounges, and a chef on request, five minutes' walk from the beach.",
+  "detail": "Set behind a walled garden on a 900 m² plot, this two-storey villa opens onto sprawling open-plan spaces where earthy Balinese materials meet clean modern lines. The ground floor holds an indoor sitting room beside a dining table for ten, a fully equipped kitchen, and a covered al-fresco lounge that steps straight down to the water; one en-suite bedroom sits on this level. Three further bedrooms, including the master, occupy the floor above. All four rooms are en-suite and unusually spacious, ranging from roughly 25 to 44 m², with king or convertible twin beds, balconies, and garden and pool views.\n\nThe 15-metre pool runs the length of the garden, lined with six sun loungers and two umbrellas, with a shallow, safe depth that suits children as well as long afternoons with a book. The landscaped lawn doubles as a space for morning yoga, and the indoor living area is fitted with a smart TV, streaming, and a full sound system for slower evenings. In-villa treatments and yoga sessions can be arranged.\n\nDaily breakfast, housekeeping, and a resident team of villa manager, service staff, and security are included, with a private chef available on request to cook Western, Indonesian, and Asian menus. The location balances calm and access: tucked at the end of a peaceful lane yet a five-minute stroll to the sand and minutes from Seminyak's best-known restaurants and beach clubs.",
+  "features": [
+    {
+      "l": "15-metre pool & landscaped garden",
+      "i": "pool"
+    },
+    {
+      "l": "Indoor & outdoor living areas",
+      "i": "sofa"
+    },
+    {
+      "l": "Open-plan Balinese-modern interiors",
+      "i": "home"
+    },
+    {
+      "l": "Five-minute walk to the beach",
+      "i": "waves"
+    },
+    {
+      "l": "Dining for ten · chef on request",
+      "i": "utensils"
+    },
+    {
+      "l": "4 en-suite bedrooms · sleeps 8",
+      "i": "bed"
+    }
+  ],
+  "created": 1784341916623,
+  "internalName": "Villa Amara Pradi"
+}

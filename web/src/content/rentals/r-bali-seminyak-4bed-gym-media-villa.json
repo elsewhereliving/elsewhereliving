@@ -1,0 +1,74 @@
+{
+  "id": "r-bali-seminyak-4bed-gym-media-villa",
+  "image": "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/01.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/02.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/03.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/04.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/05.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/06.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/07.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/08.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/09.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/10.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/11.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/12.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/13.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/14.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/15.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/16.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/17.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/18.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/19.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/20.jpg",
+    "/assets/listings/r-bali-seminyak-4bed-gym-media-villa/21.jpg"
+  ],
+  "location": "Seminyak · Bali · Indonesia",
+  "place": "Seminyak, Kuta, Badung, Bali, Indonesia",
+  "mapQuery": "-8.68203,115.17081",
+  "title": "Four-Bedroom Walled-Garden Villa with Private Gym & Media Lounge, Taman Mertanadi - Seminyak",
+  "view": [
+    "Garden / Pool View"
+  ],
+  "beds": 4,
+  "bedsLabel": "3–4",
+  "guests": 8,
+  "guestsLabel": "8",
+  "occupancy": "up to 8 guests",
+  "size": "547 m²",
+  "nightlyOriginalNum": 525,
+  "nightlyCurrency": "USD",
+  "note": "Chef on request",
+  "sleeps": "8 guests · 3–4 bedrooms",
+  "blurb": "A four-bedroom villa tucked into a quiet Seminyak lane yet steps from the buzz, set within a walled garden around an 8m pool, with a private gym and Pilates reformer, an air-conditioned media lounge, a massage room and a BBQ terrace.",
+  "detail": "Laid out over two floors and 547 m², the villa holds four bedrooms — three upstairs and one on the garden level — sleeping up to eight in air-conditioned calm. The interiors run to clean lines, marble floors and light, textured walls hung with colourful original artwork; three rooms take king beds, while the master adds a super-king, a daybed and a freestanding tub set behind twin basins. Every room opens to garden views.\n\nThe ground floor pairs a dining room for ten with a lounge under a large wall-mounted screen, both of which can be sealed for cool comfort or thrown open to the pool terrace beside the flat lawn. An upstairs balcony makes an easy perch for late-afternoon drinks. Away from the living wing sit the working extras: a proper gym kitted with treadmill, weights bench and a Pilates reformer, a quiet massage room, and a BBQ area for slow evenings outside.\n\nThe fully-equipped kitchen anchors an in-and-out flow between indoor and poolside dining. A resident team handles daily housekeeping, garden care and overnight security, and a private chef versed in Western, Indonesian and Asian cooking can be arranged on request. The lane stays hushed, yet Seminyak's cafés, boutiques and beach clubs begin only a short stroll away.",
+  "features": [
+    {
+      "l": "8m walled-garden pool",
+      "i": "pool"
+    },
+    {
+      "l": "Private gym · Pilates reformer",
+      "i": "gym"
+    },
+    {
+      "l": "Air-conditioned media lounge",
+      "i": "sofa"
+    },
+    {
+      "l": "Massage room & BBQ terrace",
+      "i": "sparkles"
+    },
+    {
+      "l": "Steps from central Seminyak",
+      "i": "home"
+    },
+    {
+      "l": "4 en-suite bedrooms · chef on request",
+      "i": "users"
+    }
+  ],
+  "created": 1784341924623,
+  "internalName": "Villa Manis Cantik"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa",
+  "image": "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/01.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/02.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/03.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/04.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/05.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/06.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/07.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/08.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/09.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/10.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/11.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/12.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/13.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/14.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/15.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/16.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/17.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/18.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/19.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/20.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/21.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/22.jpg",
+    "/assets/listings/r-bali-nusa-lembongan-clifftop-3bed-oceanview-villa/23.jpg"
+  ],
+  "location": "Nusa Lembongan · Bali · Indonesia",
+  "place": "Nusa Lembongan, Klungkung, Bali, Indonesia",
+  "mapQuery": "-8.68812,115.42839",
+  "title": "Clifftop Three-Bedroom Ocean-View Villa with Mezzanine and Sea-Facing Pool - Nusa Lembongan",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 3,
+  "bedsLabel": "2–3",
+  "guests": 6,
+  "guestsLabel": "6",
+  "occupancy": "up to 6 guests",
+  "size": "1,650 m²",
+  "nightlyOriginalNum": 575,
+  "nightlyCurrency": "USD",
+  "note": "Breakfast included",
+  "sleeps": "6 guests · 2–3 bedrooms",
+  "blurb": "A three-bedroom clifftop retreat above Sandy Bay on Nusa Lembongan, where open ocean fills every room, a 15-metre pool edges the garden, and sea-facing indoor and outdoor dining rooms sit a short stroll from the sand and cafés below.",
+  "detail": "Set on the rugged cliff edge, this three-bedroom villa spreads across two levels with a mezzanine that doubles as a fourth sleeping space or a quiet lounge. The three ground-floor rooms each open to ocean, garden or pool, all with king beds and en-suite baths, while the master looks straight out to water and the Balinese mountains beyond. Interiors carry a cool coastal palette drawn from the surrounding green and turquoise.\n\nDays gather around the 15-metre pool and the ocean-facing garden, where yoga mats can be rolled out to the sound of waves against the cliff. The enclosed living room sits beside an open kitchen and dining area, and a mezzanine swing chair, smart television, books and board games keep the group happily occupied. A clifftop dining terrace and shaded poolside seating extend the space outdoors.\n\nBreakfast comes daily, served by an attentive resident team that also handles housekeeping and security. A private chef can be arranged for floating breakfasts, lunches and dinners tailored to any diet, or guests can wander down to the toe-in-the-sand cafés and beach clubs just around Sandy Bay. It suits a family or small group looking for seclusion within easy reach of the shore.",
+  "features": [
+    {
+      "l": "Clifftop 15m pool",
+      "i": "pool"
+    },
+    {
+      "l": "Ocean views from every room",
+      "i": "view"
+    },
+    {
+      "l": "Short stroll to Sandy Bay",
+      "i": "waves"
+    },
+    {
+      "l": "Sea-facing indoor & outdoor dining",
+      "i": "utensils"
+    },
+    {
+      "l": "Mezzanine with swing chair",
+      "i": "sofa"
+    },
+    {
+      "l": "3 en-suite bedrooms · daily breakfast",
+      "i": "bed"
+    }
+  ],
+  "created": 1784341920623,
+  "internalName": "Casa del Mar"
+}

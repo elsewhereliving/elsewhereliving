@@ -1,0 +1,70 @@
+{
+  "id": "r-bali-seminyak-3bed-pool-villa",
+  "image": "/assets/listings/r-bali-seminyak-3bed-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-bali-seminyak-3bed-pool-villa/01.jpg",
+    "/assets/listings/r-bali-seminyak-3bed-pool-villa/02.jpg",
+    "/assets/listings/r-bali-seminyak-3bed-pool-villa/03.jpg",
+    "/assets/listings/r-bali-seminyak-3bed-pool-villa/04.jpg",
+    "/assets/listings/r-bali-seminyak-3bed-pool-villa/05.jpg",
+    "/assets/listings/r-bali-seminyak-3bed-pool-villa/06.jpg",
+    "/assets/listings/r-bali-seminyak-3bed-pool-villa/07.jpg",
+    "/assets/listings/r-bali-seminyak-3bed-pool-villa/08.jpg",
+    "/assets/listings/r-bali-seminyak-3bed-pool-villa/09.jpg",
+    "/assets/listings/r-bali-seminyak-3bed-pool-villa/10.jpg",
+    "/assets/listings/r-bali-seminyak-3bed-pool-villa/11.jpg",
+    "/assets/listings/r-bali-seminyak-3bed-pool-villa/12.jpg",
+    "/assets/listings/r-bali-seminyak-3bed-pool-villa/13.jpg",
+    "/assets/listings/r-bali-seminyak-3bed-pool-villa/14.jpg",
+    "/assets/listings/r-bali-seminyak-3bed-pool-villa/15.jpg",
+    "/assets/listings/r-bali-seminyak-3bed-pool-villa/16.jpg",
+    "/assets/listings/r-bali-seminyak-3bed-pool-villa/17.jpg"
+  ],
+  "location": "Seminyak · Bali · Indonesia",
+  "place": "Seminyak, Kuta, Badung, Bali, Indonesia",
+  "mapQuery": "-8.68314,115.15408",
+  "title": "Three-Bedroom Seminyak Pool Villa with Garden Gazebo",
+  "view": [
+    "Garden / Pool View"
+  ],
+  "beds": 3,
+  "bedsLabel": "2–3",
+  "guests": 6,
+  "guestsLabel": "6",
+  "occupancy": "up to 6 guests",
+  "size": "557 m²",
+  "nightlyOriginalNum": 575,
+  "nightlyCurrency": "USD",
+  "note": "Breakfast included",
+  "sleeps": "6 guests · 2–3 bedrooms",
+  "blurb": "A three-bedroom villa over two floors in central Seminyak — full-height glass framing pool or garden views from every room, an 11-metre pool ringed by daybeds and a shaded gazebo, yoga mats on the deck, and daily breakfast, a short walk from Petitenget's golden sand.",
+  "detail": "This 557 m² villa unfolds over two floors around a private pool and garden. The ground level gathers the indoor dining room, an air-conditioned living area, and an outdoor lounge with ceiling fans, plus a yoga bale, one bedroom, and a covered sitting spot by the water. Two more bedrooms, including the master, sit upstairs. All three rooms are en-suite with king beds, ample wardrobe space, blackout curtains, and full-height glass that opens each morning onto the pool or the greenery.\n\nThe 11-metre pool is the heart of the garden, fringed by four loungers, daybeds, and a restful gazebo for shaded afternoons. Four yoga mats and a massage bed are on hand for the pool deck, and in-villa treatments can be arranged. The indoor living room is fitted with a smart TV, streaming, and a sound system, with books and board games for quieter hours, while the kitchen and dining area handle everything up to a table for eight.\n\nDaily breakfast is served poolside on request, and a private chef can be enlisted to cook throughout the stay. A team of attendants provides daily housekeeping and looks after the details. The setting is thoroughly central: steps from Seminyak's best-known dining and beach clubs, yet a short, easy walk to the golden sand of Petitenget Beach, a favourite among surfers.",
+  "features": [
+    {
+      "l": "11-metre pool with daybeds",
+      "i": "pool"
+    },
+    {
+      "l": "Garden gazebo & yoga deck",
+      "i": "tree"
+    },
+    {
+      "l": "Pool or garden views in every room",
+      "i": "view"
+    },
+    {
+      "l": "Short walk to Petitenget Beach",
+      "i": "waves"
+    },
+    {
+      "l": "3 en-suite bedrooms · sleeps 6",
+      "i": "bed"
+    },
+    {
+      "l": "Breakfast included · chef on request",
+      "i": "utensils"
+    }
+  ],
+  "created": 1784341919623,
+  "internalName": "Villa Balimu Seminyak"
+}

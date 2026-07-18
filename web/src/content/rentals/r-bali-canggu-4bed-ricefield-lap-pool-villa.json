@@ -1,0 +1,85 @@
+{
+  "id": "r-bali-canggu-4bed-ricefield-lap-pool-villa",
+  "image": "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/01.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/02.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/03.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/04.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/05.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/06.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/07.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/08.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/09.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/10.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/11.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/12.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/13.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/14.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/15.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/16.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/17.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/18.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/19.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/20.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/21.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/22.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/23.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/24.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/25.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/26.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/27.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/28.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/29.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/30.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/31.jpg",
+    "/assets/listings/r-bali-canggu-4bed-ricefield-lap-pool-villa/32.jpg"
+  ],
+  "location": "Canggu · Bali · Indonesia",
+  "place": "Berawa, Tibubeneng, Kuta Utara, Badung, Bali, Indonesia",
+  "mapQuery": "-8.66519,115.14407",
+  "title": "Four-Bedroom Modern-Balinese Villa with 17-Metre Lap Pool and Rooftop-Garden Suite - Canggu",
+  "view": [
+    "Garden / Pool View"
+  ],
+  "beds": 4,
+  "bedsLabel": "3–4",
+  "guests": 8,
+  "guestsLabel": "8",
+  "occupancy": "up to 8 guests",
+  "size": "1,450 m²",
+  "nightlyOriginalNum": 615,
+  "nightlyCurrency": "USD",
+  "note": "Chef on request",
+  "sleeps": "8 guests · 3–4 bedrooms",
+  "blurb": "A four-bedroom modern-Balinese villa amid Berawa's paddy fields, with a 17-metre lap pool and children's pool, a hammock gazebo, a top-floor master crowned by a rooftop garden and balcony, all a short walk from Canggu's beach clubs.",
+  "detail": "Set among tranquil paddy fields in Berawa, this two-storey villa spans 1,450 m² and blends traditional Balinese craft with contemporary comfort, from shingle roofs and teak floors to concrete walls and cream granite. Four en-suite bedrooms each carry a king bed and views over pool, garden or living room, several with indoor-outdoor bathrooms wrapped in greenery. The pool-facing master claims the entire upper floor, opening to its own balcony and rooftop garden.\n\nThe open-plan living and dining rooms flow into a kitchen and out to the water, with an oversized sofa for lazy afternoons and an air-conditioned media room for film marathons. Outdoors, a 17-metre lap pool runs alongside a shallow children's pool, while a hammock swings in the garden gazebo and the manicured lawn doubles as a yoga deck. It is a layout built equally for grown-up relaxation and family play.\n\nA short ten-minute walk leads to Berawa Beach and Canggu's most stylish beach clubs and restaurants, striking a balance between quiet and connection. Breakfast is included daily, a chef can be arranged for meals to any taste, and a resident team of manager, attendants, gardener and security keeps the days running smoothly. The grounds also host celebrations, seating up to 50 guests or 100 standing.",
+  "features": [
+    {
+      "l": "17m lap pool · children's pool",
+      "i": "pool"
+    },
+    {
+      "l": "Rooftop-garden master suite",
+      "i": "terrace"
+    },
+    {
+      "l": "Hammock gazebo & lawn",
+      "i": "tree"
+    },
+    {
+      "l": "Air-conditioned media room",
+      "i": "sofa"
+    },
+    {
+      "l": "Short walk to Canggu beach clubs",
+      "i": "waves"
+    },
+    {
+      "l": "4 en-suite bedrooms · chef on request",
+      "i": "bed"
+    }
+  ],
+  "created": 1784341923623,
+  "internalName": "Villa Kavya"
+}

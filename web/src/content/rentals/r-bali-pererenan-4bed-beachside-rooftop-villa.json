@@ -1,0 +1,73 @@
+{
+  "id": "r-bali-pererenan-4bed-beachside-rooftop-villa",
+  "image": "/assets/listings/r-bali-pererenan-4bed-beachside-rooftop-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-bali-pererenan-4bed-beachside-rooftop-villa/01.jpg",
+    "/assets/listings/r-bali-pererenan-4bed-beachside-rooftop-villa/02.jpg",
+    "/assets/listings/r-bali-pererenan-4bed-beachside-rooftop-villa/03.jpg",
+    "/assets/listings/r-bali-pererenan-4bed-beachside-rooftop-villa/04.jpg",
+    "/assets/listings/r-bali-pererenan-4bed-beachside-rooftop-villa/05.jpg",
+    "/assets/listings/r-bali-pererenan-4bed-beachside-rooftop-villa/06.jpg",
+    "/assets/listings/r-bali-pererenan-4bed-beachside-rooftop-villa/07.jpg",
+    "/assets/listings/r-bali-pererenan-4bed-beachside-rooftop-villa/08.jpg",
+    "/assets/listings/r-bali-pererenan-4bed-beachside-rooftop-villa/09.jpg",
+    "/assets/listings/r-bali-pererenan-4bed-beachside-rooftop-villa/10.jpg",
+    "/assets/listings/r-bali-pererenan-4bed-beachside-rooftop-villa/11.jpg",
+    "/assets/listings/r-bali-pererenan-4bed-beachside-rooftop-villa/12.jpg",
+    "/assets/listings/r-bali-pererenan-4bed-beachside-rooftop-villa/13.jpg",
+    "/assets/listings/r-bali-pererenan-4bed-beachside-rooftop-villa/14.jpg",
+    "/assets/listings/r-bali-pererenan-4bed-beachside-rooftop-villa/15.jpg",
+    "/assets/listings/r-bali-pererenan-4bed-beachside-rooftop-villa/16.jpg",
+    "/assets/listings/r-bali-pererenan-4bed-beachside-rooftop-villa/17.jpg",
+    "/assets/listings/r-bali-pererenan-4bed-beachside-rooftop-villa/18.jpg",
+    "/assets/listings/r-bali-pererenan-4bed-beachside-rooftop-villa/19.jpg"
+  ],
+  "location": "Canggu · Bali · Indonesia",
+  "place": "Pererenan, Mengwi, Badung, Bali, Indonesia",
+  "mapQuery": "-8.65129,115.12230",
+  "title": "Four-Bedroom Beachside Villa with Rooftop Yoga Deck - Pererenan",
+  "view": [
+    "Sea View",
+    "Beachside"
+  ],
+  "beds": 5,
+  "bedsLabel": "4+1",
+  "guests": 10,
+  "guestsLabel": "8 + 2 children",
+  "occupancy": "up to 8 adults + 2 children",
+  "size": "700 m²",
+  "nightlyOriginalNum": 815,
+  "nightlyCurrency": "USD",
+  "note": "120m to the beach",
+  "sleeps": "10 guests · 4+1 bedrooms",
+  "blurb": "A four-bedroom villa steps from the surf at Pererenan — three floors wrapped around a garden pool and fish pond, a rooftop lounge and yoga deck facing the ocean, an open kitchen and ten-seat dining room, and an optional children's bunk room.",
+  "detail": "Set over three floors on around 700 m² of land, the villa opens on the ground level to a fully equipped kitchen, a stylish dining room and a living area that steps straight out to the pool and garden; two bedrooms and an optional children's room sit on this floor. Two more bedrooms and the master occupy the level above, while the top of the house is given over to a rooftop lounge with sun beds and an adjacent indoor lounge.\n\nThe pool is the heart of it, framed by a lush garden and a fish pond and lined with loungers for slow afternoons. Up on the roof, an open deck doubles as a yoga space with ocean views for early mornings, and the living room keeps everyone together with a large smart TV, a sound system, a stocked library and board games. The dining table seats ten, with counter seating for a few more, making long shared meals easy.\n\nA resident team looks after the stay — a villa manager, attendants and night security — with daily breakfast and housekeeping included, and a private chef available on request for Western, Indonesian and Asian cooking. The setting is the quiet edge of Pererenan, a short 120 metres from a well-loved surf beach and an easy walk to the neighbourhood's cafés and restaurants, with the wider buzz of Canggu just a short drive away.",
+  "features": [
+    {
+      "l": "Garden pool & fish pond",
+      "i": "pool"
+    },
+    {
+      "l": "Rooftop yoga deck · ocean views",
+      "i": "view"
+    },
+    {
+      "l": "120m to Pererenan surf beach",
+      "i": "waves"
+    },
+    {
+      "l": "Open kitchen · 10-seat dining",
+      "i": "utensils"
+    },
+    {
+      "l": "Optional children's bunk room",
+      "i": "bed"
+    },
+    {
+      "l": "4 en-suite bedrooms · chef on request",
+      "i": "users"
+    }
+  ],
+  "created": 1784341928623,
+  "internalName": "Villa Pantai Indah"
+}

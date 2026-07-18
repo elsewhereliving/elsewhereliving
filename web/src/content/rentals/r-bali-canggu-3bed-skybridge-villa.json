@@ -1,0 +1,67 @@
+{
+  "id": "r-bali-canggu-3bed-skybridge-villa",
+  "image": "/assets/listings/r-bali-canggu-3bed-skybridge-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-bali-canggu-3bed-skybridge-villa/01.jpg",
+    "/assets/listings/r-bali-canggu-3bed-skybridge-villa/02.jpg",
+    "/assets/listings/r-bali-canggu-3bed-skybridge-villa/03.jpg",
+    "/assets/listings/r-bali-canggu-3bed-skybridge-villa/04.jpg",
+    "/assets/listings/r-bali-canggu-3bed-skybridge-villa/05.jpg",
+    "/assets/listings/r-bali-canggu-3bed-skybridge-villa/06.jpg",
+    "/assets/listings/r-bali-canggu-3bed-skybridge-villa/07.jpg",
+    "/assets/listings/r-bali-canggu-3bed-skybridge-villa/08.jpg",
+    "/assets/listings/r-bali-canggu-3bed-skybridge-villa/09.jpg",
+    "/assets/listings/r-bali-canggu-3bed-skybridge-villa/10.jpg",
+    "/assets/listings/r-bali-canggu-3bed-skybridge-villa/11.jpg",
+    "/assets/listings/r-bali-canggu-3bed-skybridge-villa/12.jpg",
+    "/assets/listings/r-bali-canggu-3bed-skybridge-villa/13.jpg",
+    "/assets/listings/r-bali-canggu-3bed-skybridge-villa/14.jpg"
+  ],
+  "location": "Canggu · Bali · Indonesia",
+  "place": "Pererenan, Mengwi, Badung, Bali, Indonesia",
+  "mapQuery": "-8.65186,115.12577",
+  "title": "Three-Bedroom Sky-Bridge Designer Villa - Pererenan",
+  "view": [
+    "Garden / Pool View"
+  ],
+  "beds": 3,
+  "bedsLabel": "3",
+  "guests": 6,
+  "guestsLabel": "6",
+  "occupancy": "up to 6 guests",
+  "size": "400 m²",
+  "nightlyOriginalNum": 545,
+  "nightlyCurrency": "USD",
+  "note": "Chef on request",
+  "sleeps": "6 guests · 3 bedrooms",
+  "blurb": "A three-bedroom designer villa of two buildings linked by a sky bridge above the pool and garden — an eight-metre pool with a shallow end and a poolside bar, a rooftop garden, and three bedrooms split across the two blocks for privacy, with a chef on request.",
+  "detail": "Across roughly 400 m², the villa is composed of two separate buildings linked by a sky bridge that overlooks the pool and garden. The first building holds two bedrooms; the second is a private retreat given over to the master, which has its own living and dining area alongside a king bedroom and ensuite. On the ground floor are the living room, dining area, kitchen and one bedroom, with the master, a study and a rooftop terrace and garden above.\n\nDesign here is modern and pared-back, the open-plan living and dining rooms flowing together around a large smart TV, a sound system and board games, with table tennis on hand. The kitchen sits beside a six-seat dining table for home-cooked feasts. Outside, an eight-metre pool with a shallow end and a poolside bar invites long, lazy days, and the rooftop garden gives a quiet perch above it all.\n\nA resident team of manager, attendants, gardener and security keeps things running, with daily breakfast and housekeeping included and a private chef, yoga instructor or masseuse available on request. The villa sits in a green pocket of Pererenan, a short distance from the beaches and only a quick drive from the cafés and restaurants of Canggu.",
+  "features": [
+    {
+      "l": "8m pool with shallow end",
+      "i": "pool"
+    },
+    {
+      "l": "Sky bridge over pool & garden",
+      "i": "sparkles"
+    },
+    {
+      "l": "Rooftop garden & poolside bar",
+      "i": "terrace"
+    },
+    {
+      "l": "Two buildings for privacy",
+      "i": "home"
+    },
+    {
+      "l": "Short drive to Canggu cafés",
+      "i": "car"
+    },
+    {
+      "l": "3 bedrooms · chef on request",
+      "i": "users"
+    }
+  ],
+  "created": 1784341930623,
+  "internalName": "Villa Tana Takah"
+}
