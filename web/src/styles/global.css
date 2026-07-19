@@ -154,6 +154,10 @@ img { display: block; max-width: 100%; }
 /* Sample-rhythm gantt */
 .ew-dp-gantt-row { display: grid; grid-template-columns: 240px 1fr; gap: 18px 32px; align-items: center; }
 @media (max-width: 700px) { .ew-dp-gantt-row { grid-template-columns: 1fr; gap: 7px; } }
+/* Budget-card stat tiles — three across, stacked on phones so the m² ranges
+   never overflow the card. */
+.ew-dp-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+@media (max-width: 640px) { .ew-dp-stats { grid-template-columns: 1fr; gap: 14px; } }
 /* Budget explorer */
 .ew-ch-island {
   appearance: none; cursor: pointer; background: transparent; color: var(--navy);

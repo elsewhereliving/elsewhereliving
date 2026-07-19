@@ -76,7 +76,7 @@ export default function BudgetExplorer() {
           </div>
         </div>
 
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 24, marginTop: 26 }}>
+        <div className="ew-dp-stats" style={{ marginTop: 26 }}>
           {[{ k: "Bedrooms", v: beds }, { k: "Built area", v: builtRange }, { k: "Land", v: plotRange }].map((f) => (
             <div key={f.k} style={{ borderTop: "1px solid var(--border-subtle)", paddingTop: 12, display: "flex", flexDirection: "column", gap: 4 }}>
               <span style={{ fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: "clamp(1.15rem, 2.2vw, 1.6rem)", color: "var(--charcoal)", whiteSpace: "nowrap" }}>{f.v}</span>
