@@ -48,7 +48,7 @@ export default function BudgetExplorer() {
     { l: "Land — the balance", v: compact(landLo) + "–" + compact(landHi), n: "Plots vary hugely — the same money buys smaller near the beach or larger on the hill." },
     { l: "Construction & interiors", v: compact(buildLo) + "–" + compact(buildHi), n: builtRange + " built, depending on the site and the finish." },
     { l: "Development partner fee — estimated", v: Math.round(DP_FEE_PCT * 100) + "% — " + compact(fee), n: "We oversee the whole project. Actual fee confirmed and adjusted to the project's details." },
-    { l: "Legal & tax — included", v: "~2–3%", n: "Independent lawyer, due diligence, transfer or lease registration — priced in from day one." },
+    { l: "Legal & tax — excluded", v: "2–3% — " + compact(0.02 * B) + "–" + compact(0.03 * B), n: "Independent lawyer, due diligence, transfer or lease registration — on top of the build budget." },
   ];
 
   const discuss = () => {
