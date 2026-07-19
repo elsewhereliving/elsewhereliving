@@ -12,12 +12,12 @@ const { customSteps, customLocations, contact } = getSiteContent();
 const HERO_IMAGE = "/assets/imagery/c-chairs.jpg";
 const CONSULT = "$300";
 
-// Earliest-keys date: this month + 12 months, e.g. "July 2027".
+// Earliest-keys date: this month + 15 months, e.g. "October 2027".
 // Baked at build as a fallback; recomputed client-side (script below the
 // gantt) so "begin this month" stays true between rebuilds.
 const handover = (() => {
   const d = new Date();
-  d.setMonth(d.getMonth() + 12);
+  d.setMonth(d.getMonth() + 15);
   return d.toLocaleDateString("en-US", { month: "long", year: "numeric" });
 })();
 
@@ -72,8 +72,8 @@ const finishPaths = [
 const gantt = [
   { l: "Land & due diligence", d: "1–3 months", left: 0, w: 12.5, bg: "var(--mist)", delay: 0.1, dashed: false },
   { l: "Design & permits", d: "2–5 months", left: 8, w: 12.5, bg: "var(--butter)", delay: 0.3, dashed: false },
-  { l: "Construction & furnishing", d: "8–18 months", left: 16, w: 58, bg: "var(--navy)", delay: 0.5, dashed: false },
-  { l: "Handover", d: "keys from month 12", left: 50, w: 42, bg: "", delay: 0.7, dashed: true },
+  { l: "Construction & furnishing", d: "12–24 months", left: 16, w: 84, bg: "var(--navy)", delay: 0.5, dashed: false },
+  { l: "Handover", d: "keys from month 15", left: 60, w: 40, bg: "", delay: 0.7, dashed: true },
 ];
 const ganttMonths = ["Month 1", "Month 6", "Month 12", "Month 18", "Month 24"];
 
@@ -231,7 +231,7 @@ const whyNow = [
     <section style="background:var(--paper); padding:clamp(72px, 10vw, 110px) clamp(20px, 4vw, 48px);">
       <div style="max-width:1100px; margin:0 auto;">
         <div class="reveal">
-          <SectionHead eyebrow="A sample rhythm" title="Twelve to twenty-four months, start to keys." intro="Every build differs — steeper land, bigger footprint, rainy season — but most follow this shape. Land and permits move quickly; construction and furnishing carry the build. And the stages overlap — design begins while the land closes." max={720} />
+          <SectionHead eyebrow="A sample rhythm" title="Keys in hand in as soon as fifteen months." intro="Every build differs — steeper land, bigger footprint, rainy season — but most follow this shape. Land and permits move quickly; construction and furnishing carry the build. And the stages overlap — design begins while the land closes." max={720} />
         </div>
         <div class="reveal" style="margin-top:56px; background:var(--white); border:1px solid var(--border-subtle); padding:clamp(26px, 4vw, 44px) clamp(26px, 4vw, 48px);">
           <div class="ew-dp-gantt-row">
@@ -246,7 +246,7 @@ const whyNow = [
                   ) : (
                     <div class="ew-ch-bar" style={`position:absolute; left:${g.left}%; top:0; height:100%; width:${g.w}%; background:${g.bg}; transition-delay:${g.delay}s;`}></div>
                   )}
-                  {g.dashed && <span aria-hidden="true" style="position:absolute; left:50%; top:50%; width:9px; height:9px; background:var(--navy); transform:translate(-4px, -50%) rotate(45deg);"></span>}
+                  {g.dashed && <span aria-hidden="true" style={`position:absolute; left:${g.left}%; top:50%; width:9px; height:9px; background:var(--navy); transform:translate(-4px, -50%) rotate(45deg);`}></span>}
                 </div>
               </>
             ))}
@@ -265,7 +265,7 @@ const whyNow = [
           const el = document.getElementById("ew-handover");
           if (el) {
             const d = new Date();
-            d.setMonth(d.getMonth() + 12);
+            d.setMonth(d.getMonth() + 15);
             el.textContent = d.toLocaleDateString("en-US", { month: "long", year: "numeric" });
           }
         </script>

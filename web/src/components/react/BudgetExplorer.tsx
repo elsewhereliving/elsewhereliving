@@ -64,12 +64,9 @@ export default function BudgetExplorer() {
       </div>
 
       <div style={{ margin: "40px auto 0", maxWidth: 760, background: "var(--white)", padding: "clamp(26px, 4vw, 38px)", boxShadow: "0 24px 60px rgba(21,38,68,0.14)" }}>
-        <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: 24, flexWrap: "wrap" }}>
-          <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
-            <span style={{ fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--slate)" }}>Total budget — all-in</span>
-            <span style={{ fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: "clamp(2rem, 4.4vw, 2.65rem)", lineHeight: 1, color: "var(--navy)" }}>{money(B)}</span>
-          </div>
-          <span style={{ fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: 18, color: "var(--slate)" }}>Sea view, infinity pool — the full picture</span>
+        <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+          <span style={{ fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--slate)" }}>Total budget — all-in</span>
+          <span style={{ fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: "clamp(2rem, 4.4vw, 2.65rem)", lineHeight: 1, color: "var(--navy)" }}>{money(B)}</span>
         </div>
 
         <div style={{ marginTop: 24 }}>
