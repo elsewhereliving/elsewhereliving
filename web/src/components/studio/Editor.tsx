@@ -205,7 +205,7 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
             {!isRental && (
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 28 }}>
                 <SelectField label="Type" value={rec.type} onChange={(v) => set({ type: v })} options={["Villa", "Condominium", "Land"]} />
-                <SelectField label="Status" value={rec.status} onChange={(v) => set({ status: v })} options={["Move-In Ready", "Off-Plan"]} />
+                <SelectField label="Status" value={rec.status} onChange={(v) => set({ status: v })} options={rec.type === "Land" ? ["", "Move-In Ready", "Off-Plan"] : ["Move-In Ready", "Off-Plan"]} hint="Land listings can leave status empty" />
               </div>
             )}
             <VideoField value={rec.video} onChange={(v) => set({ video: v })} />

@@ -9,3 +9,15 @@ export function optImg(src: string | undefined, size: "small" | "main"): string 
   const w = size === "small" ? 480 : 1366;
   return "/_img" + src.replace(/\.(jpe?g|png|webp)$/i, "") + "-" + w + ".webp";
 }
+
+// srcset over both generated widths, so cards don't download the 1366px
+// variant on phones. Returns undefined for remote/SVG paths (no variants).
+export function optImgSrcset(src: string | undefined): string | undefined {
+  if (!src || !src.startsWith("/assets/") || /\.svg$/i.test(src)) return undefined;
+  const base = "/_img" + src.replace(/\.(jpe?g|png|webp)$/i, "");
+  return `${base}-480.webp 480w, ${base}-1366.webp 1366w`;
+}
+
+// How wide a card image actually renders: full-width on phones, half on
+// tablets, a ~420px grid cell on desktop.
+export const CARD_SIZES = "(max-width: 720px) 92vw, (max-width: 1080px) 46vw, 420px";

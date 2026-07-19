@@ -4,6 +4,7 @@ import Label from "../components/Label.astro";
 import SectionHead from "../components/SectionHead.astro";
 import ContactForm from "../components/react/ContactForm.tsx";
 import { getSiteContent } from "../lib/content";
+import { optImg, optImgSrcset } from "../lib/img";
 
 const { contact } = getSiteContent();
 const HERO_IMAGE = "/assets/imagery/c-deck-sea.jpg";
@@ -32,7 +33,11 @@ const socials = [
       style="position:relative; overflow:hidden; color:var(--white); background:var(--navy);"
     >
       <img
-        src={HERO_IMAGE}
+        src={optImg(HERO_IMAGE, "main")}
+        srcset={optImgSrcset(HERO_IMAGE)}
+        sizes="100vw"
+        fetchpriority="high"
+        onerror={`this.onerror=null;this.removeAttribute('srcset');this.src='${HERO_IMAGE}'`}
         alt=""
         style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0.55; z-index:0;"
       />

@@ -34,7 +34,7 @@
   "location": "Bophut · Koh Samui · Thailand",
   "place": "Bophut, Ko Samui District, Surat Thani, Thailand",
   "market": "Koh Samui",
-  "title": "Sea-View Three-Bedroom Pool Villa with Office - Bophut",
+  "title": "Sea-View Three-Bedroom Pool Villa with Office",
   "type": "Villa",
   "view": [
     "Sea View"
@@ -91,7 +91,7 @@
     }
   ],
   "mapQuery": "9.541533,100.030267",
-  "yield": "10–17% est. ROI",
+  "yield": "10–17% projected ROI",
   "focals": {},
   "featured": true,
   "featuredRank": 33

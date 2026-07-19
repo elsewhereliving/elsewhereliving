@@ -1,6 +1,7 @@
 import { useState } from "react";
 import type { Listing, Rental } from "../../lib/types";
 import { viewBadges, viewText } from "../../lib/format";
+import { optImg, optImgSrcset, CARD_SIZES } from "../../lib/img";
 import { useSaved } from "./useSaved";
 import SaveButton from "./SaveButton";
 
@@ -253,8 +254,13 @@ function PropertyCard({ item }: { item: Listing }) {
     >
       <div className="ew-grain" style={{ position: "relative", aspectRatio: "3 / 2", overflow: "hidden" }}>
         <img
-          src={item.image}
+          src={optImg(item.image, "main")}
+          srcSet={optImgSrcset(item.image)}
+          sizes={optImgSrcset(item.image) ? CARD_SIZES : undefined}
           alt={item.title}
+          loading="lazy"
+          decoding="async"
+          onError={(e) => { const t = e.currentTarget; t.onerror = null; t.removeAttribute("srcset"); t.src = item.image; }}
           style={{
             position: "absolute",
             inset: 0,
@@ -403,8 +409,13 @@ function RentalCard({ item }: { item: Rental }) {
     >
       <div className="ew-grain" style={{ position: "relative", aspectRatio: "3 / 2", overflow: "hidden" }}>
         <img
-          src={item.image}
+          src={optImg(item.image, "main")}
+          srcSet={optImgSrcset(item.image)}
+          sizes={optImgSrcset(item.image) ? CARD_SIZES : undefined}
           alt={item.title}
+          loading="lazy"
+          decoding="async"
+          onError={(e) => { const t = e.currentTarget; t.onerror = null; t.removeAttribute("srcset"); t.src = item.image; }}
           style={{
             position: "absolute",
             inset: 0,
@@ -667,7 +678,7 @@ export default function SavedBrowser({ listings, rentals, contact }: Props) {
               color: "var(--text-body)",
             }}
           >
-            We'll open a message pre-filled with these {count === 1 ? "property" : "properties"} so you don't have to
+            We'll open a message pre-filled with {count === 1 ? "this property" : "these properties"} so you don't have to
             retype a thing — just add your name and hit send. We typically reply within one business day.
           </p>
         </div>

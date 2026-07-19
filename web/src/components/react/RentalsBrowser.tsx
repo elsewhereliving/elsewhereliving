@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Rental } from "../../lib/types";
 import { viewBadges, viewList, VIEW_TAGS } from "../../lib/format";
+import { optImg, optImgSrcset, CARD_SIZES } from "../../lib/img";
 import SaveButton from "./SaveButton";
 import RangeSlider from "./RangeSlider";
 
@@ -199,6 +200,7 @@ function RentalCard({ item }: { item: RentalItem }) {
   const views = viewBadges(item.view);
   const original = (item as Rental & { nightlyOriginal?: string }).nightlyOriginal;
   const currency = (item as Rental & { nightlyCurrency?: string }).nightlyCurrency;
+  const onRequest = !item.nightlyNum;
   return (
     <a
       href={`/rentals/${item.id}/`}
@@ -221,8 +223,13 @@ function RentalCard({ item }: { item: RentalItem }) {
     >
       <div className="ew-grain" style={{ position: "relative", aspectRatio: "3 / 2", overflow: "hidden" }}>
         <img
-          src={item.image}
+          src={optImg(item.image, "main")}
+          srcSet={optImgSrcset(item.image)}
+          sizes={optImgSrcset(item.image) ? CARD_SIZES : undefined}
           alt={item.title}
+          loading="lazy"
+          decoding="async"
+          onError={(e) => { const t = e.currentTarget; t.onerror = null; t.removeAttribute("srcset"); t.src = item.image; }}
           style={{
             position: "absolute",
             inset: 0,
@@ -312,11 +319,11 @@ function RentalCard({ item }: { item: RentalItem }) {
           }}
         >
           <span style={{ display: "flex", flexDirection: "column", flex: "none" }}>
-            {!item.nightlyFixed && (
+            {!item.nightlyFixed && !onRequest && (
               <span
                 style={{
                   fontFamily: "var(--font-sans)",
-                  fontSize: 9.5,
+                  fontSize: 10.5,
                   letterSpacing: "0.16em",
                   textTransform: "uppercase",
                   color: "var(--slate)",
@@ -327,17 +334,19 @@ function RentalCard({ item }: { item: RentalItem }) {
             )}
             <span style={{ fontFamily: "var(--font-serif)", fontWeight: 400, fontSize: 22, color: "var(--charcoal)" }}>
               <PriceTag value={item.nightly} original={original} currency={currency} size={22} />
-              <span
-                style={{
-                  fontFamily: "var(--font-sans)",
-                  fontSize: 12,
-                  color: "var(--slate)",
-                  letterSpacing: "0.04em",
-                }}
-              >
-                {" "}
-                / night
-              </span>
+              {!onRequest && (
+                <span
+                  style={{
+                    fontFamily: "var(--font-sans)",
+                    fontSize: 12,
+                    color: "var(--slate)",
+                    letterSpacing: "0.04em",
+                  }}
+                >
+                  {" "}
+                  / night
+                </span>
+              )}
             </span>
           </span>
           <span

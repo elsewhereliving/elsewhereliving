@@ -5,6 +5,7 @@ import Button from "../components/Button.astro";
 import Icon from "../components/Icon.astro";
 import SectionHead from "../components/SectionHead.astro";
 import { getSiteContent } from "../lib/content";
+import { optImg, optImgSrcset } from "../lib/img";
 
 const { personas, differentiators, contact } = getSiteContent();
 const HERO_IMAGE = "/assets/imagery/c-ocean.jpg";
@@ -30,7 +31,11 @@ const stats = [
       style="position:relative; overflow:hidden; color:var(--white); background:var(--navy);"
     >
       <img
-        src={HERO_IMAGE}
+        src={optImg(HERO_IMAGE, "main")}
+        srcset={optImgSrcset(HERO_IMAGE)}
+        sizes="100vw"
+        fetchpriority="high"
+        onerror={`this.onerror=null;this.removeAttribute('srcset');this.src='${HERO_IMAGE}'`}
         alt=""
         style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0.55; z-index:0;"
       />
@@ -80,7 +85,7 @@ const stats = [
         </div>
         <div class="reveal" style="display:flex; justify-content:center;">
           <div class="ew-grain" style="position:relative; width:100%; max-width:380px; aspect-ratio:3 / 4; overflow:hidden;">
-            <img src="/assets/imagery/sofia-portrait.jpg" alt="Sofia — founder of Elsewhere Living" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:50% 22%;" />
+            <img src={optImg("/assets/imagery/sofia-portrait.jpg", "main")} srcset={optImgSrcset("/assets/imagery/sofia-portrait.jpg")} sizes="(max-width: 720px) 92vw, 520px" loading="lazy" decoding="async" alt="Sofia — founder of Elsewhere Living" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:50% 22%;" onerror="this.onerror=null;this.removeAttribute('srcset');this.src='/assets/imagery/sofia-portrait.jpg'" />
           </div>
         </div>
       </div>
@@ -117,7 +122,12 @@ const stats = [
         <div class="reveal" style="display:flex; justify-content:center;">
           <div class="ew-grain" style="position:relative; width:100%; max-width:380px; aspect-ratio:3 / 4; overflow:hidden;">
             <img
-              src="/assets/imagery/belief-jungle-pool.jpg"
+              src={optImg("/assets/imagery/belief-jungle-pool.jpg", "main")}
+              srcset={optImgSrcset("/assets/imagery/belief-jungle-pool.jpg")}
+              sizes="100vw"
+              loading="lazy"
+              decoding="async"
+              onerror="this.onerror=null;this.removeAttribute('srcset');this.src='/assets/imagery/belief-jungle-pool.jpg'"
               alt=""
               style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;"
             />
@@ -186,7 +196,12 @@ const stats = [
     <!-- CTABand -->
     <section class="ew-grain ew-scrim" style="position:relative; overflow:hidden; color:var(--white);">
       <img
-        src="/assets/imagery/cta-journey.jpg"
+        src={optImg("/assets/imagery/cta-journey.jpg", "main")}
+        srcset={optImgSrcset("/assets/imagery/cta-journey.jpg")}
+        sizes="100vw"
+        loading="lazy"
+        decoding="async"
+        onerror="this.onerror=null;this.removeAttribute('srcset');this.src='/assets/imagery/cta-journey.jpg'"
         alt=""
         style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;"
       />

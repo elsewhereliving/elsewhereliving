@@ -36,7 +36,12 @@ const inputStyle: React.CSSProperties = {
 };
 
 export default function EnquiryForm({ title, email, whatsapp, kind = "property" }: Props) {
+  // The form has no backend: submitting composes the message and opens the
+  // visitor's mail app. Not everyone has one wired up, so after submit we keep
+  // the composed message around and offer WhatsApp (always works) as loudly
+  // as the email draft — and never claim the enquiry was "received".
   const [sent, setSent] = useState(false);
+  const [message, setMessage] = useState("");
   const waDigits = (whatsapp || "").replace(/[^0-9]/g, "");
 
   function onSubmit(e: React.FormEvent<HTMLFormElement>) {
@@ -54,8 +59,9 @@ export default function EnquiryForm({ title, email, whatsapp, kind = "property" 
       "",
       g("message") || "I'd love to know more about this property.",
     ];
-    const href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(lines.join("\n"))}`;
-    window.location.href = href;
+    const body = lines.join("\n");
+    setMessage(body);
+    window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     setSent(true);
   }
 
@@ -63,10 +69,27 @@ export default function EnquiryForm({ title, email, whatsapp, kind = "property" 
     return (
       <div style={{ textAlign: "center", padding: "12px 4px" }}>
         <div style={{ color: "var(--butter)", fontSize: 26, marginBottom: 12 }}>✶</div>
-        <h3 style={{ margin: 0, fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: 24, color: "var(--navy)" }}>Thank you.</h3>
+        <h3 style={{ margin: 0, fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: 24, color: "var(--navy)" }}>One last step.</h3>
         <p style={{ margin: "12px 0 0", fontFamily: "var(--font-sans)", fontWeight: 300, fontSize: 14.5, lineHeight: 1.6, color: "var(--text-body)" }}>
-          We've noted your interest in {title}. If your mail app didn't open, email us directly at{" "}
-          <a href={`mailto:${email}`} style={{ color: "var(--navy)", textDecoration: "underline", textUnderlineOffset: 3 }}>{email}</a>.
+          We've opened your enquiry as an email draft — just hit send. If no mail app opened, send it on WhatsApp instead:
+        </p>
+        <a
+          href={`https://wa.me/${waDigits}?text=${encodeURIComponent(message)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="ew-btn"
+          style={{
+            width: "100%", marginTop: 18, display: "inline-flex", alignItems: "center", justifyContent: "center", boxSizing: "border-box",
+            fontFamily: "var(--font-sans)", fontWeight: 400, textTransform: "uppercase", textDecoration: "none",
+            lineHeight: 1, borderRadius: "var(--radius-xs)", padding: "1.05em 2em", fontSize: 12.5, letterSpacing: "0.14em",
+            background: "var(--navy)", color: "var(--white)", border: "1.25px solid var(--navy)",
+          }}
+        >
+          Send via WhatsApp
+        </a>
+        <p style={{ margin: "14px 0 0", fontFamily: "var(--font-sans)", fontWeight: 300, fontSize: 13, lineHeight: 1.6, color: "var(--slate)" }}>
+          or email us directly at{" "}
+          <a href={`mailto:${email}`} style={{ color: "var(--navy)", textDecoration: "underline", textUnderlineOffset: 3 }}>{email}</a>
         </p>
       </div>
     );

@@ -16,7 +16,7 @@ const INTENTS = [
 ];
 const INTENT_LABEL: Record<string, string> = {
   buy: "Buy a property",
-  rent: "Rent a villa",
+  rent: "Rent a vacation home",
   custom: "Build a custom home",
 };
 
@@ -60,8 +60,15 @@ function Field({ label, name, type = "text", placeholder, required, textarea }: 
 }
 
 export default function ContactForm({ email, whatsapp }: Props) {
+  // Deliberately no backend (owner's decision): submit composes the message
+  // and opens the visitor's mail app so the enquiry arrives as a direct email
+  // from the client's own address. Visitors without a mail app get the same
+  // message as a prefilled WhatsApp link. Don't convert this to a form
+  // service/webhook — the "One last step" state must never claim receipt.
   const [sent, setSent] = useState(false);
+  const [message, setMessage] = useState("");
   const [intents, setIntents] = useState<string[]>([]);
+  const waDigits = (whatsapp || "").replace(/[^0-9]/g, "");
   const toggleIntent = (id: string) =>
     setIntents((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]));
 
@@ -82,7 +89,9 @@ export default function ContactForm({ email, whatsapp }: Props) {
       "",
       g("message") || "",
     ].filter((l) => l !== null) as string[];
-    window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(lines.join("\n"))}`;
+    const body = lines.join("\n");
+    setMessage(body);
+    window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     setSent(true);
   }
 
@@ -90,15 +99,31 @@ export default function ContactForm({ email, whatsapp }: Props) {
     return (
       <div style={{ padding: "8px 4px" }}>
         <div style={{ color: "var(--butter)", fontSize: 26, marginBottom: 12 }}>✶</div>
-        <h3 style={{ margin: 0, fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: 26, color: "var(--navy)" }}>Thank you.</h3>
+        <h3 style={{ margin: 0, fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: 26, color: "var(--navy)" }}>One last step.</h3>
         <p style={{ margin: "14px 0 0", fontFamily: "var(--font-sans)", fontWeight: 300, fontSize: 15, lineHeight: 1.7, color: "var(--text-body)" }}>
-          We've opened a pre-filled email to{" "}
+          We've opened your enquiry as a pre-filled email to{" "}
           <a href={`mailto:${email}`} style={{ color: "var(--navy)", textDecoration: "underline", textUnderlineOffset: 3 }}>{email}</a>
-          {" "}— just hit send. If nothing opened, email us there directly, or WhatsApp us at {whatsapp}.
+          {" "}— just hit send. If no mail app opened, send it on WhatsApp instead:
         </p>
-        <button type="button" onClick={() => setSent(false)} className="ew-textlink" style={{ marginTop: 22, background: "none", border: "none", padding: 0, cursor: "pointer", fontFamily: "var(--font-sans)", fontSize: 11, letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--slate)" }}>
-          ← Back to the form
-        </button>
+        <a
+          href={`https://wa.me/${waDigits}?text=${encodeURIComponent(message)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="ew-btn"
+          style={{
+            marginTop: 20, display: "inline-flex", alignItems: "center", justifyContent: "center",
+            fontFamily: "var(--font-sans)", fontWeight: 400, textTransform: "uppercase", textDecoration: "none",
+            lineHeight: 1, borderRadius: "var(--radius-xs)", padding: "1.05em 2em", fontSize: 12.5, letterSpacing: "0.14em",
+            background: "var(--navy)", color: "var(--white)", border: "1.25px solid var(--navy)", cursor: "pointer",
+          }}
+        >
+          Send via WhatsApp
+        </a>
+        <div>
+          <button type="button" onClick={() => setSent(false)} className="ew-textlink" style={{ marginTop: 22, background: "none", border: "none", padding: 0, cursor: "pointer", fontFamily: "var(--font-sans)", fontSize: 11, letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--slate)" }}>
+            ← Back to the form
+          </button>
+        </div>
       </div>
     );
   }

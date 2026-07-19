@@ -7,6 +7,7 @@ import SectionHead from "../components/SectionHead.astro";
 import PropertyCard from "../components/PropertyCard.astro";
 import TestimonialCarousel from "../components/react/TestimonialCarousel.tsx";
 import { getListings, getFeaturedListings, getHomeFeaturedCount, getSiteContent } from "../lib/content";
+import { optImg, optImgSrcset, CARD_SIZES } from "../lib/img";
 
 const all = await getListings();
 const { markets, pillars, testimonials } = getSiteContent();
@@ -31,7 +32,7 @@ const SECTION = "clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px)";
 <Base current="home" transparentNav={true}>
   <!-- Hero -->
   <section class="ew-hero" style="position:relative; min-height:100svh; display:flex; align-items:flex-end; overflow:hidden; background:var(--ink-black);">
-    <img class="ew-kenburns" src="/assets/imagery/hero-wave-grain.jpg" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;" />
+    <img class="ew-kenburns" src={optImg("/assets/imagery/hero-wave-grain.jpg", "main")} srcset={optImgSrcset("/assets/imagery/hero-wave-grain.jpg")} sizes="100vw" fetchpriority="high" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;" onerror="this.onerror=null;this.removeAttribute('srcset');this.src='/assets/imagery/hero-wave-grain.jpg'" />
     <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(10,12,16,0.55) 0%, rgba(10,12,16,0) 22%, rgba(10,12,16,0) 45%, rgba(10,12,16,0.5) 100%); z-index:1;"></div>
     <div class="ew-hero-inner" style="position:relative; z-index:2; width:100%; max-width:1320px; margin:0 auto; padding:0 clamp(20px,4vw,56px) clamp(56px,8vh,104px);">
       <div class="reveal is-in" style="margin-bottom:22px; font-family:var(--font-sans); font-weight:400; font-size:12px; letter-spacing:0.2em; text-transform:uppercase; color:var(--butter);">Koh Samui · Phuket · Bangkok · Bali · Dubai</div>
@@ -91,7 +92,7 @@ const SECTION = "clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px)";
       <div class="reveal ew-rent-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:16px;">
         {rentMarkets.map((m) => (
           <a href="/rentals/" class="ew-rent-tile ew-grain" style="position:relative; aspect-ratio:3/4; overflow:hidden; background:var(--navy); display:block;">
-            <img src={m.img} alt={m.name} style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;" />
+            <img src={optImg(m.img, "small")} srcset={optImgSrcset(m.img)} sizes={optImgSrcset(m.img) ? "(max-width: 720px) 92vw, 320px" : undefined} loading="lazy" decoding="async" alt={m.name} style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;" onerror={`this.onerror=null;this.removeAttribute('srcset');this.src='${m.img}'`} />
             <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(10,12,18,0.05) 35%, rgba(10,12,18,0.66));"></div>
             <div style="position:absolute; left:22px; right:22px; bottom:22px; text-align:left;">
               <div style="font-family:var(--font-sans); font-size:10px; letter-spacing:0.2em; text-transform:uppercase; color:rgba(255,255,255,0.75); margin-bottom:8px;">Vacation rentals</div>
@@ -120,7 +121,7 @@ const SECTION = "clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px)";
         {services.map((s) => (
           <a href={s.href} class="ew-svc-card" style="display:flex; flex-direction:column; background:var(--white); border:1px solid var(--border-subtle); overflow:hidden; text-decoration:none;">
             <div class="ew-grain" style="position:relative; aspect-ratio:3 / 2; overflow:hidden;">
-              <img src={s.image} alt={s.t} loading="lazy" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;" />
+              <img src={optImg(s.image, "main")} srcset={optImgSrcset(s.image)} sizes={CARD_SIZES} alt={s.t} loading="lazy" decoding="async" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;" onerror={`this.onerror=null;this.removeAttribute('srcset');this.src='${s.image}'`} />
               <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(15,22,40,0) 45%, rgba(15,22,40,0.66));"></div>
               <h3 style="position:absolute; left:24px; bottom:20px; margin:0; color:var(--white); font-family:var(--font-serif); font-weight:300; font-size:clamp(1.6rem,2.8vw,2.1rem); line-height:1.05; letter-spacing:-0.01em;">{s.t}</h3>
             </div>
@@ -136,7 +137,7 @@ const SECTION = "clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px)";
 
   <!-- Pillars -->
   <section class="ew-grain" style="position:relative; color:var(--white); overflow:hidden;">
-    <img src="/assets/imagery/c-ocean.jpg" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;" />
+    <img src={optImg("/assets/imagery/c-ocean.jpg", "main")} srcset={optImgSrcset("/assets/imagery/c-ocean.jpg")} sizes="100vw" loading="lazy" decoding="async" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;" onerror="this.onerror=null;this.removeAttribute('srcset');this.src='/assets/imagery/c-ocean.jpg'" />
     <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(10,12,18,0.82), rgba(10,12,18,0.74)); z-index:1;"></div>
     <div style={`position:relative; z-index:2; max-width:1320px; margin:0 auto; padding:${SECTION};`}>
       <div class="reveal" style="margin-bottom:60px;">
@@ -161,7 +162,7 @@ const SECTION = "clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px)";
 
   <!-- CTA -->
   <section class="ew-grain ew-scrim" style="position:relative; overflow:hidden; color:var(--white);">
-    <img src="/assets/imagery/cta-journey.jpg" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;" />
+    <img src={optImg("/assets/imagery/cta-journey.jpg", "main")} srcset={optImgSrcset("/assets/imagery/cta-journey.jpg")} sizes="100vw" loading="lazy" decoding="async" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;" onerror="this.onerror=null;this.removeAttribute('srcset');this.src='/assets/imagery/cta-journey.jpg'" />
     <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(10,12,16,0.45), rgba(10,12,16,0.62)); z-index:1;"></div>
     <div class="reveal" style="position:relative; z-index:2; max-width:880px; margin:0 auto; padding:clamp(80px,12vw,170px) clamp(20px,4vw,56px); text-align:center;">
       <h2 style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.2rem,5vw,4rem); line-height:1.04; letter-spacing:-0.02em;">Start your <span style="font-style:italic;">elsewhere</span> journey.</h2>

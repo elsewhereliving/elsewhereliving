@@ -36,6 +36,14 @@ function group(n: number): string {
   return Math.round(n).toLocaleString("en-US");
 }
 
+// Converted prices are FX approximations — showing "$3,569,470" implies a
+// precision the number doesn't have (and the exact native price is already in
+// the tooltip). Round to a sensible step for the magnitude.
+function roundConverted(n: number): number {
+  const step = n >= 1_000_000 ? 10_000 : n >= 100_000 ? 1_000 : n >= 10_000 ? 100 : 10;
+  return Math.round(n / step) * step;
+}
+
 /** Format a USD amount, e.g. 2577845 → "$2,577,845". */
 export function formatUsd(n: number, opts: { from?: boolean } = {}): string {
   return `${opts.from ? "From " : ""}$${group(n)}`;
@@ -70,7 +78,7 @@ export function listingPrice(src: {
   if (!cur || amt == null || amt <= 0) {
     return { priceNum: 0, price: "Price on request", priceOriginal: undefined };
   }
-  const usd = Math.round(toUsd(amt, cur));
+  const usd = cur === "USD" ? Math.round(amt) : roundConverted(toUsd(amt, cur));
   return {
     priceNum: usd,
     price: formatUsd(usd, { from: src.priceFrom }),
@@ -97,7 +105,7 @@ export function rentalPrice(src: {
   if (!cur || amt == null || amt <= 0) {
     return { nightlyNum: 0, nightly: "Price on request", nightlyOriginal: undefined };
   }
-  const usd = Math.round(toUsd(amt, cur));
+  const usd = cur === "USD" ? Math.round(amt) : roundConverted(toUsd(amt, cur));
   return {
     nightlyNum: usd,
     nightly: formatUsd(usd),

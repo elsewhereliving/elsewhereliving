@@ -101,7 +101,7 @@ export default function Gallery({ images, thumbs, title }: Props) {
               alt={title + " — view " + (i + 1)}
               loading={i === 0 ? "eager" : "lazy"}
               decoding="async"
-              fetchPriority={i === 0 ? "high" : "low"}
+              {...{ fetchpriority: i === 0 ? "high" : "low" }}
               style={{
                 position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover",
                 opacity: i === active ? 1 : 0, transition: "opacity var(--dur-slow) var(--ease-out)",

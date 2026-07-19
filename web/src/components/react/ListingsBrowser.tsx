@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Listing } from "../../lib/types";
 import { viewBadges, viewList, viewText } from "../../lib/format";
+import { optImg, optImgSrcset, CARD_SIZES } from "../../lib/img";
 import SaveButton from "./SaveButton";
 import RangeSlider from "./RangeSlider";
 
@@ -225,10 +226,13 @@ function PropertyCard({ item }: { item: Listing }) {
         style={{ position: "relative", aspectRatio: "3 / 2", overflow: "hidden" }}
       >
         <img
-          src={item.image}
+          src={optImg(item.image, "main")}
+          srcSet={optImgSrcset(item.image)}
+          sizes={optImgSrcset(item.image) ? CARD_SIZES : undefined}
           alt={item.title}
           loading="lazy"
           decoding="async"
+          onError={(e) => { const t = e.currentTarget; t.onerror = null; t.removeAttribute("srcset"); t.src = item.image; }}
           style={{
             position: "absolute",
             inset: 0,

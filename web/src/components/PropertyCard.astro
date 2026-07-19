@@ -4,7 +4,7 @@ import Icon from "./Icon.astro";
 import Badge from "./Badge.astro";
 import SaveButton from "./react/SaveButton.tsx";
 import { viewBadges, viewText } from "../lib/format";
-import { optImg } from "../lib/img";
+import { optImg, optImgSrcset, CARD_SIZES } from "../lib/img";
 import type { Listing } from "../lib/types";
 
 interface Props { item: Listing; href?: string; }
@@ -17,7 +17,7 @@ const tooltip = item.priceOriginal
 ---
 <a href={link} class="pcard" aria-label={item.title}>
   <div class="pcard__media pcard__media--32 ew-grain">
-    <img src={optImg(item.image, "main")} alt={item.title} loading="lazy" decoding="async" width="640" height="427" style={`object-position:${item.imageFocal || "center"}`} onerror={`this.onerror=null;this.src='${item.image}'`} />
+    <img src={optImg(item.image, "main")} srcset={optImgSrcset(item.image)} sizes={optImgSrcset(item.image) ? CARD_SIZES : undefined} alt={item.title} loading="lazy" decoding="async" width="640" height="427" style={`object-position:${item.imageFocal || "center"}`} onerror={`this.onerror=null;this.removeAttribute('srcset');this.src='${item.image}'`} />
     <div style="position:absolute; top:14px; left:14px; z-index:2; display:flex; flex-wrap:wrap; gap:6px;">
       {item.status && <Badge tone="light">{item.status}</Badge>}
       {viewBadges(item.view).map((v) => <Badge tone="light">{v}</Badge>)}
