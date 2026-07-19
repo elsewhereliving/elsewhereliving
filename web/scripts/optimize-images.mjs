@@ -46,3 +46,34 @@ for (const sub of SOURCES) {
   }
 }
 console.log(`images: ${made} generated, ${skipped} cached, ${failed} failed`);
+
+// Social-share (og:image) variants — cover photos only. WhatsApp silently
+// drops link-preview images over ~600 KB and several covers are multi-MB
+// originals, so each listing/rental cover gets a ~1200px JPEG (webp isn't
+// reliably rendered by every scraper) at /_img/<path>-og.jpg.
+const { readFile } = await import("node:fs/promises");
+const covers = new Set(["/assets/imagery/og-image.jpg"]);
+for (const coll of ["listings", "rentals"]) {
+  const dir = path.join(ROOT, "src", "content", coll);
+  for (const name of (await readdir(dir).catch(() => [])).filter((n) => n.endsWith(".json"))) {
+    try {
+      const { image } = JSON.parse(await readFile(path.join(dir, name), "utf8"));
+      if (typeof image === "string" && image.startsWith("/assets/")) covers.add(image);
+    } catch { /* unreadable record — the build proper will report it */ }
+  }
+}
+let ogMade = 0, ogSkipped = 0;
+for (const cover of covers) {
+  const src = path.join(PUBLIC, "." + cover);
+  const out = path.join(OUT, cover.replace(/^\//, "").replace(EXT, "") + "-og.jpg");
+  if (existsSync(out)) { ogSkipped++; continue; }
+  if (!existsSync(src)) continue;
+  await mkdir(path.dirname(out), { recursive: true });
+  try {
+    await sharp(src).resize({ width: 1200, withoutEnlargement: true }).flatten({ background: "#ffffff" }).jpeg({ quality: 72 }).toFile(out);
+    ogMade++;
+  } catch (err) {
+    console.warn("og skip", cover, String(err.message || err));
+  }
+}
+console.log(`og images: ${ogMade} generated, ${ogSkipped} cached`);

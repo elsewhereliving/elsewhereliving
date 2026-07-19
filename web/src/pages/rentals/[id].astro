@@ -10,7 +10,7 @@ import Gallery from "../../components/react/Gallery.tsx";
 import SaveButton from "../../components/react/SaveButton.tsx";
 import EnquiryForm from "../../components/react/EnquiryForm.tsx";
 import { getRentals, getSiteContent } from "../../lib/content";
-import { optImg } from "../../lib/img";
+import { optImg, ogImg } from "../../lib/img";
 import { relatedRentals } from "../../lib/related";
 
 const { contact } = getSiteContent();
@@ -72,7 +72,7 @@ const jsonLd = {
   transparentNav={false}
   title={`${r.title} — Elsewhere Living`}
   description={r.blurb}
-  image={r.image}
+  image={ogImg(r.image)}
   canonicalPath={`/rentals/${r.id}/`}
   jsonLd={jsonLd}
 >

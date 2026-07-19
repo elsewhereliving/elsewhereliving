@@ -11,7 +11,7 @@ import SaveButton from "../../components/react/SaveButton.tsx";
 import EnquiryForm from "../../components/react/EnquiryForm.tsx";
 import { getListings, getSiteContent } from "../../lib/content";
 import { relatedListings } from "../../lib/related";
-import { optImg } from "../../lib/img";
+import { optImg, ogImg } from "../../lib/img";
 
 const { contact } = getSiteContent();
 import { viewText, viewList } from "../../lib/format";
@@ -73,7 +73,7 @@ const jsonLd = {
   transparentNav={false}
   title={`${l.title} — Elsewhere Living`}
   description={l.blurb}
-  image={l.image}
+  image={ogImg(l.image)}
   canonicalPath={`/property/${l.id}/`}
   jsonLd={jsonLd}
 >

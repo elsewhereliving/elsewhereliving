@@ -2,10 +2,11 @@
 // runtime, keeping the deployment under Cloudflare Pages' 20,000-file limit.
 //
 // Pages serve the optimized WebP variants (see scripts/optimize-images.mjs) —
-// cards, the gallery and its full-screen zoom all go through optImg(). The only
-// place a full-size original is still load-bearing is the `og:image` /
-// `twitter:image` social-preview tag, which points at a listing's cover photo
-// as a raw path.
+// cards, the gallery and its full-screen zoom all go through optImg(), and the
+// `og:image` / `twitter:image` social-preview tags point at the generated
+// ~1200px `-og.jpg` cover variants (WhatsApp drops previews over ~600 KB).
+// Normally nothing references an original anymore; the keep-set below exists
+// for whatever still does.
 //
 // Rather than re-deriving which photo that is from the content JSON (which can
 // drift from what was actually built), the keep-set is read back out of the
