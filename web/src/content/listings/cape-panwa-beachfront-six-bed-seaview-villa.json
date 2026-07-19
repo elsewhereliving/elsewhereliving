@@ -56,7 +56,7 @@
   "video": "",
   "imageFocal": "",
   "mapQuery": "7.837357,98.403159",
-  "title": "Beachfront Five-Bedroom Sea-View Pool Villa",
+  "title": "Beachfront Five-Bedroom Sea-View Pool Villa with Basement",
   "beds": 5,
   "bedsLabel": "5+1",
   "baths": 7,
@@ -87,6 +87,10 @@
     {
       "l": "912 m² built · 1,058 m² plot",
       "i": "plot"
+    },
+    {
+      "l": "Additional basement floor",
+      "i": "interior"
     },
     {
       "l": "Sold furnished · freehold or leasehold",
