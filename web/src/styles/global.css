@@ -114,28 +114,46 @@ img { display: block; max-width: 100%; }
   .ew-svc-card:hover img { transform: none; }
 }
 
-/* ===== Custom Homes sales page ===== */
-/* Stage journey */
-.ew-ch-stage { position: relative; display: grid; grid-template-columns: 1fr 96px 1fr; align-items: center; }
-.ew-ch-stage .ew-ch-copy { grid-column: 3; text-align: left; padding: 34px 0 34px 8px; }
-.ew-ch-stage[data-side="left"] .ew-ch-copy { grid-column: 1; grid-row: 1; text-align: right; padding: 34px 8px 34px 0; }
-.ew-ch-dot {
-  grid-column: 2; grid-row: 1; justify-self: center;
-  width: 52px; height: 52px; border-radius: 999px; display: flex; align-items: center; justify-content: center;
-  background: var(--navy); border: 1px solid var(--border-on-dark);
-  font-family: var(--font-serif); font-weight: 300; font-size: 16px; color: rgba(255,255,255,0.55);
-  transition: border-color 700ms var(--ease-out), color 700ms var(--ease-out), box-shadow 700ms var(--ease-out);
-  position: relative; z-index: 2;
+/* ===== Custom Homes / Development Partner sales page ===== */
+/* Hero — staggered rise + slow settle zoom (13s, once). */
+@keyframes ew-dp-rise { from { opacity: 0; transform: translateY(26px); } to { opacity: 1; transform: none; } }
+.ew-dp-rise { animation: ew-dp-rise 0.9s var(--ease-out) both; }
+@keyframes ew-dp-zoom { from { transform: scale(1.08); } to { transform: scale(1); } }
+.ew-dp-zoom { animation: ew-dp-zoom 13s var(--ease-out) both; }
+/* Where-to-start "Talk to the team" dropdown */
+.ew-dp-drop {
+  position: absolute; top: calc(100% + 10px); right: 0; z-index: 45;
+  background: var(--white); border: 1px solid var(--border-subtle);
+  box-shadow: 0 18px 50px rgba(21,38,68,0.18); min-width: 280px;
+  display: flex; flex-direction: column;
 }
-.ew-ch-stage.is-passed .ew-ch-dot { border-color: var(--butter); color: var(--butter); box-shadow: 0 0 0 5px rgba(247,242,160,0.07); }
-.ew-ch-line-track { position: absolute; top: 0; bottom: 0; left: 50%; width: 1px; margin-left: -0.5px; background: var(--border-on-dark); }
-.ew-ch-line-fill { position: absolute; top: 0; left: 0; width: 100%; height: 0%; background: var(--butter); }
-@media (max-width: 860px) {
-  .ew-ch-stage { grid-template-columns: 72px 1fr; }
-  .ew-ch-stage .ew-ch-copy, .ew-ch-stage[data-side="left"] .ew-ch-copy { grid-column: 2; text-align: left; padding: 26px 0; }
-  .ew-ch-dot { grid-column: 1; }
-  .ew-ch-line-track { left: 36px; }
+.ew-dp-drop[hidden] { display: none; }
+.ew-dp-drop a {
+  padding: 15px 20px; font-family: var(--font-sans); font-weight: 400; font-size: 11px;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--navy);
+  transition: background var(--dur-base) var(--ease-out);
 }
+.ew-dp-drop a + a { border-top: 1px solid var(--border-subtle); }
+.ew-dp-drop a:hover { background: var(--paper); }
+/* Stage timeline — left rail, navy line draws with scroll, butter numerals. */
+.ew-dp-track { position: relative; padding-left: 78px; }
+.ew-dp-rail { position: absolute; left: 17px; top: 0; bottom: 0; width: 1px; background: var(--border-subtle); }
+.ew-dp-line { position: absolute; left: 17px; top: 0; width: 1px; height: 0%; background: var(--navy); transition: height 0.4s var(--ease-out); }
+.ew-dp-stage { position: relative; padding-bottom: 64px; }
+.ew-dp-stage:last-child { padding-bottom: 0; }
+.ew-dp-num {
+  position: absolute; left: -78px; top: -2px; width: 35px; height: 35px; border-radius: 999px;
+  background: var(--butter); color: var(--navy); display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-serif); font-weight: 300; font-size: 14px; z-index: 2;
+}
+.ew-dp-num--invert { background: var(--navy); color: var(--butter); }
+@media (max-width: 640px) {
+  .ew-dp-track { padding-left: 56px; }
+  .ew-dp-num { left: -56px; }
+}
+/* Sample-rhythm gantt */
+.ew-dp-gantt-row { display: grid; grid-template-columns: 240px 1fr; gap: 18px 32px; align-items: center; }
+@media (max-width: 700px) { .ew-dp-gantt-row { grid-template-columns: 1fr; gap: 7px; } }
 /* Budget explorer */
 .ew-ch-island {
   appearance: none; cursor: pointer; background: transparent; color: var(--navy);
@@ -158,11 +176,9 @@ img { display: block; max-width: 100%; }
 @keyframes ew-ch-fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
 .ew-ch-fade { animation: ew-ch-fade 500ms var(--ease-out); }
 .ew-ch-seg { transition: width 700ms var(--ease-out); }
-/* Timeline */
-.ew-ch-bar { transform: scaleX(0); transform-origin: left center; transition: transform 1100ms var(--ease-out); }
+/* Timeline bars grow on reveal (1.2s, staggered via inline transition-delay) */
+.ew-ch-bar { transform: scaleX(0); transform-origin: left center; transition: transform 1200ms var(--ease-out); }
 .reveal.is-in .ew-ch-bar { transform: scaleX(1); }
-.ew-ch-tl-row { display: grid; grid-template-columns: 230px 1fr; gap: 18px; align-items: center; }
-@media (max-width: 700px) { .ew-ch-tl-row { grid-template-columns: 1fr; gap: 7px; } }
 @media (max-width: 560px) { .ew-ch-form-split { grid-template-columns: 1fr !important; } }
 /* Floating WhatsApp */
 .ew-ch-wa {
@@ -188,7 +204,9 @@ img { display: block; max-width: 100%; }
   .ew-ch-bar { transform: none !important; transition: none; }
   .ew-ch-fade { animation: none; }
   .ew-ch-wa-ring { animation: none; display: none; }
-  .ew-ch-dot, .ew-ch-wa, .ew-ch-seg, .ew-ch-line-fill { transition: none; }
+  .ew-ch-wa, .ew-ch-seg { transition: none; }
+  .ew-dp-rise, .ew-dp-zoom { animation: none; }
+  .ew-dp-line { transition: none; }
 }
 
 /* Buying guide — butter "real highlighter" on hand-picked phrases. */

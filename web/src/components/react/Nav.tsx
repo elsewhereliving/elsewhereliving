@@ -39,7 +39,19 @@ function HeartIcon({ filled }: { filled: boolean }) {
   );
 }
 
-export default function Nav({ current = "home", transparent = false }: { current?: string; transparent?: boolean }) {
+export default function Nav({
+  current = "home",
+  transparent = false,
+  ctaHref = "/contact/",
+  ctaAccent = false,
+}: {
+  current?: string;
+  transparent?: boolean;
+  /** where the header Enquire pill points (e.g. an on-page enquiry section) */
+  ctaHref?: string;
+  /** butter Enquire pill regardless of scroll state (Development Partner page) */
+  ctaAccent?: boolean;
+}) {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [saved] = useSaved();
@@ -90,7 +102,7 @@ export default function Nav({ current = "home", transparent = false }: { current
               <HeartIcon filled={savedCount > 0} />
               <span style={{ minWidth: 18, textAlign: "center", color: current === "saved" ? (solid ? "var(--navy)" : "var(--white)") : "inherit" }}>{savedCount}</span>
             </a>
-            <Button as="a" href="/contact/" variant={solid ? "solid" : "outline-light"} size="sm" shape="pill" className="ew-nav-cta">Enquire</Button>
+            <Button as="a" href={ctaHref} variant={ctaAccent ? "accent" : solid ? "solid" : "outline-light"} size="sm" shape="pill" className="ew-nav-cta">Enquire</Button>
             <button onClick={() => setMenuOpen(true)} aria-label="Open menu" className="ew-nav-burger" style={{ display: "none", background: "transparent", border: "none", cursor: "pointer", color: fg, padding: 6 }}>
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4"><path d="M3 6h18M3 12h18M3 18h18" /></svg>
             </button>

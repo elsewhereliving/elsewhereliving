@@ -13,6 +13,10 @@ interface Props {
   current?: string;
   /** true on pages with a dark full-bleed hero at the top */
   transparentNav?: boolean;
+  /** override for the header Enquire pill target (e.g. "#custom-enquiry") */
+  navCtaHref?: string;
+  /** butter header Enquire pill (Development Partner page) */
+  navCtaAccent?: boolean;
   /** path for canonical (defaults to current URL path) */
   canonicalPath?: string;
   /** optional extra JSON-LD object */
@@ -25,6 +29,8 @@ const {
   image = "/assets/imagery/og-image.jpg",
   current = "home",
   transparentNav = false,
+  navCtaHref = "/contact/",
+  navCtaAccent = false,
   canonicalPath,
   jsonLd,
 } = Astro.props;
@@ -102,7 +108,7 @@ const orgLd = {
     <!-- End Meta Pixel Code -->
   </head>
   <body>
-    <Nav current={current} transparent={transparentNav} client:load />
+    <Nav current={current} transparent={transparentNav} ctaHref={navCtaHref} ctaAccent={navCtaAccent} client:load />
     <main id="top">
       <slot />
     </main>

@@ -1,123 +1,109 @@
 import { useState } from "react";
 import Button from "./Button";
 
-const CH_THB_PER_USD = 35;
-const CH_BUILD_RATE = [45000, 60000];
-const CH_FEE_PCT = 0.025;
-const CH_MGMT_PCT = 0.05;
+// Development Partner budget explorer — indicative all-in picture per market.
+// Fee and consultation price are single-source constants (see also the page copy).
+export const DP_FEE_PCT = 0.10;
 
-type Tier = { upTo: number; beds: string; bm: [number, number]; land: string; view: string; where: string };
-const CH_TIERS: Record<string, { min: number; max: number; step: number; start: number; tiers: Tier[] }> = {
-  "Koh Samui": {
-    min: 1000000, max: 5000000, step: 50000, start: 1000000,
-    tiers: [
-      { upTo: 1800000, beds: "3–4", bm: [350, 400], land: "600–1,200 m²", view: "Sea view, infinity pool — the full picture", where: "Maenam, Lamai & Taling Ngam hillsides" },
-      { upTo: 3000000, beds: "5", bm: [500, 600], land: "1,200–2,000 m²", view: "Elevated, panoramic sea view", where: "Bo Phut hills & Chaweng Noi ridge" },
-      { upTo: Infinity, beds: "5–7", bm: [700, 900], land: "2,000–4,000 m²", view: "Estate scale — ridge-top or near-beach", where: "The island's finest addresses" },
-    ],
-  },
-  "Phuket": {
-    min: 2000000, max: 6000000, step: 50000, start: 2500000,
-    tiers: [
-      { upTo: 3000000, beds: "3–4", bm: [550, 650], land: "600–1,200 m²", view: "West-coast hillside, clear sea view", where: "Rawai & Chalong hills" },
-      { upTo: 4500000, beds: "5", bm: [650, 750], land: "1,200–2,000 m²", view: "Panoramic Andaman outlook", where: "Kamala & Surin hillsides" },
-      { upTo: Infinity, beds: "5–7", bm: [800, 1000], land: "2,000–4,000 m²", view: "Estate scale — headland or near-beach", where: "Cape Panwa to Surin" },
-    ],
-  },
+const MARKETS: Record<string, { min: number; label: string }> = {
+  "Koh Samui": { min: 1000000, label: "$1M" },
+  "Phuket": { min: 2000000, label: "$2M" },
 };
+const MAX = 5000000;
+const STEP = 50000;
+
 const money = (v: number) => "$" + Math.round(v).toLocaleString("en-US");
-const compact = (v: number) => (v >= 1e6 ? "$" + (Math.round(v / 1e4) / 100).toFixed(2).replace(/\.?0+$/, "") + "M" : "$" + Math.round(v / 1e3) + "k");
-const built = (t: Tier) => t.bm[0] + "–" + t.bm[1] + " m²";
+const compact = (v: number) =>
+  v >= 1e6 ? "$" + Math.round((v / 1e6) * 100) / 100 + "M" : "$" + Math.round(v / 1e3) + "k";
+
+const label: React.CSSProperties = { fontFamily: "var(--font-sans)", fontSize: 11, letterSpacing: "0.16em", textTransform: "uppercase", color: "var(--charcoal)", fontWeight: 400 };
+const note: React.CSSProperties = { gridColumn: "1 / -1", fontFamily: "var(--font-sans)", fontWeight: 300, fontSize: 12.5, lineHeight: 1.6, color: "var(--slate)" };
+const value: React.CSSProperties = { fontFamily: "var(--font-serif)", fontWeight: 400, fontSize: 15.5, color: "var(--navy)", textAlign: "right", whiteSpace: "nowrap" };
 
 export default function BudgetExplorer() {
   const [island, setIsland] = useState("Koh Samui");
-  const cfg = CH_TIERS[island];
-  const [budget, setBudget] = useState(cfg.start);
-  const pick = (name: string) => { setIsland(name); setBudget(CH_TIERS[name].start); };
+  const [budget, setBudget] = useState(MARKETS["Koh Samui"].min);
+  const cfg = MARKETS[island];
+  const pick = (name: string) => {
+    setIsland(name);
+    setBudget((b) => Math.max(b, MARKETS[name].min));
+  };
 
-  const tierIdx = cfg.tiers.findIndex((t) => budget <= t.upTo);
-  const tier = cfg.tiers[tierIdx === -1 ? cfg.tiers.length - 1 : tierIdx];
+  // Indicative formulas (B = all-in budget in USD) — see design handoff.
+  const B = Math.max(budget, cfg.min);
+  const M = B / 1e6;
+  const buildLo = 0.45 * B;
+  const buildHi = 0.685 * B;
+  const fee = DP_FEE_PCT * B;
+  const landLo = Math.max(0.05 * B, B - buildHi - fee - 0.03 * B);
+  const landHi = Math.max(landLo + 0.05 * B, B - buildLo - fee - 0.02 * B);
+  const beds = M < 1.5 ? "3–4" : M < 2.5 ? "4–5" : M < 3.5 ? "5–6" : "6–8";
+  const builtLo = Math.round((350 + (M - 1) * 140) / 10) * 10;
+  const builtRange = builtLo + "–" + (builtLo + 50) + " m²";
+  const plotLo = Math.round((600 + (M - 1) * 350) / 50) * 50;
+  const plotHi = Math.round((1200 + (M - 1) * 500) / 50) * 50;
+  const plotRange = plotLo.toLocaleString("en-US") + "–" + plotHi.toLocaleString("en-US") + " m²";
 
-  const buildLo = Math.round(tier.bm[0] * CH_BUILD_RATE[0] / CH_THB_PER_USD / 5000) * 5000;
-  const buildHi = Math.round(tier.bm[1] * CH_BUILD_RATE[1] / CH_THB_PER_USD / 5000) * 5000;
-  const fees = Math.round(budget * CH_FEE_PCT / 1000) * 1000;
-  const mgmt = Math.round(budget * CH_MGMT_PCT / 1000) * 1000;
-  const landLo = Math.max(0, budget - buildHi - fees - mgmt);
-  const landHi = Math.max(0, budget - buildLo - fees - mgmt);
-  const buildMid = Math.min((buildLo + buildHi) / 2, budget * 0.8);
-  const landMid = Math.max(0, budget - buildMid - fees - mgmt);
-  const split = [
-    { l: "Land", w: landMid, c: "var(--navy)" },
-    { l: "Construction & interiors", w: buildMid, c: "rgba(21,38,68,0.55)" },
-    { l: "Our fee", w: mgmt, c: "var(--mist)" },
-    { l: "Legal & tax", w: fees, c: "var(--butter)" },
-  ];
   const rows = [
-    { l: "Land — the balance", c: "var(--navy)", v: compact(landLo) + "–" + compact(landHi), n: "Plots vary hugely — the same money buys smaller near the beach or larger on the hill" },
-    { l: "Construction & interiors", c: "rgba(21,38,68,0.55)", v: compact(buildLo) + "–" + compact(buildHi), n: built(tier) + " built, depending on the site and the finish" },
-    { l: "Development management fee", c: "var(--mist)", v: "5%", n: "Every stage handled for you — land, design, permits, build, interiors, handover" },
-    { l: "Legal & tax — included", c: "var(--butter)", v: "~2–3%", n: "Independent lawyer, due diligence, transfer or lease registration — priced in from day one" },
+    { l: "Land — the balance", v: compact(landLo) + "–" + compact(landHi), n: "Plots vary hugely — the same money buys smaller near the beach or larger on the hill." },
+    { l: "Construction & interiors", v: compact(buildLo) + "–" + compact(buildHi), n: builtRange + " built, depending on the site and the finish." },
+    { l: "Development partner fee — estimated", v: Math.round(DP_FEE_PCT * 100) + "% — " + compact(fee), n: "We oversee the whole project. Actual fee confirmed and adjusted to the project's details." },
+    { l: "Legal & tax — included", v: "~2–3%", n: "Independent lawyer, due diligence, transfer or lease registration — priced in from day one." },
   ];
 
   const discuss = () => {
-    window.dispatchEvent(new CustomEvent("ew-ch-prefill", { detail: { island, budget: money(budget) } }));
+    window.dispatchEvent(new CustomEvent("ew-ch-prefill", { detail: { island, budget: money(B) } }));
   };
 
   return (
-    <div className="reveal" style={{ maxWidth: 880, margin: "0 auto" }}>
-      <div style={{ display: "flex", justifyContent: "center", gap: 12, marginBottom: 44 }}>
-        {Object.keys(CH_TIERS).map((name) => (
+    <div className="reveal">
+      <div style={{ display: "flex", gap: 10, justifyContent: "center" }}>
+        {Object.keys(MARKETS).map((name) => (
           <button key={name} className="ew-ch-island" aria-pressed={island === name} onClick={() => pick(name)}>{name}</button>
         ))}
       </div>
 
-      <div style={{ textAlign: "center" }}>
-        <div style={{ fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--slate)", marginBottom: 10 }}>Total budget — all-in</div>
-        <div style={{ fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: "clamp(2.4rem, 5vw, 3.6rem)", letterSpacing: "-0.02em", lineHeight: 1 }}>{money(budget)}</div>
-      </div>
-      <div style={{ margin: "26px 0 6px" }}>
-        <input type="range" className="ew-ch-range" aria-label="Total budget" min={cfg.min} max={cfg.max} step={cfg.step} value={budget} onChange={(e) => setBudget(Number(e.target.value))} />
-        <div style={{ display: "flex", justifyContent: "space-between", fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--slate)" }}>
-          <span>{compact(cfg.min)}</span><span>{compact(cfg.max)}</span>
+      <div style={{ margin: "40px auto 0", maxWidth: 760, background: "var(--white)", padding: "clamp(26px, 4vw, 38px)", boxShadow: "0 24px 60px rgba(21,38,68,0.14)" }}>
+        <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: 24, flexWrap: "wrap" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+            <span style={{ fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--slate)" }}>Total budget — all-in</span>
+            <span style={{ fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: "clamp(2rem, 4.4vw, 2.65rem)", lineHeight: 1, color: "var(--navy)" }}>{money(B)}</span>
+          </div>
+          <span style={{ fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: 18, color: "var(--slate)" }}>Sea view, infinity pool — the full picture</span>
         </div>
-      </div>
 
-      <div key={island + "-" + tierIdx} className="ew-ch-fade" style={{ marginTop: 40, background: "var(--white)", border: "1px solid var(--border-subtle)", padding: "clamp(26px, 4vw, 44px)" }}>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "22px 32px", textAlign: "center" }}>
-          {[{ k: "Bedrooms", v: tier.beds }, { k: "Built area", v: built(tier) }, { k: "Land", v: tier.land }].map((f) => (
-            <div key={f.k}>
-              <div style={{ fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: "clamp(1.7rem, 3vw, 2.4rem)", letterSpacing: "-0.01em", color: "var(--navy)" }}>{f.v}</div>
-              <div style={{ marginTop: 8, fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.18em", textTransform: "uppercase", color: "var(--slate)" }}>{f.k}</div>
+        <div style={{ marginTop: 24 }}>
+          <input type="range" className="ew-ch-range" aria-label="Total budget" min={cfg.min} max={MAX} step={STEP} value={B} onChange={(e) => setBudget(Number(e.target.value))} />
+          <div style={{ display: "flex", justifyContent: "space-between", fontFamily: "var(--font-sans)", fontSize: 11, letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--slate)" }}>
+            <span>{cfg.label}</span><span>$5M</span>
+          </div>
+        </div>
+
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 24, marginTop: 26 }}>
+          {[{ k: "Bedrooms", v: beds }, { k: "Built area", v: builtRange }, { k: "Land", v: plotRange }].map((f) => (
+            <div key={f.k} style={{ borderTop: "1px solid var(--border-subtle)", paddingTop: 12, display: "flex", flexDirection: "column", gap: 4 }}>
+              <span style={{ fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: "clamp(1.15rem, 2.2vw, 1.6rem)", color: "var(--charcoal)", whiteSpace: "nowrap" }}>{f.v}</span>
+              <span style={{ fontFamily: "var(--font-sans)", fontSize: 10.5, letterSpacing: "0.18em", textTransform: "uppercase", color: "var(--slate)" }}>{f.k}</span>
             </div>
           ))}
         </div>
-        <div style={{ marginTop: 26, paddingTop: 24, borderTop: "1px solid var(--border-subtle)", textAlign: "center" }}>
-          <p style={{ margin: 0, fontFamily: "var(--font-serif)", fontWeight: 300, fontStyle: "italic", fontSize: "clamp(1.1rem, 2vw, 1.35rem)", color: "var(--navy)" }}>{tier.view}</p>
-          <p style={{ margin: "8px 0 0", fontFamily: "var(--font-sans)", fontWeight: 300, fontSize: 13, letterSpacing: "0.04em", color: "var(--slate)" }}>{tier.where}</p>
-        </div>
-        <div style={{ marginTop: 30 }}>
-          <div style={{ display: "flex", height: 10, overflow: "hidden" }}>
-            {split.map((sgm) => (<div key={sgm.l} className="ew-ch-seg" style={{ width: (sgm.w / budget * 100) + "%", background: sgm.c }} />))}
-          </div>
-          <div style={{ marginTop: 18, display: "flex", flexDirection: "column" }}>
-            {rows.map((r) => (
-              <div key={r.l} style={{ display: "grid", gridTemplateColumns: "1fr auto", gap: "4px 24px", alignItems: "baseline", padding: "13px 0", borderTop: "1px solid var(--border-subtle)" }}>
-                <span style={{ display: "inline-flex", alignItems: "center", gap: 10, fontFamily: "var(--font-sans)", fontSize: 11, letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--charcoal)" }}>
-                  <span aria-hidden="true" style={{ width: 10, height: 10, background: r.c, flexShrink: 0 }} />{r.l}
-                </span>
-                <span style={{ fontFamily: "var(--font-serif)", fontWeight: 400, fontSize: 18, color: "var(--navy)", textAlign: "right" }}>{r.v}</span>
-                <span style={{ gridColumn: "1 / -1", fontFamily: "var(--font-sans)", fontWeight: 300, fontSize: 12.5, lineHeight: 1.6, color: "var(--slate)" }}>{r.n}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
 
-      <div style={{ marginTop: 30, textAlign: "center" }}>
-        <Button variant="solid" size="md" shape="pill" className="ew-cta-navy" onClick={discuss}>Plan my build at this budget</Button>
-        <p style={{ margin: "16px 0 0", fontFamily: "var(--font-sans)", fontWeight: 300, fontSize: 12.5, color: "var(--slate)" }}>
-          Indicative only — two plots at the same price can differ enormously in size, aspect and distance to the sand. USD figures at ฿35/$; your exact plot and build get modelled before anything begins.
-        </p>
+        <div style={{ marginTop: 26, display: "flex", flexDirection: "column" }}>
+          {rows.map((r) => (
+            <div key={r.l} style={{ display: "grid", gridTemplateColumns: "1fr auto", gap: "4px 32px", alignItems: "baseline", padding: "12px 0", borderTop: "1px solid var(--border-subtle)" }}>
+              <span style={label}>{r.l}</span>
+              <span style={value}>{r.v}</span>
+              <span style={note}>{r.n}</span>
+            </div>
+          ))}
+        </div>
+
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 24, flexWrap: "wrap", marginTop: 26 }}>
+          <Button variant="solid" size="sm" shape="pill" className="ew-cta-navy" onClick={discuss}>Plan my build at this budget</Button>
+          <span style={{ fontFamily: "var(--font-sans)", fontWeight: 300, fontSize: 12, lineHeight: 1.6, color: "var(--slate)", maxWidth: "52ch" }}>
+            Indicative only — USD figures at ฿35/$. Two plots at the same price can differ enormously; your exact plot and build get modelled before anything begins.
+          </span>
+        </div>
       </div>
     </div>
   );
