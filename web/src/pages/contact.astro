@@ -26,117 +26,115 @@ const socials = [
   title="Contact | Elsewhere Living"
   description="No pressure, no obligation — just an honest conversation about what you're looking for. We typically reply within one business day."
 >
-  <main>
-    <!-- PageHeader — dark full-bleed hero -->
-    <section
-      class="ew-grain ew-scrim"
-      style="position:relative; overflow:hidden; color:var(--white); background:var(--navy);"
+  <!-- PageHeader — dark full-bleed hero -->
+  <section
+    class="ew-grain ew-scrim"
+    style="position:relative; overflow:hidden; color:var(--white); background:var(--navy);"
+  >
+    <img
+      src={optImg(HERO_IMAGE, "main")}
+      srcset={optImgSrcset(HERO_IMAGE)}
+      sizes="100vw"
+      fetchpriority="high"
+      onerror={`this.onerror=null;this.removeAttribute('srcset');this.src='${HERO_IMAGE}'`}
+      alt=""
+      style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0.55; z-index:0;"
+    />
+    <div
+      style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(15,22,40,0.55), rgba(15,22,40,0.78)); z-index:1;"
+    ></div>
+    <div
+      style="position:relative; z-index:2; max-width:1320px; margin:0 auto; padding:clamp(150px, 18vh, 210px) clamp(20px, 4vw, 56px) clamp(48px, 7vw, 84px);"
     >
-      <img
-        src={optImg(HERO_IMAGE, "main")}
-        srcset={optImgSrcset(HERO_IMAGE)}
-        sizes="100vw"
-        fetchpriority="high"
-        onerror={`this.onerror=null;this.removeAttribute('srcset');this.src='${HERO_IMAGE}'`}
-        alt=""
-        style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0.55; z-index:0;"
-      />
-      <div
-        style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(15,22,40,0.55), rgba(15,22,40,0.78)); z-index:1;"
-      ></div>
-      <div
-        style="position:relative; z-index:2; max-width:1320px; margin:0 auto; padding:clamp(150px, 18vh, 210px) clamp(20px, 4vw, 56px) clamp(48px, 7vw, 84px);"
-      >
-        <div class="reveal is-in" style="color:var(--text-on-dark-mut); margin-bottom:20px;">
-          <Label>Start your elsewhere journey</Label>
-        </div>
-        <h1
-          class="reveal is-in"
-          style="margin:0; max-width:880px; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.4rem, 5.4vw, 4.4rem); line-height:1.02; letter-spacing:-0.02em;"
-        >
-          Let's talk.
-        </h1>
-        <p
-          class="reveal is-in"
-          style="margin:24px 0 0; max-width:560px; font-family:var(--font-sans); font-weight:300; font-size:17px; line-height:1.7; color:rgba(255,255,255,0.85);"
-        >
-          No pressure, no obligation — just an honest conversation about what you're looking for. We
-          typically reply within one business day.
-        </p>
+      <div class="reveal is-in" style="color:var(--text-on-dark-mut); margin-bottom:20px;">
+        <Label>Start your elsewhere journey</Label>
       </div>
-    </section>
-
-    <section style="background:var(--paper); padding:clamp(64px, 9vw, 120px) clamp(20px, 4vw, 56px);">
-      <div
-        data-grid="split"
-        style="max-width:1320px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:clamp(40px, 6vw, 90px); align-items:start;"
+      <h1
+        class="reveal is-in"
+        style="margin:0; max-width:880px; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.4rem, 5.4vw, 4.4rem); line-height:1.02; letter-spacing:-0.02em;"
       >
-        <!-- Direct lines + socials -->
-        <div class="reveal">
-          <SectionHead eyebrow="Direct lines" title="Reach us however suits you." max={520} />
-          <div style="margin-top:40px; display:flex; flex-direction:column;">
-            {directLines.map((row) => (
-              <div style="display:flex; justify-content:space-between; align-items:baseline; gap:16px; padding:20px 0; border-bottom:1px solid var(--border-subtle);">
-                <span style="font-family:var(--font-sans); font-size:11px; letter-spacing:0.18em; text-transform:uppercase; color:var(--slate);">{row.k}</span>
-                {row.href ? (
-                  <a href={row.href} style="font-family:var(--font-serif); font-weight:400; font-size:clamp(1.1rem, 1.8vw, 1.5rem); color:var(--navy); text-align:right;">{row.v}</a>
-                ) : (
-                  <span style="font-family:var(--font-serif); font-weight:400; font-size:clamp(1.1rem, 1.8vw, 1.5rem); color:var(--navy); text-align:right;">{row.v}</span>
+        Let's talk.
+      </h1>
+      <p
+        class="reveal is-in"
+        style="margin:24px 0 0; max-width:560px; font-family:var(--font-sans); font-weight:300; font-size:17px; line-height:1.7; color:rgba(255,255,255,0.85);"
+      >
+        No pressure, no obligation — just an honest conversation about what you're looking for. We
+        typically reply within one business day.
+      </p>
+    </div>
+  </section>
+
+  <section style="background:var(--paper); padding:clamp(64px, 9vw, 120px) clamp(20px, 4vw, 56px);">
+    <div
+      data-grid="split"
+      style="max-width:1320px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:clamp(40px, 6vw, 90px); align-items:start;"
+    >
+      <!-- Direct lines + socials -->
+      <div class="reveal">
+        <SectionHead eyebrow="Direct lines" title="Reach us however suits you." max={520} />
+        <div style="margin-top:40px; display:flex; flex-direction:column;">
+          {directLines.map((row) => (
+            <div style="display:flex; justify-content:space-between; align-items:baseline; gap:16px; padding:20px 0; border-bottom:1px solid var(--border-subtle);">
+              <span style="font-family:var(--font-sans); font-size:11px; letter-spacing:0.18em; text-transform:uppercase; color:var(--slate);">{row.k}</span>
+              {row.href ? (
+                <a href={row.href} style="font-family:var(--font-serif); font-weight:400; font-size:clamp(1.1rem, 1.8vw, 1.5rem); color:var(--navy); text-align:right;">{row.v}</a>
+              ) : (
+                <span style="font-family:var(--font-serif); font-weight:400; font-size:clamp(1.1rem, 1.8vw, 1.5rem); color:var(--navy); text-align:right;">{row.v}</span>
+              )}
+            </div>
+          ))}
+        </div>
+
+        <div style="margin-top:44px;">
+          <div style="color:var(--slate); margin-bottom:16px;">
+            <Label>Follow along</Label>
+          </div>
+          <p style="margin:0 0 22px; max-width:440px; font-family:var(--font-sans); font-weight:300; font-size:15px; line-height:1.7; color:var(--text-body);">Our latest homes, island life and behind-the-scenes live on our socials — it's where most of our community finds us. Come say hello.</p>
+          <div style="display:flex; flex-wrap:wrap; gap:12px;">
+            {socials.map((s) => (
+              <a
+                href={s.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={s.label}
+                class="ew-textlink"
+                style="display:inline-flex; align-items:center; gap:9px; padding:11px 16px; border:1px solid var(--border-subtle); border-radius:var(--radius-pill); color:var(--navy); font-family:var(--font-sans); font-weight:400; font-size:13.5px;"
+              >
+                {s.label === "Instagram" && (
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+                    <rect x="2.5" y="2.5" width="19" height="19" rx="5"></rect>
+                    <circle cx="12" cy="12" r="4.2"></circle>
+                    <circle cx="17.3" cy="6.7" r="1.15" fill="currentColor" stroke="none"></circle>
+                  </svg>
                 )}
-              </div>
+                {s.label === "TikTok" && (
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M16.5 3c.3 2.1 1.5 3.6 3.5 3.9V9c-1.3 0-2.5-.4-3.5-1.1v6.6c0 3.2-2.4 5.5-5.4 5.5C8.6 20 6.5 18 6.5 15.3c0-2.7 2.2-4.8 5.1-4.6v2.4c-.4-.1-.8-.2-1.2-.2-1.3 0-2.4 1-2.4 2.4 0 1.4 1 2.4 2.3 2.4 1.4 0 2.5-1.1 2.5-2.7V3h3.6z"></path>
+                  </svg>
+                )}
+                {s.label === "YouTube" && (
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M22 8.2c0-1.4-1.1-2.5-2.5-2.6C17.6 5.4 14.8 5.3 12 5.3s-5.6.1-7.5.3C3.1 5.7 2 6.8 2 8.2 1.9 9.4 1.9 10.7 1.9 12s0 2.6.1 3.8c0 1.4 1.1 2.5 2.5 2.6 1.9.2 4.7.3 7.5.3s5.6-.1 7.5-.3c1.4-.1 2.5-1.2 2.5-2.6.1-1.2.1-2.5.1-3.8s0-2.6-.1-3.8zM10 15V9l5.2 3L10 15z"></path>
+                  </svg>
+                )}
+                <span>{s.handle}</span>
+              </a>
             ))}
           </div>
-
-          <div style="margin-top:44px;">
-            <div style="color:var(--slate); margin-bottom:16px;">
-              <Label>Follow along</Label>
-            </div>
-            <p style="margin:0 0 22px; max-width:440px; font-family:var(--font-sans); font-weight:300; font-size:15px; line-height:1.7; color:var(--text-body);">Our latest homes, island life and behind-the-scenes live on our socials — it's where most of our community finds us. Come say hello.</p>
-            <div style="display:flex; flex-wrap:wrap; gap:12px;">
-              {socials.map((s) => (
-                <a
-                  href={s.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={s.label}
-                  class="ew-textlink"
-                  style="display:inline-flex; align-items:center; gap:9px; padding:11px 16px; border:1px solid var(--border-subtle); border-radius:var(--radius-pill); color:var(--navy); font-family:var(--font-sans); font-weight:400; font-size:13.5px;"
-                >
-                  {s.label === "Instagram" && (
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
-                      <rect x="2.5" y="2.5" width="19" height="19" rx="5"></rect>
-                      <circle cx="12" cy="12" r="4.2"></circle>
-                      <circle cx="17.3" cy="6.7" r="1.15" fill="currentColor" stroke="none"></circle>
-                    </svg>
-                  )}
-                  {s.label === "TikTok" && (
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M16.5 3c.3 2.1 1.5 3.6 3.5 3.9V9c-1.3 0-2.5-.4-3.5-1.1v6.6c0 3.2-2.4 5.5-5.4 5.5C8.6 20 6.5 18 6.5 15.3c0-2.7 2.2-4.8 5.1-4.6v2.4c-.4-.1-.8-.2-1.2-.2-1.3 0-2.4 1-2.4 2.4 0 1.4 1 2.4 2.3 2.4 1.4 0 2.5-1.1 2.5-2.7V3h3.6z"></path>
-                    </svg>
-                  )}
-                  {s.label === "YouTube" && (
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M22 8.2c0-1.4-1.1-2.5-2.5-2.6C17.6 5.4 14.8 5.3 12 5.3s-5.6.1-7.5.3C3.1 5.7 2 6.8 2 8.2 1.9 9.4 1.9 10.7 1.9 12s0 2.6.1 3.8c0 1.4 1.1 2.5 2.5 2.6 1.9.2 4.7.3 7.5.3s5.6-.1 7.5-.3c1.4-.1 2.5-1.2 2.5-2.6.1-1.2.1-2.5.1-3.8s0-2.6-.1-3.8zM10 15V9l5.2 3L10 15z"></path>
-                    </svg>
-                  )}
-                  <span>{s.handle}</span>
-                </a>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        <!-- Enquiry form -->
-        <div
-          class="reveal"
-          style="background:var(--white); border:1px solid var(--border-subtle); padding:clamp(28px, 4vw, 48px);"
-        >
-          <div style="color:var(--slate); margin-bottom:24px;">
-            <Label>Enquiry</Label>
-          </div>
-          <ContactForm email={contact.email} whatsapp={contact.whatsapp} client:load />
         </div>
       </div>
-    </section>
-  </main>
+
+      <!-- Enquiry form -->
+      <div
+        class="reveal"
+        style="background:var(--white); border:1px solid var(--border-subtle); padding:clamp(28px, 4vw, 48px);"
+      >
+        <div style="color:var(--slate); margin-bottom:24px;">
+          <Label>Enquiry</Label>
+        </div>
+        <ContactForm email={contact.email} whatsapp={contact.whatsapp} client:load />
+      </div>
+    </div>
+  </section>
 </Base>

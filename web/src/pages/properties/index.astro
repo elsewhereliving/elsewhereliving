@@ -26,60 +26,58 @@ const HERO_IMAGE = "/assets/imagery/c-deck-sea.jpg";
   title="Luxury Villas & Property for Sale | Elsewhere Living"
   description="Browse villas, condominiums and land for sale across Koh Samui, Phuket, Bangkok, Bali and Dubai. Every listing is personally vetted for design, location and the numbers behind it."
 >
-  <main>
-    <!-- PageHeader — dark full-bleed hero -->
-    <section
-      class="ew-grain ew-scrim"
-      style="position:relative; overflow:hidden; color:var(--white); background:var(--navy);"
+  <!-- PageHeader — dark full-bleed hero -->
+  <section
+    class="ew-grain ew-scrim"
+    style="position:relative; overflow:hidden; color:var(--white); background:var(--navy);"
+  >
+    <img
+      src={optImg(HERO_IMAGE, "main")}
+      srcset={optImgSrcset(HERO_IMAGE)}
+      sizes="100vw"
+      fetchpriority="high"
+      onerror={`this.onerror=null;this.removeAttribute('srcset');this.src='${HERO_IMAGE}'`}
+      alt=""
+      style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0.55; z-index:0;"
+    />
+    <div
+      style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(15,22,40,0.55), rgba(15,22,40,0.78)); z-index:1;"
+    ></div>
+    <div
+      style="position:relative; z-index:2; max-width:1320px; margin:0 auto; padding:clamp(150px, 18vh, 210px) clamp(20px, 4vw, 56px) clamp(48px, 7vw, 84px);"
     >
-      <img
-        src={optImg(HERO_IMAGE, "main")}
-        srcset={optImgSrcset(HERO_IMAGE)}
-        sizes="100vw"
-        fetchpriority="high"
-        onerror={`this.onerror=null;this.removeAttribute('srcset');this.src='${HERO_IMAGE}'`}
-        alt=""
-        style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0.55; z-index:0;"
-      />
-      <div
-        style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(15,22,40,0.55), rgba(15,22,40,0.78)); z-index:1;"
-      ></div>
-      <div
-        style="position:relative; z-index:2; max-width:1320px; margin:0 auto; padding:clamp(150px, 18vh, 210px) clamp(20px, 4vw, 56px) clamp(48px, 7vw, 84px);"
+      <div class="reveal is-in" style="color:var(--text-on-dark-mut); margin-bottom:20px;">
+        <Label>Properties for sale</Label>
+      </div>
+      <h1
+        class="reveal is-in"
+        style="margin:0; max-width:880px; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.4rem, 5.4vw, 4.4rem); line-height:1.02; letter-spacing:-0.02em;"
       >
-        <div class="reveal is-in" style="color:var(--text-on-dark-mut); margin-bottom:20px;">
-          <Label>Properties for sale</Label>
-        </div>
-        <h1
-          class="reveal is-in"
-          style="margin:0; max-width:880px; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.4rem, 5.4vw, 4.4rem); line-height:1.02; letter-spacing:-0.02em;"
-        >
-          Homes chosen to be lived in — and to perform.
-        </h1>
-        <p
-          class="reveal is-in"
-          style="margin:24px 0 0; max-width:560px; font-family:var(--font-sans); font-weight:300; font-size:17px; line-height:1.7; color:rgba(255,255,255,0.85);"
-        >
-          Villas, condominiums and land across Koh Samui, Phuket, Bangkok, Bali and Dubai — every
-          listing personally chosen by us. Find your home to live in, to rent out, or both.
-        </p>
-      </div>
-    </section>
+        Homes chosen to be lived in — and to perform.
+      </h1>
+      <p
+        class="reveal is-in"
+        style="margin:24px 0 0; max-width:560px; font-family:var(--font-sans); font-weight:300; font-size:17px; line-height:1.7; color:rgba(255,255,255,0.85);"
+      >
+        Villas, condominiums and land across Koh Samui, Phuket, Bangkok, Bali and Dubai — every
+        listing personally chosen by us. Find your home to live in, to rent out, or both.
+      </p>
+    </div>
+  </section>
 
-    <!-- Filter bar + grid -->
-    <section
-      style="background:var(--paper); padding:clamp(40px, 5vw, 64px) clamp(20px, 4vw, 56px) clamp(72px, 10vw, 120px);"
-    >
-      <div style="max-width:1320px; margin:0 auto;">
-        <ListingsBrowser
-          items={listings}
-          markets={marketNames}
-          types={types}
-          statuses={statuses}
-          views={views}
-          client:load
-        />
-      </div>
-    </section>
-  </main>
+  <!-- Filter bar + grid -->
+  <section
+    style="background:var(--paper); padding:clamp(40px, 5vw, 64px) clamp(20px, 4vw, 56px) clamp(72px, 10vw, 120px);"
+  >
+    <div style="max-width:1320px; margin:0 auto;">
+      <ListingsBrowser
+        items={listings}
+        markets={marketNames}
+        types={types}
+        statuses={statuses}
+        views={views}
+        client:load
+      />
+    </div>
+  </section>
 </Base>

@@ -118,276 +118,274 @@ const whyNow = [
   title="Development Partner | Build in Koh Samui & Phuket | Elsewhere Living"
   description="Development advisory and delivery for investors and private clients in Koh Samui and Phuket — land, feasibility, design, construction, then sales or keys. Build in Thailand with a partner already on the ground."
 >
-  <main>
-    <!-- PageHeader — dark full-bleed hero (chairs photo, navy tint, staggered rise) -->
-    <section class="ew-grain" style="position:relative; overflow:hidden; color:var(--white); background:var(--navy);">
-      <img src={HERO_IMAGE} alt="" class="ew-dp-zoom" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;" />
-      <div style="position:absolute; inset:0; background:rgba(21,38,68,0.82); z-index:1;"></div>
-      <div style="position:relative; z-index:2; max-width:1320px; margin:0 auto; padding:clamp(150px, 18vh, 210px) clamp(20px, 4vw, 56px) clamp(48px, 7vw, 84px);">
-        <div class="ew-dp-rise" style="color:var(--mist); margin-bottom:20px;"><Label>Development Partner</Label></div>
-        <h1 class="ew-dp-rise" style="margin:0; max-width:880px; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.4rem, 5.4vw, 4.4rem); line-height:1.02; letter-spacing:-0.02em; animation-delay:0.12s;">
-          Build in Thailand with a partner already on the ground.
-        </h1>
-        <p class="ew-dp-rise" style="margin:24px 0 0; max-width:560px; font-family:var(--font-sans); font-weight:300; font-size:15.5px; line-height:1.75; color:var(--text-on-dark-mut); animation-delay:0.24s;">
-          Development advisory and delivery for investors and private clients — from the first plot walk to sales or keys.
+  <!-- PageHeader — dark full-bleed hero (chairs photo, navy tint, staggered rise) -->
+  <section class="ew-grain" style="position:relative; overflow:hidden; color:var(--white); background:var(--navy);">
+    <img src={HERO_IMAGE} alt="" class="ew-dp-zoom" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;" />
+    <div style="position:absolute; inset:0; background:rgba(21,38,68,0.82); z-index:1;"></div>
+    <div style="position:relative; z-index:2; max-width:1320px; margin:0 auto; padding:clamp(150px, 18vh, 210px) clamp(20px, 4vw, 56px) clamp(48px, 7vw, 84px);">
+      <div class="ew-dp-rise" style="color:var(--mist); margin-bottom:20px;"><Label>Development Partner</Label></div>
+      <h1 class="ew-dp-rise" style="margin:0; max-width:880px; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.4rem, 5.4vw, 4.4rem); line-height:1.02; letter-spacing:-0.02em; animation-delay:0.12s;">
+        Build in Thailand with a partner already on the ground.
+      </h1>
+      <p class="ew-dp-rise" style="margin:24px 0 0; max-width:560px; font-family:var(--font-sans); font-weight:300; font-size:15.5px; line-height:1.75; color:var(--text-on-dark-mut); animation-delay:0.24s;">
+        Development advisory and delivery for investors and private clients — from the first plot walk to sales or keys.
+      </p>
+    </div>
+  </section>
+
+  <!-- Where to start — orientation strip -->
+  <section style="background:var(--white); border-bottom:1px solid var(--border-subtle); padding:30px clamp(20px, 4vw, 48px);">
+    <div style="max-width:1200px; margin:0 auto; display:flex; align-items:center; gap:28px 40px; flex-wrap:wrap;">
+      <span style="color:var(--slate); white-space:nowrap;"><Label>Where to start</Label></span>
+      <div style="display:flex; gap:14px 40px; flex:1; min-width:min(460px, 100%); flex-wrap:wrap; font-family:var(--font-sans); font-weight:300; font-size:13px; line-height:1.5; color:var(--text-body);">
+        {startSteps.map((s) => (
+          <span><span style="font-family:var(--font-serif); color:var(--navy); margin-right:8px;">{s.n}</span>{s.t}</span>
+        ))}
+      </div>
+      <div style="position:relative;">
+        <button id="ew-dp-contact-btn" aria-expanded="false" aria-controls="ew-dp-drop" class="ew-pill" style="border:1px solid var(--navy); background:var(--navy); color:var(--white); padding:0.75em 1.6em; cursor:pointer;">Talk to the team</button>
+        <div id="ew-dp-drop" class="ew-dp-drop" hidden>
+          <a href={waHref} target="_blank" rel="noopener">WhatsApp — {contact.whatsapp}</a>
+          <a href={mailHref}>Email — {contact.email}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Who we serve -->
+  <section style="background:var(--paper); padding:clamp(72px, 10vw, 110px) clamp(20px, 4vw, 48px);">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div class="reveal">
+        <SectionHead eyebrow="Who we serve" title="Two kinds of builder. One team on the ground." intro="Building in Thailand rewards the well-advised. Whether the project is an investment or the home you've been imagining for years, the questions are the same — which land, which structure, which team. We answer them before a single baht is committed." max={720} />
+      </div>
+      <div class="reveal" data-grid="split" style="display:grid; grid-template-columns:1fr 1fr; gap:28px; margin-top:56px;">
+        {serve.map((c) => (
+          <article class="ew-grain" style={`background:${c.bg}; color:var(--navy); padding:clamp(30px, 4vw, 46px); display:flex; flex-direction:column; gap:18px; overflow:hidden;`}>
+            <span style="font-family:var(--font-serif); font-weight:300; font-size:22px;">{c.tag}</span>
+            <h3 style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.6rem, 2.6vw, 1.95rem); line-height:1.15;">{c.h}</h3>
+            <p style="margin:0; font-family:var(--font-sans); font-weight:300; font-size:14.5px; line-height:1.78; color:rgba(21,38,68,0.8);">{c.b}</p>
+            <div style="margin-top:auto; padding-top:22px; border-top:1px solid rgba(21,38,68,0.3); font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.2em; text-transform:uppercase;">{c.foot}</div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Your partner — every discipline at one table -->
+  <section class="ew-grain" style="background:var(--navy); color:var(--white); padding:clamp(64px, 9vw, 88px) clamp(20px, 4vw, 48px); overflow:hidden;">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div class="reveal">
+        <SectionHead onDark eyebrow="Your partner" title="One partner. Every discipline at one table." intro="Land, law, design, construction, marketing and sales — one team on the ground in Koh Samui, not a chain of vendors." max={720} />
+      </div>
+      <div class="reveal" style="margin-top:44px; border-top:1px solid var(--border-on-dark); border-bottom:1px solid var(--border-on-dark); padding:30px 0;">
+        <p style="margin:0 auto; max-width:34em; text-align:center; font-family:var(--font-serif); font-weight:300; font-style:italic; font-size:clamp(1.25rem, 2.2vw, 1.5rem); line-height:1.45; letter-spacing:-0.01em;">
+          You bring the vision and the capital. We carry everything else — <span style="color:var(--butter);">with you as involved, or as free, as you choose.</span>
         </p>
       </div>
-    </section>
+      <div class="reveal grid-4" style="gap:32px; margin-top:44px;">
+        {pillars.map((p) => (
+          <div style="border-top:1px solid rgba(255,255,255,0.18); padding-top:20px;">
+            <h3 style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:19px; color:var(--butter);">{p.t}</h3>
+            <p style="margin:10px 0 0; font-family:var(--font-sans); font-weight:300; font-size:13px; line-height:1.7; color:var(--text-on-dark-mut);">{p.b}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
 
-    <!-- Where to start — orientation strip -->
-    <section style="background:var(--white); border-bottom:1px solid var(--border-subtle); padding:30px clamp(20px, 4vw, 48px);">
-      <div style="max-width:1200px; margin:0 auto; display:flex; align-items:center; gap:28px 40px; flex-wrap:wrap;">
-        <span style="color:var(--slate); white-space:nowrap;"><Label>Where to start</Label></span>
-        <div style="display:flex; gap:14px 40px; flex:1; min-width:min(460px, 100%); flex-wrap:wrap; font-family:var(--font-sans); font-weight:300; font-size:13px; line-height:1.5; color:var(--text-body);">
-          {startSteps.map((s) => (
-            <span><span style="font-family:var(--font-serif); color:var(--navy); margin-right:8px;">{s.n}</span>{s.t}</span>
+  <!-- How we work — six stages, line draws with scroll -->
+  <section style="background:var(--white); padding:clamp(72px, 10vw, 110px) clamp(20px, 4vw, 48px);">
+    <div style="max-width:1000px; margin:0 auto;">
+      <div class="reveal">
+        <SectionHead align="center" eyebrow="How we work" title="Six stages. One point of contact." intro="The same six stages carry a home you'll keep and a project you'll sell — follow the line; the paths only split at the finish." max={640} />
+      </div>
+      <div id="ew-dp-track" class="ew-dp-track" style="margin-top:72px;">
+        <div class="ew-dp-rail" aria-hidden="true"></div>
+        <div id="ew-dp-line" class="ew-dp-line" aria-hidden="true"></div>
+        {customSteps.map((s, i) => (
+          <div class="ew-dp-stage reveal">
+            <span class={`ew-dp-num${i === customSteps.length - 1 ? " ew-dp-num--invert" : ""}`}>{s.n}</span>
+            <h3 style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.45rem, 2.4vw, 1.75rem); color:var(--charcoal);">{s.t}</h3>
+            {s.b && <p style="margin:14px 0 0; max-width:62ch; font-family:var(--font-sans); font-weight:300; font-size:14.5px; line-height:1.78; color:var(--text-body);">{s.b}</p>}
+            {i === customSteps.length - 1 && (
+              <div data-grid="split" style="display:grid; grid-template-columns:1fr 1fr; gap:28px; margin-top:24px;">
+                {finishPaths.map((c) => (
+                  <div class="ew-grain" style={`background:${c.bg}; color:var(--navy); padding:30px 32px; overflow:hidden;`}>
+                    <span style="font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.2em; text-transform:uppercase; font-weight:400;">{c.tag}</span>
+                    <p style="margin:16px 0 0; font-family:var(--font-sans); font-weight:300; font-size:13.5px; line-height:1.78; color:rgba(21,38,68,0.8);">{c.b}</p>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+      <div class="reveal" style="text-align:center; margin-top:72px;">
+        <Button href="#custom-enquiry" variant="solid" size="md" shape="pill" class="ew-cta-navy">Start with stage 01 — book the consultation</Button>
+      </div>
+    </div>
+  </section>
+
+  <!-- A sample rhythm — mini-gantt -->
+  <section style="background:var(--paper); padding:clamp(72px, 10vw, 110px) clamp(20px, 4vw, 48px);">
+    <div style="max-width:1100px; margin:0 auto;">
+      <div class="reveal">
+        <SectionHead eyebrow="A sample rhythm" title="Keys in hand in as soon as fifteen months." intro="Every build differs — steeper land, bigger footprint, rainy season — but most follow this shape. Land and permits move quickly; construction and furnishing carry the build. And the stages overlap — design begins while the land closes." max={720} />
+      </div>
+      <div class="reveal" style="margin-top:56px; background:var(--white); border:1px solid var(--border-subtle); padding:clamp(26px, 4vw, 44px) clamp(26px, 4vw, 48px);">
+        <div class="ew-dp-gantt-row">
+          {gantt.map((g) => (
+            <>
+              <span style="font-family:var(--font-sans); font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:var(--charcoal); font-weight:400;">
+                {g.l}<br /><span style="color:var(--slate); letter-spacing:0.08em;">{g.d}</span>
+              </span>
+              <div style="position:relative; height:26px; border-left:1px solid var(--border-subtle);">
+                {g.dashed ? (
+                  <div class="ew-ch-bar" style={`position:absolute; left:${g.left}%; top:0; height:100%; width:${g.w}%; border-top:1px dashed var(--navy); border-bottom:1px dashed var(--navy); box-sizing:border-box; transition-delay:${g.delay}s;`}></div>
+                ) : (
+                  <div class="ew-ch-bar" style={`position:absolute; left:${g.left}%; top:0; height:100%; width:${g.w}%; background:${g.bg}; transition-delay:${g.delay}s;`}></div>
+                )}
+                {g.dashed && <span aria-hidden="true" style={`position:absolute; left:${g.left}%; top:50%; width:9px; height:9px; background:var(--navy); transform:translate(-4px, -50%) rotate(45deg);`}></span>}
+              </div>
+            </>
           ))}
         </div>
-        <div style="position:relative;">
-          <button id="ew-dp-contact-btn" aria-expanded="false" aria-controls="ew-dp-drop" class="ew-pill" style="border:1px solid var(--navy); background:var(--navy); color:var(--white); padding:0.75em 1.6em; cursor:pointer;">Talk to the team</button>
-          <div id="ew-dp-drop" class="ew-dp-drop" hidden>
-            <a href={waHref} target="_blank" rel="noopener">WhatsApp — {contact.whatsapp}</a>
-            <a href={mailHref}>Email — {contact.email}</a>
+        <div class="ew-dp-gantt-row" style="gap:0 32px; margin-top:22px;">
+          <span></span>
+          <div style="display:flex; justify-content:space-between; border-top:1px solid var(--border-subtle); padding-top:10px; font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.14em; text-transform:uppercase; color:var(--slate);">
+            {ganttMonths.map((m) => <span>{m}</span>)}
           </div>
         </div>
       </div>
-    </section>
+      <p class="reveal" style="margin:32px 0 0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.2rem, 2vw, 1.375rem); color:var(--navy);">
+        Begin this month — you could be home as early as <span id="ew-handover" style="background:var(--butter); padding:1px 10px;">{handover}</span>.
+      </p>
+      <script>
+        const el = document.getElementById("ew-handover");
+        if (el) {
+          const d = new Date();
+          d.setMonth(d.getMonth() + 15);
+          el.textContent = d.toLocaleDateString("en-US", { month: "long", year: "numeric" });
+        }
+      </script>
+    </div>
+  </section>
 
-    <!-- Who we serve -->
-    <section style="background:var(--paper); padding:clamp(72px, 10vw, 110px) clamp(20px, 4vw, 48px);">
-      <div style="max-width:1200px; margin:0 auto;">
-        <div class="reveal">
-          <SectionHead eyebrow="Who we serve" title="Two kinds of builder. One team on the ground." intro="Building in Thailand rewards the well-advised. Whether the project is an investment or the home you've been imagining for years, the questions are the same — which land, which structure, which team. We answer them before a single baht is committed." max={720} />
-        </div>
-        <div class="reveal" data-grid="split" style="display:grid; grid-template-columns:1fr 1fr; gap:28px; margin-top:56px;">
-          {serve.map((c) => (
-            <article class="ew-grain" style={`background:${c.bg}; color:var(--navy); padding:clamp(30px, 4vw, 46px); display:flex; flex-direction:column; gap:18px; overflow:hidden;`}>
-              <span style="font-family:var(--font-serif); font-weight:300; font-size:22px;">{c.tag}</span>
-              <h3 style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.6rem, 2.6vw, 1.95rem); line-height:1.15;">{c.h}</h3>
-              <p style="margin:0; font-family:var(--font-sans); font-weight:300; font-size:14.5px; line-height:1.78; color:rgba(21,38,68,0.8);">{c.b}</p>
-              <div style="margin-top:auto; padding-top:22px; border-top:1px solid rgba(21,38,68,0.3); font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.2em; text-transform:uppercase;">{c.foot}</div>
-            </article>
-          ))}
-        </div>
+  <!-- What we do — nine services, three phases -->
+  <section style="background:var(--white); padding:clamp(72px, 10vw, 110px) clamp(20px, 4vw, 48px);">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div class="reveal">
+        <SectionHead eyebrow="What we do" title="Every discipline a development needs." max={720} />
       </div>
-    </section>
-
-    <!-- Your partner — every discipline at one table -->
-    <section class="ew-grain" style="background:var(--navy); color:var(--white); padding:clamp(64px, 9vw, 88px) clamp(20px, 4vw, 48px); overflow:hidden;">
-      <div style="max-width:1200px; margin:0 auto;">
-        <div class="reveal">
-          <SectionHead onDark eyebrow="Your partner" title="One partner. Every discipline at one table." intro="Land, law, design, construction, marketing and sales — one team on the ground in Koh Samui, not a chain of vendors." max={720} />
-        </div>
-        <div class="reveal" style="margin-top:44px; border-top:1px solid var(--border-on-dark); border-bottom:1px solid var(--border-on-dark); padding:30px 0;">
-          <p style="margin:0 auto; max-width:34em; text-align:center; font-family:var(--font-serif); font-weight:300; font-style:italic; font-size:clamp(1.25rem, 2.2vw, 1.5rem); line-height:1.45; letter-spacing:-0.01em;">
-            You bring the vision and the capital. We carry everything else — <span style="color:var(--butter);">with you as involved, or as free, as you choose.</span>
-          </p>
-        </div>
-        <div class="reveal grid-4" style="gap:32px; margin-top:44px;">
-          {pillars.map((p) => (
-            <div style="border-top:1px solid rgba(255,255,255,0.18); padding-top:20px;">
-              <h3 style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:19px; color:var(--butter);">{p.t}</h3>
-              <p style="margin:10px 0 0; font-family:var(--font-sans); font-weight:300; font-size:13px; line-height:1.7; color:var(--text-on-dark-mut);">{p.b}</p>
+      <div data-grid="3" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:48px; margin-top:60px;">
+        {phases.map((ph) => (
+          <div class="reveal" style="border-top:1px solid var(--border-on-light); padding-top:28px; display:flex; flex-direction:column; gap:30px;">
+            <div style="display:flex; align-items:baseline; justify-content:space-between; gap:12px;">
+              <span style={`font-family:var(--font-serif); font-weight:300; font-size:27px; color:${ph.color}; background:${ph.bg}; padding:2px 14px;`}>{ph.word}</span>
+              <span style="font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.18em; text-transform:uppercase; color:var(--slate);">{ph.tag}</span>
             </div>
-          ))}
-        </div>
-      </div>
-    </section>
-
-    <!-- How we work — six stages, line draws with scroll -->
-    <section style="background:var(--white); padding:clamp(72px, 10vw, 110px) clamp(20px, 4vw, 48px);">
-      <div style="max-width:1000px; margin:0 auto;">
-        <div class="reveal">
-          <SectionHead align="center" eyebrow="How we work" title="Six stages. One point of contact." intro="The same six stages carry a home you'll keep and a project you'll sell — follow the line; the paths only split at the finish." max={640} />
-        </div>
-        <div id="ew-dp-track" class="ew-dp-track" style="margin-top:72px;">
-          <div class="ew-dp-rail" aria-hidden="true"></div>
-          <div id="ew-dp-line" class="ew-dp-line" aria-hidden="true"></div>
-          {customSteps.map((s, i) => (
-            <div class="ew-dp-stage reveal">
-              <span class={`ew-dp-num${i === customSteps.length - 1 ? " ew-dp-num--invert" : ""}`}>{s.n}</span>
-              <h3 style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.45rem, 2.4vw, 1.75rem); color:var(--charcoal);">{s.t}</h3>
-              {s.b && <p style="margin:14px 0 0; max-width:62ch; font-family:var(--font-sans); font-weight:300; font-size:14.5px; line-height:1.78; color:var(--text-body);">{s.b}</p>}
-              {i === customSteps.length - 1 && (
-                <div data-grid="split" style="display:grid; grid-template-columns:1fr 1fr; gap:28px; margin-top:24px;">
-                  {finishPaths.map((c) => (
-                    <div class="ew-grain" style={`background:${c.bg}; color:var(--navy); padding:30px 32px; overflow:hidden;`}>
-                      <span style="font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.2em; text-transform:uppercase; font-weight:400;">{c.tag}</span>
-                      <p style="margin:16px 0 0; font-family:var(--font-sans); font-weight:300; font-size:13.5px; line-height:1.78; color:rgba(21,38,68,0.8);">{c.b}</p>
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
-        <div class="reveal" style="text-align:center; margin-top:72px;">
-          <Button href="#custom-enquiry" variant="solid" size="md" shape="pill" class="ew-cta-navy">Start with stage 01 — book the consultation</Button>
-        </div>
-      </div>
-    </section>
-
-    <!-- A sample rhythm — mini-gantt -->
-    <section style="background:var(--paper); padding:clamp(72px, 10vw, 110px) clamp(20px, 4vw, 48px);">
-      <div style="max-width:1100px; margin:0 auto;">
-        <div class="reveal">
-          <SectionHead eyebrow="A sample rhythm" title="Keys in hand in as soon as fifteen months." intro="Every build differs — steeper land, bigger footprint, rainy season — but most follow this shape. Land and permits move quickly; construction and furnishing carry the build. And the stages overlap — design begins while the land closes." max={720} />
-        </div>
-        <div class="reveal" style="margin-top:56px; background:var(--white); border:1px solid var(--border-subtle); padding:clamp(26px, 4vw, 44px) clamp(26px, 4vw, 48px);">
-          <div class="ew-dp-gantt-row">
-            {gantt.map((g) => (
-              <>
-                <span style="font-family:var(--font-sans); font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:var(--charcoal); font-weight:400;">
-                  {g.l}<br /><span style="color:var(--slate); letter-spacing:0.08em;">{g.d}</span>
-                </span>
-                <div style="position:relative; height:26px; border-left:1px solid var(--border-subtle);">
-                  {g.dashed ? (
-                    <div class="ew-ch-bar" style={`position:absolute; left:${g.left}%; top:0; height:100%; width:${g.w}%; border-top:1px dashed var(--navy); border-bottom:1px dashed var(--navy); box-sizing:border-box; transition-delay:${g.delay}s;`}></div>
-                  ) : (
-                    <div class="ew-ch-bar" style={`position:absolute; left:${g.left}%; top:0; height:100%; width:${g.w}%; background:${g.bg}; transition-delay:${g.delay}s;`}></div>
-                  )}
-                  {g.dashed && <span aria-hidden="true" style={`position:absolute; left:${g.left}%; top:50%; width:9px; height:9px; background:var(--navy); transform:translate(-4px, -50%) rotate(45deg);`}></span>}
-                </div>
-              </>
+            {ph.items.map((it) => (
+              <div style="display:flex; flex-direction:column; gap:8px;">
+                <span style="font-family:var(--font-sans); font-size:11px; letter-spacing:0.16em; text-transform:uppercase; color:var(--charcoal); font-weight:400;">{it.n} — {it.t}</span>
+                <p style="margin:0; font-family:var(--font-sans); font-weight:300; font-size:13.5px; line-height:1.72; color:var(--text-body);">{it.b}</p>
+              </div>
             ))}
           </div>
-          <div class="ew-dp-gantt-row" style="gap:0 32px; margin-top:22px;">
-            <span></span>
-            <div style="display:flex; justify-content:space-between; border-top:1px solid var(--border-subtle); padding-top:10px; font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.14em; text-transform:uppercase; color:var(--slate);">
-              {ganttMonths.map((m) => <span>{m}</span>)}
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- What your budget builds -->
+  <section class="ew-grain" style="background:var(--mist); color:var(--navy); padding:clamp(72px, 10vw, 110px) clamp(20px, 4vw, 48px); overflow:hidden;">
+    <div style="max-width:1100px; margin:0 auto; position:relative; z-index:2;">
+      <div class="reveal" style="margin-bottom:44px;">
+        <SectionHead eyebrow="What your budget builds" title="Move the line. See the home." intro="An honest, indicative picture drawn from builds we've guided. Your exact figure gets modelled in the feasibility study before anything is bought." max={640} />
+      </div>
+      <BudgetExplorer client:visible />
+    </div>
+  </section>
+
+  <!-- Where we build — kept from the live page -->
+  <section style="background:var(--paper); padding:clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px);">
+    <div style="max-width:1320px; margin:0 auto;">
+      <div class="reveal" style="margin-bottom:50px;">
+        <SectionHead eyebrow="Where we build" title="Two islands we know intimately." intro="We build where we have deep roots, trusted crews, and the land worth building on. The best sea-view plots rarely resurface — when we find one, it moves." max={680} />
+      </div>
+      <div class="reveal" data-grid="split" style="display:grid; grid-template-columns:1fr 1fr; gap:26px;">
+        {customLocations.map((loc) => (
+          <article class="ew-rent-tile" style="background:var(--white); border:1px solid var(--border-subtle); overflow:hidden; display:flex; flex-direction:column;">
+            <div class="ew-grain" style="position:relative; aspect-ratio:16 / 10; overflow:hidden;">
+              <img src={`/${loc.image}`} alt={loc.market} style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;" />
+              <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(15,22,40,0) 40%, rgba(15,22,40,0.62));"></div>
+              <h3 style="position:absolute; left:24px; bottom:20px; margin:0; color:var(--white); font-family:var(--font-serif); font-weight:300; font-size:clamp(1.8rem, 3vw, 2.6rem); letter-spacing:-0.01em;">{`( ${loc.market} )`}</h3>
             </div>
+            <div style="padding:26px 26px 28px; display:flex; flex-direction:column; flex:1;">
+              <p style="margin:0; font-family:var(--font-sans); font-weight:300; font-size:15px; line-height:1.7; color:var(--text-body); flex:1;">{loc.note}</p>
+              <div style="margin-top:22px; padding-top:20px; border-top:1px solid var(--border-subtle); display:flex; align-items:baseline; justify-content:space-between; gap:12px;">
+                <span style="font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.18em; text-transform:uppercase; color:var(--slate);">Total budget from</span>
+                <span style="font-family:var(--font-serif); font-weight:400; font-size:clamp(1.5rem, 2.4vw, 2rem); color:var(--navy);">{loc.from}</span>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+      <div class="reveal" style="margin-top:30px; text-align:center;">
+        <p style="margin:0 0 18px; font-family:var(--font-sans); font-weight:300; font-size:13.5px; color:var(--slate);">Budgets are all-in — land, design, construction, interiors and furnishing.</p>
+        <Button href="/properties/?type=Land" variant="outline" size="md" shape="pill">See land available now</Button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why begin now -->
+  <section class="ew-grain" style="background:var(--mist); color:var(--navy); padding:clamp(72px, 10vw, 100px) clamp(20px, 4vw, 48px); overflow:hidden;">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div class="reveal" style="margin-bottom:48px;">
+        <SectionHead eyebrow="Why begin now" title="The best time to plant a house was last year." max={680} />
+      </div>
+      <div class="reveal" data-grid="3" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:clamp(28px, 4vw, 48px);">
+        {whyNow.map((p) => (
+          <div style="border-top:1px solid rgba(21,38,68,0.35); padding-top:26px;">
+            <h3 style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.3rem, 2.2vw, 1.5rem); line-height:1.15; letter-spacing:-0.01em;">{p.t}</h3>
+            <p style="margin:14px 0 0; font-family:var(--font-sans); font-weight:300; font-size:14px; line-height:1.72; color:rgba(21,38,68,0.8);">{p.b}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA + on-page enquiry form — original layout, Development Partner copy -->
+  <section id="custom-enquiry" class="ew-grain" style="position:relative; overflow:hidden; color:var(--white); scroll-margin-top:40px;">
+    <img src="/assets/imagery/custom-cta-render.jpg" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;" />
+    <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(10,12,16,0.5), rgba(10,12,16,0.72)); z-index:1;"></div>
+    <div style="position:relative; z-index:2; max-width:1200px; margin:0 auto; padding:clamp(72px, 10vw, 140px) clamp(20px, 4vw, 56px);">
+      <div class="reveal" data-grid="split" style="display:grid; grid-template-columns:1.05fr 1fr; gap:clamp(32px, 5vw, 72px); align-items:center;">
+        <div>
+          <div style="color:rgba(255,255,255,0.75); margin-bottom:22px;"><Label>Begin</Label></div>
+          <h2 style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.1rem, 4.6vw, 3.6rem); line-height:1.06; letter-spacing:-0.02em;">Your project begins elsewhere.</h2>
+          <p style="margin:22px 0 0; max-width:460px; font-family:var(--font-sans); font-weight:300; font-size:16.5px; line-height:1.7; color:rgba(255,255,255,0.85);">
+            Tell us what you want to build — we'll tell you honestly whether it works.
+          </p>
+          <div style="margin-top:34px; display:flex; flex-direction:column; gap:14px; font-family:var(--font-sans); font-weight:300; font-size:14px; color:rgba(255,255,255,0.85);">
+            <a href={waHref} target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:11px; color:inherit; text-decoration:none;">
+              <Icon name="whatsapp" size={17} color="var(--butter)" stroke={1.6} /> WhatsApp {contact.whatsapp}
+            </a>
+            <a href={`mailto:${contact.email}`} style="display:inline-flex; align-items:center; gap:11px; color:inherit; text-decoration:none;">
+              <Icon name="mail" size={17} color="var(--butter)" stroke={1.5} /> {contact.email}
+            </a>
           </div>
         </div>
-        <p class="reveal" style="margin:32px 0 0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.2rem, 2vw, 1.375rem); color:var(--navy);">
-          Begin this month — you could be home as early as <span id="ew-handover" style="background:var(--butter); padding:1px 10px;">{handover}</span>.
-        </p>
-        <script>
-          const el = document.getElementById("ew-handover");
-          if (el) {
-            const d = new Date();
-            d.setMonth(d.getMonth() + 15);
-            el.textContent = d.toLocaleDateString("en-US", { month: "long", year: "numeric" });
-          }
-        </script>
+        <CustomEnquiryForm email={contact.email} whatsapp={contact.whatsapp} client:load />
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- What we do — nine services, three phases -->
-    <section style="background:var(--white); padding:clamp(72px, 10vw, 110px) clamp(20px, 4vw, 48px);">
-      <div style="max-width:1200px; margin:0 auto;">
-        <div class="reveal">
-          <SectionHead eyebrow="What we do" title="Every discipline a development needs." max={720} />
-        </div>
-        <div data-grid="3" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:48px; margin-top:60px;">
-          {phases.map((ph) => (
-            <div class="reveal" style="border-top:1px solid var(--border-on-light); padding-top:28px; display:flex; flex-direction:column; gap:30px;">
-              <div style="display:flex; align-items:baseline; justify-content:space-between; gap:12px;">
-                <span style={`font-family:var(--font-serif); font-weight:300; font-size:27px; color:${ph.color}; background:${ph.bg}; padding:2px 14px;`}>{ph.word}</span>
-                <span style="font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.18em; text-transform:uppercase; color:var(--slate);">{ph.tag}</span>
-              </div>
-              {ph.items.map((it) => (
-                <div style="display:flex; flex-direction:column; gap:8px;">
-                  <span style="font-family:var(--font-sans); font-size:11px; letter-spacing:0.16em; text-transform:uppercase; color:var(--charcoal); font-weight:400;">{it.n} — {it.t}</span>
-                  <p style="margin:0; font-family:var(--font-sans); font-weight:300; font-size:13.5px; line-height:1.72; color:var(--text-body);">{it.b}</p>
-                </div>
-              ))}
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-
-    <!-- What your budget builds -->
-    <section class="ew-grain" style="background:var(--mist); color:var(--navy); padding:clamp(72px, 10vw, 110px) clamp(20px, 4vw, 48px); overflow:hidden;">
-      <div style="max-width:1100px; margin:0 auto; position:relative; z-index:2;">
-        <div class="reveal" style="margin-bottom:44px;">
-          <SectionHead eyebrow="What your budget builds" title="Move the line. See the home." intro="An honest, indicative picture drawn from builds we've guided. Your exact figure gets modelled in the feasibility study before anything is bought." max={640} />
-        </div>
-        <BudgetExplorer client:visible />
-      </div>
-    </section>
-
-    <!-- Where we build — kept from the live page -->
-    <section style="background:var(--paper); padding:clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px);">
-      <div style="max-width:1320px; margin:0 auto;">
-        <div class="reveal" style="margin-bottom:50px;">
-          <SectionHead eyebrow="Where we build" title="Two islands we know intimately." intro="We build where we have deep roots, trusted crews, and the land worth building on. The best sea-view plots rarely resurface — when we find one, it moves." max={680} />
-        </div>
-        <div class="reveal" data-grid="split" style="display:grid; grid-template-columns:1fr 1fr; gap:26px;">
-          {customLocations.map((loc) => (
-            <article class="ew-rent-tile" style="background:var(--white); border:1px solid var(--border-subtle); overflow:hidden; display:flex; flex-direction:column;">
-              <div class="ew-grain" style="position:relative; aspect-ratio:16 / 10; overflow:hidden;">
-                <img src={`/${loc.image}`} alt={loc.market} style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;" />
-                <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(15,22,40,0) 40%, rgba(15,22,40,0.62));"></div>
-                <h3 style="position:absolute; left:24px; bottom:20px; margin:0; color:var(--white); font-family:var(--font-serif); font-weight:300; font-size:clamp(1.8rem, 3vw, 2.6rem); letter-spacing:-0.01em;">{`( ${loc.market} )`}</h3>
-              </div>
-              <div style="padding:26px 26px 28px; display:flex; flex-direction:column; flex:1;">
-                <p style="margin:0; font-family:var(--font-sans); font-weight:300; font-size:15px; line-height:1.7; color:var(--text-body); flex:1;">{loc.note}</p>
-                <div style="margin-top:22px; padding-top:20px; border-top:1px solid var(--border-subtle); display:flex; align-items:baseline; justify-content:space-between; gap:12px;">
-                  <span style="font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.18em; text-transform:uppercase; color:var(--slate);">Total budget from</span>
-                  <span style="font-family:var(--font-serif); font-weight:400; font-size:clamp(1.5rem, 2.4vw, 2rem); color:var(--navy);">{loc.from}</span>
-                </div>
-              </div>
-            </article>
-          ))}
-        </div>
-        <div class="reveal" style="margin-top:30px; text-align:center;">
-          <p style="margin:0 0 18px; font-family:var(--font-sans); font-weight:300; font-size:13.5px; color:var(--slate);">Budgets are all-in — land, design, construction, interiors and furnishing.</p>
-          <Button href="/properties/?type=Land" variant="outline" size="md" shape="pill">See land available now</Button>
-        </div>
-      </div>
-    </section>
-
-    <!-- Why begin now -->
-    <section class="ew-grain" style="background:var(--mist); color:var(--navy); padding:clamp(72px, 10vw, 100px) clamp(20px, 4vw, 48px); overflow:hidden;">
-      <div style="max-width:1200px; margin:0 auto;">
-        <div class="reveal" style="margin-bottom:48px;">
-          <SectionHead eyebrow="Why begin now" title="The best time to plant a house was last year." max={680} />
-        </div>
-        <div class="reveal" data-grid="3" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:clamp(28px, 4vw, 48px);">
-          {whyNow.map((p) => (
-            <div style="border-top:1px solid rgba(21,38,68,0.35); padding-top:26px;">
-              <h3 style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.3rem, 2.2vw, 1.5rem); line-height:1.15; letter-spacing:-0.01em;">{p.t}</h3>
-              <p style="margin:14px 0 0; font-family:var(--font-sans); font-weight:300; font-size:14px; line-height:1.72; color:rgba(21,38,68,0.8);">{p.b}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-
-    <!-- CTA + on-page enquiry form — original layout, Development Partner copy -->
-    <section id="custom-enquiry" class="ew-grain" style="position:relative; overflow:hidden; color:var(--white); scroll-margin-top:40px;">
-      <img src="/assets/imagery/custom-cta-render.jpg" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;" />
-      <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(10,12,16,0.5), rgba(10,12,16,0.72)); z-index:1;"></div>
-      <div style="position:relative; z-index:2; max-width:1200px; margin:0 auto; padding:clamp(72px, 10vw, 140px) clamp(20px, 4vw, 56px);">
-        <div class="reveal" data-grid="split" style="display:grid; grid-template-columns:1.05fr 1fr; gap:clamp(32px, 5vw, 72px); align-items:center;">
-          <div>
-            <div style="color:rgba(255,255,255,0.75); margin-bottom:22px;"><Label>Begin</Label></div>
-            <h2 style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.1rem, 4.6vw, 3.6rem); line-height:1.06; letter-spacing:-0.02em;">Your project begins elsewhere.</h2>
-            <p style="margin:22px 0 0; max-width:460px; font-family:var(--font-sans); font-weight:300; font-size:16.5px; line-height:1.7; color:rgba(255,255,255,0.85);">
-              Tell us what you want to build — we'll tell you honestly whether it works.
-            </p>
-            <div style="margin-top:34px; display:flex; flex-direction:column; gap:14px; font-family:var(--font-sans); font-weight:300; font-size:14px; color:rgba(255,255,255,0.85);">
-              <a href={waHref} target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:11px; color:inherit; text-decoration:none;">
-                <Icon name="whatsapp" size={17} color="var(--butter)" stroke={1.6} /> WhatsApp {contact.whatsapp}
-              </a>
-              <a href={`mailto:${contact.email}`} style="display:inline-flex; align-items:center; gap:11px; color:inherit; text-decoration:none;">
-                <Icon name="mail" size={17} color="var(--butter)" stroke={1.5} /> {contact.email}
-              </a>
-            </div>
-          </div>
-          <CustomEnquiryForm email={contact.email} whatsapp={contact.whatsapp} client:load />
-        </div>
-      </div>
-    </section>
-
-    <!-- Floating WhatsApp -->
-    <a id="ew-ch-wa" class="ew-ch-wa" href={waHref} target="_blank" rel="noopener" aria-label="WhatsApp — talk to the team about your project">
-      <span class="ew-ch-wa-ring" aria-hidden="true"></span>
-      <Icon name="whatsapp" size={22} color="var(--butter)" stroke={1.6} />
-      <span class="ew-ch-wa-label">Talk to the team</span>
-    </a>
-  </main>
+  <!-- Floating WhatsApp -->
+  <a id="ew-ch-wa" class="ew-ch-wa" href={waHref} target="_blank" rel="noopener" aria-label="WhatsApp — talk to the team about your project">
+    <span class="ew-ch-wa-ring" aria-hidden="true"></span>
+    <Icon name="whatsapp" size={22} color="var(--butter)" stroke={1.6} />
+    <span class="ew-ch-wa-label">Talk to the team</span>
+  </a>
 
   <script>
     // Stage timeline: draw the navy line downward with scroll progress.

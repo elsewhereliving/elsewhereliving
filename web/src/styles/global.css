@@ -227,6 +227,12 @@ img { display: block; max-width: 100%; }
 @media (max-width: 860px) {
   .ew-legal [data-grid="split"] { grid-template-columns: 1fr !important; }
 }
+/* Privacy page: the TOC + content two-column grid collapses to one column and
+   the sticky sidebar unsticks on phones/tablets (else content overflows). */
+@media (max-width: 860px) {
+  [data-privacy-grid] { grid-template-columns: 1fr !important; }
+  [data-privacy-toc] { position: static !important; }
+}
 @media (max-width: 620px) {
   .ew-legal [data-grid="2"], .ew-legal [data-grid="3"] { grid-template-columns: 1fr !important; }
   .ew-legal [data-grid="fee"] { grid-template-columns: 1fr auto !important; }
@@ -395,3 +401,12 @@ img { display: block; max-width: 100%; }
 
 /* Rental destination tiles: two-up on mobile to save vertical space. */
 @media (max-width: 560px) { .ew-rent-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 12px !important; } }
+
+/* Long-label pill buttons must wrap inside the viewport on phones rather than
+   overflowing the page (e.g. the custom-homes "book the consultation" CTA,
+   whose default white-space:nowrap otherwise pushes past the screen edge). */
+@media (max-width: 600px) {
+  /* !important overrides the component's inline white-space:nowrap. normal only
+     wraps when the label genuinely can't fit, so short buttons stay one line. */
+  .ew-btn { white-space: normal !important; max-width: 100%; line-height: 1.25; }
+}

@@ -27,75 +27,73 @@ const HERO_IMAGE = "/assets/imagery/c-chairs.jpg";
   title="Luxury Vacation Rentals | Elsewhere Living"
   description="Stay in the calibre of home we sell. Fully-staffed luxury villas to rent — many of our buyers began as guests who simply didn't want to leave."
 >
-  <main>
-    <!-- PageHeader — dark full-bleed hero -->
-    <section
-      class="ew-grain ew-scrim"
-      style="position:relative; overflow:hidden; color:var(--white); background:var(--navy);"
+  <!-- PageHeader — dark full-bleed hero -->
+  <section
+    class="ew-grain ew-scrim"
+    style="position:relative; overflow:hidden; color:var(--white); background:var(--navy);"
+  >
+    <img
+      src={optImg(HERO_IMAGE, "main")}
+      srcset={optImgSrcset(HERO_IMAGE)}
+      sizes="100vw"
+      fetchpriority="high"
+      onerror={`this.onerror=null;this.removeAttribute('srcset');this.src='${HERO_IMAGE}'`}
+      alt=""
+      style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0.55; z-index:0;"
+    />
+    <div
+      style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(15,22,40,0.55), rgba(15,22,40,0.78)); z-index:1;"
+    ></div>
+    <div
+      style="position:relative; z-index:2; max-width:1320px; margin:0 auto; padding:clamp(150px, 18vh, 210px) clamp(20px, 4vw, 56px) clamp(48px, 7vw, 84px);"
     >
-      <img
-        src={optImg(HERO_IMAGE, "main")}
-        srcset={optImgSrcset(HERO_IMAGE)}
-        sizes="100vw"
-        fetchpriority="high"
-        onerror={`this.onerror=null;this.removeAttribute('srcset');this.src='${HERO_IMAGE}'`}
-        alt=""
-        style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0.55; z-index:0;"
-      />
-      <div
-        style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(15,22,40,0.55), rgba(15,22,40,0.78)); z-index:1;"
-      ></div>
-      <div
-        style="position:relative; z-index:2; max-width:1320px; margin:0 auto; padding:clamp(150px, 18vh, 210px) clamp(20px, 4vw, 56px) clamp(48px, 7vw, 84px);"
+      <div class="reveal is-in" style="color:var(--text-on-dark-mut); margin-bottom:20px;">
+        <Label>Vacation rentals</Label>
+      </div>
+      <h1
+        class="reveal is-in"
+        style="margin:0; max-width:880px; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.4rem, 5.4vw, 4.4rem); line-height:1.02; letter-spacing:-0.02em;"
       >
-        <div class="reveal is-in" style="color:var(--text-on-dark-mut); margin-bottom:20px;">
-          <Label>Vacation rentals</Label>
-        </div>
-        <h1
-          class="reveal is-in"
-          style="margin:0; max-width:880px; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.4rem, 5.4vw, 4.4rem); line-height:1.02; letter-spacing:-0.02em;"
-        >
-          Try living elsewhere.
-        </h1>
-        <p
-          class="reveal is-in"
-          style="margin:24px 0 0; max-width:560px; font-family:var(--font-sans); font-weight:300; font-size:17px; line-height:1.7; color:rgba(255,255,255,0.85);"
-        >
-          Hand-picked vacation villas across Koh Samui, Phuket, Bali and Lombok — the same calibre of
-          home we sell, available to book for short stays. Many of our buyers began as guests who
-          didn't want to leave.
-        </p>
-      </div>
-    </section>
+        Try living elsewhere.
+      </h1>
+      <p
+        class="reveal is-in"
+        style="margin:24px 0 0; max-width:560px; font-family:var(--font-sans); font-weight:300; font-size:17px; line-height:1.7; color:rgba(255,255,255,0.85);"
+      >
+        Hand-picked vacation villas across Koh Samui, Phuket, Bali and Lombok — the same calibre of
+        home we sell, available to book for short stays. Many of our buyers began as guests who
+        didn't want to leave.
+      </p>
+    </div>
+  </section>
 
-    <!-- Filter bar + grid -->
-    <section
-      style="background:var(--paper); padding:clamp(40px, 5vw, 64px) clamp(20px, 4vw, 56px) clamp(72px, 10vw, 120px);"
-    >
-      <div style="max-width:1320px; margin:0 auto;">
-        <RentalsBrowser items={items} destinations={destinations} client:load />
-      </div>
-    </section>
+  <!-- Filter bar + grid -->
+  <section
+    style="background:var(--paper); padding:clamp(40px, 5vw, 64px) clamp(20px, 4vw, 56px) clamp(72px, 10vw, 120px);"
+  >
+    <div style="max-width:1320px; margin:0 auto;">
+      <RentalsBrowser items={items} destinations={destinations} client:load />
+    </div>
+  </section>
 
-    <!-- Plan your stay -->
-    <section style="background:var(--navy); color:var(--white); padding:clamp(64px, 9vw, 120px) clamp(20px, 4vw, 56px);">
-      <div class="reveal" style="max-width:920px; margin:0 auto;">
-        <div style="text-align:center; margin-bottom:44px;">
-          <SectionHead
-            onDark
-            align="center"
-            eyebrow="Plan your stay"
-            title="Tell us your dates."
-            intro="We'll match you to the right home and handle every detail — transfers, chef, the lot."
-            max={620}
-          />
-        </div>
-        <div style="background:var(--white); border:1px solid var(--border-subtle); padding:clamp(26px, 4vw, 44px);">
-          <ContactForm email={contact.email} whatsapp={contact.whatsapp} client:visible />
-        </div>
+  <!-- Plan your stay -->
+  <section style="background:var(--navy); color:var(--white); padding:clamp(64px, 9vw, 120px) clamp(20px, 4vw, 56px);">
+    <div class="reveal" style="max-width:920px; margin:0 auto;">
+      <div style="text-align:center; margin-bottom:44px;">
+        <SectionHead
+          onDark
+          align="center"
+          eyebrow="Plan your stay"
+          title="Tell us your dates."
+          intro="We'll match you to the right home and handle every detail — transfers, chef, the lot."
+          max={620}
+        />
       </div>
-    </section>
-  </main>
+      <div style="background:var(--white); border:1px solid var(--border-subtle); padding:clamp(26px, 4vw, 44px);">
+        <ContactForm email={contact.email} whatsapp={contact.whatsapp} client:visible />
+      </div>
+    </div>
+  </section>
 
   <style>
     @media (max-width: 760px) {

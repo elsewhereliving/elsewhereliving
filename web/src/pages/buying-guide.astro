@@ -13,47 +13,45 @@ const HERO_IMAGE = "/assets/imagery/c-ocean.jpg";
   description="How ownership works for foreign buyers in Thailand, Indonesia and the UAE — freehold and leasehold, the buying process, taxes and fees, and financing. Plainly, before you fall in love with a house."
   canonicalPath="/buying-guide/"
 >
-  <main>
-    <!-- PageHeader — dark full-bleed hero -->
-    <section
-      class="ew-grain ew-scrim"
-      style="position:relative; overflow:hidden; color:var(--white); background:var(--navy);"
+  <!-- PageHeader — dark full-bleed hero -->
+  <section
+    class="ew-grain ew-scrim"
+    style="position:relative; overflow:hidden; color:var(--white); background:var(--navy);"
+  >
+    <img
+      src={optImg(HERO_IMAGE, "main")}
+      srcset={optImgSrcset(HERO_IMAGE)}
+      sizes="100vw"
+      fetchpriority="high"
+      onerror={`this.onerror=null;this.removeAttribute('srcset');this.src='${HERO_IMAGE}'`}
+      alt=""
+      style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0.55; z-index:0;"
+    />
+    <div
+      style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(15,22,40,0.55), rgba(15,22,40,0.78)); z-index:1;"
+    ></div>
+    <div
+      style="position:relative; z-index:2; max-width:1320px; margin:0 auto; padding:clamp(150px, 18vh, 210px) clamp(20px, 4vw, 56px) clamp(48px, 7vw, 84px);"
     >
-      <img
-        src={optImg(HERO_IMAGE, "main")}
-        srcset={optImgSrcset(HERO_IMAGE)}
-        sizes="100vw"
-        fetchpriority="high"
-        onerror={`this.onerror=null;this.removeAttribute('srcset');this.src='${HERO_IMAGE}'`}
-        alt=""
-        style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0.55; z-index:0;"
-      />
-      <div
-        style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(15,22,40,0.55), rgba(15,22,40,0.78)); z-index:1;"
-      ></div>
-      <div
-        style="position:relative; z-index:2; max-width:1320px; margin:0 auto; padding:clamp(150px, 18vh, 210px) clamp(20px, 4vw, 56px) clamp(48px, 7vw, 84px);"
-      >
-        <div class="reveal is-in" style="color:var(--text-on-dark-mut); margin-bottom:20px;">
-          <Label>Buying guide</Label>
-        </div>
-        <h1
-          class="reveal is-in"
-          style="margin:0; max-width:880px; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.4rem, 5.4vw, 4.4rem); line-height:1.02; letter-spacing:-0.02em;"
-        >
-          Own with clarity, wherever you land.
-        </h1>
-        <p
-          class="reveal is-in"
-          style="margin:24px 0 0; max-width:620px; font-family:var(--font-sans); font-weight:300; font-size:17px; line-height:1.7; color:rgba(255,255,255,0.85);"
-        >
-          How ownership actually works for foreign buyers in each of our markets — freehold and
-          leasehold, the buying process step by step, the taxes and fees around a purchase and a
-          sale, and how financing really looks. Plainly, before you fall in love with a house.
-        </p>
+      <div class="reveal is-in" style="color:var(--text-on-dark-mut); margin-bottom:20px;">
+        <Label>Buying guide</Label>
       </div>
-    </section>
+      <h1
+        class="reveal is-in"
+        style="margin:0; max-width:880px; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.4rem, 5.4vw, 4.4rem); line-height:1.02; letter-spacing:-0.02em;"
+      >
+        Own with clarity, wherever you land.
+      </h1>
+      <p
+        class="reveal is-in"
+        style="margin:24px 0 0; max-width:620px; font-family:var(--font-sans); font-weight:300; font-size:17px; line-height:1.7; color:rgba(255,255,255,0.85);"
+      >
+        How ownership actually works for foreign buyers in each of our markets — freehold and
+        leasehold, the buying process step by step, the taxes and fees around a purchase and a
+        sale, and how financing really looks. Plainly, before you fall in love with a house.
+      </p>
+    </div>
+  </section>
 
-    <BuyingGuide client:load />
-  </main>
+  <BuyingGuide client:load />
 </Base>

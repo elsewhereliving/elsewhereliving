@@ -24,201 +24,199 @@ const stats = [
   title="About | Elsewhere Living"
   description="A boutique agency for the way you actually want to live. We're small on purpose — the only way to give every client the honesty, attention and judgement that buying abroad deserves."
 >
-  <main>
-    <!-- PageHeader — dark full-bleed hero -->
-    <section
-      class="ew-grain ew-scrim"
-      style="position:relative; overflow:hidden; color:var(--white); background:var(--navy);"
+  <!-- PageHeader — dark full-bleed hero -->
+  <section
+    class="ew-grain ew-scrim"
+    style="position:relative; overflow:hidden; color:var(--white); background:var(--navy);"
+  >
+    <img
+      src={optImg(HERO_IMAGE, "main")}
+      srcset={optImgSrcset(HERO_IMAGE)}
+      sizes="100vw"
+      fetchpriority="high"
+      onerror={`this.onerror=null;this.removeAttribute('srcset');this.src='${HERO_IMAGE}'`}
+      alt=""
+      style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0.55; z-index:0;"
+    />
+    <div
+      style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(15,22,40,0.55), rgba(15,22,40,0.78)); z-index:1;"
+    ></div>
+    <div
+      style="position:relative; z-index:2; max-width:1320px; margin:0 auto; padding:clamp(150px, 18vh, 210px) clamp(20px, 4vw, 56px) clamp(48px, 7vw, 84px);"
     >
-      <img
-        src={optImg(HERO_IMAGE, "main")}
-        srcset={optImgSrcset(HERO_IMAGE)}
-        sizes="100vw"
-        fetchpriority="high"
-        onerror={`this.onerror=null;this.removeAttribute('srcset');this.src='${HERO_IMAGE}'`}
-        alt=""
-        style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0.55; z-index:0;"
-      />
-      <div
-        style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(15,22,40,0.55), rgba(15,22,40,0.78)); z-index:1;"
-      ></div>
-      <div
-        style="position:relative; z-index:2; max-width:1320px; margin:0 auto; padding:clamp(150px, 18vh, 210px) clamp(20px, 4vw, 56px) clamp(48px, 7vw, 84px);"
+      <div class="reveal is-in" style="color:var(--text-on-dark-mut); margin-bottom:20px;">
+        <Label>About</Label>
+      </div>
+      <h1
+        class="reveal is-in"
+        style="margin:0; max-width:880px; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.4rem, 5.4vw, 4.4rem); line-height:1.02; letter-spacing:-0.02em;"
       >
-        <div class="reveal is-in" style="color:var(--text-on-dark-mut); margin-bottom:20px;">
-          <Label>About</Label>
-        </div>
-        <h1
-          class="reveal is-in"
-          style="margin:0; max-width:880px; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.4rem, 5.4vw, 4.4rem); line-height:1.02; letter-spacing:-0.02em;"
-        >
-          A boutique agency for the way you actually want to live.
-        </h1>
-        <p
-          class="reveal is-in"
-          style="margin:24px 0 0; max-width:560px; font-family:var(--font-sans); font-weight:300; font-size:17px; line-height:1.7; color:rgba(255,255,255,0.85);"
-        >
-          We're small on purpose. It's the only way to give every client the honesty, attention and
-          judgement that buying abroad deserves.
+        A boutique agency for the way you actually want to live.
+      </h1>
+      <p
+        class="reveal is-in"
+        style="margin:24px 0 0; max-width:560px; font-family:var(--font-sans); font-weight:300; font-size:17px; line-height:1.7; color:rgba(255,255,255,0.85);"
+      >
+        We're small on purpose. It's the only way to give every client the honesty, attention and
+        judgement that buying abroad deserves.
+      </p>
+    </div>
+  </section>
+
+  <!-- Founder -->
+  <section style="background:var(--paper); padding:clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px);">
+    <div data-grid="split" style="max-width:1320px; margin:0 auto; display:grid; grid-template-columns:1.5fr 1fr; gap:clamp(40px, 6vw, 90px); align-items:center;">
+      <div class="reveal">
+        <SectionHead
+          eyebrow="The person behind it"
+          title="Founder-led, hands-on — in three countries."
+          intro="Elsewhere was founded by Sofia — Thai, ten years in marketing, and a following that found her through honest videos about island life and property. Our home base is Koh Samui, Thailand, with trusted local partners in every market we work in — and Sofia stays close to every client's journey."
+        />
+        <p style="margin:22px 0 0; max-width:560px; font-family:var(--font-sans); font-weight:300; font-size:16px; line-height:1.75; color:var(--text-body);">
+          Being based on Koh Samui gives us a real edge here — local relationships and early word on land and off-market homes before they surface. And staying deliberately hands-on means every property is hand-picked by us, every listing known personally — and marketed the way ten years in the craft taught us.
         </p>
+        <div style="margin-top:30px; display:flex; flex-wrap:wrap; gap:12px;">
+          <Button href={waHref} variant="solid" size="md" shape="pill" class="ew-cta-navy">WhatsApp</Button>
+          <Button href={`mailto:${contact.email}`} variant="outline" size="md" shape="pill">Email</Button>
+          <Button href="https://www.instagram.com/sofia.elsewhere/" variant="outline" size="md" shape="pill">Instagram</Button>
+        </div>
+        <p style="margin:18px 0 0; font-family:var(--font-sans); font-weight:300; font-size:13px; letter-spacing:0.02em; color:var(--slate);">A real person answers — usually within a day.</p>
       </div>
-    </section>
+      <div class="reveal" style="display:flex; justify-content:center;">
+        <div class="ew-grain" style="position:relative; width:100%; max-width:380px; aspect-ratio:3 / 4; overflow:hidden;">
+          <img src={optImg("/assets/imagery/sofia-portrait.jpg", "main")} srcset={optImgSrcset("/assets/imagery/sofia-portrait.jpg")} sizes="(max-width: 720px) 92vw, 520px" loading="lazy" decoding="async" alt="Sofia — founder of Elsewhere Living" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:50% 22%;" onerror="this.onerror=null;this.removeAttribute('srcset');this.src='/assets/imagery/sofia-portrait.jpg'" />
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Founder -->
-    <section style="background:var(--paper); padding:clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px);">
-      <div data-grid="split" style="max-width:1320px; margin:0 auto; display:grid; grid-template-columns:1.5fr 1fr; gap:clamp(40px, 6vw, 90px); align-items:center;">
-        <div class="reveal">
-          <SectionHead
-            eyebrow="The person behind it"
-            title="Founder-led, hands-on — in three countries."
-            intro="Elsewhere was founded by Sofia — Thai, ten years in marketing, and a following that found her through honest videos about island life and property. Our home base is Koh Samui, Thailand, with trusted local partners in every market we work in — and Sofia stays close to every client's journey."
+  <!-- Stats strip -->
+  <section style="background:var(--mist); color:var(--navy); padding:clamp(44px, 6vw, 72px) clamp(20px, 4vw, 56px);">
+    <div class="reveal" data-grid="4" style="max-width:1100px; margin:0 auto; display:grid; grid-template-columns:repeat(4, 1fr); gap:clamp(20px, 4vw, 52px);">
+      {stats.map((s) => (
+        <div style="border-top:1px solid rgba(21,38,68,0.2); padding-top:18px;">
+          <div style="font-family:var(--font-serif); font-weight:300; font-size:clamp(2rem, 4vw, 3rem); letter-spacing:-0.01em; color:var(--navy); line-height:1;">{s.v}</div>
+          <div style="margin-top:10px; font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.18em; text-transform:uppercase; color:var(--navy);">{s.l}</div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Our belief -->
+  <section style="background:var(--paper); padding:clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px);">
+    <div
+      data-grid="split"
+      style="max-width:1320px; margin:0 auto; display:grid; grid-template-columns:1.5fr 1fr; gap:clamp(40px, 6vw, 90px); align-items:center;"
+    >
+      <div class="reveal">
+        <SectionHead
+          eyebrow="Our belief"
+          title="Most people buy property. We help you buy possibilities."
+          intro="A home elsewhere isn't a transaction — it's a different rhythm of life: slower mornings, a base for the family, a quietly appreciating asset that also happens to be paradise. We exist to make that leap feel safe, considered, and genuinely yours."
+        />
+        <div style="margin-top:32px;">
+          <Button href="/properties/" variant="solid" size="md" shape="pill" class="ew-cta-navy">See the collection</Button>
+        </div>
+      </div>
+      <div class="reveal" style="display:flex; justify-content:center;">
+        <div class="ew-grain" style="position:relative; width:100%; max-width:380px; aspect-ratio:3 / 4; overflow:hidden;">
+          <img
+            src={optImg("/assets/imagery/belief-jungle-pool.jpg", "main")}
+            srcset={optImgSrcset("/assets/imagery/belief-jungle-pool.jpg")}
+            sizes="100vw"
+            loading="lazy"
+            decoding="async"
+            onerror="this.onerror=null;this.removeAttribute('srcset');this.src='/assets/imagery/belief-jungle-pool.jpg'"
+            alt=""
+            style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;"
           />
-          <p style="margin:22px 0 0; max-width:560px; font-family:var(--font-sans); font-weight:300; font-size:16px; line-height:1.75; color:var(--text-body);">
-            Being based on Koh Samui gives us a real edge here — local relationships and early word on land and off-market homes before they surface. And staying deliberately hands-on means every property is hand-picked by us, every listing known personally — and marketed the way ten years in the craft taught us.
-          </p>
-          <div style="margin-top:30px; display:flex; flex-wrap:wrap; gap:12px;">
-            <Button href={waHref} variant="solid" size="md" shape="pill" class="ew-cta-navy">WhatsApp</Button>
-            <Button href={`mailto:${contact.email}`} variant="outline" size="md" shape="pill">Email</Button>
-            <Button href="https://www.instagram.com/sofia.elsewhere/" variant="outline" size="md" shape="pill">Instagram</Button>
-          </div>
-          <p style="margin:18px 0 0; font-family:var(--font-sans); font-weight:300; font-size:13px; letter-spacing:0.02em; color:var(--slate);">A real person answers — usually within a day.</p>
-        </div>
-        <div class="reveal" style="display:flex; justify-content:center;">
-          <div class="ew-grain" style="position:relative; width:100%; max-width:380px; aspect-ratio:3 / 4; overflow:hidden;">
-            <img src={optImg("/assets/imagery/sofia-portrait.jpg", "main")} srcset={optImgSrcset("/assets/imagery/sofia-portrait.jpg")} sizes="(max-width: 720px) 92vw, 520px" loading="lazy" decoding="async" alt="Sofia — founder of Elsewhere Living" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:50% 22%;" onerror="this.onerror=null;this.removeAttribute('srcset');this.src='/assets/imagery/sofia-portrait.jpg'" />
-          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Stats strip -->
-    <section style="background:var(--mist); color:var(--navy); padding:clamp(44px, 6vw, 72px) clamp(20px, 4vw, 56px);">
-      <div class="reveal" data-grid="4" style="max-width:1100px; margin:0 auto; display:grid; grid-template-columns:repeat(4, 1fr); gap:clamp(20px, 4vw, 52px);">
-        {stats.map((s) => (
-          <div style="border-top:1px solid rgba(21,38,68,0.2); padding-top:18px;">
-            <div style="font-family:var(--font-serif); font-weight:300; font-size:clamp(2rem, 4vw, 3rem); letter-spacing:-0.01em; color:var(--navy); line-height:1;">{s.v}</div>
-            <div style="margin-top:10px; font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.18em; text-transform:uppercase; color:var(--navy);">{s.l}</div>
+  <!-- Who we serve -->
+  <section style="background:var(--navy); color:var(--white); padding:clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px);">
+    <div style="max-width:1320px; margin:0 auto;">
+      <div class="reveal" style="margin-bottom:54px;">
+        <SectionHead
+          onDark
+          eyebrow="Who we serve"
+          title="Three kinds of people we love working with."
+          intro="Most of our clients arrive as one of these — and many become all three over time."
+          max={680}
+        />
+      </div>
+      <div
+        class="reveal"
+        data-grid="3"
+        style="display:grid; grid-template-columns:repeat(3, 1fr); gap:clamp(28px, 4vw, 52px);"
+      >
+        {personas.map((p) => (
+          <div style="border-top:1px solid var(--border-on-dark); padding-top:26px;">
+            <Icon name={p.i} size={30} color="var(--butter)" stroke={1.4} />
+            <h3 style="margin:22px 0 0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.5rem, 2.6vw, 2rem); line-height:1.1; letter-spacing:-0.01em;">{p.k}</h3>
+            <p style="margin:14px 0 0; font-family:var(--font-sans); font-weight:300; font-size:15px; line-height:1.72; color:rgba(255,255,255,0.78);">{p.b}</p>
           </div>
         ))}
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Our belief -->
-    <section style="background:var(--paper); padding:clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px);">
-      <div
-        data-grid="split"
-        style="max-width:1320px; margin:0 auto; display:grid; grid-template-columns:1.5fr 1fr; gap:clamp(40px, 6vw, 90px); align-items:center;"
-      >
-        <div class="reveal">
-          <SectionHead
-            eyebrow="Our belief"
-            title="Most people buy property. We help you buy possibilities."
-            intro="A home elsewhere isn't a transaction — it's a different rhythm of life: slower mornings, a base for the family, a quietly appreciating asset that also happens to be paradise. We exist to make that leap feel safe, considered, and genuinely yours."
-          />
-          <div style="margin-top:32px;">
-            <Button href="/properties/" variant="solid" size="md" shape="pill" class="ew-cta-navy">See the collection</Button>
-          </div>
-        </div>
-        <div class="reveal" style="display:flex; justify-content:center;">
-          <div class="ew-grain" style="position:relative; width:100%; max-width:380px; aspect-ratio:3 / 4; overflow:hidden;">
-            <img
-              src={optImg("/assets/imagery/belief-jungle-pool.jpg", "main")}
-              srcset={optImgSrcset("/assets/imagery/belief-jungle-pool.jpg")}
-              sizes="100vw"
-              loading="lazy"
-              decoding="async"
-              onerror="this.onerror=null;this.removeAttribute('srcset');this.src='/assets/imagery/belief-jungle-pool.jpg'"
-              alt=""
-              style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;"
-            />
-          </div>
-        </div>
+  <!-- What makes us different -->
+  <section style="background:var(--paper); padding:clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px);">
+    <div style="max-width:1320px; margin:0 auto;">
+      <div class="reveal" style="margin-bottom:54px;">
+        <SectionHead
+          eyebrow="What makes us different"
+          title="Why owners, buyers and developers choose us."
+          max={680}
+        />
       </div>
-    </section>
-
-    <!-- Who we serve -->
-    <section style="background:var(--navy); color:var(--white); padding:clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px);">
-      <div style="max-width:1320px; margin:0 auto;">
-        <div class="reveal" style="margin-bottom:54px;">
-          <SectionHead
-            onDark
-            eyebrow="Who we serve"
-            title="Three kinds of people we love working with."
-            intro="Most of our clients arrive as one of these — and many become all three over time."
-            max={680}
-          />
-        </div>
-        <div
-          class="reveal"
-          data-grid="3"
-          style="display:grid; grid-template-columns:repeat(3, 1fr); gap:clamp(28px, 4vw, 52px);"
-        >
-          {personas.map((p) => (
-            <div style="border-top:1px solid var(--border-on-dark); padding-top:26px;">
-              <Icon name={p.i} size={30} color="var(--butter)" stroke={1.4} />
-              <h3 style="margin:22px 0 0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.5rem, 2.6vw, 2rem); line-height:1.1; letter-spacing:-0.01em;">{p.k}</h3>
-              <p style="margin:14px 0 0; font-family:var(--font-sans); font-weight:300; font-size:15px; line-height:1.72; color:rgba(255,255,255,0.78);">{p.b}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-
-    <!-- What makes us different -->
-    <section style="background:var(--paper); padding:clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px);">
-      <div style="max-width:1320px; margin:0 auto;">
-        <div class="reveal" style="margin-bottom:54px;">
-          <SectionHead
-            eyebrow="What makes us different"
-            title="Why owners, buyers and developers choose us."
-            max={680}
-          />
-        </div>
-        <div
-          class="reveal"
-          data-grid="3"
-          style="display:grid; grid-template-columns:repeat(3, 1fr); gap:36px clamp(28px, 4vw, 56px);"
-        >
-          {differentiators.map((d, i) => (
-            <div style="border-top:1px solid var(--border-subtle); padding-top:24px;">
-              <div style="display:flex; align-items:center; gap:12px;">
-                <Icon name={d.i} size={22} color="var(--navy)" stroke={1.4} />
-                <span style="font-family:var(--font-sans); font-size:11px; letter-spacing:0.16em; text-transform:uppercase; color:var(--slate);">0{i + 1}</span>
-              </div>
-              <h3 style="margin:16px 0 0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.4rem, 2.3vw, 1.85rem); line-height:1.12; letter-spacing:-0.01em; color:var(--navy);">{d.t}</h3>
-              <p style="margin:12px 0 0; font-family:var(--font-sans); font-weight:300; font-size:15px; line-height:1.72; color:var(--text-body);">{d.b}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-
-    <!-- CTABand -->
-    <section class="ew-grain ew-scrim" style="position:relative; overflow:hidden; color:var(--white);">
-      <img
-        src={optImg("/assets/imagery/cta-journey.jpg", "main")}
-        srcset={optImgSrcset("/assets/imagery/cta-journey.jpg")}
-        sizes="100vw"
-        loading="lazy"
-        decoding="async"
-        onerror="this.onerror=null;this.removeAttribute('srcset');this.src='/assets/imagery/cta-journey.jpg'"
-        alt=""
-        style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;"
-      />
-      <div
-        style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(10,12,16,0.45), rgba(10,12,16,0.62)); z-index:1;"
-      ></div>
       <div
         class="reveal"
-        style="position:relative; z-index:2; max-width:880px; margin:0 auto; padding:clamp(80px, 12vw, 170px) clamp(20px, 4vw, 56px); text-align:center;"
+        data-grid="3"
+        style="display:grid; grid-template-columns:repeat(3, 1fr); gap:36px clamp(28px, 4vw, 56px);"
       >
-        <h2 style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.2rem, 5vw, 4rem); line-height:1.04; letter-spacing:-0.02em;">Start your <span style="font-style:italic;">elsewhere</span> journey.</h2>
-        <p style="margin:24px auto 0; max-width:520px; font-family:var(--font-sans); font-weight:300; font-size:17px; line-height:1.7; color:rgba(255,255,255,0.85);">A short, honest conversation — no obligation. Tell us what your elsewhere looks like and we'll take it from there.</p>
-        <div style="display:flex; flex-wrap:wrap; gap:14px; justify-content:center; margin-top:38px;">
-          <Button href="/contact/" variant="accent" size="lg" shape="pill">Begin the conversation</Button>
-          <Button href="/properties/" variant="outline-light" size="lg" shape="pill">See the collection</Button>
-        </div>
+        {differentiators.map((d, i) => (
+          <div style="border-top:1px solid var(--border-subtle); padding-top:24px;">
+            <div style="display:flex; align-items:center; gap:12px;">
+              <Icon name={d.i} size={22} color="var(--navy)" stroke={1.4} />
+              <span style="font-family:var(--font-sans); font-size:11px; letter-spacing:0.16em; text-transform:uppercase; color:var(--slate);">0{i + 1}</span>
+            </div>
+            <h3 style="margin:16px 0 0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.4rem, 2.3vw, 1.85rem); line-height:1.12; letter-spacing:-0.01em; color:var(--navy);">{d.t}</h3>
+            <p style="margin:12px 0 0; font-family:var(--font-sans); font-weight:300; font-size:15px; line-height:1.72; color:var(--text-body);">{d.b}</p>
+          </div>
+        ))}
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
+
+  <!-- CTABand -->
+  <section class="ew-grain ew-scrim" style="position:relative; overflow:hidden; color:var(--white);">
+    <img
+      src={optImg("/assets/imagery/cta-journey.jpg", "main")}
+      srcset={optImgSrcset("/assets/imagery/cta-journey.jpg")}
+      sizes="100vw"
+      loading="lazy"
+      decoding="async"
+      onerror="this.onerror=null;this.removeAttribute('srcset');this.src='/assets/imagery/cta-journey.jpg'"
+      alt=""
+      style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;"
+    />
+    <div
+      style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(10,12,16,0.45), rgba(10,12,16,0.62)); z-index:1;"
+    ></div>
+    <div
+      class="reveal"
+      style="position:relative; z-index:2; max-width:880px; margin:0 auto; padding:clamp(80px, 12vw, 170px) clamp(20px, 4vw, 56px); text-align:center;"
+    >
+      <h2 style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.2rem, 5vw, 4rem); line-height:1.04; letter-spacing:-0.02em;">Start your <span style="font-style:italic;">elsewhere</span> journey.</h2>
+      <p style="margin:24px auto 0; max-width:520px; font-family:var(--font-sans); font-weight:300; font-size:17px; line-height:1.7; color:rgba(255,255,255,0.85);">A short, honest conversation — no obligation. Tell us what your elsewhere looks like and we'll take it from there.</p>
+      <div style="display:flex; flex-wrap:wrap; gap:14px; justify-content:center; margin-top:38px;">
+        <Button href="/contact/" variant="accent" size="lg" shape="pill">Begin the conversation</Button>
+        <Button href="/properties/" variant="outline-light" size="lg" shape="pill">See the collection</Button>
+      </div>
+    </div>
+  </section>
 </Base>
