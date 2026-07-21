@@ -1,0 +1,105 @@
+{
+  "id": "plai-laem-boutique-4bed-pool-villas",
+  "image": "/assets/listings/plai-laem-boutique-4bed-pool-villas/03.jpg",
+  "gallery": [
+    "/assets/listings/plai-laem-boutique-4bed-pool-villas/03.jpg",
+    "/assets/listings/plai-laem-boutique-4bed-pool-villas/01.jpg",
+    "/assets/listings/plai-laem-boutique-4bed-pool-villas/02.jpg",
+    "/assets/listings/plai-laem-boutique-4bed-pool-villas/04.jpg",
+    "/assets/listings/plai-laem-boutique-4bed-pool-villas/05.jpg",
+    "/assets/listings/plai-laem-boutique-4bed-pool-villas/06.jpg",
+    "/assets/listings/plai-laem-boutique-4bed-pool-villas/07.jpg",
+    "/assets/listings/plai-laem-boutique-4bed-pool-villas/08.jpg",
+    "/assets/listings/plai-laem-boutique-4bed-pool-villas/09.jpg",
+    "/assets/listings/plai-laem-boutique-4bed-pool-villas/10.jpg",
+    "/assets/listings/plai-laem-boutique-4bed-pool-villas/11.jpg",
+    "/assets/listings/plai-laem-boutique-4bed-pool-villas/12.jpg",
+    "/assets/listings/plai-laem-boutique-4bed-pool-villas/13.jpg",
+    "/assets/listings/plai-laem-boutique-4bed-pool-villas/14.jpg",
+    "/assets/listings/plai-laem-boutique-4bed-pool-villas/15.jpg",
+    "/assets/listings/plai-laem-boutique-4bed-pool-villas/16.jpg",
+    "/assets/listings/plai-laem-boutique-4bed-pool-villas/17.jpg",
+    "/assets/listings/plai-laem-boutique-4bed-pool-villas/18.jpg",
+    "/assets/listings/plai-laem-boutique-4bed-pool-villas/19.jpg",
+    "/assets/listings/plai-laem-boutique-4bed-pool-villas/20.jpg"
+  ],
+  "location": "Plai Laem · Koh Samui · Thailand",
+  "place": "Plai Laem, Bo Phut, Ko Samui District, Surat Thani 84320, Thailand",
+  "mapQuery": "9.566098,100.0751621",
+  "market": "Koh Samui",
+  "title": "Boutique Four-Bedroom Pool Villas in a Gated Plai Laem Community",
+  "type": "Villa",
+  "view": [
+    "Garden / Pool View"
+  ],
+  "status": "Off-Plan",
+  "beds": 4,
+  "baths": 4,
+  "interior": "≈270 m²",
+  "plot": null,
+  "year": null,
+  "priceOriginalNum": 13900000,
+  "priceCurrency": "THB",
+  "priceFrom": true,
+  "ownership": "Freehold or Leasehold",
+  "blurb": "A boutique gated development of just eight modern tropical pool villas near the north-eastern tip of Koh Samui, a short stroll from Choeng Mon Beach and minutes from the airport, restaurants and Fisherman's Village. Each four-bedroom villa offers around 270 m² of built-up space, a private swimming pool, a landscaped garden and private parking, within a peaceful, low-density community. Sold freehold or leasehold on a Chanote title, from ฿13,900,000 with a construction milestone payment plan.",
+  "detail": "Set in one of Koh Samui's most desirable residential pockets on the Plai Laem headland, this is a boutique development of only eight modern tropical pool villas — a deliberately low-density, gated community built for privacy and calm. The location is the draw: Choeng Mon Beach is a one-kilometre, twelve-minute walk away, the villas sit directly opposite the Samui Padel courts, and the airport, Big Buddha, Bangrak Pier, Fisherman's Village and Chaweng are all within a short drive.\n\nEach villa is a spacious, family-friendly four-bedroom home with four bathrooms across approximately 270 m² of built-up area. Contemporary interiors pair an open-plan living and dining space with a fitted kitchen, comfortable bedrooms and a dedicated laundry room, opening out to a private swimming pool framed by a landscaped garden and served by private parking.\n\nThe design suits equally a full-time residence, a holiday home or a rental investment, with generous proportions and a quiet setting that hold their appeal year-round. Only eight villas are offered, so the community stays intimate and uncrowded.\n\nEvery villa is sold on a Chanote title with freehold and leasehold ownership both available, priced from ฿13,900,000 and not including a furniture package. Purchases follow a construction milestone payment plan, with instalments tied to build progress through to handover.",
+  "features": [
+    {
+      "l": "Four bedrooms · four bathrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Private swimming pool",
+      "i": "pool"
+    },
+    {
+      "l": "≈270 m² built-up area",
+      "i": "home"
+    },
+    {
+      "l": "Landscaped garden & private parking",
+      "i": "tree"
+    },
+    {
+      "l": "Dedicated laundry room",
+      "i": "sofa"
+    },
+    {
+      "l": "Gated community — only eight villas",
+      "i": "shield"
+    },
+    {
+      "l": "Peaceful, low-density enclave",
+      "i": "users"
+    },
+    {
+      "l": "Freehold & leasehold available",
+      "i": "key"
+    },
+    {
+      "l": "Chanote title",
+      "i": "check"
+    },
+    {
+      "l": "Choeng Mon Beach — 1 km (12-min walk)",
+      "i": "waves"
+    },
+    {
+      "l": "Opposite Samui Padel courts",
+      "i": "gym"
+    },
+    {
+      "l": "Airport 8–12 min · Fisherman's Village 10–15 min",
+      "i": "pin"
+    },
+    {
+      "l": "Construction milestone payment plan",
+      "i": "building"
+    }
+  ],
+  "created": 1784635320507,
+  "imageFocal": "",
+  "internalName": "The Cape Pool Villas",
+  "focals": {}
+}
