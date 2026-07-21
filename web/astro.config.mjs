@@ -16,8 +16,8 @@ const devPort = portFlag > -1 ? process.argv[portFlag + 1] : "default";
 // rentals/[id] detail pages) is prerendered at build time for speed and SEO.
 // React is used only for the interactive "islands" (nav, gallery, filters,
 // save, contact form). Listings are edited through /admin and the site
-// rebuilds automatically on the host (Netlify). The contact form uses Netlify
-// Forms — no server code to manage.
+// rebuilds automatically on the host (Cloudflare Pages). The contact form is
+// mailto/WhatsApp only — no server code to manage.
 export default defineConfig({
   site: "https://elsewhere.living",
   integrations: [react(), sitemap()],

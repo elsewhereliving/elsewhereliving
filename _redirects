@@ -1,5 +1,0 @@
-# SPA fallback: any path with no prerendered file is served the app shell,
-# which reads the URL and renders the matching view. Prerendered pages
-# (/, /properties/, /property/<id>/, /rentals/<id>/, …) are real files and
-# are served directly — this only catches unknown paths.
-/*    /index.html   200

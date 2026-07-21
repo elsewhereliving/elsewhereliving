@@ -40,8 +40,6 @@ Cloudflare builds the site (a few minutes the first time — it's optimizing ~1,
 2. Cloudflare walks you through it. (If your domain's DNS is already on Cloudflare, it's basically one click. If not, it tells you exactly what to change.)
 3. Add `www.elsewhere.living` too if you want; Cloudflare can redirect it.
 
-> Once this works, you can turn off the old Netlify site whenever you're ready.
-
 ---
 
 ## Part 2 — Edit your listings (The Listings Studio)
