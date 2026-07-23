@@ -29,20 +29,26 @@
   "market": "Bali",
   "title": "Address Bali — Beachfront Residences, Pererenan",
   "type": "Condominium",
-  "view": "Beachfront",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
   "status": "Off-Plan",
   "beds": 1,
   "bedsLabel": "Studio–Penthouse",
   "baths": "1–2",
-  "interior": "50–150 m²",
+  "interior": "45–150 m²",
   "plot": null,
-  "year": "2027",
+  "year": "2028",
   "ownership": "Leasehold",
-  "blurb": "Address Bali is a five-star beachfront residence and private members' club rising a minute from the sand at Pantai Lima, Pererenan. Studios, one-bedroom homes and penthouses — fully furnished and professionally managed — sit beneath a rooftop pool, a 360° ocean-view restaurant and bar, a Japanese garden and 24/7 concierge. Conceived as a lifestyle investment, with projected returns around 15.5% per annum. Completion August 2027. Price on request.",
-  "detail": "Address Bali brings five-star hotel living and a private members' club to Pantai Lima in Pererenan — one of Bali's most exclusive and fastest-appreciating stretches of coast, a one-minute walk from the beach and minutes from the cafés, restaurants and surf of Canggu and Seseh. The building is an award-winning composition of stacked, planted terraces in timber and stone, designed to weather the tropics and age gracefully.\n\nBehind the greenery sits a collection of fully furnished residences — studios, one-bedroom homes, and junior and master penthouses — ranging from roughly 50 to 150 m². Interiors pair warm timber, natural stone and floor-to-ceiling glass, with ground-floor homes opening to private pools and gardens and upper floors framing ocean views. Every residence is turnkey and supported by professional rental management from day one.\n\nLife here is built around the roof: an infinity pool, sun decks and a restaurant and bar with 360° ocean views, alongside a wellness and fitness suite, a Japanese garden and a discreet 24/7 concierge. A private members' club and curated guest services turn the building into a community rather than simply a block of apartments.\n\nConceived as a lifestyle investment rather than a speculative play, Address Bali targets a rental yield of around 15.5% per annum, underpinned by its beachfront location and hotel-grade management. Held on an extendable leasehold structured for international buyers. Completion is scheduled for August 2027; pricing, availability and the full unit mix are shared on request.",
+  "priceOriginalNum": 200000,
+  "priceCurrency": "USD",
+  "priceFrom": true,
+  "blurb": "Address Bali is a PBG-approved, certified five-star boutique hotel residence and private members' club on the oceanfront at Pantai Lima, Pererenan — a famous surf break at the doorstep and Pererenan's best cafés and beach clubs minutes away. Fully furnished studios, one-bedroom homes and penthouses sit beneath a rooftop pool, a 360° ocean-view restaurant and bar, a Japanese garden and 24/7 concierge, with unlimited owner stays and full hotel services. A lifestyle investment targeting a 12–14% return. Leasehold 27 or 37 years; completion Q2 2028. From $200,000.",
+  "detail": "FIVE-STAR BEACHFRONT LIVING IN PERERENAN\nAddress Bali is a PBG-approved, certified five-star boutique hotel residence on the oceanfront at Pantai Lima, Pererenan — one of Bali's most exclusive and fastest-appreciating stretches of coast. A famous surf break sits at the doorstep, with Pererenan's best cafés, restaurants and beach clubs two to five minutes away. The project was recognised at the Asia-Pacific Property Awards 2025 and sits within Bali's pink (tourism) zoning.\n\nROOFTOP LIFE & HOTEL SERVICES\nLife here is built around the roof: an infinity pool, sun decks and a restaurant and bar with 360° ocean views, alongside a wellness and fitness suite, a Japanese garden and a discreet 24/7 concierge. Owners keep unlimited personal stays plus full access to the building's five-star hotel services, while a private members' club and curated guest journeys make it a community rather than simply a block of apartments.\n\nTHE RESIDENCES\nFully furnished studios, one-bedroom homes and penthouses, all with access to the hotel's amenities and rental programme. Indicative from-prices on a 27-year leasehold:\nJunior Studio (garden, pool or sea-view) — 45–65 m² — from $200,000\nSea-View Studio Suite — 45 m² — from $225,000\nSea-View One-Bedroom — 60 m² — from $250,000\nGarden One-Bedroom — 80 m² — from $250,000\nCorner One-Bedroom — 90–100 m² — from $275,000\nJunior Penthouse — 60 m² — from $275,000\nMaster Penthouse — 100 m² — from $300,000\nAn extended 37-year leasehold is available for a modest premium; the pool one-bedrooms are sold out.\n\nINVESTMENT\nConceived as a lifestyle investment rather than a speculative play: a projected 12–14% return, with the entry sea-view studios targeting around $1,800+ in passive monthly income and roughly 20% resale-value growth, underpinned by the oceanfront location and hotel-grade management.\n\nKEY FACTS\nLocation: Pantai Lima, Pererenan — oceanfront, one minute to the beach\nPBG-approved · pink (tourism) zoning\nCertified five-star boutique hotel residences · Asia-Pacific Property Award 2025\nRooftop pool, 360° ocean-view restaurant & bar, Japanese garden, 24/7 concierge\nFully furnished & turnkey · professional rental management · unlimited owner stays\nLeasehold: 27 or 37 years\nCompletion: Q2 2028\nFrom $200,000; full availability and unit-by-unit pricing on request",
   "features": [
     {
-      "l": "One-minute walk to the beach",
+      "l": "Oceanfront — surf break at the doorstep",
       "i": "waves"
     },
     {
@@ -78,7 +84,7 @@
       "i": "shield"
     },
     {
-      "l": "Projected ~15.5% ROI per annum",
+      "l": "Projected 12–14% ROI per annum",
       "i": "sparkles"
     },
     {
@@ -86,7 +92,11 @@
       "i": "view"
     },
     {
-      "l": "Completion August 2027",
+      "l": "PBG-approved · pink tourism zoning",
+      "i": "shield"
+    },
+    {
+      "l": "Completion Q2 2028",
       "i": "building"
     }
   ],

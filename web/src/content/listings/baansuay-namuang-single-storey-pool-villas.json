@@ -1,0 +1,81 @@
+{
+  "id": "baansuay-namuang-single-storey-pool-villas",
+  "internalName": "Baansuay Namuang Phase 2",
+  "image": "/assets/listings/baansuay-namuang-single-storey-pool-villas/01.jpg",
+  "gallery": [
+    "/assets/listings/baansuay-namuang-single-storey-pool-villas/01.jpg",
+    "/assets/listings/baansuay-namuang-single-storey-pool-villas/02.jpg",
+    "/assets/listings/baansuay-namuang-single-storey-pool-villas/03.jpg",
+    "/assets/listings/baansuay-namuang-single-storey-pool-villas/04.jpg",
+    "/assets/listings/baansuay-namuang-single-storey-pool-villas/05.jpg",
+    "/assets/listings/baansuay-namuang-single-storey-pool-villas/06.jpg",
+    "/assets/listings/baansuay-namuang-single-storey-pool-villas/07.jpg",
+    "/assets/listings/baansuay-namuang-single-storey-pool-villas/08.jpg",
+    "/assets/listings/baansuay-namuang-single-storey-pool-villas/09.jpg"
+  ],
+  "location": "Na Muang · Koh Samui · Thailand",
+  "place": "Na Muang, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.4503987,100.0072804",
+  "market": "Koh Samui",
+  "title": "Single-Storey Garden Pool Villas, Na Muang",
+  "type": "Villa",
+  "view": "Garden / Pool View",
+  "status": [
+    "Move-In Ready",
+    "Off-Plan"
+  ],
+  "beds": 3,
+  "bedsLabel": "2–3 Bed",
+  "baths": "2–3",
+  "interior": "136–220 m²",
+  "plot": "176–308 m²",
+  "ownership": "Freehold or Leasehold",
+  "priceOriginalNum": 2990000,
+  "priceCurrency": "THB",
+  "priceFrom": true,
+  "blurb": "A gated community of single-storey garden villas in the quieter, greener Na Muang hills of Koh Samui — practical 2- and 3-bedroom homes with private-pool and non-pool options, from ฿2,990,000. Warm tropical-minimalist interiors, covered parking and private gated plots make it an easy entry into island ownership, whether for full-time living or holiday rental. Minutes from Lamai, schools and the ferry.",
+  "detail": "WARM TROPICAL MINIMALISM IN THE NA MUANG HILLS\nA gated community of single-storey garden villas in the calmer, greener Na Muang area of Koh Samui — built around privacy, simplicity and easy everyday living, away from the busy tourist zones yet minutes from the island's main ring road. Each home sits on its own fenced plot with a private gate, covered parking and a garden-view outlook, within a landscaped setting with 24-hour CCTV and a secured entrance.\n\nOPEN SINGLE-STOREY LIVING\nEvery villa follows an easy single-storey layout, where living areas, bedrooms, pool, terrace and garden stay naturally connected — no stairs, no heavy resort structure. Large glass openings draw light through the home and open onto the private pool. Interiors are warm tropical minimalism: soft neutral tones, natural wood, clean walls and warm lighting, comfortable for full-time living and simple to maintain.\n\nTHE VILLAS\nPractical 2- and 3-bedroom homes, each available with or without a private pool. Where two built-up figures are shown, the pool layout is the larger; the price is the same either way.\n\n2-Bedroom (2 bath)\nUnit N2 — 136 m² built-up · 176 m² land — from ฿2,990,000 · ready to view\nUnits N21 & N23 — private pool · 136 m² built-up · 177 m² land — ฿4,900,000 · handover by Aug 2026\nUnit N30 — 145–159 m² built-up · 215 m² land — ฿6,000,000 · with or without pool\nUnit N28 — 142–163 m² built-up · 217 m² land — ฿6,200,000 · with or without pool\n\n3-Bedroom (3 bath)\nUnit N35 — 176–207 m² built-up · 284 m² land — ฿7,500,000 · with or without pool\nUnit N34 — 185–220 m² built-up · 308 m² land — ฿7,700,000 · with or without pool\nUnit N26 — 180–216 m² built-up · 305 m² land — ฿8,000,000 · with or without pool\n\nINCLUDED & PROTECTED\nDefined specifications and core systems come as standard — water heater and pump, utility meters and air-conditioning provisions — backed by a 5-year structural warranty and 1-year cover on plumbing and utilities. A staged payment plan runs from reservation to handover, with selected upgrades and furniture packages available by unit.\n\nKEY FACTS\nLocation: Na Muang, Koh Samui — a quieter, greener setting near the ring road\nSingle-storey villas · private gate, fence & covered parking · garden views\nSome units ready to view, others handing over from 2026, further plots off-plan\n15 min to Lamai Beach & Raja Ferry Pier · 20 min to Koh Samui Hospital · 4 min to Greenacre International School\nOwnership structured freehold or leasehold\nPrices from ฿2,990,000; availability and exact figures per unit confirmed on request",
+  "features": [
+    {
+      "l": "Private swimming pool (select villas)",
+      "i": "pool"
+    },
+    {
+      "l": "Single-storey layout",
+      "i": "home"
+    },
+    {
+      "l": "Garden-view setting",
+      "i": "tree"
+    },
+    {
+      "l": "2 & 3-bedroom villas",
+      "i": "bed"
+    },
+    {
+      "l": "Private gate & fence",
+      "i": "key"
+    },
+    {
+      "l": "Covered parking",
+      "i": "car"
+    },
+    {
+      "l": "24-hour CCTV security",
+      "i": "shield"
+    },
+    {
+      "l": "Warm tropical-minimalist interiors",
+      "i": "sparkles"
+    },
+    {
+      "l": "5-year structural warranty",
+      "i": "building"
+    },
+    {
+      "l": "15 min to Lamai Beach & ferry",
+      "i": "waves"
+    }
+  ],
+  "created": 1784788559446
+}
