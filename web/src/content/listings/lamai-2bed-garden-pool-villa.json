@@ -1,0 +1,82 @@
+{
+  "id": "lamai-2bed-garden-pool-villa",
+  "internalName": "Villa Yana (Malee 9)",
+  "image": "/assets/listings/lamai-2bed-garden-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/lamai-2bed-garden-pool-villa/01.jpg",
+    "/assets/listings/lamai-2bed-garden-pool-villa/02.jpg",
+    "/assets/listings/lamai-2bed-garden-pool-villa/03.jpg",
+    "/assets/listings/lamai-2bed-garden-pool-villa/04.jpg",
+    "/assets/listings/lamai-2bed-garden-pool-villa/05.jpg",
+    "/assets/listings/lamai-2bed-garden-pool-villa/06.jpg",
+    "/assets/listings/lamai-2bed-garden-pool-villa/07.jpg",
+    "/assets/listings/lamai-2bed-garden-pool-villa/08.jpg",
+    "/assets/listings/lamai-2bed-garden-pool-villa/09.jpg",
+    "/assets/listings/lamai-2bed-garden-pool-villa/10.jpg",
+    "/assets/listings/lamai-2bed-garden-pool-villa/11.jpg",
+    "/assets/listings/lamai-2bed-garden-pool-villa/12.jpg",
+    "/assets/listings/lamai-2bed-garden-pool-villa/13.jpg",
+    "/assets/listings/lamai-2bed-garden-pool-villa/14.jpg",
+    "/assets/listings/lamai-2bed-garden-pool-villa/15.jpg"
+  ],
+  "location": "Lamai · Koh Samui · Thailand",
+  "place": "Lamai, Maret, Ko Samui District, Surat Thani, Thailand",
+  "market": "Koh Samui",
+  "title": "Two-Bedroom Garden Pool Villa in Lamai",
+  "type": "Villa",
+  "view": "Garden / Pool View",
+  "status": "Move-In Ready",
+  "beds": 2,
+  "baths": 2,
+  "interior": "295 m²",
+  "plot": "460 m²",
+  "year": 2018,
+  "priceOriginalNum": 7500000,
+  "priceCurrency": "THB",
+  "ownership": "Leasehold",
+  "blurb": "A peaceful two-bedroom pool villa tucked into a quiet Lamai residence, around three kilometres from the beach and the town's cafés and markets. Single-storey living wraps a private pool and lush garden, with an open kitchen, king-size en-suite bedrooms and a bright, breezy interior — fully furnished and move-in ready on a registered lease. ฿7,500,000.",
+  "detail": "Set in a quiet residential pocket of Lamai on Koh Samui's south-east coast, this single-storey villa is an easy, private retreat framed by a lush tropical garden. The plot is flat and generous — 460 m² of land around 295 m² of built space — and the location is genuinely convenient: roughly three kilometres to Lamai's beach and town, and about fifteen minutes to the airport.\n\nLiving is arranged on one level around a private swimming pool. An open-plan kitchen with a central island runs into a bright living room with a sofa and smart TV, opening through glass to the pool terrace and garden. Both double bedrooms have a king-size bed, built-in wardrobe, air-conditioning and a private en-suite bathroom with a walk-in shower.\n\nEvery room is air-conditioned with ceiling fans throughout, and the villa comes fully furnished and equipped — a modern kitchen with dishwasher and coffee machine, a laundry, and a garden made for slow mornings. Held on a registered leasehold and ready to move into; we can share the lease terms, floor plan and full inventory on request.",
+  "features": [
+    {
+      "l": "Private swimming pool",
+      "i": "pool"
+    },
+    {
+      "l": "Single-storey layout",
+      "i": "home"
+    },
+    {
+      "l": "Two king en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Open-plan kitchen with island",
+      "i": "utensils"
+    },
+    {
+      "l": "Lush tropical garden",
+      "i": "tree"
+    },
+    {
+      "l": "Air-conditioning & ceiling fans throughout",
+      "i": "sparkles"
+    },
+    {
+      "l": "Fully furnished & equipped",
+      "i": "sofa"
+    },
+    {
+      "l": "≈3 km to Lamai beach & town",
+      "i": "waves"
+    },
+    {
+      "l": "Flat 460 m² plot",
+      "i": "plot"
+    },
+    {
+      "l": "Move-in ready, leasehold",
+      "i": "key"
+    }
+  ],
+  "created": 1784797151521
+}
