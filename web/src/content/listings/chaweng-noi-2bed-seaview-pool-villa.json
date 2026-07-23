@@ -1,0 +1,82 @@
+{
+  "id": "chaweng-noi-2bed-seaview-pool-villa",
+  "internalName": "Villa Oceania",
+  "image": "/assets/listings/chaweng-noi-2bed-seaview-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/chaweng-noi-2bed-seaview-pool-villa/01.jpg",
+    "/assets/listings/chaweng-noi-2bed-seaview-pool-villa/02.jpg",
+    "/assets/listings/chaweng-noi-2bed-seaview-pool-villa/03.jpg",
+    "/assets/listings/chaweng-noi-2bed-seaview-pool-villa/04.jpg",
+    "/assets/listings/chaweng-noi-2bed-seaview-pool-villa/05.jpg",
+    "/assets/listings/chaweng-noi-2bed-seaview-pool-villa/06.jpg",
+    "/assets/listings/chaweng-noi-2bed-seaview-pool-villa/07.jpg",
+    "/assets/listings/chaweng-noi-2bed-seaview-pool-villa/08.jpg",
+    "/assets/listings/chaweng-noi-2bed-seaview-pool-villa/09.jpg",
+    "/assets/listings/chaweng-noi-2bed-seaview-pool-villa/10.jpg",
+    "/assets/listings/chaweng-noi-2bed-seaview-pool-villa/11.jpg",
+    "/assets/listings/chaweng-noi-2bed-seaview-pool-villa/12.jpg",
+    "/assets/listings/chaweng-noi-2bed-seaview-pool-villa/13.jpg",
+    "/assets/listings/chaweng-noi-2bed-seaview-pool-villa/14.jpg",
+    "/assets/listings/chaweng-noi-2bed-seaview-pool-villa/15.jpg"
+  ],
+  "location": "Chaweng Noi · Koh Samui · Thailand",
+  "place": "Chaweng Noi, Bo Phut, Ko Samui District, Surat Thani, Thailand",
+  "market": "Koh Samui",
+  "title": "Two-Bedroom Sea-View Infinity Pool Villa in Chaweng Noi",
+  "type": "Villa",
+  "view": "Sea View",
+  "status": "Move-In Ready",
+  "beds": 2,
+  "baths": 2,
+  "interior": "120 m²",
+  "plot": "272 m²",
+  "year": 2021,
+  "priceOriginalNum": 10990000,
+  "priceCurrency": "THB",
+  "ownership": "Freehold",
+  "blurb": "A architectural two-bedroom villa on a Chaweng Noi hillside, offered freehold on a Chanote title — an infinity pool spilling toward the sea, arched roofs and full-height glass framing the coast and the green valley below. ฿10,990,000.",
+  "detail": "Perched on a hillside above Chaweng Noi on Koh Samui's south-east coast, this distinctive two-bedroom villa is offered freehold on a Chanote title. Sculptural arched roofs and full-height glass open the whole home to a panorama of green valley, hills and the sea beyond, with an infinity pool that appears to spill toward the horizon.\n\nInside, an open kitchen and living-dining space sit under vaulted ceilings, opening onto the pool terrace. Two double bedrooms — one in warm terracotta tones, one in cool blues — each have an en-suite bathroom and their own framed view, with air-conditioning throughout and full furnishing.\n\nThe infinity pool and sun terrace make the most of the elevated setting and the sunsets over the valley. Offered freehold on a Chanote title; title documents, floor plan and inventory on request.",
+  "features": [
+    {
+      "l": "Freehold — Chanote title",
+      "i": "key"
+    },
+    {
+      "l": "Infinity swimming pool",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic sea & valley views",
+      "i": "view"
+    },
+    {
+      "l": "Two en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Vaulted, arched architecture",
+      "i": "sparkles"
+    },
+    {
+      "l": "Full-height glass walls",
+      "i": "home"
+    },
+    {
+      "l": "Open kitchen & living",
+      "i": "utensils"
+    },
+    {
+      "l": "Air-conditioning throughout",
+      "i": "sun"
+    },
+    {
+      "l": "Fully furnished & turnkey",
+      "i": "sofa"
+    },
+    {
+      "l": "Hillside setting above Chaweng Noi",
+      "i": "mountain"
+    }
+  ],
+  "created": 1784796551521
+}

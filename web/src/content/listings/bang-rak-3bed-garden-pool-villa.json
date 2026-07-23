@@ -1,0 +1,82 @@
+{
+  "id": "bang-rak-3bed-garden-pool-villa",
+  "internalName": "Villa Manee 01",
+  "image": "/assets/listings/bang-rak-3bed-garden-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/bang-rak-3bed-garden-pool-villa/01.jpg",
+    "/assets/listings/bang-rak-3bed-garden-pool-villa/02.jpg",
+    "/assets/listings/bang-rak-3bed-garden-pool-villa/03.jpg",
+    "/assets/listings/bang-rak-3bed-garden-pool-villa/04.jpg",
+    "/assets/listings/bang-rak-3bed-garden-pool-villa/05.jpg",
+    "/assets/listings/bang-rak-3bed-garden-pool-villa/06.jpg",
+    "/assets/listings/bang-rak-3bed-garden-pool-villa/07.jpg",
+    "/assets/listings/bang-rak-3bed-garden-pool-villa/08.jpg",
+    "/assets/listings/bang-rak-3bed-garden-pool-villa/09.jpg",
+    "/assets/listings/bang-rak-3bed-garden-pool-villa/10.jpg",
+    "/assets/listings/bang-rak-3bed-garden-pool-villa/11.jpg",
+    "/assets/listings/bang-rak-3bed-garden-pool-villa/12.jpg",
+    "/assets/listings/bang-rak-3bed-garden-pool-villa/13.jpg",
+    "/assets/listings/bang-rak-3bed-garden-pool-villa/14.jpg",
+    "/assets/listings/bang-rak-3bed-garden-pool-villa/15.jpg"
+  ],
+  "location": "Bang Rak · Koh Samui · Thailand",
+  "place": "Bang Rak, Bo Phut, Ko Samui District, Surat Thani, Thailand",
+  "market": "Koh Samui",
+  "title": "Three-Bedroom Garden Pool Villa in Bang Rak",
+  "type": "Villa",
+  "view": "Garden / Pool View",
+  "status": "Move-In Ready",
+  "beds": 3,
+  "baths": 3,
+  "interior": "170 m²",
+  "plot": "483 m²",
+  "year": 2022,
+  "priceOriginalNum": 10490000,
+  "priceCurrency": "THB",
+  "ownership": "Leasehold",
+  "blurb": "An elegant three-bedroom pool villa in the heart of Bang Rak, on Koh Samui's north-east coast — single-storey living around a private pool with teal accents, a poolside sala and a bright open kitchen. Minutes to Big Buddha Beach and Fisherman's Village. ฿10,490,000.",
+  "detail": "Set in the sought-after Bang Rak area on Koh Samui's north-east coast, this single-storey villa is an easy, private home just minutes from Big Buddha Beach, Fisherman's Village and the airport. It occupies a 483 m² plot with 170 m² of built space, arranged around a private pool with a shaded poolside sala.\n\nInside, an open kitchen with a central island opens to bright living and dining areas that flow out to the pool terrace. Three double bedrooms each have an en-suite bathroom, with crisp interiors lifted by teal accents, air-conditioning throughout and full furnishing.\n\nThe pool terrace and sala are made for island living and entertaining, framed by lawn and tropical planting. The villa is held on a registered leasehold running from September 2022 to September 2052 — a 30-year term. Lease terms, floor plan and inventory on request.",
+  "features": [
+    {
+      "l": "Private swimming pool",
+      "i": "pool"
+    },
+    {
+      "l": "Poolside sala",
+      "i": "terrace"
+    },
+    {
+      "l": "Single-storey layout",
+      "i": "home"
+    },
+    {
+      "l": "Three en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Open kitchen with island",
+      "i": "utensils"
+    },
+    {
+      "l": "Minutes to Big Buddha Beach",
+      "i": "waves"
+    },
+    {
+      "l": "Landscaped garden",
+      "i": "tree"
+    },
+    {
+      "l": "Air-conditioning throughout",
+      "i": "sun"
+    },
+    {
+      "l": "Fully furnished & turnkey",
+      "i": "sofa"
+    },
+    {
+      "l": "Registered 30-year leasehold",
+      "i": "key"
+    }
+  ],
+  "created": 1784796851521
+}
