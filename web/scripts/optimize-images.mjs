@@ -2,11 +2,21 @@
 // Output: web/public/_img/<original path>-<width>.webp  (480 = cards/thumbs,
 // 1366 = main gallery frame). Idempotent — skips variants already generated.
 // Run via `npm run images` (also runs automatically before build).
+//
+// Work is spread across all CPU cores: a cold run (e.g. Cloudflare Pages, where
+// public/_img is gitignored and every build starts empty) has to generate
+// thousands of variants, and doing them one-at-a-time overran Cloudflare's build
+// time limit. Each variant is an independent Sharp call, so we run a pool of
+// them concurrently — one libvips thread per call so the pool, not libvips,
+// saturates the cores.
 import sharp from "sharp";
-import { readdir, mkdir, stat } from "node:fs/promises";
+import { readdir, mkdir, stat, readFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
+import os from "node:os";
 import path from "node:path";
+
+sharp.concurrency(1); // one thread per call; we parallelize across calls below
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const PUBLIC = path.join(ROOT, "public");
@@ -27,31 +37,24 @@ async function* walk(dir) {
   }
 }
 
-let made = 0, skipped = 0, failed = 0;
+// 1. Collect every variant that still needs generating (skip existing = cached).
+const tasks = [];
+let skipped = 0;
 for (const sub of SOURCES) {
   for await (const file of walk(path.join(PUBLIC, sub))) {
     const rel = path.relative(PUBLIC, file).replace(EXT, "");
     for (const w of WIDTHS) {
       const out = path.join(OUT, `${rel}-${w}.webp`);
       if (existsSync(out)) { skipped++; continue; }
-      await mkdir(path.dirname(out), { recursive: true });
-      try {
-        await sharp(file).resize({ width: w, withoutEnlargement: true }).webp({ quality: 72 }).toFile(out);
-        made++;
-      } catch (err) {
-        failed++;
-        console.warn("skip", rel, String(err.message || err));
-      }
+      tasks.push({ kind: "webp", src: file, out, width: w });
     }
   }
 }
-console.log(`images: ${made} generated, ${skipped} cached, ${failed} failed`);
 
 // Social-share (og:image) variants — cover photos only. WhatsApp silently
 // drops link-preview images over ~600 KB and several covers are multi-MB
 // originals, so each listing/rental cover gets a ~1200px JPEG (webp isn't
 // reliably rendered by every scraper) at /_img/<path>-og.jpg.
-const { readFile } = await import("node:fs/promises");
 const covers = new Set(["/assets/imagery/og-image.jpg"]);
 for (const coll of ["listings", "rentals"]) {
   const dir = path.join(ROOT, "src", "content", coll);
@@ -62,18 +65,40 @@ for (const coll of ["listings", "rentals"]) {
     } catch { /* unreadable record — the build proper will report it */ }
   }
 }
-let ogMade = 0, ogSkipped = 0;
+let ogSkipped = 0;
 for (const cover of covers) {
   const src = path.join(PUBLIC, "." + cover);
   const out = path.join(OUT, cover.replace(/^\//, "").replace(EXT, "") + "-og.jpg");
   if (existsSync(out)) { ogSkipped++; continue; }
   if (!existsSync(src)) continue;
-  await mkdir(path.dirname(out), { recursive: true });
-  try {
-    await sharp(src).resize({ width: 1200, withoutEnlargement: true }).flatten({ background: "#ffffff" }).jpeg({ quality: 72 }).toFile(out);
-    ogMade++;
-  } catch (err) {
-    console.warn("og skip", cover, String(err.message || err));
+  tasks.push({ kind: "og", src, out });
+}
+
+// 2. Pre-create the output directories once (cheaper than per-task mkdir).
+for (const d of new Set(tasks.map((t) => path.dirname(t.out)))) {
+  await mkdir(d, { recursive: true });
+}
+
+// 3. Run the tasks through a pool sized to the available cores.
+const CONCURRENCY = Math.max(2, os.availableParallelism?.() ?? os.cpus().length);
+let made = 0, ogMade = 0, failed = 0, next = 0;
+async function worker() {
+  for (let t = tasks[next++]; t; t = tasks[next++]) {
+    try {
+      if (t.kind === "webp") {
+        await sharp(t.src).resize({ width: t.width, withoutEnlargement: true }).webp({ quality: 72 }).toFile(t.out);
+        made++;
+      } else {
+        await sharp(t.src).resize({ width: 1200, withoutEnlargement: true }).flatten({ background: "#ffffff" }).jpeg({ quality: 72 }).toFile(t.out);
+        ogMade++;
+      }
+    } catch (err) {
+      failed++;
+      console.warn("skip", path.relative(OUT, t.out), String(err.message || err));
+    }
   }
 }
+await Promise.all(Array.from({ length: CONCURRENCY }, worker));
+
+console.log(`images: ${made} generated, ${skipped} cached, ${failed} failed (concurrency ${CONCURRENCY})`);
 console.log(`og images: ${ogMade} generated, ${ogSkipped} cached`);
