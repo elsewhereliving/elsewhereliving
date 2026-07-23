@@ -14,8 +14,7 @@ const waHref = `https://wa.me/${waDigits}`;
 const stats = [
   { v: "20M+", l: "Views" },
   { v: "40K+", l: "Followers" },
-  { v: "5", l: "Markets" },
-  { v: "1 day", l: "Reply" },
+  { v: "6", l: "Markets" },
 ];
 ---
 <Base
@@ -92,7 +91,7 @@ const stats = [
 
   <!-- Stats strip -->
   <section style="background:var(--mist); color:var(--navy); padding:clamp(44px, 6vw, 72px) clamp(20px, 4vw, 56px);">
-    <div class="reveal" data-grid="4" style="max-width:1100px; margin:0 auto; display:grid; grid-template-columns:repeat(4, 1fr); gap:clamp(20px, 4vw, 52px);">
+    <div class="reveal" data-grid="3" style="max-width:1100px; margin:0 auto; display:grid; grid-template-columns:repeat(3, 1fr); gap:clamp(20px, 4vw, 52px);">
       {stats.map((s) => (
         <div style="border-top:1px solid rgba(21,38,68,0.2); padding-top:18px;">
           <div style="font-family:var(--font-serif); font-weight:300; font-size:clamp(2rem, 4vw, 3rem); letter-spacing:-0.01em; color:var(--navy); line-height:1;">{s.v}</div>
