@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 
 import { listingPrice, rentalPrice, formatNative } from "../../lib/price";
-import { VIEW_TAGS } from "../../lib/format";
+import { VIEW_TAGS, OWNERSHIP_OPTIONS } from "../../lib/format";
 import { optImg } from "../../lib/img";
 import { Icon, ICON_KEYS } from "./icons";
 import { TextField, NumberField, TextArea, SelectField, ChipMulti, FormSection } from "./fields";
@@ -226,7 +226,7 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
                 <TextField label="Property size" value={rec.interior} onChange={(v) => set({ interior: v })} hint="number + m² only" placeholder="450 m² or —" />
                 <TextField label="Plot / land" value={rec.plot || ""} onChange={(v) => set({ plot: v || null })} hint="number + m² / rai only" placeholder="1,600 m²" />
                 <TextField label="Completion" value={rec.year || ""} onChange={(v) => set({ year: v || null })} placeholder="2025" />
-                <SelectField label="Ownership" value={rec.ownership || "Freehold"} onChange={(v) => set({ ownership: v })} options={["Freehold", "Leasehold", "Freehold or Leasehold"]} />
+                <SelectField label="Ownership" value={rec.ownership || "Freehold"} onChange={(v) => set({ ownership: v })} options={[...OWNERSHIP_OPTIONS]} />
               </>
             )}
           </FormSection>

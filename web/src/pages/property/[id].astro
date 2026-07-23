@@ -14,7 +14,7 @@ import { relatedListings } from "../../lib/related";
 import { optImg, ogImg } from "../../lib/img";
 
 const { contact } = getSiteContent();
-import { viewText, viewList } from "../../lib/format";
+import { viewText, viewList, statusList } from "../../lib/format";
 
 export async function getStaticPaths() {
   const listings = await getListings();
@@ -116,7 +116,7 @@ const jsonLd = {
             <div style="display:flex; flex-wrap:wrap; gap:8px; margin-top:18px;">
               <Badge tone="navy">{l.type}</Badge>
               {viewList(l.view).map((v) => <Badge tone="mist">{v}</Badge>)}
-              {l.status && <Badge tone="accent">{l.status}</Badge>}
+              {statusList(l.status).map((s) => <Badge tone="accent">{s}</Badge>)}
             </div>
 
             <div style="margin:24px 0 6px;">

@@ -9,7 +9,7 @@ import type { Listing, Rental, SiteContent } from "./types";
 import siteLocal from "../data/site.json";
 import homeLocal from "../data/home.json";
 import { listingPrice, rentalPrice } from "./price";
-import { VIEW_TAGS } from "./format";
+import { VIEW_TAGS, OWNERSHIP_OPTIONS } from "./format";
 
 // Eagerly import every per-property file at build time.
 const listingFiles = import.meta.glob<{ default: Listing }>("../content/listings/*.json", { eager: true });
@@ -25,6 +25,7 @@ function collect<T extends { id?: string }>(files: Record<string, { default: T }
     validateSize(kind, id, "interior", (m.default as Record<string, unknown>).interior);
     validateSize(kind, id, "plot", (m.default as Record<string, unknown>).plot);
     validateSize(kind, id, "size", (m.default as Record<string, unknown>).size);
+    validateOwnership(kind, id, (m.default as Record<string, unknown>).ownership);
     validateUnits(kind, id, m.default as Record<string, unknown>);
     return { ...m.default, id };
   });
@@ -43,6 +44,23 @@ function validateView(kind: string, id: string, view: unknown): void {
           `Use only: ${VIEW_TAGS.join(", ")}. To add a new tag, extend VIEW_TAGS in lib/format.ts.`
       );
     }
+  }
+}
+
+// `ownership` renders verbatim in the spec row and is a fixed vocabulary, not
+// free text (OWNERSHIP_OPTIONS). One-off phrasings — a specific lease term, a
+// title type, a holding structure — used to leak onto the card; they belong in
+// `detail` instead. An empty/absent value is allowed (the row is hidden); any
+// other string must be one of the allowed options or the build fails here.
+function validateOwnership(kind: string, id: string, ownership: unknown): void {
+  if (ownership === undefined || ownership === null || ownership === "") return;
+  if (!(OWNERSHIP_OPTIONS as readonly string[]).includes(ownership as string)) {
+    throw new Error(
+      `${kind} "${id}": unknown ownership ${JSON.stringify(ownership)}. ` +
+        `Use only: ${OWNERSHIP_OPTIONS.join(", ")} (or leave empty). ` +
+        `Lease terms, title types and holding structures go in "detail", not the card. ` +
+        `To add a value, extend OWNERSHIP_OPTIONS in lib/format.ts.`
+    );
   }
 }
 

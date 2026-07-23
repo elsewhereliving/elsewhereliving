@@ -3,7 +3,7 @@
 // only in this browser's localStorage, exactly like the repo-folder grant.
 // The model reads dropped photos + pasted notes and fills the form through a
 // forced-schema tool call, so no fragile JSON parsing is needed.
-import { VIEW_TAGS } from "../../lib/format";
+import { VIEW_TAGS, OWNERSHIP_OPTIONS } from "../../lib/format";
 import type { Rec } from "./store";
 
 export const AI_MODEL = "claude-sonnet-5";
@@ -59,7 +59,7 @@ function toolFor(isRental: boolean, markets: string[]) {
     interior: S("Interior size, strictly number/range + unit: '450 m²', '425–680 m²', '≈700 m²'. NO words (built/indoor/total…) — a second area goes in features or detail. Use '—' for land."),
     plot: S("Plot / land size, strictly number/range + unit: '1,600 m²', '403+ m²', '1 rai'. NO words (min/from/…)."),
     year: { type: "integer", description: "Completion year — built or expected." },
-    ownership: { type: "string", enum: ["Freehold", "Leasehold", "Freehold or Leasehold"] },
+    ownership: { type: "string", enum: [...OWNERSHIP_OPTIONS] },
     priceOriginalNum: N("Asking price as a plain number in its NATIVE currency, e.g. 45000000. Never convert — USD is computed at build time."),
     priceCurrency: { type: "string", enum: CURRENCIES, description: "Native currency of priceOriginalNum." },
     priceFrom: { type: "boolean", description: "true when it's a 'from' price (multiple units)." },

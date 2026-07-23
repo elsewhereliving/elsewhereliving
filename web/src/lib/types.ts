@@ -19,7 +19,7 @@ export interface Listing {
   title: string;
   type: "Villa" | "Condominium" | "Land" | string;
   view: string | string[];
-  status: "Move-In Ready" | "Off-Plan" | string;
+  status: "Move-In Ready" | "Off-Plan" | string | string[];
   beds: number;
   bedsLabel?: string;
   baths: number | string;

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Listing } from "../../lib/types";
-import { viewBadges, viewList, viewText } from "../../lib/format";
+import { viewBadges, viewList, viewText, statusList } from "../../lib/format";
 import { optImg, optImgSrcset, CARD_SIZES } from "../../lib/img";
 import SaveButton from "./SaveButton";
 import RangeSlider from "./RangeSlider";
@@ -245,7 +245,9 @@ function PropertyCard({ item }: { item: Listing }) {
           }}
         />
         <div style={{ position: "absolute", top: 14, left: 14, zIndex: 2, display: "flex", flexWrap: "wrap", gap: 6 }}>
-          {item.status ? <BadgeLight>{item.status}</BadgeLight> : null}
+          {statusList(item.status).map((s) => (
+            <BadgeLight key={s}>{s}</BadgeLight>
+          ))}
           {viewBadges(item.view).map((v) => (
             <BadgeLight key={v}>{v}</BadgeLight>
           ))}
@@ -611,7 +613,7 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
       (l) =>
         (market === ALL || l.market === market) &&
         (type === ALL || l.type === type) &&
-        (status === ALL || l.status === status) &&
+        (status === ALL || statusList(l.status).includes(status)) &&
         (view === ALL || viewList(l.view).includes(view)) &&
         l.beds >= minBeds &&
         (!priceActive || (l.priceNum > 0 && l.priceNum >= priceLo && l.priceNum <= priceHi))

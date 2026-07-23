@@ -3,7 +3,7 @@
 import Icon from "./Icon.astro";
 import Badge from "./Badge.astro";
 import SaveButton from "./react/SaveButton.tsx";
-import { viewBadges, viewText } from "../lib/format";
+import { viewBadges, viewText, statusList } from "../lib/format";
 import { optImg, optImgSrcset, CARD_SIZES } from "../lib/img";
 import type { Listing } from "../lib/types";
 
@@ -19,7 +19,7 @@ const tooltip = item.priceOriginal
   <div class="pcard__media pcard__media--32 ew-grain">
     <img src={optImg(item.image, "main")} srcset={optImgSrcset(item.image)} sizes={optImgSrcset(item.image) ? CARD_SIZES : undefined} alt={item.title} loading="lazy" decoding="async" width="640" height="427" style={`object-position:${item.imageFocal || "center"}`} onerror={`this.onerror=null;this.removeAttribute('srcset');this.src='${item.image}'`} />
     <div style="position:absolute; top:14px; left:14px; z-index:2; display:flex; flex-wrap:wrap; gap:6px;">
-      {item.status && <Badge tone="light">{item.status}</Badge>}
+      {statusList(item.status).map((s) => <Badge tone="light">{s}</Badge>)}
       {viewBadges(item.view).map((v) => <Badge tone="light">{v}</Badge>)}
     </div>
     <div style="position:absolute; top:12px; right:12px; z-index:2;"><SaveButton id={item.id} client:visible /></div>

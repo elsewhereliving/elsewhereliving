@@ -1,6 +1,6 @@
 import { useState } from "react";
 import type { Listing, Rental } from "../../lib/types";
-import { viewBadges, viewText } from "../../lib/format";
+import { viewBadges, viewText, statusList } from "../../lib/format";
 import { optImg, optImgSrcset, CARD_SIZES } from "../../lib/img";
 import { useSaved } from "./useSaved";
 import SaveButton from "./SaveButton";
@@ -273,7 +273,9 @@ function PropertyCard({ item }: { item: Listing }) {
           }}
         />
         <div style={{ position: "absolute", top: 14, left: 14, zIndex: 2, display: "flex", flexWrap: "wrap", gap: 6 }}>
-          {item.status ? <BadgeLight>{item.status}</BadgeLight> : null}
+          {statusList(item.status).map((s) => (
+            <BadgeLight key={s}>{s}</BadgeLight>
+          ))}
           {viewBadges(item.view).map((v) => (
             <BadgeLight key={v}>{v}</BadgeLight>
           ))}

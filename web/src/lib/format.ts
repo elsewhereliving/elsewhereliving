@@ -21,6 +21,16 @@ export const VIEW_TAGS = [
   "Garden / Pool View",
 ] as const;
 
+// The ONLY values a listing's `ownership` field may hold. It renders verbatim in
+// the spec row on property cards, so — like `view` — it is a fixed vocabulary,
+// not free text: content.ts validates every listing against it at build time, so
+// a one-off phrasing ("30-Year Leasehold", "Freehold · Chanote title",
+// "Leasehold, Superficies or Thai Company") fails the build instead of cluttering
+// the card. Any nuance (lease term, title type, holding structure) belongs in the
+// listing's `detail`, never here. An empty string is allowed and hides the row.
+// To add a value, add it here — nowhere else.
+export const OWNERSHIP_OPTIONS = ["Freehold", "Leasehold", "Freehold or Leasehold"] as const;
+
 const viewRank = (v: string): number => {
   const i = VIEW_TAGS.indexOf(v as (typeof VIEW_TAGS)[number]);
   return i === -1 ? VIEW_TAGS.length : i;
@@ -40,6 +50,15 @@ export function viewBadges(v: string | string[] | undefined | null, max = 2): st
 /** Join view tags with the brand's middot separator. */
 export function viewText(v: string | string[] | undefined | null): string {
   return viewList(v).join(" · ");
+}
+
+// `status` is usually a single value ("Move-In Ready" / "Off-Plan"), but a
+// mixed-availability development can hold both — some units ready, others still
+// off-plan. Normalise either shape to a list so cards, the property page and the
+// status filter can all show/match every status a property carries.
+export function statusList(s: string | string[] | undefined | null): string[] {
+  const arr = Array.isArray(s) ? s : s ? [s] : [];
+  return arr.filter(Boolean);
 }
 
 /**
