@@ -39,7 +39,7 @@
   "priceCurrency": "THB",
   "ownership": "Freehold",
   "blurb": "The most affordable absolute-beachfront villa on Koh Samui — a three-bedroom home set directly on the sand at Bang Rak, with 30 metres of private beachfront, an infinity-edge saltwater pool and 180° views toward Koh Phangan and year-round sunsets. Freehold Chanote title, minutes from Fisherman's Village. Reduced from ฿65,000,000 to ฿50,000,000.",
-  "detail": "This is a rare thing on Koh Samui: a genuinely absolute-beachfront villa, sitting directly on the sand at Bang Rak on the island's north-east coast, with 30 metres of private beachfront and two points of direct beach access. It looks out over a 180° panorama toward Koh Phangan, with year-round sunsets over the water, and is a five-minute walk from Fisherman's Village, fine dining and everyday amenities. Completed in 2019 and offered freehold on a Chanote title — held directly by Thai nationals, or through a Thai company for foreign buyers.\n\nAt its heart is an infinity-edge saltwater pool that reaches toward the sea, wrapped by a sun terrace with loungers and a large deck set for al fresco, sea-view dining. Expansive open-plan living and dining spaces open completely to the beach, alongside a Western-style kitchen with a breakfast bar and espresso maker, and a separate outdoor sala and BBQ kitchen for entertaining.\n\nAcross 800 m² of built space on a 658 m² beachfront plot, the villa holds three en-suite bedrooms — five bathrooms in total — each oriented to the sea, and is delivered fully furnished with premium contemporary interiors. Secure private parking sits behind a gated entrance.\n\nThe headline is the value: at ฿50,000,000, reduced from ฿65,000,000, it is the cheapest absolute-beachfront villa currently for sale on Koh Samui — equally suited to a full-time residence or a high-return luxury rental. Title documents, floor plans and full specification available on request.",
+  "detail": "This is a rare thing on Koh Samui: a genuinely absolute-beachfront villa, sitting directly on the sand at Bang Rak on the island's north-east coast, with 30 metres of private beachfront and two points of direct beach access. It looks out over a 180° panorama toward Koh Phangan, with year-round sunsets over the water, and is a five-minute walk from Fisherman's Village, fine dining and everyday amenities. Completed in 2019 and offered freehold on a Chanote title.\n\nAt its heart is an infinity-edge saltwater pool that reaches toward the sea, wrapped by a sun terrace with loungers and a large deck set for al fresco, sea-view dining. Expansive open-plan living and dining spaces open completely to the beach, alongside a Western-style kitchen with a breakfast bar and espresso maker, and a separate outdoor sala and BBQ kitchen for entertaining.\n\nAcross 800 m² of built space on a 658 m² beachfront plot, the villa holds three en-suite bedrooms — five bathrooms in total — each oriented to the sea, and is delivered fully furnished with premium contemporary interiors. Secure private parking sits behind a gated entrance.\n\nThe headline is the value: at ฿50,000,000, reduced from ฿65,000,000, it is the cheapest absolute-beachfront villa currently for sale on Koh Samui — equally suited to a full-time residence or a high-return luxury rental.",
   "features": [
     {
       "l": "30 m of private absolute beachfront",
@@ -86,5 +86,7 @@
       "i": "users"
     }
   ],
-  "created": 1784796251521
+  "created": 1784796251521,
+  "featured": true,
+  "featuredRank": 5
 }
