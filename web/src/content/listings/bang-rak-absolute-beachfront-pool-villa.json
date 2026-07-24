@@ -1,0 +1,90 @@
+{
+  "id": "bang-rak-absolute-beachfront-pool-villa",
+  "internalName": "Beachfront Villa — Bang Rak (Airbnb 38890890)",
+  "image": "/assets/listings/bang-rak-absolute-beachfront-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/bang-rak-absolute-beachfront-pool-villa/01.jpg",
+    "/assets/listings/bang-rak-absolute-beachfront-pool-villa/02.jpg",
+    "/assets/listings/bang-rak-absolute-beachfront-pool-villa/03.jpg",
+    "/assets/listings/bang-rak-absolute-beachfront-pool-villa/04.jpg",
+    "/assets/listings/bang-rak-absolute-beachfront-pool-villa/05.jpg",
+    "/assets/listings/bang-rak-absolute-beachfront-pool-villa/06.jpg",
+    "/assets/listings/bang-rak-absolute-beachfront-pool-villa/07.jpg",
+    "/assets/listings/bang-rak-absolute-beachfront-pool-villa/08.jpg",
+    "/assets/listings/bang-rak-absolute-beachfront-pool-villa/09.jpg",
+    "/assets/listings/bang-rak-absolute-beachfront-pool-villa/10.jpg",
+    "/assets/listings/bang-rak-absolute-beachfront-pool-villa/11.jpg",
+    "/assets/listings/bang-rak-absolute-beachfront-pool-villa/12.jpg",
+    "/assets/listings/bang-rak-absolute-beachfront-pool-villa/13.jpg",
+    "/assets/listings/bang-rak-absolute-beachfront-pool-villa/14.jpg",
+    "/assets/listings/bang-rak-absolute-beachfront-pool-villa/15.jpg"
+  ],
+  "location": "Bang Rak · Koh Samui · Thailand",
+  "place": "Bang Rak Beach, Bo Phut, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.56072,100.03817",
+  "market": "Koh Samui",
+  "title": "Absolute Beachfront Three-Bedroom Pool Villa, Bang Rak",
+  "type": "Villa",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 3,
+  "baths": 5,
+  "interior": "800 m²",
+  "plot": "658 m²",
+  "year": 2019,
+  "priceOriginalNum": 50000000,
+  "priceCurrency": "THB",
+  "ownership": "Freehold",
+  "blurb": "The most affordable absolute-beachfront villa on Koh Samui — a three-bedroom home set directly on the sand at Bang Rak, with 30 metres of private beachfront, an infinity-edge saltwater pool and 180° views toward Koh Phangan and year-round sunsets. Freehold Chanote title, minutes from Fisherman's Village. Reduced from ฿65,000,000 to ฿50,000,000.",
+  "detail": "This is a rare thing on Koh Samui: a genuinely absolute-beachfront villa, sitting directly on the sand at Bang Rak on the island's north-east coast, with 30 metres of private beachfront and two points of direct beach access. It looks out over a 180° panorama toward Koh Phangan, with year-round sunsets over the water, and is a five-minute walk from Fisherman's Village, fine dining and everyday amenities. Completed in 2019 and offered on a freehold Chanote title.\n\nAt its heart is an infinity-edge saltwater pool that reaches toward the sea, wrapped by a sun terrace with loungers and a large deck set for al fresco, sea-view dining. Expansive open-plan living and dining spaces open completely to the beach, alongside a Western-style kitchen with a breakfast bar and espresso maker, and a separate outdoor sala and BBQ kitchen for entertaining.\n\nAcross 800 m² of built space on a 658 m² beachfront plot, the villa holds three en-suite bedrooms — five bathrooms in total — each oriented to the sea, and is delivered fully furnished with premium contemporary interiors. Secure private parking sits behind a gated entrance.\n\nThe headline is the value: at ฿50,000,000, reduced from ฿65,000,000, it is the cheapest absolute-beachfront villa currently for sale on Koh Samui — equally suited to a full-time residence or a high-return luxury rental. Title documents, floor plans and full specification available on request.",
+  "features": [
+    {
+      "l": "30 m of private absolute beachfront",
+      "i": "waves"
+    },
+    {
+      "l": "Infinity-edge saltwater pool",
+      "i": "pool"
+    },
+    {
+      "l": "180° views toward Koh Phangan & sunsets",
+      "i": "view"
+    },
+    {
+      "l": "Freehold Chanote title",
+      "i": "key"
+    },
+    {
+      "l": "Three en-suite bedrooms (5 bathrooms)",
+      "i": "bed"
+    },
+    {
+      "l": "Open-plan sea-view living & dining",
+      "i": "home"
+    },
+    {
+      "l": "Western kitchen with breakfast bar",
+      "i": "utensils"
+    },
+    {
+      "l": "Outdoor sala & BBQ kitchen",
+      "i": "terrace"
+    },
+    {
+      "l": "Fully furnished, contemporary interiors",
+      "i": "sofa"
+    },
+    {
+      "l": "Gated entry & private parking",
+      "i": "car"
+    },
+    {
+      "l": "5-minute walk to Fisherman's Village",
+      "i": "users"
+    }
+  ],
+  "created": 1784796251521
+}
