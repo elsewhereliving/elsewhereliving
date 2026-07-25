@@ -1,0 +1,87 @@
+{
+  "id": "lamai-boutique-3bed-rooftop-pool-villas",
+  "internalName": "Naga Kiri Villas Lamai",
+  "image": "/assets/listings/lamai-boutique-3bed-rooftop-pool-villas/01.jpg",
+  "gallery": [
+    "/assets/listings/lamai-boutique-3bed-rooftop-pool-villas/01.jpg",
+    "/assets/listings/lamai-boutique-3bed-rooftop-pool-villas/02.jpg",
+    "/assets/listings/lamai-boutique-3bed-rooftop-pool-villas/03.jpg",
+    "/assets/listings/lamai-boutique-3bed-rooftop-pool-villas/04.jpg",
+    "/assets/listings/lamai-boutique-3bed-rooftop-pool-villas/05.jpg",
+    "/assets/listings/lamai-boutique-3bed-rooftop-pool-villas/06.jpg",
+    "/assets/listings/lamai-boutique-3bed-rooftop-pool-villas/07.jpg",
+    "/assets/listings/lamai-boutique-3bed-rooftop-pool-villas/08.jpg",
+    "/assets/listings/lamai-boutique-3bed-rooftop-pool-villas/09.jpg",
+    "/assets/listings/lamai-boutique-3bed-rooftop-pool-villas/10.jpg",
+    "/assets/listings/lamai-boutique-3bed-rooftop-pool-villas/11.jpg",
+    "/assets/listings/lamai-boutique-3bed-rooftop-pool-villas/12.jpg",
+    "/assets/listings/lamai-boutique-3bed-rooftop-pool-villas/13.jpg",
+    "/assets/listings/lamai-boutique-3bed-rooftop-pool-villas/14.jpg",
+    "/assets/listings/lamai-boutique-3bed-rooftop-pool-villas/15.jpg"
+  ],
+  "location": "Lamai · Koh Samui · Thailand",
+  "place": "Lamai, Maret, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.470164,100.036840",
+  "market": "Koh Samui",
+  "title": "Boutique Three-Bedroom Rooftop-Pavilion Pool Villas, Lamai",
+  "type": "Villa",
+  "view": [
+    "Mountain View",
+    "Garden / Pool View"
+  ],
+  "status": "Off-Plan",
+  "beds": 3,
+  "baths": "3.5",
+  "interior": "275 m²",
+  "plot": "400–500 m²",
+  "priceOriginalNum": 7500000,
+  "priceCurrency": "THB",
+  "priceFrom": true,
+  "ownership": "Freehold or Leasehold",
+  "yield": "10.7–15% net projected ROI",
+  "blurb": "A boutique collection of single-storey tropical villas three minutes from Lamai Beach, framed by coconut groves and mountain views. Three-bedroom homes with a private pool, a rooftop pavilion and landscaped gardens — a limited release in one of Samui's most sought-after areas. Off-plan, from ฿7,500,000 leasehold (฿11,500,000 freehold), with projected returns up to 15%.",
+  "detail": "A boutique collection of modern tropical homes just three minutes from Lamai Beach and all the essential amenities, on Koh Samui's south-east coast. Surrounded by lush coconut groves and framed by mountain views, this small, private development blends comfort, privacy and genuine convenience in one of the island's most sought-after areas — with only a limited number of residences available.\n\nEach single-storey villa is designed for easy living: bright, open interiors, elegant architecture that sits naturally in its surroundings, and a private rooftop pavilion for family relaxation and sunset evenings. Homes run to 275 m² of built space on plots of 400–500 m², with three bedrooms, 3.5 bathrooms and a private swimming pool.\n\nThe specification is thorough — a full-house boiler system, two-car private parking, an automated gate, underground electricity and a private tropical garden, set within green, landscaped common areas and finished to a high standard of construction and craftsmanship. A furniture package is available at ฿1,200,000.\n\nOffered freehold at ฿11,500,000, or leasehold at ฿7,500,000. Freehold ownership is available to Thai nationals or through a Thai company; the leasehold carries a ฿90,000 annual fee, is extendable (paying only administrative and legal costs), and is secured with superficies rights. Sold off-plan, with projected net returns of around 15% on the leasehold entry price and 10.7% freehold. Payment schedule, floor plans and specification available on request.",
+  "features": [
+    {
+      "l": "Private swimming pool",
+      "i": "pool"
+    },
+    {
+      "l": "Private rooftop pavilion",
+      "i": "terrace"
+    },
+    {
+      "l": "Three bedrooms, 3.5 bathrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Mountain & coconut-grove views",
+      "i": "mountain"
+    },
+    {
+      "l": "Boutique, limited release",
+      "i": "shield"
+    },
+    {
+      "l": "3 minutes to Lamai Beach",
+      "i": "waves"
+    },
+    {
+      "l": "Full-house boiler system",
+      "i": "sun"
+    },
+    {
+      "l": "2-car parking & automated gate",
+      "i": "car"
+    },
+    {
+      "l": "Tropical garden, underground electricity",
+      "i": "tree"
+    },
+    {
+      "l": "Freehold or leasehold",
+      "i": "key"
+    }
+  ],
+  "created": 1784951358820
+}
