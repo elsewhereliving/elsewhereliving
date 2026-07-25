@@ -1,0 +1,100 @@
+{
+  "id": "eden-residences-phuket-gardens-of-eden",
+  "image": "/assets/listings/eden-residences-phuket-gardens-of-eden/01.jpg",
+  "gallery": [
+    "/assets/listings/eden-residences-phuket-gardens-of-eden/01.jpg",
+    "/assets/listings/eden-residences-phuket-gardens-of-eden/02.jpg",
+    "/assets/listings/eden-residences-phuket-gardens-of-eden/03.jpg",
+    "/assets/listings/eden-residences-phuket-gardens-of-eden/04.jpg",
+    "/assets/listings/eden-residences-phuket-gardens-of-eden/05.jpg",
+    "/assets/listings/eden-residences-phuket-gardens-of-eden/06.jpg",
+    "/assets/listings/eden-residences-phuket-gardens-of-eden/07.jpg",
+    "/assets/listings/eden-residences-phuket-gardens-of-eden/08.jpg",
+    "/assets/listings/eden-residences-phuket-gardens-of-eden/09.jpg",
+    "/assets/listings/eden-residences-phuket-gardens-of-eden/10.jpg",
+    "/assets/listings/eden-residences-phuket-gardens-of-eden/11.jpg",
+    "/assets/listings/eden-residences-phuket-gardens-of-eden/12.jpg",
+    "/assets/listings/eden-residences-phuket-gardens-of-eden/13.jpg",
+    "/assets/listings/eden-residences-phuket-gardens-of-eden/14.jpg",
+    "/assets/listings/eden-residences-phuket-gardens-of-eden/15.jpg",
+    "/assets/listings/eden-residences-phuket-gardens-of-eden/16.jpg"
+  ],
+  "location": "Bang Tao · Phuket · Thailand",
+  "place": "Gardens of Eden, Cherngtalay, Choeng Thale, Thalang District, Phuket 83110, Thailand",
+  "mapQuery": "8.0238658,98.2917994",
+  "market": "Phuket",
+  "title": "Eden Residences — Gardens of Eden, 50m from Bang Tao Beach",
+  "type": "Condominium",
+  "view": [
+    "Sea View",
+    "Beachside"
+  ],
+  "status": "Off-Plan",
+  "beds": 1,
+  "bedsLabel": "1 – Penthouse",
+  "baths": "1+",
+  "interior": "72–381 m²",
+  "plot": null,
+  "year": null,
+  "priceOriginalNum": 24000000,
+  "priceCurrency": "THB",
+  "priceFrom": true,
+  "ownership": "Freehold or Leasehold",
+  "blurb": "The opening address of Gardens of Eden — the first residences to rise in Bang Tao's 33-acre parkland enclave, just 50 metres from the beach. A full spread of homes, from one-bedroom apartments through sea-view penthouses and duplexes with private rooftop pools, delivered fully finished inside a resort of pools, wellness and restaurants. From THB 24,000,000.",
+  "detail": "Eden Residences is the debut phase of Gardens of Eden, a 73-rai (33-acre) beachfront masterplan on Phuket's west coast, laid out just 50 metres from the sands of Bang Tao. Five low-rise buildings hold 127 residences of every scale — a complete collection, so a first pied-à-terre and a family penthouse can share the same address and the same gardens.\n\nThe setting is the point of difference. Gardens of Eden is conceived as Phuket's first residential project built around its own park: roads and parking are pushed underground and to the perimeter, leaving roughly 70% of the land as open green — a central park of about five hectares threaded by a 3.5-kilometre walking path, lakes, meditation trails and tropical planting, all within a gated and guarded estate.\n\nResidents draw on a resort's worth of shared amenities: a landmark wellness centre with a 1,000 m² gym and spa, the sandy-entry Blue Lagoon pool, six swimming pools in all, two clubhouses, eight restaurants and a sky bar, two kids' clubs, an open-air cinema, and a five-star hotel with concierge service woven into the grounds. A designated pathway and pedestrian bridge lead to the beach.\n\nThe collection spans every scale. Launch pricing, per residence type:\n\n1-Bedroom Residences\nType 1 — from 72 m² — from THB 24,480,000\nType 2 — from 75 m² — from THB 24,000,000\n\n2-Bedroom Residences\nType 4A — from 105 m² — from THB 33,600,000\nType 1 — from 105 m² — from THB 39,900,000\nType 2 — from 132 m² — from THB 39,600,000\n\n3-Bedroom Residences\nType 3 — from 179 m² — from THB 71,600,000\nType 5 — from 229 m² — from THB 79,100,000\n\n2-Bedroom Penthouses\nType 1 — from 260 m² — from THB 78,000,000\n\n3-Bedroom Duplexes\nfrom 190 m² — from THB 72,200,000\n\n4-Bedroom Penthouses\nType 4 — from 381 m² — from THB 120,015,000\n\nPenthouses are single-level homes crowned by a private rooftop terrace with a 12m × 3.5m pool, sun deck and panoramic sea view; the three-bedroom duplexes arrange their living space over two floors around a private pool. Interiors are handed over finished and fitted — walls, floors, lighting, air-conditioning, sanitary ware, kitchen and built-in wardrobes — with optional furniture packages, and every bedroom opens to its own balcony.\n\nDesign is led by Tierra Design with interiors by Wonder by White Jacket. Construction began in May 2024 with completion planned for the end of 2026. Prices are quoted for a 120-year leasehold; freehold title is available on request before completion for an additional cost. Underground parking is included. From THB 24,000,000 for a one-bedroom residence.",
+  "features": [
+    {
+      "l": "1-bed to 4-bed penthouses & duplexes",
+      "i": "bed"
+    },
+    {
+      "l": "Phase 1 — 50m to Bang Tao Beach",
+      "i": "waves"
+    },
+    {
+      "l": "33-acre Gardens of Eden masterplan",
+      "i": "tree"
+    },
+    {
+      "l": "70% open parkland, lakes & trails",
+      "i": "mountain"
+    },
+    {
+      "l": "Phuket's first project with its own park",
+      "i": "sun"
+    },
+    {
+      "l": "Wellness centre & 1,000 m² gym",
+      "i": "gym"
+    },
+    {
+      "l": "6 pools incl. sandy-entry Blue Lagoon",
+      "i": "pool"
+    },
+    {
+      "l": "8 restaurants, sky bar & 2 clubhouses",
+      "i": "utensils"
+    },
+    {
+      "l": "5-star hotel & concierge service",
+      "i": "users"
+    },
+    {
+      "l": "Sea-view penthouses with rooftop pools",
+      "i": "view"
+    },
+    {
+      "l": "Handed over finished & fitted",
+      "i": "sofa"
+    },
+    {
+      "l": "Free underground parking",
+      "i": "car"
+    },
+    {
+      "l": "Completion end 2026",
+      "i": "key"
+    }
+  ],
+  "created": 1784996551132
+}

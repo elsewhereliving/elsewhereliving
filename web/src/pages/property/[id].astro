@@ -50,7 +50,7 @@ if (l.interior && l.interior !== "—") specs.push(["Property size", l.interior]
 if (l.plot && l.plot !== "—") specs.push(["Plot size", l.plot]);
 if (l.year) specs.push(["Completion", String(l.year)]);
 if (l.ownership) specs.push(["Ownership", l.ownership]);
-if (l.yield) specs.push([isLand ? "Status" : "Projected yield", l.yield]);
+if (l.yield) specs.push([isLand ? "Status" : (/roi/i.test(l.yield) ? "Projected ROI" : "Projected yield"), l.yield]);
 
 const priceTooltip = l.priceOriginal
   ? `Shown in USD — originally ${l.priceOriginal}${l.priceCurrency ? ` (${l.priceCurrency})` : ""}`

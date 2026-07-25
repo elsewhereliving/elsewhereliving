@@ -1,0 +1,81 @@
+{
+  "id": "eden-residences-4bed-penthouse-gardens-of-eden-c403",
+  "image": "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/01.jpg",
+  "gallery": [
+    "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/01.jpg",
+    "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/02.jpg",
+    "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/03.jpg",
+    "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/04.jpg",
+    "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/05.jpg",
+    "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/06.jpg",
+    "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/07.jpg",
+    "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/08.jpg"
+  ],
+  "location": "Bang Tao · Phuket · Thailand",
+  "place": "Gardens of Eden, Cherngtalay, Choeng Thale, Thalang District, Phuket 83110, Thailand",
+  "mapQuery": "8.0238658,98.2917994",
+  "market": "Phuket",
+  "title": "Eden Residences — 4-Bedroom Sea-View Penthouse with Rooftop Pool — C403",
+  "type": "Condominium",
+  "view": [
+    "Sea View",
+    "Beachside"
+  ],
+  "status": "Off-Plan",
+  "beds": 4,
+  "bedsLabel": "4",
+  "baths": "4+",
+  "interior": "385 m²",
+  "plot": null,
+  "year": null,
+  "priceOriginalNum": 123200000,
+  "priceCurrency": "THB",
+  "priceFrom": false,
+  "ownership": "Freehold or Leasehold",
+  "yield": "~20% ROI to handover · ~8% rental p.a.",
+  "blurb": "A single, top-floor penthouse in the first phase of Gardens of Eden — 385 m² of four-bedroom living crowned by a private rooftop pool with an open sea and mountain horizon. Set on the fourth floor with its own roof level, 50 metres from Bang Tao Beach, inside a 33-acre parkland resort. THB 123,200,000.",
+  "detail": "C403 is one penthouse — the top of Building C in Eden Residences, the opening phase of Gardens of Eden on Phuket's Bang Tao coast. It occupies the fourth floor and its own private roof, so the whole home reads as a single, uninterrupted level of living crowned by a rooftop retreat.\n\nThe layout totals 385 m²: 177 m² of internal space, a 43 m² balcony running off the living level, and a 165 m² roof terrace above. Four bedrooms — a master suite plus three further bedrooms, each with its own bathroom, alongside a guest powder room — open around a wraparound living, dining and kitchen space framed floor-to-ceiling in glass, with sea and garden views to two aspects.\n\nThe roof is the signature. A private infinity pool sits at the edge of a broad stone terrace with sun loungers, a shaded lounge and mature planting, looking out over the treetops to the beach, the bay and the hills beyond — a rooftop that belongs to this home alone.\n\nThe residence is handed over finished and fitted — walls, floors, lighting, air-conditioning, sanitary ware, a fully fitted kitchen and built-in wardrobes — with optional furniture packages available. It sits within the wider Gardens of Eden estate: 122,000 m² of grounds, 70% of it open parkland, lakes and gardens, with a wellness centre, six swimming pools, eight restaurants, two kids' clubs, a business centre and supermarket, car-free surroundings and free underground parking. The beach is 50 metres away and Laguna Park a five-minute walk.\n\nEden Residences completes in 2026. The price of THB 123,200,000 is quoted on the developer's standard terms — a leasehold or sale-and-purchase agreement, with freehold title available on request — and a staged construction payment plan applies.\n\nReturn outlook (developer projections). The developer publishes an indicative price path for this unit over a roughly one-year horizon to handover: THB 123,200,000 at launch (November 2025, with about 80% of Phase 1 sold), rising to THB 135,520,000 at the finishing and furnishing stage (August 2026) and THB 149,072,000 on handover (December 2026) — an uplift of around 20%, with a further ~10% attributed to completion of the park landscaping. A rental yield of approximately 8% per year is also projected. These are the developer's own estimates, not guaranteed returns; actual capital growth and rental income depend on market conditions.",
+  "features": [
+    {
+      "l": "Single top-floor 4-bed penthouse",
+      "i": "building"
+    },
+    {
+      "l": "Private rooftop infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "385 m² — internal 177 m² + terraces",
+      "i": "home"
+    },
+    {
+      "l": "165 m² roof terrace + 43 m² balcony",
+      "i": "terrace"
+    },
+    {
+      "l": "4 en-suite bedrooms + powder room",
+      "i": "bed"
+    },
+    {
+      "l": "Sea & garden views, 4th floor + roof",
+      "i": "view"
+    },
+    {
+      "l": "Handed over finished & fitted",
+      "i": "sofa"
+    },
+    {
+      "l": "50m to Bang Tao Beach",
+      "i": "waves"
+    },
+    {
+      "l": "Within 33-acre Gardens of Eden",
+      "i": "tree"
+    },
+    {
+      "l": "Free underground parking · completion 2026",
+      "i": "key"
+    }
+  ],
+  "created": 1784997176197
+}
