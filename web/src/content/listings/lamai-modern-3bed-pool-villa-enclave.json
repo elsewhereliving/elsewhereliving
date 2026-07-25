@@ -1,0 +1,83 @@
+{
+  "id": "lamai-modern-3bed-pool-villa-enclave",
+  "internalName": "Privilege Luxury Villas Lamai",
+  "image": "/assets/listings/lamai-modern-3bed-pool-villa-enclave/01.jpg",
+  "gallery": [
+    "/assets/listings/lamai-modern-3bed-pool-villa-enclave/01.jpg",
+    "/assets/listings/lamai-modern-3bed-pool-villa-enclave/02.jpg",
+    "/assets/listings/lamai-modern-3bed-pool-villa-enclave/03.jpg",
+    "/assets/listings/lamai-modern-3bed-pool-villa-enclave/04.jpg",
+    "/assets/listings/lamai-modern-3bed-pool-villa-enclave/05.jpg",
+    "/assets/listings/lamai-modern-3bed-pool-villa-enclave/06.jpg",
+    "/assets/listings/lamai-modern-3bed-pool-villa-enclave/07.jpg",
+    "/assets/listings/lamai-modern-3bed-pool-villa-enclave/08.jpg",
+    "/assets/listings/lamai-modern-3bed-pool-villa-enclave/09.jpg",
+    "/assets/listings/lamai-modern-3bed-pool-villa-enclave/10.jpg",
+    "/assets/listings/lamai-modern-3bed-pool-villa-enclave/11.jpg",
+    "/assets/listings/lamai-modern-3bed-pool-villa-enclave/12.jpg",
+    "/assets/listings/lamai-modern-3bed-pool-villa-enclave/13.jpg",
+    "/assets/listings/lamai-modern-3bed-pool-villa-enclave/14.jpg",
+    "/assets/listings/lamai-modern-3bed-pool-villa-enclave/15.jpg"
+  ],
+  "location": "Lamai · Koh Samui · Thailand",
+  "place": "Lamai, Maret, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.456194,100.037472",
+  "market": "Koh Samui",
+  "title": "Modern-Luxury Three-Bedroom Pool Villas near Lamai Village",
+  "type": "Villa",
+  "view": "Garden / Pool View",
+  "status": "Off-Plan",
+  "beds": 3,
+  "baths": "3.5",
+  "interior": "345 m²",
+  "plot": "400–500 m²",
+  "priceOriginalNum": 14500000,
+  "priceCurrency": "THB",
+  "ownership": "Freehold or Leasehold",
+  "yield": "11.9% net projected ROI",
+  "blurb": "An exclusive enclave of just ten modern-luxury villas moments from Lamai Village, 500 metres from the beach and walkable to shops, restaurants and island amenities. Three-bedroom homes with a private pool, indoor and outdoor kitchens, a second-floor terrace and landscaped tropical gardens. Off-plan and freehold, from ฿14,500,000 with a projected 11.9% net ROI.",
+  "detail": "A small, exclusive enclave of just ten residences set close to the heart of Lamai Village on Koh Samui's south-east coast — 500 metres from Lamai Beach and within walking distance of shops, restaurants and lifestyle amenities. It is a rare balance of genuine convenience and refined, private island living.\n\nEach three-bedroom villa is designed in a modern-luxury idiom, with spacious interiors and generous outdoor spaces for relaxing and entertaining. A private swimming pool anchors the plot; an elegant indoor kitchen pairs with a covered outdoor BBQ kitchen and dining area; and a second-floor terrace opens the upper level to the tropical surroundings. Interiors run to 345 m² on plots of 400–500 m², with three bedrooms and 3.5 bathrooms.\n\nThe specification is thorough: a full-house boiler system, a private car park, automated gate and walls, and high-quality construction throughout. The community itself is landscaped with tropical gardens and served by underground electricity, setting a new standard for comfort in this part of Samui. A furniture package is available at ฿1,300,000.\n\nOffered freehold or leasehold. Freehold ownership is available to Thai nationals or through a Thai company; the leasehold route carries no annual lease fee, with extension possible for only the administrative and legal costs, and is secured with superficies rights. Sold off-plan, with a projected net ROI of around 11.9%. Payment schedule, floor plans and specification available on request.",
+  "features": [
+    {
+      "l": "Private swimming pool",
+      "i": "pool"
+    },
+    {
+      "l": "Indoor & outdoor BBQ kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Second-floor outdoor terrace",
+      "i": "terrace"
+    },
+    {
+      "l": "Three bedrooms, 3.5 bathrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Exclusive enclave of just 10 villas",
+      "i": "shield"
+    },
+    {
+      "l": "500 m to Lamai Beach",
+      "i": "waves"
+    },
+    {
+      "l": "Full-house boiler system",
+      "i": "sun"
+    },
+    {
+      "l": "Automated gate, walls & private parking",
+      "i": "car"
+    },
+    {
+      "l": "Landscaped gardens, underground electricity",
+      "i": "tree"
+    },
+    {
+      "l": "Freehold or leasehold",
+      "i": "key"
+    }
+  ],
+  "created": 1784951133208
+}
