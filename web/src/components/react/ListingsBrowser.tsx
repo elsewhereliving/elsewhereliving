@@ -2,8 +2,10 @@ import { useEffect, useMemo, useState } from "react";
 import type { Listing } from "../../lib/types";
 import { viewBadges, viewList, viewText, statusList } from "../../lib/format";
 import { optImg, optImgSrcset, CARD_SIZES } from "../../lib/img";
+import { matchesTerms, searchTerms } from "../../lib/search";
 import SaveButton from "./SaveButton";
 import RangeSlider from "./RangeSlider";
+import SearchBox from "./SearchBox";
 
 // Faithful port of js/listings.js ListingsScreen — the filter/sort bar plus the
 // property grid. Receives the full listings array and the filter facets, reads
@@ -22,6 +24,29 @@ function fmtUSD(n: number): string {
 const PRICE_STEP = 50_000;
 const floorTo = (n: number, s: number) => Math.floor(n / s) * s;
 const ceilTo = (n: number, s: number) => Math.ceil(n / s) * s;
+
+// Free-text search. Build one haystack string per listing from the fields a
+// visitor would actually type — place/area names, type, view tags, ownership,
+// the pitch and the feature labels — then let matchesTerms (lib/search) require
+// every query term to appear in it, so "phuket sea view" narrows as expected and
+// "seaview" behaves like "sea view".
+function haystack(l: Listing): string {
+  return [
+    l.title,
+    l.location,
+    l.place,
+    l.market,
+    l.type,
+    viewList(l.view).join(" "),
+    statusList(l.status).join(" "),
+    l.ownership,
+    l.blurb,
+    l.detail,
+    (l.features || []).map((f) => f.l).join(" "),
+  ]
+    .filter(Boolean)
+    .join(" ");
+}
 
 interface Props {
   items: Listing[];
@@ -517,12 +542,15 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
   const statusOpts = [ALL, ...statuses];
   const viewOpts = [ALL, ...views];
 
+  const [q, setQ] = useState("");
   const [market, setMarket] = useState(ALL);
   const [type, setType] = useState(ALL);
   const [status, setStatus] = useState(ALL);
   const [view, setView] = useState(ALL);
   const [minBeds, setMinBeds] = useState(0);
   const [sort, setSort] = useState("featured");
+
+  const terms = useMemo(() => searchTerms(q), [q]);
 
   // The price slider scales to the SELECTED market, so its range always
   // reflects what's actually available there (ignoring "price on request").
@@ -569,6 +597,7 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
       if (saved) { q = new URLSearchParams(saved); fromSession = true; }
     }
     const m = q.get("dest");
+    if (q.get("q")) setQ(q.get("q")!);
     if (m) setMarket(m);
     if (q.get("type")) setType(q.get("type")!);
     if (q.get("status")) setStatus(q.get("status")!);
@@ -593,24 +622,26 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
 
   // reflect active filters to the URL (no history spam)
   useEffect(() => {
-    const q = new URLSearchParams();
-    if (market !== ALL) q.set("dest", market);
-    if (type !== ALL) q.set("type", type);
-    if (status !== ALL) q.set("status", status);
-    if (view !== ALL) q.set("view", view);
-    if (minBeds > 0) q.set("beds", String(minBeds));
-    if (priceLo > priceMin) q.set("pmin", String(priceLo));
-    if (priceHi < priceMax) q.set("pmax", String(priceHi));
-    if (sort !== "featured") q.set("sort", sort);
-    const qs = q.toString();
+    const sp = new URLSearchParams();
+    if (q.trim()) sp.set("q", q.trim());
+    if (market !== ALL) sp.set("dest", market);
+    if (type !== ALL) sp.set("type", type);
+    if (status !== ALL) sp.set("status", status);
+    if (view !== ALL) sp.set("view", view);
+    if (minBeds > 0) sp.set("beds", String(minBeds));
+    if (priceLo > priceMin) sp.set("pmin", String(priceLo));
+    if (priceHi < priceMax) sp.set("pmax", String(priceHi));
+    if (sort !== "featured") sp.set("sort", sort);
+    const qs = sp.toString();
     const next = window.location.pathname + (qs ? `?${qs}` : "");
     window.history.replaceState(window.history.state, "", next);
     sessionStorage.setItem("ew:properties", qs);
-  }, [market, type, status, view, minBeds, priceLo, priceHi, sort]);
+  }, [q, market, type, status, view, minBeds, priceLo, priceHi, sort]);
 
   const result = useMemo(() => {
     let out = items.filter(
       (l) =>
+        matchesTerms(haystack(l), terms) &&
         (market === ALL || l.market === market) &&
         (type === ALL || l.type === type) &&
         (status === ALL || statusList(l.status).includes(status)) &&
@@ -635,9 +666,10 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
       out = [...out].sort((a, b) => rank(a) - rank(b) || recency(b) - recency(a) || a.id.localeCompare(b.id));
     }
     return out;
-  }, [items, market, type, status, view, minBeds, priceLo, priceHi, priceActive, sort]);
+  }, [items, terms, market, type, status, view, minBeds, priceLo, priceHi, priceActive, sort]);
 
   const reset = () => {
+    setQ("");
     setMarket(ALL);
     setType(ALL);
     setStatus(ALL);
@@ -652,6 +684,7 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
   };
 
   const activeFilters =
+    Number(terms.length > 0) +
     Number(market !== ALL) +
     Number(type !== ALL) +
     Number(status !== ALL) +
@@ -671,8 +704,17 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
           gap: 22,
         }}
       >
+        {/* Search row — free-text query across all listings */}
+        <div style={{ display: "flex" }}>
+          <SearchBox
+            value={q}
+            onChange={setQ}
+            placeholder="Search by area, name or feature — “Bang Tao”, “beachside”, “sea view”…"
+          />
+        </div>
+
         {/* Primary row — Destination + Sort */}
-        <div style={{ display: "flex", flexWrap: "wrap", gap: "22px 40px", alignItems: "flex-end", justifyContent: "space-between" }}>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "22px 40px", alignItems: "flex-end", justifyContent: "space-between", paddingTop: 20, borderTop: "1px solid var(--border-subtle)" }}>
           <Segmented
             label="Destination"
             value={market}

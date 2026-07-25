@@ -2,8 +2,10 @@ import { useEffect, useMemo, useState } from "react";
 import type { Rental } from "../../lib/types";
 import { viewBadges, viewList, VIEW_TAGS } from "../../lib/format";
 import { optImg, optImgSrcset, CARD_SIZES } from "../../lib/img";
+import { matchesTerms, searchTerms } from "../../lib/search";
 import SaveButton from "./SaveButton";
 import RangeSlider from "./RangeSlider";
+import SearchBox from "./SearchBox";
 
 // Faithful port of js/pages.js RentalsScreen — the filter/sort bar plus the
 // rental grid. Receives the full rentals array (each carrying a precomputed
@@ -18,6 +20,27 @@ const fmtNightly = (n: number) => "$" + Math.round(n).toLocaleString();
 const NIGHTLY_STEP = 100;
 const floorTo = (n: number, s: number) => Math.floor(n / s) * s;
 const ceilTo = (n: number, s: number) => Math.ceil(n / s) * s;
+
+// Free-text search haystack — the fields a visitor would type when looking for a
+// rental: place/area names, view tags, the note, the pitch and feature labels.
+// matchesTerms (lib/search) does the actual matching (incl. "seaview" ≈ "sea
+// view", "canggu" area names, etc.).
+function haystack(r: Rental): string {
+  return [
+    r.title,
+    r.location,
+    r.place,
+    viewList(r.view).join(" "),
+    r.note,
+    r.occupancy,
+    r.sleeps,
+    r.blurb,
+    r.detail,
+    (r.features || []).map((f) => f.l).join(" "),
+  ]
+    .filter(Boolean)
+    .join(" ");
+}
 
 export interface RentalItem extends Rental {
   /** rentDest(location) — precomputed server-side. */
@@ -517,10 +540,13 @@ const VIEWS = ["All", ...VIEW_TAGS];
 export default function RentalsBrowser({ items, destinations }: Props) {
   const destOpts = [ALL, ...destinations];
 
+  const [q, setQ] = useState("");
   const [dest, setDest] = useState(ALL);
   const [view, setView] = useState(ALL);
   const [minBeds, setMinBeds] = useState(0);
   const [sort, setSort] = useState("featured");
+
+  const terms = useMemo(() => searchTerms(q), [q]);
 
   // The price slider scales to the SELECTED destination, so its range always
   // reflects what's actually available there (ignoring "on request").
@@ -567,6 +593,7 @@ export default function RentalsBrowser({ items, destinations }: Props) {
       if (saved) { q = new URLSearchParams(saved); fromSession = true; }
     }
     const d = q.get("dest");
+    if (q.get("q")) setQ(q.get("q")!);
     if (d) setDest(d);
     if (q.get("view")) setView(q.get("view")!);
     if (q.get("beds")) setMinBeds(Number(q.get("beds")));
@@ -590,22 +617,24 @@ export default function RentalsBrowser({ items, destinations }: Props) {
 
   // reflect active filters to the URL (no history spam)
   useEffect(() => {
-    const q = new URLSearchParams();
-    if (dest !== ALL) q.set("dest", dest);
-    if (view !== ALL) q.set("view", view);
-    if (minBeds > 0) q.set("beds", String(minBeds));
-    if (priceLo > priceMin) q.set("pmin", String(priceLo));
-    if (priceHi < priceMax) q.set("pmax", String(priceHi));
-    if (sort !== "featured") q.set("sort", sort);
-    const qs = q.toString();
+    const sp = new URLSearchParams();
+    if (q.trim()) sp.set("q", q.trim());
+    if (dest !== ALL) sp.set("dest", dest);
+    if (view !== ALL) sp.set("view", view);
+    if (minBeds > 0) sp.set("beds", String(minBeds));
+    if (priceLo > priceMin) sp.set("pmin", String(priceLo));
+    if (priceHi < priceMax) sp.set("pmax", String(priceHi));
+    if (sort !== "featured") sp.set("sort", sort);
+    const qs = sp.toString();
     const next = window.location.pathname + (qs ? `?${qs}` : "");
     window.history.replaceState(window.history.state, "", next);
     sessionStorage.setItem("ew:rentals", qs);
-  }, [dest, view, minBeds, priceLo, priceHi, sort]);
+  }, [q, dest, view, minBeds, priceLo, priceHi, sort]);
 
   const result = useMemo(() => {
     let out = items.filter(
       (r) =>
+        matchesTerms(haystack(r), terms) &&
         (dest === ALL || r.dest === dest) &&
         (view === ALL || viewList(r.view).includes(view)) &&
         (r.beds || 0) >= minBeds &&
@@ -631,9 +660,10 @@ export default function RentalsBrowser({ items, destinations }: Props) {
       out = [...out].sort((a, b) => rank(a) - rank(b) || recency(b) - recency(a) || a.id.localeCompare(b.id));
     }
     return out;
-  }, [items, dest, view, minBeds, priceLo, priceHi, priceActive, sort]);
+  }, [items, terms, dest, view, minBeds, priceLo, priceHi, priceActive, sort]);
 
   const reset = () => {
+    setQ("");
     setDest(ALL);
     setView(ALL);
     setMinBeds(0);
@@ -646,7 +676,7 @@ export default function RentalsBrowser({ items, destinations }: Props) {
   };
 
   const activeFilters =
-    Number(dest !== ALL) + Number(view !== ALL) + Number(minBeds > 0) + Number(priceActive);
+    Number(terms.length > 0) + Number(dest !== ALL) + Number(view !== ALL) + Number(minBeds > 0) + Number(priceActive);
 
   return (
     <>
@@ -660,8 +690,17 @@ export default function RentalsBrowser({ items, destinations }: Props) {
           gap: 22,
         }}
       >
+        {/* Search row — free-text query across all rentals */}
+        <div style={{ display: "flex" }}>
+          <SearchBox
+            value={q}
+            onChange={setQ}
+            placeholder="Search by area, name or feature — “Canggu”, “beachfront”, “sea view”…"
+          />
+        </div>
+
         {/* Primary row — Destination + Sort */}
-        <div style={{ display: "flex", flexWrap: "wrap", gap: "22px 40px", alignItems: "flex-end", justifyContent: "space-between" }}>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "22px 40px", alignItems: "flex-end", justifyContent: "space-between", paddingTop: 20, borderTop: "1px solid var(--border-subtle)" }}>
           <Segmented
             label="Destination"
             value={dest}

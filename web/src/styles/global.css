@@ -410,3 +410,10 @@ img { display: block; max-width: 100%; }
      wraps when the label genuinely can't fit, so short buttons stay one line. */
   .ew-btn { white-space: normal !important; max-width: 100%; line-height: 1.25; }
 }
+
+/* Property search box: hide the browser's native type=search clear affordance
+   (WebKit "cancel" button / Edge clear "×"), since ListingsBrowser renders its
+   own styled clear button. Without this the field shows two clear controls. */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; appearance: none; }
+input[type="search"]::-ms-clear { display: none; }
