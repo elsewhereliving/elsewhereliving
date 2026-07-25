@@ -1,12 +1,28 @@
 {
   "id": "layan-wellness-villa",
-  "image": "/assets/listings/layan-wellness-villa/ext-001.jpg",
+  "image": "/assets/listings/layan-wellness-villa/06.jpg",
   "gallery": [
-    "/assets/listings/layan-wellness-villa/ext-001.jpg",
-    "/assets/listings/layan-wellness-villa/ext-002.jpg",
-    "/assets/listings/layan-wellness-villa/ext-003.jpg",
-    "/assets/listings/layan-wellness-villa/ext-004.jpg",
-    "/assets/listings/layan-wellness-villa/ext-005.jpg"
+    "/assets/listings/layan-wellness-villa/06.jpg",
+    "/assets/listings/layan-wellness-villa/01.jpg",
+    "/assets/listings/layan-wellness-villa/02.jpg",
+    "/assets/listings/layan-wellness-villa/03.jpg",
+    "/assets/listings/layan-wellness-villa/04.jpg",
+    "/assets/listings/layan-wellness-villa/05.jpg",
+    "/assets/listings/layan-wellness-villa/07.jpg",
+    "/assets/listings/layan-wellness-villa/08.jpg",
+    "/assets/listings/layan-wellness-villa/09.jpg",
+    "/assets/listings/layan-wellness-villa/10.jpg",
+    "/assets/listings/layan-wellness-villa/11.jpg",
+    "/assets/listings/layan-wellness-villa/12.jpg",
+    "/assets/listings/layan-wellness-villa/13.jpg",
+    "/assets/listings/layan-wellness-villa/14.jpg",
+    "/assets/listings/layan-wellness-villa/15.jpg",
+    "/assets/listings/layan-wellness-villa/16.jpg",
+    "/assets/listings/layan-wellness-villa/17.jpg",
+    "/assets/listings/layan-wellness-villa/18.jpg",
+    "/assets/listings/layan-wellness-villa/19.jpg",
+    "/assets/listings/layan-wellness-villa/20.jpg",
+    "/assets/listings/layan-wellness-villa/21.jpg"
   ],
   "location": "Layan · Phuket · Thailand",
   "place": "Layan, Tambon Choeng Thale, Thalang, Phuket, Thailand",
@@ -18,11 +34,11 @@
     "Mountain View",
     "Sea View"
   ],
-  "status": "Move-In Ready",
+  "status": "Off-Plan",
   "beds": 5,
   "baths": 6,
-  "interior": "≈1,700 m²",
-  "plot": "≈1,700 m²",
+  "interior": "1,718 m²",
+  "plot": "1,711 m²",
   "year": null,
   "priceOriginalNum": 273000000,
   "priceCurrency": "THB",
@@ -80,5 +96,6 @@
       "i": "shield"
     }
   ],
-  "created": 1781527329000
+  "created": 1781527329000,
+  "internalName": "Pavara Vhana Villa 1A"
 }
