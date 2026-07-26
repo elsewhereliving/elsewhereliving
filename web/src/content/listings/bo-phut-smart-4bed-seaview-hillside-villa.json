@@ -44,8 +44,8 @@
   "status": "Off-Plan",
   "beds": 4,
   "baths": 5,
-  "interior": "≈700 m²",
-  "plot": "≈1,000 m²",
+  "interior": "700 m²",
+  "plot": "1,000 m²",
   "year": 2026,
   "ownership": "Freehold",
   "priceOriginalNum": 48000000,
@@ -69,11 +69,11 @@
       "i": "pool"
     },
     {
-      "l": "≈700 m² built area",
+      "l": "700 m² built area",
       "i": "building"
     },
     {
-      "l": "≈1,000 m² freehold plot",
+      "l": "1,000 m² freehold plot",
       "i": "plot"
     },
     {
@@ -105,7 +105,7 @@
       "i": "shield"
     },
     {
-      "l": "≈15 min to Samui Airport",
+      "l": "15 min to Samui Airport",
       "i": "car"
     }
   ],

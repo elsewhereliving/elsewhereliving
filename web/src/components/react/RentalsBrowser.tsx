@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import type { Rental } from "../../lib/types";
 import { viewBadges, viewList, VIEW_TAGS } from "../../lib/format";
 import { optImg, optImgSrcset, CARD_SIZES } from "../../lib/img";
-import { matchesTerms, searchTerms } from "../../lib/search";
+import { matchesTerms, parseQuery } from "../../lib/search";
 import SaveButton from "./SaveButton";
 import RangeSlider from "./RangeSlider";
 import SearchBox from "./SearchBox";
@@ -546,7 +546,7 @@ export default function RentalsBrowser({ items, destinations }: Props) {
   const [minBeds, setMinBeds] = useState(0);
   const [sort, setSort] = useState("featured");
 
-  const terms = useMemo(() => searchTerms(q), [q]);
+  const { tags: viewTags, terms } = useMemo(() => parseQuery(q), [q]);
 
   // The price slider scales to the SELECTED destination, so its range always
   // reflects what's actually available there (ignoring "on request").
@@ -635,6 +635,7 @@ export default function RentalsBrowser({ items, destinations }: Props) {
     let out = items.filter(
       (r) =>
         matchesTerms(haystack(r), terms) &&
+        viewTags.every((t) => viewList(r.view).includes(t)) &&
         (dest === ALL || r.dest === dest) &&
         (view === ALL || viewList(r.view).includes(view)) &&
         (r.beds || 0) >= minBeds &&
@@ -660,7 +661,7 @@ export default function RentalsBrowser({ items, destinations }: Props) {
       out = [...out].sort((a, b) => rank(a) - rank(b) || recency(b) - recency(a) || a.id.localeCompare(b.id));
     }
     return out;
-  }, [items, terms, dest, view, minBeds, priceLo, priceHi, priceActive, sort]);
+  }, [items, terms, viewTags, dest, view, minBeds, priceLo, priceHi, priceActive, sort]);
 
   const reset = () => {
     setQ("");

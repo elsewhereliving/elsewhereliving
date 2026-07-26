@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import type { Listing } from "../../lib/types";
 import { viewBadges, viewList, viewText, statusList } from "../../lib/format";
 import { optImg, optImgSrcset, CARD_SIZES } from "../../lib/img";
-import { matchesTerms, searchTerms } from "../../lib/search";
+import { matchesTerms, parseQuery } from "../../lib/search";
 import SaveButton from "./SaveButton";
 import RangeSlider from "./RangeSlider";
 import SearchBox from "./SearchBox";
@@ -54,6 +54,7 @@ interface Props {
   types: string[];
   statuses: string[];
   views: string[];
+  ownerships: string[];
 }
 
 // --- icons (inline, from js/icons.js EW_ICONS) ----------------------------
@@ -536,21 +537,23 @@ function OutlineButton({ children, onClick }: { children: React.ReactNode; onCli
   );
 }
 
-export default function ListingsBrowser({ items, markets, types, statuses, views }: Props) {
+export default function ListingsBrowser({ items, markets, types, statuses, views, ownerships }: Props) {
   const marketOpts = [ALL, ...markets];
   const typeOpts = [ALL, ...types];
   const statusOpts = [ALL, ...statuses];
   const viewOpts = [ALL, ...views];
+  const ownershipOpts = [ALL, ...ownerships];
 
   const [q, setQ] = useState("");
   const [market, setMarket] = useState(ALL);
   const [type, setType] = useState(ALL);
   const [status, setStatus] = useState(ALL);
   const [view, setView] = useState(ALL);
+  const [ownership, setOwnership] = useState(ALL);
   const [minBeds, setMinBeds] = useState(0);
   const [sort, setSort] = useState("featured");
 
-  const terms = useMemo(() => searchTerms(q), [q]);
+  const { tags: viewTags, terms } = useMemo(() => parseQuery(q), [q]);
 
   // The price slider scales to the SELECTED market, so its range always
   // reflects what's actually available there (ignoring "price on request").
@@ -602,6 +605,7 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
     if (q.get("type")) setType(q.get("type")!);
     if (q.get("status")) setStatus(q.get("status")!);
     if (q.get("view")) setView(q.get("view")!);
+    if (q.get("own")) setOwnership(q.get("own")!);
     if (q.get("beds")) setMinBeds(Number(q.get("beds")));
     const [bMin, bMax] = boundsFor(m || ALL);
     setPriceLo(q.get("pmin") ? Math.max(bMin, Number(q.get("pmin"))) : bMin);
@@ -628,6 +632,7 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
     if (type !== ALL) sp.set("type", type);
     if (status !== ALL) sp.set("status", status);
     if (view !== ALL) sp.set("view", view);
+    if (ownership !== ALL) sp.set("own", ownership);
     if (minBeds > 0) sp.set("beds", String(minBeds));
     if (priceLo > priceMin) sp.set("pmin", String(priceLo));
     if (priceHi < priceMax) sp.set("pmax", String(priceHi));
@@ -636,16 +641,20 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
     const next = window.location.pathname + (qs ? `?${qs}` : "");
     window.history.replaceState(window.history.state, "", next);
     sessionStorage.setItem("ew:properties", qs);
-  }, [q, market, type, status, view, minBeds, priceLo, priceHi, sort]);
+  }, [q, market, type, status, view, ownership, minBeds, priceLo, priceHi, sort]);
 
   const result = useMemo(() => {
     let out = items.filter(
       (l) =>
         matchesTerms(haystack(l), terms) &&
+        viewTags.every((t) => viewList(l.view).includes(t)) &&
         (market === ALL || l.market === market) &&
         (type === ALL || l.type === type) &&
         (status === ALL || statusList(l.status).includes(status)) &&
         (view === ALL || viewList(l.view).includes(view)) &&
+        // Ownership: match on substring so a "Freehold or Leasehold" listing
+        // shows under both the Freehold and Leasehold filters.
+        (ownership === ALL || (l.ownership || "").toLowerCase().includes(ownership.toLowerCase())) &&
         l.beds >= minBeds &&
         (!priceActive || (l.priceNum > 0 && l.priceNum >= priceLo && l.priceNum <= priceHi))
     );
@@ -666,7 +675,7 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
       out = [...out].sort((a, b) => rank(a) - rank(b) || recency(b) - recency(a) || a.id.localeCompare(b.id));
     }
     return out;
-  }, [items, terms, market, type, status, view, minBeds, priceLo, priceHi, priceActive, sort]);
+  }, [items, terms, viewTags, market, type, status, view, ownership, minBeds, priceLo, priceHi, priceActive, sort]);
 
   const reset = () => {
     setQ("");
@@ -674,6 +683,7 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
     setType(ALL);
     setStatus(ALL);
     setView(ALL);
+    setOwnership(ALL);
     setMinBeds(0);
     // priceMin/priceMax still reflect the market being cleared — rescale to the
     // all-markets bounds or the old market's narrower band stays active.
@@ -689,6 +699,7 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
     Number(type !== ALL) +
     Number(status !== ALL) +
     Number(view !== ALL) +
+    Number(ownership !== ALL) +
     Number(minBeds > 0) +
     Number(priceActive);
 
@@ -779,6 +790,12 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
             value={status}
             onChange={(v) => setStatus(String(v))}
             options={statusOpts.map((s) => ({ label: s, value: s }))}
+          />
+          <Segmented
+            label="Ownership"
+            value={ownership}
+            onChange={(v) => setOwnership(String(v))}
+            options={ownershipOpts.map((o) => ({ label: o, value: o }))}
           />
           <Segmented
             label="View"

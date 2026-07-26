@@ -17,6 +17,9 @@ const statuses = ["Move-In Ready", "Off-Plan"];
 // Filter chips come straight from the brand vocabulary (in hierarchy order), so
 // the filter and the allowed tags can never drift apart.
 const views = [...VIEW_TAGS];
+// Ownership filter. Listings tagged "Freehold or Leasehold" match both chips
+// (substring match in ListingsBrowser), so only the two base tenures are shown.
+const ownerships = ["Freehold", "Leasehold"];
 
 const HERO_IMAGE = "/assets/imagery/c-deck-sea.jpg";
 ---
@@ -76,6 +79,7 @@ const HERO_IMAGE = "/assets/imagery/c-deck-sea.jpg";
         types={types}
         statuses={statuses}
         views={views}
+        ownerships={ownerships}
         client:load
       />
     </div>
