@@ -17,7 +17,20 @@ type Own = { tag: string; t: string; b: string };
 type Step = { t: string; b: string };
 type Fee = { t: string; r: string; n: string };
 type Hold = { t: string; b: string };
-type Guide = { id: string; name: string; places: string; blurb: string; own: Own[]; process: Step[]; buy: Fee[]; sell: Fee[]; financing: string; holding: Hold[]; know: Step[] };
+type Layer = { n: string; t: string; b: string };
+type Secure = {
+  eyebrow: string;
+  title: string;
+  lede: string;
+  intro: string;
+  layers: Layer[];
+  optionTitle: string;
+  option: string[];
+  noteHeading: string;
+  note: string[];
+  footnote: string;
+};
+type Guide = { id: string; name: string; places: string; blurb: string; own: Own[]; secure?: Secure; process: Step[]; buy: Fee[]; sell: Fee[]; financing: string; holding: Hold[]; know: Step[] };
 
 const LEGAL_GUIDES: Guide[] = [
   {
@@ -30,11 +43,35 @@ const LEGAL_GUIDES: Guide[] = [
       { tag: "Leasehold", t: "Villas & land — a 30-year registered lease", b: "Land cannot be owned freehold by foreigners, so villas are typically structured as freehold ownership of the building itself plus a 30-year lease on the land, registered at the Land Office. ==Thirty years is the legal maximum per term; renewal options (30+30, sometimes +30 again) are contractual promises from the lessor, not registered rights== — so who your lessor is, and how the renewal is drafted and priced, matters enormously. We negotiate this line by line." },
       { tag: "Company route", t: "Thai company structures", b: "Holding land through a Thai limited company is widely proposed in the market. ==Using nominee Thai shareholders purely to hold property is illegal==; the structure is only safe when the company is a genuine, active business with legitimate Thai partners." },
     ],
+    secure: {
+      eyebrow: "The strongest structure",
+      title: "The most secure way to own a luxury villa in Thailand",
+      lede: "Not one document. A stack of four.",
+      intro: "No foreigner owns land in Thailand — that part isn't negotiable, and anyone telling you otherwise is selling you a problem. But the gap between a weak villa deal and a strong one is enormous, and it comes down to how many layers of protection actually get registered on the deed. On the villas we structure this way, four rights are registered at the Land Office on transfer day.",
+      layers: [
+        { n: "01", t: "The building, in your name", b: "Thai law restricts land — not structures. ==The villa itself is registered as your property, in your own name.== Either the construction permit is issued to you, or the building is formally transferred to you at the Land Office. It is genuine ownership of the asset you paid to build — but ==a building is only as secure as your registered right to use the land beneath it==, which is exactly what the next three layers lock in." },
+        { n: "02", t: "A 30-year lease over the land, registered", b: "Thirty years is the legal maximum per term, and ==registration is what makes it bind anyone who owns that land after your lessor==. An unregistered lease, or a side letter in a drawer, protects nothing." },
+        { n: "03", t: "Sap-Ing-Sith (ทรัพย์อิงสิทธิ) — a registered right you can trade and pass on", b: "A registered right over the property, introduced in 2019 and recorded at the Land Office. Unlike a plain lease, Sap-Ing-Sith ==can be freely transferred, mortgaged and passed to your heirs== within its term, and it survives a sale of the land underneath. Its one limit is duration — a single 30-year term, with any extension negotiated rather than automatic." },
+        { n: "04", t: "Usufruct — the right to use and profit", b: "Registered for your lifetime, giving you the right to occupy the villa and to take the rental income from it. Where a lease has a hard 30-year edge, ==a usufruct runs as long as you do==." },
+      ],
+      optionTitle: "And an option on the freehold itself",
+      option: [
+        "Where the landowner will agree to it, we go one step further: an undated sale and purchase agreement, held in escrow, that lets you take the freehold ==the moment Thai law permits you to hold it== — or, in some structures, to direct the sale to a Thai buyer of your choosing at any time you want out. Alongside it we register a mortgage over the land in your favour, so the landowner cannot sell, borrow against or walk away from the arrangement without dealing with you first.",
+        "Renewals are drafted into the same package rather than promised verbally: pre-paid consideration, a named successor you can nominate, and the option exercisable by your heirs.",
+      ],
+      noteHeading: "A note, because this isn't universal.",
+      note: [
+        "==This structure is not offered by every developer or every owner.== It is only possible where the land sits under a Thai individual or a genuine, properly capitalised Thai company — not a nominee arrangement. A landowner using nominee shareholders cannot safely grant these rights, because the structure underneath them is itself exposed.",
+        "The good news: ==it generally costs no more than a standard freehold purchase for Thai individuals==. You are not paying a premium for security here — you are paying for a lessor who is willing to give it, and for the drafting to be done properly.",
+        "We ask this question of every developer and every private seller before we list a villa, and we tell you plainly what the answer was.",
+      ],
+      footnote: "This guide is orientation, not legal advice. Every one of these instruments is registered by an independent Thai lawyer acting for you, and we introduce you before any money moves.",
+    },
     process: [
       { t: "Reserve", b: "A short reservation agreement and a modest deposit take the property off the market while diligence runs. Fully refundable if the title doesn't check out." },
       { t: "Due diligence", b: "An independent lawyer verifies the title deed — ==Chanote (Nor Sor 4 Jor) is the gold standard==; lesser titles need real caution — plus encumbrances, access, building permits, and for off-plan, the developer's licences, EIA approval and track record. Typically one to two weeks." },
       { t: "Sale & purchase agreement", b: "Contracts signed and a deposit of 10–30% paid. Off-plan purchases follow a staged payment schedule tied to construction milestones — we push for payments to trail progress, never lead it." },
-      { t: "Transfer the funds", b: "You remit the purchase price from abroad in foreign currency. Your Thai bank documents each transfer with an ==FET form — keep every one==; they are your proof for quota registration and for taking the money out again later." },
+      { t: "Transfer the funds", b: "You remit the purchase price from abroad in foreign currency. For every transfer, your Thai bank issues a Foreign Exchange Transaction Form — an FET, the official bank certificate proving the money arrived from overseas. ==Keep every one==: they're what let you register in the foreign quota, and what let you send the sale proceeds back out of Thailand later." },
       { t: "Transfer day", b: "Buyer and seller (or their lawyers with power of attorney) meet at the Land Office. The balance is paid, taxes and fees are settled at the counter, and the freehold title or lease is registered the same day. You leave with the deed." },
       { t: "After the keys", b: "Utilities transferred, condo juristic person notified, house registration book (Tabien Baan) updated, and — if you're renting the home out — management and tax registration set up. We stay involved for all of it." },
     ],
@@ -60,7 +97,7 @@ const LEGAL_GUIDES: Guide[] = [
       { t: "Rental income", b: "Taxable in Thailand — progressive rates up to 35% for residents after generous deductions, or ==15% withholding for non-residents==. Double-tax treaties usually prevent paying twice. A good accountant routinely brings the effective rate well down; we'll introduce you." },
     ],
     know: [
-      { t: "Chanote or walk away", b: "==Chanote (Nor Sor 4 Jor) is the only GPS-surveyed, full title deed.== Nor Sor 3 Gor can be acceptable; anything less we simply don't list." },
+      { t: "Chanote or Nor Sor 3 — nothing less", b: "==Chanote (Nor Sor 4 Jor) and Nor Sor 3 Gor are both acceptable title deeds==, with Chanote — the only GPS-surveyed, full title — the gold standard. Anything below that we simply don't list." },
       { t: "Renewals are a promise, not a right", b: "A 30+30+30 lease is only as good as the counterparty and the drafting. We weight the lessor's identity — individual, estate or developer — heavily in our vetting, and structure security (mortgage registration over the land, building ownership in your name) around it." },
       { t: "Check the quota before you fall in love", b: "In popular Samui and Phuket condos the 49% foreign quota can be full — Thai-quota units can only be bought leasehold or via company. We confirm quota in writing before a viewing trip." },
       { t: "Succession", b: "A foreign heir can inherit a foreign-quota condo (they must qualify under the same rules) — but leases end at death unless succession clauses are drafted in. We include them as standard, and recommend a Thai will for any Thai assets." },
@@ -236,6 +273,48 @@ export default function BuyingGuide() {
                 ))}
               </div>
             </div>
+
+            {/* The strongest structure — Thailand only */}
+            {g.secure && (
+              <div style={{ marginTop: "clamp(48px, 6vw, 72px)", background: "var(--paper-2)", padding: "clamp(32px, 5vw, 64px)", border: "1px solid var(--border-on-light)" }}>
+                <div style={{ color: "var(--slate)", marginBottom: 18 }}><Label>{g.secure.eyebrow}</Label></div>
+                <h3 style={{ margin: 0, maxWidth: 780, fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: "clamp(1.9rem, 3.4vw, 2.8rem)", lineHeight: 1.08, letterSpacing: "-0.015em", color: "var(--navy)" }}>{g.secure.title}</h3>
+                <p style={{ margin: "18px 0 0", fontFamily: "var(--font-serif)", fontWeight: 300, fontStyle: "italic", fontSize: "clamp(1.2rem, 2vw, 1.5rem)", lineHeight: 1.25, color: "var(--charcoal)" }}>{g.secure.lede}</p>
+                <p style={{ margin: "24px 0 0", maxWidth: 720, fontFamily: "var(--font-sans)", fontWeight: 300, fontSize: 15, lineHeight: 1.75, color: "var(--text-body)" }}>{ewHL(g.secure.intro)}</p>
+
+                {/* The four registered rights */}
+                <div style={{ marginTop: "clamp(28px, 4vw, 40px)", borderTop: "1px solid var(--border-on-light)" }}>
+                  {g.secure.layers.map((l) => (
+                    <div key={l.n} data-grid="step" style={{
+                      display: "grid", gridTemplateColumns: "64px minmax(180px, 0.8fr) 2fr",
+                      gap: "8px 32px", padding: "22px 0", borderBottom: "1px solid var(--border-on-light)", alignItems: "baseline",
+                    }}>
+                      <span style={{ fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: "clamp(1.3rem, 2vw, 1.7rem)", color: "var(--navy-60)" }}>{l.n}</span>
+                      <span style={{ fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: "clamp(1.2rem, 1.9vw, 1.45rem)", lineHeight: 1.2, letterSpacing: "-0.01em", color: "var(--navy)" }}>{l.t}</span>
+                      <p style={{ margin: 0, fontFamily: "var(--font-sans)", fontWeight: 300, fontSize: 14.5, lineHeight: 1.7, color: "var(--text-body)" }}>{ewHL(l.b)}</p>
+                    </div>
+                  ))}
+                </div>
+
+                {/* Option on the freehold */}
+                <div style={{ marginTop: "clamp(28px, 4vw, 40px)" }}>
+                  <h4 style={{ margin: 0, fontFamily: "var(--font-serif)", fontWeight: 300, fontSize: "clamp(1.35rem, 2.2vw, 1.7rem)", lineHeight: 1.15, letterSpacing: "-0.01em", color: "var(--navy)" }}>{g.secure.optionTitle}</h4>
+                  {g.secure.option.map((p, i) => (
+                    <p key={i} style={{ margin: "16px 0 0", maxWidth: 720, fontFamily: "var(--font-sans)", fontWeight: 300, fontSize: 14.5, lineHeight: 1.72, color: "var(--text-body)" }}>{ewHL(p)}</p>
+                  ))}
+                </div>
+
+                {/* The note callout */}
+                <div style={{ marginTop: "clamp(28px, 4vw, 40px)", borderLeft: "2px solid var(--butter)", padding: "4px 0 4px clamp(20px, 3vw, 32px)" }}>
+                  <div style={{ fontFamily: "var(--font-sans)", fontWeight: 400, fontSize: 12.5, letterSpacing: "0.08em", textTransform: "uppercase", color: "var(--charcoal)", marginBottom: 12 }}>{g.secure.noteHeading}</div>
+                  {g.secure.note.map((p, i) => (
+                    <p key={i} style={{ margin: i === 0 ? 0 : "14px 0 0", maxWidth: 700, fontFamily: "var(--font-sans)", fontWeight: 300, fontSize: 14, lineHeight: 1.72, color: "var(--text-body)" }}>{ewHL(p)}</p>
+                  ))}
+                </div>
+
+                <p style={{ margin: "clamp(24px, 3vw, 32px) 0 0", fontFamily: "var(--font-sans)", fontWeight: 300, fontStyle: "italic", fontSize: 13, lineHeight: 1.6, color: "var(--slate)" }}>{g.secure.footnote}</p>
+              </div>
+            )}
 
             {/* The buying process */}
             <div style={{ marginTop: "clamp(48px, 6vw, 72px)" }}>
