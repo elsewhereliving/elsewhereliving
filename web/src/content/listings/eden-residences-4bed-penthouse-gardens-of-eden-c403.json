@@ -1,14 +1,21 @@
 {
   "id": "eden-residences-4bed-penthouse-gardens-of-eden-c403",
-  "image": "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/01.jpg",
+  "image": "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/up-ms9w1gq1-7.jpg",
   "gallery": [
+    "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/up-ms9w1gq1-7.jpg",
     "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/01.jpg",
     "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/02.jpg",
     "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/03.jpg",
     "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/04.jpg",
     "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/05.jpg",
     "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/06.jpg",
-    "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/07.jpg"
+    "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/07.jpg",
+    "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/up-ms9w1gq1-1.jpg",
+    "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/up-ms9w1gq1-2.jpg",
+    "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/up-ms9w1gq1-3.jpg",
+    "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/up-ms9w1gq1-4.jpg",
+    "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/up-ms9w1gq1-5.jpg",
+    "/assets/listings/eden-residences-4bed-penthouse-gardens-of-eden-c403/up-ms9w1gq1-6.jpg"
   ],
   "location": "Bang Tao · Phuket · Thailand",
   "place": "Gardens of Eden, Cherngtalay, Choeng Thale, Thalang District, Phuket 83110, Thailand",
@@ -76,5 +83,8 @@
       "i": "key"
     }
   ],
-  "created": 1784997176197
+  "created": 1784997176197,
+  "internalName": "Eden Residences Penthouse",
+  "imageFocal": "",
+  "focals": {}
 }

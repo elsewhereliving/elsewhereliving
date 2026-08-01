@@ -1,0 +1,70 @@
+{
+  "id": "r-samui-laem-sor-seaview-6bed-pool-villa",
+  "image": "/assets/listings/r-samui-laem-sor-seaview-6bed-pool-villa/02.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-laem-sor-seaview-6bed-pool-villa/02.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-6bed-pool-villa/01.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-6bed-pool-villa/03.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-6bed-pool-villa/04.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-6bed-pool-villa/05.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-6bed-pool-villa/06.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-6bed-pool-villa/07.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-6bed-pool-villa/08.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-6bed-pool-villa/09.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-6bed-pool-villa/10.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-6bed-pool-villa/11.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-6bed-pool-villa/12.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-6bed-pool-villa/13.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-6bed-pool-villa/14.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-6bed-pool-villa/15.jpg"
+  ],
+  "location": "Laem Sor · Koh Samui · Thailand",
+  "place": "Laem Sor, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.4127,99.9636",
+  "title": "Beachfront Six-Bedroom Villa with Sea-Facing Pool",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 6,
+  "bedsLabel": "6",
+  "guests": 12,
+  "guestsLabel": "12",
+  "occupancy": "up to 12 guests",
+  "nightlyOriginalNum": 1250,
+  "nightlyCurrency": "USD",
+  "note": "Resident chef & staff · sea-view rooms",
+  "sleeps": "up to 12 guests · 6 bedrooms",
+  "blurb": "A contemporary six-bedroom villa set right on the sand at Laem Sor on Koh Samui's quiet south coast — a sea-facing infinity pool, six king en-suite rooms most looking straight out to the water, open indoor-outdoor living and a resident chef, with a sister villa next door for larger gatherings.",
+  "detail": "This beachfront villa sits on a calm, west-facing stretch of Laem Sor on Koh Samui's south coast, where the pace slows and the sand runs long and empty. The architecture is low and contemporary, opening almost entirely to the sea: living, dining and kitchen spaces slide back onto a wide terrace, and an infinity pool reaches toward the beach with sunloungers, a shaded sala and a hammock strung beneath a leaning shore tree.\n\nSix double bedrooms all take king beds — most positioned for a direct sea view, the rest looking over the garden and patios — and are split across the main level and an upper floor, giving couples and families their own corners. Indoors, an open-plan lounge and a separate sea-view sitting room flow into a full kitchen; dining seats ten indoors and twelve out, ready for long, unhurried meals.\n\nA resident chef prepares breakfast, lunch and dinner, backed by a household team who keep the villa running quietly in the background. The identical sister villa immediately alongside can be taken at the same time, opening the property up to a large group or extended family while each house keeps its own pool, kitchen and privacy.",
+  "features": [
+    {
+      "l": "Sea-facing infinity pool on the sand",
+      "i": "pool"
+    },
+    {
+      "l": "Direct Laem Sor beachfront access",
+      "i": "waves"
+    },
+    {
+      "l": "Six king en-suite rooms · most sea-view",
+      "i": "bed"
+    },
+    {
+      "l": "Open living · dining for 10 in / 12 out",
+      "i": "sofa"
+    },
+    {
+      "l": "Resident chef & household staff",
+      "i": "utensils"
+    },
+    {
+      "l": "Sister villa next door for larger groups",
+      "i": "users"
+    }
+  ],
+  "created": 1785554780291,
+  "internalName": "Villa Suma",
+  "imageFocal": "",
+  "focals": {}
+}

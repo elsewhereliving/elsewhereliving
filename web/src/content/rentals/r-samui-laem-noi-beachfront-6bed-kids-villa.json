@@ -1,0 +1,68 @@
+{
+  "id": "r-samui-laem-noi-beachfront-6bed-kids-villa",
+  "image": "/assets/listings/r-samui-laem-noi-beachfront-6bed-kids-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-laem-noi-beachfront-6bed-kids-villa/01.jpg",
+    "/assets/listings/r-samui-laem-noi-beachfront-6bed-kids-villa/02.jpg",
+    "/assets/listings/r-samui-laem-noi-beachfront-6bed-kids-villa/03.jpg",
+    "/assets/listings/r-samui-laem-noi-beachfront-6bed-kids-villa/04.jpg",
+    "/assets/listings/r-samui-laem-noi-beachfront-6bed-kids-villa/05.jpg",
+    "/assets/listings/r-samui-laem-noi-beachfront-6bed-kids-villa/06.jpg",
+    "/assets/listings/r-samui-laem-noi-beachfront-6bed-kids-villa/07.jpg",
+    "/assets/listings/r-samui-laem-noi-beachfront-6bed-kids-villa/08.jpg",
+    "/assets/listings/r-samui-laem-noi-beachfront-6bed-kids-villa/09.jpg",
+    "/assets/listings/r-samui-laem-noi-beachfront-6bed-kids-villa/10.jpg",
+    "/assets/listings/r-samui-laem-noi-beachfront-6bed-kids-villa/11.jpg",
+    "/assets/listings/r-samui-laem-noi-beachfront-6bed-kids-villa/12.jpg",
+    "/assets/listings/r-samui-laem-noi-beachfront-6bed-kids-villa/13.jpg",
+    "/assets/listings/r-samui-laem-noi-beachfront-6bed-kids-villa/14.jpg",
+    "/assets/listings/r-samui-laem-noi-beachfront-6bed-kids-villa/15.jpg"
+  ],
+  "location": "Laem Noi · Koh Samui · Thailand",
+  "place": "Laem Noi, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5752946,99.9282285",
+  "title": "Beachfront Family Villa with a 27 m Infinity Pool",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 6,
+  "bedsLabel": "6",
+  "guests": 18,
+  "guestsLabel": "12+6",
+  "occupancy": "up to 12 adults + 6 children",
+  "nightlyOriginalNum": 1400,
+  "nightlyCurrency": "USD",
+  "note": "Fully staffed incl. private chef",
+  "sleeps": "12 adults + 6 children · 6 bedrooms",
+  "blurb": "A six-bedroom villa set right on the sand of Koh Samui's quiet north-west shore, built for families travelling together — a 27-metre infinity pool with a shallow children's end, a dedicated kids' bunk room, 45 metres of private beach and a resident chef, with calm, swimmable water looking across to Koh Phangan.",
+  "detail": "This beachfront villa occupies a broad, gently curving stretch of sand on Koh Samui's north-west coast, a five-minute drive from Nathon and around thirty minutes from the airport. The setting is unusually calm and shallow — safe, swimmable water that runs clear toward Koh Phangan on the horizon — and the whole property is arranged across three low pavilions that open to the sea rather than to one another, so large groups can spread out and still gather.\n\nAt its heart is a 27-metre infinity pool that stretches toward the beach, with a shallow section for younger children and a manicured lawn alongside for yoga, games or a morning workout. Steps lead straight down to 45 metres of private sand where three sea kayaks and paddleboards are kept ready, and a short swim reaches a snorkelling reef. An air-conditioned teak library, a contemporary kitchen in black and copper, and an integrated sound system throughout give the interiors a grown-up, restrained feel.\n\nSix en-suite bedrooms sleep twelve adults, and a separate bunk room adds space for six children or a nanny, keeping parents and kids comfortably apart. A resident Thai chef prepares lunch and dinner and a made-to-order breakfast each morning, supported by an English-speaking villa manager, in-house concierge, daily housekeeping and optional in-villa spa treatments — a self-contained beachfront base for a multi-generational holiday.",
+  "features": [
+    {
+      "l": "45 m of private beach frontage",
+      "i": "waves"
+    },
+    {
+      "l": "27 m infinity pool with children's shallow",
+      "i": "pool"
+    },
+    {
+      "l": "Dedicated kids' bunk room · sleeps 12+6",
+      "i": "bed"
+    },
+    {
+      "l": "Resident chef & daily housekeeping",
+      "i": "utensils"
+    },
+    {
+      "l": "Three pavilions with air-con teak library",
+      "i": "home"
+    },
+    {
+      "l": "Sea kayaks & paddleboards included",
+      "i": "waves"
+    }
+  ],
+  "created": 1785554779891,
+  "internalName": "Villa Malouna"
+}

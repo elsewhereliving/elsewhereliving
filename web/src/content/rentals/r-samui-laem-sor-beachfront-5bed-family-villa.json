@@ -1,0 +1,70 @@
+{
+  "id": "r-samui-laem-sor-beachfront-5bed-family-villa",
+  "image": "/assets/listings/r-samui-laem-sor-beachfront-5bed-family-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-laem-sor-beachfront-5bed-family-villa/01.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-5bed-family-villa/05.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-5bed-family-villa/04.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-5bed-family-villa/06.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-5bed-family-villa/02.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-5bed-family-villa/03.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-5bed-family-villa/07.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-5bed-family-villa/08.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-5bed-family-villa/09.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-5bed-family-villa/10.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-5bed-family-villa/11.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-5bed-family-villa/12.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-5bed-family-villa/13.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-5bed-family-villa/14.jpg",
+    "/assets/listings/r-samui-laem-sor-beachfront-5bed-family-villa/15.jpg"
+  ],
+  "location": "Laem Sor · Koh Samui · Thailand",
+  "place": "Laem Sor, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.4131,99.9641",
+  "title": "Palm-Lawn Beachfront Villa on Samui's South Coast",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 5,
+  "bedsLabel": "5",
+  "guests": 16,
+  "guestsLabel": "10+6",
+  "occupancy": "up to 10 adults + 6 children",
+  "nightlyOriginalNum": 1050,
+  "nightlyCurrency": "USD",
+  "note": "Resident chef · beachfront",
+  "sleeps": "10 adults + 6 children · 5 bedrooms + 2 kids' rooms",
+  "blurb": "A beachfront villa on the quiet south coast at Laem Sor, spread across connected pavilions on a palm-dotted lawn — an infinity pool running toward the sea, two dedicated children's bedrooms, a resident Thai chef and direct access to a soft, uncrowded stretch of sand.",
+  "detail": "Set on the tranquil south coast of Koh Samui at Laem Sor, this beachfront villa trades the island's busier bays for a taste of old Samui — a fishing-village pace, wide sea views and long, empty stretches of beach. Lamai's restaurants are around fifteen minutes away, while the nearby villages of Thong Krut and Taling Ngam keep everyday dining close to hand.\n\nThe villa unfolds as a series of connected pavilions across rolling, palm-dotted lawns, all oriented to the water. A private infinity pool reaches toward the beach, edged by a poolside sala with a sunken lounge and an outdoor kitchen with a barbecue; the main living pavilion opens fully to the sea, and a state-of-the-art kitchen with a central island serves two separate dining tables for larger gatherings.\n\nFive adult bedrooms all take king beds, with two further children's rooms fitted with bunks and trundles — comfortable for two families sharing, or one large group with kids. Beyond the bedrooms are a fitness room, a media room with a flat screen and Apple TV, and space for in-villa spa treatments. A resident Thai chef handles lunch and dinner and a daily breakfast, with an English-speaking manager, concierge and dedicated maid service completing the stay.",
+  "features": [
+    {
+      "l": "Infinity pool on a palm-dotted lawn",
+      "i": "pool"
+    },
+    {
+      "l": "Direct Laem Sor beach access",
+      "i": "waves"
+    },
+    {
+      "l": "Two dedicated children's bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Resident Thai chef & daily maid",
+      "i": "utensils"
+    },
+    {
+      "l": "Fitness room, media room & spa sala",
+      "i": "gym"
+    },
+    {
+      "l": "Connected pavilions · sleeps 10+6",
+      "i": "users"
+    }
+  ],
+  "created": 1785554779991,
+  "internalName": "Villa Malabar",
+  "imageFocal": "",
+  "focals": {}
+}

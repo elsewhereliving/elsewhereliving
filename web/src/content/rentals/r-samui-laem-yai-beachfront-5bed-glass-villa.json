@@ -1,0 +1,70 @@
+{
+  "id": "r-samui-laem-yai-beachfront-5bed-glass-villa",
+  "image": "/assets/listings/r-samui-laem-yai-beachfront-5bed-glass-villa/07.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-laem-yai-beachfront-5bed-glass-villa/07.jpg",
+    "/assets/listings/r-samui-laem-yai-beachfront-5bed-glass-villa/01.jpg",
+    "/assets/listings/r-samui-laem-yai-beachfront-5bed-glass-villa/02.jpg",
+    "/assets/listings/r-samui-laem-yai-beachfront-5bed-glass-villa/03.jpg",
+    "/assets/listings/r-samui-laem-yai-beachfront-5bed-glass-villa/04.jpg",
+    "/assets/listings/r-samui-laem-yai-beachfront-5bed-glass-villa/05.jpg",
+    "/assets/listings/r-samui-laem-yai-beachfront-5bed-glass-villa/06.jpg",
+    "/assets/listings/r-samui-laem-yai-beachfront-5bed-glass-villa/08.jpg",
+    "/assets/listings/r-samui-laem-yai-beachfront-5bed-glass-villa/09.jpg",
+    "/assets/listings/r-samui-laem-yai-beachfront-5bed-glass-villa/10.jpg",
+    "/assets/listings/r-samui-laem-yai-beachfront-5bed-glass-villa/11.jpg",
+    "/assets/listings/r-samui-laem-yai-beachfront-5bed-glass-villa/12.jpg",
+    "/assets/listings/r-samui-laem-yai-beachfront-5bed-glass-villa/13.jpg",
+    "/assets/listings/r-samui-laem-yai-beachfront-5bed-glass-villa/14.jpg",
+    "/assets/listings/r-samui-laem-yai-beachfront-5bed-glass-villa/15.jpg"
+  ],
+  "location": "Laem Yai · Koh Samui · Thailand",
+  "place": "Laem Yai, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5752371,99.9285843",
+  "title": "Glass-Walled Beachfront Villa with Infinity Pool",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 5,
+  "bedsLabel": "5",
+  "guests": 10,
+  "guestsLabel": "10",
+  "occupancy": "up to 10 guests",
+  "nightlyOriginalNum": 875,
+  "nightlyCurrency": "USD",
+  "note": "Fully staffed incl. private chef",
+  "sleeps": "up to 10 guests · 5 bedrooms",
+  "blurb": "A minimalist five-bedroom villa set directly on the sand of Samui's north-west coast, wrapped in floor-to-ceiling glass on two sides for uninterrupted ocean views — a private infinity pool and jacuzzi, a wine cellar, a resident chef and a beachside sala just above the water.",
+  "detail": "This beachfront villa sits on a calm north-west stretch of Koh Samui, a short drive from Nathon and its ferries. The architecture is deliberately pared back: floor-to-ceiling glass doors on two sides slide away so the living space, the pool terrace and the sea read as one, and the horizon does most of the decorating.\n\nOutdoors, a private infinity pool and a jacuzzi face the water, with a beachside sala, an outdoor dining table for ten and a lawn running to the sand; two sea kayaks are kept for guests. Inside, an open-plan living, dining and kitchen area centres on a long teak table for ten, backed by a commercial kitchen, a guest kitchen with a breakfast bar, German appliances and a wine cellar for longer, slower stays.\n\nAll five en-suite bedrooms take king beds, dressed in Jim Thompson fabrics with commissioned Indonesian artwork; the master opens directly to the pool and has a terrazzo bathtub. A resident Thai chef prepares lunch and dinner, with an English-speaking manager, in-house concierge, housekeeping and optional in-villa spa treatments — an elegant, low-key beachfront retreat for a family or group of friends.",
+  "features": [
+    {
+      "l": "Floor-to-ceiling glass on two sides",
+      "i": "view"
+    },
+    {
+      "l": "Private infinity pool & jacuzzi",
+      "i": "pool"
+    },
+    {
+      "l": "Direct beach access & beachside sala",
+      "i": "waves"
+    },
+    {
+      "l": "Wine cellar & German-appliance kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Resident chef & in-house concierge",
+      "i": "sparkles"
+    },
+    {
+      "l": "Five sea-view en-suite bedrooms",
+      "i": "bed"
+    }
+  ],
+  "created": 1785554780091,
+  "internalName": "Villa Anar",
+  "imageFocal": "",
+  "focals": {}
+}

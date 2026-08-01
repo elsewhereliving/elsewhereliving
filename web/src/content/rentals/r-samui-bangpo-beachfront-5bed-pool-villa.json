@@ -1,0 +1,70 @@
+{
+  "id": "r-samui-bangpo-beachfront-5bed-pool-villa",
+  "image": "/assets/listings/r-samui-bangpo-beachfront-5bed-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-bangpo-beachfront-5bed-pool-villa/01.jpg",
+    "/assets/listings/r-samui-bangpo-beachfront-5bed-pool-villa/02.jpg",
+    "/assets/listings/r-samui-bangpo-beachfront-5bed-pool-villa/03.jpg",
+    "/assets/listings/r-samui-bangpo-beachfront-5bed-pool-villa/04.jpg",
+    "/assets/listings/r-samui-bangpo-beachfront-5bed-pool-villa/05.jpg",
+    "/assets/listings/r-samui-bangpo-beachfront-5bed-pool-villa/06.jpg",
+    "/assets/listings/r-samui-bangpo-beachfront-5bed-pool-villa/07.jpg",
+    "/assets/listings/r-samui-bangpo-beachfront-5bed-pool-villa/08.jpg",
+    "/assets/listings/r-samui-bangpo-beachfront-5bed-pool-villa/09.jpg",
+    "/assets/listings/r-samui-bangpo-beachfront-5bed-pool-villa/10.jpg",
+    "/assets/listings/r-samui-bangpo-beachfront-5bed-pool-villa/11.jpg",
+    "/assets/listings/r-samui-bangpo-beachfront-5bed-pool-villa/12.jpg",
+    "/assets/listings/r-samui-bangpo-beachfront-5bed-pool-villa/13.jpg",
+    "/assets/listings/r-samui-bangpo-beachfront-5bed-pool-villa/14.jpg",
+    "/assets/listings/r-samui-bangpo-beachfront-5bed-pool-villa/15.jpg"
+  ],
+  "location": "Bang Po · Koh Samui · Thailand",
+  "place": "Bang Po, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5726,99.9447",
+  "title": "Beachfront Villa with a Saltwater Infinity Pool",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 5,
+  "bedsLabel": "5",
+  "guests": 15,
+  "guestsLabel": "10–15",
+  "occupancy": "up to 15 guests",
+  "nightlyOriginalNum": 46000,
+  "nightlyCurrency": "THB",
+  "note": "Beachfront · infinity pool · gym & cinema",
+  "sleeps": "10–15 guests · 5 bedrooms · 9 beds",
+  "blurb": "A large beachfront villa right on the sand at Bang Po on Koh Samui's calm north coast — around 800 m² of living space opening to a 520 m² private beach garden, a saltwater infinity pool, a cinema and games room, a private gym and five king en-suite bedrooms looking out to Koh Phangan.",
+  "detail": "Set directly on Hat Bang Po on Koh Samui's quiet north coast, this is one of the larger beachfront villas on this stretch — roughly 800 m² of indoor-outdoor living opening onto a 520 m² private garden that runs to the sand, with clear views across the water to Koh Phangan. The buildings step back from a saltwater infinity pool that faces the sea and stays open around the clock, and there is direct, private access to the beach.\n\nThe villa is arranged as several connected structures around the pool and garden. The main building holds a beachfront bedroom opening to the sand, a fully equipped Western kitchen with a sea-view lounge and workspace, and a cinema and games room with a pool table; an upper mezzanine studio leads to two further sea-view bedrooms with balconies. A separate wing adds two more bedrooms, and a standalone wooden pavilion houses a private gym with an extra room above — all five main bedrooms taking king beds with private bathrooms and most with a sofa bed, sleeping ten comfortably and up to fifteen.\n\nThe villa is fully air-conditioned with ceiling fans, high-speed Wi-Fi and workspaces throughout, and is looked after by an attentive on-island management team who arrange transfers, car or scooter hire, excursions, laundry and in-villa dining, from breakfast to beachfront BBQ evenings — a spacious, self-contained base for a family group or friends on the north coast.",
+  "features": [
+    {
+      "l": "Direct Hat Bang Po beachfront access",
+      "i": "waves"
+    },
+    {
+      "l": "Saltwater infinity pool, open 24 hours",
+      "i": "pool"
+    },
+    {
+      "l": "Five king en-suite bedrooms · sleeps to 15",
+      "i": "bed"
+    },
+    {
+      "l": "Cinema & games room with pool table",
+      "i": "music"
+    },
+    {
+      "l": "Private gym pavilion",
+      "i": "gym"
+    },
+    {
+      "l": "≈800 m² living + 520 m² beach garden",
+      "i": "home"
+    }
+  ],
+  "created": 1785554780491,
+  "internalName": "Villa Kalamari",
+  "imageFocal": "",
+  "focals": {}
+}

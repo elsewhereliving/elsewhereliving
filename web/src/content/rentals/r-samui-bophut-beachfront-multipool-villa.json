@@ -1,0 +1,72 @@
+{
+  "id": "r-samui-bophut-beachfront-multipool-villa",
+  "image": "/assets/listings/r-samui-bophut-beachfront-multipool-villa/up-ms9xkc8x-1.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-bophut-beachfront-multipool-villa/up-ms9xkc8x-1.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-multipool-villa/up-ms9xkc8x-2.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-multipool-villa/up-ms9xkc8x-3.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-multipool-villa/up-ms9xkc8x-4.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-multipool-villa/up-ms9xkc8x-5.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-multipool-villa/02.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-multipool-villa/01.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-multipool-villa/03.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-multipool-villa/06.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-multipool-villa/13.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-multipool-villa/04.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-multipool-villa/08.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-multipool-villa/09.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-multipool-villa/10.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-multipool-villa/11.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-multipool-villa/12.jpg",
+    "/assets/listings/r-samui-bophut-beachfront-multipool-villa/14.jpg"
+  ],
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bophut, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5676242,100.0155087",
+  "title": "Beachfront Villa with Four Private Pools",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 5,
+  "bedsLabel": "3–5",
+  "guests": 12,
+  "guestsLabel": "10+2",
+  "occupancy": "up to 10 adults + 2 children",
+  "nightlyOriginalNum": 1350,
+  "nightlyCurrency": "USD",
+  "note": "Private chef · flexible 3–5 bedrooms",
+  "sleeps": "up to 10 adults + 2 children · 3–5 bedrooms",
+  "blurb": "A beachfront villa on the quiet western end of Bophut Bay, with four private pools, direct sand access and panoramic views along the coast to Fisherman's Village — a private chef, a resident mixologist and a flexible three-to-five-bedroom layout for families and groups.",
+  "detail": "Positioned on the calm western end of Bophut on Koh Samui's north coast, this beachfront villa looks out over a long, curving sweep of sand that runs all the way to Fisherman's Village, around fifteen minutes away on foot. The layout is deliberately flexible — booked as three bedrooms or opened up to five — so it suits anything from a couple's escape to a full family group of up to ten adults and two children.\n\nWater is the defining feature: four private pools, including an infinity pool facing the sea and a second pool set within a planted courtyard, thread through the villa alongside sun decks and direct beachfront seating on the sand. Living spaces layer an upper loft with its own lounge, kitchen and terrace over lower courtyard bedrooms and an ocean-view master, all finished in contemporary Asian style with Oriental art and a fully equipped Western kitchen.\n\nService is a large part of the appeal. A private chef prepares à la carte Thai, seafood and Western menus with a daily breakfast included, a trained mixologist makes cocktails to order, and a villa manager, housekeeping and gardener keep the property running. Private airport transfers, Thai cooking classes and on-request water activities — paddleboarding, kayaking, jet-skiing — round out the stay.",
+  "features": [
+    {
+      "l": "Four private pools incl. infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Direct Bophut beachfront access",
+      "i": "waves"
+    },
+    {
+      "l": "Flexible 3–5 bedroom layout",
+      "i": "bed"
+    },
+    {
+      "l": "Private chef & resident mixologist",
+      "i": "utensils"
+    },
+    {
+      "l": "Panoramic views to Fisherman's Village",
+      "i": "view"
+    },
+    {
+      "l": "Villa manager, housekeeping & transfers",
+      "i": "sparkles"
+    }
+  ],
+  "created": 1785554780191,
+  "internalName": "Clay Beach Samui — single villa (from 3-bed)",
+  "imageFocal": "",
+  "focals": {}
+}

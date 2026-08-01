@@ -1,0 +1,68 @@
+{
+  "id": "r-samui-laem-sor-seaview-5bed-pool-villa",
+  "image": "/assets/listings/r-samui-laem-sor-seaview-5bed-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-laem-sor-seaview-5bed-pool-villa/01.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-5bed-pool-villa/02.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-5bed-pool-villa/03.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-5bed-pool-villa/04.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-5bed-pool-villa/05.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-5bed-pool-villa/06.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-5bed-pool-villa/07.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-5bed-pool-villa/08.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-5bed-pool-villa/09.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-5bed-pool-villa/10.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-5bed-pool-villa/11.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-5bed-pool-villa/12.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-5bed-pool-villa/13.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-5bed-pool-villa/14.jpg",
+    "/assets/listings/r-samui-laem-sor-seaview-5bed-pool-villa/15.jpg"
+  ],
+  "location": "Laem Sor · Koh Samui · Thailand",
+  "place": "Laem Sor, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.4124,99.9638",
+  "title": "Beachfront Villa with Sea-View Suites and Lap Pool",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 5,
+  "bedsLabel": "5",
+  "guests": 12,
+  "guestsLabel": "10+2",
+  "occupancy": "up to 10 adults + 2 children",
+  "nightlyOriginalNum": 1190,
+  "nightlyCurrency": "USD",
+  "note": "Resident chef & staff · sea-view rooms",
+  "sleeps": "10 adults + 2 children · 5 bedrooms + bunk room",
+  "blurb": "A contemporary five-bedroom villa on the sand at Laem Sor on Koh Samui's quiet south coast — a sea-facing lap pool, five king en-suite rooms and a children's bunk room, open living that folds back to the beach and a resident chef, with an identical sister villa alongside for bigger groups.",
+  "detail": "Set directly on a west-facing stretch of Laem Sor beach on Koh Samui's tranquil south coast, this villa is built low and open, so the sea is present from almost every room. A long lap pool runs toward the shore past sunloungers and a shaded sala, with soft, uncrowded sand and clear water just beyond the terrace.\n\nInside, the living, dining and kitchen spaces open fully to the pool and beach; dining seats ten indoors and twelve outside, and a sculpture-filled lounge gives a quieter place to gather. Five double bedrooms take king beds — the master and several others angled straight to the sea, the rest facing the garden patios — and a dedicated children's bunk room adds space for kids or a nanny, sleeping the villa up to ten adults and two children.\n\nA resident chef cooks breakfast, lunch and dinner to order, with a household team handling housekeeping and day-to-day service. The matching sister villa immediately next door can be booked at the same time, joining the two houses into one large beachfront compound for extended families and groups while each keeps its own pool and kitchen.",
+  "features": [
+    {
+      "l": "Sea-facing lap pool on the sand",
+      "i": "pool"
+    },
+    {
+      "l": "Direct Laem Sor beachfront access",
+      "i": "waves"
+    },
+    {
+      "l": "Five king en-suite rooms + kids' bunk room",
+      "i": "bed"
+    },
+    {
+      "l": "Open living · dining for 10 in / 12 out",
+      "i": "sofa"
+    },
+    {
+      "l": "Resident chef & household staff",
+      "i": "utensils"
+    },
+    {
+      "l": "Sister villa next door for larger groups",
+      "i": "users"
+    }
+  ],
+  "created": 1785554780391,
+  "internalName": "Villa Kirana"
+}
