@@ -1,0 +1,80 @@
+{
+  "id": "r-samui-choeng-mon-3bed-pool-villa",
+  "internalName": "Villa ONYX",
+  "image": "/assets/listings/r-samui-choeng-mon-3bed-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-choeng-mon-3bed-pool-villa/01.jpg",
+    "/assets/listings/r-samui-choeng-mon-3bed-pool-villa/02.jpg",
+    "/assets/listings/r-samui-choeng-mon-3bed-pool-villa/03.jpg",
+    "/assets/listings/r-samui-choeng-mon-3bed-pool-villa/04.jpg",
+    "/assets/listings/r-samui-choeng-mon-3bed-pool-villa/05.jpg",
+    "/assets/listings/r-samui-choeng-mon-3bed-pool-villa/06.jpg",
+    "/assets/listings/r-samui-choeng-mon-3bed-pool-villa/07.jpg",
+    "/assets/listings/r-samui-choeng-mon-3bed-pool-villa/08.jpg",
+    "/assets/listings/r-samui-choeng-mon-3bed-pool-villa/09.jpg",
+    "/assets/listings/r-samui-choeng-mon-3bed-pool-villa/10.jpg",
+    "/assets/listings/r-samui-choeng-mon-3bed-pool-villa/11.jpg",
+    "/assets/listings/r-samui-choeng-mon-3bed-pool-villa/12.jpg",
+    "/assets/listings/r-samui-choeng-mon-3bed-pool-villa/13.jpg",
+    "/assets/listings/r-samui-choeng-mon-3bed-pool-villa/14.jpg",
+    "/assets/listings/r-samui-choeng-mon-3bed-pool-villa/15.jpg",
+    "/assets/listings/r-samui-choeng-mon-3bed-pool-villa/16.jpg"
+  ],
+  "location": "Choeng Mon · Koh Samui · Thailand",
+  "place": "Choeng Mon, Bo Phut, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5732239,100.076277",
+  "nightlyCurrency": "THB",
+  "nightlyOriginalNum": 18000,
+  "created": 1785758160174,
+  "featured": false,
+  "imageFocal": "",
+  "beds": 3,
+  "bedsLabel": "3",
+  "baths": 3.5,
+  "guests": 6,
+  "guestsLabel": "6",
+  "occupancy": "up to 6 guests",
+  "title": "Architectural Glass Pool Villa with Sea Views, Choeng Mon",
+  "view": [
+    "Sea View"
+  ],
+  "note": "Private lap pool · self-catering · pets welcome",
+  "sleeps": "up to 6 guests · 3 bedrooms",
+  "blurb": "A striking glass-walled villa on the Choeng Mon headland in Koh Samui's quiet north-east, where a private lap pool runs out toward the sea and the island falls away below. Three glass-fronted bedrooms, an open-plan living pavilion and a fully-fitted kitchen make it an easy self-catering base — moments from the beach yet wrapped in privacy and light.",
+  "detail": "Set high on the Choeng Mon headland in the calm north-east corner of Koh Samui, this contemporary villa is an exercise in glass and light. Angular, floor-to-ceiling walls dissolve the line between inside and out, so the pool, the tropical garden and the sea beyond feel like part of the living space. It is a short drive from the beaches and easygoing restaurants of Choeng Mon, yet set back enough to keep its own sense of seclusion.\n\nAt the heart of the home, a private lap pool stretches along a timber sun deck lined with loungers, framing an elevated view over the island toward the water. The open-plan living and dining pavilion sits beneath a warm slatted-timber ceiling, pairing marble accents and a sculptural chandelier with deep sofas and a full kitchen — everything in place for guests who like to cook, entertain and come and go on their own schedule.\n\nThree bedrooms each open to the view through walls of glass, wrapped in soft drapes for cool, dark nights, and served by marble en-suites — three and a half bathrooms in all, one with an outdoor shower. Air-conditioning, fast Wi-Fi and a dedicated workspace make longer stays effortless, and the villa is pet-friendly. Sleeps up to six across three bedrooms, with the host on hand to greet you on arrival.",
+  "features": [
+    {
+      "l": "Three bedrooms · 3.5 bathrooms · sleeps 6",
+      "i": "bed"
+    },
+    {
+      "l": "Private lap pool · timber sun deck",
+      "i": "pool"
+    },
+    {
+      "l": "Elevated sea & island views",
+      "i": "view"
+    },
+    {
+      "l": "Floor-to-ceiling glass architecture",
+      "i": "home"
+    },
+    {
+      "l": "Open-plan living, dining & full kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Marble en-suites · outdoor shower",
+      "i": "sparkles"
+    },
+    {
+      "l": "Fast Wi-Fi · dedicated workspace · free parking",
+      "i": "wifi"
+    },
+    {
+      "l": "Nearby beach access · pets welcome",
+      "i": "waves"
+    }
+  ],
+  "focals": {}
+}

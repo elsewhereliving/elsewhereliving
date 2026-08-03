@@ -1,0 +1,75 @@
+{
+  "id": "hikaru-garden-japanese-villas-plai-laem",
+  "image": "/assets/listings/hikaru-garden-japanese-villas-plai-laem/01.jpg",
+  "gallery": [
+    "/assets/listings/hikaru-garden-japanese-villas-plai-laem/01.jpg",
+    "/assets/listings/hikaru-garden-japanese-villas-plai-laem/02.jpg",
+    "/assets/listings/hikaru-garden-japanese-villas-plai-laem/03.jpg",
+    "/assets/listings/hikaru-garden-japanese-villas-plai-laem/04.jpg",
+    "/assets/listings/hikaru-garden-japanese-villas-plai-laem/05.jpg",
+    "/assets/listings/hikaru-garden-japanese-villas-plai-laem/06.jpg",
+    "/assets/listings/hikaru-garden-japanese-villas-plai-laem/07.jpg",
+    "/assets/listings/hikaru-garden-japanese-villas-plai-laem/08.jpg",
+    "/assets/listings/hikaru-garden-japanese-villas-plai-laem/09.jpg",
+    "/assets/listings/hikaru-garden-japanese-villas-plai-laem/10.jpg"
+  ],
+  "location": "Plai Laem · Koh Samui · Thailand",
+  "place": "Plai Laem, Bo Phut, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5727227,100.0697449",
+  "market": "Koh Samui",
+  "title": "Hikaru Garden — Japanese-Inspired Villa Community, Plai Laem",
+  "type": "Villa",
+  "view": [
+    "Garden / Pool View"
+  ],
+  "status": "Off-Plan",
+  "beds": 3,
+  "bedsLabel": "3",
+  "baths": 3,
+  "interior": "142 m²",
+  "plot": null,
+  "year": "2026",
+  "priceOriginalNum": 7900000,
+  "priceCurrency": "THB",
+  "priceFrom": true,
+  "ownership": "Leasehold",
+  "created": 1785759517302,
+  "featured": false,
+  "imageFocal": "",
+  "blurb": "A boutique gated community of seven Japanese-inspired villas set around a shared 12-metre pool and tropical garden in Plai Laem, on Koh Samui's quiet north-east coast — a six-minute walk to a sunset beach. Each 142 m² two-storey home is designed around light and calm: open-plan living below, three bedrooms above, shoji screens and warm timber finishes throughout. Sold on a 30-year leasehold with the house in your own name; from ฿7.9M, currently under construction.",
+  "detail": "A BETTER WAY OF LIFE IN PLAI LAEM\nHikaru Garden is a one-off collection of seven detached, Japanese-inspired villas arranged around a communal 5×12-metre pool and tropical gardens, on a single private, gated site in Plai Laem. There are no high walls or heavy electric gates between homes — just a low-key, car-light community a short walk from the beach. It sits in a peaceful village setting on the north-east side of Koh Samui, roughly 450 metres (about a six-minute walk) from a sunset-facing beach, with cafés and shops nearby and Choeng Mon, Big Buddha, the Bophut and Bangrak piers, Fisherman's Village and the airport all a short drive away — clear of the Chaweng traffic.\n\nTHE HOUSE\nEach villa offers 142 m² of living space over two floors. The ground floor is open-plan — a lounge and diner with floor-to-ceiling sliding doors onto the garden terrace, a custom fitted kitchen (integrated dishwasher, four-ring gas hob, oven, extractor and a large fridge-freezer), a study/nook and a downstairs WC, opening to a 4.8 m² patio. Upstairs are three bedrooms and the option to configure instead as two en-suite master bedrooms: the master has a Romeo-and-Juliet balcony over the pool and garden and his-and-hers vanities, while bedrooms two and three are equal in size and share a large communal bathroom. Homes are handed over unfurnished but with the kitchen fully fitted and bathrooms complete with vanity units and mirrors. Design touches — shoji screens, timber-effect slatting and a quiet material palette — are drawn from Japanese architecture and suited to tropical living.\n\nOWNERSHIP & LEGAL STRUCTURE\nThe villas are sold on a 30-year registered leasehold: you own the house in your own name and lease the land beneath it. The land is valued at 6,000 THB per month and is prepaid within the ฿7.9M purchase price — there is no separate ongoing land rent to pay. Each villa has its own government (PEA) electricity meter at the standard rate plus 1 THB per unit, and water is drawn from a deep well, free to owners under normal use. A monthly maintenance charge of 4,750 THB per villa covers pool cleaning, gardening, refuse removal and common-area lighting. The gated site has CCTV and a designated parking space per villa (with optional EV charging as an extra), plus motorbike parking. The developer also indicates a rental-income potential of around 75,000 THB per month.\n\nPAYMENT SCHEDULE\n• 100,000 THB reservation fee\n• 50% on contract signing\n• 20% on completion of the roof structure\n• 20% on completion of the block work\n• 10% on villa completion (less the reservation fee already paid)\n\nAVAILABILITY & THE BUILDER\nPhase One comprises four villas at ฿7.9M, of which two are now reserved — two remain at this price; the final three villas release as Phase Two at a higher price. Construction is under way, with the first villa due to complete in early October 2026. Hikaru Garden is built by a hands-on, family-run team based on Koh Samui with more than twenty years on the island and forty-four completed homes behind them. Private on-site viewings are available on request.",
+  "features": [
+    {
+      "l": "Seven-villa gated community · not a further phase",
+      "i": "home"
+    },
+    {
+      "l": "Three bedrooms · 3 bathrooms · 142 m² over two floors",
+      "i": "bed"
+    },
+    {
+      "l": "Communal 5×12 m pool & tropical gardens",
+      "i": "pool"
+    },
+    {
+      "l": "Japanese-inspired design · shoji screens · timber finishes",
+      "i": "sparkles"
+    },
+    {
+      "l": "Open-plan living · fitted kitchen · study/nook",
+      "i": "utensils"
+    },
+    {
+      "l": "450 m to a sunset beach · ~6 min walk",
+      "i": "waves"
+    },
+    {
+      "l": "Designated parking per villa · optional EV charging",
+      "i": "car"
+    },
+    {
+      "l": "30-year leasehold · house in your name · from ฿7.9M",
+      "i": "key"
+    }
+  ]
+}
