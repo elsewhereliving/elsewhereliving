@@ -1,0 +1,83 @@
+{
+  "id": "scope-langsuan-1bed-29th-floor-residence",
+  "internalName": "Scope Langsuan — 1-bed, 84 m², 29th floor (tenanted ฿160k/mo)",
+  "image": "/assets/listings/scope-langsuan-1bed-29th-floor-residence/01.jpg",
+  "gallery": [
+    "/assets/listings/scope-langsuan-1bed-29th-floor-residence/01.jpg",
+    "/assets/listings/scope-langsuan-1bed-29th-floor-residence/02.jpg",
+    "/assets/listings/scope-langsuan-1bed-29th-floor-residence/03.jpg",
+    "/assets/listings/scope-langsuan-1bed-29th-floor-residence/04.jpg",
+    "/assets/listings/scope-langsuan-1bed-29th-floor-residence/05.jpg",
+    "/assets/listings/scope-langsuan-1bed-29th-floor-residence/06.jpg",
+    "/assets/listings/scope-langsuan-1bed-29th-floor-residence/07.jpg",
+    "/assets/listings/scope-langsuan-1bed-29th-floor-residence/08.jpg",
+    "/assets/listings/scope-langsuan-1bed-29th-floor-residence/09.jpg",
+    "/assets/listings/scope-langsuan-1bed-29th-floor-residence/10.jpg",
+    "/assets/listings/scope-langsuan-1bed-29th-floor-residence/11.jpg",
+    "/assets/listings/scope-langsuan-1bed-29th-floor-residence/12.jpg",
+    "/assets/listings/scope-langsuan-1bed-29th-floor-residence/13.jpg",
+    "/assets/listings/scope-langsuan-1bed-29th-floor-residence/14.jpg",
+    "/assets/listings/scope-langsuan-1bed-29th-floor-residence/15.jpg",
+    "/assets/listings/scope-langsuan-1bed-29th-floor-residence/16.jpg"
+  ],
+  "location": "Langsuan · Bangkok · Thailand",
+  "place": "Langsuan Road, Lumpini, Pathum Wan, Bangkok, Thailand",
+  "market": "Bangkok",
+  "mapQuery": "13.7426468,100.5437687",
+  "title": "Scope Langsuan — One-Bedroom 29th-Floor Residence",
+  "type": "Condominium",
+  "view": "City View",
+  "status": "Move-In Ready",
+  "beds": 1,
+  "baths": 1,
+  "interior": "84 m²",
+  "year": 2024,
+  "priceOriginalNum": 42000000,
+  "priceCurrency": "THB",
+  "ownership": "Freehold",
+  "blurb": "A generous 84 m² one-bedroom on the 29th floor of Scope Langsuan, the Kohn Pedersen Fox–designed tower on Langsuan Road. Private-lift entry, floor-to-ceiling glass and panoramic city views, currently let at ฿160,000 a month — a turnkey investment on one of Bangkok's finest addresses. Freehold under the foreign quota. ฿42,000,000.",
+  "detail": "At 84 m², this is a notably large one-bedroom, arranged on the 29th floor with a private lift opening into the apartment. An open-plan living, dining and kitchen area sits behind floor-to-ceiling glass with panoramic views across the Langsuan district and the skyline, alongside a double bedroom, a full bathroom and a separate powder room. The finish is the same warm palette of stone, timber and bronze found throughout the building.\n\nScope Langsuan stands on Langsuan Road in Lumpini, a short walk from Ploenchit BTS, Central Embassy and Lumpini Park, on a plot that set Bangkok's land-price record in 2019. The tower's sculpted façade is the work of New York firm Kohn Pedersen Fox, and residents share a private 25-seat Dolby Atmos screening room and an inclusive three-times-weekly housekeeping service.\n\nThe residence is currently tenanted at ฿160,000 per month, a gross yield of roughly 4.6%, making it a ready-to-hold investment as well as a pied-à-terre. It is available freehold under the foreign-ownership quota. Lease terms, floor plan and title details are available on request.",
+  "features": [
+    {
+      "l": "84 m² on the 29th floor",
+      "i": "building"
+    },
+    {
+      "l": "Double bedroom + powder room",
+      "i": "bed"
+    },
+    {
+      "l": "Private lift into the residence",
+      "i": "home"
+    },
+    {
+      "l": "Panoramic city views",
+      "i": "view"
+    },
+    {
+      "l": "Floor-to-ceiling glass",
+      "i": "sun"
+    },
+    {
+      "l": "Tenanted at ฿160,000 / month",
+      "i": "key"
+    },
+    {
+      "l": "Gross yield approx. 4.6%",
+      "i": "sparkles"
+    },
+    {
+      "l": "KPF-designed tower",
+      "i": "building"
+    },
+    {
+      "l": "Private 25-seat Dolby Atmos cinema",
+      "i": "music"
+    },
+    {
+      "l": "Foreign freehold quota",
+      "i": "shield"
+    }
+  ],
+  "created": 1786518122798
+}

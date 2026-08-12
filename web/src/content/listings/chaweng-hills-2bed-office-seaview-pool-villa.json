@@ -1,0 +1,84 @@
+{
+  "id": "chaweng-hills-2bed-office-seaview-pool-villa",
+  "internalName": "Kanaka Villas — move-in-ready villa (2BR + office)",
+  "image": "/assets/listings/chaweng-hills-2bed-office-seaview-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/chaweng-hills-2bed-office-seaview-pool-villa/01.jpg",
+    "/assets/listings/chaweng-hills-2bed-office-seaview-pool-villa/02.jpg",
+    "/assets/listings/chaweng-hills-2bed-office-seaview-pool-villa/03.jpg",
+    "/assets/listings/chaweng-hills-2bed-office-seaview-pool-villa/04.jpg",
+    "/assets/listings/chaweng-hills-2bed-office-seaview-pool-villa/05.jpg",
+    "/assets/listings/chaweng-hills-2bed-office-seaview-pool-villa/06.jpg",
+    "/assets/listings/chaweng-hills-2bed-office-seaview-pool-villa/07.jpg",
+    "/assets/listings/chaweng-hills-2bed-office-seaview-pool-villa/08.jpg"
+  ],
+  "location": "Chaweng · Koh Samui · Thailand",
+  "place": "Chaweng, Bo Phut, Ko Samui District, Surat Thani, Thailand",
+  "market": "Koh Samui",
+  "mapQuery": "9.5258887,100.0316903",
+  "title": "Contemporary Two-Bedroom Hillside Pool Villa with Office in Chaweng",
+  "type": "Villa",
+  "view": "Sea View",
+  "status": "Move-In Ready",
+  "beds": 2,
+  "baths": 3,
+  "interior": "195 m²",
+  "plot": "600 m²",
+  "year": 2026,
+  "priceOriginalNum": 23900000,
+  "priceCurrency": "THB",
+  "ownership": "Freehold or Leasehold",
+  "blurb": "One of just two contemporary villas in a boutique hillside development above Chaweng, set roughly 180 m above sea level for panoramic views across the island and the Gulf. Completed and move-in ready — two en-suite bedrooms plus a flexible office that converts to a third, open-plan living opening to a private 8 × 3 m pool and wide terraces, on its own freehold plot. ฿23,900,000.",
+  "detail": "One of only two private villas in a boutique hillside development above Chaweng, this completed home sits roughly 180 metres above sea level, angled to capture a panoramic sweep across the island and out to the Gulf of Thailand. The elevated setting buys privacy, constant natural light and a quiet remove from the beach without giving up the view.\n\nThe villa is arranged over two floors plus a separate master pavilion, with an open-plan living and kitchen area opening through floor-to-ceiling glass onto generous terraces and the pool. Two en-suite bedrooms are joined by a dedicated office with a sofa that works equally well as a guest room, and the layout can be reconfigured to a full three bedrooms. The master pavilion has its own en-suite and steps straight out to the terrace and pool.\n\nArchitecturally the house pairs clean European lines with an Asian minimalism of warm natural materials and tropical openness. Outside are a private 8 × 3 m pool, around 100 m² of panoramic terraces and covered parking. Services are built for hillside self-sufficiency: a grid-connected solar option, EV-charging provision, a private 220 m deep well and a rainwater-collection system.\n\nThe villa occupies its own 600 m² freehold plot, with roughly 195 m² of interior space within about 380 m² of total built area. It is available freehold through a Thai company structure or on a registered leasehold. This is the completed villa of the pair; the neighbouring three-bedroom villa is available off-plan and can be purchased separately. Floor plans, specifications and ownership options on request.",
+  "features": [
+    {
+      "l": "Private 8 × 3 m pool",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic island & sea view",
+      "i": "view"
+    },
+    {
+      "l": "Two en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Office / flexible third bedroom",
+      "i": "home"
+    },
+    {
+      "l": "Separate master pavilion",
+      "i": "building"
+    },
+    {
+      "l": "Floor-to-ceiling windows",
+      "i": "sun"
+    },
+    {
+      "l": "Open-plan living & kitchen",
+      "i": "sofa"
+    },
+    {
+      "l": "Wide panoramic terraces",
+      "i": "terrace"
+    },
+    {
+      "l": "Solar-ready & EV-charging option",
+      "i": "shield"
+    },
+    {
+      "l": "Deep well & rainwater system",
+      "i": "waves"
+    },
+    {
+      "l": "Own 600 m² freehold plot",
+      "i": "key"
+    },
+    {
+      "l": "Covered parking",
+      "i": "car"
+    }
+  ],
+  "created": 1786517364261
+}

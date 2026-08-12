@@ -1,0 +1,86 @@
+{
+  "id": "scope-langsuan-2bed-29th-floor-residence",
+  "internalName": "Scope Langsuan — 2-bed, 162 m², 29th floor",
+  "image": "/assets/listings/scope-langsuan-2bed-29th-floor-residence/01.jpg",
+  "gallery": [
+    "/assets/listings/scope-langsuan-2bed-29th-floor-residence/01.jpg",
+    "/assets/listings/scope-langsuan-2bed-29th-floor-residence/02.jpg",
+    "/assets/listings/scope-langsuan-2bed-29th-floor-residence/03.jpg",
+    "/assets/listings/scope-langsuan-2bed-29th-floor-residence/04.jpg",
+    "/assets/listings/scope-langsuan-2bed-29th-floor-residence/05.jpg",
+    "/assets/listings/scope-langsuan-2bed-29th-floor-residence/06.jpg",
+    "/assets/listings/scope-langsuan-2bed-29th-floor-residence/07.jpg",
+    "/assets/listings/scope-langsuan-2bed-29th-floor-residence/08.jpg",
+    "/assets/listings/scope-langsuan-2bed-29th-floor-residence/09.jpg",
+    "/assets/listings/scope-langsuan-2bed-29th-floor-residence/10.jpg",
+    "/assets/listings/scope-langsuan-2bed-29th-floor-residence/11.jpg",
+    "/assets/listings/scope-langsuan-2bed-29th-floor-residence/12.jpg",
+    "/assets/listings/scope-langsuan-2bed-29th-floor-residence/13.jpg",
+    "/assets/listings/scope-langsuan-2bed-29th-floor-residence/14.jpg",
+    "/assets/listings/scope-langsuan-2bed-29th-floor-residence/15.jpg",
+    "/assets/listings/scope-langsuan-2bed-29th-floor-residence/16.jpg",
+    "/assets/listings/scope-langsuan-2bed-29th-floor-residence/17.jpg",
+    "/assets/listings/scope-langsuan-2bed-29th-floor-residence/18.jpg",
+    "/assets/listings/scope-langsuan-2bed-29th-floor-residence/19.jpg"
+  ],
+  "location": "Langsuan · Bangkok · Thailand",
+  "place": "Langsuan Road, Lumpini, Pathum Wan, Bangkok, Thailand",
+  "market": "Bangkok",
+  "mapQuery": "13.7426468,100.5437687",
+  "title": "Scope Langsuan — Two-Bedroom 29th-Floor Residence",
+  "type": "Condominium",
+  "view": "City View",
+  "status": "Move-In Ready",
+  "beds": 2,
+  "baths": 2,
+  "interior": "162 m²",
+  "year": 2024,
+  "priceOriginalNum": 110000000,
+  "priceCurrency": "THB",
+  "ownership": "Freehold",
+  "blurb": "A two-bedroom residence on the 29th floor of Scope Langsuan — the tower with a Kohn Pedersen Fox façade on Langsuan Road, one of central Bangkok's most sought-after addresses. 162 m² of corner living behind floor-to-ceiling glass, reached by a private lift, with panoramic city and park views. Available freehold under the foreign quota. ฿110,000,000.",
+  "detail": "A high-floor home in one of Bangkok's most exclusive new towers, this 162 m² residence sits on the 29th floor and is reached by a private lift that opens into the apartment. Two en-suite bedrooms and a powder room frame a wide, open living and dining space wrapped in floor-to-ceiling glass, with panoramic views over the low-rise Langsuan district, Lumpini Park and the skyline beyond. The kitchen is a separate, fully fitted room, and the interior is finished in warm stone, timber and bronze detailing.\n\nScope Langsuan stands on Langsuan Road in Lumpini, moments from Ploenchit BTS, Central Embassy and Lumpini Park — a plot that set a record for Bangkok's highest land value in 2019. Its sculpted façade was shaped by New York firm Kohn Pedersen Fox, the practice behind landmarks from Hudson Yards to Hong Kong's International Commerce Centre, giving the building an unmistakable presence on the skyline.\n\nResidents have the use of an unusually refined amenity offer, including a private 25-seat Dolby Atmos screening room with custom Belgian-made recliners, and a genuinely inclusive housekeeping service delivered three times a week by the building's own trained staff.\n\nThe residence is available freehold under the foreign-ownership quota, held in an individual foreign name. Floor plan, furniture inventory and title details are available on request.",
+  "features": [
+    {
+      "l": "162 m² on the 29th floor",
+      "i": "building"
+    },
+    {
+      "l": "Two en-suite bedrooms + powder room",
+      "i": "bed"
+    },
+    {
+      "l": "Private lift into the residence",
+      "i": "home"
+    },
+    {
+      "l": "Panoramic city & park views",
+      "i": "view"
+    },
+    {
+      "l": "Floor-to-ceiling glass",
+      "i": "sun"
+    },
+    {
+      "l": "KPF-designed tower",
+      "i": "building"
+    },
+    {
+      "l": "Private 25-seat Dolby Atmos cinema",
+      "i": "music"
+    },
+    {
+      "l": "Inclusive housekeeping, 3× weekly",
+      "i": "sparkles"
+    },
+    {
+      "l": "Enclosed designer kitchen",
+      "i": "utensils"
+    },
+    {
+      "l": "Foreign freehold quota",
+      "i": "key"
+    }
+  ],
+  "created": 1786518122797
+}

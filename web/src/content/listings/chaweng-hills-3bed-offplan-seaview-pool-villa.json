@@ -1,0 +1,84 @@
+{
+  "id": "chaweng-hills-3bed-offplan-seaview-pool-villa",
+  "internalName": "Kanaka Villas — off-plan villa (3BR)",
+  "image": "/assets/listings/chaweng-hills-3bed-offplan-seaview-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/chaweng-hills-3bed-offplan-seaview-pool-villa/01.jpg",
+    "/assets/listings/chaweng-hills-3bed-offplan-seaview-pool-villa/02.jpg",
+    "/assets/listings/chaweng-hills-3bed-offplan-seaview-pool-villa/03.jpg",
+    "/assets/listings/chaweng-hills-3bed-offplan-seaview-pool-villa/04.jpg",
+    "/assets/listings/chaweng-hills-3bed-offplan-seaview-pool-villa/05.jpg",
+    "/assets/listings/chaweng-hills-3bed-offplan-seaview-pool-villa/06.jpg",
+    "/assets/listings/chaweng-hills-3bed-offplan-seaview-pool-villa/07.jpg",
+    "/assets/listings/chaweng-hills-3bed-offplan-seaview-pool-villa/08.jpg"
+  ],
+  "location": "Chaweng · Koh Samui · Thailand",
+  "place": "Chaweng, Bo Phut, Ko Samui District, Surat Thani, Thailand",
+  "market": "Koh Samui",
+  "mapQuery": "9.5258887,100.0316903",
+  "title": "Off-Plan Three-Bedroom Hillside Pool Villa in Chaweng",
+  "type": "Villa",
+  "view": "Sea View",
+  "status": "Off-Plan",
+  "beds": 3,
+  "baths": 4,
+  "interior": "195 m²",
+  "plot": "600 m²",
+  "year": 2027,
+  "priceOriginalNum": 23900000,
+  "priceCurrency": "THB",
+  "ownership": "Freehold or Leasehold",
+  "blurb": "An off-plan three-bedroom villa in a boutique two-villa development in the Chaweng hills, roughly 180 m above the sea with panoramic island and Gulf views. The structure is already complete, with around nine months to handover — time to finish the interiors to your own taste. Private 8 × 3 m pool, floor-to-ceiling glass and generous terraces, on its own freehold plot. ฿23,900,000.",
+  "detail": "The second of two private villas in a boutique hillside development above Chaweng, this three-bedroom home sits roughly 180 metres above sea level, oriented for a panoramic sweep across the island and the Gulf of Thailand. Designed to pair clean European architecture with an Asian minimalism of warm materials and tropical openness, it is a quiet, elevated retreat within easy reach of Chaweng's beaches and restaurants.\n\nAcross two floors and a separate master pavilion, an open-plan living and kitchen area opens through floor-to-ceiling glass to wide terraces and the pool. Three bedrooms include a master pavilion with its own en-suite and direct access to the terrace and pool, while the panoramic terraces — around 100 m² in total — extend the living space outdoors.\n\nOutside are a private 8 × 3 m pool and covered parking, with services built for hillside self-sufficiency: a grid-connected solar option, EV-charging provision, a private 220 m deep well and a rainwater-collection system.\n\nThe villa's structure and shell are already built, with roughly nine months remaining to completion — so a buyer can still influence the interior finishes and specification. It occupies its own 600 m² freehold plot, with about 195 m² of interior space within some 380 m² of total built area, and is available freehold through a Thai company structure or on a registered leasehold. The completed two-bedroom-plus-office villa alongside is available separately. The images shown are the architect's renderings; floor plans, specification and a construction timeline are available on request.",
+  "features": [
+    {
+      "l": "Private 8 × 3 m pool",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic island & sea view",
+      "i": "view"
+    },
+    {
+      "l": "Three bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "Separate master pavilion en-suite",
+      "i": "building"
+    },
+    {
+      "l": "Master opens to pool & terrace",
+      "i": "terrace"
+    },
+    {
+      "l": "Floor-to-ceiling windows",
+      "i": "sun"
+    },
+    {
+      "l": "Open-plan living & kitchen",
+      "i": "sofa"
+    },
+    {
+      "l": "Finish interiors to your taste",
+      "i": "sparkles"
+    },
+    {
+      "l": "Structure complete, ~9 months to handover",
+      "i": "home"
+    },
+    {
+      "l": "Solar-ready & EV-charging option",
+      "i": "shield"
+    },
+    {
+      "l": "Deep well & rainwater system",
+      "i": "waves"
+    },
+    {
+      "l": "Own 600 m² freehold plot",
+      "i": "key"
+    }
+  ],
+  "created": 1786517364264
+}

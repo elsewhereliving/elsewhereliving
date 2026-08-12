@@ -1,0 +1,95 @@
+{
+  "id": "strand-thonglor-2bed-20th-floor-residence",
+  "internalName": "The Strand Thonglor — 2-bed, 90 m², 20th floor (tenanted ฿135k/mo)",
+  "image": "/assets/listings/strand-thonglor-2bed-20th-floor-residence/01.jpg",
+  "gallery": [
+    "/assets/listings/strand-thonglor-2bed-20th-floor-residence/01.jpg",
+    "/assets/listings/strand-thonglor-2bed-20th-floor-residence/02.jpg",
+    "/assets/listings/strand-thonglor-2bed-20th-floor-residence/03.jpg",
+    "/assets/listings/strand-thonglor-2bed-20th-floor-residence/04.jpg",
+    "/assets/listings/strand-thonglor-2bed-20th-floor-residence/05.jpg",
+    "/assets/listings/strand-thonglor-2bed-20th-floor-residence/06.jpg",
+    "/assets/listings/strand-thonglor-2bed-20th-floor-residence/07.jpg",
+    "/assets/listings/strand-thonglor-2bed-20th-floor-residence/08.jpg",
+    "/assets/listings/strand-thonglor-2bed-20th-floor-residence/09.jpg",
+    "/assets/listings/strand-thonglor-2bed-20th-floor-residence/10.jpg",
+    "/assets/listings/strand-thonglor-2bed-20th-floor-residence/11.jpg",
+    "/assets/listings/strand-thonglor-2bed-20th-floor-residence/12.jpg",
+    "/assets/listings/strand-thonglor-2bed-20th-floor-residence/13.jpg",
+    "/assets/listings/strand-thonglor-2bed-20th-floor-residence/14.jpg",
+    "/assets/listings/strand-thonglor-2bed-20th-floor-residence/15.jpg",
+    "/assets/listings/strand-thonglor-2bed-20th-floor-residence/16.jpg",
+    "/assets/listings/strand-thonglor-2bed-20th-floor-residence/17.jpg",
+    "/assets/listings/strand-thonglor-2bed-20th-floor-residence/18.jpg",
+    "/assets/listings/strand-thonglor-2bed-20th-floor-residence/19.jpg",
+    "/assets/listings/strand-thonglor-2bed-20th-floor-residence/20.jpg"
+  ],
+  "location": "Thong Lor · Bangkok · Thailand",
+  "place": "Thonglor Road, Sukhumvit 55, Khlong Tan Nuea, Watthana, Bangkok, Thailand",
+  "market": "Bangkok",
+  "mapQuery": "13.7242169,100.5796467",
+  "title": "The Strand Thonglor — Two-Bedroom 20th-Floor Residence",
+  "type": "Condominium",
+  "view": "City View",
+  "status": "Move-In Ready",
+  "beds": 2,
+  "baths": 2,
+  "interior": "90 m²",
+  "year": 2021,
+  "priceOriginalNum": 34000000,
+  "priceCurrency": "THB",
+  "ownership": "Freehold",
+  "blurb": "A two-bedroom residence on the 20th floor of The Strand Thonglor, the ultra-luxury tower at the mouth of Soi Thonglor, a one-minute walk from the BTS. 90 m² with 3-metre ceilings and floor-to-ceiling glass, plus a 27th-floor and rooftop clubhouse with pool, gym and putting green. Currently let at ฿135,000 a month. Freehold under the foreign quota. ฿34,000,000.",
+  "detail": "This 90 m² residence sits on the 20th floor of The Strand Thonglor, with two bedrooms, two bathrooms and an open living-kitchen space opening to city views through floor-to-ceiling glass. Ceilings rise to three metres, the kitchen is fully fitted with built-in appliances, and the apartment is wired for the building's app-linked home-automation and concierge system.\n\nThe Strand stands at the front of Soi Thonglor, with its own private residents' entrance and a one-minute, 150-metre walk to Thonglor BTS and road access from both Sukhumvit 55 and 57 — the heart of Bangkok's most cosmopolitan dining and nightlife district. Completed in 2021 by Eden Estate in partnership with MQDC, the 30-storey glass tower holds just 188 freehold residences and was designed by HB Design with interiors by PIA and landscaping by TROP.\n\nFacilities span a 27th-floor and rooftop clubhouse — infinity pool and children's pool, fitness and meditation studio, sauna, putting green and a rooftop terrace — along with a residents' living room, business lounge, playroom, ground-level Strand Park and automated parking for 204 cars with EV charging.\n\nThe residence is currently tenanted at ฿135,000 per month, a gross yield of roughly 4.8%, and comes with a 30-year structural warranty. It is available freehold under the foreign-ownership quota. Lease terms, floor plan and title details are available on request.",
+  "features": [
+    {
+      "l": "90 m² on the 20th floor",
+      "i": "building"
+    },
+    {
+      "l": "Two bedrooms, two bathrooms",
+      "i": "bed"
+    },
+    {
+      "l": "3-metre floor-to-ceiling glass",
+      "i": "sun"
+    },
+    {
+      "l": "City views",
+      "i": "view"
+    },
+    {
+      "l": "Rooftop pool & clubhouse",
+      "i": "pool"
+    },
+    {
+      "l": "Fitness, sauna & putting green",
+      "i": "gym"
+    },
+    {
+      "l": "1-minute walk to Thonglor BTS",
+      "i": "car"
+    },
+    {
+      "l": "Home automation & concierge app",
+      "i": "shield"
+    },
+    {
+      "l": "Tenanted at ฿135,000 / month",
+      "i": "key"
+    },
+    {
+      "l": "Gross yield approx. 4.8%",
+      "i": "sparkles"
+    },
+    {
+      "l": "188-unit freehold tower (2021)",
+      "i": "building"
+    },
+    {
+      "l": "Foreign freehold quota",
+      "i": "home"
+    }
+  ],
+  "created": 1786518122799
+}
