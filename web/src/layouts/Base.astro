@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import Nav from "../components/react/Nav.tsx";
 import Footer from "../components/Footer.astro";
+import { ogImg } from "../lib/img";
 
 const DS = "/_ds/design-system-abef38a9-b4ec-454e-999b-5c22fa6c925a";
 
@@ -36,7 +37,13 @@ const {
 } = Astro.props;
 
 const canonical = new URL(canonicalPath ?? Astro.url.pathname, Astro.site ?? "https://elsewhere.living").href;
-const ogImage = new URL(image, Astro.site ?? "https://elsewhere.living").href;
+// ogImg() is idempotent, so pages may pass either a raw /assets/ cover or the
+// share variant — anything under /assets/ is mapped to its 1200×630 JPEG.
+const ogImageSrc = ogImg(image);
+const ogImage = new URL(ogImageSrc, Astro.site ?? "https://elsewhere.living").href;
+// Only our generated variants have a size we can promise; a few rental covers
+// still point at a remote CDN original of unknown dimensions.
+const ogSized = ogImageSrc.startsWith("/_img/");
 
 const orgLd = {
   "@context": "https://schema.org",
@@ -74,10 +81,19 @@ const orgLd = {
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={ogImage} />
+    <meta property="og:image:secure_url" content={ogImage} />
+    {ogSized && <meta property="og:image:type" content="image/jpeg" />}
+    {/* every share variant is generated at exactly this size (optimize-images.mjs) —
+        declaring it lets WhatsApp/Messenger/LinkedIn draw the card on the first
+        share instead of showing no photo until they finish fetching the file */}
+    {ogSized && <meta property="og:image:width" content="1200" />}
+    {ogSized && <meta property="og:image:height" content="630" />}
+    <meta property="og:image:alt" content={title} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content={title} />
 
     <!-- Design-system tokens + brand utilities -->
     <link rel="stylesheet" href={`${DS}/tokens/fonts.css`} />

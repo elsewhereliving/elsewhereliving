@@ -53,25 +53,50 @@ for (const sub of SOURCES) {
 
 // Social-share (og:image) variants — cover photos only. WhatsApp silently
 // drops link-preview images over ~600 KB and several covers are multi-MB
-// originals, so each listing/rental cover gets a ~1200px JPEG (webp isn't
-// reliably rendered by every scraper) at /_img/<path>-og.jpg.
-const covers = new Set(["/assets/imagery/og-image.jpg"]);
+// originals, so each listing/rental cover gets a JPEG (webp isn't reliably
+// rendered by every scraper) at /_img/<path>-og.jpg.
+//
+// Every share variant is cropped to exactly OG_W×OG_H (the 1.91:1 card size
+// every scraper expects) rather than "1200 wide, whatever height falls out":
+// the covers are a mix of landscape, square and portrait originals, and the
+// odd ones either rendered as a small thumbnail or as no image at all. A fixed
+// size also lets Base.astro declare og:image:width/height, so a scraper can
+// lay the card out on first sight instead of showing nothing while it
+// downloads the file — the usual reason a freshly shared link has no photo.
+const OG_W = 1200, OG_H = 630;
+const covers = new Map([["/assets/imagery/og-image.jpg", ""]]);
 for (const coll of ["listings", "rentals"]) {
   const dir = path.join(ROOT, "src", "content", coll);
   for (const name of (await readdir(dir).catch(() => [])).filter((n) => n.endsWith(".json"))) {
     try {
-      const { image } = JSON.parse(await readFile(path.join(dir, name), "utf8"));
-      if (typeof image === "string" && image.startsWith("/assets/")) covers.add(image);
+      const { image, imageFocal } = JSON.parse(await readFile(path.join(dir, name), "utf8"));
+      if (typeof image === "string" && image.startsWith("/assets/")) covers.set(image, imageFocal || "");
     } catch { /* unreadable record — the build proper will report it */ }
   }
 }
 let ogSkipped = 0;
-for (const cover of covers) {
+for (const [cover, focal] of covers) {
   const src = path.join(PUBLIC, "." + cover);
   const out = path.join(OUT, cover.replace(/^\//, "").replace(EXT, "") + "-og.jpg");
   if (existsSync(out)) { ogSkipped++; continue; }
   if (!existsSync(src)) continue;
-  tasks.push({ kind: "og", src, out });
+  tasks.push({ kind: "og", src, out, focal });
+}
+
+// Crop window for the share variant, honouring the record's imageFocal (the
+// same "50% 31%" object-position the cards use) so the crop keeps whatever the
+// cover was framed around. Defaults to centre.
+function focalCrop(width, height, focal) {
+  const m = /^\s*(-?[\d.]+)%\s+(-?[\d.]+)%\s*$/.exec(focal || "");
+  const fx = m ? Math.min(1, Math.max(0, Number(m[1]) / 100)) : 0.5;
+  const fy = m ? Math.min(1, Math.max(0, Number(m[2]) / 100)) : 0.5;
+  const scale = Math.max(OG_W / width, OG_H / height);
+  const rw = Math.max(OG_W, Math.round(width * scale));
+  const rh = Math.max(OG_H, Math.round(height * scale));
+  return {
+    resize: { width: rw, height: rh },
+    extract: { left: Math.round((rw - OG_W) * fx), top: Math.round((rh - OG_H) * fy), width: OG_W, height: OG_H },
+  };
 }
 
 // 2. Pre-create the output directories once (cheaper than per-task mkdir).
@@ -89,7 +114,11 @@ async function worker() {
         await sharp(t.src).resize({ width: t.width, withoutEnlargement: true }).webp({ quality: 72 }).toFile(t.out);
         made++;
       } else {
-        await sharp(t.src).resize({ width: 1200, withoutEnlargement: true }).flatten({ background: "#ffffff" }).jpeg({ quality: 72 }).toFile(t.out);
+        const meta = await sharp(t.src).metadata();
+        const swap = (meta.orientation ?? 1) >= 5; // EXIF-rotated: metadata is pre-rotation
+        const { resize, extract } = focalCrop(swap ? meta.height : meta.width, swap ? meta.width : meta.height, t.focal);
+        await sharp(t.src).rotate().resize(resize).extract(extract)
+          .flatten({ background: "#ffffff" }).jpeg({ quality: 76 }).toFile(t.out);
         ogMade++;
       }
     } catch (err) {

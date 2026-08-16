@@ -62,7 +62,9 @@ const jsonLd = {
   "@type": "LodgingBusiness",
   name: r.title,
   description: r.blurb,
-  image: r.gallery?.slice(0, 6),
+  // absolute — a relative path here is unresolvable for the crawlers and
+  // link-preview engines that read JSON-LD instead of the og: tags
+  image: r.gallery?.slice(0, 6).map((s: string) => new URL(s, "https://elsewhere.living").href),
   url: `https://elsewhere.living/rentals/${r.id}/`,
   priceRange: r.nightly,
 };
