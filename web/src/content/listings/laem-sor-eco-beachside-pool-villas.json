@@ -43,20 +43,20 @@
   "status": "Off-Plan",
   "beds": 4,
   "bedsLabel": "3–4",
-  "baths": "3.5–5",
-  "interior": "316–424 m²",
-  "plot": "283–354 m²",
+  "baths": "4–5",
+  "interior": "317–423 m²",
+  "plot": "284–354 m²",
   "year": 2027,
-  "ownership": "Freehold",
-  "priceOriginalNum": 20000000,
+  "ownership": "Freehold or Leasehold",
+  "priceOriginalNum": 18000000,
   "priceCurrency": "THB",
   "priceFrom": true,
   "added": 86,
   "created": 1782993600000,
   "video": "",
   "imageFocal": "",
-  "blurb": "A pre-launch community of 17 eco-conscious private pool villas on Laem Sor Beach, on Koh Samui’s quiet southern coast. Three- and four-bedroom homes of 316–424 m² with private pools, wrapped around a wellness clubhouse with an onsen, hot and cold plunge pools, a gym, sauna and rooftop restaurant. Off-plan, completing 2027 — sold freehold from ฿20,000,000.",
-  "detail": "A pre-launch development of just 17 private pool villas set on Laem Sor Beach, on the tranquil southern coast of Koh Samui. Designed around an eco-conscious, contemporary aesthetic — clean white forms, natural materials and generous glazing that opens each home to the light, the gardens and the sea.\n\nThree villa types span three to four bedrooms. Type 1 offers three bedrooms plus a flexible mezzanine (configurable for up to five beds) across 379–424 m² of usable space; Types 2 and 3 are four-bedroom homes of 316–390 m². Every villa has a private pool, three or more parking spaces, and 3.5 to 5 bathrooms, on plots of roughly 283–354 m².\n\nAt the heart of the community is a wellness clubhouse: an onsen and hot-and-cold plunge pools, a fully equipped gym, sauna and steam rooms, a sunken lounge and a rooftop restaurant overlooking the coast. The setting is one of Samui’s most peaceful — a short drive from Lamai and the Kamalaya wellness sanctuary, with the island’s dining and amenities within easy reach.\n\nUnder active construction with completion targeted for 2027. Sold freehold from ฿20,000,000, with individual villa sizes and availability confirmed on the current price list.",
+  "blurb": "A pre-launch community of 17 eco-conscious private pool villas on Laem Sor Beach, on Koh Samui’s quiet southern coast. Three- and four-bedroom homes of 317–423 m² with private pools, wrapped around a wellness clubhouse with an onsen, hot and cold plunge pools, a gym, sauna and rooftop restaurant. Off-plan, completing 2027 — from ฿18,000,000 leasehold or ฿20,000,000 freehold, on a milestone-linked payment plan.",
+  "detail": "A pre-launch development of just 17 private pool villas set on Laem Sor Beach, on the tranquil southern coast of Koh Samui. Designed around an eco-conscious, contemporary aesthetic — clean white forms, natural materials and generous glazing that opens each home to the light, the gardens and the sea.\n\nThree villa types span three to four bedrooms. Type 1 offers three bedrooms plus a flexible mezzanine (configurable for up to five beds) across 380–423 m²; Types 2 and 3 are four-bedroom homes of 317–391 m². Every villa has a private pool, three or more parking spaces, and four to five bathrooms, on plots of roughly 284–354 m².\n\nAt the heart of the community is a wellness clubhouse: an onsen and hot-and-cold plunge pools, a fully equipped gym, sauna and steam rooms, a sunken lounge and a rooftop restaurant overlooking the coast. The setting is one of Samui’s most peaceful — a short drive from Lamai and the Kamalaya wellness sanctuary, with the island’s dining and amenities within easy reach.\n\nOWNERSHIP\nHomes are offered principally on a 30-year registered lease; freehold may be available to qualifying buyers, subject to eligibility and legal structuring.\nThere is no yearly lease fee — the price covers the land lease, the villa and its construction. A rent figure appears on the Land Office registration because the filing requires one, but nothing further is payable against it.\nThai law caps a registered lease at 30 years, so that is what goes on the title. A further term is registered as a new agreement at the time; the developer intends to renew. Land Office cost then is 1% registration plus 0.1% stamp duty on the recorded rent, plus legal fees.\n\nPAYMENT SCHEDULE\nPayments are released against verified construction milestones: as each stage completes the purchaser is notified, progress evidence can be provided, and the corresponding instalment falls due.\nReservation — ฿200,000, holding the villa for 30 days and credited to the purchase price (non-refundable)\nContract, within 30 days of reservation — 20% (inclusive of the reservation fee)\nPiling complete — 10%\nFoundation complete — 10%\nStructure complete — 10%\nWalls, doors, windows and tiling complete — 15%\nArchitectural finishes, M&E and sanitary systems complete — 15%\nFurniture installation complete — 10%\nTransfer and registration — 10%\n\nThe clubhouse and its facilities are owned and run by a dedicated operating company, which also handles guest check-in, concierge and hospitality services under a licensed hotel framework. Owners may opt into a rental management agreement, bringing their villa onto that same platform and service standard — or simply keep the house private.\n\nUnder active construction with completion targeted for 2027. Pre-launch pricing from ฿18,000,000 on the registered lease, or ฿20,000,000 freehold, with individual villa sizes, prices and availability confirmed on the current dated price and inventory sheet.",
   "features": [
     {
       "l": "17 private pool villas · 3–4 bedrooms",
@@ -79,7 +79,7 @@
       "i": "gym"
     },
     {
-      "l": "316–424 m² living · 283–354 m² plots",
+      "l": "317–423 m² living · 284–354 m² plots",
       "i": "plot"
     },
     {
@@ -87,8 +87,24 @@
       "i": "view"
     },
     {
-      "l": "Off-plan 2027 · sold freehold",
+      "l": "Freehold or leasehold available",
       "i": "shield"
+    },
+    {
+      "l": "Leasehold: no yearly lease fee",
+      "i": "info"
+    },
+    {
+      "l": "Milestone-linked payment plan",
+      "i": "trend"
+    },
+    {
+      "l": "Optional rental management programme",
+      "i": "key"
+    },
+    {
+      "l": "Off-plan · completing 2027",
+      "i": "year"
     }
   ],
   "mapQuery": "9.4358,100.0231"
