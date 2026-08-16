@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Listing } from "../../lib/types";
-import { viewBadges, viewList, viewText, statusList } from "../../lib/format";
+import { viewBadges, viewList, viewText, statusList, bedsMax } from "../../lib/format";
 import { optImg, optImgSrcset, CARD_SIZES } from "../../lib/img";
 import { matchesTerms, parseQuery } from "../../lib/search";
 import SaveButton from "./SaveButton";
@@ -655,7 +655,8 @@ export default function ListingsBrowser({ items, markets, types, statuses, views
         // Ownership: match on substring so a "Freehold or Leasehold" listing
         // shows under both the Freehold and Leasehold filters.
         (ownership === ALL || (l.ownership || "").toLowerCase().includes(ownership.toLowerCase())) &&
-        l.beds >= minBeds &&
+        // a "2–3 bedroom" property counts as 3+ — see bedsMax()
+        bedsMax(l) >= minBeds &&
         (!priceActive || (l.priceNum > 0 && l.priceNum >= priceLo && l.priceNum <= priceHi))
     );
     // "Price on request" sorts as most expensive

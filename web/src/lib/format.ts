@@ -62,6 +62,24 @@ export function statusList(s: string | string[] | undefined | null): string[] {
 }
 
 /**
+ * The most bedrooms a property can offer — what the "N+ bedrooms" filter has to
+ * match against.
+ *
+ * `beds` is a single number, but a development or multi-villa estate spans a
+ * range and carries it in `bedsLabel` ("2–3", "Studio–5", "4–5+1"). Which end
+ * of that range landed in `beds` was never consistent, so a "2–3 bedroom"
+ * property whose `beds` was 2 vanished from the 3+ filter even though it does
+ * offer a 3-bed unit. Take the largest number either field mentions: every
+ * label form ("3+1", "6 bedrooms + 1 dorm", "14 · 2 villas") yields the right
+ * answer, and a label with no digits at all ("Studio–Penthouse") falls back to
+ * `beds`.
+ */
+export function bedsMax(item: { beds?: number | string | null; bedsLabel?: string | null }): number {
+  const nums = String(item.bedsLabel || "").match(/\d+/g)?.map(Number) ?? [];
+  return Math.max(Number(item.beds) || 0, ...nums, 0);
+}
+
+/**
  * Rental destination key. For "Sub-area · Region · Country" use the Region;
  * otherwise the first segment.
  */

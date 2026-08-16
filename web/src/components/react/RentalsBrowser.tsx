@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Rental } from "../../lib/types";
-import { viewBadges, viewList, VIEW_TAGS } from "../../lib/format";
+import { viewBadges, viewList, VIEW_TAGS, bedsMax } from "../../lib/format";
 import { optImg, optImgSrcset, CARD_SIZES } from "../../lib/img";
 import { matchesTerms, parseQuery } from "../../lib/search";
 import SaveButton from "./SaveButton";
@@ -638,7 +638,8 @@ export default function RentalsBrowser({ items, destinations }: Props) {
         viewTags.every((t) => viewList(r.view).includes(t)) &&
         (dest === ALL || r.dest === dest) &&
         (view === ALL || viewList(r.view).includes(view)) &&
-        (r.beds || 0) >= minBeds &&
+        // a "2–3 bedroom" villa counts as 3+ — see bedsMax()
+        bedsMax(r) >= minBeds &&
         (!priceActive || (r.nightlyNum > 0 && r.nightlyNum >= priceLo && r.nightlyNum <= priceHi))
     );
     // "on request" sorts as most expensive

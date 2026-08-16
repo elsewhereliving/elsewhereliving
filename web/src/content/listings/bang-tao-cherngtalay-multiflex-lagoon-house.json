@@ -22,9 +22,9 @@
     "Garden / Pool View"
   ],
   "status": "Off-Plan",
-  "beds": "",
-  "bedsLabel": "3-5",
-  "baths": "4-6",
+  "beds": 3,
+  "bedsLabel": "3–5",
+  "baths": "4–6",
   "interior": "380–422 m²",
   "plot": "240 m²",
   "year": null,

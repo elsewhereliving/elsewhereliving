@@ -29,9 +29,9 @@
     "Lake View"
   ],
   "status": "Off-Plan",
-  "beds": "",
-  "bedsLabel": "3-6",
-  "baths": "4-7",
+  "beds": 3,
+  "bedsLabel": "3–6",
+  "baths": "4–7",
   "interior": "268–1,002 m²",
   "plot": "253–958 m²",
   "year": null,
