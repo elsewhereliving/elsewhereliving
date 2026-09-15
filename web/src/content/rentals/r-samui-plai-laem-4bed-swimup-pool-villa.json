@@ -1,0 +1,95 @@
+{
+  "id": "r-samui-plai-laem-4bed-swimup-pool-villa",
+  "image": "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/01.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/02.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/03.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/04.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/05.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/06.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/07.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/08.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/09.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/10.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/11.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/12.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/13.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/14.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/15.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/16.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/17.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/18.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/19.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/20.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/21.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/22.jpg",
+    "/assets/listings/r-samui-plai-laem-4bed-swimup-pool-villa/23.jpg"
+  ],
+  "location": "Plai Laem · Koh Samui · Thailand",
+  "place": "Plai Laem, Ko Samui District, Surat Thani, Thailand",
+  "title": "Gated Four-Bedroom Villa with 25 m Infinity Pool and Swim-Up Bar",
+  "view": [
+    "Sea View",
+    "Garden / Pool View"
+  ],
+  "beds": 4,
+  "bedsLabel": "4",
+  "baths": 4.5,
+  "guests": 8,
+  "guestsLabel": "8",
+  "occupancy": "up to 8 guests",
+  "size": "600 m²",
+  "nightlyOriginalNum": 25323,
+  "nightlyCurrency": "THB",
+  "note": "Gated community with private beach access · BBQ on request · utilities metered",
+  "sleeps": "up to 8 guests · 4 bedrooms · 4.5 bathrooms",
+  "blurb": "A modern 600 m² villa in a secure gated community on Koh Samui's north-east coast, moments from Six Senses and the Ritz-Carlton, with two private access points to the sea. A 25-metre infinity-edge pool with a swim-up bar anchors the garden, and the 98 m² master suite has its own jacuzzi and double rain showers.",
+  "detail": "Set within a secure, gated community on Koh Samui's north-east coast, close to Six Senses and the Ritz-Carlton, this 600 m² villa combines a private, low-key setting with two direct access points down to the sea. Floor-to-ceiling glass doors open the ground-floor living area straight onto the garden and pool deck, keeping the plan light and connected.\n\nFour bedrooms are arranged with three upstairs opening onto sea views, and one on the ground floor leading directly out to the tropical garden for a quieter, more private stay. The master suite is a genuine highlight: a 98 m² retreat with its own jacuzzi, double rain showers, a large walk-in wardrobe and views over the Gulf of Thailand.\n\nOutside, a 25-metre infinity-edge pool runs the length of the garden with a swim-up bar and lounging area, and a shaded sala beside the pool is set up for taking in the sea view over a long lunch. The tropical grounds wrap the property in greenery and give a real sense of seclusion despite the beach being a short walk away.\n\nThe villa comes with covered parking for two cars, high-speed WiFi and a wide selection of TV channels. On-site hosts can arrange a continental breakfast and coffee on request, and BBQ lunches or dinners can be organised for an additional charge. Electricity and water are metered and settled separately from the nightly rate.",
+  "features": [
+    {
+      "l": "25 m infinity-edge pool with swim-up bar",
+      "i": "pool"
+    },
+    {
+      "l": "600 m² villa in a secure gated community",
+      "i": "home"
+    },
+    {
+      "l": "Two direct access points to the sea",
+      "i": "waves"
+    },
+    {
+      "l": "98 m² master suite with private jacuzzi",
+      "i": "bath"
+    },
+    {
+      "l": "Three of four bedrooms with sea views",
+      "i": "view"
+    },
+    {
+      "l": "Shaded poolside sala",
+      "i": "terrace"
+    },
+    {
+      "l": "Tropical garden setting",
+      "i": "tree"
+    },
+    {
+      "l": "Covered parking for two vehicles",
+      "i": "car"
+    },
+    {
+      "l": "Breakfast & BBQ dining on request",
+      "i": "utensils"
+    },
+    {
+      "l": "Moments from Six Senses & Ritz-Carlton",
+      "i": "sparkles"
+    }
+  ],
+  "created": 1789458243615,
+  "internalName": "Sea Senses Villa",
+  "imageFocal": "",
+  "focals": {}
+}
