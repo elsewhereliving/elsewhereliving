@@ -1,0 +1,101 @@
+{
+  "id": "bophut-seaview-3bed-pool-villa",
+  "image": "/assets/listings/bophut-seaview-3bed-pool-villa/03.jpg",
+  "gallery": [
+    "/assets/listings/bophut-seaview-3bed-pool-villa/03.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/01.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/02.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/17.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/06.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/09.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/04.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/05.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/07.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/08.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/10.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/11.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/12.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/13.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/14.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/15.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/16.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/18.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/19.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/20.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/21.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/22.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/23.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/24.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/25.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/26.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/27.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/28.jpg",
+    "/assets/listings/bophut-seaview-3bed-pool-villa/29.jpg"
+  ],
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bophut, Ko Samui District, Surat Thani, Thailand",
+  "market": "Koh Samui",
+  "title": "Off-Plan Three-Bedroom Pool Villa with Sea View, Bophut",
+  "type": "Villa",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Off-Plan",
+  "beds": 3,
+  "bedsLabel": "3",
+  "baths": 4,
+  "interior": "330–339 m²",
+  "plot": "218–239 m²",
+  "ownership": "Freehold or Leasehold",
+  "priceOriginalNum": 17900000,
+  "priceCurrency": "THB",
+  "priceFrom": true,
+  "blurb": "A three-storey, three-bedroom pool villa in a small gated development set 200 m back from the ring road in Bophut, a five-minute walk to Fisherman's Village and The Wharf. Built over three levels with roughly 330–339 m² of house on a plot of around 218–239 m², with a private pool and roof terrace, and sea views from the top-floor master suite. Freehold or leasehold, off-plan with approximately 12 months to completion.",
+  "detail": "Set in a small gated development just 200 m back from the island ring road in Bophut, on Koh Samui's north-east coast, this three-bedroom villa is a five-minute walk from the restaurants, bars and beach at Fisherman's Village and The Wharf, with no steep hill to navigate on the way in. Ten villas share the plot in total; this design is one of the last remaining, the rest of the development having already sold out.\n\nThe villa is arranged over three levels. The ground floor holds the pump room, laundry area and storage. The middle floor has two en-suite bedrooms, a spacious living area and a large covered front terrace with a guest WC. The top floor is the heart of the home: an open-plan living and dining space with a well-equipped kitchen opens onto the pool terrace, while a separate roof-top bar terrace and the master suite both take in sweeping sea views.\n\nBuilt area comes in at roughly 330–339 m² on a plot of around 218–239 m², figures that vary slightly by unit within this design. The development draws water from a deep well with a connection to the government electricity supply, and both freehold and leasehold ownership structures are available.\n\nThe villa is sold off-plan with construction running approximately 12 months to completion. A 5-year structural warranty and 1-year warranty on water and electrical equipment are included. Freehold transfer costs run to roughly 5.5% of the purchase price (typically under ฿100,000, usually split between buyer and seller); leasehold registration runs to about 1.1% of the lease value (typically under ฿40,000, also usually split).",
+  "features": [
+    {
+      "l": "Private swimming pool",
+      "i": "pool"
+    },
+    {
+      "l": "Sea view from the top-floor master suite",
+      "i": "view"
+    },
+    {
+      "l": "Roof-top bar terrace",
+      "i": "terrace"
+    },
+    {
+      "l": "Three storeys · 330–339 m² built",
+      "i": "home"
+    },
+    {
+      "l": "218–239 m² plot",
+      "i": "plot"
+    },
+    {
+      "l": "200 m to the ring road · 5 min walk to Fisherman's Village",
+      "i": "waves"
+    },
+    {
+      "l": "Gated development · deep well water supply",
+      "i": "shield"
+    },
+    {
+      "l": "Freehold or leasehold",
+      "i": "key"
+    },
+    {
+      "l": "5-year structural warranty",
+      "i": "building"
+    },
+    {
+      "l": "Off-plan · approx. 12 months to completion",
+      "i": "sparkles"
+    }
+  ],
+  "created": 1789464536046,
+  "internalName": "Paragon Villas Seaview (Type B1 / P16, P18, P19)",
+  "imageFocal": "",
+  "focals": {}
+}
