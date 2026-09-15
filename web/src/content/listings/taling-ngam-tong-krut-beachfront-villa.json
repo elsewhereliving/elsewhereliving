@@ -95,5 +95,8 @@
   ],
   "created": 1781448129000,
   "internalName": "Villa Sai Tai",
-  "imageFocal": ""
+  "imageFocal": "",
+  "featured": true,
+  "featuredRank": 4,
+  "focals": {}
 }

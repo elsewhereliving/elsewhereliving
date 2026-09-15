@@ -104,5 +104,8 @@
       "l": "5 min to pier · 10–15 min to Phuket Town",
       "i": "car"
     }
-  ]
+  ],
+  "featured": true,
+  "featuredRank": 7,
+  "focals": {}
 }
