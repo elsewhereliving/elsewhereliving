@@ -40,7 +40,7 @@
   "note": "16 staff",
   "sleeps": "24 guests · up to 11 bedrooms",
   "blurb": "A modern 11-bedroom hillside hideaway on a headland between Kata and Karon — panoramic sea views, an infinity pool and jacuzzi, cinema, spa, gym, pickleball court and putting green, with a 16-strong staff for up to 24 guests.",
-  "detail": "Situated on a headland on Phuket's west coast between the beaches of Kata and Karon, Villa Zai is a luxurious modern hillside hideaway. The 11-bedroom property is designed with special attention to open spaces and indoor-to-outdoor elegance, with panoramic views of the sea, blending privacy with sophistication for guests who enjoy the finer things in life.\n\nThe expansive living room seats 20 against a backdrop of sea views and includes a billiards table convertible for table tennis, while a nearby dining room offers a terrace for all-day dining, a private bar and a poker table. The outdoor lounge invites guests to take in the scenery, and the infinity pool and jacuzzi are perfect for swims and soaks overlooking the hillside, alongside a generous sun deck.\n\nThere's no shortage of things to do: an in-villa spa, a golf putting green, an outdoor pickleball court, a fully-equipped gym, a cinema room and a karaoke and games setup. With capacity for up to 24 guests across 11 bedrooms — and a 16-strong staff with private parking for 20 cars — Villa Zai is built for families, friends and large groups celebrating in style.",
+  "detail": "Situated on a headland on Phuket's west coast between the beaches of Kata and Karon, Villa Zai is a luxurious modern hillside hideaway. The 11-bedroom property is designed with special attention to open spaces and indoor-to-outdoor elegance, with panoramic sea and sunset views, blending privacy with sophistication for guests who enjoy the finer things in life.\n\nThe expansive living room seats 20 against a backdrop of sea views and includes a billiards table convertible for table tennis, while a nearby dining room offers a terrace for all-day dining, a private bar, a wine cellar and a poker table. The outdoor lounge invites guests to take in the scenery, and the infinity pool and jacuzzi are perfect for swims and soaks overlooking the hillside, alongside a generous sun deck and a large rooftop.\n\nThere's no shortage of things to do: an in-villa spa with a steam room, a golf putting green, an outdoor pickleball court, a fully-equipped gym, a cinema room and a karaoke and games room with ping pong. With capacity for up to 24 guests across 11 bedrooms — and a 16-strong staff with private parking for 20 cars — Villa Zai is built for families, friends and large groups celebrating in style.\n\nThe rate includes two-way airport transfers on the same flight, a welcome drink, cold towel and fruit baskets on arrival, wireless internet access and turndown service, with a full-time team — villa manager, chefs and housekeepers — at your service throughout the stay. The chef handles all grocery shopping and meal preparation (a 20% handling fee applies to grocery cost, subject to 7% VAT), and broader guest-experience services can be arranged on request.\n\nA refundable security deposit of US$5,000 is required in any currency, payable by credit card two days before arrival.",
   "features": [
     {
       "l": "Infinity pool & jacuzzi",
@@ -55,7 +55,7 @@
       "i": "music"
     },
     {
-      "l": "In-villa spa & gym",
+      "l": "In-villa spa with steam room & gym",
       "i": "gym"
     },
     {
@@ -63,8 +63,16 @@
       "i": "sparkles"
     },
     {
+      "l": "Wine cellar & large rooftop",
+      "i": "sun"
+    },
+    {
       "l": "11 bedrooms · sleeps 24 · 16 staff",
       "i": "users"
+    },
+    {
+      "l": "Airport transfers & full staff included",
+      "i": "car"
     }
   ],
   "created": 1781736129000,

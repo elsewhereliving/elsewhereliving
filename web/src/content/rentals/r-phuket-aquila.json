@@ -38,10 +38,10 @@
   "note": "10 staff",
   "sleeps": "24 guests · up to 12 bedrooms",
   "blurb": "A secluded clifftop estate on Kamala's Millionaire's Mile — contemporary Asian design over a 12-bedroom retreat with two ocean-view infinity pools, direct sea access, a cinema, library, gym and spa, served by ten staff for up to 24 guests.",
-  "detail": "Perched on a secluded clifftop along Phuket's illustrious Millionaire's Mile in Kamala, The Aquila Villa is a masterpiece of luxury, seamlessly blending contemporary Asian sophistication with nature's raw beauty. Designed for discerning travellers seeking exclusivity and indulgence, this expansive 12-bedroom retreat offers an unparalleled escape in one of Thailand's most coveted destinations.\n\nSet within an extensive estate, the villa strikes a perfect balance between indoor elegance and outdoor serenity. Two infinity pools invite guests to soak in uninterrupted ocean views, surrounded by sun-drenched terraces, alfresco dining spaces and a tranquil outdoor sala. Every detail is meticulously crafted, with twelve private bedrooms including a magnificent master suite designed as a sanctuary of its own and a family room with two adjoined bedrooms.\n\nBeyond its setting, the villa is a haven of world-class amenities: a chic outdoor bar, a cinema room, a library, and an entertainment area with a pool table. Fitness and wellness enthusiasts enjoy a state-of-the-art gym, a dedicated spa room and direct sea access for a swim in the Andaman. Culinary excellence is effortless with a professional kitchen, wine cellar and BBQ facilities served by a private chef — all within a gated estate with 24-hour security, an elevator and a conference area.",
+  "detail": "Perched on a secluded clifftop along Phuket's illustrious Millionaire's Mile in Kamala, The Aquila Villa is a masterpiece of luxury, seamlessly blending contemporary Asian sophistication with nature's raw beauty. Designed for discerning travellers seeking exclusivity and indulgence, this expansive 12-bedroom retreat offers an unparalleled escape in one of Thailand's most coveted destinations.\n\nSet within an extensive estate, the villa strikes a perfect balance between indoor elegance and outdoor serenity. Two infinity pools, including a dedicated kids' pool, invite guests to soak in uninterrupted ocean views, surrounded by sun-drenched terraces, an alfresco dining area and a tranquil outdoor sala with its own bar. Every detail is meticulously crafted, with twelve private bedrooms including a magnificent master suite designed as a sanctuary of its own and a family room with two adjoined bedrooms.\n\nBeyond its setting, the villa is a haven of world-class amenities: a cinema room, a library, and an entertainment area with a pool table. Fitness and wellness enthusiasts enjoy a state-of-the-art gym, a dedicated spa room and direct sea access for a swim in the Andaman. Culinary excellence is effortless with a professional kitchen, wine cellar and BBQ facilities served by a private chef — all within a gated estate with 24-hour security, a wheelchair-friendly elevator, a conference area and a large garden.\n\nThe rate includes a welcome drink, cold towel and fruit basket on arrival, two-way airport transfers on the same flight, continental or Asian breakfast served between 7am and 11am, wireless internet access and turndown service, with a full-time team — villa manager, chef and housekeepers — at your service throughout the stay. The chef handles all grocery shopping and meal preparation (a 20% handling fee applies to grocery cost, subject to 7% VAT), and broader guest-experience services can be arranged on request.\n\nA refundable security deposit of US$5,000 is required in any currency, payable by bank transfer ten days before arrival or by credit card two days before arrival.",
   "features": [
     {
-      "l": "Two ocean-view infinity pools",
+      "l": "Two ocean-view infinity pools & kids' pool",
       "i": "pool"
     },
     {
@@ -63,6 +63,14 @@
     {
       "l": "12 bedrooms · sleeps 24 · 10 staff",
       "i": "users"
+    },
+    {
+      "l": "Large garden · alfresco dining & outdoor bar",
+      "i": "tree"
+    },
+    {
+      "l": "Airport transfers, breakfast & full staff included",
+      "i": "sparkles"
     }
   ],
   "created": 1781739729000
