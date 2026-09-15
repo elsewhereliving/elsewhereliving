@@ -81,8 +81,8 @@
     "Sea View"
   ],
   "beds": 9,
-  "bedsLabel": "4–9",
-  "baths": 9,
+  "bedsLabel": "7 + 2 bunk",
+  "baths": 9.5,
   "guests": 20,
   "guestsLabel": "20",
   "occupancy": "up to 20 guests (max 120 for events)",
@@ -90,15 +90,15 @@
   "nightlyOriginalNum": 1900,
   "nightlyCurrency": "USD",
   "note": "Fully staffed · private chef · popular wedding venue",
-  "sleeps": "up to 20 guests · 4–9 bedrooms",
+  "sleeps": "up to 20 guests · 7 bedrooms + 2 bunk rooms",
   "created": 1781925000000,
   "featured": false,
   "imageFocal": "",
-  "blurb": "A nine-bedroom beachfront estate sprawled across three acres of palms and manicured lawns that run straight to a quiet, year-round swimmable beach on Koh Samui’s Laem Sor shore. Two teakwood Ayutthaya-style pavilions and a pair of converted rice barns, a beachside pool, a private tennis court and a full team led by a private chef.",
-  "detail": "Set across three acres of rolling green dotted with swaying palms and manicured gardens that lead straight to a quiet, all-year-swimmable beach, this is a private beachfront estate on a grand scale. Two luxuriously-fitted teakwood pavilions house seven bedrooms, and two separate rice barns have been converted into individual bedrooms — up to nine in all, configurable for smaller groups.\n\nGabled, tapered roofs and solid teak panelling carry the classic elegance of Ayutthaya-era Thai architecture, while antique furnishings are balanced with contemporary pieces and bright pops of colour. From the high-ceilinged living spaces to the bedrooms, every room looks out to the pristine beach, turquoise water and nearby islands.\n\nDays drift between the large beachside swimming pool, the expansive lantern-lit lawns and a waterfront sala, with a private tennis court, table tennis, kayaks and a yoga area for the active. Interconnecting king bedrooms and children’s bunk rooms make it ideal for extended families, and a beachside BBQ is prepared each evening by the private chef and wait staff.\n\nFully staffed and beautifully run, the estate is a favourite for tropical weddings and events of up to 120 guests, with a scenic morning walk up to a nearby hilltop temple. A barefoot-luxury escape built to be returned to, year after year.",
+  "blurb": "A nine-bedroom beachfront estate sprawled across three acres of palms and manicured lawns that run straight to a quiet, year-round swimmable beach on Koh Samui’s Laem Sor shore. Seven full bedrooms and two connecting bunk rooms across teakwood Ayutthaya-style pavilions and converted rice barns, a beachside pool, a private tennis court and a full team led by a private chef.",
+  "detail": "Set across three acres of rolling green dotted with swaying palms and manicured gardens that lead straight to a quiet, all-year-swimmable beach, this is a private beachfront estate on a grand scale. Two luxuriously-fitted teakwood pavilions and two converted rice barns house seven full bedrooms and 9.5 bathrooms, plus two connecting bunk rooms for children — nine bedrooms in all, configurable for smaller groups.\n\nGabled, tapered roofs and solid teak panelling carry the classic elegance of Ayutthaya-era Thai architecture, while antique furnishings are balanced with contemporary pieces and bright pops of colour. From the high-ceilinged living spaces to the bedrooms, every room looks out to the pristine beach, turquoise water and nearby islands.\n\nDays drift between the large beachside swimming pool, the expansive lantern-lit lawns and a waterfront sala, with a private tennis court, table tennis, kayaks and a yoga area for the active. The two connecting children’s bunk rooms make it ideal for extended families, and a beachside BBQ is prepared each evening by the private chef and wait staff.\n\nFully staffed and beautifully run, the estate is a popular wedding and events venue for up to 120 guests, with an event fee on top of the nightly rate — any event must be flagged in advance. A scenic morning walk leads up to a nearby hilltop temple. A barefoot-luxury escape built to be returned to, year after year.",
   "features": [
     {
-      "l": "Up to nine bedrooms · pavilions & rice barns",
+      "l": "7 bedrooms + 2 bunk rooms · 9.5 baths",
       "i": "bed"
     },
     {
@@ -130,11 +130,11 @@
       "i": "sun"
     },
     {
-      "l": "Children’s bunk rooms",
+      "l": "Connecting children’s bunk rooms (2)",
       "i": "bed"
     },
     {
-      "l": "Wedding & events venue (up to 120)",
+      "l": "Popular wedding venue (up to 120, event fee applies)",
       "i": "sparkles"
     }
   ],
