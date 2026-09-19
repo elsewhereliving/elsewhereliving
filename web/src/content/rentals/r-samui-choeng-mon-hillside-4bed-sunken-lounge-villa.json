@@ -1,0 +1,91 @@
+{
+  "id": "r-samui-choeng-mon-hillside-4bed-sunken-lounge-villa",
+  "image": "/assets/listings/r-samui-choeng-mon-hillside-4bed-sunken-lounge-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-choeng-mon-hillside-4bed-sunken-lounge-villa/01.jpg",
+    "/assets/listings/r-samui-choeng-mon-hillside-4bed-sunken-lounge-villa/02.jpg",
+    "/assets/listings/r-samui-choeng-mon-hillside-4bed-sunken-lounge-villa/03.jpg",
+    "/assets/listings/r-samui-choeng-mon-hillside-4bed-sunken-lounge-villa/04.jpg",
+    "/assets/listings/r-samui-choeng-mon-hillside-4bed-sunken-lounge-villa/05.jpg",
+    "/assets/listings/r-samui-choeng-mon-hillside-4bed-sunken-lounge-villa/06.jpg",
+    "/assets/listings/r-samui-choeng-mon-hillside-4bed-sunken-lounge-villa/07.jpg",
+    "/assets/listings/r-samui-choeng-mon-hillside-4bed-sunken-lounge-villa/08.jpg",
+    "/assets/listings/r-samui-choeng-mon-hillside-4bed-sunken-lounge-villa/09.jpg",
+    "/assets/listings/r-samui-choeng-mon-hillside-4bed-sunken-lounge-villa/10.jpg",
+    "/assets/listings/r-samui-choeng-mon-hillside-4bed-sunken-lounge-villa/11.jpg",
+    "/assets/listings/r-samui-choeng-mon-hillside-4bed-sunken-lounge-villa/12.jpg",
+    "/assets/listings/r-samui-choeng-mon-hillside-4bed-sunken-lounge-villa/13.jpg",
+    "/assets/listings/r-samui-choeng-mon-hillside-4bed-sunken-lounge-villa/14.jpg",
+    "/assets/listings/r-samui-choeng-mon-hillside-4bed-sunken-lounge-villa/15.jpg"
+  ],
+  "location": "Choeng Mon · Koh Samui · Thailand",
+  "place": "Choeng Mon, Koh Samui, Thailand",
+  "mapQuery": "9.561773,100.085597",
+  "title": "Hillside Four-Bedroom Villa with Sunken Lounge & 20 m Infinity Pool",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 4,
+  "bedsLabel": "4",
+  "baths": 5,
+  "guests": 8,
+  "guestsLabel": "8",
+  "occupancy": "up to 8 guests",
+  "size": "615 m²",
+  "nightlyOriginalNum": 1640,
+  "nightlyCurrency": "USD",
+  "note": "Gated estate · 24/7 security · + tax & service",
+  "sleeps": "up to 8 guests · 4 en-suite king bedrooms",
+  "blurb": "Set on a wooded hillside above the Gulf of Thailand, a three-storey four-bedroom villa arranged around a sunken lounge and a 9.7 × 20 m infinity pool — with a private gym, a yoga platform, a media room and Jacuzzis on two bedroom terraces.",
+  "detail": "Stepping down through the hillside above Choeng Mon Bay, this three-storey villa keeps the sea in view from almost every room. Tall glass walls and deep overhangs open the living spaces onto broad terraces, so mornings begin with the light coming across the water and evenings end on the sun deck as the sky turns.\n\nThe heart of the house is a sunken lounge — a generous, low-set seating pit that draws everyone into one conversation — flowing straight out to a 9.7 × 20 m infinity pool long enough for proper laps. A wide sun terrace with loungers, shaded seating and a poolside BBQ makes the outdoor space as usable as the interior, and a fully equipped kitchen keeps entertaining effortless.\n\nAll four bedrooms are large en-suite suites with king beds and uninterrupted sea views; on the upper level, two of them open to private terraces with their own Jacuzzis. Rain showers run through the five bathrooms, and an extra bed and crib can be added for younger guests.\n\nWellness and leisure are built in: a private gym, a yoga platform above the treeline, a media room with projector and a villa-wide Sonos sound system, all set within landscaped gardens with private parking, complimentary wireless internet and full backup generators. The villa sits inside a gated hillside estate with uniformed round-the-clock security, a short drive from Chaweng, the airport and Choeng Mon's calm beach.",
+  "features": [
+    {
+      "l": "9.7 × 20 m infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Uninterrupted Gulf sea views",
+      "i": "view"
+    },
+    {
+      "l": "Sunken lounge & sunset deck",
+      "i": "sofa"
+    },
+    {
+      "l": "Four en-suite bedrooms · 5 baths",
+      "i": "bed"
+    },
+    {
+      "l": "Jacuzzis on two bedroom terraces",
+      "i": "sparkles"
+    },
+    {
+      "l": "Private gym & yoga platform",
+      "i": "gym"
+    },
+    {
+      "l": "Media room with projector",
+      "i": "home"
+    },
+    {
+      "l": "Villa-wide Sonos sound system",
+      "i": "music"
+    },
+    {
+      "l": "Fully equipped kitchen & poolside BBQ",
+      "i": "utensils"
+    },
+    {
+      "l": "Gated estate · 24/7 security",
+      "i": "shield"
+    },
+    {
+      "l": "Private parking · backup generators",
+      "i": "car"
+    }
+  ],
+  "created": 1789824100000,
+  "internalName": "Samujana Villa 19",
+  "imageFocal": "",
+  "focals": {}
+}
