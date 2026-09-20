@@ -78,5 +78,7 @@
       "i": "shield"
     }
   ],
-  "created": 1789839775000
+  "created": 1789839775000,
+  "imageFocal": "",
+  "focals": {}
 }

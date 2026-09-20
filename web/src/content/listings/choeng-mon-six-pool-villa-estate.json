@@ -1,10 +1,10 @@
 {
   "id": "choeng-mon-six-pool-villa-estate",
   "internalName": "AURA Villas (Aura Road, Choeng Mon) — Property12 P12585",
-  "image": "/assets/listings/choeng-mon-six-pool-villa-estate/01.jpg",
+  "image": "/assets/listings/choeng-mon-six-pool-villa-estate/02.jpg",
   "gallery": [
-    "/assets/listings/choeng-mon-six-pool-villa-estate/01.jpg",
     "/assets/listings/choeng-mon-six-pool-villa-estate/02.jpg",
+    "/assets/listings/choeng-mon-six-pool-villa-estate/01.jpg",
     "/assets/listings/choeng-mon-six-pool-villa-estate/03.jpg",
     "/assets/listings/choeng-mon-six-pool-villa-estate/04.jpg",
     "/assets/listings/choeng-mon-six-pool-villa-estate/05.jpg",
@@ -86,5 +86,7 @@
       "i": "view"
     }
   ],
-  "created": 1789839776000
+  "created": 1789839776000,
+  "imageFocal": "",
+  "focals": {}
 }

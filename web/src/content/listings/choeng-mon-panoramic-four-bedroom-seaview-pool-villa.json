@@ -95,5 +95,7 @@
       "i": "shield"
     }
   ],
-  "created": 1789895454000
+  "created": 1789895454000,
+  "imageFocal": "",
+  "focals": {}
 }

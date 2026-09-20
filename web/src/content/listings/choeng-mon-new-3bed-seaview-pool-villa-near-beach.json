@@ -4,9 +4,9 @@
   "image": "/assets/listings/choeng-mon-new-3bed-seaview-pool-villa-near-beach/01.jpg",
   "gallery": [
     "/assets/listings/choeng-mon-new-3bed-seaview-pool-villa-near-beach/01.jpg",
+    "/assets/listings/choeng-mon-new-3bed-seaview-pool-villa-near-beach/04.jpg",
     "/assets/listings/choeng-mon-new-3bed-seaview-pool-villa-near-beach/02.jpg",
     "/assets/listings/choeng-mon-new-3bed-seaview-pool-villa-near-beach/03.jpg",
-    "/assets/listings/choeng-mon-new-3bed-seaview-pool-villa-near-beach/04.jpg",
     "/assets/listings/choeng-mon-new-3bed-seaview-pool-villa-near-beach/05.jpg",
     "/assets/listings/choeng-mon-new-3bed-seaview-pool-villa-near-beach/06.jpg",
     "/assets/listings/choeng-mon-new-3bed-seaview-pool-villa-near-beach/07.jpg",
@@ -89,5 +89,7 @@
       "i": "building"
     }
   ],
-  "created": 1789840411000
+  "created": 1789840411000,
+  "imageFocal": "",
+  "focals": {}
 }

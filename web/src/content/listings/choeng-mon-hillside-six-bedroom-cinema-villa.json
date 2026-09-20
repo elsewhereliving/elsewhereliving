@@ -1,10 +1,10 @@
 {
   "id": "choeng-mon-hillside-six-bedroom-cinema-villa",
   "internalName": "Samujana Villa 21",
-  "image": "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/01.jpg",
+  "image": "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/02.jpg",
   "gallery": [
-    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/01.jpg",
     "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/02.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/01.jpg",
     "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/03.jpg",
     "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/04.jpg",
     "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/05.jpg",
@@ -99,5 +99,7 @@
       "i": "shield"
     }
   ],
-  "created": 1789895223000
+  "created": 1789895223000,
+  "imageFocal": "",
+  "focals": {}
 }
