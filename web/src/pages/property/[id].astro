@@ -9,7 +9,7 @@ import Map from "../../components/Map.astro";
 import Gallery from "../../components/react/Gallery.tsx";
 import SaveButton from "../../components/react/SaveButton.tsx";
 import EnquiryForm from "../../components/react/EnquiryForm.tsx";
-import { getListings, getSiteContent } from "../../lib/content";
+import { getListings, getAllListings, getSiteContent } from "../../lib/content";
 import { relatedListings } from "../../lib/related";
 import { optImg, ogImg } from "../../lib/img";
 
@@ -17,7 +17,8 @@ const { contact } = getSiteContent();
 import { viewText, viewList, statusList } from "../../lib/format";
 
 export async function getStaticPaths() {
-  const listings = await getListings();
+  // Includes off-market listings: they get a page, just no links to it.
+  const listings = await getAllListings();
   return listings.map((l) => ({ params: { id: l.id }, props: { listing: l } }));
 }
 
@@ -85,7 +86,8 @@ const jsonLd = {
   description={l.blurb}
   image={ogImg(l.image)}
   canonicalPath={`/property/${l.id}/`}
-  jsonLd={jsonLd}
+  jsonLd={l.offMarket ? undefined : jsonLd}
+  noindex={!!l.offMarket}
 >
   <div style="background:var(--paper);">
     <div style="max-width:1320px; margin:0 auto; padding:clamp(104px, 13vh, 140px) clamp(20px, 4vw, 56px) clamp(72px, 10vw, 120px);">
@@ -120,10 +122,11 @@ const jsonLd = {
                 </div>
                 <h1 style="margin:10px 0 0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.9rem, 3vw, 2.5rem); line-height:1.06; letter-spacing:-0.015em; color:var(--navy);">{l.title}</h1>
               </div>
-              <SaveButton id={l.id} client:visible />
+              {!l.offMarket && <SaveButton id={l.id} client:visible />}
             </div>
 
             <div style="display:flex; flex-wrap:wrap; gap:8px; margin-top:18px;">
+              {l.offMarket && <Badge tone="accent">Off-Market</Badge>}
               <Badge tone="navy">{l.type}</Badge>
               {viewList(l.view).map((v) => <Badge tone="mist">{v}</Badge>)}
               {statusList(l.status).map((s) => <Badge tone="accent">{s}</Badge>)}

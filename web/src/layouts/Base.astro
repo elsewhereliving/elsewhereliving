@@ -22,6 +22,8 @@ interface Props {
   canonicalPath?: string;
   /** optional extra JSON-LD object */
   jsonLd?: Record<string, unknown>;
+  /** keep the page out of search engines (off-market listings) */
+  noindex?: boolean;
 }
 
 const {
@@ -34,6 +36,7 @@ const {
   navCtaAccent = false,
   canonicalPath,
   jsonLd,
+  noindex = false,
 } = Astro.props;
 
 const canonical = new URL(canonicalPath ?? Astro.url.pathname, Astro.site ?? "https://elsewhere.living").href;
@@ -66,7 +69,7 @@ const orgLd = {
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="robots" content={noindex ? "noindex, nofollow, noarchive" : "index, follow, max-image-preview:large"} />
     <meta name="theme-color" content="#152644" />
 
     <!-- Favicons -->

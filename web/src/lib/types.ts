@@ -47,6 +47,10 @@ export interface Listing {
   ownership?: string;
   yield?: string;
   video?: string;
+  /** Off-market: reachable only by its direct URL. Left out of the public index,
+   *  homepage, search, saved, related rows and the sitemap, and served noindex.
+   *  The file name (id) should carry a random token so the link can't be guessed. */
+  offMarket?: boolean;
   /** Show on the homepage "featured" row (set in /admin). */
   featured?: boolean;
   /** Order within the homepage featured row — lower shows first. */

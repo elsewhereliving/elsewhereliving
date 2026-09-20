@@ -133,7 +133,12 @@ const stripInternal = <T extends Record<string, any>>(r: T): T => {
 };
 const LISTINGS_RAW: Listing[] = collect<Listing>(listingFiles, "Listing").map((l) => ({ ...l, ...listingPrice(l) }));
 const RENTALS_RAW: Rental[] = collect<Rental>(rentalFiles, "Rental").map((r) => ({ ...r, ...rentalPrice(r) }));
-const LISTINGS: Listing[] = LISTINGS_RAW.map(stripInternal);
+// Off-market listings exist only at their own URL: every public getter below
+// excludes them, so they can't reach the index, homepage, search, saved page,
+// related rows or (via astro.config.mjs) the sitemap. Only the detail page's
+// getStaticPaths uses getAllListings().
+const LISTINGS_ALL: Listing[] = LISTINGS_RAW.map(stripInternal);
+const LISTINGS: Listing[] = LISTINGS_ALL.filter((l) => !l.offMarket);
 const RENTALS: Rental[] = RENTALS_RAW.map(stripInternal);
 
 export async function getListings(): Promise<Listing[]> {
@@ -153,8 +158,13 @@ export async function getRentalsAdmin(): Promise<Rental[]> {
   return RENTALS_RAW;
 }
 
+/** Every listing including off-market ones — for the detail-page route only. */
+export async function getAllListings(): Promise<Listing[]> {
+  return LISTINGS_ALL;
+}
+
 export async function getListing(id: string): Promise<Listing | undefined> {
-  return LISTINGS.find((l) => l.id === id);
+  return LISTINGS_ALL.find((l) => l.id === id);
 }
 
 export async function getRental(id: string): Promise<Rental | undefined> {

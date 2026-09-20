@@ -184,6 +184,11 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
 
           <FormSection eyebrow="Essentials">
             <TextField label="Villa name (internal)" value={rec.internalName} onChange={(v) => set({ internalName: v })} hint="Studio only — never shown on the website" placeholder="e.g. Baan Kilee" />
+            {!isRental && (
+              <label style={{ display: "inline-flex", alignItems: "center", gap: 9, cursor: "pointer", fontFamily: "var(--font-sans)", fontSize: 12.5, color: "var(--charcoal)" }}>
+                <input type="checkbox" checked={!!rec.offMarket} onChange={(e) => set({ offMarket: e.target.checked || undefined })} /> Off-market — only reachable by its direct link (keep a random token in the URL)
+              </label>
+            )}
             <TextField label="Title" value={rec.title} onChange={(v) => set({ title: v })} placeholder="A distinctive name — by character, not the real project name" />
             <SlugField
               value={rec.id}

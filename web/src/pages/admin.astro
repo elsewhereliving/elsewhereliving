@@ -6,7 +6,10 @@ import { getListingsAdmin, getRentalsAdmin, getListingMarkets, getHomeFeaturedCo
 
 // Load the current portfolio as the Studio's starting data. Use the *Admin
 // getters so the Studio sees `internalName` (stripped from all public getters).
-const listings = await getListingsAdmin();
+// Off-market listings are left out of the *built* page: /admin is served
+// publicly and embeds this data in its HTML, which would expose the private
+// link. On the dev server (where the Studio actually saves files) they stay.
+const listings = (await getListingsAdmin()).filter((l) => import.meta.env.DEV || !l.offMarket);
 const rentals = await getRentalsAdmin();
 const markets = await getListingMarkets();
 const homeCount = getHomeFeaturedCount();
