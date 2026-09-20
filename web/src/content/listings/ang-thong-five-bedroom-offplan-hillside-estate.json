@@ -1,0 +1,82 @@
+{
+  "id": "ang-thong-five-bedroom-offplan-hillside-estate",
+  "internalName": "Property12 P12790 — Ang Thong off-plan estate (Villa 3)",
+  "image": "/assets/listings/ang-thong-five-bedroom-offplan-hillside-estate/01.jpg",
+  "gallery": [
+    "/assets/listings/ang-thong-five-bedroom-offplan-hillside-estate/01.jpg",
+    "/assets/listings/ang-thong-five-bedroom-offplan-hillside-estate/02.jpg",
+    "/assets/listings/ang-thong-five-bedroom-offplan-hillside-estate/03.jpg",
+    "/assets/listings/ang-thong-five-bedroom-offplan-hillside-estate/04.jpg",
+    "/assets/listings/ang-thong-five-bedroom-offplan-hillside-estate/05.jpg"
+  ],
+  "location": "Ang Thong · Koh Samui · Thailand",
+  "place": "Ang Thong, North West Koh Samui, Surat Thani, Thailand",
+  "market": "Koh Samui",
+  "title": "Off-Plan Five-Bedroom Hillside Estate on a 5,751 m² Freehold Plot",
+  "type": "Villa",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Off-Plan",
+  "beds": 5,
+  "baths": 5,
+  "interior": "2,749 m²",
+  "plot": "5,751 m²",
+  "year": null,
+  "priceOriginalNum": 425000000,
+  "priceCurrency": "THB",
+  "ownership": "Freehold",
+  "blurb": "A landmark off-plan residence in the hills of Ang Thong — five balconied suites, an infinity pool with a bubble bed, a home theatre, gym and private spa, and two lifts serving three levels, on 5,751 m² of freehold land with sea views and complete privacy.",
+  "detail": "High on the north-western hillside of Ang Thong, this is designed as one of Koh Samui's largest private residences: a low, spreading house of steeply pitched roofs, timber screens and deep terraces, stepping down its slope across three levels and set within 5,751 m² of freehold land. The scale is deliberate — nearly 2,750 m² of usable space, planned so that a family, its guests and its staff can each have room without ever crossing paths.\n\nThe arrival is ceremonial: a courtyard entrance, a three-car covered carport and two private lifts connecting every floor. The main living level holds the sitting room, a formal dining room and a fully equipped kitchen with a pantry, opening onto a broad pool deck. The infinity pool comes with a bubble bed and water-jet seating, and a pool bar with barbecue turns the terrace into a place for long evenings and sunset gatherings.\n\nFive bedroom suites each have a private balcony, with the master and sea-view rooms taking the best of the outlook; bathrooms are planned with double vanities, rain showers and tubs, one with a Jacuzzi. Around them the house adds a family and games room, a home theatre, a fully equipped gym, a private spa room with its own terrace, and a multi-purpose studio with a terrace that can serve as yoga room, office or atelier. Two maids' rooms, service and laundry areas, and separate circulation for staff keep the house running quietly.\n\nBecause the house is off-plan, the buyer can still shape the finish and the fit-out. As drawn, the floors break down at roughly 850 m² on the base level, 1,437 m² on the first floor and 462 m² on the second. Ang Thong is among the island's quietest and most exclusive districts, with fresh sea breezes and long views over the water, yet within reach of beaches, marinas and dining. The property is offered freehold, with a private road, backup generator, CCTV, smart lighting and fibre internet planned throughout.",
+  "features": [
+    {
+      "l": "Freehold · 5,751 m² plot",
+      "i": "key"
+    },
+    {
+      "l": "2,749 m² across three levels",
+      "i": "building"
+    },
+    {
+      "l": "Infinity pool with bubble bed & water-jet seating",
+      "i": "pool"
+    },
+    {
+      "l": "Sea views from a hillside position",
+      "i": "view"
+    },
+    {
+      "l": "Five bedroom suites, each with a private balcony",
+      "i": "bed"
+    },
+    {
+      "l": "Home theatre & family / games room",
+      "i": "music"
+    },
+    {
+      "l": "Fully equipped gym & private spa room",
+      "i": "gym"
+    },
+    {
+      "l": "Pool bar & BBQ terrace",
+      "i": "utensils"
+    },
+    {
+      "l": "Multi-purpose studio with terrace",
+      "i": "terrace"
+    },
+    {
+      "l": "Two private lifts serving all levels",
+      "i": "sparkles"
+    },
+    {
+      "l": "Three-car carport · two maids' rooms",
+      "i": "car"
+    },
+    {
+      "l": "Private road · CCTV · backup generator",
+      "i": "shield"
+    }
+  ],
+  "created": 1789839775000
+}
