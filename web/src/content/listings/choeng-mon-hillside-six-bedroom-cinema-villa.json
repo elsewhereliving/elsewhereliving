@@ -1,0 +1,103 @@
+{
+  "id": "choeng-mon-hillside-six-bedroom-cinema-villa",
+  "internalName": "Samujana Villa 21",
+  "image": "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/01.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/02.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/03.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/04.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/05.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/06.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/07.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/08.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/09.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/10.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/11.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/12.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/13.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/14.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/15.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/16.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/17.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/18.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/19.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/20.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/21.jpg",
+    "/assets/listings/choeng-mon-hillside-six-bedroom-cinema-villa/22.jpg"
+  ],
+  "location": "Choeng Mon · Koh Samui · Thailand",
+  "place": "Choeng Mon headland estate, Bo Phut, Ko Samui District, Surat Thani 84320, Thailand",
+  "market": "Koh Samui",
+  "title": "Six-Bedroom Hillside Villa with Infinity Pool, Private Cinema and Gym",
+  "type": "Villa",
+  "view": [
+    "Sea View"
+  ],
+  "status": "Move-In Ready",
+  "beds": 6,
+  "baths": 11,
+  "interior": "1,000+ m²",
+  "plot": "1,840 m²",
+  "year": null,
+  "priceOriginalNum": 4500000,
+  "priceCurrency": "USD",
+  "ownership": "Leasehold",
+  "blurb": "A six-bedroom villa on the Choeng Mon hillside with an L-shaped infinity pool facing the Gulf, a 13-seat private cinema, gym, spa room and games room, and one of the largest gardens in its gated estate — over 1,000 m² of living space on a 1,840 m² plot.",
+  "detail": "Set high on the hillside of a gated Choeng Mon estate, this is one of the largest villas on the headland — a low, layered house of pale stone, glass and green roofs that steps down toward the Gulf. Everything is oriented to the water: a long L-shaped infinity pool runs alongside a deep covered terrace, so the living areas, the dining table and the pool read as one continuous space above the bay.\n\nInside, more than 1,000 m² of living space is arranged around a planted courtyard with a stone-clad atrium and a stair that ties the levels together. The open-plan kitchen, dining room for twelve and lounge share the sea-facing terrace, and the palette stays light — pale limestone floors, timber screens, sliding glass walls that disappear into the walls.\n\nThe bedrooms are as generous as the public rooms. Two master suites and four large guest bedrooms each open to their own terrace with a sea or garden view, and eleven bathrooms in all, with deep freestanding tubs and rain showers. Around them the house holds a full private leisure programme: a 13-seat cinema with reclining sofas and a projection screen, a fully equipped gym, a spa treatment room, a games room with a pool table, and a private office.\n\nOutside, landscaped gardens include the largest lawn on the estate — room for children to play, a wellness session on the grass or a private event — with sunny decks, daybeds and a poolside gas barbecue. The estate provides 24-hour security, grounds maintenance and on-site services, and both Choeng Mon's calm bay and Chaweng's restaurants are a few minutes away. The villa is leasehold, consistent with the rest of the estate; terms are shared on enquiry.",
+  "features": [
+    {
+      "l": "1,840 m² plot · 1,000+ m² of living space",
+      "i": "plot"
+    },
+    {
+      "l": "L-shaped infinity pool overlooking the Gulf",
+      "i": "pool"
+    },
+    {
+      "l": "Sea views from a hillside position",
+      "i": "view"
+    },
+    {
+      "l": "Six bedrooms · two master suites",
+      "i": "bed"
+    },
+    {
+      "l": "Eleven bathrooms",
+      "i": "bath"
+    },
+    {
+      "l": "13-seat private cinema",
+      "i": "music"
+    },
+    {
+      "l": "Fully equipped gym",
+      "i": "gym"
+    },
+    {
+      "l": "Spa treatment room",
+      "i": "sparkles"
+    },
+    {
+      "l": "Games room with pool table",
+      "i": "users"
+    },
+    {
+      "l": "Private office",
+      "i": "building"
+    },
+    {
+      "l": "Open-plan kitchen and dining for twelve",
+      "i": "utensils"
+    },
+    {
+      "l": "Largest garden in the estate · poolside barbecue",
+      "i": "tree"
+    },
+    {
+      "l": "Gated estate · 24-hour security",
+      "i": "shield"
+    }
+  ],
+  "created": 1789895223000
+}
