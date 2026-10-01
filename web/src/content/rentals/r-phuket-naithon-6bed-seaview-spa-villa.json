@@ -1,0 +1,81 @@
+{
+  "id": "r-phuket-naithon-6bed-seaview-spa-villa",
+  "image": "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/01.jpg",
+    "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/02.jpg",
+    "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/03.jpg",
+    "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/04.jpg",
+    "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/05.jpg",
+    "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/06.jpg",
+    "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/07.jpg",
+    "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/08.jpg",
+    "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/09.jpg",
+    "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/10.jpg",
+    "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/11.jpg",
+    "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/12.jpg",
+    "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/13.jpg",
+    "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/14.jpg",
+    "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/15.jpg"
+  ],
+  "location": "Naithon · Phuket · Thailand",
+  "place": "Naithon Beach, Sakhu, Thalang District, Phuket, Thailand",
+  "mapQuery": "8.0531,98.2784",
+  "title": "Six-Bedroom Sea-View Villa with Private Spa above Naithon Beach",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 6,
+  "bedsLabel": "4–6",
+  "guests": 12,
+  "guestsLabel": "12",
+  "occupancy": "up to 12 guests",
+  "size": "1,600 m²",
+  "nightlyOriginalNum": 1910,
+  "nightlyCurrency": "USD",
+  "note": "Private spa & gym · chef · breakfast included",
+  "sleeps": "Up to 12 guests · 4–6 bedrooms",
+  "blurb": "A six-bedroom hillside villa in a private estate above Naithon Beach, on Phuket's quiet northwest coast, with an 18-metre infinity pool and sea views from every bedroom. Peak-roofed Thai pavilions hold marble interiors, a lift, two media rooms, a gym and a full marble spa room with steam and jacuzzi — looked after by a villa manager and private chef, with breakfast included.",
+  "detail": "Naithon is one of Phuket's calmest beaches — a kilometre of soft sand on the northwest coast, with a village feel, a few beach cafés and coves to explore by paddleboard. This villa sits in a small private estate on the hillside just above it, close enough to walk down, and the whole bay is laid out below the pool terrace. The airport is only around twenty minutes away.\n\nThe house is built as a set of peak-roofed pavilions in the Thai tradition, finished inside in cool marble and polished timber, over two floors linked by a lift and stairs. A vaulted living and dining pavilion opens straight onto the 18-metre infinity pool, with a twelve-seat table and a smaller table for four both turned to the sea. Alongside are a guest kitchen with a breakfast bar and wine fridge, two media rooms, a sea-view study that doubles as a playroom, and a gym with ocean views. The spa room is the standout: marble throughout, with massage beds, a steam sauna, a spa shower and a large jacuzzi. Outside, a poolside sala seats eight for dinner.\n\nSix bedrooms sleep twelve, and the villa can be taken as four or five bedrooms for a smaller party. The upper master suite has panoramic sea views, direct pool access, a walk-through dressing room and a marble bathroom with a terrazzo tub, with a media room beside it that can become a child's room. The second master opens through a marble entrance hall to a balcony over the beach, with a bathtub and twin washrooms. Downstairs, four guest rooms with balconies face the sea — three king rooms with marble en-suites and a twin room that converts to a double.\n\nA villa manager, private chef, housekeeping and service staff run the house; breakfast is included daily, and other meals are cooked to order. Spa therapists, babysitters and cars can be arranged, and events for up to 80 guests are possible with notice.",
+  "features": [
+    {
+      "l": "Sleeps 12 · 4–6 bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "18 m infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "Sea views over Naithon Beach",
+      "i": "view"
+    },
+    {
+      "l": "Marble spa room with steam & jacuzzi",
+      "i": "sparkles"
+    },
+    {
+      "l": "Gym, two media rooms & study",
+      "i": "gym"
+    },
+    {
+      "l": "Private chef · breakfast included",
+      "i": "utensils"
+    },
+    {
+      "l": "Lift between floors",
+      "i": "building"
+    },
+    {
+      "l": "1,600 m² villa · 1,800 m² plot",
+      "i": "plot"
+    },
+    {
+      "l": "Beach walkable · airport 20 minutes",
+      "i": "waves"
+    }
+  ],
+  "created": 1790816952000,
+  "internalName": "Malaiwana - Villa Haleana - Elite Havens",
+  "imageFocal": ""
+}

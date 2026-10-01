@@ -83,6 +83,9 @@ neighbour like `taling-ngam-9rai-dual-view-seaview-land.json`). Key rules:
   "bigger than the current max"** — made-up future timestamps have previously
   pushed every later listing below stale ones, and the build now fails on a
   missing or future `created`. Do not set `added` (a legacy weight, unused).
+- `internalName` (rentals — always set it, right after `created`): the real
+  villa name **plus its source**, as `"<Villa name> - <Source>"`, e.g.
+  `"Villa Saan - Elite Havens"`. Admin-only; it never appears in public text.
 - Flag any judgement calls (status vs. year, assumed currency) to the user.
 
 ## 5. Build, preview, hand off

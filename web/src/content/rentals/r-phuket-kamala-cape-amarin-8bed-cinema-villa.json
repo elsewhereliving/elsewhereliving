@@ -1,0 +1,81 @@
+{
+  "id": "r-phuket-kamala-cape-amarin-8bed-cinema-villa",
+  "image": "/assets/listings/r-phuket-kamala-cape-amarin-8bed-cinema-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-phuket-kamala-cape-amarin-8bed-cinema-villa/01.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-8bed-cinema-villa/02.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-8bed-cinema-villa/03.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-8bed-cinema-villa/04.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-8bed-cinema-villa/05.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-8bed-cinema-villa/06.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-8bed-cinema-villa/07.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-8bed-cinema-villa/08.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-8bed-cinema-villa/09.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-8bed-cinema-villa/10.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-8bed-cinema-villa/11.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-8bed-cinema-villa/12.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-8bed-cinema-villa/13.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-8bed-cinema-villa/14.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-8bed-cinema-villa/15.jpg"
+  ],
+  "location": "Kamala · Phuket · Thailand",
+  "place": "Kamala, Kathu District, Phuket, Thailand",
+  "mapQuery": "7.9296,98.2638",
+  "title": "Eight-Bedroom Headland Villa with Cinema & Spa",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 8,
+  "bedsLabel": "6–8",
+  "guests": 16,
+  "guestsLabel": "16",
+  "occupancy": "up to 16 guests",
+  "size": "1,800 m²",
+  "nightlyOriginalNum": 2405,
+  "nightlyCurrency": "USD",
+  "note": "Cinema · gym & spa room · private chef",
+  "sleeps": "Up to 16 guests · 6–8 en-suite bedrooms",
+  "blurb": "An eight-bedroom villa high on the Cape Amarin headland between Kamala and Patong, with every room facing the Andaman Sea. A vaulted entrance pavilion opens onto a 17-metre infinity pool, and the house adds a home cinema, a games room, a gym with its own spa room and a master suite with a private whirlpool terrace — staffed with a villa manager and in-house chef.",
+  "detail": "Perched on a dramatic headland in the gated Cape Amarin estate, on the stretch of coast known as Millionaire's Mile, this villa is built so that every bedroom and living space looks out across the Andaman Sea. Arrival is through a soaring, cathedral-like entrance pavilion with a vaulted roof and water features, framing the first view down over the pool to the bay and the treetops below.\n\nThe living spaces unfold over four levels: a sea-view living room, a separate lounge, a dining room with a twelve-seat table and bar, a cinema with a projector and surround sound, and a games room with a pool table and its own bar. A gym with an adjoining spa room makes it easy to fit in a workout or an in-villa massage. Outside, a 17-metre infinity-edge pool with a jacuzzi runs along the deck, with a poolside sala, an outdoor lounge, a barbecue area and landscaped tropical garden.\n\nEight en-suite bedrooms sleep up to sixteen, and the villa can also be taken as six or seven bedrooms for a smaller group. The top-floor master suite has a private terrace and plunge whirlpool, an outdoor bathtub and shower, and a walk-in dressing room; two further upper-floor rooms share its glass-fronted sea-view balconies and bathtubs with a view. Four rooms on the level below — two twin rooms that convert to kings among them — suit families, and a ground-floor room opens straight onto the garden.\n\nA villa manager, assistant manager, in-villa chef and housekeeping team run the house, with 24-hour estate security; babysitting, massage, a driver and shopping can be arranged. Events for up to 40 seated guests are possible with notice. Kamala's beach is about six kilometres north, with Patong's dining and nightlife a short drive south.",
+  "features": [
+    {
+      "l": "Sleeps up to 16 · 6–8 en-suite bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "17 m infinity pool with jacuzzi",
+      "i": "pool"
+    },
+    {
+      "l": "Sea views from every room",
+      "i": "view"
+    },
+    {
+      "l": "Home cinema & games room",
+      "i": "music"
+    },
+    {
+      "l": "Gym with private spa room",
+      "i": "gym"
+    },
+    {
+      "l": "Master suite with whirlpool terrace",
+      "i": "sparkles"
+    },
+    {
+      "l": "Dining for 12 · in-villa chef",
+      "i": "utensils"
+    },
+    {
+      "l": "1,800 m² villa · 2,200 m² plot",
+      "i": "plot"
+    },
+    {
+      "l": "Gated estate · 24-hour security",
+      "i": "shield"
+    }
+  ],
+  "created": 1790816268000,
+  "internalName": "Villa Saan - Elite Havens",
+  "imageFocal": ""
+}

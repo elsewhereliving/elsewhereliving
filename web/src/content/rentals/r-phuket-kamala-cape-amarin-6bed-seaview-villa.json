@@ -1,0 +1,81 @@
+{
+  "id": "r-phuket-kamala-cape-amarin-6bed-seaview-villa",
+  "image": "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/01.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/02.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/03.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/04.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/05.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/06.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/07.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/08.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/09.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/10.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/11.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/12.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/13.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/14.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/15.jpg"
+  ],
+  "location": "Kamala · Phuket · Thailand",
+  "place": "Kamala, Kathu District, Phuket, Thailand",
+  "mapQuery": "7.9301,98.2638",
+  "title": "Six-Bedroom Headland Villa with Sunset Sea Views",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 6,
+  "bedsLabel": "5–6",
+  "guests": 12,
+  "guestsLabel": "12",
+  "occupancy": "up to 12 guests",
+  "size": "1,800 m²",
+  "nightlyOriginalNum": 2120,
+  "nightlyCurrency": "USD",
+  "note": "Media room · spa & fitness room · breakfast included",
+  "sleeps": "Up to 12 guests · 5–6 bedrooms",
+  "blurb": "A six-bedroom villa on the gated Cape Amarin headland between Kamala and Patong, looking out over a small bay to the Andaman Sea. A vaulted open-air entrance frames the view down to a 17-metre pool and jacuzzi, with a media room, a games room and a spa and fitness room inside, a master suite with its own plunge pool, and a chef and villa manager on hand — breakfast included.",
+  "detail": "On the hillside of the private Cape Amarin estate, along the stretch of west-coast road known as Millionaire's Mile, this villa overlooks a quiet bay with the Andaman Sea opening out beyond. It is secluded from Phuket's busier resort areas, yet Kamala's beach is around six kilometres north and Patong's dining and nightlife some fifteen minutes south.\n\nArrival is through a soaring open entrance hall with a vaulted roof and water features, framing the first sweep of sea and sunset. Steep, Thai-inspired roofs give way to clean, modern interiors: a living room with ocean views, an open kitchen and dining room with a twelve-seat table and bar, a media room with a projector screen, a games room with a pool table, and a spa and fitness room with two treatment beds and gym equipment. Outside, a 17-metre pool and jacuzzi run along the deck, with sun loungers, poolside lounge seating and a furnished dining sala, set within frangipani-planted gardens.\n\nSix bedrooms sleep twelve, and the villa can be taken as five bedrooms for a smaller group. The upper-floor master suite has a private terrace with a jacuzzi plunge pool, a double bathtub and shower outside, a walk-in wardrobe and a spacious en-suite. Two king rooms above share the outlook through glass-fronted balconies and have sea-view bathtubs, and three king rooms on the lower floor — each convertible to twins — have furnished ocean-view balconies and their own shower rooms.\n\nA villa manager, assistant manager, in-villa chef and housekeeping team look after the house, with 24-hour estate security. Breakfast is included daily, the chef cooks Thai and Western dishes to order, and babysitting, massage, a driver and excursions can be arranged. Weddings and events for up to 60 guests are possible with notice.",
+  "features": [
+    {
+      "l": "Sleeps 12 · 5–6 bedrooms",
+      "i": "bed"
+    },
+    {
+      "l": "17 m pool & jacuzzi over the bay",
+      "i": "pool"
+    },
+    {
+      "l": "Panoramic sea & sunset views",
+      "i": "view"
+    },
+    {
+      "l": "Master suite with plunge-pool terrace",
+      "i": "sparkles"
+    },
+    {
+      "l": "Media room & games room",
+      "i": "music"
+    },
+    {
+      "l": "Spa & fitness room",
+      "i": "gym"
+    },
+    {
+      "l": "Private chef · breakfast included",
+      "i": "utensils"
+    },
+    {
+      "l": "1,800 m² villa · 2,200 m² plot",
+      "i": "plot"
+    },
+    {
+      "l": "Gated estate · 24-hour security",
+      "i": "shield"
+    }
+  ],
+  "created": 1790816952000,
+  "internalName": "Villa Samira - Elite Havens",
+  "imageFocal": ""
+}
