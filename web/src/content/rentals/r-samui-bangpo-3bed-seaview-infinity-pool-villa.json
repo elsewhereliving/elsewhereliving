@@ -1,0 +1,85 @@
+{
+  "id": "r-samui-bangpo-3bed-seaview-infinity-pool-villa",
+  "image": "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/01.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/02.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/03.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/04.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/05.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/06.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/07.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/08.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/09.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/10.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/11.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/12.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/13.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/14.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/15.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/16.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/17.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/18.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/19.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/20.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/21.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/22.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/23.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/24.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/25.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/26.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/27.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/28.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/29.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/30.jpg",
+    "/assets/listings/r-samui-bangpo-3bed-seaview-infinity-pool-villa/31.jpg"
+  ],
+  "location": "Bang Po · Koh Samui · Thailand",
+  "place": "Bang Po, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.5669,99.9435",
+  "title": "Hillside Sea-View Pool Villa in Bang Po",
+  "view": [
+    "Sea View"
+  ],
+  "beds": 3,
+  "bedsLabel": "3",
+  "guests": 6,
+  "guestsLabel": "6",
+  "occupancy": "up to 6 guests",
+  "nightlyOriginalNum": 10900,
+  "nightlyCurrency": "THB",
+  "note": "Infinity pool · 180° sea view",
+  "sleeps": "6 guests · 3 bedrooms · 3 beds",
+  "blurb": "A hillside three-bedroom villa above Bang Po on Koh Samui's north coast, built around a private infinity pool and a 180-degree sweep of sea toward Koh Phangan — bright, earthy interiors with a fully equipped kitchen, an outdoor terrace and Bang Po beach just minutes away.",
+  "detail": "Set on a wooded hillside above Bang Po, this single-level villa is arranged to face the water. Glass sliding doors open the living room, dining area and every bedroom onto a timber deck, a lawn and a private infinity pool, with the sea and the island of Koh Phangan filling the horizon — a view that holds from almost every room and, by most accounts, looks better in person than in photographs.\n\nInside, soft sand-toned walls, rattan lighting, natural fibres and warm timber give the villa a relaxed, bohemian character. The open living space combines a deep sofa and television with a long dining table and a fully equipped kitchen — dishwasher, oven, gas hob, Nespresso machine — with a separate laundry holding a washer, dryer and iron. Three air-conditioned bedrooms take king or queen beds with wardrobes and safes, each with its own bathroom, several with a rain shower and a sea outlook, sleeping six.\n\nOutside, a covered terrace, outdoor seating and a hammock chair surround the pool, with private parking at the door. Fibre Wi-Fi, a Smart TV and a Bluetooth speaker are included, along with twice-weekly housekeeping and pool and garden care. A guest manager can arrange airport transfers, car and scooter hire, a private chef or in-villa massage, and food delivery is available. The beach, restaurants and a mini market are about five minutes by car, so a vehicle is recommended; the airport is roughly 19 km away. Electricity is billed by meter, and the villa is not suited to parties or pets.",
+  "features": [
+    {
+      "l": "Private infinity pool",
+      "i": "pool"
+    },
+    {
+      "l": "180° sea views to Koh Phangan",
+      "i": "view"
+    },
+    {
+      "l": "Three en-suite bedrooms · sleeps 6",
+      "i": "bed"
+    },
+    {
+      "l": "Fully equipped kitchen & laundry",
+      "i": "utensils"
+    },
+    {
+      "l": "Covered terrace & lawn",
+      "i": "terrace"
+    },
+    {
+      "l": "Beach & restaurants 5 minutes by car",
+      "i": "waves"
+    }
+  ],
+  "created": 1789898923123,
+  "internalName": "Pacific Palisade Villa 9",
+  "imageFocal": "",
+  "focals": {}
+}
