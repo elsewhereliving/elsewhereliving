@@ -1,0 +1,74 @@
+{
+  "id": "bophut-2bed-single-storey-pool-villa",
+  "internalName": "Casa Mira - Type C",
+  "image": "/assets/listings/bophut-2bed-single-storey-pool-villa/01.jpg",
+  "gallery": [
+    "/assets/listings/bophut-2bed-single-storey-pool-villa/01.jpg",
+    "/assets/listings/bophut-2bed-single-storey-pool-villa/02.jpg",
+    "/assets/listings/bophut-2bed-single-storey-pool-villa/03.jpg",
+    "/assets/listings/bophut-2bed-single-storey-pool-villa/04.jpg",
+    "/assets/listings/bophut-2bed-single-storey-pool-villa/05.jpg",
+    "/assets/listings/bophut-2bed-single-storey-pool-villa/06.jpg",
+    "/assets/listings/bophut-2bed-single-storey-pool-villa/07.jpg",
+    "/assets/listings/bophut-2bed-single-storey-pool-villa/08.jpg"
+  ],
+  "location": "Bophut · Koh Samui · Thailand",
+  "place": "Bophut, Ko Samui District, Surat Thani, Thailand",
+  "market": "Koh Samui",
+  "type": "Villa",
+  "view": [
+    "Garden / Pool View"
+  ],
+  "status": "Off-Plan",
+  "ownership": "Freehold or Leasehold",
+  "priceCurrency": "THB",
+  "priceFrom": false,
+  "mapQuery": "9.560931,100.019387",
+  "created": 1791083153981,
+  "video": "",
+  "imageFocal": "",
+  "title": "Single-Storey Two-Bedroom Pool Villa near Fisherman's Village",
+  "beds": 2,
+  "bedsLabel": "2+1",
+  "baths": 3,
+  "interior": "237.5 m²",
+  "plot": "336.4 m²",
+  "priceOriginalNum": 9500000,
+  "blurb": "One of only two single-storey villas in a boutique Bophut enclave — two en-suite bedrooms plus a staff room, a sunken lounge opening onto a private pool, and about 237.5 m² of relaxed island living minutes from Fisherman's Village. Off-plan at ฿9,500,000.",
+  "detail": "A calm, single-storey pool villa in a boutique eight-villa enclave in Bophut, Koh Samui — a few minutes from Fisherman's Village and Bophut Beach on the island's lively north coast, with the ring road and airport close by. Only two of these villas will be built, on Plots 7 and 8.\n\nEverything happens on one level. A sunken lounge with built-in sofas sits beneath a timber-slatted ceiling and woven pendant lights, opening through full-height glass onto a 34.5 m² terrace and a private swimming pool framed by tropical planting. Softly rounded niches, warm limestone tones and natural textures give the home a relaxed, Mediterranean-meets-tropical feel, and a shaded arched daybed sits right at the water's edge.\n\nTHE LAYOUT\nTwo generous bedrooms of 25 m² and 21 m², each with its own bathroom — the main bathroom with a freestanding tub and a garden-lit rain shower — plus a separate staff or guest bedroom with its own shower room (the \"+1\"). A 35 m² living room, 22.5 m² kitchen, pool of about 32.5 m², outdoor shower, pump room and covered parking complete a home of about 237.5 m² (structure area), behind its own boundary wall and gate.\n\nPRICE PER PLOT (THB)\nPlot 7 · 336.4 m² land — ฿9,500,000 leasehold · ฿10,000,000 freehold\nPlot 8 · 336.4 m² land — ฿9,500,000 leasehold · ฿10,000,000 freehold\n\nFreehold (an additional ฿500,000) is available to Thai nationals or eligible Thai-owned companies.\n\nPAYMENT & OWNERSHIP\nA staged payment plan runs from reservation to key handover: a ฿250,000 reservation fee (credited against the land payment), the balance of the land price on transfer, a construction deposit, then instalments tied to building milestones, with the final payment at handover. Land transfer fees are shared equally between buyer and seller.\n\nKEY FACTS\nOff-plan · one of only two single-storey villas in an eight-villa enclave\n2 bedrooms + staff room · 3 bathrooms · ≈237.5 m² on 336.4 m² of land\nPrivate pool, sunken lounge, outdoor shower, covered parking\nMinutes to Fisherman's Village and Bophut Beach\n฿9,500,000 leasehold · ฿10,000,000 freehold",
+  "features": [
+    {
+      "l": "Two en-suite bedrooms + staff room",
+      "i": "bed"
+    },
+    {
+      "l": "≈237.5 m² on a 336.4 m² plot",
+      "i": "plot"
+    },
+    {
+      "l": "Private swimming pool · arched poolside daybed",
+      "i": "pool"
+    },
+    {
+      "l": "Single-storey living · sunken lounge",
+      "i": "sofa"
+    },
+    {
+      "l": "34.5 m² covered terrace",
+      "i": "terrace"
+    },
+    {
+      "l": "Gated plot · covered parking",
+      "i": "car"
+    },
+    {
+      "l": "Minutes to Fisherman's Village & Bophut Beach",
+      "i": "view"
+    },
+    {
+      "l": "฿9.5M leasehold · ฿10M freehold · Plots 7 & 8 only",
+      "i": "shield"
+    }
+  ],
+  "focals": {}
+}
