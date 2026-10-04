@@ -1,9 +1,9 @@
 {
   "id": "r-phuket-naithon-6bed-seaview-spa-villa",
-  "image": "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/01.jpg",
+  "image": "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/02.jpg",
   "gallery": [
-    "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/01.jpg",
     "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/02.jpg",
+    "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/01.jpg",
     "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/03.jpg",
     "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/04.jpg",
     "/assets/listings/r-phuket-naithon-6bed-seaview-spa-villa/05.jpg",
@@ -77,5 +77,6 @@
   ],
   "created": 1790816952000,
   "internalName": "Malaiwana - Villa Haleana - Elite Havens",
-  "imageFocal": ""
+  "imageFocal": "",
+  "focals": {}
 }

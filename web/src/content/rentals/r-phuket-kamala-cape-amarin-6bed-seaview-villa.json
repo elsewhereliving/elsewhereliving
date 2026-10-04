@@ -4,13 +4,13 @@
   "gallery": [
     "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/01.jpg",
     "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/02.jpg",
-    "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/03.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/09.jpg",
     "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/04.jpg",
+    "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/03.jpg",
     "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/05.jpg",
     "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/06.jpg",
     "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/07.jpg",
     "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/08.jpg",
-    "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/09.jpg",
     "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/10.jpg",
     "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/11.jpg",
     "/assets/listings/r-phuket-kamala-cape-amarin-6bed-seaview-villa/12.jpg",
@@ -77,5 +77,6 @@
   ],
   "created": 1790816952000,
   "internalName": "Villa Samira - Elite Havens",
-  "imageFocal": ""
+  "imageFocal": "",
+  "focals": {}
 }
