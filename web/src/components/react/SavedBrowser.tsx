@@ -338,9 +338,11 @@ function PropertyCard({ item }: { item: Listing }) {
               <span style={{ display: "inline-flex", alignItems: "center", gap: 6 }}>
                 <Icon name="bed" size={15} color="var(--slate)" stroke={1.4} /> {item.bedsLabel || item.beds}
               </span>
-              <span style={{ display: "inline-flex", alignItems: "center", gap: 6 }}>
-                <Icon name="bath" size={15} color="var(--slate)" stroke={1.4} /> {item.baths}
-              </span>
+              {item.baths != null && (
+                <span style={{ display: "inline-flex", alignItems: "center", gap: 6 }}>
+                  <Icon name="bath" size={15} color="var(--slate)" stroke={1.4} /> {item.baths}
+                </span>
+              )}
               {item.interior && (
                 <span style={{ display: "inline-flex", alignItems: "center", gap: 6 }}>
                   <Icon name="interior" size={15} color="var(--slate)" stroke={1.4} /> {item.interior}

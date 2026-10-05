@@ -54,7 +54,7 @@ const instagram = !isYouTube ? instagramEmbed(l.video) : null;
 // Spec rows for the sticky rail.
 const specs: [string, string][] = [];
 if (!isLand) specs.push(["Bedrooms", l.bedsLabel || String(l.beds)]);
-if (!isLand) specs.push(["Bathrooms", String(l.baths)]);
+if (!isLand && l.baths != null) specs.push(["Bathrooms", String(l.baths)]);
 if (l.interior && l.interior !== "—") specs.push(["Property size", l.interior]);
 if (l.plot && l.plot !== "—") specs.push(["Plot size", l.plot]);
 if (l.year) specs.push(["Completion", String(l.year)]);

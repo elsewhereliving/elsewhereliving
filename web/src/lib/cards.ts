@@ -8,7 +8,7 @@ export function listingToCard(l: Listing): CardData {
   const isLand = l.type === "Land";
   const facts = isLand
     ? [l.plot || "Land", viewText(l.view)].filter(Boolean) as string[]
-    : ([`${l.beds} Beds`, `${l.baths} Baths`, viewText(l.view) || l.type].filter(Boolean) as string[]);
+    : ([`${l.beds} Beds`, l.baths != null && `${l.baths} Baths`, viewText(l.view) || l.type].filter(Boolean) as string[]);
   return {
     id: l.id,
     href: `/property/${l.id}/`,

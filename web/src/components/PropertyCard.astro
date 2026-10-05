@@ -36,7 +36,7 @@ const tooltip = item.priceOriginal
       ) : (
         <>
           <span style="display:inline-flex; align-items:center; gap:6px;"><Icon name="bed" size={15} color="var(--slate)" stroke={1.4} /> {item.bedsLabel || item.beds}</span>
-          <span style="display:inline-flex; align-items:center; gap:6px;"><Icon name="bath" size={15} color="var(--slate)" stroke={1.4} /> {item.baths}</span>
+          {item.baths != null && <span style="display:inline-flex; align-items:center; gap:6px;"><Icon name="bath" size={15} color="var(--slate)" stroke={1.4} /> {item.baths}</span>}
           {item.interior && item.interior !== "—" && (
             <span style="display:inline-flex; align-items:center; gap:6px;"><Icon name="interior" size={15} color="var(--slate)" stroke={1.4} /> {item.interior}</span>
           )}
