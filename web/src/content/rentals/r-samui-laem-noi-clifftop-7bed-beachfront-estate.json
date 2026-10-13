@@ -1,0 +1,79 @@
+{
+  "id": "r-samui-laem-noi-clifftop-7bed-beachfront-estate",
+  "image": "/assets/listings/r-samui-laem-noi-clifftop-7bed-beachfront-estate/02.jpg",
+  "gallery": [
+    "/assets/listings/r-samui-laem-noi-clifftop-7bed-beachfront-estate/02.jpg",
+    "/assets/listings/r-samui-laem-noi-clifftop-7bed-beachfront-estate/01.jpg",
+    "/assets/listings/r-samui-laem-noi-clifftop-7bed-beachfront-estate/15.jpg",
+    "/assets/listings/r-samui-laem-noi-clifftop-7bed-beachfront-estate/03.jpg",
+    "/assets/listings/r-samui-laem-noi-clifftop-7bed-beachfront-estate/05.jpg",
+    "/assets/listings/r-samui-laem-noi-clifftop-7bed-beachfront-estate/07.jpg",
+    "/assets/listings/r-samui-laem-noi-clifftop-7bed-beachfront-estate/08.jpg",
+    "/assets/listings/r-samui-laem-noi-clifftop-7bed-beachfront-estate/06.jpg",
+    "/assets/listings/r-samui-laem-noi-clifftop-7bed-beachfront-estate/13.jpg",
+    "/assets/listings/r-samui-laem-noi-clifftop-7bed-beachfront-estate/09.jpg",
+    "/assets/listings/r-samui-laem-noi-clifftop-7bed-beachfront-estate/11.jpg",
+    "/assets/listings/r-samui-laem-noi-clifftop-7bed-beachfront-estate/04.jpg",
+    "/assets/listings/r-samui-laem-noi-clifftop-7bed-beachfront-estate/12.jpg",
+    "/assets/listings/r-samui-laem-noi-clifftop-7bed-beachfront-estate/14.jpg",
+    "/assets/listings/r-samui-laem-noi-clifftop-7bed-beachfront-estate/10.jpg"
+  ],
+  "location": "Laem Noi · Koh Samui · Thailand",
+  "place": "Laem Noi, Ko Samui District, Surat Thani, Thailand",
+  "mapQuery": "9.577861,99.933778",
+  "title": "Clifftop Thai-Pavilion Estate with Tennis, Cinema & Beach",
+  "view": [
+    "Beachfront",
+    "Sea View"
+  ],
+  "beds": 7,
+  "bedsLabel": "3–7",
+  "baths": 7,
+  "guests": 16,
+  "guestsLabel": "6–16",
+  "occupancy": "6–16 guests",
+  "size": "3,170 m²",
+  "nightlyCurrency": "USD",
+  "note": "Fully staffed · private chef · daily breakfast · price on request",
+  "sleeps": "Up to 16 guests · 3–7 en-suite bedrooms",
+  "blurb": "A clifftop estate of Thai-roofed pavilions on Samui's north-west tip at Laem Noi, stepping down to a semi-private beach — a 32-metre infinity pool with built-in jacuzzi, a clubhouse with cinema, wine cellar, gym and spa, and a floodlit tennis court. Seven en-suite bedrooms, a villa manager and private chef.",
+  "detail": "Set into the headland at Laem Noi on Koh Samui's north-west coast, this estate is built as a cluster of pavilions under steep, traditional Thai roofs, each turned to the sea and the islands of the marine park beyond. Steps lead down through tamarind trees to a semi-private golden-sand beach with loungers and a massage bed — and the sunsets here are among the island's best.\n\nLife centres on the clubhouse: a vaulted lounge and dining room with a 16-seat round teak table, a show kitchen, and a broad timber deck around a 32-metre freeform infinity pool with an eight-person jacuzzi set into one end. Below the deck sit an open-air massage sala and a barbecue sala seating eight. Inside, there is a private cinema and games room for twelve, a mezzanine with a billiards table and library, a stocked wine cellar, and a full wellness level with gym, sauna, steam room and massage room — plus a floodlit tennis court in the grounds.\n\nSeven en-suite bedrooms are spread across the master pavilion and two separate guest pavilions, so families and friends each keep their own space; the grand master suite has a canopied bed, a whirlpool tub and an outdoor shower with sea views, and one room is designed for guests with reduced mobility. A multilingual villa manager and private chef run the house, with breakfast daily and Thai menus a speciality, and a covered events platform makes the estate a natural choice for weddings and celebrations. The Four Seasons at Laem Yai is minutes away.",
+  "features": [
+    {
+      "l": "Clifftop · steps to a semi-private beach",
+      "i": "waves"
+    },
+    {
+      "l": "32 m infinity pool with 8-person jacuzzi",
+      "i": "pool"
+    },
+    {
+      "l": "Seven en-suite bedrooms in three pavilions",
+      "i": "bed"
+    },
+    {
+      "l": "Private cinema · billiards · wine cellar",
+      "i": "music"
+    },
+    {
+      "l": "Gym, sauna, steam & massage room",
+      "i": "gym"
+    },
+    {
+      "l": "Floodlit tennis court",
+      "i": "sparkles"
+    },
+    {
+      "l": "6,000 m² of grounds · events platform",
+      "i": "plot"
+    },
+    {
+      "l": "Villa manager · private chef · full staff",
+      "i": "users"
+    }
+  ],
+  "created": 1791927583000,
+  "internalName": "Villa Riva - Elite Havens",
+  "imageFocal": "",
+  "focals": {}
+}
