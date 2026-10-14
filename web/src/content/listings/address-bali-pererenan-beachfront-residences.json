@@ -101,5 +101,9 @@
     }
   ],
   "video": "https://www.youtube.com/watch?v=zz4semLLF8c",
-  "created": 1784773835744
+  "created": 1784773835744,
+  "featured": true,
+  "featuredRank": 9,
+  "focals": {},
+  "imageFocal": ""
 }

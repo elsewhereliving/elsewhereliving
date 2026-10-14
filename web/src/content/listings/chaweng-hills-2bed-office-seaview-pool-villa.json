@@ -95,5 +95,9 @@
       "i": "car"
     }
   ],
-  "created": 1786517364261
+  "created": 1786517364261,
+  "featured": true,
+  "featuredRank": 4,
+  "focals": {},
+  "imageFocal": ""
 }

@@ -108,5 +108,9 @@
       "i": "home"
     }
   ],
-  "created": 1786516459953
+  "created": 1786516459953,
+  "featured": true,
+  "featuredRank": 3,
+  "focals": {},
+  "imageFocal": ""
 }
