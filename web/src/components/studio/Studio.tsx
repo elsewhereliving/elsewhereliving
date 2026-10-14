@@ -12,6 +12,13 @@ interface StudioData {
   homeCount: number;
 }
 
+// Dev server only: every file the Studio writes into src/content makes Astro
+// ask this page to reload. A save that writes many files (the homepage lineup
+// rewrites every featured listing) was cut off halfway by that reload, leaving
+// half the listings with stale ranks and home.json unwritten. The Studio keeps
+// its own state, so hold the reload off for good — Vite awaits this listener.
+if (import.meta.hot) import.meta.hot.on("vite:beforeFullReload", () => new Promise<void>(() => {}));
+
 const slugify = (s: string) =>
   (s || "").toString().toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 70) || "listing-" + Date.now();
 

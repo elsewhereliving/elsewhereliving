@@ -44,12 +44,12 @@ export default function HomeFeatured() {
       // pass used to leave stragglers with stale ranks on the homepage.
       const toWrite = crm.list(C).filter((l) => l.featured || ids.indexOf(l.id) >= 0);
       const failed: string[] = [];
+      try { await writeHome(count); } catch { failed.push("home.json"); }
       for (const l of toWrite) {
         const chosen = ids.indexOf(l.id) >= 0;
         try { await saveRecord(C, { ...l, featured: chosen, featuredRank: chosen ? rank[l.id] : null }); }
         catch { failed.push(l.id); }
       }
-      try { await writeHome(count); } catch { failed.push("home.json"); }
       toast(failed.length ? `Saved, but ${failed.length} file(s) failed — check & retry` : "Home page saved to your repo — review & push", failed.length ? "danger" : "default");
     } else toast("Home page updated this session — connect your repo folder to write it");
   };
