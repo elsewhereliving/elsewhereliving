@@ -1,0 +1,102 @@
+{
+  "id": "naithon-5bed-sunset-seaview-villa",
+  "image": "/assets/listings/naithon-5bed-sunset-seaview-villa/ext-004.jpg",
+  "gallery": [
+    "/assets/listings/naithon-5bed-sunset-seaview-villa/ext-004.jpg",
+    "/assets/listings/naithon-5bed-sunset-seaview-villa/ext-001.jpg",
+    "/assets/listings/naithon-5bed-sunset-seaview-villa/ext-002.jpg",
+    "/assets/listings/naithon-5bed-sunset-seaview-villa/ext-003.jpg",
+    "/assets/listings/naithon-5bed-sunset-seaview-villa/ext-005.jpg",
+    "/assets/listings/naithon-5bed-sunset-seaview-villa/06.jpg",
+    "/assets/listings/naithon-5bed-sunset-seaview-villa/07.jpg",
+    "/assets/listings/naithon-5bed-sunset-seaview-villa/08.jpg",
+    "/assets/listings/naithon-5bed-sunset-seaview-villa/09.jpg",
+    "/assets/listings/naithon-5bed-sunset-seaview-villa/10.jpg",
+    "/assets/listings/naithon-5bed-sunset-seaview-villa/11.jpg",
+    "/assets/listings/naithon-5bed-sunset-seaview-villa/12.jpg",
+    "/assets/listings/naithon-5bed-sunset-seaview-villa/13.jpg",
+    "/assets/listings/naithon-5bed-sunset-seaview-villa/14.jpg",
+    "/assets/listings/naithon-5bed-sunset-seaview-villa/15.jpg",
+    "/assets/listings/naithon-5bed-sunset-seaview-villa/16.jpg",
+    "/assets/listings/naithon-5bed-sunset-seaview-villa/17.jpg",
+    "/assets/listings/naithon-5bed-sunset-seaview-villa/18.jpg",
+    "/assets/listings/naithon-5bed-sunset-seaview-villa/19.jpg"
+  ],
+  "location": "Nai Thon · Phuket · Thailand",
+  "place": "Nai Thon, Phuket, Thailand",
+  "mapQuery": "8.0643035,98.3023559",
+  "market": "Phuket",
+  "title": "A Contemporary Hillside Sunset-Sea-View Villa",
+  "type": "Villa",
+  "view": [
+    "Sea View",
+    "Mountain View"
+  ],
+  "status": "Off-Plan",
+  "beds": 5,
+  "baths": 6,
+  "interior": "630 m²",
+  "plot": null,
+  "year": 2028,
+  "priceOriginalNum": 77700000,
+  "priceCurrency": "THB",
+  "added": 17,
+  "ownership": "Freehold",
+  "blurb": "A contemporary hillside villa perched ~63 m above Nai Thon with uninterrupted sunset panoramas over the Andaman Sea — an infinity-edge pool, full-height glass and a calm, forest-framed setting within a gated estate.",
+  "detail": "A contemporary hillside villa conceived as a serene private retreat overlooking the emerald canopy of Nai Thon and the vast Andaman Sea. Positioned on the western slope above one of Phuket's most untouched beaches, the residence opens to uninterrupted sunset views and a soothing natural landscape shaped by the surrounding national park. From its elevated vantage point — roughly 63 metres above sea level — sea, sky and forest meet in a single panoramic frame.\n\nClean geometric lines, expansive glass façades and an effortless indoor–outdoor flow define the architecture. Across approximately 630 m² over two levels, the open-plan living and dining area is finished in soft neutral palettes and warm natural textures, with full-height sliding doors that let the sea view set the mood of the home. The main living pavilion opens directly onto a spacious terrace and an infinity-edge pool — a tranquil space for open-air dining, quiet mornings and sunset gatherings.\n\nThe villa offers five serene bedroom suites, each an intimate haven with walk-in wardrobes, generous bathrooms and wide windows framing either the gardens or the sea; the master suite enjoys direct terrace access and its own sunset panorama. Delivered fully finished with fitted kitchen, bathrooms and built-in elements, the home sits within a private, low-density estate of 17,000 m² with 24-hour security, on-site management and concierge services, just 600 metres above the pristine one-kilometre bay of Nai Thon Beach.\n\nAvailability — developer price list, August 2026: Villa 20 (LX/LF · 4–5 bed · 630 m², ~63 m above the sea, best view and no neighbour on the left) — ฿77,700,000, completion around 16 months. Also available: Villa 12 (LXc · 700 m², extra floor) — ฿69,800,000; Villa 23 (Custom · 790 m²) — ฿102,400,000; Villa 24 (Custom · 860 m²) — ฿115,000,000.",
+  "features": [
+    {
+      "l": "Infinity-edge pool",
+      "i": "pool"
+    },
+    {
+      "l": "Sunset & Andaman sea views",
+      "i": "view"
+    },
+    {
+      "l": "Elevated ~63 m hillside setting",
+      "i": "mountain"
+    },
+    {
+      "l": "5 en-suite bedroom suites",
+      "i": "bed"
+    },
+    {
+      "l": "Open-plan living & dining",
+      "i": "sofa"
+    },
+    {
+      "l": "Full-height sliding glass",
+      "i": "home"
+    },
+    {
+      "l": "Open kitchen with island",
+      "i": "utensils"
+    },
+    {
+      "l": "Walk-in wardrobes",
+      "i": "key"
+    },
+    {
+      "l": "Shaded & open terraces",
+      "i": "terrace"
+    },
+    {
+      "l": "Garden-level retreat",
+      "i": "tree"
+    },
+    {
+      "l": "Gated estate · 24/7 security",
+      "i": "shield"
+    },
+    {
+      "l": "On-site management & concierge",
+      "i": "users"
+    }
+  ],
+  "created": 1781552529000,
+  "imageFocal": "",
+  "internalName": "Vista del Mar",
+  "focals": {},
+  "video": "https://www.youtube.com/watch?v=4YNtaxHBwq0"
+}
