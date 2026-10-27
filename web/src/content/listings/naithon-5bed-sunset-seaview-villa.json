@@ -35,15 +35,15 @@
   "status": "Off-Plan",
   "beds": 5,
   "baths": 6,
-  "interior": "630 m²",
+  "interior": "630–860 m²",
   "plot": null,
   "year": 2028,
-  "priceOriginalNum": 77700000,
+  "priceOriginalNum": 69800000,
   "priceCurrency": "THB",
   "added": 17,
   "ownership": "Freehold",
-  "blurb": "A contemporary hillside villa perched ~63 m above Nai Thon with uninterrupted sunset panoramas over the Andaman Sea — an infinity-edge pool, full-height glass and a calm, forest-framed setting within a gated estate.",
-  "detail": "A contemporary hillside villa conceived as a serene private retreat overlooking the emerald canopy of Nai Thon and the vast Andaman Sea. Positioned on the western slope above one of Phuket's most untouched beaches, the residence opens to uninterrupted sunset views and a soothing natural landscape shaped by the surrounding national park. From its elevated vantage point — roughly 63 metres above sea level — sea, sky and forest meet in a single panoramic frame.\n\nClean geometric lines, expansive glass façades and an effortless indoor–outdoor flow define the architecture. Across approximately 630 m² over two levels, the open-plan living and dining area is finished in soft neutral palettes and warm natural textures, with full-height sliding doors that let the sea view set the mood of the home. The main living pavilion opens directly onto a spacious terrace and an infinity-edge pool — a tranquil space for open-air dining, quiet mornings and sunset gatherings.\n\nThe villa offers five serene bedroom suites, each an intimate haven with walk-in wardrobes, generous bathrooms and wide windows framing either the gardens or the sea; the master suite enjoys direct terrace access and its own sunset panorama. Delivered fully finished with fitted kitchen, bathrooms and built-in elements, the home sits within a private, low-density estate of 17,000 m² with 24-hour security, on-site management and concierge services, just 600 metres above the pristine one-kilometre bay of Nai Thon Beach.\n\nAvailability — developer price list, August 2026: Villa 20 (LX/LF · 4–5 bed · 630 m², ~63 m above the sea, best view and no neighbour on the left) — ฿77,700,000, completion around 16 months. Also available: Villa 12 (LXc · 700 m², extra floor) — ฿69,800,000; Villa 23 (Custom · 790 m²) — ฿102,400,000; Villa 24 (Custom · 860 m²) — ฿115,000,000.",
+  "blurb": "Contemporary four-to-five-bedroom hillside villas perched 47–71 m above Nai Thon with uninterrupted sunset panoramas over the Andaman Sea — each with an infinity-edge pool, full-height glass and a calm, forest-framed setting within a gated estate. Off-plan, from ฿69.8M.",
+  "detail": "A contemporary hillside villa conceived as a serene private retreat overlooking the emerald canopy of Nai Thon and the vast Andaman Sea. Positioned on the western slope above one of Phuket's most untouched beaches, the residence opens to uninterrupted sunset views and a soothing natural landscape shaped by the surrounding national park. From its elevated vantage point — between 47 and 71 metres above sea level — sea, sky and forest meet in a single panoramic frame.\n\nClean geometric lines, expansive glass façades and an effortless indoor–outdoor flow define the architecture. Across approximately 630 to 860 m², the open-plan living and dining area is finished in soft neutral palettes and warm natural textures, with full-height sliding doors that let the sea view set the mood of the home. The main living pavilion opens directly onto a spacious terrace and an infinity-edge pool — a tranquil space for open-air dining, quiet mornings and sunset gatherings.\n\nEach villa offers four to five serene bedroom suites, each an intimate haven with walk-in wardrobes, generous bathrooms and wide windows framing either the gardens or the sea; the master suite enjoys direct terrace access and its own sunset panorama. Delivered fully finished with fitted kitchen, bathrooms and built-in elements, the home sits within a private, low-density estate of 17,000 m² with 24-hour security, on-site management and concierge services, just 600 metres above the pristine one-kilometre bay of Nai Thon Beach.\n\nCompletion around 16 to 18 months from reservation. Current price list — August 2026:\nVilla 12 · LXc · 4–5 bed · 700 m², extra floor — ฿69,800,000\nVilla 20 · LX/LF · 4–5 bed · 630 m², best view & no neighbour — ฿77,700,000\nVilla 23 · Custom · 4–5 bed · 790 m² — ฿102,400,000\nVilla 24 · Custom · 4–5 bed · 860 m² — ฿115,000,000\n\nPrices are for the completed villa; furniture packages are quoted separately. Offered freehold.",
   "features": [
     {
       "l": "Infinity-edge pool",
@@ -54,11 +54,11 @@
       "i": "view"
     },
     {
-      "l": "Elevated ~63 m hillside setting",
+      "l": "Elevated 47–71 m hillside setting",
       "i": "mountain"
     },
     {
-      "l": "5 en-suite bedroom suites",
+      "l": "4–5 en-suite bedroom suites",
       "i": "bed"
     },
     {
@@ -98,5 +98,7 @@
   "imageFocal": "",
   "internalName": "Vista del Mar",
   "focals": {},
-  "video": "https://www.youtube.com/watch?v=4YNtaxHBwq0"
+  "video": "https://www.youtube.com/watch?v=4YNtaxHBwq0",
+  "priceFrom": true,
+  "bedsLabel": "4–5"
 }
