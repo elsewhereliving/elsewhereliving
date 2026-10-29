@@ -7,10 +7,12 @@ import SectionHead from "../components/SectionHead.astro";
 import { getSiteContent } from "../lib/content";
 import { optImg, optImgSrcset } from "../lib/img";
 
-const { personas, differentiators, contact } = getSiteContent();
+const { differentiators, contact } = getSiteContent();
 const HERO_IMAGE = "/assets/imagery/c-ocean.jpg";
 const waDigits = (contact.whatsappRaw || contact.whatsapp || "").replace(/[^0-9]/g, "");
 const waHref = `https://wa.me/${waDigits}`;
+const IG_POST = "https://www.instagram.com/p/Den9Mi_D3uM/";
+const IG_COVER = "/assets/imagery/sofia-ig-meet-the-agent.jpg";
 const stats = [
   { v: "20M+", l: "Views" },
   { v: "40K+", l: "Followers" },
@@ -56,8 +58,8 @@ const stats = [
         class="reveal is-in"
         style="margin:24px 0 0; max-width:560px; font-family:var(--font-sans); font-weight:300; font-size:17px; line-height:1.7; color:rgba(255,255,255,0.85);"
       >
-        We're small on purpose. It's the only way to give every client the honesty, attention and
-        judgement that buying abroad deserves.
+        Most people buy property. We help you buy possibilities — a slower rhythm of life, a base for
+        the family, and an asset that quietly grows while you enjoy it.
       </p>
     </div>
   </section>
@@ -68,11 +70,14 @@ const stats = [
       <div class="reveal">
         <SectionHead
           eyebrow="The person behind it"
-          title="Founder-led, hands-on — in three countries."
-          intro="Elsewhere was founded by Sofia — Thai, ten years in marketing, and a following that found her through honest videos about island life and property. Our home base is Koh Samui, Thailand, with trusted local partners in every market we work in — and Sofia stays close to every client's journey."
+          title="Every chapter of my life led here."
+          intro="I'm Sofia — Thai, the founder of Elsewhere, and a real estate agent who took the long way here. Before property I was an inventor, an engineer, a fashion blogger, a commercial photographer and a marketer, and I've called seven countries home."
         />
-        <p style="margin:22px 0 0; max-width:560px; font-family:var(--font-sans); font-weight:300; font-size:16px; line-height:1.75; color:var(--text-body);">
-          Being based on Koh Samui gives us a real edge here — local relationships and early word on land and off-market homes before they surface. And staying deliberately hands-on means every property is hand-picked by us, every listing known personally — and marketed the way ten years in the craft taught us.
+        <p style="margin:18px 0 0; max-width:600px; font-family:var(--font-sans); font-weight:300; font-size:16px; line-height:1.75; color:var(--text-body);">
+          Today most of my clients find me through Instagram and TikTok — and suddenly, all those seemingly unrelated chapters make sense. Engineering taught me to solve problems. Marketing taught me to understand people. Living in different countries gave me different perspectives. And my own journey taught me to listen beyond what people say.
+        </p>
+        <p style="margin:18px 0 0; max-width:600px; font-family:var(--font-sans); font-weight:300; font-size:16px; line-height:1.75; color:var(--text-body);">
+          When I lived in Los Angeles, I walked through multimillion-dollar homes and knew I wanted to build them one day. Now I'm working on <a href="/development/" style="color:var(--navy); text-decoration:underline; text-underline-offset:3px;">my first development</a> — more to share soon. Every chapter before this gave me something I use for my clients today.
         </p>
         <div style="margin-top:30px; display:flex; flex-wrap:wrap; gap:12px;">
           <Button href={waHref} variant="solid" size="md" shape="pill" class="ew-cta-navy">WhatsApp</Button>
@@ -82,9 +87,27 @@ const stats = [
         <p style="margin:18px 0 0; font-family:var(--font-sans); font-weight:300; font-size:13px; letter-spacing:0.02em; color:var(--slate);">A real person answers — usually within a day.</p>
       </div>
       <div class="reveal" style="display:flex; justify-content:center;">
-        <div class="ew-grain" style="position:relative; width:100%; max-width:380px; aspect-ratio:3 / 4; overflow:hidden;">
-          <img src={optImg("/assets/imagery/sofia-portrait.jpg", "main")} srcset={optImgSrcset("/assets/imagery/sofia-portrait.jpg")} sizes="(max-width: 720px) 92vw, 520px" loading="lazy" decoding="async" alt="Sofia — founder of Elsewhere Living" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:50% 22%;" onerror="this.onerror=null;this.removeAttribute('srcset');this.src='/assets/imagery/sofia-portrait.jpg'" />
-        </div>
+        <!-- Post card linking to Sofia's "Meet the agent" Instagram post. Instagram's own embed refuses
+             this account (embedding is off), so the cover slide is self-hosted and the whole card links out. -->
+        <a
+          href={IG_POST}
+          target="_blank"
+          rel="noopener"
+          class="ew-ig-card"
+          aria-label="Meet the agent — view Sofia's post on Instagram"
+          style="display:block; width:100%; max-width:400px; background:var(--white); border:1px solid var(--border-subtle); color:var(--navy); text-decoration:none;"
+        >
+          <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; padding:12px 14px;">
+            <span style="display:inline-flex; align-items:center; gap:9px; font-family:var(--font-sans); font-size:13.5px; font-weight:500;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.15" fill="currentColor" stroke="none"/></svg>
+              @sofia.elsewhere
+            </span>
+            <span style="font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.16em; text-transform:uppercase; color:var(--slate);">View post &rarr;</span>
+          </div>
+          <div style="position:relative; aspect-ratio:4 / 5; overflow:hidden;">
+            <img src={optImg(IG_COVER, "main")} srcset={optImgSrcset(IG_COVER)} sizes="(max-width: 720px) 92vw, 400px" loading="lazy" decoding="async" alt="Sofia, founder of Elsewhere — “I'm a real estate agent. But before this, I was…”" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; transition:transform var(--dur-slow) var(--ease-out);" onerror={`this.onerror=null;this.removeAttribute('srcset');this.src='${IG_COVER}'`} />
+          </div>
+        </a>
       </div>
     </div>
   </section>
@@ -101,21 +124,22 @@ const stats = [
     </div>
   </section>
 
-  <!-- Our belief -->
-  <section style="background:var(--paper); padding:clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px);">
+  <!-- How we work -->
+  <section style="background:var(--navy); color:var(--white); padding:clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px);">
     <div
       data-grid="split"
       style="max-width:1320px; margin:0 auto; display:grid; grid-template-columns:1.5fr 1fr; gap:clamp(40px, 6vw, 90px); align-items:center;"
     >
       <div class="reveal">
         <SectionHead
-          eyebrow="Our belief"
-          title="Most people buy property. We help you buy possibilities."
-          intro="A home elsewhere isn't a transaction — it's a different rhythm of life: slower mornings, a base for the family, a quietly appreciating asset that also happens to be paradise. We exist to make that leap feel safe, considered, and genuinely yours."
+          onDark
+          eyebrow="How we work"
+          title="Small on purpose — and staying that way."
+          intro="We're a boutique agency by choice, because we care about quality over quantity. We only work with agents and partners who believe in our vision and mission, so the standard is the same whichever of us you speak with. We believe like attracts like — the clients who find us usually share our values too."
         />
-        <div style="margin-top:32px;">
-          <Button href="/properties/" variant="solid" size="md" shape="pill" class="ew-cta-navy">See the collection</Button>
-        </div>
+        <p style="margin:18px 0 0; max-width:620px; font-family:var(--font-sans); font-weight:300; font-size:16px; line-height:1.75; color:var(--text-on-dark-mut);">
+          Our headquarters is on Koh Samui, Thailand, and we sell across six markets in Thailand, Indonesia and the UAE.
+        </p>
       </div>
       <div class="reveal" style="display:flex; justify-content:center;">
         <div class="ew-grain" style="position:relative; width:100%; max-width:380px; aspect-ratio:3 / 4; overflow:hidden;">
@@ -130,34 +154,6 @@ const stats = [
             style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;"
           />
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Who we serve -->
-  <section style="background:var(--navy); color:var(--white); padding:clamp(72px, 10vw, 130px) clamp(20px, 4vw, 56px);">
-    <div style="max-width:1320px; margin:0 auto;">
-      <div class="reveal" style="margin-bottom:54px;">
-        <SectionHead
-          onDark
-          eyebrow="Who we serve"
-          title="Three kinds of people we love working with."
-          intro="Most of our clients arrive as one of these — and many become all three over time."
-          max={680}
-        />
-      </div>
-      <div
-        class="reveal"
-        data-grid="3"
-        style="display:grid; grid-template-columns:repeat(3, 1fr); gap:clamp(28px, 4vw, 52px);"
-      >
-        {personas.map((p) => (
-          <div style="border-top:1px solid var(--border-on-dark); padding-top:26px;">
-            <Icon name={p.i} size={30} color="var(--butter)" stroke={1.4} />
-            <h3 style="margin:22px 0 0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.5rem, 2.6vw, 2rem); line-height:1.1; letter-spacing:-0.01em;">{p.k}</h3>
-            <p style="margin:14px 0 0; font-family:var(--font-sans); font-weight:300; font-size:15px; line-height:1.72; color:rgba(255,255,255,0.78);">{p.b}</p>
-          </div>
-        ))}
       </div>
     </div>
   </section>
@@ -218,4 +214,7 @@ const stats = [
       </div>
     </div>
   </section>
+  <style>
+    .ew-ig-card:hover img { transform: scale(1.03); }
+  </style>
 </Base>
