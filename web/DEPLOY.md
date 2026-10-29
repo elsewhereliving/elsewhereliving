@@ -87,6 +87,26 @@ That's it. A scheduled job (`.github/workflows/daily-fx-rebuild.yml`) pings it d
 
 ---
 
+## Part 4 — Development launch sign-ups (~5 min, once)
+
+The "Be the first to know" form on `/development/` saves each sign-up as a row in a Google Sheet you own: name, email, phone, where they're from, budget range and which chapter. Until this is set up, the form shows "that didn't go through" and nothing is saved.
+
+1. **Make the Sheet.** At sheets.google.com create a blank sheet, for example "Development launch sign-ups". Leave it empty, because the headers are added automatically with the first sign-up.
+2. **Add the script.** In the Sheet → **Extensions → Apps Script**. Delete what's in the editor, paste in the whole of `web/google-apps-script/launch-signup.gs`, and click **Save**.
+3. **Deploy it.** **Deploy → New deployment** → gear icon → **Web app**:
+   - **Execute as:** Me
+   - **Who has access:** Anyone
+
+   Click **Deploy**, allow the permissions it asks for (it only touches this Sheet), and **copy the Web app URL** (it ends in `/exec`).
+4. **Give the URL to Cloudflare.** Cloudflare Pages → your project → **Settings → Variables and Secrets** → **Add** (Production):
+   - **Name:** `LAUNCH_SIGNUP_SHEET_URL`
+   - **Value:** paste the `/exec` URL, and choose **Encrypt**.
+5. **Redeploy** (Deployments → latest → **Retry deployment**, or just push any change). Then submit the form once yourself and check that the row appears.
+
+> The `/exec` URL is kept on Cloudflare and never sent to visitors' browsers. If you ever edit the script, use **Deploy → Manage deployments → Edit → New version**, which keeps the same URL.
+
+---
+
 ## Good to know
 
 - **You publish when you push.** Saving in `/admin` writes files to your repo folder; review them in GitHub Desktop and push, then Cloudflare rebuilds + republishes within a couple of minutes.

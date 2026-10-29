@@ -1,0 +1,501 @@
+---
+import Base from "../layouts/Base.astro";
+import Label from "../components/Label.astro";
+import Button from "../components/Button.astro";
+import SectionHead from "../components/SectionHead.astro";
+import { optImg, optImgSrcset } from "../lib/img";
+import { getCountries } from "../lib/countries";
+
+// Teaser for our own development, ahead of launch. The project's real name
+// must not appear anywhere on the site — the two communities go by
+// "Chapter I" and "Chapter II" until we announce.
+
+const IMG = {
+  cliff: "/assets/imagery/dev-teaser-cliff.jpg",
+  terrace: "/assets/imagery/dev-teaser-terrace.jpg",
+  bedroom: "/assets/imagery/dev-teaser-bedroom.jpg",
+  wellness: "/assets/imagery/dev-teaser-wellness.jpg",
+};
+
+const BUDGETS = ["$500K – $1M", "$1M – $3M", "$3M – $5M", "$5M+"];
+const COUNTRIES = getCountries();
+
+const peopleWho = [
+  "invest in their health — longevity, recovery, sleep — and treat body and mind as their most valuable assets.",
+  "are curious about the universe, human consciousness, emerging technology and the science of how we think and perform.",
+  "understand that a life is shaped by the decisions you make, the place you choose and the people you keep close.",
+];
+
+const imagine = [
+  { n: "01", t: "A longevity sanctuary", b: "Infrared sauna, cold plunge and red-light therapy — recovery made part of everyday life." },
+  { n: "02", t: "Sleep, engineered", b: "A bedroom designed around rest, with circadian lighting and quiet environmental control." },
+  { n: "03", t: "Materials chosen to last", b: "Natural stone, solid wood, linen and organic cotton — chosen for longevity and their connection to nature." },
+  { n: "04", t: "Closer to nature", b: "Tropical gardens, outdoor showers and open-air rooms that blur inside and out." },
+];
+
+const chapters = [
+  {
+    tag: "( Ultra-luxury villas · Southwest coast )",
+    name: "Chapter I",
+    bg: "var(--butter)",
+    b: "A small collection of ultra-luxury villas along a ridge above the southwest coast — each turned to its own stretch of the Gulf, with near-270° sea views and the sunsets this side of the island is known for. Delivered turnkey and fully furnished.",
+    features: [
+      "Private gym & wellness area in every villa",
+      "Private pool & open-air living",
+      "Turnkey, fully furnished",
+      "24/7 gated security",
+      "Landscaped gardens & a shaded summit terrace",
+      "Access to the Wellness Club in Chapter II",
+      "Backup generator for the whole project",
+    ],
+    milestones: [
+      { l: "Construction begins", v: "Q4 2027" },
+      { l: "Completion", v: "Q4 2029" },
+    ],
+  },
+  {
+    tag: "( Gated community · The south )",
+    name: "Chapter II",
+    bg: "var(--mist)",
+    b: "A larger, master-planned community in the south — garden-view villas, sea-view villas and condominiums, with a wellness club, dining and everyday life all within the gates. Built in phases.",
+    features: [
+      "Wellness Club — sauna, cold plunge, recovery & training",
+      "Restaurant, café & bar",
+      "Co-working space",
+      "Kids' playground",
+      "Shops & commercial spaces",
+      "Reception & on-site management",
+      "24/7 gated security",
+      "Landscaped grounds",
+      "Backup generator for the whole project",
+    ],
+    milestones: [
+      { l: "Phase 1 construction begins", v: "2028" },
+      { l: "Completion", v: "To be announced" },
+    ],
+  },
+];
+---
+<Base
+  current="development"
+  transparentNav={true}
+  navCtaHref="#notify"
+  navCtaAccent={true}
+  title="Our Development | Coming Soon to Koh Samui | Elsewhere Living"
+  description="A home for the unconventional. Elsewhere's own development in the quiet south of Koh Samui — two communities, construction from Q4 2027. Sign up to be the first to know when we launch."
+>
+  <!-- Hero — full-bleed render, quiet title, one CTA -->
+  <section class="ew-grain" style="position:relative; overflow:hidden; color:var(--white); background:var(--navy); min-height:min(92vh, 860px); display:flex; align-items:flex-end;">
+    <img src={optImg(IMG.cliff, "main")} srcset={optImgSrcset(IMG.cliff)} sizes="100vw" alt="Indicative render — a concrete and timber villa cantilevered over the jungle, an infinity pool facing the sea at sunset" class="ew-dp-zoom" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;" />
+    <div style="position:absolute; inset:0; background:linear-gradient(180deg, rgba(10,12,16,0.35) 0%, rgba(10,12,16,0.15) 40%, rgba(15,22,40,0.82) 100%); z-index:1;"></div>
+    <div style="position:relative; z-index:2; width:100%; max-width:1320px; margin:0 auto; padding:clamp(150px, 18vh, 210px) clamp(20px, 4vw, 56px) clamp(48px, 7vw, 88px);">
+      <div class="ew-dp-rise" style="color:var(--butter); margin-bottom:20px;"><Label>In development · Koh Samui</Label></div>
+      <h1 class="ew-dp-rise" style="margin:0; max-width:820px; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.6rem, 6vw, 5rem); line-height:1.0; letter-spacing:-0.02em; animation-delay:0.12s;">
+        A home for the unconventional.
+      </h1>
+      <p class="ew-dp-rise" style="margin:24px 0 0; max-width:540px; font-family:var(--font-sans); font-weight:300; font-size:16px; line-height:1.75; color:rgba(255,255,255,0.86); animation-delay:0.24s;">
+        Our own development, in the quiet south of the island — where the jungle still meets the sea. The name stays with us a little longer.
+      </p>
+      <div class="ew-dp-rise" style="margin-top:34px; display:flex; gap:14px; flex-wrap:wrap; animation-delay:0.36s;">
+        <Button href="#notify" variant="accent" size="md" shape="pill">Be the first to know</Button>
+        <Button href="#story" variant="outline-light" size="md" shape="pill">Read the story</Button>
+      </div>
+    </div>
+  </section>
+
+  <!-- The vision — first-person opening -->
+  <section id="story" style="background:var(--paper); padding:clamp(80px, 12vw, 150px) clamp(20px, 4vw, 48px); scroll-margin-top:40px;">
+    <div class="reveal" style="max-width:860px; margin:0 auto; text-align:center;">
+      <div style="color:var(--slate); margin-bottom:26px;"><Label>The vision</Label></div>
+      <p style="margin:0; font-family:var(--font-serif); font-weight:300; font-style:italic; font-size:clamp(1.3rem, 2.2vw, 1.6rem); color:var(--slate);">I have a vision.</p>
+      <h2 style="margin:18px 0 0; font-family:var(--font-serif); font-weight:300; font-size:clamp(2rem, 4.4vw, 3.4rem); line-height:1.12; letter-spacing:-0.015em; color:var(--navy);">
+        I want to build homes for people who refuse to live by someone else's definition of how life should be lived.
+      </h2>
+    </div>
+    <div class="reveal" data-grid="split" style="max-width:1100px; margin:clamp(64px, 9vw, 110px) auto 0; display:grid; grid-template-columns:1fr 1.1fr; gap:clamp(36px, 6vw, 88px); align-items:start;">
+      <div>
+        <p style="margin:0; font-family:var(--font-sans); font-weight:300; font-size:16.5px; line-height:1.8; color:var(--text-body);">
+          Entrepreneurs who build things that don't exist yet. High achievers who question conventional thinking. Innovators and independent thinkers who see possibilities where others see limitations.
+        </p>
+        <p style="margin:26px 0 0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.4rem, 2.4vw, 1.8rem); line-height:1.3; color:var(--navy);">
+          People who believe human potential has no fixed ceiling.
+        </p>
+      </div>
+      <ul style="list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:22px;">
+        {peopleWho.map((p) => (
+          <li style="border-top:1px solid var(--border-on-light); padding-top:20px; font-family:var(--font-sans); font-weight:300; font-size:15px; line-height:1.75; color:var(--text-body);">
+            <span style="font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.2em; text-transform:uppercase; color:var(--charcoal); font-weight:400; margin-right:8px;">People who</span>{p}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- Coming home — the heart of the story, over the terrace render -->
+  <section class="ew-grain" style="position:relative; overflow:hidden; color:var(--white); background:var(--navy);">
+    <img src={optImg(IMG.terrace, "main")} srcset={optImgSrcset(IMG.terrace)} sizes="100vw" alt="Indicative render — an open living terrace beneath a glass-bottomed pool, looking out to an island" loading="lazy" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;" />
+    <div style="position:absolute; inset:0; background:linear-gradient(90deg, rgba(15,22,40,0.88) 0%, rgba(15,22,40,0.6) 55%, rgba(15,22,40,0.25) 100%); z-index:1;"></div>
+    <div class="reveal" style="position:relative; z-index:2; max-width:1200px; margin:0 auto; padding:clamp(90px, 13vw, 170px) clamp(20px, 4vw, 56px);">
+      <div style="max-width:600px;">
+        <p style="margin:0; font-family:var(--font-sans); font-weight:300; font-size:16px; line-height:1.8; color:rgba(255,255,255,0.84);">
+          And for people who have travelled the world, lived in different countries and discovered that the ultimate luxury isn't being able to go everywhere.
+        </p>
+        <p style="margin:26px 0 0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.9rem, 3.8vw, 3rem); line-height:1.12; letter-spacing:-0.015em;">
+          It's having somewhere extraordinary to come home to.
+        </p>
+        <p style="margin:30px 0 0; font-family:var(--font-serif); font-weight:300; font-style:italic; font-size:clamp(1.2rem, 2vw, 1.45rem); line-height:1.5; color:var(--butter);">
+          Home is where your heart is — and my heart is in Koh Samui.
+        </p>
+        <p style="margin:18px 0 0; font-family:var(--font-sans); font-weight:300; font-size:15px; line-height:1.75; color:rgba(255,255,255,0.78);">
+          If your heart is here too, let me show you the kind of home I want to build for you.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Imagine… — the home, two renders + four ideas -->
+  <section style="background:var(--white); padding:clamp(72px, 10vw, 120px) clamp(20px, 4vw, 48px);">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div class="reveal">
+        <SectionHead eyebrow="The home" title="Imagine a home designed around the person you're becoming." intro="Not just a beautiful place to live — an environment that supports your health, sharpens your thinking and gives your ambitions room to grow." max={760} />
+      </div>
+      <div class="reveal" data-grid="split" style="display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-top:56px;">
+        <figure style="margin:0;">
+          <div class="ew-grain" style="position:relative; aspect-ratio:16 / 10; overflow:hidden; background:var(--mist);">
+            <img src={optImg(IMG.wellness, "main")} srcset={optImgSrcset(IMG.wellness)} sizes="(max-width: 720px) 92vw, 600px" alt="Indicative render — a candlelit home wellness area with plunge pool, rain shower, sauna and salt room" loading="lazy" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;" />
+          </div>
+          <figcaption style="margin-top:12px; font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.18em; text-transform:uppercase; color:var(--slate);">Wellness · Indicative render</figcaption>
+        </figure>
+        <figure style="margin:0;">
+          <div class="ew-grain" style="position:relative; aspect-ratio:16 / 10; overflow:hidden; background:var(--mist);">
+            <img src={optImg(IMG.bedroom, "main")} srcset={optImgSrcset(IMG.bedroom)} sizes="(max-width: 720px) 92vw, 600px" alt="Indicative render — a timber-ceilinged master bedroom opening onto a pool terrace and the sea at sunset" loading="lazy" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;" />
+          </div>
+          <figcaption style="margin-top:12px; font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.18em; text-transform:uppercase; color:var(--slate);">Master bedroom · Indicative render</figcaption>
+        </figure>
+      </div>
+      <div class="reveal grid-4" style="gap:32px; margin-top:56px;">
+        {imagine.map((it) => (
+          <div style="border-top:1px solid var(--border-on-light); padding-top:20px;">
+            <span style="font-family:var(--font-serif); font-weight:300; font-size:15px; color:var(--slate);">{it.n}</span>
+            <h3 style="margin:8px 0 0; font-family:var(--font-serif); font-weight:300; font-size:20px; color:var(--navy);">{it.t}</h3>
+            <p style="margin:10px 0 0; font-family:var(--font-sans); font-weight:300; font-size:13.5px; line-height:1.72; color:var(--text-body);">{it.b}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- A community — pull quote -->
+  <section class="ew-grain" style="background:var(--mist); color:var(--navy); padding:clamp(80px, 11vw, 130px) clamp(20px, 4vw, 48px); overflow:hidden;">
+    <div class="reveal" style="max-width:880px; margin:0 auto; text-align:center;">
+      <div style="color:var(--slate); margin-bottom:24px;"><Label>More than a home</Label></div>
+      <h2 style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(2rem, 4vw, 3.1rem); line-height:1.1; letter-spacing:-0.015em;">A community where you don't have to compromise who you are to fit in.</h2>
+      <p style="margin:28px auto 0; max-width:640px; font-family:var(--font-sans); font-weight:300; font-size:16px; line-height:1.8; color:rgba(21,38,68,0.82);">
+        The home you choose matters — but so do the people around you. Neighbours who challenge your thinking, inspire your next idea and celebrate your success. Who can spend an evening on business and the future of technology, then share a sunrise by the ocean the next morning.
+      </p>
+      <p style="margin:26px 0 0; font-family:var(--font-serif); font-weight:300; font-style:italic; font-size:clamp(1.2rem, 2vw, 1.45rem);">
+        Success should give you more freedom to live, not less.
+      </p>
+    </div>
+  </section>
+
+  <!-- Two chapters — placeholder names, timelines only -->
+  <section style="background:var(--paper); padding:clamp(72px, 10vw, 120px) clamp(20px, 4vw, 48px);">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div class="reveal">
+        <SectionHead eyebrow="Two communities · One vision" title="The quiet south of Koh Samui." intro="Two gated communities, a short drive apart — one intimate, one a whole neighbourhood. Names, plans and pricing are revealed at launch." max={720} />
+      </div>
+      <div class="reveal" data-grid="split" style="display:grid; grid-template-columns:1fr 1fr; gap:28px; margin-top:56px;">
+        {chapters.map((c) => (
+          <article class="ew-grain" style={`background:${c.bg}; color:var(--navy); padding:clamp(30px, 4vw, 46px); display:flex; flex-direction:column; gap:18px; overflow:hidden;`}>
+            <span style="font-family:var(--font-serif); font-weight:300; font-size:20px;">{c.tag}</span>
+            <h3 style="margin:0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.9rem, 3vw, 2.4rem); line-height:1.1;">{c.name}</h3>
+            <p style="margin:0; font-family:var(--font-sans); font-weight:300; font-size:14.5px; line-height:1.78; color:rgba(21,38,68,0.8);">{c.b}</p>
+            <ul class="ew-dev-feats" aria-label={`${c.name} amenities`}>
+              {c.features.map((f) => <li>{f}</li>)}
+            </ul>
+            <dl style="margin:auto 0 0; padding-top:22px; border-top:1px solid rgba(21,38,68,0.3); display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+              {c.milestones.map((m) => (
+                <div>
+                  <dt style="font-family:var(--font-sans); font-size:10.5px; letter-spacing:0.18em; text-transform:uppercase;">{m.l}</dt>
+                  <dd style="margin:6px 0 0; font-family:var(--font-serif); font-weight:300; font-size:clamp(1.3rem, 2.2vw, 1.6rem);">{m.v}</dd>
+                </div>
+              ))}
+            </dl>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Closing litany + sign-up -->
+  <section id="notify" class="ew-grain" style="position:relative; overflow:hidden; color:var(--white); background:var(--navy); scroll-margin-top:40px;">
+    <div style="position:relative; z-index:2; max-width:1200px; margin:0 auto; padding:clamp(80px, 11vw, 140px) clamp(20px, 4vw, 56px);">
+      <div class="reveal" data-grid="split" style="display:grid; grid-template-columns:1.05fr 1fr; gap:clamp(36px, 5vw, 72px); align-items:center;">
+        <div>
+          <div style="font-family:var(--font-serif); font-weight:300; font-size:clamp(1.25rem, 2.1vw, 1.55rem); line-height:1.55; color:var(--text-on-dark-mut);">
+            A home for the ambitious.<br />A home for the curious.<br />A home for the unconventional.<br />A home for the life you choose to create.
+          </div>
+          <h2 style="margin:28px 0 0; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.1rem, 4.4vw, 3.4rem); line-height:1.06; letter-spacing:-0.02em;">Perhaps it's time to come home.</h2>
+          <p style="margin:22px 0 0; max-width:440px; font-family:var(--font-sans); font-weight:300; font-size:15.5px; line-height:1.75; color:rgba(255,255,255,0.82);">
+            If this vision speaks to you, perhaps we're building the same dream. Leave your details and you'll hear first — before the name, the plans and the homes go public.
+          </p>
+        </div>
+
+        <div id="ew-dev-card" style="background:var(--white); color:var(--charcoal); padding:clamp(30px, 4vw, 48px);">
+          <form id="ew-dev-form" novalidate style="display:flex; flex-direction:column; gap:22px;">
+            <div style="color:var(--slate);"><span class="ew-label" style="letter-spacing:0.04em;">[ Be the first to know ]</span></div>
+            <div data-grid="split" style="display:grid; grid-template-columns:1fr 1fr; gap:22px;">
+              <label class="ew-dev-field"><span>Full name</span><input name="name" type="text" autocomplete="name" placeholder="Your name" required /></label>
+              <label class="ew-dev-field"><span>Email</span><input name="email" type="email" autocomplete="email" placeholder="you@email.com" required /></label>
+            </div>
+            <div data-grid="split" style="display:grid; grid-template-columns:1fr 1fr; gap:22px;">
+              <label class="ew-dev-field"><span>Phone</span><input name="phone" type="tel" autocomplete="tel" placeholder="+1 555 123 4567" required /></label>
+              <div class="ew-dev-field">
+                <label for="ew-dev-country"><span>Where are you from?</span></label>
+                <div class="ew-dev-combo">
+                  <input id="ew-dev-country" name="country" type="text" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="ew-dev-country-list" autocomplete="off" spellcheck="false" placeholder="Start typing…" required />
+                  <button type="button" class="ew-dev-combo-toggle" tabindex="-1" aria-label="Show all countries">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" /></svg>
+                  </button>
+                  <ul id="ew-dev-country-list" role="listbox" aria-label="Countries" hidden></ul>
+                </div>
+              </div>
+            </div>
+            <fieldset style="border:none; margin:0; padding:0;">
+              <legend class="ew-dev-legend">Budget range (USD)</legend>
+              <div style="display:flex; flex-wrap:wrap; gap:10px;">
+                {BUDGETS.map((b) => (
+                  <label class="ew-dev-chip"><input type="radio" name="budget" value={b} required /><span>{b}</span></label>
+                ))}
+              </div>
+            </fieldset>
+            <fieldset style="border:none; margin:0; padding:0;">
+              <legend class="ew-dev-legend">I'm interested in</legend>
+              <div style="display:flex; flex-wrap:wrap; gap:10px;">
+                <label class="ew-dev-chip"><input type="radio" name="interest" value="Chapter I" /><span>Chapter I</span></label>
+                <label class="ew-dev-chip"><input type="radio" name="interest" value="Chapter II" /><span>Chapter II</span></label>
+                <label class="ew-dev-chip"><input type="radio" name="interest" value="Both" checked /><span>Both</span></label>
+              </div>
+            </fieldset>
+            <!-- Honeypot: hidden from people, filled in by bots. -->
+            <label aria-hidden="true" style="position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden;">Company<input name="company" type="text" tabindex="-1" autocomplete="off" /></label>
+            <p id="ew-dev-error" role="alert" hidden style="margin:0; font-family:var(--font-sans); font-weight:300; font-size:13px; line-height:1.6; color:#a3361f;"></p>
+            <Button variant="accent" size="md" shape="pill" style="width:100%; margin-top:4px;">Notify me at launch</Button>
+            <span style="font-family:var(--font-sans); font-weight:300; font-size:11.5px; letter-spacing:0.04em; color:var(--slate); text-align:center;">
+              Private — used only to tell you about this launch.
+            </span>
+          </form>
+          <div id="ew-dev-thanks" hidden tabindex="-1" style="text-align:center; outline:none;">
+            <p style="margin:0; font-family:var(--font-serif); font-weight:300; font-style:italic; font-size:clamp(1.4rem, 2.4vw, 1.8rem); color:var(--navy);">Thank you — you're on the list.</p>
+            <p style="margin:14px 0 0; font-family:var(--font-sans); font-weight:300; font-size:14.5px; line-height:1.7; color:var(--text-body);">
+              You'll hear from us before the name, the plans and the homes go public.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    .ew-dev-feats {
+      list-style: none; margin: 4px 0 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px 22px;
+      font-family: var(--font-sans); font-weight: 300; font-size: 13.5px; line-height: 1.5; color: var(--navy);
+    }
+    .ew-dev-feats li { position: relative; padding-left: 16px; }
+    .ew-dev-feats li::before {
+      content: ""; position: absolute; left: 0; top: 0.55em; width: 6px; height: 6px; background: var(--navy); transform: rotate(45deg);
+    }
+    @media (max-width: 560px) { .ew-dev-feats { grid-template-columns: 1fr; } }
+    .ew-dev-field { display: block; }
+    .ew-dev-field span, .ew-dev-legend {
+      display: block; padding: 0; margin-bottom: 8px;
+      font-family: var(--font-sans); font-size: 10.5px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--slate);
+    }
+    .ew-dev-field input {
+      width: 100%; box-sizing: border-box; background: transparent; border: none; border-bottom: 1px solid var(--border-on-light);
+      border-radius: 0; padding: 11px 0; font-family: var(--font-sans); font-weight: 300; font-size: 15px; color: var(--charcoal); outline: none;
+    }
+    .ew-dev-field input:focus { border-bottom-color: var(--navy); }
+    .ew-dev-field input[aria-invalid="true"] { border-bottom-color: #a3361f; }
+    .ew-dev-chip { position: relative; cursor: pointer; }
+    .ew-dev-chip input { position: absolute; opacity: 0; pointer-events: none; }
+    .ew-dev-chip span {
+      display: inline-block; padding: 0.6em 1.3em; border: 1px solid var(--border-on-light); border-radius: 999px;
+      font-family: var(--font-sans); font-size: 13px; font-weight: 300; color: var(--charcoal);
+      transition: background var(--dur-base) var(--ease-out), color var(--dur-base) var(--ease-out), border-color var(--dur-base) var(--ease-out);
+    }
+    .ew-dev-chip input:checked + span { background: var(--navy); border-color: var(--navy); color: var(--white); }
+    .ew-dev-chip input:focus-visible + span { outline: 2px solid var(--navy); outline-offset: 2px; }
+    .ew-dev-combo { position: relative; }
+    .ew-dev-combo input { padding-right: 28px; }
+    .ew-dev-combo-toggle {
+      position: absolute; right: 0; bottom: 6px; width: 28px; height: 28px; display: grid; place-items: center;
+      background: transparent; border: none; padding: 0; color: var(--slate); cursor: pointer;
+    }
+    .ew-dev-combo-toggle svg { transition: transform var(--dur-base) var(--ease-out); }
+    .ew-dev-combo input[aria-expanded="true"] + .ew-dev-combo-toggle svg { transform: rotate(180deg); }
+    .ew-dev-combo ul {
+      position: absolute; left: 0; right: 0; top: calc(100% + 4px); z-index: 30; margin: 0; padding: 6px 0; list-style: none;
+      max-height: 264px; overflow-y: auto; background: var(--white); border: 1px solid var(--border-subtle);
+      box-shadow: 0 14px 34px rgba(15, 22, 40, 0.14);
+    }
+    .ew-dev-combo :global(li) {
+      padding: 9px 14px; cursor: pointer; font-family: var(--font-sans); font-weight: 300; font-size: 14px; color: var(--charcoal);
+    }
+    .ew-dev-combo :global(li b) { font-weight: 500; color: var(--navy); }
+    .ew-dev-combo :global(li[aria-selected="true"]) { background: var(--mist); color: var(--navy); }
+    .ew-dev-combo :global(li[aria-disabled="true"]) { cursor: default; color: var(--slate); }
+    #ew-dev-form button[disabled] { opacity: 0.6; cursor: wait; }
+  </style>
+
+  <script type="application/json" id="ew-dev-countries" set:html={JSON.stringify(COUNTRIES)} />
+
+  <script>
+    // "Where are you from?" — type-ahead country dropdown (ARIA combobox).
+    // Prefix matches rank first ("a" → Afghanistan, Albania… then Australia
+    // further down as you type "au"), then word starts, then anywhere.
+    // Only a country from the list is accepted.
+    (function () {
+      const input = document.getElementById("ew-dev-country") as HTMLInputElement | null;
+      const list = document.getElementById("ew-dev-country-list");
+      const toggle = document.querySelector(".ew-dev-combo-toggle");
+      const data = document.getElementById("ew-dev-countries");
+      if (!input || !list || !toggle || !data) return;
+      const countries: { name: string; search: string }[] = JSON.parse(data.textContent || "[]");
+      const fold = (s: string) => s.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
+      const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
+      let shown: string[] = [];
+      let active = -1;
+
+      const match = (q: string) => {
+        const f = fold(q.trim());
+        if (!f) return countries.map((c) => c.name);
+        const ranked: [number, string][] = [];
+        for (const c of countries) {
+          const words = c.search.split(/[\s()’'-]+/);
+          // An exact word wins ("uk" → United Kingdom before Ukraine).
+          const r = words.includes(f) ? 0 : fold(c.name).startsWith(f) ? 1 : words.some((w) => w.startsWith(f)) ? 2 : c.search.includes(f) ? 3 : -1;
+          if (r >= 0) ranked.push([r, c.name]);
+        }
+        return ranked.sort((a, b) => a[0] - b[0]).map((x) => x[1]);
+      };
+      const label = (name: string, q: string) => {
+        const f = fold(q.trim());
+        return f && fold(name).startsWith(f) ? `<b>${esc(name.slice(0, f.length))}</b>${esc(name.slice(f.length))}` : esc(name);
+      };
+      const setActive = (i: number) => {
+        active = i;
+        list.querySelectorAll("li").forEach((li, n) => li.setAttribute("aria-selected", String(n === i)));
+        const li = list.children[i] as HTMLElement | undefined;
+        if (li && li.id) { input.setAttribute("aria-activedescendant", li.id); li.scrollIntoView({ block: "nearest" }); }
+        else input.removeAttribute("aria-activedescendant");
+      };
+      const render = () => {
+        const q = input.value;
+        shown = match(q);
+        list.innerHTML = shown.length
+          ? shown.map((n, i) => `<li role="option" id="ew-dev-c${i}" aria-selected="false">${label(n, q)}</li>`).join("")
+          : `<li aria-disabled="true">No country matches “${esc(q.trim())}”</li>`;
+        setActive(q.trim() && shown.length ? 0 : -1);
+      };
+      const open = () => { render(); list.hidden = false; input.setAttribute("aria-expanded", "true"); };
+      const close = () => { list.hidden = true; input.setAttribute("aria-expanded", "false"); input.removeAttribute("aria-activedescendant"); };
+      const choose = (name: string) => {
+        input.value = name;
+        input.setCustomValidity("");
+        input.removeAttribute("aria-invalid");
+        close();
+      };
+      // Typed an exact name (any case/accents) → snap to the official spelling.
+      const canon = () => {
+        const f = fold(input.value.trim());
+        const hit = countries.find((c) => fold(c.name) === f);
+        if (hit) input.value = hit.name;
+        input.setCustomValidity(input.value && !hit ? "Choose your country from the list" : "");
+      };
+
+      input.addEventListener("focus", open);
+      input.addEventListener("click", () => { if (list.hidden) open(); });
+      input.addEventListener("input", () => { input.setCustomValidity(""); open(); });
+      input.addEventListener("blur", () => { canon(); close(); });
+      // Also on submit (capture runs before the sign-up handler), since Enter
+      // or a scripted submit can happen without the field ever blurring.
+      input.form?.addEventListener("submit", canon, { capture: true });
+      input.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+          e.preventDefault();
+          if (list.hidden) { open(); return; }
+          if (!shown.length) return;
+          const d = e.key === "ArrowDown" ? 1 : -1;
+          setActive((active + d + shown.length) % shown.length);
+        } else if (e.key === "Enter" && !list.hidden && active >= 0) {
+          e.preventDefault();
+          choose(shown[active]);
+        } else if (e.key === "Escape" && !list.hidden) {
+          e.preventDefault();
+          close();
+        }
+      });
+      // mousedown keeps focus in the input, so blur doesn't close the list first.
+      list.addEventListener("mousedown", (e) => e.preventDefault());
+      list.addEventListener("click", (e) => {
+        const li = (e.target as HTMLElement).closest("li[role=option]");
+        if (li) choose(shown[[...list.children].indexOf(li)]);
+      });
+      toggle.addEventListener("mousedown", (e) => e.preventDefault());
+      toggle.addEventListener("click", () => {
+        if (list.hidden) { input.focus(); open(); } else close();
+      });
+    })();
+  </script>
+
+  <script>
+    // Launch sign-up: posts to /api/launch-signup (functions/api/launch-signup.ts),
+    // which appends a row to the launch Google Sheet. The visitor never leaves
+    // the page — no mail app, no WhatsApp.
+    const form = document.getElementById("ew-dev-form") as HTMLFormElement | null;
+    const thanks = document.getElementById("ew-dev-thanks");
+    const error = document.getElementById("ew-dev-error");
+    const showError = (msg: string) => { if (error) { error.textContent = msg; error.hidden = false; } };
+    if (form && thanks && error) {
+      const button = form.querySelector("button.ew-btn") as HTMLButtonElement;
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        error.hidden = true;
+        form.querySelectorAll("input").forEach((i) => i.removeAttribute("aria-invalid"));
+        const invalid = [...form.querySelectorAll("input")].filter((i) => !i.checkValidity());
+        if (invalid.length) {
+          invalid.filter((i) => i.type !== "radio").forEach((i) => i.setAttribute("aria-invalid", "true"));
+          const missing = new Set(invalid.map((i) => i.name)); // radios count once per group
+          const country = form.elements.namedItem("country") as HTMLInputElement;
+          showError(
+            missing.size === 1 && missing.has("budget") ? "Please choose a budget range."
+            : missing.size === 1 && missing.has("country") && country.value ? "Please choose your country from the list."
+            : "Please fill in every field — name, email, phone, where you're from and a budget range.");
+          (invalid[0] as HTMLInputElement).focus();
+          return;
+        }
+        const data = Object.fromEntries(new FormData(form).entries());
+        button.disabled = true;
+        button.textContent = "Sending…";
+        try {
+          const res = await fetch("/api/launch-signup", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ ...data, page: location.pathname }),
+          });
+          const out = await res.json().catch(() => ({}));
+          if (!res.ok || !out.ok) throw new Error(out.error || "Request failed");
+          form.hidden = true;
+          thanks.hidden = false;
+          thanks.focus();
+        } catch {
+          showError("Sorry — that didn't go through. Please try again in a moment.");
+          button.disabled = false;
+          button.textContent = "Notify me at launch";
+        }
+      });
+    }
+  </script>
+</Base>
