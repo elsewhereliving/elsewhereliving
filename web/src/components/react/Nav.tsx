@@ -7,9 +7,9 @@ import Button from "./Button";
 const NAV_LINKS: Array<{ key: string; href: string; label: string }> = [
   { key: "home", href: "/", label: "Home" },
   { key: "properties", href: "/properties/", label: "Properties" },
+  { key: "rentals", href: "/rentals/", label: "Vacation Rentals" },
   { key: "custom", href: "/custom-homes/", label: "Custom Homes" },
   { key: "development", href: "/development/", label: "Development" },
-  { key: "rentals", href: "/rentals/", label: "Vacation Rentals" },
   { key: "buying-guide", href: "/buying-guide/", label: "Buying Guide" },
   { key: "about", href: "/about/", label: "About" },
 ];
@@ -80,15 +80,15 @@ export default function Nav({
           borderBottom: "1px solid " + (solid ? "var(--border-subtle)" : "transparent"),
         }}
       >
-        <div style={{ maxWidth: 1320, margin: "0 auto", padding: "0 clamp(20px, 4vw, 56px)", height: 74, display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+        <div style={{ maxWidth: 1320, margin: "0 auto", padding: "0 clamp(20px, 4vw, 56px)", height: 74, display: "flex", alignItems: "center", justifyContent: "space-between", gap: 28 }}>
           <a href="/" style={{ cursor: "pointer", color: fg, transition: "color var(--dur-slow) var(--ease-out)" }} aria-label="Elsewhere Living — home">
             <Wordmark size={27} color={fg} />
           </a>
-          <nav style={{ display: "flex", alignItems: "center", gap: "clamp(20px, 2.6vw, 40px)" }} className="ew-nav-desktop">
+          <nav style={{ display: "flex", alignItems: "center", gap: "clamp(18px, 2.1vw, 30px)" }} className="ew-nav-desktop">
             {NAV_LINKS.map((l) => {
               const active = l.key === current;
               return (
-                <a key={l.key} href={l.href} style={{ cursor: "pointer", position: "relative", color: fg, fontFamily: "var(--font-sans)", fontWeight: 400, fontSize: 11.5, letterSpacing: "0.16em", textTransform: "uppercase", paddingBottom: 4, opacity: active ? 1 : 0.82, transition: "opacity var(--dur-base) var(--ease-out), color var(--dur-slow) var(--ease-out)" }}>
+                <a key={l.key} href={l.href} style={{ cursor: "pointer", position: "relative", color: fg, fontFamily: "var(--font-sans)", fontWeight: 400, fontSize: 11.5, letterSpacing: "0.16em", textTransform: "uppercase", whiteSpace: "nowrap", paddingBottom: 4, opacity: active ? 1 : 0.82, transition: "opacity var(--dur-base) var(--ease-out), color var(--dur-slow) var(--ease-out)" }}>
                   {l.label}
                   <span style={{ position: "absolute", left: 0, bottom: 0, height: 1, width: "100%", background: solid ? "var(--charcoal)" : "var(--white)", transform: active ? "scaleX(1)" : "scaleX(0)", transformOrigin: "left", transition: "transform var(--dur-base) var(--ease-out)" }} />
                 </a>
