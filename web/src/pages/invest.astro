@@ -1,0 +1,258 @@
+---
+import Base from "../layouts/Base.astro";
+import Label from "../components/Label.astro";
+import Button from "../components/Button.astro";
+import SectionHead from "../components/SectionHead.astro";
+import InvestHub from "../components/react/InvestHub.tsx";
+import { optImg, optImgSrcset } from "../lib/img";
+import { getListings, getSiteContent } from "../lib/content";
+import { getCountries } from "../lib/countries";
+import { getHubUnits } from "../lib/invest";
+
+// Off-Plan Investment Hub — for overseas investors buying for return, not to
+// live in. Copy talks yield, completion, exit and management. The shortlist
+// reads live listings (status Off-Plan, US$300K or under), so the hub never
+// holds its own copy of a price.
+
+const units = getHubUnits(await getListings());
+const { contact } = getSiteContent();
+const countries = getCountries().map((c) => c.name);
+const marketCount = new Set(units.map((u) => u.market)).size;
+const fromK = Math.floor(units[0].priceNum / 1000);
+
+// A render from one of the hub projects (Address Bali, Pererenan).
+const HERO = "/assets/listings/address-bali-pererenan-beachfront-residences/01.jpg";
+
+// Ownership for foreign buyers. A general guide, not legal advice — every
+// purchase is checked by an independent lawyer (Thailand) or notary (Bali).
+const ownership = [
+  {
+    t: "Thailand · Condo",
+    fh: { ok: true, b: "Yes. The unit is in your own name, within the building's foreign quota (up to 49% of saleable area). Funds are sent from abroad and documented on a bank FET form." },
+    lh: { ok: true, b: "Possible when the foreign quota is full — usually 30 + 30 + 30 years, on the same terms as a villa." },
+  },
+  {
+    t: "Thailand · Villa",
+    fh: { ok: false, b: "No — foreigners can't own land directly in Thailand." },
+    lh: { ok: true, b: "Yes — usually sold as 30 + 30 + 30 years: a 30-year lease registered at the Land Office, plus two 30-year renewals written into the contract. The renewals are a contractual promise, not guaranteed by law, so who you buy from matters." },
+  },
+  {
+    t: "Bali · Condo",
+    fh: { ok: false, b: "No — freehold is for Indonesian citizens only. Some apartments offer a \"right of use\" title in your own name instead: a long, renewable term that works much like a long lease." },
+    lh: { ok: true, b: "Yes — the usual route. An initial term of 25–30 years, with an extension written into the contract, often another 20–30 years. Make sure the extension price and terms are fixed up front; an open \"at market rate\" clause leaves you exposed." },
+  },
+  {
+    t: "Bali · Villa",
+    fh: { ok: false, b: "No — freehold is for Indonesian citizens only." },
+    lh: { ok: true, b: "Yes — the usual route for overseas buyers: 25–30 years to start, with a contractual extension (often 20–30 years more) at a price agreed up front. Another option is to buy through your own Indonesian company (a PT PMA), which can hold a long-term building right." },
+  },
+];
+---
+<Base
+  current="invest"
+  transparentNav={true}
+  navCtaHref="#hub"
+  image="/assets/imagery/og-invest.jpg"
+  title="Off-Plan Property Investment Under $300K | Phuket, Samui, Bangkok, Bali | Elsewhere Living"
+  description={`Off-plan condos and villas from $${fromK}K in Phuket, Koh Samui, Bangkok and Bali. Enter your budget and get a shortlist ranked on yield, completion and ownership — in under a minute.`}
+>
+  <!-- Hero -->
+  <section class="ew-grain" style="position:relative; overflow:hidden; color:var(--white); background:var(--navy); min-height:min(78vh, 720px); display:flex; align-items:flex-end;">
+    <img src={optImg(HERO, "main")} srcset={optImgSrcset(HERO)} sizes="100vw" alt="Indicative render — a rooftop infinity pool and lounge above the beach in Pererenan, Bali" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0;" />
+    <div style="position:absolute; inset:0; background:linear-gradient(90deg, rgba(15,22,40,0.82) 0%, rgba(15,22,40,0.45) 55%, rgba(15,22,40,0.15) 100%), linear-gradient(180deg, rgba(10,12,16,0.35) 0%, rgba(10,12,16,0) 40%, rgba(15,22,40,0.7) 100%); z-index:1;"></div>
+    <div style="position:relative; z-index:2; width:100%; max-width:1320px; margin:0 auto; padding:clamp(150px, 18vh, 210px) clamp(20px, 4vw, 56px) clamp(48px, 7vw, 80px);">
+      <div style="color:var(--butter); margin-bottom:20px;"><Label>Off-plan investments · Under US$300K</Label></div>
+      <h1 style="margin:0; max-width:880px; font-family:var(--font-serif); font-weight:300; font-size:clamp(2.5rem, 5.6vw, 4.6rem); line-height:1.02; letter-spacing:-0.02em;">
+        Tell us your budget. We'll rank every market for return.
+      </h1>
+      <p style="margin:24px 0 0; max-width:580px; font-family:var(--font-sans); font-weight:300; font-size:16px; line-height:1.75; color:rgba(255,255,255,0.86);">
+        Off-plan condos and villas in Phuket, Koh Samui, Bangkok and Bali, compared on yield, completion and what you can actually own — so you see where your money works hardest before you speak to anyone.
+      </p>
+      <div style="margin-top:34px; display:flex; gap:14px; flex-wrap:wrap;">
+        <Button href="#hub" variant="accent" size="md" shape="pill">Build my shortlist</Button>
+        <Button href="#ownership" variant="outline-light" size="md" shape="pill">What can I own?</Button>
+      </div>
+      <dl class="ew-iv-stats">
+        <div><dt>Projects</dt><dd>{units.length}</dd></div>
+        <div><dt>Markets</dt><dd>{marketCount}</dd></div>
+        <div><dt>Entry from</dt><dd>${fromK}K</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- Ownership explainer — answers "what can I actually own?" before price -->
+  <section id="ownership" style="background:var(--white); padding:clamp(72px, 10vw, 120px) clamp(20px, 4vw, 48px); scroll-margin-top:60px;">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div class="reveal">
+        <SectionHead eyebrow="Before price" title="What can a foreigner actually own?" intro="Every project in your shortlist is badged freehold, leasehold or both. Here's what each means where you're buying." max={720} />
+      </div>
+      <div class="reveal ew-iv-own">
+        {ownership.map((o) => (
+          <article>
+            <h3>{o.t}</h3>
+            <div class="ew-iv-own__row">
+              <span class={"ew-iv-badge " + (o.fh.ok ? "ew-iv-badge--freehold" : "is-no")}>Freehold</span>
+              <p>{o.fh.b}</p>
+            </div>
+            <div class="ew-iv-own__row">
+              <span class={"ew-iv-badge " + (o.lh.ok ? "ew-iv-badge--leasehold" : "is-no")}>Leasehold</span>
+              <p>{o.lh.b}</p>
+            </div>
+          </article>
+        ))}
+      </div>
+      <div class="reveal ew-iv-angle">
+        <div>
+          <h4>Freehold — the investor angle</h4>
+          <p>Resale and inheritance like any property. Best for a long hold and capital growth.</p>
+        </div>
+        <div>
+          <h4>Leasehold — the investor angle</h4>
+          <p>Lower entry price and usually a higher rental yield — but value declines as the term runs down, so the return has to beat the lease clock.</p>
+        </div>
+      </div>
+      <p class="reveal" style="margin:28px 0 0; max-width:820px; font-family:var(--font-sans); font-weight:300; font-size:12px; line-height:1.7; color:var(--slate);">
+        A general guide, not legal advice. Every purchase we handle is checked by an independent Thai lawyer or Indonesian notary before you sign.
+      </p>
+    </div>
+  </section>
+
+  <!-- The hub -->
+  <section id="hub" style="background:var(--paper); padding:clamp(72px, 10vw, 120px) clamp(20px, 4vw, 48px); scroll-margin-top:40px;">
+    <div style="max-width:1200px; margin:0 auto;">
+      <div class="reveal">
+        <SectionHead eyebrow="Your shortlist" title="Three questions. One ranked shortlist." intro="No sign-up to see it. When something looks right, have it emailed to you or message us on WhatsApp." max={720} />
+      </div>
+      <div style="margin-top:48px;">
+        <InvestHub units={units} countries={countries} email={contact.email} whatsapp={contact.whatsapp} client:visible />
+      </div>
+    </div>
+  </section>
+
+  <style is:global>
+    .ew-iv-stats { display: flex; gap: clamp(28px, 5vw, 64px); margin: clamp(40px, 6vw, 64px) 0 0; padding-top: 22px; border-top: 1px solid rgba(255,255,255,0.24); max-width: 560px; }
+    .ew-iv-stats dt { font-family: var(--font-sans); font-size: 10.5px; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.7); }
+    .ew-iv-stats dd { margin: 6px 0 0; font-family: var(--font-serif); font-weight: 300; font-size: clamp(1.6rem, 3vw, 2.2rem); }
+
+    .ew-iv-own { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 52px; }
+    .ew-iv-own article { background: var(--paper); padding: 26px 22px; display: flex; flex-direction: column; gap: 18px; }
+    .ew-iv-own h3 { margin: 0; font-family: var(--font-serif); font-weight: 300; font-size: 21px; color: var(--navy); }
+    .ew-iv-own__row { border-top: 1px solid var(--border-subtle); padding-top: 14px; }
+    .ew-iv-own__row .ew-iv-badge { display: inline-block; }
+    .ew-iv-own__row .ew-iv-badge.is-no { color: var(--slate); border-color: var(--border-on-light); text-decoration: line-through; text-decoration-color: rgba(107,110,114,0.6); }
+    .ew-iv-own__row p { margin: 8px 0 0; font-family: var(--font-sans); font-weight: 300; font-size: 13.5px; line-height: 1.68; color: var(--text-body); }
+    .ew-iv-angle { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 18px; }
+    .ew-iv-angle > div { border: 1px solid var(--border-subtle); padding: 22px; }
+    .ew-iv-angle h4 { margin: 0; font-family: var(--font-sans); font-weight: 400; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--navy); }
+    .ew-iv-angle p { margin: 8px 0 0; font-family: var(--font-sans); font-weight: 300; font-size: 14px; line-height: 1.7; color: var(--text-body); }
+    @media (max-width: 1000px) { .ew-iv-own { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 640px) { .ew-iv-own, .ew-iv-angle { grid-template-columns: 1fr; } }
+
+    /* Hub — inputs panel */
+    .ew-iv-panel { background: var(--white); box-shadow: 0 24px 60px rgba(21,38,68,0.1); display: grid; grid-template-columns: 1fr 1.1fr 1.1fr; }
+    .ew-iv-step { padding: clamp(24px, 3vw, 34px); border-left: 1px solid var(--border-subtle); min-width: 0; }
+    .ew-iv-step:first-child { border-left: none; }
+    .ew-iv-step__head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 18px; }
+    .ew-iv-step__n { font-family: var(--font-serif); font-weight: 300; font-size: 15px; color: var(--slate); }
+    .ew-iv-step__t { font-family: var(--font-serif); font-weight: 300; font-size: 21px; color: var(--navy); }
+    @media (max-width: 960px) {
+      .ew-iv-panel { grid-template-columns: 1fr; }
+      .ew-iv-step { border-left: none; border-top: 1px solid var(--border-subtle); }
+      .ew-iv-step:first-child { border-top: none; }
+    }
+    .ew-iv-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .ew-iv-chip {
+      appearance: none; cursor: pointer; background: transparent; color: var(--charcoal);
+      border: 1px solid var(--border-on-light); border-radius: 999px; padding: 0.6em 1.15em;
+      font-family: var(--font-sans); font-weight: 300; font-size: 13px; line-height: 1.2;
+      transition: background var(--dur-base) var(--ease-out), color var(--dur-base) var(--ease-out), border-color var(--dur-base) var(--ease-out);
+    }
+    .ew-iv-chip:hover { border-color: var(--navy); }
+    .ew-iv-chip[aria-checked="true"] { background: var(--navy); border-color: var(--navy); color: var(--white); }
+    .ew-iv-chip:focus-visible { outline: 2px solid var(--navy); outline-offset: 2px; }
+    .ew-iv-note { margin: 12px 0 0; font-family: var(--font-sans); font-weight: 300; font-size: 12.5px; line-height: 1.6; color: var(--slate); }
+    .ew-iv-link {
+      appearance: none; background: none; border: none; padding: 0; cursor: pointer; margin-top: 16px;
+      font-family: var(--font-sans); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--navy);
+      text-decoration: underline; text-underline-offset: 4px; text-decoration-color: rgba(21,38,68,0.35);
+    }
+    .ew-iv-link:hover { text-decoration-color: var(--navy); }
+    .ew-iv-more { display: flex; flex-direction: column; gap: 18px; margin-top: 18px; }
+    .ew-iv-budget__val { display: flex; align-items: baseline; gap: 8px; border-bottom: 1px solid var(--border-on-light); padding-bottom: 6px; margin-bottom: 10px; }
+    .ew-iv-budget__val span { font-family: var(--font-sans); font-size: 12px; letter-spacing: 0.14em; color: var(--slate); }
+    .ew-iv-budget__val input {
+      border: none; background: transparent; outline: none; width: 100%; min-width: 0; padding: 0;
+      font-family: var(--font-serif); font-weight: 300; font-size: clamp(2rem, 3.6vw, 2.5rem); line-height: 1.1; color: var(--navy);
+    }
+    .ew-iv-budget__val:focus-within { border-bottom-color: var(--navy); }
+    .ew-iv-scale { display: flex; justify-content: space-between; font-family: var(--font-sans); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--slate); }
+
+    /* Hub — results */
+    .ew-iv-results { margin-top: clamp(48px, 6vw, 72px); }
+    .ew-iv-results__head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px 24px; flex-wrap: wrap; border-bottom: 1px solid var(--border-on-light); padding-bottom: 14px; }
+    .ew-iv-results__head h3 { margin: 0; font-family: var(--font-serif); font-weight: 300; font-size: clamp(1.5rem, 2.6vw, 2rem); color: var(--navy); }
+    .ew-iv-results__head span { font-family: var(--font-sans); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--slate); }
+    .ew-iv-relax { display: flex; align-items: center; gap: 12px 20px; flex-wrap: wrap; margin-top: 20px; padding: 16px 20px; background: var(--butter); }
+    .ew-iv-relax p { margin: 0; font-family: var(--font-sans); font-weight: 300; font-size: 14.5px; line-height: 1.6; color: var(--navy); }
+    .ew-iv-relax .ew-iv-chip { border-color: var(--navy); color: var(--navy); }
+    .ew-iv-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; margin-top: 28px; }
+    @media (max-width: 1000px) { .ew-iv-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 640px) { .ew-iv-grid { grid-template-columns: 1fr; } }
+    .ew-iv-card { background: var(--white); display: flex; flex-direction: column; min-width: 0; }
+    .ew-iv-card--lead { box-shadow: 0 0 0 1.5px var(--navy); }
+    .ew-iv-card__media { position: relative; display: block; aspect-ratio: 4 / 3; overflow: hidden; background: var(--mist); }
+    .ew-iv-card__media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform 900ms var(--ease-out); }
+    .ew-iv-card__media:hover img { transform: scale(1.03); }
+    .ew-iv-card__flag { position: absolute; left: 14px; top: 14px; z-index: 2; background: var(--butter); color: var(--navy); padding: 6px 12px; font-family: var(--font-sans); font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; }
+    .ew-iv-card__body { padding: 20px 22px 24px; display: flex; flex-direction: column; flex: 1; }
+    .ew-iv-card__loc { font-family: var(--font-sans); font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--slate); }
+    .ew-iv-card__title { margin: 8px 0 0; font-family: var(--font-serif); font-weight: 300; font-size: 21px; line-height: 1.2; }
+    .ew-iv-card__title a { color: var(--navy); text-decoration: none; }
+    .ew-iv-card__price { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; font-family: var(--font-serif); font-size: 20px; color: var(--charcoal); }
+    .ew-iv-badges { flex: none; display: flex; gap: 6px; }
+    .ew-iv-badge { font-family: var(--font-sans); font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; border-radius: 999px; padding: 5px 10px; text-decoration: none; border: 1px solid transparent; }
+    .ew-iv-badge--freehold { background: var(--navy); color: var(--white); border-color: var(--navy); }
+    .ew-iv-badge--leasehold { background: var(--butter); color: var(--navy); border-color: var(--butter); }
+    .ew-iv-badge:hover { opacity: 0.85; }
+    .ew-iv-card__why { margin: 14px 0 0; padding: 12px 14px; background: var(--paper); font-family: var(--font-serif); font-style: italic; font-weight: 300; font-size: 15px; line-height: 1.45; color: var(--navy); }
+    .ew-iv-card__rows { margin: 14px 0 0; }
+    .ew-iv-card__rows > div { display: flex; justify-content: space-between; gap: 16px; padding: 9px 0; border-top: 1px solid var(--border-subtle); }
+    .ew-iv-card__rows dt { flex: none; font-family: var(--font-sans); font-size: 10.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--slate); padding-top: 2px; }
+    .ew-iv-card__rows dd { margin: 0; text-align: right; font-family: var(--font-sans); font-weight: 300; font-size: 13.5px; line-height: 1.45; color: var(--charcoal); }
+    .ew-iv-muted { color: var(--slate); }
+    .ew-iv-card__more { margin-top: auto; padding-top: 18px; font-family: var(--font-sans); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--navy); text-decoration: none; }
+    .ew-iv-stretch { margin-top: 36px; padding: 22px 24px; border: 1px dashed rgba(21,38,68,0.35); }
+    .ew-iv-stretch ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+    .ew-iv-stretch li { font-family: var(--font-sans); font-weight: 300; font-size: 14px; line-height: 1.6; color: var(--text-body); }
+    .ew-iv-stretch li a { color: var(--navy); }
+    .ew-iv-stretch li .ew-iv-link { margin: 0 0 0 12px; }
+    .ew-iv-cta { display: flex; align-items: center; gap: 14px 18px; flex-wrap: wrap; margin-top: 36px; }
+    .ew-iv-btn {
+      display: inline-flex; align-items: center; justify-content: center; cursor: pointer; text-decoration: none;
+      font-family: var(--font-sans); font-weight: 400; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; line-height: 1;
+      padding: 1.15em 2.2em; border-radius: 999px; background: var(--navy); color: var(--white); border: 1.25px solid var(--navy);
+    }
+    .ew-iv-btn--ghost { background: transparent; color: var(--navy); }
+    .ew-iv-btn--ghost:hover { background: var(--navy); color: var(--white); }
+    .ew-iv-cta .ew-iv-link { margin-top: 0; }
+    .ew-iv-form { width: 100%; background: var(--white); padding: clamp(24px, 3vw, 34px); }
+    .ew-iv-form__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+    @media (max-width: 640px) { .ew-iv-form__grid { grid-template-columns: 1fr; } }
+    .ew-iv-form input:not([type="checkbox"]), .ew-iv-form select {
+      width: 100%; box-sizing: border-box; background: transparent; border: none; border-bottom: 1px solid var(--border-on-light);
+      border-radius: 0; padding: 11px 0; font-family: var(--font-sans); font-weight: 300; font-size: 15px; color: var(--charcoal); outline: none;
+    }
+    .ew-iv-form input:focus, .ew-iv-form select:focus { border-bottom-color: var(--navy); }
+    .ew-iv-consent { display: flex; align-items: flex-start; gap: 10px; margin-top: 22px; font-family: var(--font-sans); font-weight: 300; font-size: 13px; line-height: 1.6; color: var(--text-body); }
+    .ew-iv-consent input { margin-top: 4px; accent-color: var(--navy); }
+    .ew-iv-consent a { color: var(--navy); }
+    .ew-iv-sent { width: 100%; background: var(--white); padding: clamp(24px, 3vw, 34px); }
+    .ew-iv-sent p { margin: 10px 0 0; max-width: 620px; font-family: var(--font-sans); font-weight: 300; font-size: 14.5px; line-height: 1.7; color: var(--text-body); }
+    .ew-iv-sent .ew-iv-sent__t { margin: 0; font-family: var(--font-serif); font-size: 24px; color: var(--navy); }
+    .ew-iv-sent .ew-iv-cta { margin-top: 20px; }
+    .ew-iv-error { margin: 18px 0 0; font-family: var(--font-sans); font-weight: 300; font-size: 13.5px; line-height: 1.6; color: #a3361f; }
+    .ew-iv-error a { color: #a3361f; }
+    .ew-iv-btn[disabled] { opacity: 0.6; cursor: wait; }
+    .ew-iv-fine { margin: 32px 0 0; max-width: 820px; font-family: var(--font-sans); font-weight: 300; font-size: 12px; line-height: 1.7; color: var(--slate); }
+  </style>
+</Base>

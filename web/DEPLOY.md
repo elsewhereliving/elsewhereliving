@@ -107,6 +107,20 @@ The "Be the first to know" form on `/development/` saves each sign-up as a row i
 
 ---
 
+## Part 5 — Investor shortlist leads (~5 min, once)
+
+The "Email me this shortlist" form on `/invest/` saves each lead as a row in its own Google Sheet: name, email, WhatsApp, country of residence, budget, purpose, strategy, filters, the shortlist they saw (with links) and the Instagram/TikTok/YouTube source from the link. You then reply to them by email. Until this is set up, the form says "that didn't go through" and offers WhatsApp instead, so no lead is lost.
+
+1. **Make the Sheet.** At sheets.google.com create a blank sheet, for example "Investor shortlist leads". Leave it empty: the headers are added with the first lead.
+2. **Add the script.** In the Sheet → **Extensions → Apps Script**. Delete what's in the editor, paste in the whole of `web/google-apps-script/invest-lead.gs`, and click **Save**.
+3. **Deploy it.** **Deploy → New deployment** → gear icon → **Web app** → **Execute as:** Me, **Who has access:** Anyone → **Deploy**, allow the permissions, and **copy the Web app URL** (ends in `/exec`).
+4. **Give the URL to Cloudflare.** Cloudflare Pages → your project → **Settings → Variables and Secrets** → **Add** (Production): **Name** `INVEST_LEAD_SHEET_URL`, **Value** the `/exec` URL, **Encrypt**.
+5. **Redeploy**, then send yourself a shortlist from `/invest/` and check the row appears.
+
+> Tip: in the Sheet, **Tools → Notification settings → Notify me… → Any changes are made → Email – right away** sends you an email for every new lead.
+
+---
+
 ## Good to know
 
 - **You publish when you push.** Saving in `/admin` writes files to your repo folder; review them in GitHub Desktop and push, then Cloudflare rebuilds + republishes within a couple of minutes.

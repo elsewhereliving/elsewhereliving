@@ -35,7 +35,8 @@
   "type": "Villa",
   "view": [
     "Sea View",
-    "Beachside"
+    "Beachside",
+    "Garden / Pool View"
   ],
   "status": "Off-Plan",
   "beds": 3,
@@ -48,7 +49,8 @@
   "priceOriginalNum": 8200000,
   "priceCurrency": "THB",
   "priceFrom": true,
-  "yield": "11–13% net",
+  "yield": "11–13% net · or 8% guaranteed with the developer's management programme",
+  "highlight": "8% guaranteed with the developer's management programme — or 11–13% net projected, a 3-minute walk from a beach club.",
   "added": 86,
   "created": 1782837705000,
   "video": "",

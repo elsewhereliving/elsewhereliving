@@ -240,6 +240,7 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
             <PriceEditor isRental={isRental} rec={rec} set={set} />
             {isRental && <TextField label="Rate note" value={rec.note} onChange={(v) => set({ note: v })} placeholder="Fully staffed · private chef available" />}
             {!isRental && <TextField label="Yield / ROI" value={rec.yield} onChange={(v) => set({ yield: v })} hint="optional — shows beside the price on the card; use · to split lines" placeholder="10% ROI guaranteed · first 5 years" />}
+            {!isRental && <TextField label="Investment highlight" value={rec.highlight} onChange={(v) => set({ highlight: v })} hint="optional — one line on the property page and the /invest/ card; facts true at the starting price" placeholder="One of only nine resort-run villas — 10% guaranteed for the first five years." />}
           </FormSection>
 
           <FormSection eyebrow="The story">

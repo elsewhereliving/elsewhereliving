@@ -26,7 +26,8 @@
   "title": "Anava Samui — Beachfront Condominium, Bang Rak",
   "type": "Condominium",
   "view": [
-    "Sea View"
+    "Sea View",
+    "Garden / Pool View"
   ],
   "status": "Off-Plan",
   "beds": 3,
@@ -36,6 +37,7 @@
   "plot": null,
   "year": "2027",
   "ownership": "Freehold or Leasehold",
+  "highlight": "The largest condo development on Koh Samui — a 1-minute walk to the beach.",
   "priceOriginalNum": 2990000,
   "priceCurrency": "THB",
   "priceFrom": true,

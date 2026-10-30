@@ -46,6 +46,9 @@ export interface Listing {
   created?: number;
   ownership?: string;
   yield?: string;
+  /** One-line investment summary — the "why it fits" line on /invest/ and a
+   *  highlight on the property page. Facts that hold at the "from" price. */
+  highlight?: string;
   video?: string;
   /** Off-market: reachable only by its direct URL. Left out of the public index,
    *  homepage, search, saved, related rows and the sitemap, and served noindex.

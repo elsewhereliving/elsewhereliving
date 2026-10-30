@@ -8,9 +8,9 @@ const NAV_LINKS: Array<{ key: string; href: string; label: string }> = [
   { key: "home", href: "/", label: "Home" },
   { key: "properties", href: "/properties/", label: "Properties" },
   { key: "rentals", href: "/rentals/", label: "Vacation Rentals" },
+  { key: "invest", href: "/invest/", label: "Invest" },
   { key: "custom", href: "/custom-homes/", label: "Custom Homes" },
   { key: "development", href: "/development/", label: "Development" },
-  { key: "buying-guide", href: "/buying-guide/", label: "Buying Guide" },
   { key: "about", href: "/about/", label: "About" },
 ];
 
