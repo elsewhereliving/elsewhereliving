@@ -65,7 +65,7 @@ for (const sub of SOURCES) {
 // downloads the file — the usual reason a freshly shared link has no photo.
 const OG_W = 1200, OG_H = 630;
 // Site-wide default plus page-specific share cards (already 1200×630, logo baked in).
-const covers = new Map([["/assets/imagery/og-image.jpg", ""], ["/assets/imagery/og-development.jpg", ""], ["/assets/imagery/og-invest.jpg", ""]]);
+const covers = new Map([["/assets/imagery/og-image.jpg", ""], ["/assets/imagery/og-development-centred.jpg", ""], ["/assets/imagery/og-invest.jpg", ""]]);
 for (const coll of ["listings", "rentals"]) {
   const dir = path.join(ROOT, "src", "content", coll);
   for (const name of (await readdir(dir).catch(() => [])).filter((n) => n.endsWith(".json"))) {

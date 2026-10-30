@@ -29,7 +29,7 @@ const BEDS = [0, 1, 2, 3];
 const STRATEGIES: { k: Strategy; l: string; n: string }[] = [
   { k: "yield", l: "Highest yield", n: "Ranked by projected or guaranteed return" },
   { k: "growth", l: "Capital growth", n: "Freehold first, then earliest completion" },
-  { k: "guaranteed", l: "Guaranteed income", n: "Guaranteed rental returns first" },
+  { k: "guaranteed", l: "Guaranteed income", n: "Only projects with a guaranteed return, highest first" },
   { k: "soonest", l: "Soonest completion", n: "Earliest handover first — projects without a date go last" },
 ];
 
@@ -45,6 +45,7 @@ interface Filters {
   beds: number[];
   freeholdOnly: boolean;
   completion: Completion;
+  strategy: Strategy;
 }
 
 const passesCompletion = (u: HubUnit, c: Completion) =>
@@ -55,6 +56,8 @@ function passes(u: HubUnit, f: Filters, skip: Partial<Record<keyof Filters, true
   if (!skip.beds && f.beds.length && !f.beds.some((b) => b >= u.bedsMin && b <= u.bedsMax)) return false;
   if (!skip.freeholdOnly && f.freeholdOnly && !u.freehold) return false;
   if (!skip.completion && !passesCompletion(u, f.completion)) return false;
+  // "Guaranteed income" is a filter as well as a ranking: only projects that offer one.
+  if (f.strategy === "guaranteed" && !u.roi?.guaranteed) return false;
   return true;
 }
 
@@ -170,7 +173,7 @@ function UnitCard({ u, why, budget, lead, strategy }: { u: HubUnit; why: string;
     ["Size", u.interior ? `${u.sizeMin && u.interior.includes("–") ? "from " + u.sizeMin + " m²" : u.interior}` : "—"],
     ["View", u.views.length ? u.views.join(" · ") : "—"],
     ["Est. return", u.roi
-      ? <>{u.roi.projected && <span style={{ display: "block" }}>{u.roi.projected.text}</span>}{u.roi.guaranteed && <span style={{ display: "block" }}>{u.roi.projected ? "or " : ""}{u.roi.guaranteed.text}</span>}</>
+      ? <>{u.roi.projected && <span style={{ display: "block" }}>{u.roi.projected.text}</span>}{u.roi.guaranteed && <span style={{ display: "block" }}>{u.roi.projected && u.roi.guaranteed.note ? "or " : ""}{u.roi.guaranteed.text}</span>}</>
       : <span className="ew-iv-muted">On request</span>],
     ["Completion", u.completion || <span className="ew-iv-muted">To be confirmed</span>],
   ];
@@ -240,7 +243,7 @@ export default function InvestHub({ units, countries, email, whatsapp }: Props) 
   };
   const toggle = <T,>(arr: T[], v: T) => (arr.includes(v) ? arr.filter((x) => x !== v) : [...arr, v]);
 
-  const f: Filters = { budget, purpose, markets, beds, freeholdOnly, completion };
+  const f: Filters = { budget, purpose, markets, beds, freeholdOnly, completion, strategy };
   const ranked = useMemo(() => rank(units.filter((u) => passes(u, f) && inBudget(u, budget)), strategy), [units, budget, purpose, markets, beds, freeholdOnly, completion, strategy]);
 
   // Zero matches → the nearest three and the one change that brings them in.
@@ -271,7 +274,7 @@ export default function InvestHub({ units, countries, email, whatsapp }: Props) 
   const why = useMemo(() => reasons(shown), [shown]);
   const stretch = useMemo(
     () => units.filter((u) => passes(u, f) && !inBudget(u, budget)).sort((a, b) => a.priceNum - b.priceNum).slice(0, 2),
-    [units, budget, purpose, markets, beds, freeholdOnly, completion],
+    [units, budget, purpose, markets, beds, freeholdOnly, completion, strategy],
   );
 
   const waDigits = whatsapp.replace(/[^0-9]/g, "");
