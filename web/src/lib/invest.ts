@@ -87,6 +87,9 @@ export interface HubUnit {
   /** The listing's `highlight` — its "why it fits" line, used ahead of the
    *  generated ones. Shown on the property page too. */
   highlight?: string;
+  /** Units still for sale, and the project's total, when the listing states them. */
+  unitsLeft: number | null;
+  unitsTotal: number | null;
 }
 
 
@@ -183,6 +186,8 @@ export function toHubUnit(l: Listing): HubUnit {
     completionKey: cy ? Number(cy[0]) + (completion!.match(/Q([1-4])/i) ? Number(completion!.match(/Q([1-4])/i)![1]) / 4 : 1) : null,
     roi: parseRoi(l.yield),
     highlight: l.highlight || undefined,
+    unitsLeft: typeof l.unitsLeft === "number" ? l.unitsLeft : null,
+    unitsTotal: typeof l.unitsTotal === "number" ? l.unitsTotal : null,
   };
 }
 

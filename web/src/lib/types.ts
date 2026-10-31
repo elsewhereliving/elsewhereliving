@@ -49,6 +49,10 @@ export interface Listing {
   /** One-line investment summary — the "why it fits" line on /invest/ and a
    *  highlight on the property page. Facts that hold at the "from" price. */
   highlight?: string;
+  /** Units still for sale in the project, and how many it has in all — the
+   *  Availability row on /invest/. Update as units sell. */
+  unitsLeft?: number;
+  unitsTotal?: number;
   video?: string;
   /** Off-market: reachable only by its direct URL. Left out of the public index,
    *  homepage, search, saved, related rows and the sitemap, and served noindex.

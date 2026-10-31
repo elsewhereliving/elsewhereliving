@@ -241,6 +241,8 @@ export default function Editor({ collection, id, onClose, onSaved }: { collectio
             {isRental && <TextField label="Rate note" value={rec.note} onChange={(v) => set({ note: v })} placeholder="Fully staffed · private chef available" />}
             {!isRental && <TextField label="Yield / ROI" value={rec.yield} onChange={(v) => set({ yield: v })} hint="optional — shows beside the price on the card; use · to split lines" placeholder="10% ROI guaranteed · first 5 years" />}
             {!isRental && <TextField label="Investment highlight" value={rec.highlight} onChange={(v) => set({ highlight: v })} hint="optional — one line on the property page and the /invest/ card; facts true at the starting price" placeholder="One of only nine resort-run villas — 10% guaranteed for the first five years." />}
+            {!isRental && <NumberField label="Units left" value={rec.unitsLeft ?? ""} onChange={(v) => set({ unitsLeft: v === "" ? undefined : v } as Partial<Rec>)} hint="optional — projects with several units; shows as Availability on /invest/" />}
+            {!isRental && <NumberField label="Units in total" value={rec.unitsTotal ?? ""} onChange={(v) => set({ unitsTotal: v === "" ? undefined : v } as Partial<Rec>)} hint="optional — shows as “2 of 6 units left”" />}
           </FormSection>
 
           <FormSection eyebrow="The story">

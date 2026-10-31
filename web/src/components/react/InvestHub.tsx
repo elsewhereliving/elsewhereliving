@@ -177,12 +177,14 @@ function UnitCard({ u, why, budget, lead, strategy }: { u: HubUnit; why: string;
       : <span className="ew-iv-muted">On request</span>],
     ["Completion", u.completion || <span className="ew-iv-muted">To be confirmed</span>],
   ];
+  if (u.unitsLeft != null) rows.push(["Availability", u.unitsLeft === 0 ? "Sold out" : `${u.unitsLeft}${u.unitsTotal ? ` of ${u.unitsTotal}` : ""} unit${u.unitsLeft === 1 && !u.unitsTotal ? "" : "s"} left`]);
   if (left < 0) rows.push(["Stretch", `${Math.round((-left / budget) * 100)}% over budget`]);
   return (
     <article className={"ew-iv-card" + (lead ? " ew-iv-card--lead" : "")}>
       <a href={u.href} className="ew-iv-card__media ew-grain" aria-label={u.title}>
         <img src={u.image} alt="" loading="lazy" decoding="async" style={{ objectPosition: u.imageFocal || "center" }} />
         {lead && <span className="ew-iv-card__flag">Best match · {STRATEGIES.find((s) => s.k === strategy)!.l}</span>}
+        {u.unitsLeft != null && u.unitsLeft > 0 && u.unitsLeft <= 3 && <span className="ew-iv-card__scarce">Only {u.unitsLeft} left</span>}
       </a>
       <div className="ew-iv-card__body">
         <div className="ew-iv-card__loc">{u.area} · {u.market} · {u.country}</div>
