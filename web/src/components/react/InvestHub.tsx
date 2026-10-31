@@ -262,7 +262,7 @@ export default function InvestHub({ units, countries, email, whatsapp }: Props) 
     }
     relax.push(
       { k: "completion", hint: "Widen the completion date to see what fits.", cta: "Any completion", run: () => setCompletion("any") },
-      { k: "freeholdOnly", hint: "Allow leasehold — most villas for foreign buyers are leasehold.", cta: "Allow leasehold", run: () => setFreeholdOnly(false) },
+      { k: "freeholdOnly", hint: "Allow leasehold — freehold is Thai condos only; villas are leasehold for foreign buyers.", cta: "Allow leasehold", run: () => setFreeholdOnly(false) },
       { k: "beds", hint: "Open up the bedroom count to see what fits.", cta: "Any bedrooms", run: () => setBeds([]) },
     );
     for (const r of relax) {

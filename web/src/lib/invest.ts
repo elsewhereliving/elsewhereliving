@@ -146,7 +146,13 @@ function parseBeds(l: Listing): { min: number; max: number; text: string } {
 export function toHubUnit(l: Listing): HubUnit {
   const country = (l.location || "").split(" · ").pop() || "";
   const kind = l.type === "Villa" ? "villa" : "condo";
-  const tenure = (["Freehold", "Leasehold"] as Tenure[]).filter((t) => (l.ownership || "").includes(t));
+  // The hub speaks to foreign buyers, and the only freehold a foreigner can hold
+  // here is a Thai condo unit (within the foreign quota). A villa listed
+  // "Freehold" is held through a Thai company or by a Thai buyer — for an
+  // overseas investor it is leasehold, as the ownership guide on the page says.
+  const foreignFreehold = kind === "condo" && country === "Thailand";
+  const listed = (["Freehold", "Leasehold"] as Tenure[]).filter((t) => (l.ownership || "").includes(t));
+  const tenure: Tenure[] = foreignFreehold ? listed : ["Leasehold"];
   const beds = parseBeds(l);
   const size = (l.interior || "").match(/\d[\d,.]*/);
   const views = viewList(l.view);
